@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 152,
+  "source_count": 161,
   "records_count": 39,
   "sources": [
     {
@@ -542,115 +542,123 @@
     {
       "url": "https://nlnet.nl/NGI0/eu-dimension/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
-      "opportunity_ids": [
-        "NLNET-CODESUPPLY"
-      ],
-      "next_verification_date": null,
-      "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
-      ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
-      "source_roles": [
-        "governing_source_evidence"
-      ]
-    },
-    {
-      "url": "https://nlnet.nl/codesupply/",
-      "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
-      "opportunity_ids": [
-        "NLNET-CODESUPPLY"
-      ],
-      "next_verification_date": null,
-      "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
-      ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
-      "source_roles": [
-        "governing_source_evidence",
-        "program_endpoint"
-      ]
-    },
-    {
-      "url": "https://nlnet.nl/commonsfund/",
-      "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
-      "opportunity_ids": [
-        "NLNET-NGI0-COMMONS"
-      ],
-      "next_verification_date": null,
-      "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
-      ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
-      "source_roles": [
-        "governing_source_evidence",
-        "program_endpoint"
-      ]
-    },
-    {
-      "url": "https://nlnet.nl/foundation/policies/generativeAI/",
-      "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
-      "opportunity_ids": [
-        "NLNET-CODESUPPLY"
-      ],
-      "next_verification_date": null,
-      "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
-      ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
-      "source_roles": [
-        "governing_source_evidence"
-      ]
-    },
-    {
-      "url": "https://nlnet.nl/propose/",
-      "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
       "opportunity_ids": [
         "NLNET-CODESUPPLY",
         "NLNET-RESTACK"
       ],
       "next_verification_date": null,
       "triggers": [
-        "Monthly research review",
-        "Before an application, registration, agreement, activation or intake-status claim",
-        "Upon redirect, access error, closure, reopening or changed provider terms"
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Source checked; canonical NLnet research independently accepted",
       "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://nlnet.nl/codesupply/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://nlnet.nl/commonsfund/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-NGI0-COMMONS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY",
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://nlnet.nl/propose/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY",
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence",
         "application_endpoint"
       ]
     },
     {
       "url": "https://nlnet.nl/restack/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
       "opportunity_ids": [
         "NLNET-RESTACK"
       ],
       "next_verification_date": null,
       "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; canonical NLnet research independently accepted",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "last_attempted": "2026-10-19"
     },
     {
       "url": "https://openai.com/form/codex-for-oss/",
@@ -2851,6 +2859,180 @@
       "source_roles": [
         "related_program_application_endpoint"
       ]
+    },
+    {
+      "url": "https://nlnet.nl/codesupply/eligibility/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/codesupply/faq/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/codesupply/guideforapplicants/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY",
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/privacy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY",
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/restack/eligibility/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/restack/faq/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/restack/guideforapplicants/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "opportunity_ids": [
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Repository monthly program review",
+        "Before qualification, application, agreement, activation or public eligibility reliance",
+        "Upon changed call, deadline, policy, source access or applicant facts"
+      ],
+      "state": "Source checked; canonical NLnet research independently accepted",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual complete COMMENT readback accepts all eleven findings criteria at published revision 4a24cae8e1a405330c4419bfa8db5208147d653f; applicant and execution states remain separate",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY",
+        "NLNET-NGI0-COMMONS",
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed reviewed findings or canonical source",
+        "Before relying on research acceptance or qualification"
+      ],
+      "state": "Independent findings acceptance read back",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -2859,6 +3041,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 130,
-  "additional_unverified_endpoint_count": 22
+  "source_evidence_url_count": 140,
+  "additional_unverified_endpoint_count": 21
 }

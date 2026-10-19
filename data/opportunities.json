@@ -2257,49 +2257,125 @@
       "official_program_url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
       "official_application_url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Project eligibility rules stated; legal-entity form not established from source",
-      "available_before_incorporation": "Conditionally Eligible after project governance and licensing verification",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "legal_entity_requirements": "Unknown exact applicant form and jurisdiction. The accepted #11 ledger preserves unresolved entity/account/mandate facts; unread workbook may add requirements.",
+      "available_before_incorporation": "Unknown; absence of a stated nonprofit requirement is not admission of this particular community applicant",
+      "available_through_fiscal_sponsorship": "Unknown; actual host arrangement, account custody and provider admission are unverified",
+      "available_after_501c3_recognition": "Unknown; recognition is unverified and would not establish the separate project requirements",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "OSI-approved project license",
         "Active maintenance and meaningful community",
         "Project not dominated by a single vendor and not venture-capital funded"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Requests invited per official page; current workbook access unverified",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "application_gate": "Hold application: unread current workbook, unresolved applicant/community/independence/account authority, exact incremental workload quantities and publication/operating terms. The accepted #19 needs baseline is consumed; research and GitHub review authority remain separate.",
+      "application_status": "Requests invited in the official 2025 statement; current workbook contents and end-to-end submission unverified",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
       "benefit_amount_or_capacity": "Discretionary AWS promotional credits; amount and term Unknown",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Canonical AWS note maps independent exports and a recovery rehearsal to accepted hosting requirements. Price accepted quantities by service/unit/region/term, subtract exclusions and include full operating/exit costs; actual AWS spend, requested amount and avoided cost remain null. Do not reuse the DigitalOcean allocation as an AWS quote.",
       "restrictions_and_obligations": [
-        "Services include compute, storage, databases, development and testing; exact credit exclusions and expiry need current award terms.",
-        "No credit issuance in December is an operating cadence, not an application deadline."
+        "Review the current AWS credit, account and privacy conditions in the canonical note against the exact applicant, workload and offer.",
+        "Resolve public validation/benchmark and sponsor-disclosure permissions before acceptance; preserve unfavorable findings and project independence.",
+        "No OSS expiry, renewal, award amount, currency or complete eligible-product list was established. Separate named AWS programs are not substituted.",
+        "The existing historical December issuance observation is cadence, not an application deadline."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential CI, storage and reproducible testing infrastructure after actual costs are established.",
+      "program_objectives": "See the official program statement and the bounded source summary in the canonical note; no support likelihood inferred.",
+      "fit_with_pick_your_ai": "Proposed independent encrypted exports and isolated recovery rehearsal for the existing leaderboard contract. Current production selection remains DigitalOcean; this is not provisioned AWS capacity or an implementation change.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Use accepted #19 needs N01/N03 and deduplication rules; obtain exact incremental quantities and operator inputs through the existing budget/demand/technical owners before pricing",
+        "Verify actual applicant, account holder, custodian, representative and agreement authority using the accepted #11 Unknown ledger",
+        "Establish project licensing, meaningful community, funding and governance evidence",
+        "Obtain the current workbook and determine the exact permitted public-output/neutrality, privacy, operating and exit terms"
       ],
       "native_dependency_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19"
       ],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Published-source interpretation and explicit gaps only; no complete form inspection, qualified applicant, measured AWS workload or actual value established.",
       "sources": [
         {
           "url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Published 2025-03-31; official program statement read, not a new 2026 announcement or applicant decision"
+        },
+        {
+          "url": "https://aws.amazon.com/awscredits/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Promotional Credit Terms dated 2026-09-24; current general credit conditions, not an actual OSS award"
+        },
+        {
+          "url": "https://aws.amazon.com/agreement/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Customer Agreement dated 2026-08-14; account, authority, content and exit terms at the stated scope"
+        },
+        {
+          "url": "https://aws.amazon.com/privacy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Privacy Notice dated 2026-05-18; account/application information, not unread workbook-specific notices"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Credit details and sharing documentation; no account or console observation"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Documented budget notifications and delay; no configured account controls"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Estimation method and limitations; no configured estimate, service quote or bill"
+        },
+        {
+          "url": "https://opensource.org/license/mit",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "OSI approval of MIT only, not a complete project rights audit"
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2bba83484de3e70453cd9886e69e06f4fcec9120/docs/nonprofit/entity-baseline.md",
+          "source_kind": "project_primary",
+          "last_verified": "2026-10-19",
+          "review_scope": "Accepted #11 ledger read at unchanged blob bc94842d227e3924f364d6832c383c396eefbd7b; no new private-evidence/legal audit"
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/73715b4850fc0df4a2afbdd877ad2b2644f1d769/docs/hosting-architecture.md",
+          "source_kind": "project_primary",
+          "last_verified": "2026-10-19",
+          "review_scope": "Exact accepted engineering plan and recovery need; no refresh of vendor price quotations or deployed-host claim"
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+          "source_kind": "project_primary",
+          "last_verified": "2026-10-19",
+          "review_scope": "Live issue: reviewed planning and still-open actual-host/operator acceptance"
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+          "source_kind": "project_primary",
+          "last_verified": "2026-10-19",
+          "review_scope": "Native prerequisite independently accepted in review5571462106, acceptance-link review5571568995 and signed delivery2c06977b on2026-10-19; its factual Unknowns remain explicit."
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md",
+          "source_kind": "project_primary",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete accepted operating-needs ledger44398ab2 at signed2c06977b; N01/N03 and five deduplication rules consumed, actual amounts and demand remain Unknown."
         }
       ],
       "scoring": {
@@ -2312,12 +2388,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Linked application XLSX returned 403 in this review; monthly review documented, but do not claim submission path tested end-to-end. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2: concrete recovery need but applicant, workbook, exact incremental quantities, value and publication/operating conditions remain unresolved. All eight ratings and total stay null; the program cadence is not an urgent deadline."
       },
       "priority": "P2",
-      "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Verify current workbook and record project independence and workload evidence.",
+      "assigned_owner": "Session c3fa0109d6ff / leaderboard_soak (bounded research only)",
+      "independent_reviewer": "ChatGPT in-session /root/apple_completion, independent from the authoring Leaderboard lane; findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Resolve the current workbook, project independence, account authority, exact incremental quantities and publication/operating conditions before any application; research findings are independently accepted.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -2333,40 +2409,73 @@
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "AWS",
+          "AWS Open Source Credits",
           "Cloud Credits for Open Source"
         ],
         "canonical_match": "AWS-OSS-CREDITS",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Unique current register plus org-wide issue searches (12 broad matches; four per exact program alias) and open AWS PR search (zero); #7/#9 are epics and #64 is distinct OSPO work. No hidden-work absence inferred."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session /root/apple_completion, independent from the authoring Leaderboard lane; findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "280ca8fbe8d1faac09c61e38064c0323b82f86c1",
+        "reviewed_tree": "56d353cb0cb03c836b994a954c84e9b358f03a87",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080",
+        "reviewed_at": "2026-10-19T12:53:17Z",
+        "decision": "Accepted all 13 literal research criteria; retain P2 and hold application pending actual applicant, workbook, workload, account and offer evidence.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Source reading and local consistency do not establish applicant qualification or organizational/legal authority.",
+          "Accepted #19 baseline is delivered; its actual expenditure, resource quantities and administrative Unknowns remain preserved rather than treated as new research-completion gates.",
+          "Current workbook contents and actual AWS account, demand, quote and public-output permissions remain unverified.",
+          "Technical COMMENT records an independently performed project-session findings review, not a separate-account GitHub APPROVED vote or legal, financial or provider authorization."
         ]
       },
       "owning_research_key": "E06-01",
       "source_urls": [
-        "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/"
+        "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
+        "https://aws.amazon.com/awscredits/",
+        "https://aws.amazon.com/agreement/",
+        "https://aws.amazon.com/privacy/",
+        "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html",
+        "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+        "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+        "https://opensource.org/license/mit",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2bba83484de3e70453cd9886e69e06f4fcec9120/docs/nonprofit/entity-baseline.md",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/73715b4850fc0df4a2afbdd877ad2b2644f1d769/docs/hosting-architecture.md",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md"
       ],
       "source_evidence": [
         "Official 31 March 2025 update invites applications. Requires OSI-approved license, active maintenance/community, and no single-vendor dominance or VC funding.",
-        "Reviews and issues credits monthly; December issuance paused. Linked XLSX failed with 403 on retrieval."
+        "Reviews and issues credits monthly; December issuance paused. Linked XLSX failed with 403 on retrieval.",
+        "Session c3fa0109d6ff rechecked current governing sources and prepared the canonical note; unread workbook and required #19 input remain explicit. Original seed observations above are preserved as historical evidence.",
+        "Later 2026-10-19 carry consumed accepted #19 at signed2c06977b, complete ledger44398ab2 and independent reviews5571462106/5571568995. Earlier preparation above remains historical; no actual quantity, AWS charge or applicant authority was created.",
+        "Independent findings review5571815080 on2026-10-19 accepted all13 research criteria at280ca8f/56d353cb; actual applicant, quantity, value, application and award states remain unchanged."
       ],
       "benefit": "Discretionary AWS promotional credits; amount and term Unknown",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "estimated_usable_value_method": "Canonical AWS note maps independent exports and a recovery rehearsal to accepted hosting requirements. Price accepted quantities by service/unit/region/term, subtract exclusions and include full operating/exit costs; actual AWS spend, requested amount and avoided cost remain null. Do not reuse the DigitalOcean allocation as an AWS quote.",
+      "source_freshness": "Program and governing/readiness sources inspected 2026-10-19. Author attempts returned an internal access error without bytes/status; the independent reviewer later observed explicit HTTP403 without bytes at approximately12:30UTC. Historical seed403 remains separately recorded.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Linked application XLSX returned 403 in this review; monthly review documented, but do not claim submission path tested end-to-end.",
+      "scoring_justification": "P2: concrete recovery need but applicant, workbook, exact incremental quantities, value and publication/operating conditions remain unresolved. All eight ratings and total stay null; the program cadence is not an urgent deadline.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "application_url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
       "source_refs": [
-        "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/"
+        "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
+        "https://aws.amazon.com/awscredits/",
+        "https://aws.amazon.com/agreement/",
+        "https://aws.amazon.com/privacy/",
+        "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html",
+        "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+        "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+        "https://opensource.org/license/mit",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2bba83484de3e70453cd9886e69e06f4fcec9120/docs/nonprofit/entity-baseline.md",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/73715b4850fc0df4a2afbdd877ad2b2644f1d769/docs/hosting-architecture.md",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md"
       ],
-      "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Linked application XLSX returned 403 in this review; monthly review documented, but do not claim submission path tested end-to-end.",
+      "score_reason": "P2: concrete recovery need but applicant, workbook, exact incremental quantities, value and publication/operating conditions remain unresolved. All eight ratings and total stay null; the program cadence is not an urgent deadline.",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -2383,28 +2492,82 @@
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Historical seed-source review remains separate. The complete canonical assessment and accepted #11/#19 carry received independent exact-source findings acceptance for all 13 research criteria; no applicant, account, award or provider action is inferred.",
+        "reviewed_revision": "280ca8fbe8d1faac09c61e38064c0323b82f86c1",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program and application-readiness findings independently accepted; actual applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Official page describes emailing its workbook to the program address. No message sent; actual form fields, submitter mandate and processing unverified.",
+      "current_disposition": "Research Done / Verified; retain P2 and hold application. Accepted #11/#19 baselines and all 13 research findings are consumed; actual applicant and action-specific evidence remains unresolved.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
-      "related_research_issue_urls": [],
+      "recommended_disposition": "P2 research; hold application and valuation until the explicit evidence and terms questions in the canonical note are resolved",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/103"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 51,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "research_note_path": "research/infrastructure/aws-open-source-credits.md",
+      "research_prepared_from": "015300e6834940d537c933de3490bb5d3a707cd8",
+      "research_scope": "Accepted available-source assessment and proposed workload-request method using the accepted #11/#19 evidence-and-Unknown baselines. All 13 literal research criteria are accepted in review5571815080 at280ca8f; normal reviewed delivery remains separate.",
+      "source_access_history": [
+        {
+          "date": "2026-10-19",
+          "scope": "Seed research before this session",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "HTTP 403 recorded; no workbook contents verified"
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Session c3fa0109d6ff link-follow and direct web open",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Tool internal access error; no workbook bytes or visible HTTP status; not a new observed 403"
+        },
+        {
+          "date": "2026-10-19",
+          "time_utc": "12:30 (approximately)",
+          "scope": "Independent Apple review lane, session c3fa0109d6ff",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Explicit HTTP 403 Forbidden; no workbook bytes or verified fields.",
+          "evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
+        }
+      ],
+      "workload_request": {
+        "status": "Proposed research input; not submitted, allocated, provisioned or priced",
+        "scope": "Independent encrypted exports and an isolated recovery rehearsal for the accepted leaderboard design",
+        "source_commit": "73715b4850fc0df4a2afbdd877ad2b2644f1d769",
+        "source_blob": "2eb429ca8c10a3327d74abf1c4b9d2d08c7f9d62",
+        "accepted_needs_revision": "2c06977bdb59ec1fdf687e3e177c12dcc8a62cce",
+        "requested_credit_amount": null,
+        "currency": null,
+        "actual_aws_spend": null,
+        "export_volume": null,
+        "retention": null,
+        "rehearsal_runtime_and_frequency": null,
+        "region_and_services": null,
+        "operating_owner": null,
+        "valuation_result": null,
+        "method": "Accept line quantities/units/period and service-specific dated quote; separate eligible charges, cash exposure and proven counterfactual avoided cost. Existing DigitalOcean planning figures are not AWS prices.",
+        "accepted_needs_blob": "44398ab243102510af5b58bc5fe760ef5497b397",
+        "accepted_needs_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/96#pullrequestreview-5571462106",
+        "accepted_need_ids": [
+          "N01",
+          "N03"
+        ]
+      },
+      "research_carried_to": "405f25178a2ef27396b284089114131f7b25d9f0"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -2433,7 +2596,7 @@
       "application_gate": "No external action authorized by this assessment. Require an actual applicant/operator, qualifying project evidence, current intake/offer, covered workload and payment/exit responsibility under the accepted commitment procedure.",
       "application_status": "Published invitation and public page configuration observed; complete rendered fields, declarations and submission are unverified. No deadline is published.",
       "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -2539,8 +2702,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Independently review the complete canonical assessment. Then reconcile actual applicant, public-artifact manifest, current form/offer, incremental usage, payment and exit responsibilities before any application or activation.",
+      "independent_reviewer": "ChatGPT in-session /root/apple_review, independent of the Research author; public technical COMMENT through the delegated project account",
+      "next_action": "Reconcile actual applicant, public-artifact manifest, current form/offer, incremental usage, payment and exit responsibilities before any application or activation; the scoped research findings are independently accepted.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -2563,12 +2726,17 @@
         "scope": "Fresh issue #52 and open-PR route checked; existing CLOUDFLARE-ALEXANDRIA record retained for both names. No second program or competing source route."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Full canonical assessment prepared; independent substantive findings acceptance pending",
+        "reviewer": "ChatGPT in-session /root/apple_review, independent of the Research author; public technical COMMENT through the delegated project account",
+        "reviewed_revision": "3f5775d45786735d494e5bfc4a28919b45f030c4",
+        "reviewed_tree": "9c0cde3c7a39093d3da6bfc9b1c2f3f6fca8f095",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688",
+        "reviewed_at": "2026-10-19T13:34:27Z",
+        "decision": "Accepted the complete scoped findings against all 13 literal research criteria. Retain P2 / Discovered and the actual applicant, account, award and valuation Unknowns; delivery is separate from this findings decision.",
         "limitations": [
-          "The earlier source-fact check remains historical. No applicant, account, award, contract acceptance, GitHub approval or provider execution is inferred."
+          "This independently performed project-session COMMENT is not a separate-account APPROVED vote or organizational/provider/legal authorization.",
+          "All three actual applicant routes, complete rendered intake, actual award, service activation and net usable value remain unverified.",
+          "Controlled quantities are synthetic. No application, account inspection, provider execution, paid purchase or hard cap on public traffic is supplied.",
+          "Historical source observations and actual validation runs retain their own dates and source identities."
         ]
       },
       "owning_research_key": "E06-02",
@@ -2631,7 +2799,7 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Canonical assessment prepared; independent full-findings acceptance pending",
+      "source_review_status": "Canonical Cloudflare findings independently accepted; actual applicant, account, award and usable value remain Unknown",
       "applicant_qualification_status": "Unknown",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": "The current Project Alexandria invitation and Marketo 3080 page configuration are observed. The old OSS URL redirects to the same program. Complete rendered form fields, attachments and declarations remain unverified.",

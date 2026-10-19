@@ -1,6 +1,6 @@
 # Cloudflare Project Alexandria: qualification and controlled proposal
 
-**Research status: In Review.** Public-source review date: 2026-10-19. Owning issue: [E06-02 #52](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52). Canonical opportunity: `CLOUDFLARE-ALEXANDRIA`; historical alias: Cloudflare OSS Sponsorship.
+**Research status: Done — scoped findings independently accepted.** Public-source review date: 2026-10-19. Owning issue: [E06-02 #52](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52). Canonical opportunity: `CLOUDFLARE-ALEXANDRIA`; historical alias: Cloudflare OSS Sponsorship.
 
 ## Recommended disposition
 
@@ -80,7 +80,7 @@ Before a real request, resolve custody, content/publication scope, tax/payment/p
 | 2: Application, benefit, obligations and deadline | Program/intake and rights sections; actual amount, offer, rendered fields and deadline Unknown. |
 | 3: Three routes without unsupported eligibility | Route table and accepted entity input. |
 | 4: Canonical memo/disposition/scoring/questions | P2/Discovered, null actual value/score, bounded proposal and unresolved packet. |
-| 5: Independent substantive acceptance | Pending actual review of this complete source, not inferred from validation. |
+| 5: Independent substantive acceptance | [Actual findings review 5572334688](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688) at `3f5775d4`, covering all thirteen criteria. |
 | 6: Required path/history/controlled activation proposal | This canonical file and five-stage procedure; no activation performed. |
 | 7: Sources/date/access/conflict/history | Source table, static-versus-rendered intake limit and agreement-scope distinction. |
 | 8: Program/intake/deadline or reasoned Unknown | Invitation/configuration observed; full rendered requirements and deadline unverified for stated reasons. |
@@ -88,7 +88,7 @@ Before a real request, resolve custody, content/publication scope, tax/payment/p
 | 10: Rights/privacy/renewal/overage/independence | Material conditions, offer-specific unknowns and proposed controls. |
 | 11: Concrete public benefit and defensible value/effort | N02/N07 use, finite synthetic denominator, free-alternative comparison and null valuation. |
 | 12: Canonical record/sources/disposition | Unique opportunity row, pipeline and freshness membership; no duplicate old-program record. |
-| 13: Link actual findings acceptance | Record after independent review, then normal current-main validation and delivery. |
+| 13: Link actual findings acceptance | The actual independent [findings receipt](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688) is recorded in the canonical opportunity and freshness rows. Normal delivery and issue readback remain separate. |
 
 ## Sources
 

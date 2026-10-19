@@ -1,0 +1,840 @@
+{
+  "schema_version": "sustainability-freshness/v1",
+  "status": "Draft register; no automation or assigned reviewer created",
+  "prepared_on": "2026-10-19",
+  "source_count": 55,
+  "records_count": 39,
+  "sources": [
+    {
+      "url": "https://nlnet.nl/restack/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NLNET-RESTACK"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://nlnet.nl/codesupply/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://nlnet.nl/NGI0/eu-dimension/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://nlnet.nl/commonsfund/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NLNET-NGI0-COMMONS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://github.com/open-source/github-secure-open-source-fund",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://sfconservancy.org/projects/apply/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SFC-MEMBERSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://sfconservancy.org/projects/services/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SFC-MEMBERSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.spi-inc.org/projects/associated-project-howto/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SPI-ASSOCIATED-PROJECT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.spi-inc.org/projects/services/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SPI-ASSOCIATED-PROJECT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.spi-inc.org/projects/relationship/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SPI-ASSOCIATED-PROJECT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://oscollective.org/about/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://opencollective.com/opensource/apply/intro",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/3215869",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.sovereign.tech/programs/fund",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SOVEREIGN-TECH-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://sloan.org/programs/digital-technology/open-source-in-science",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SLOAN-OSS-IN-SCIENCE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://sloan.org/grants/open-calls",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SLOAN-OSS-IN-SCIENCE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.spencer.org/grant_types/small-research-grant",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SPENCER-SMALL-EDUCATION"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://benevity.com/nonprofits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.cloudflare.com/lp/project-alexandria/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.cloudflare.com/lp/oss-sponsorship/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.coderabbit.ai/oss",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/toolbox/license_opensource/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/16544922728466-Is-JetBrains-AI-subscription-included-in-All-Products-Pack-or-dotUltimate",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://developer.apple.com/help/account/membership/fee-waivers/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.fastly.com/fast-forward",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "FASTLY-FAST-FORWARD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://openai.com/form/researcher-access-program/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://developers.openai.com/community/codex-for-oss",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OPENAI-CODEX-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://claude.com/contact-sales/claude-for-oss",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "ANTHROPIC-CLAUDE-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/nonprofits/azure",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/industry/nonprofit/microsoft-for-nonprofits/eligibility",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "AMD-DEVCLOUD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "NVIDIA-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://console.groq.com/docs/rate-limits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/support/rate-limits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://www.together.ai/research-credits-program-request",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "TOGETHER-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://fireworks.ai/startups",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "FIREWORKS-STARTUP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://developer.samsung.com/remote-test-lab",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/usage-quotas-pricing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://ostif.org/get-an-audit/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "OSTIF-SECURITY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://taprootfoundation.org/nonprofits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "TAPROOT-PROBONO"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://softwarefreedom.org/services/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "SFLC-LEGAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    },
+    {
+      "url": "https://summerofcode.withgoogle.com/how-it-works",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published facts recorded for linked opportunities",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; application and applicant conditions may remain Unknown"
+    }
+  ],
+  "rules": [
+    "Preserve source event, publication, access and analysis dates separately.",
+    "A changed program or redirect triggers requalification; historical facts stay historical.",
+    "Current known deadlines never establish a next internal due date.",
+    "Monthly review describes the operating procedure; no schedule has been installed."
+  ]
+}

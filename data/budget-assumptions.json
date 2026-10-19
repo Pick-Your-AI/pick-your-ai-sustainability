@@ -1,0 +1,78 @@
+{
+  "schema_version": "sustainability-budget-assumptions/v1",
+  "status": "Draft; not an adopted budget or verified actual spend",
+  "prepared_on": "2026-10-19",
+  "owning_research_keys": [
+    "E02-01",
+    "E02-02",
+    "E02-03"
+  ],
+  "owning_research_issue_urls": [
+    "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+    "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+    "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21"
+  ],
+  "currency": "USD",
+  "existing_source_estimates": [
+    {
+      "id": "leaderboard-hosting-engineering-plan",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/main/docs/hosting-architecture.md",
+      "source_document_date": "2026-10-19",
+      "source_checked_on": "2026-10-19",
+      "scope": "Leaderboard hosting plan only",
+      "monthly_engineering_estimate": 112.7,
+      "monthly_engineering_ceiling": 200.0,
+      "annual_constant_scope_arithmetic": 1352.4,
+      "formula": "112.70 * 12",
+      "line_items": [
+        {
+          "description": "Two planned virtual machines",
+          "monthly_estimate": 48.0
+        },
+        {
+          "description": "Two planned databases",
+          "monthly_estimate": 30.3
+        },
+        {
+          "description": "Daily backup allocation",
+          "monthly_estimate": 14.4
+        },
+        {
+          "description": "Provisional independent export allocation",
+          "monthly_estimate": 20.0
+        }
+      ],
+      "adopted": false,
+      "actual_spend": null,
+      "live_provider_quote_verified": false,
+      "limitations": [
+        "A source document engineering estimate, not an account invoice or new provider quote.",
+        "The provisional export allocation and actual runtime/service scope need verification.",
+        "Do not treat this limited estimate as the complete organization budget or an approved funding request."
+      ]
+    }
+  ],
+  "organization_budget": {
+    "actual_monthly_spend": null,
+    "adopted_monthly_budget": null,
+    "cash_balance": null,
+    "restricted_funds": null,
+    "confirmed_income": null,
+    "awarded_credits": null,
+    "realized_support": null
+  },
+  "unpriced_needs": [
+    "Reproducible inference and evaluation workloads",
+    "Apple/Android physical device access",
+    "Quality, accessibility and security review",
+    "Legal formation, recurring filings and accounting",
+    "Contributor coordination and delivery",
+    "Contingency and renewal/overage exposure"
+  ],
+  "valuation_rules": [
+    "Distinguish actual spend, engineering estimate, live quote and provider headline benefit.",
+    "Net usable support is limited by actual need, covered services, fees, expiry, constraints and maintenance/delivery burden.",
+    "Record unknown facts as null, not zero.",
+    "Do not sum cash, credits and volunteer hours without an explicit comparable valuation method."
+  ]
+}

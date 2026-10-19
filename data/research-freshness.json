@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 267,
-  "records_count": 43,
+  "source_count": 290,
+  "records_count": 46,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -1433,7 +1433,7 @@
     {
       "url": "https://www.fastly.com/fast-forward",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current Fast Forward audience, project criteria, discretionary services and linked intake read for E06-03; actual applicant/award and complete form remain Unknown.",
       "opportunity_ids": [
         "FASTLY-FAST-FORWARD"
       ],
@@ -5606,6 +5606,434 @@
           "successful_complete_form_or_contract_review": false
         }
       ]
+    },
+    {
+      "url": "https://www.fastly.com/press/press-releases/fastly-launches-fast-forward-initiative-to-support-open-source-and-internet",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Historical relaunch published 2022-11-09; preserve dated examples/knowledge-sharing separately from current award terms.",
+      "opportunity_ids": [
+        "FASTLY-FAST-FORWARD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://www.fastly.com/terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "FASTLY-FAST-FORWARD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.fastly.com/data-processing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "FASTLY-FAST-FORWARD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.fastly.com/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "2025-04-04 visitor policy read; adjacent statements conflict on Data Privacy Framework coverage. No verified coverage or service-data conclusion inferred.",
+      "opportunity_ids": [
+        "FASTLY-FAST-FORWARD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4HeH_zJZd6vNyX1wvd05vqEcTXz_llytfthgqYCnGOzYCPw/viewform?embedded=true&pli=1",
+      "last_verified": "2026-10-19",
+      "verification_scope": "First extraction failed; later public read recovered page 1 of 6 with required email and name/pronouns. No entry/Next/submission; later pages and complete intake Unknown.",
+      "opportunity_ids": [
+        "FASTLY-FAST-FORWARD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://www.digitalocean.com/open-source",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current OSS/community material read; no current credit/intake/amount/renewal terms found.",
+      "opportunity_ids": [
+        "DIGITALOCEAN-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://www.digitalocean.com/blog/10th-anniversary-hacktoberfest-recap",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Official retrospective published 2023-11-15 records historical OSS credit support; no current offer inferred.",
+      "opportunity_ids": [
+        "DIGITALOCEAN-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://www.digitalocean.com/open-source/credits-for-projects",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Historical intake redirects to https://www.digitalocean.com/; actual redirect verified, current OSS credit intake Not Verified. Not a provider-wide discontinuation claim.",
+      "opportunity_ids": [
+        "DIGITALOCEAN-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://www.netlify.com/open-source/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "NETLIFY-OPEN-SOURCE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.netlify.com/legal/open-source-policy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "NETLIFY-OPEN-SOURCE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.netlify.com/legal/self-serve-subscription-agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "NETLIFY-OPEN-SOURCE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.netlify.com/legal/terms-of-use/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "NETLIFY-OPEN-SOURCE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.netlify.com/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "NETLIFY-OPEN-SOURCE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://opensource-form.netlify.com/",
+      "last_verified": null,
+      "verification_scope": "2026-10-19T13:19:56Z HTTP 200 returned a 387-byte JavaScript shell, SHA-256 831d96533926bb61b452ef8047b08295ba7822cbeed46ce1ff30e9db21642871; no form fields. Complete current intake Not Verified.",
+      "opportunity_ids": [
+        "NETLIFY-OPEN-SOURCE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://buildkite.com/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://buildkite.com/platform/pipelines/public/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://buildkite.com/docs/platform/pricing-and-plans",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Entry plan named Personal, whereas current pricing/limits use Free; discrepancy retained, actual account/negotiated offer Unknown.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://buildkite.com/docs/platform/limits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://buildkite.com/about/legal/terms-of-service/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://buildkite.com/about/legal/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Scoped source facts read for research/infrastructure/additional-programs.md; actual applicant, offer and complete intake remain separate.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Source checked with explicit limitations; no applicant qualification or actual benefit inferred.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://buildkite.com/docs/platform/artifact-storage-and-transfer-billing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual byte-time/download model and self-storage responsibility read; worked 1-TB/10-TB figures are examples only, not OSS entitlements.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://buildkite.com/docs/platform/spend-alerts",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Monthly auto-renewing Pro scope and delayed estimates read; alerts do not cap spending or stop usage/charges.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_access_attempt": "2026-10-19"
+    },
+    {
+      "url": "https://buildkite.com/about/contact/",
+      "last_verified": null,
+      "verification_scope": "2026-10-19 public read exposed a verification challenge only; no challenge/contact action. Complete OSS intake Not Verified.",
+      "opportunity_ids": [
+        "BUILDKITE-OSS-PRICING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an application, registration, agreement, activation or intake-status claim",
+        "Upon redirect, access error, closure, reopening or changed provider terms"
+      ],
+      "state": "Observed history/access limitation preserved; complete current intake or affected claim remains explicitly Unknown.",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "last_access_attempt": "2026-10-19"
     }
   ],
   "rules": [
@@ -5614,6 +6042,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 239,
-  "additional_unverified_endpoint_count": 28
+  "source_evidence_url_count": 259,
+  "additional_unverified_endpoint_count": 31
 }

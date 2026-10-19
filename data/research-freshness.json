@@ -287,7 +287,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings acceptance pending; actual account/eligibility/execution remains Unknown",
+      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; actual account/eligibility/execution remains Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -417,7 +417,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings acceptance pending; actual account/eligibility/execution remains Unknown",
+      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; actual account/eligibility/execution remains Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -3046,7 +3046,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3063,7 +3063,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3080,7 +3080,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3097,7 +3097,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3114,7 +3114,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3131,7 +3131,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3148,7 +3148,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3165,7 +3165,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3182,7 +3182,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3199,7 +3199,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3216,7 +3216,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3233,7 +3233,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3250,7 +3250,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3267,7 +3267,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3284,7 +3284,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3301,7 +3301,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3318,7 +3318,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3335,7 +3335,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -3352,7 +3352,7 @@
         "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
         "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
       ],
-      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
       "source_roles": [
         "governing_source_evidence"
       ]

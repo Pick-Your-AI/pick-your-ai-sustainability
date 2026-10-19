@@ -679,9 +679,9 @@
     {
       "opportunity_id": "SAMSUNG-REMOTE-LAB",
       "program_name": "Remote Test Lab",
-      "source_review_status": "Current mobile lab findings prepared; independent complete findings acceptance pending",
+      "source_review_status": "Complete mobile lab findings accepted at source e896dc822a30150eca74cea21d3e733d7acf38a5 in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; normal main delivery and actual applicant/account/execution remain separate",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55",
-      "research_status": "In Review",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
       "disposition": "Not Pursuing for the current general Android artifact under the published Samsung-only application condition",
       "eligibility": "Unknown",
@@ -699,9 +699,9 @@
     {
       "opportunity_id": "FIREBASE-TEST-LAB",
       "program_name": "Test Lab no-cost testing allowance",
-      "source_review_status": "Current mobile lab findings prepared; independent complete findings acceptance pending",
+      "source_review_status": "Complete mobile lab findings accepted at source e896dc822a30150eca74cea21d3e733d7acf38a5 in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; normal main delivery and actual applicant/account/execution remain separate",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55",
-      "research_status": "In Review",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
       "disposition": "Conditional time-limited Test Lab qualification lead; DDP requires separately authorized billing and migrated test/data controls",
       "eligibility": "Unknown",

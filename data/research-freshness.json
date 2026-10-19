@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 255,
-  "records_count": 41,
+  "source_count": 267,
+  "records_count": 43,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -5293,6 +5293,319 @@
       ],
       "retrieved_at": "2026-10-19T11:30:54.920097+00:00",
       "content_sha256": "b32c02a2dfa393019b3f189791f0b57d9225e3ddb11708f8585749b35133558c"
+    },
+    {
+      "url": "https://apply.ycombinator.com/",
+      "last_verified": null,
+      "last_attempted": null,
+      "verification_scope": "Private application endpoint identified on public apply page; current form was not opened.",
+      "opportunity_ids": [
+        "YC-STANDARD-DEAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Not Verified for complete governing terms or private form",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Endpoint identified on an inspected public page; no request to this endpoint was made.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/faq",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "2026-02-20 FAQ: contributor payment depends on passing evaluation; a separate conditional organization stipend exists. This does not establish future-cycle acceptance or an actual PYA payee.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "2026-02-20 FAQ: contributor payment depends on passing evaluation; a separate conditional organization stipend exists. This does not establish future-cycle acceptance or an actual PYA payee.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/help/student-stipends",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "2026 contributor schedule, not a future-cycle deadline: evaluation-linked 45%/55% installments, residency/processor conditions. Country amount-table presence does not override FAQ eligibility exclusions.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "2026 contributor schedule, not a future-cycle deadline: evaluation-linked 45%/55% installments, residency/processor conditions. Country amount-table presence does not override FAQ eligibility exclusions.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Two-page July 2025 reporting PDF retrieved; much of page 1 text is garbled. No complete reporting-term review or actual award schedule established.",
+      "opportunity_ids": [
+        "SLOAN-OSS-IN-SCIENCE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Not Verified for complete governing terms or private form",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Two-page July 2025 reporting PDF retrieved; much of page 1 text is garbled. No complete reporting-term review or actual award schedule established.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://unblock.federalregister.gov/",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Observed access-request barrier only; the requested regulation text remains unread.",
+      "opportunity_ids": [
+        "SBA-7A-LOANS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Not Verified for complete governing terms or private form",
+      "source_roles": [
+        "related_policy_endpoint"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Observed access-request barrier only; the requested regulation text remains unread.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-13/section-120.110",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Attempt reached an access-request barrier; legal text not read and HTTP status not established.",
+      "opportunity_ids": [
+        "SBA-7A-LOANS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Not Verified for complete governing terms or private form",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Attempt reached an access-request barrier; legal text not read and HTTP status not established.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Original public request redirected to the borrower overview; not a separate offer.",
+      "opportunity_ids": [
+        "SBA-7A-LOANS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "formal_support_discovery_endpoint"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Original public request redirected to the borrower overview; not a separate offer.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false,
+          "final_url": "https://www.sba.gov/loans/7a-loans/"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sba.gov/loans/7a-loans/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public borrower overview; not an actual offer, credit decision or binding agreement.",
+      "opportunity_ids": [
+        "SBA-7A-LOANS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Complete public borrower overview; not an actual offer, credit decision or binding agreement.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.sba.gov/sba-lenders/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Partial general lender-resource context after a clicked link; not a complete borrower terms or selected contract review.",
+      "opportunity_ids": [
+        "SBA-7A-LOANS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Partial general lender-resource context after a clicked link; not a complete borrower terms or selected contract review.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.ycombinator.com/apply",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public Winter 2027 intake entry; private form unvisited and absolute deadline not promoted from an inferred year.",
+      "opportunity_ids": [
+        "YC-STANDARD-DEAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Complete public Winter 2027 intake entry; private form unvisited and absolute deadline not promoted from an inferred year.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.ycombinator.com/deal",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public standard-deal description; actual issuer, acceptance and instruments unestablished.",
+      "opportunity_ids": [
+        "YC-STANDARD-DEAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Complete public standard-deal description; actual issuer, acceptance and instruments unestablished.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.ycombinator.com/safe",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public future-equity explanation; actual selected form/side letter not qualified.",
+      "opportunity_ids": [
+        "YC-STANDARD-DEAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before relying on intake, payment, eligibility or actual contract terms",
+        "On changed provider terms, redirect, access failure, closure or reopening"
+      ],
+      "state": "Verified for the bounded public observation only",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "observations": [
+        {
+          "observed_on": "2026-10-19",
+          "scope": "Public future-equity explanation; actual selected form/side letter not qualified.",
+          "http_status": null,
+          "successful_complete_form_or_contract_review": false
+        }
+      ]
     }
   ],
   "rules": [
@@ -5301,6 +5614,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 229,
-  "additional_unverified_endpoint_count": 26
+  "source_evidence_url_count": 239,
+  "additional_unverified_endpoint_count": 28
 }

@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 179,
-  "records_count": 39,
+  "source_count": 202,
+  "records_count": 41,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -3377,6 +3377,448 @@
         "governing_source_evidence"
       ],
       "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current RHW overview; updated 2026-03-07; fee-based nonprofit hardware access.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://page.techsoup.org/refurbished-hardware-nonprofits",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current marketing/request path; product and environmental statements remain provider claims.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/360030995673-Providers-Policies-Nonprofit-Eligibility-Requirements-and-Restrictions",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-09-22; validation versus individual offer admission, geography and restrictions.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/360055217673-Terms-of-Use-Nonprofit-Offers-Acquired-Through-TechSoup",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-31; usual requesting-organization and nontransfer rules, including explicit exceptions.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47348125260443-Refurbished-Hardware-RHW-Shipping-Support",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-05; shipping/receiving and time-sensitive reporting guidance.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47348479344155-Refurbished-Hardware-RHW-Warranty-Support",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-05; public support summary read; linked full warranty separately inaccessible.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47357148148635-Refurbished-Hardware-RHW-Returns-and-Refunds",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-05; return/refund process, not an actual approved return.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47357282663195-End-of-Life-TakeBack-Program-for-Refurbished-Hardware-RHW",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-03; takeback summary read, complete linked scope separately inaccessible.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/refurbished-computers",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403; current catalog, SKU inventory, price, product eligibility and order fields not inspected.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403 on linked standard warranty; successful verification date remains null.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403 on linked takeback detail; covered products, geography, shipping and data handling unverified.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://page.techsoup.org/privacy?hsLang=en",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP404 on marketing landing privacy link; no policy contents recovered.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "related_policy_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/privacypolicy",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403 on canonical privacy URL; search excerpts not promoted to a full privacy review.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/get-computers/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current organizational equipment application lead; no actual recipient or award readback.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/faqs/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current fee/shipping and provider stock descriptions; actual unit condition/value unverified.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/terms-conditions/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Separate Website Standard Terms and July2026 beneficiary-distribution terms read; legal scopes retained.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual visible repeated Suggested text website sections; hardware application-data policy remains unverified.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://computeraid.typeform.com/to/c7BT9gwY",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Official linked form produced no readable content; no entries, progression or submission.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Final September2025 SP800-88 Revision2 publication/abstract; media-sanitization program reference only.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE",
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://storage.fasb.org/ASU_2020-07.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Issued September2020 official PDF, authority notice and summary pages1-2; conditional accounting reference, not applicant recognition.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE",
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.irs.gov/publications/p561",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE",
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated2026-09-22; explicit U.S. fiscal-sponsored applicant and sponsor-account exclusion.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before applicant, offer, acquisition or permitted-use claim",
+        "Upon changed eligibility, ownership/operation evidence or product terms"
+      ],
+      "state": "Public eligibility scope inspected; actual project structure/qualification and complete findings acceptance remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated2026-09-22; actual redirected canonical page distinguishes owned-and-operated nonprofit programs from fiscal sponsorship.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before applicant, offer, acquisition or permitted-use claim",
+        "Upon changed eligibility, ownership/operation evidence or product terms"
+      ],
+      "state": "Public eligibility scope inspected; actual project structure/qualification and complete findings acceptance remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -3385,6 +3827,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 159,
-  "additional_unverified_endpoint_count": 20
+  "source_evidence_url_count": 179,
+  "additional_unverified_endpoint_count": 23
 }

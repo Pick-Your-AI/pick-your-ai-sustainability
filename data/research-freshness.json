@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 92,
+  "source_count": 107,
   "records_count": 39,
   "sources": [
     {
@@ -46,8 +46,8 @@
     {
       "url": "https://app.coderabbit.ai",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public text retrieval exposed no readable intake fields; signed-in account and consent contents remain Not Verified.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -60,7 +60,8 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
-      ]
+      ],
+      "access_result": "Public content only; one readable line, no form fields."
     },
     {
       "url": "https://apply.sovereign.tech",
@@ -672,7 +673,7 @@
     {
       "url": "https://openai.com/form/researcher-access-program/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current program content; published purpose, benefit, schedule and entry route, not an applicant decision",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -682,7 +683,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -691,8 +692,8 @@
     {
       "url": "https://openai.smapply.org",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Direct linked public homepage at https://openai.smapply.org/ showed Programs, search and signup. No program-specific listing or current form fields were returned; no technical cause, closure or account result inferred.",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -702,7 +703,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Homepage observed; program-specific form Not Verified",
       "source_roles": [
         "application_endpoint"
       ]
@@ -1574,6 +1575,132 @@
       ]
     },
     {
+      "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/sharing-publication-policy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2022-11-14; publication conditions and historical intake wording distinguished from current FAQ",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/services-agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2025-12-01, effective 2026-01-01; relevant API, content, payment, publicity and policy clauses; actual applicant agreement/offer unknown",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/supported-countries",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current supported-country list after the program-linked platform URL redirect; applicant location not inferred",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/your-data",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current training-default, monitoring and endpoint-retention sections; account settings not inspected",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/service-credit-terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-01-01; full credit terms read, no balance or award established",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/usage-policies/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2025-10-29; current policy text read, no exception or approval established",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
       "last_verified": "2026-10-19",
       "verification_scope": "Future review scoping controls; no configuration changed; independent canonical research acceptance and account qualification are separate.",
@@ -1734,6 +1861,158 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/dpa",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Processing roles, transfer and deletion boundaries; actual agreement and recipients Unknown; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/knowledge-base",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Scoped context deletion; general training statement compared with OSS privacy exception; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/guides/data-export",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published CSV/API access boundaries; no actual export or measured savings; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/subscription-management",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published scheduled billing and cancellation lifecycle; actual account Unknown; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/pricing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Optional paid usage controls; no service use or monetary valuation; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/getting-started/quickstart",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published account and repository-selection route; no activation; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/configuration-inheritance",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Explicit inheritance and override rules; effective settings Unknown; independent acceptance of the combined findings is pending.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://trust.coderabbit.ai/subprocessors",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public text retrieval exposed no readable recipient list; actual recipients and transfer arrangements remain Not Verified.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on processing, transfer or recipient terms for an agreement or activation",
+        "Upon changed DPA, recipient list or access result"
+      ],
+      "state": "Not Verified — endpoint review required",
+      "source_roles": [
+        "related_policy_endpoint"
+      ]
     }
   ],
   "rules": [
@@ -1742,6 +2021,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 75,
-  "additional_unverified_endpoint_count": 17
+  "source_evidence_url_count": 89,
+  "additional_unverified_endpoint_count": 18
 }

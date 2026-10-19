@@ -13,8 +13,8 @@ A shared owning key means one comparative research package evaluates different p
 | Restack | E03-01 | Not Pursuing for ordinary AI-builder scope |
 | CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
-| Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
-| Sponsors for organizations | E04-01 | Organization onboarding route documented; existing account state Unknown |
+| Secure Open Source Fund | E03-02 | Defer application; verify maintainer and project fit |
+| [Sponsors for organizations](opportunities/github-sponsors.json) | E04-01 | Done / Verified readiness research; actual recipient, authority and payout route Unknown; setup remains on hold |
 | Member-project fiscal sponsorship | E01-04 | Rolling inquiry/application process; acceptance may take months |
 | Associated project fiscal hosting | E01-04 | Application process documented; PYA acceptance/relationship Unknown |
 | Fiscal hosting for open-source projects | E01-04 | Application/validation route documented; no acceptance claimed |
@@ -24,8 +24,8 @@ A shared owning key means one comparative research package evaluates different p
 | PESOSE (NSF 26-506) | E03-06 | Active solicitation; PYA applicant route not qualified |
 | Small Research Grants on Education | E03-05 | Watch for a verified reopening; do not apply |
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
-| SBA 7(a) business loans | E03-08 | Not Pursuing as present charitable project funding; no borrowing commitment |
-| YC standard investment deal | E03-08 | Not Pursuing for the current charitable-funding shortlist; no investment or issuance |
+| SBA 7(a) business loans | E03-08 | Completed nonbinding screen; Not Pursuing as present charitable project funding; no borrowing commitment |
+| YC standard investment deal | E03-08 | Completed nonbinding screen; Not Pursuing for the current charitable-funding shortlist; no investment or issuance |
 
 ## How to interpret fields
 
@@ -48,6 +48,8 @@ Source facts checked does not mean the canonical program/intake assessment has r
 
 The [E06-04 assessment](../research/hardware/partner-shortlist.md) adds two distinct TechSoup RHW and Computer Aid Get Computers records under existing [#54](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54). They are Done / Verified for program research after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399) at `25eb4b8e047e2adb736d6540b4588b1f3a462697`. Both retain actual overall applicant, inventory, custody, offer, value and effort Unknowns; the documented U.S. fiscal-sponsored TechSoup route is explicitly ineligible. Their shared owning issue was separately read; the original 39-record native setup audit does not extend to a new snapshot or Project item. Existing NVIDIA, AMD, Samsung and all other program rows remain unchanged. The memo distinguishes fee-based access, gifts, loans, accounting and donor-tax valuation, and includes an unsent single-station request with care and exit requirements.
 
-## Award mechanism comparison
+## Award mechanism findings accepted
 
-The [mechanism matrix](../docs/funding/award-mechanisms-and-restrictions.md) adds a separately attributed `award_mechanism_screen` to fourteen existing cash/custody/mentorship records and adds the two unique financing screens under existing issue #32. The existing owners, work statuses, applicant facts and original findings are preserved; only the two GSoC source observations and the partial Sloan PDF attempt are appended to their existing evidence arrays. The other 27 original records are byte-exact. The initial 39-owner relationship audit above remains historical; this contribution neither recreates issues nor claims a Project-field update. Independent findings acceptance for the new screens is Pending.
+The [mechanism matrix](../docs/funding/award-mechanisms-and-restrictions.md) has [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352) for all thirteen issue #32 criteria at 5302c991db1087383f282663f7315f42d7054522. Its fourteen original `award_mechanism_screen` values remain byte-exact; their original Pending review objects are historical. A separate `award_mechanism_review` records the later scoped acceptance without changing existing program-owner workflow or findings. The two unique financing screens are Done research, retain historical Discovered stages, P3 and nonbinding Not Pursuing decisions, and preserve their original review/status history.
+
+The receiving input is accepted main af922c0f61cb2a499f4206249ff2d079756f6bdd. All 41 current identities, every original field and all previous source-array members are preserved; only the three GSoC/Sloan source additions and the two scoped fields on fourteen records are additive. The other 27 current records remain byte-exact. The original 39-owner relationship/Project audit above and the initial85 source-preservation snapshot are historical; neither is refreshed by this composition. Actual eligibility, value, recipient, authority, instrument and operating gates remain separate.

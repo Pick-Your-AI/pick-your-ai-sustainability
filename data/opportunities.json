@@ -263,6 +263,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -526,6 +541,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -716,6 +746,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -723,51 +768,120 @@
       "opportunity_id": "GITHUB-SECURE-OSS-FUND",
       "provider": "GitHub",
       "program_name": "Secure Open Source Fund",
-      "program_aliases": [],
+      "program_aliases": [
+        "GitHub Secure Open Source Fund",
+        "SOSS Fund",
+        "Secure OSS"
+      ],
       "round": null,
       "category": "security",
       "support_type": "cash_grant_and_security_support",
       "official_program_url": "https://github.com/open-source/github-secure-open-source-fund",
-      "official_application_url": "https://github.com/open-source/github-secure-open-source-fund",
-      "eligibility_jurisdiction": "GitHub Sponsors supported regions; actual applicant location Unknown",
-      "legal_entity_requirements": "Maintainer/participant route; organizational charity status is not a substitute for personal criteria.",
-      "available_before_incorporation": "Conditionally Eligible maintainer route; PYA criteria not established",
-      "available_through_fiscal_sponsorship": "Unknown; funding is described as direct to selected maintainers",
-      "available_after_501c3_recognition": "Conditionally Eligible maintainer route; recognition does not replace participant criteria",
+      "official_application_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR72dY7PBsFZJkFTETCg9J0xUNDdPUUU2S1pXTjFUOFMwNExEMzk5T1IxQi4u&route=shorturl",
+      "eligibility_jurisdiction": "Sponsors-supported participant residence required; actual location and applicable payout jurisdiction Unknown",
+      "legal_entity_requirements": "Personal maintainer/project criteria govern the documented route. Actual entity, host, recipient and authority remain Unknown; no charitable status is inferred.",
+      "available_before_incorporation": "Unknown actual eligibility; a personal maintainer route is documented without a universal incorporation criterion",
+      "available_through_fiscal_sponsorship": "Unknown; general Sponsors host support does not establish this fund's exact recipient arrangement",
+      "available_after_501c3_recognition": "Unknown; recognition does not replace participant and project conditions",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "Adult current maintainers with active GitHub profiles; GitHub group employees excluded",
-        "Clear OSS license, adoption, governance and commitment to security participation"
+        "Privately verify actual adult maintainers, eligible residence, active profiles and employee exclusion.",
+        "Evidence the precise project's OSS license, governance, external use/community adoption and engaged core leadership.",
+        "Verify willing participants, the actual selected schedule and all current intake/award instruments."
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Rolling applications documented; no application submitted in this execution",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "application_gate": "Not authorized by this research. Existing project engineering authority remains usable; no new permission is requested for research, review or repository delivery.",
+      "application_status": "Rolling on the official page; actual form fields and applicant admission unverified",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "$10,000 published cash amount plus conditional program benefits; no Pick Your AI award.",
-      "currency": null,
+      "benefit_amount_or_capacity": "Published USD 10,000 per project, paid to invited maintainers in conditional tranches; optional cloud and security-learning benefits are separate.",
+      "currency": "USD",
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "After actual offer/usage and authority are known, calculate cash usable by its real recipient after applicable deductions and obligations. Separately sum eligible avoided charges for a scoped workload up to verified coverage, then deduct incremental operating/exit burden. Do not assume the advertised credit maximum will be used.",
       "restrictions_and_obligations": [
-        "Participant agreement and actual schedule must establish obligations before acceptance. No contributor is assigned."
+        "The canonical assessment records participation/follow-up obligations, the historical time-wording difference and unverified selected-session schedule.",
+        "Sponsors/Stripe identity, tax, expense, withholding, settlement and recipient conditions can affect cash receipt.",
+        "Review actual conduct/privacy, agreement confidentiality, participation publicity, publication rights, assignment, withdrawal and independence terms.",
+        "Optional cloud benefits need their own offer/account, covered-meter, expiry, enforceable-stop and export/exit checks; no activated entitlement or automatic cost cap is inferred."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
-      "required_application_evidence": [],
+      "program_objectives": "Support a bounded maintainer security-learning and project-impact outcome; selection remains discretionary.",
+      "fit_with_pick_your_ai": "Proposed Research-repository trust-boundary and synthetic adverse-input evidence exercise. Existing MIT, governance/security guidance and shared contracts are inspectable; actual adoption, willing maintainers, capacity and selected scope remain Unknown.",
+      "required_application_evidence": [
+        "Published participant and project conditions listed in the canonical evidence checklist E1–E5.",
+        "A project-specific security impact case under the program's selection criterion.",
+        "Actual required conduct/privacy agreement and selected-session participation."
+      ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Which actual maintainers wish and are able to participate, and do all personal and project requirements hold?",
+        "What evidence of meaningful outside adoption and a genuine incremental security need would support this young project?",
+        "What is the current full form and selected-session agreement, including conduct, privacy, publicity, reports and any award clawback terms?",
+        "How is one project award allocated among two participants, and is a particular host/payee arrangement allowed?",
+        "Which exact Azure offer, account, coverage, expiry and stop conditions would apply, if optional credits were separately accepted?"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Nine dated public primary sources and pinned project evidence are checked within stated scope. Program agreement/form completeness, actual applicant eligibility, adoption, value and independent findings acceptance remain separate.",
       "sources": [
         {
           "url": "https://github.com/open-source/github-secure-open-source-fund",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Current fund intake, selection, benefits and participation. Version: current live FAQ; no revision date shown"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Supported-region criteria and separation from the expired matching fund. Version: current live documentation"
+        },
+        {
+          "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Sponsored-developer clauses, SOSS pooled payments, USD, confidentiality/publicity and assignment; sponsor-only renewal kept separate. Version: current live Additional Terms; no explicit effective revision date shown"
+        },
+        {
+          "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "General personal-data processing, training, sharing, third parties, retention and jurisdictional rights; no private form consent reviewed. Version: effective 2026-04-27"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "General Sponsors payout-host mechanics only; not fund-specific host approval. Version: current live documentation"
+        },
+        {
+          "url": "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Historical launch and its different weekly time wording; not current intake or capacity. Version: published 2024-11-19"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Conditional cloud-billing risk context; no exact SOSS credit offer mapping. Version: updated 2026-05-29; Investor Offer context"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Startup graduation/credit expiry and continued billing context; not a PYA account observation. Version: updated 2026-08-24"
+        },
+        {
+          "url": "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Public conduct context; actual Fund Code of Conduct identity remains unverified. Version: current GitHub Community policy"
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+          "source_kind": "independent_review",
+          "last_verified": "2026-10-19",
+          "review_scope": "Exact published-source findings acceptance for all eleven research criteria; not applicant, application or participant approval"
         }
       ],
       "scoring": {
@@ -780,12 +894,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "The P1 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "Actual eligibility, adoption, effort, usable funding, risk and support likelihood do not support defensible factor ratings. No point score or award probability is assigned."
       },
-      "priority": "P1",
-      "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Verify individual eligibility, community/adoption evidence and willingness to meet the program’s required participation.",
+      "priority": "P2",
+      "assigned_owner": "Session c3fa0109d6ff / apple_completion (research only)",
+      "independent_reviewer": "Leaderboard independent review lane, session c3fa0109d6ff",
+      "next_action": "Retain this evidence checklist. Reopen application preparation only when actual willing maintainers and the bounded project/security case can be verified against the current intake. Resolve any exact form or agreement gap before that action.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -795,82 +909,131 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "Published check-in events are known; actual participant schedule, binding reports and account obligations remain unestablished.",
       "reporting_obligations": [
-        "Published six- and twelve-month check-ins; calendar dates remain null until an actual accepted schedule."
+        "The canonical note records published six/twelve-month check-ins, without invented calendar dates. Verify actual award and recipient requirements before acceptance."
       ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
-          "GitHub",
-          "Secure Open Source Fund"
+          "GitHub Secure Open Source Fund",
+          "Secure Open Source Fund",
+          "SOSS Fund",
+          "Secure OSS"
         ],
         "canonical_match": "GITHUB-SECURE-OSS-FUND",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Current full 39-record register, complete 53-real-issue/10-open-PR Sustainability inventory, and organization-wide exact-program issue and PR searches. The exact phrase returned ten issue references and no PR; related epic, narrative, terms and measurement inputs are not duplicate program outcomes. The first organization search was rejected because an issue/PR type filter was missing; the corrected is:issue and is:pull-request searches completed without incomplete_results. Alias names were checked against the local register and current inventory, not represented as separate exhaustive organization searches."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "Leaderboard independent review lane, session c3fa0109d6ff",
+        "reviewed_revision": "c5ef1e9857536f4a4db35c5b23c2e97a301d5719",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+        "decision": "Accepted all eleven issue #26 research criteria with the documented defer-application recommendation",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Independent in-session findings review recorded as COMMENT through a shared GitHub identity; no separate-account APPROVED vote, applicant qualification, participant commitment, legal opinion or provider commitment is implied."
         ]
       },
       "owning_research_key": "E03-02",
       "source_urls": [
-        "https://github.com/open-source/github-secure-open-source-fund"
+        "https://github.com/open-source/github-secure-open-source-fund",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+        "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+        "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+        "https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing",
+        "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation",
+        "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228"
       ],
-      "application_url": "https://github.com/open-source/github-secure-open-source-fund",
+      "application_url": "https://forms.office.com/r/YN3MWEKQ5m",
       "source_evidence": [
-        "Rolling applications for maintainers or teams of at most two. Selected maintainers receive $10,000 per project in $6,000/$2,000/$2,000 tranches tied to participation and six/twelve-month check-ins."
+        "See the canonical note's published_facts, source_reconciliation and intake records for the exact public claim scope and failed form access.",
+        "The observed repository license/policies and platform counts do not establish eligible maintainers, adoption, completed security work or an award."
       ],
-      "benefit": "$10,000 published cash amount plus conditional program benefits; no Pick Your AI award.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+      "benefit": "Published USD 10,000 per project in conditional maintainer cash tranches; optional cloud benefits and actual usable value remain separate.",
+      "required_application_evidence_status": "Partial published criteria only. The Microsoft form returned no readable fields/one timeout; full current fields, attachments and declarations remain unverified. Internal E6–E9 controls are not represented as universal form fields.",
       "published_qualification_requirements": [
-        "Adult current maintainers with active GitHub profiles; GitHub group employees excluded",
-        "Clear OSS license, adoption, governance and commitment to security participation"
+        "Actual participant criteria and project criteria are recorded separately in the canonical note.",
+        "The observed project documents supply partial evidence only; actual governance acceptance, adoption and available core leadership are Unknown."
       ],
       "internal_application_review_controls": [
-        "Verify applicant facts and authority",
-        "Evidence a scoped need and realistic delivery capacity",
-        "Review data rights, vendor independence and proposed agreement terms"
+        "Retain the accepted #11 authority/asset Unknown ledger; verify the actual applicant/payee and mandate privately before any uncovered external action.",
+        "Check the current form, selected scope, disclosure/third-party rights and actual commitment before submission.",
+        "Consume native owners' accepted work; avoid duplicate security fixes, participant commitments or empirical claims.",
+        "Separate cash receipt from credits, existing free tools and hypothetical avoided costs; verify any optional paid-exposure/exit controls."
       ],
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
-      "priority_recommendation": "P1",
+      "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "The P1 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "scoring_justification": "Actual eligibility, adoption, effort, usable funding, risk and support likelihood do not support defensible factor ratings. No point score or award probability is assigned.",
+      "source_freshness": "Official sources inspected 2026-10-19; historical 2024 launch and failed/current-form access are separately recorded in the canonical note.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "reviewed_revision": "c5ef1e9857536f4a4db35c5b23c2e97a301d5719",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+        "scope": "Complete canonical findings and all eleven research criteria independently accepted; actual applicant, security execution, application, award and activation states remain separate. The dated seed-source review remains in prior_seed_review."
       },
-      "application_route_description": "Official program page links its Microsoft-hosted application. Form fields and applicant access have not been fully verified.",
+      "application_route_description": "Rolling according to S1; actual form submission/admission unverified. The checklist below is a draft compiled from published criteria and explicit internal controls. It is not a transcription or complete validation of the inaccessible application form.",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Independent findings accepted; applicant qualification remains separate",
       "applicant_qualification_status": "Unknown",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "The P1 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
+      "estimated_usable_value_method": "After actual offer/usage and authority are known, calculate cash usable by its real recipient after applicable deductions and obligations. Separately sum eligible avoided charges for a scoped workload up to verified coverage, then deduct incremental operating/exit burden. Do not assume the advertised credit maximum will be used.",
+      "score_reason": "Actual eligibility, adoption, effort, usable funding, risk and support likelihood do not support defensible factor ratings. No point score or award probability is assigned.",
       "award_status": "Unknown; no award evidence established",
-      "currency_status": null,
-      "current_disposition": null,
+      "currency_status": "Sponsors Additional Terms §3.5 defines USD; §3.3 explicitly addresses SOSS pooled payments. Actual settlement currency, allocation and net receipt remain unverified.",
+      "current_disposition": "Defer application; verify maintainer and project fit",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "The maintained Research repository is a concrete candidate for a security-learning proposal, with inspectable license, governance and security guidance. Actual participant eligibility, decision authority, community adoption, available time and full intake/agreement terms remain unestablished. These are qualification questions, not a reason to invent ineligibility or promise support. P1 was appropriate for this foundational investigation; the remaining conditional opportunity is P2 under the published rubric.",
+      "recommended_disposition": "Defer application; verify maintainer and project fit",
       "source_refs": [
-        "https://github.com/open-source/github-secure-open-source-fund"
+        "https://github.com/open-source/github-secure-open-source-fund",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+        "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+        "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+        "https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing",
+        "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation",
+        "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228"
       ],
-      "related_research_issue_urls": [],
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 26,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "research_note": "data/opportunities/github-secure-open-source-fund.json",
+      "prior_seed_review": {
+        "review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Source consistency reviewed; full research deliverable not accepted",
+          "limitations": [
+            "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          ]
+        },
+        "independent_source_review": {
+          "reviewed_on": "2026-10-19",
+          "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        },
+        "source_revision": "d960a36094e0808d6b4f7798846e25639cca2c26"
       },
       "award_mechanism_screen": {
         "schema_version": "award-mechanism-screen/v1",
@@ -896,6 +1059,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -911,57 +1089,111 @@
       "official_application_url": "https://github.com/sponsors",
       "eligibility_jurisdiction": "Supported GitHub Sponsors regions; actual legal operating and payout region Unknown",
       "legal_entity_requirements": "Own 501(c)(3) is not universally required; legal operations, identity, tax and payout facts still govern.",
-      "available_before_incorporation": "Conditionally Eligible for a qualifying legally operating OSS organization",
-      "available_through_fiscal_sponsorship": "Conditionally Eligible through an accepted supported host relationship",
-      "available_after_501c3_recognition": "Conditionally Eligible; approval and payout requirements remain",
+      "available_before_incorporation": "Unknown for PYA; conditional public mechanism assessed in the canonical readiness record",
+      "available_through_fiscal_sponsorship": "Unknown for PYA; supported integration does not establish an accepted host relationship",
+      "available_after_501c3_recognition": "Unknown for PYA; actual recognition, admission and payout qualification remain unverified",
       "eligibility_status": "Unknown",
-      "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Organization onboarding route documented; existing account state Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "eligibility_conditions": [
+        "Resolve actual recipient, jurisdiction and owner mandate (G1-G2)",
+        "Qualify direct or accepted supported-host custody (G3)",
+        "Review actual country-specific agreements and financial controls (G4-G6)"
+      ],
+      "application_gate": "Not authorized for setup by this research; actual recipient, authority, payout, terms and operating controls remain unqualified.",
+      "application_status": "Public onboarding and landing redirect inspected; authenticated form, invitation and existing account state Unknown",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "A channel for donor support; no guaranteed donation, matching or grant.",
+      "benefit_amount_or_capacity": "Voluntary cash-support channel; no fixed entitlement, forecast or available matching award",
       "currency": "USD",
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Reconcile actual gross receipts, itemized deductions, settlement and restrictions without double counting; expected amount and administrative effort remain Unknown. See canonical value_and_effort.",
       "restrictions_and_obligations": [
-        "Select the host at signup; changing an existing setup requires GitHub Support.",
-        "Old matching-fund offers must not be treated as current support."
+        "See canonical S1-S11 and operating_assessment for fees, refunds, reporting, publication/data rights, privacy, portability, renewal and independence; the S10/S11 payment roles have different applicability.",
+        "Historical matching is unavailable; actual withholding, private terms and account-specific payment conditions remain unresolved."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+      "program_objectives": "Enable voluntary support for eligible open-source work; detailed public observations S1-S11 are retained in the canonical assessment.",
+      "fit_with_pick_your_ai": "Proposed finite uncovered evidence-retention, source-admission or accessibility/independent-review work under existing needs N03/N07/N08; no donor, workload budget or delivery capacity assumed.",
       "required_application_evidence": [
-        "Organization contact/profile details",
-        "Correct payout and tax details; eligible account’s 2FA",
-        "Fiscal-host project profile URL if using an already accepted host"
+        "Organization owner and truthful legal/contact/profile information",
+        "Correct recipient-specific payout/tax information and 2FA",
+        "Existing host project profile when choosing a supported fiscal host"
       ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Actual recipient, supported jurisdiction and accepted signing/financial mandate",
+        "Direct-versus-host choice and actual supported relationship",
+        "Current account-specific agreement, fee/withholding/refund and privacy/exit review",
+        "Finite need, capacity and reviewed profile/benefits before authorization"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Independently accepted public channel-readiness findings; actual applicant, account and governing private agreements remain unqualified.",
       "sources": [
         {
           "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Complete public organization setup guidance; no authenticated organization form or account inspected."
         },
         {
           "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Complete public supported-host page."
         },
         {
           "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Complete public program overview, supported-region list and matching section."
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed."
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected."
+        },
+        {
+          "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified."
+        },
+        {
+          "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified."
+        },
+        {
+          "url": "https://github.com/sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted."
+        },
+        {
+          "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Direct public read of definitions; D.3-D.8, E and J.1-J.3, with surrounding terms context. Actual Customer/volume agreements and account settings remain unverified."
+        },
+        {
+          "url": "https://stripe.com/legal/connect-account/recipient",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete public Recipient Info text, its displayed update date and default English entry. The author's page displayed United States (English); that presentation does not establish PYA's country or actual payout route."
+        },
+        {
+          "url": "https://stripe.com/legal/connect-account",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete public agreement text, sections 1-8 and displayed modified date. The default English page does not identify PYA's Stripe Account Country or applicable Services Agreement."
         }
       ],
       "scoring": {
@@ -974,12 +1206,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "The P1 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P1 foundational channel-readiness work. Actual applicant qualification, donor demand, net usable cash and effort are Unknown; all numeric score factors remain null."
       },
       "priority": "P1",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Establish entity/owner/payout facts and compare direct versus hosted routing before drafting setup decisions.",
+      "independent_reviewer": "Research engineering reviewer in the current project session (GitHub COMMENT through CompleteDotTech)",
+      "next_action": "Resolve actual recipient, authority, supported direct/host route and G1-G6 operating evidence before proposing a concrete setup; retain independent neutrality, privacy, value and financial controls.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -989,8 +1221,10 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
-      "reporting_obligations": [],
+      "reporting_status": "No binding schedule established; proposed reconciliation and actual-agreement review are documented, without an activated account or award.",
+      "reporting_obligations": [
+        "Actual sponsor, processor and host obligations remain Unknown; use the accepted proposed financial-control design for any later authorized transaction."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
@@ -1001,27 +1235,37 @@
         "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "Research engineering reviewer in the current project session (GitHub COMMENT through CompleteDotTech)",
+        "reviewed_revision": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702",
+        "decision": "Accepted channel-readiness findings and unpublished profile draft against all eleven issue criteria",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Public research only; no applicant qualification, legal determination, financial action or separate-account approval claimed."
         ]
       },
       "owning_research_key": "E04-01",
       "source_urls": [
         "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
         "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
-        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+        "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+        "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "https://github.com/sponsors",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "https://stripe.com/legal/connect-account/recipient",
+        "https://stripe.com/legal/connect-account"
       ],
       "application_url": "https://github.com/sponsors",
       "source_evidence": [
-        "An OSS-contributing organization legally operating in a supported region may apply. Owners configure profile, payout/tax information and 2FA, then seek approval. Supported fiscal hosts include SPI and OSC."
+        "Canonical data/opportunities/github-sponsors.json records eleven dated public observations S1-S11, three Unknown applicant routes, supported-host compatibility, historical matching exclusion and the two corrected public-source findings."
       ],
-      "benefit": "A channel for donor support; no guaranteed donation, matching or grant.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
-      "published_qualification_requirements": [],
+      "benefit": "Voluntary cash-support channel; no fixed entitlement, forecast or available matching award",
+      "required_application_evidence_status": "Published documentation fields only; the authenticated organization application and account-specific attachments were not inspected.",
+      "published_qualification_requirements": [
+        "See canonical S1/S2 and G1-G4; current published mechanism does not qualify PYA."
+      ],
       "internal_application_review_controls": [
         "Verify applicant facts and authority",
         "Evidence a scoped need and realistic delivery capacity",
@@ -1030,32 +1274,42 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P1",
       "score": null,
-      "scoring_justification": "The P1 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "scoring_justification": "P1 foundational channel-readiness work. Actual applicant qualification, donor demand, net usable cash and effort are Unknown; all numeric score factors remain null.",
+      "source_freshness": "Public sources actually inspected 2026-10-19; private form/account and agreements remain unverified.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "reviewed_revision": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702",
+        "scope": "Actual complete original-source review plus independently accepted correction: eleven public observations and their limits, all eleven criteria, three actual applicant-route Unknowns, use/value method, exact profile, source/history/projection preservation and the original local output. No separate-account approval, legal/tax opinion, organizational appointment or operational qualification."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Independently accepted channel-readiness findings",
       "applicant_qualification_status": "Unknown",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "The P1 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
+      "estimated_usable_value_method": "Reconcile actual gross receipts, itemized deductions, settlement and restrictions without double counting; expected amount and administrative effort remain Unknown. See canonical value_and_effort.",
+      "score_reason": "P1 foundational channel-readiness work. Actual applicant qualification, donor demand, net usable cash and effort are Unknown; all numeric score factors remain null.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "currency_status": null,
-      "current_disposition": null,
+      "application_route_description": "Public organization guide and redirected Sponsors entry inspected; authenticated invitation/application and existing enrollment state Unknown.",
+      "currency_status": "USD for documented tiers; actual settlement currency and conversion costs Unknown",
+      "current_disposition": "Continue P1 channel readiness; hold setup pending actual recipient, authority, payout and terms.",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "gate": "G1-G7 in data/opportunities/github-sponsors.json; no application or activation performed",
+      "jurisdiction": "Actual legal operating and payout region Unknown",
+      "priority_scope_note": "P1 foundational channel readiness; no manufactured deadline urgency, donor demand or numeric probability.",
+      "recommended_disposition": "Continue P1 channel readiness; hold setup pending actual recipient, authority, payout and terms.",
       "source_refs": [
         "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
         "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
-        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+        "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+        "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "https://github.com/sponsors",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "https://stripe.com/legal/connect-account/recipient",
+        "https://stripe.com/legal/connect-account"
       ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
@@ -1065,6 +1319,142 @@
         "issue_number": 33,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
       },
+      "deadline_status": "Not applicable: no universal general-channel cutoff stated in inspected guidance; actual invitation or private offer remains Unknown.",
+      "canonical_deliverable": "data/opportunities/github-sponsors.json",
+      "profile_draft": "docs/sponsorship/github-sponsors-readiness.md",
+      "source_history": [
+        {
+          "scope": "Preserved seed source observations before the complete E04-01 assessment",
+          "sources": [
+            {
+              "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Published program facts, not applicant qualification"
+            },
+            {
+              "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Published program facts, not applicant qualification"
+            },
+            {
+              "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Published program facts, not applicant qualification"
+            }
+          ],
+          "source_review_status": "Source facts checked",
+          "independent_source_review": {
+            "reviewed_on": "2026-10-19",
+            "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+          }
+        },
+        {
+          "scope": "Preserved original eight-source assessment before the bounded public-content and payment-instrument corrections",
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "sources": [
+            {
+              "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Complete public organization setup guidance; no authenticated organization form or account inspected."
+            },
+            {
+              "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Complete public supported-host page."
+            },
+            {
+              "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Complete public program overview, supported-region list and matching section."
+            },
+            {
+              "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed."
+            },
+            {
+              "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected."
+            },
+            {
+              "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified."
+            },
+            {
+              "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified."
+            },
+            {
+              "url": "https://github.com/sponsors",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted."
+            }
+          ],
+          "source_review_status": "Source facts checked; complete findings acceptance pending",
+          "independent_source_review": {
+            "reviewed_on": null,
+            "scope": "Complete new findings await actual independent review; prior seed observation retained in source_history."
+          }
+        }
+      ],
+      "review_history": [
+        {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Source consistency reviewed; full research deliverable not accepted",
+          "limitations": [
+            "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          ]
+        },
+        {
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500",
+          "reviewed_on": "2026-10-19",
+          "scope": "Separate supplemental canonical-JSON/profile source contribution; two finite criterion-8 corrections and independently attributed access/locale observations.",
+          "decision": "Two public-source gaps identified before final acceptance."
+        },
+        {
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889",
+          "reviewed_on": "2026-10-19",
+          "scope": "Research engineering review of the complete original eight-file source, eleven criteria, source/map/raw-history proof and original local output.",
+          "decision": "Existing findings and preservation clear; final criterion-8 acceptance withheld pending the two public-source corrections."
+        },
+        {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Draft findings; independent acceptance pending",
+          "limitations": [
+            "Public research only; no applicant qualification, legal determination, financial action or separate-account approval claimed."
+          ]
+        }
+      ],
+      "eligibility_assessment_note": "The former generic conditional phase wording described possible mechanisms. Each actual PYA route is now explicitly Unknown; no evidence of ineligibility or a rejected application is inferred.",
+      "research_history": [
+        {
+          "revision": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+          "opportunity_stage": "Discovered",
+          "work_status": "In Review",
+          "source_review_status": "Source facts checked; corrected criterion-8 findings await independent acceptance",
+          "reason": "State immediately before actual complete findings acceptance 5574121702; no provider observation or applicant fact is refreshed by the transition."
+        }
+      ],
       "award_mechanism_screen": {
         "schema_version": "award-mechanism-screen/v1",
         "owning_research_key": "E03-08",
@@ -1089,6 +1479,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -1278,6 +1683,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -1471,6 +1891,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -1677,6 +2112,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -2012,6 +2462,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -2208,6 +2673,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -2398,6 +2878,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -2573,6 +3068,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -2750,6 +3260,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -3412,45 +3937,150 @@
       "support_type": "software_access",
       "official_program_url": "https://www.coderabbit.ai/oss",
       "official_application_url": "https://app.coderabbit.ai",
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Public GitHub/GitLab repository; no nonprofit incorporation requirement stated",
-      "available_before_incorporation": "Conditionally Eligible after public repo and administrator access verification",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "eligibility_jurisdiction": "Actual account-holder jurisdiction Unknown; verify applicable current terms before activation.",
+      "legal_entity_requirements": "No nonprofit formation requirement stated for public-repository product access; actual customer authority and input rights remain to be established.",
+      "available_before_incorporation": "Conditionally Eligible for the published public-repository route; six public repositories observed, actual account authority and permitted use Unknown.",
+      "available_through_fiscal_sponsorship": "Unknown for an actual sponsor arrangement; a future authorized host must separately satisfy the public-repository account and use conditions.",
+      "available_after_501c3_recognition": "Conditionally Eligible for the public-repository route; recognition is neither required nor sufficient and actual recognition/account facts remain Unknown.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "Public repository visibility; activation is through repository-app installation, without a separate funding application"
+        "Public repository visibility; observed for six project repositories at the pinned coverage snapshots",
+        "Actual account-holder and administrator authority, permitted inputs and use, and applicable agreement must be established",
+        "Effective entitlement, permissions, data settings and review configuration require account readback"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "No funding application; repository-app installation is the activation route",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "application_gate": "No installation, account change, paid use or outreach in this research. Actual administrator/account inventory and reviewed rights/use-case decision are required before considering a bounded pilot.",
+      "application_status": "Public-repository GitHub App activation is documented; no funding application. Actual installation screen and account have not been inspected.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Free public-repository code review and related OSS features as documented",
+      "benefit_amount_or_capacity": "Free public-repository review with variable OSS quotas; public repositories below ten stars require manual triggers. Actual included capacity and useful coverage Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "See research/tooling/coderabbit-oss.md: compare a complete authorized pilot with the documented existing workflow, subtract setup/triage/maintenance effort, and distinguish volunteer time, cash and evidenced avoided spend. No pilot or monetary estimate exists.",
       "restrictions_and_obligations": [
-        "Review permissions, data handling and actual included feature limits; retain independent maintainer acceptance.",
-        "Cash sponsorship is neither automatic nor implied by product usage."
+        "Apply the canonical permissions, data, publication, branding and rights findings before any adoption decision.",
+        "Current plans require manual review triggers for public repositories with fewer than ten stars; five of the six inspected repositories meet that condition on 2026-10-19. Installation alone does not establish automatic coverage.",
+        "The October 16, 2026 privacy policy section 7 excludes OSS from its no-training assurance and says CodeRabbit uses OSS to train its systems. Reconcile this with general FAQ and April 20, 2026 ToS section 3.3 assurances through the actual agreement/input-rights assessment before any pilot; account-specific overrides and an applicable OSS training opt-out are Unknown.",
+        "Retain independent maintainer acceptance and existing checks.",
+        "Actual account limits, charges, settings and historical installation remain Unknown.",
+        "Cash sponsorship is separate from product access.",
+        "Resolve effective inheritance/global overrides, context retention, processing/transfer scope and export access before any pilot; preserve project evidence before any later deletion decision.",
+        "Inspect optional metered usage and scheduled paid activation; any subscription, access-removal and deletion actions retain separate authority and evidence gates."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential review assistance across technical repos; check existing CodeRabbit coverage first.",
+      "program_objectives": "Support maintainers with code-review assistance; useful results require independent assessment.",
+      "fit_with_pick_your_ai": "Potential additional findings on ordinary sustainability Python/JSON changes under existing validation; technical research, native testing and release acceptance remain with their repositories.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Authorized administrator readback of app/account state and effective settings",
+        "Actual account-holder and appropriate contract/input-rights/use-case assessment",
+        "Receiving maintainer decision on a bounded pilot and its independent evaluation protocol"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Source-backed program and bounded public-coverage findings; applicant/account qualification, installed coverage, vendor performance and usable value are not established.",
       "sources": [
         {
           "url": "https://www.coderabbit.ai/oss",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Current public-repository offer and separate cash route"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/management/plans.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current OSS plan and capacity table plus the below-ten-star manual-trigger condition; actual account tier Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/management/rate-limits.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Review event accounting and rolling capacity"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/platforms/github-com.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Documented GitHub authorization and permissions; actual installation form not inspected"
+        },
+        {
+          "url": "https://www.coderabbit.ai/legal/terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published April 20, 2026 terms, including general section 3.3 training language; actual accepted agreement and organizational authority Unknown"
+        },
+        {
+          "url": "https://www.coderabbit.ai/privacy-policy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published October 16, 2026 notice: section 7 explicit OSS-training exception and section 12 proprietary-code storage scope; actual account agreement and settings Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/faq.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Proprietary/customer-code assurances compared with the explicit privacy-policy OSS-training exception; not independent certification"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/configuration/central-configuration.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Possible configuration sources; actual PYA defaults Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Future review scoping controls; no configuration changed"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/reference/caching.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Cache scope, default, expiry and OSS encryption exception"
+        },
+        {
+          "url": "https://www.coderabbit.ai/legal/dpa",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Processing roles, transfer and deletion boundaries; actual agreement and recipients Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/knowledge-base",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped context deletion; general training statement compared with OSS privacy exception"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/guides/data-export",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published CSV/API access boundaries; no actual export or measured savings"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/management/subscription-management",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published scheduled billing and cancellation lifecycle; actual account Unknown"
+        },
+        {
+          "url": "https://www.coderabbit.ai/pricing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Optional paid usage controls; no service use or monetary valuation"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/getting-started/quickstart",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published account and repository-selection route; no activation"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/configuration/configuration-inheritance",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Explicit inheritance and override rules; effective settings Unknown"
         }
       ],
       "scoring": {
@@ -3463,89 +4093,150 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2 research priority: plausible free product route, with actual account/rights fit, useful additional coverage, effort and net value unresolved. No weighted factor or total is sufficiently evidenced. All factor ratings and total remain null."
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Audit existing installation and configuration before recommending any new integration.",
+      "independent_reviewer": "ChatGPT in-session /root; independent findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Obtain actual administrator account/configuration/billing readback and resolve agreement, OSS-training/input, transfer/export and publication rights before considering a bounded manual pilot.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
       "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
-      "application_outcome": "No submission in this execution; historical state Unknown",
+      "application_outcome": "No funding application is required for the product offer; no installation or submission performed in this research. Historical account state Unknown.",
       "award_evidence": null,
-      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_status": "No activation in this research; existing installation and effective coverage Unknown.",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "No grant reporting identified for the product route in the reviewed sources; actual contract/account obligations remain unresolved.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "CodeRabbit",
-          "Free product access for public repositories"
+          "Free product access for public repositories",
+          "OSS",
+          "coderabbitai[bot]"
         ],
         "canonical_match": "CODERABBIT-OSS-PRODUCT",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Existing 39-record register and organization issue/PR searches; exact queries, returned matches and limitations retained in data/audits/coderabbit-public-coverage.json. Reuse sustainability #56; no duplicate integration or sponsorship issue created."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session /root; independent findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "6b0f6be61fd64afbeeba9a4d4fa38a4bc5429107",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571665518",
+        "decision": "Accepted all thirteen #56 research criteria for the combined canonical findings, primary-source supplement and separately attributed public coverage observations; applicant qualification, account/rights decisions and actual service use remain separately gated.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
-        ]
+          "Technical COMMENT records an actual independent in-session findings review, not a separate-account GitHub APPROVED vote.",
+          "Research acceptance is separate from actual installation, applicant/account qualification, contract approval, public benchmarking rights, useful coverage or funding.",
+          "Original sampled actor observations remain attributed to researcher ChatGPT in-session /root/apple; root independently checked the stated source, metadata/tree and pagination/arithmetic scope."
+        ],
+        "prior_accepted_research_review": {
+          "reviewer": "ChatGPT in-session /root; independent findings review posted through the delegated CompleteDotTech account",
+          "reviewed_revision": "9b68cd50e9fd8088b249e87669779f355a9d7198",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571078442",
+          "decision": "Accepted canonical #56 program and bounded public-coverage research findings and their explicit limitations; applicant qualification, account/rights decisions and actual service use remain separately gated.",
+          "limitations": [
+            "Technical COMMENT records an actual independent in-session findings review, not a separate-account GitHub APPROVED vote.",
+            "Research acceptance is separate from actual installation, applicant/account qualification, contract approval, public benchmarking rights, useful coverage or funding.",
+            "Original sampled actor observations remain attributed to researcher ChatGPT in-session /root/apple; root independently checked the stated source, metadata/tree and pagination/arithmetic scope."
+          ]
+        }
       },
       "owning_research_key": "E07-01",
       "source_urls": [
-        "https://www.coderabbit.ai/oss"
+        "https://www.coderabbit.ai/oss",
+        "https://docs.coderabbit.ai/management/plans.md",
+        "https://docs.coderabbit.ai/management/rate-limits.md",
+        "https://docs.coderabbit.ai/platforms/github-com.md",
+        "https://www.coderabbit.ai/legal/terms-of-service",
+        "https://www.coderabbit.ai/privacy-policy",
+        "https://docs.coderabbit.ai/faq.md",
+        "https://docs.coderabbit.ai/configuration/central-configuration.md",
+        "https://docs.coderabbit.ai/configuration/auto-review.md",
+        "https://docs.coderabbit.ai/reference/caching.md",
+        "https://www.coderabbit.ai/legal/dpa",
+        "https://docs.coderabbit.ai/knowledge-base",
+        "https://docs.coderabbit.ai/guides/data-export",
+        "https://docs.coderabbit.ai/management/subscription-management",
+        "https://www.coderabbit.ai/pricing",
+        "https://docs.coderabbit.ai/getting-started/quickstart",
+        "https://docs.coderabbit.ai/configuration/configuration-inheritance"
       ],
       "source_evidence": [
-        "Current FAQ makes free OSS access depend on public repository visibility and says no application/approval queue or credit card is needed.",
-        "Proactive cash sponsorships are explicitly a separate activity."
+        "Canonical findings: research/tooling/coderabbit-oss.md, with dated primary sources and explicit access boundaries.",
+        "The bounded six-repository receipt records 18 sampled PRs, 119 reviews and 546 comments without a matching CodeRabbit actor; it does not prove absent installation.",
+        "The same six public metadata reads observed Website 5 stars, Research 13, and Leaderboard, Apple, Android and Sustainability 0 each. The below-ten-star manual-trigger condition applies to five repositories at that dated cutoff; actual review configuration remains Unknown.",
+        "Current privacy section 7 expressly states OSS training. FAQ proprietary/customer-code assurances and ToS section 3.3 general no-training language do not establish a no-training guarantee for the public-repository route; section 12 storage controls establish no training opt-out.",
+        "Supplemental official-source findings and separately attributed PR #91 check/status observations are retained in the canonical note and public coverage receipt; they do not replace the original tree/PR sample.",
+        "The DPA distinguishes customer-directed processing from account/usage controller data; actual agreement, recipient/transfer arrangements and request-based deletion remain unresolved.",
+        "Knowledge-base opt-out concerns retained context only; its general training assurance does not resolve the explicit OSS exception. Export access and vendor estimates do not establish complete portability or measured benefit.",
+        "Published optional paid usage and scheduled activation require actual account readback; cancellation retains history/configuration and differs from access removal or data deletion."
       ],
-      "benefit": "Free public-repository code review and related OSS features as documented",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "benefit": "Free public-repository review with variable OSS quotas; public repositories below ten stars require manual triggers. Actual included capacity and useful coverage Unknown.",
+      "estimated_usable_value_method": "Use the canonical pilot protocol and an evidenced baseline; useful coverage, effort, currency and avoided spend remain Unknown.",
+      "source_freshness": "Primary program, terms, privacy and documentation read 2026-10-19; preserve their recorded versions and recheck before adoption or public qualification.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
+      "scoring_justification": "P2 research priority: plausible free product route, with actual account/rights fit, useful additional coverage, effort and net value unresolved. No weighted factor or total is sufficiently evidenced.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://www.coderabbit.ai/oss"
+        "https://www.coderabbit.ai/oss",
+        "https://docs.coderabbit.ai/management/plans.md",
+        "https://docs.coderabbit.ai/management/rate-limits.md",
+        "https://docs.coderabbit.ai/platforms/github-com.md",
+        "https://www.coderabbit.ai/legal/terms-of-service",
+        "https://www.coderabbit.ai/privacy-policy",
+        "https://docs.coderabbit.ai/faq.md",
+        "https://docs.coderabbit.ai/configuration/central-configuration.md",
+        "https://docs.coderabbit.ai/configuration/auto-review.md",
+        "https://docs.coderabbit.ai/reference/caching.md",
+        "https://www.coderabbit.ai/legal/dpa",
+        "https://docs.coderabbit.ai/knowledge-base",
+        "https://docs.coderabbit.ai/guides/data-export",
+        "https://docs.coderabbit.ai/management/subscription-management",
+        "https://www.coderabbit.ai/pricing",
+        "https://docs.coderabbit.ai/getting-started/quickstart",
+        "https://docs.coderabbit.ai/configuration/configuration-inheritance"
       ],
       "application_url": "https://app.coderabbit.ai",
-      "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
+      "score_reason": "P2 research priority: plausible free product route, with actual account/rights fit, useful additional coverage, effort and net value unresolved. No weighted factor or total is sufficiently evidenced.",
       "internal_application_review_controls": [
-        "Applicant eligibility and authority",
-        "Concrete workload or scoped support need",
-        "Maintainer/community evidence",
-        "No-influence publication and sponsor disclosure terms"
+        "Exact app/account and selected-repository readback",
+        "Actual authority and current agreement/use-case decision",
+        "Effective permissions, data, quota and billing settings",
+        "Bounded independently evaluated pilot with existing checks and maintainer acceptance preserved"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "No funding application for the documented product offer. The actual current installation/account screen was not inspected; this is not a complete live activation checklist.",
       "published_qualification_requirements": [
-        "Public repository visibility; activation is through repository-app installation, without a separate funding application"
+        "Public repository visibility; actual customer, authorization, account and use requirements must also be satisfied."
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "currency_status": "Product access is non-cash. No existing paid baseline, currency or realized avoided cost has been established.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Root independently read the combined canonical-note and structured/projection/audit increments, seven additional official publications and relevant original privacy/terms clauses, plus the attributed donor note/record and handoff. Root verified keyed preservation of all other accepted records, source rows and incoming leaves. Original ten-source and public-tree/sample acceptance remains separately recorded; no coverage collection or service use was rerun.",
+        "reviewed_revision": "6b0f6be61fd64afbeeba9a4d4fa38a4bc5429107",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571665518",
+        "prior_accepted_source_review": {
+          "reviewed_on": "2026-10-19",
+          "scope": "Root independently read the complete canonical findings and structured projections, all ten primary documents, six repository metadata responses and six complete pinned trees, and checked bounded-sample pagination/arithmetic. Acceptance is for research findings only.",
+          "reviewed_revision": "9b68cd50e9fd8088b249e87669779f355a9d7198",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571078442"
+        }
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Combined canonical research findings independently accepted",
       "applicant_qualification_status": "Unknown",
-      "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "award_status": "No cash award established; free product access is not a funding award.",
+      "application_route_description": "Documented Git-platform authentication, app authorization and repository selection; actual account/installation form not inspected.",
+      "current_disposition": "Conditional product option; administrator inventory and contract/use-case review precede a bounded pilot. Cash sponsorship not established.",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "gate": "No installation, account change, paid use or outreach in this research. Actual administrator/account inventory and reviewed rights/use-case decision are required before considering a bounded pilot.",
+      "jurisdiction": "Actual account-holder jurisdiction Unknown.",
+      "priority_scope_note": "Research priority only; no urgent deadline, application qualification or realized benefit is inferred.",
+      "recommended_disposition": "Conditional product option; administrator inventory and contract/use-case review precede a bounded pilot. Cash sponsorship not established.",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -3553,7 +4244,28 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 56,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "supplemental_contribution": {
+        "source_pr": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/91",
+        "source_head": "ee53f5716116bdb6db1dba75f3a52697528f8382",
+        "bounded_root_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/91#pullrequestreview-5571276958",
+        "scope": "Useful source findings integrated with the explicit OSS-training exception retained; contributed check/status observations remain separately attributed in data/audits/coderabbit-public-coverage.json. The bounded donor review does not accept this combined revision.",
+        "canonical_handoff_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#issuecomment-6266752595"
+      },
+      "unverified_related_endpoints": [
+        {
+          "url": "https://app.coderabbit.ai",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Public text retrieval exposed no readable intake fields; no signed-in account or consent screen inspected."
+        },
+        {
+          "url": "https://trust.coderabbit.ai/subprocessors",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Public text retrieval exposed no readable recipient list; current list and account-specific transfers remain Unknown."
+        }
+      ]
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -7844,6 +8556,21 @@
           "decision": "Pending substantive findings acceptance for this E03-08 screen only."
         },
         "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
       }
     },
     {
@@ -8552,7 +9279,7 @@
       "application_gate": "No application, borrowing, investment or commitment proposed by this research; actual legal recipient, authority and material terms remain unqualified.",
       "application_status": "Lender application route described; no selected lender, complete form, offer or deadline inspected.",
       "opportunity_stage": "Discovered",
-      "work_status": "In Progress",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -8609,7 +9336,7 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
       "next_action": "Retain the exclusion. Reconsider only against an independently authorized, evidenced applicant and complete proposed loan instrument.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -8641,12 +9368,13 @@
         "reuse_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32"
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of actual matrix and structured findings.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "decision": "Accepted with constraints: completed nonbinding financing screen against all thirteen issue #32 research criteria.",
         "limitations": [
-          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment.",
+          "Shared-account COMMENT is an actual independent findings review, not a separate-account formal approval."
         ]
       },
       "owning_research_key": "E03-08",
@@ -8660,7 +9388,7 @@
         "https://www.ecfr.gov/current/title-13/section-120.110",
         "https://www.sba.gov/sba-lenders/"
       ],
-      "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+      "source_review_status": "Independently accepted public mechanism screen; actual applicant and private instrument remain unqualified.",
       "score": null,
       "award_status": "No financing offer or grant award obtained in this research; historical state Unknown.",
       "canonical_deliverable": "docs/funding/award-mechanisms-and-restrictions.md",
@@ -8677,7 +9405,27 @@
         "See the canonical mechanism matrix for the sourced screening, access limitations, three applicant routes and explicit unresolved acceptance questions."
       ],
       "priority_recommendation": "P3",
-      "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application."
+      "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application.",
+      "review_history": [
+        {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of actual matrix and structured findings.",
+        "limitations": [
+          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+        ]
+      }
+      ],
+      "research_status_history": [
+        {
+          "revision": "5302c991db1087383f282663f7315f42d7054522",
+          "work_status": "In Progress",
+          "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+          "independent_reviewer": null,
+          "scope": "Original published research state before actual findings review5575474352."
+        }
+      ]
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -8706,7 +9454,7 @@
       "application_gate": "No application, borrowing, investment or commitment proposed by this research; actual legal recipient, authority and material terms remain unqualified.",
       "application_status": "Public application entry inspected; private form not opened. Published November 2 at 8 p.m. Pacific cutoff belongs to Winter 2027; the associated calendar year 2026 is inferred from that batch, not printed beside the cutoff.",
       "opportunity_stage": "Discovered",
-      "work_status": "In Progress",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -8763,7 +9511,7 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
       "next_action": "Retain the exclusion. Reconsider only against an independently authorized actual issuer proposal and complete proposed instruments.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -8795,12 +9543,13 @@
         "reuse_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32"
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of actual matrix and structured findings.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "decision": "Accepted with constraints: completed nonbinding financing screen against all thirteen issue #32 research criteria.",
         "limitations": [
-          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment.",
+          "Shared-account COMMENT is an actual independent findings review, not a separate-account formal approval."
         ]
       },
       "owning_research_key": "E03-08",
@@ -8814,7 +9563,7 @@
         "https://www.ycombinator.com/apply",
         "https://www.ycombinator.com/safe"
       ],
-      "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+      "source_review_status": "Independently accepted public mechanism screen; actual applicant and private instrument remain unqualified.",
       "score": null,
       "award_status": "No financing offer or grant award obtained in this research; historical state Unknown.",
       "canonical_deliverable": "docs/funding/award-mechanisms-and-restrictions.md",
@@ -8830,7 +9579,27 @@
         "See the canonical mechanism matrix for the sourced screening, access limitations, three applicant routes and explicit unresolved acceptance questions."
       ],
       "priority_recommendation": "P3",
-      "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application."
+      "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application.",
+      "review_history": [
+        {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of actual matrix and structured findings.",
+        "limitations": [
+          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+        ]
+      }
+      ],
+      "research_status_history": [
+        {
+          "revision": "5302c991db1087383f282663f7315f42d7054522",
+          "work_status": "In Progress",
+          "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+          "independent_reviewer": null,
+          "scope": "Original published research state before actual findings review5575474352."
+        }
+      ]
     }
   ],
   "important_limitations": [

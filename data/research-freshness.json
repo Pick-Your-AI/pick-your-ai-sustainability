@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 220,
+  "source_count": 252,
   "records_count": 43,
   "sources": [
     {
@@ -46,8 +46,8 @@
     {
       "url": "https://app.coderabbit.ai",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public text retrieval exposed no readable intake fields; signed-in account and consent contents remain Not Verified.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -60,7 +60,8 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
-      ]
+      ],
+      "access_result": "Public content only; one readable line, no form fields."
     },
     {
       "url": "https://apply.sovereign.tech",
@@ -318,9 +319,10 @@
     {
       "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
-        "GITHUB-SPONSORS-ORG"
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -328,15 +330,116 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "state": "Source checked; application and applicant conditions may remain Unknown"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S3",
+          "read_on": "2026-10-19",
+          "scope": "Complete public program overview, supported-region list and matching section.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "Supported-region criteria and separation from the expired matching fund.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      },
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 16,
+          "raw_row_sha256": "b84ea73a70e9a59b0eaf60ec20a453383ae4d128a454d36b0626216645b5a91c",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Complete public program overview, supported-region list and matching section.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "history": [
+              {
+                "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+                "last_verified": "2026-10-19",
+                "verification_scope": "Published facts recorded for linked opportunities",
+                "state": "Source checked; application and applicant conditions may remain Unknown"
+              }
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S3",
+                "read_on": "2026-10-19",
+                "scope": "Complete public program overview, supported-region list and matching section.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 16,
+          "raw_row_sha256": "45bd6f0c07011cd9796081c926c777a6e67ae7c64e41c194ba9a30e0a04c36d6",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Published facts recorded for linked opportunities",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG",
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Source checked; application and applicant conditions may remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_specific_observations": {
+              "GITHUB-SECURE-OSS-FUND": {
+                "observed_on": "2026-10-19",
+                "scope": "Supported-region criteria and separation from the expired matching fund.",
+                "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+                "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+              }
+            }
+          }
+        }
       ]
     },
     {
       "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Complete public organization setup guidance; no authenticated organization form or account inspected.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG"
       ],
@@ -346,18 +449,36 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "state": "Source checked; application and applicant conditions may remain Unknown"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S1",
+          "read_on": "2026-10-19",
+          "scope": "Complete public organization setup guidance; no authenticated organization form or account inspected.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
       ]
     },
     {
       "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
-        "GITHUB-SPONSORS-ORG"
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -365,9 +486,110 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "state": "Source checked; application and applicant conditions may remain Unknown"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S2",
+          "read_on": "2026-10-19",
+          "scope": "Complete public supported-host page.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "General Sponsors payout-host mechanics only; not fund-specific host approval.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      },
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 18,
+          "raw_row_sha256": "d922a58357c24afd5d4b50a3960b05ce0b82b6a10138958c2795cab4ae07a019",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Complete public supported-host page.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "history": [
+              {
+                "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+                "last_verified": "2026-10-19",
+                "verification_scope": "Published facts recorded for linked opportunities",
+                "state": "Source checked; application and applicant conditions may remain Unknown"
+              }
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S2",
+                "read_on": "2026-10-19",
+                "scope": "Complete public supported-host page.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 18,
+          "raw_row_sha256": "058b036cd857bc70435c9e213e190e211ab9805883196d5ee30fccc2721d3fe6",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Published facts recorded for linked opportunities",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG",
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Source checked; application and applicant conditions may remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_specific_observations": {
+              "GITHUB-SECURE-OSS-FUND": {
+                "observed_on": "2026-10-19",
+                "scope": "General Sponsors payout-host mechanics only; not fund-specific host approval.",
+                "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+                "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+              }
+            }
+          }
+        }
       ]
     },
     {
@@ -460,16 +682,23 @@
       ],
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
-        "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "Current fund intake, selection, benefits and participation.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://github.com/sponsors",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG"
       ],
@@ -479,10 +708,33 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Public landing inspected; authenticated application form and account not verified",
       "source_roles": [
-        "application_endpoint"
-      ]
+        "application_endpoint",
+        "governing_source_evidence"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": null,
+          "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "state": "Not Verified — endpoint review required"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S8",
+          "read_on": "2026-10-19",
+          "scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "observed_public_page": {
+        "url": "https://github.com/open-source/sponsors",
+        "last_verified": "2026-10-19",
+        "scope": "Public marketing/entry page only; no form access or submission"
+      }
     },
     {
       "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
@@ -1162,7 +1414,7 @@
     {
       "url": "https://www.coderabbit.ai/oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current public-repository offer and separate cash route; independent canonical research acceptance and account qualification are separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -3925,6 +4177,830 @@
       ]
     },
     {
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S4",
+          "read_on": "2026-10-19",
+          "scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S5",
+          "read_on": "2026-10-19",
+          "scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Direct public read of definitions; D.3-D.8, E and J.1-J.3, with surrounding terms context. Actual Customer/volume agreements and account settings remain unverified.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; actual account and governing agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S9",
+          "read_on": "2026-10-19",
+          "scope": "Direct public read of definitions; D.3-D.8, E and J.1-J.3, with surrounding terms context. Actual Customer/volume agreements and account settings remain unverified.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/legal/connect-account/recipient",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public Recipient Info text, its displayed update date and default English entry. The author's page displayed United States (English); that presentation does not establish PYA's country or actual payout route.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; actual account and governing agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S10",
+          "read_on": "2026-10-19",
+          "scope": "Complete public Recipient Info text, its displayed update date and default English entry. The author's page displayed United States (English); that presentation does not establish PYA's country or actual payout route.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/legal/connect-account",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public agreement text, sections 1-8 and displayed modified date. The default English page does not identify PYA's Stripe Account Country or applicable Services Agreement.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; actual account and governing agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S11",
+          "read_on": "2026-10-19",
+          "scope": "Complete public agreement text, sections 1-8 and displayed modified date. The default English page does not identify PYA's Stripe Account Country or applicable Services Agreement.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/sponsors/accounts?locale=en-US",
+      "last_verified": null,
+      "verification_scope": "Separate supplemental review reports a robots denial; this author did not inspect a form or establish an HTTP status at this target.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any concrete account setup or application",
+        "On changed entry target or access result"
+      ],
+      "state": "Unverified application endpoint; reported access limitation preserves its separate provenance",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "reported_access_observations": [
+        {
+          "reported_on": "2026-10-19",
+          "reported_by": "Separate supplemental source-review lane; this is not an access attempt by the canonical author",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500",
+          "url": "https://github.com/sponsors/accounts?locale=en-US",
+          "outcome": "Reported robots.txt denial; no HTTP status or application-form contents established",
+          "http_status": null,
+          "application_form_verified": false,
+          "author_attempt": false
+        }
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Future review scoping controls; no configuration changed; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/central-configuration.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Possible configuration sources; actual PYA defaults Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/faq.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Proprietary/customer-code assurances compared with the explicit privacy-policy OSS-training exception; not independent certification; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/plans.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current OSS plan and capacity table plus the below-ten-star manual-trigger condition; actual account tier Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/rate-limits.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Review event accounting and rolling capacity; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/platforms/github-com.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Documented GitHub authorization and permissions; actual installation form not inspected; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/reference/caching.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Cache scope, default, expiry and OSS encryption exception; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published April 20, 2026 terms, including general section 3.3 training language; actual accepted agreement and organizational authority Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/privacy-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published October 16, 2026 notice: section 7 explicit OSS-training exception and section 12 proprietary-code storage scope; actual account agreement and settings Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/dpa",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Processing roles, transfer and deletion boundaries; actual agreement and recipients Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/knowledge-base",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Scoped context deletion; general training statement compared with OSS privacy exception; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/guides/data-export",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published CSV/API access boundaries; no actual export or measured savings; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/subscription-management",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published scheduled billing and cancellation lifecycle; actual account Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/pricing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Optional paid usage controls; no service use or monetary valuation; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/getting-started/quickstart",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published account and repository-selection route; no activation; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/configuration-inheritance",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Explicit inheritance and override rules; effective settings Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://trust.coderabbit.ai/subprocessors",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public text retrieval exposed no readable recipient list; actual recipients and transfer arrangements remain Not Verified.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on processing, transfer or recipient terms for an agreement or activation",
+        "Upon changed DPA, recipient list or access result"
+      ],
+      "state": "Not Verified — endpoint review required",
+      "source_roles": [
+        "related_policy_endpoint"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public conduct context; actual Fund Code of Conduct identity remains unverified.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review",
+        "Monthly program review",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S6",
+          "read_on": "2026-10-19",
+          "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "observation_history": [
+        {
+          "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+          "last_verified": "2026-10-19",
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "note": "Original public observation before this correction; no account/form qualification."
+        }
+      ],
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 210,
+          "raw_row_sha256": "5ce65d14cc9363af229e64d5b7d74b083c2dc8ed0607efa6d4eec079ddbbef70",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Before application, agreement, activation or a public qualification claim",
+              "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+              "At the existing monthly research review"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S6",
+                "read_on": "2026-10-19",
+                "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ],
+            "observation_history": [
+              {
+                "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+                "last_verified": "2026-10-19",
+                "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+                "note": "Original public observation before this correction; no account/form qualification."
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 226,
+          "raw_row_sha256": "4dcbea1ad6687ea1a1ca958538add6d90d512779eb13aad93855aa887cb8171a",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+            "last_verified": "2026-10-19",
+            "last_attempted": "2026-10-19",
+            "verification_scope": "Sponsored-developer clauses, SOSS pooled payments, USD, confidentiality/publicity and assignment; sponsor-only renewal kept separate.",
+            "opportunity_ids": [
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Monthly program review",
+              "Before application, agreement, activation or a public qualification claim",
+              "Upon changed terms, redirect, access failure or a contradictory source"
+            ],
+            "state": "Source checked; independent findings and applicant qualification remain separate",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review",
+        "Monthly program review",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S7",
+          "read_on": "2026-10-19",
+          "scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "observation_history": [
+        {
+          "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
+          "last_verified": "2026-10-19",
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "note": "Original public observation before this correction; no account/form qualification."
+        }
+      ],
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 211,
+          "raw_row_sha256": "03d0d221aab1d2f6d052cbd633bf36a0cffb9c07ce8b1fb986bafe6a72d97423",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Before application, agreement, activation or a public qualification claim",
+              "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+              "At the existing monthly research review"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S7",
+                "read_on": "2026-10-19",
+                "scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ],
+            "observation_history": [
+              {
+                "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
+                "last_verified": "2026-10-19",
+                "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+                "note": "Original public observation before this correction; no account/form qualification."
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 227,
+          "raw_row_sha256": "07b32aa334e340c531b7194ccfe788206e79fb20b19254730859b2775fb81ed3",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+            "last_verified": "2026-10-19",
+            "last_attempted": "2026-10-19",
+            "verification_scope": "General personal-data processing, training, sharing, third parties, retention and jurisdictional rights; no private form consent reviewed.",
+            "opportunity_ids": [
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Monthly program review",
+              "Before application, agreement, activation or a public qualification claim",
+              "Upon changed terms, redirect, access failure or a contradictory source"
+            ],
+            "state": "Source checked; independent findings and applicant qualification remain separate",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR72dY7PBsFZJkFTETCg9J0xUNDdPUUU2S1pXTjFUOFMwNExEMzk5T1IxQi4u&route=shorturl",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Not Verified — no readable form fields / failed public-reader access",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "access_observation": "The FAQ application link resolved to a Microsoft Forms page with zero readable lines. No fields, declarations, attachment requirements or successful form admission were inspected."
+    },
+    {
+      "url": "https://forms.office.com/r/YN3MWEKQ5m",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Not Verified — no readable form fields / failed public-reader access",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "access_observation": "The Apply now link failed in the public reader with a timeout and a wrapper (400) message. The origin server HTTP status was not established. No form bytes or successful admission were obtained."
+    },
+    {
+      "url": "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Historical launch and its different weekly time wording; not current intake or capacity.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Conditional cloud-billing risk context; no exact SOSS credit offer mapping.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Startup graduation/credit expiry and continued billing context; not a PYA account observation.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual complete COMMENT readback accepts all eleven findings criteria at published revision c5ef1e9857536f4a4db35c5b23c2e97a301d5719; applicant, participant and execution states remain separate",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed reviewed findings or canonical source",
+        "Before relying on research acceptance or qualification"
+      ],
+      "state": "Independent findings acceptance read back",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://apply.ycombinator.com/",
       "last_verified": null,
       "last_attempted": null,
@@ -4244,6 +5320,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 195,
-  "additional_unverified_endpoint_count": 25
+  "source_evidence_url_count": 224,
+  "additional_unverified_endpoint_count": 28
 }

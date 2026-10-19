@@ -6,7 +6,9 @@ Existing opportunity: `HF-COMMUNITY-GPU` in [the register](../../data/opportunit
 
 Source inspection: **2026-10-19 UTC** · Repository baseline: **`cad980ecc8e43a472ebe63c4360f94846d175a96`**
 
-Status: **Prepared findings for independent review** · Researcher: ChatGPT research agent, session `eccc026f8bdd` · Independent reviewer: **pending**
+Status: **Accepted bounded findings; research Done** · Researcher: ChatGPT research agent, session `eccc026f8bdd` · Independent findings acceptance: [in-session root review 5571037132](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88#pullrequestreview-5571037132) at **2026-10-19 11:45:48 UTC**, reviewed source **`ccec8d108171b95e4536ec42b7fe79dbdfe77024`** (tree **`38a916c562eee24aa56b77bd9e952ba4c4caecb0`**).
+
+The actual review includes the independent Apple-agent source assessment and accepts this deferred-application finding. Its primary-source and six-PDF inspections retain their original reviewers, dates and scopes; this acceptance-metadata follow-up performs no new provider inspection. The substantive COMMENT uses the shared CompleteDotTech GitHub account and is not a separate-account APPROVED vote. Current-main composition, metadata review, configured checks and delivery are recorded separately in [PR #88](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88).
 
 ## Recommendation
 
@@ -14,7 +16,7 @@ Status: **Prepared findings for independent review** · Researcher: ChatGPT rese
 
 The Community GPU Grant is a documented selection route for a Space's hardware upgrade. It is not an entitlement to general API credits, an award to Pick Your AI, or evidence that a paid account prerequisite will be waived. The program documentation provides no project-specific allocation or award agreement. [S1, S2]
 
-This memo completes a reviewable qualification proposal with explicit Unknowns. Research acceptance can establish that bounded finding while an application remains deferred. It does not create a Space/account, authorize expenditure, appoint an operator, submit an application or certify legal eligibility. The [entity baseline](../../docs/nonprofit/entity-baseline.md) and [authorization procedure](../../docs/workflow-and-authorization.md) retain the actual applicant and commitment boundaries.
+This memo records an independently accepted qualification finding with explicit Unknowns. The bounded research outcome is accepted while an application remains deferred. It does not create a Space/account, authorize expenditure, appoint an operator, submit an application or certify legal eligibility. The [entity baseline](../../docs/nonprofit/entity-baseline.md) and [authorization procedure](../../docs/workflow-and-authorization.md) retain the actual applicant and commitment boundaries.
 
 ## Duplicate and ownership check
 
@@ -81,11 +83,11 @@ The other linked PDFs cover **separate products**. Enterprise Hub and Enterprise
 
 The public application route is documented, but this research did not identify or access a Pick Your AI Space's settings or an applicant-specific form. Therefore the exact application URL remains `null`; required fields, attachments, review timing, geographic limits and the actual decision remain Unknown. No deadline is published in the inspected grant paragraphs. This is **Unknown**, not a fabricated rolling deadline or an assigned internal due date. [S1]
 
-Retain **Discovered**, **Unknown applicant eligibility**, **P2**, and `null` for all eight weighted factors, total score, currency, usable value and numerical effort. The supplied weights remain 20/20/15/10/10/10/10/5; the eligibility and evidence gates precede scoring. P2 reflects a relevant documented educational-demo route with unresolved need, terms and eligibility, not an estimated success probability.
+Record **Verified for program research** and **Done research**, retaining **Unknown applicant eligibility**, **P2**, and `null` for all eight weighted factors, total score, currency, usable value and numerical effort. The actual findings acceptance meets the [Verified transition](../../docs/operations-and-reporting.md#evidence-for-transitions); it does not establish a Qualified applicant or an authorized application. The supplied weights remain 20/20/15/10/10/10/10/5; the eligibility and evidence gates precede scoring. P2 reflects a relevant documented educational-demo route with unresolved need, terms and eligibility, not an estimated success probability.
 
 A defensible later valuation would use covered eligible runtime by hardware/meter, the contemporaneous applicable rate and currency, award window, existing free access, uncovered account/storage/overage costs and evidence of what the project would otherwise buy. Hardware support is not cash. With neither a covered workload nor a purchase counterfactual, avoided cost cannot be computed. Effort needs actual estimates for a static implementation, any GPU adaptation/measurement, account/terms review, maintenance, reporting and exit. This memo supplies the task categories without inventing staff commitments or hours. Follow the [budget method](../../docs/budget-assumptions.md).
 
-**Next authorized action:** independently review this exact memo, the source facts and the three register changes. If accepted, publish its receipt to #47 and supply the accepted bounded finding to existing #50; keep the opportunity deferred. Any later implementation can use the static proposal as a candidate, while a GPU application first needs the missing Space/need/terms evidence. There is no reason to send speculative outreach, create an account or buy hardware merely to complete this research.
+**Next authorized action:** supply this accepted bounded finding to existing #50 and retain the deferred opportunity. Link the separately reviewed current-main delivery and actual checks in #47; no repeated provider inspection or new application action is required merely to record the existing acceptance. Any later implementation can use the static proposal as a candidate, while a GPU application first needs the missing Space/need/terms evidence. There is no reason to send speculative outreach, create an account or buy hardware merely to complete this research.
 
 ## Dated source register
 
@@ -116,22 +118,22 @@ S12–S15 were retrieved successfully at 11:26:28 UTC. The existing opportunity'
 
 The numbering below follows all 13 literal #47 criteria in their current order. Repeated criteria receive the same actual evidence, not invented additional deliverables.
 
-| Criterion | Candidate evidence and remaining acceptance boundary |
+| Criterion | Accepted research evidence and separate delivery boundary |
 | --- | --- |
 | 1. Primary sources/date; historical versus current | Dated S1–S16 register, displayed effective dates and historical failed versus later successful retrieval receipts. |
 | 2. Application/benefit/restrictions/deadline | Product table, obligations and intake sections; award/form/deadline Unknowns. |
 | 3. Three eligibility routes | Separate community, fiscal-sponsored and recognized-entity table. |
 | 4. Canonical findings/disposition/scoring/questions | This memo, the unique opportunity record, P2/null rationale and next action. |
-| 5. Independent review; no implied activation | **Pending exact-revision acceptance.** No external activity is claimed. |
+| 5. Independent review; no implied activation | [Actual findings acceptance 5571037132](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88#pullrequestreview-5571037132) at `ccec8d108171b95e4536ec42b7fe79dbdfe77024`, submitted 2026-10-19 11:45:48 UTC. No external activity is claimed. |
 | 6. Named deliverable and Space proposal | This canonical path, static proposal, conditional GPU need and grant/product distinction. |
 | 7. Current sources, access failures/conflicts | Source register, reconciled compute/ZeroGPU/payment boundaries and scoped supplemental/DPA review; S11's earlier HTTP 403 is resolved by the later verified HTTP 200. |
 | 8. Current program/intake/deadline or Unknown | Public settings route; unaccessed actual form and unsupported deadline kept separate. |
 | 9. Benefit and three applicant routes | Hardware support distinct from cash; each route assessed without entitlement. |
 | 10. Full obligation categories | Restrictions, reporting, branding, publication, privacy, portability, renewal, overage and independence table. |
 | 11. Concrete use and defensible value/effort | Source-policy walkthrough, actual cross-repository boundaries and explicit unvalued methodology. |
-| 12. Publish canonical record, sources and disposition | Four-file candidate prepared; actual reviewed publication and issue receipt remain pending. |
-| 13. Link independent acceptance | **Pending.** Reviewer must identify the exact revision, inspected primary sources, findings and limits; passing local checks alone is insufficient. |
+| 12. Publish canonical record, sources and disposition | Memo and canonical register package published at `ccec8d108171b95e4536ec42b7fe79dbdfe77024` and accepted in the linked review. This metadata/current-main follow-up retains separate checks, delivery and issue readback. |
+| 13. Link independent acceptance | [The actual independent COMMENT](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88#pullrequestreview-5571037132) identifies the exact revision, primary-source/PDF review, findings and limits. Passing local checks are separate consistency evidence. |
 
-Independent source/engineering review can accept this deferred qualification without asserting a legal opinion, actual account eligibility, a deployment, provider selection, grant receipt, achieved public benefit or a binding organizational decision. Until that review and publication occur, this table is a criterion map rather than a completion receipt.
+The recorded independent source/engineering acceptance establishes this deferred research finding without asserting a legal opinion, actual account eligibility, a deployment, provider selection, grant receipt, achieved public benefit or a binding organizational decision. Final issue reconciliation must link the current receiving revision, required original checks, ordinary merge and actual-main/Project readback; this source map does not invent those later receipts.
 
 Local checks on **2026-10-19**, using Python **3.12.14** and the repository's pinned validator dependencies: **61 unit tests passed** in **3.635 seconds**; `scripts/validate_repository.py` passed **21 JSON and 34 Markdown files with zero errors**; the diff whitespace check passed. These checks establish repository consistency, not source freshness, application qualification or independent acceptance.

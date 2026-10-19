@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 39,
+  "records_count": 41,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -7204,17 +7204,692 @@
         "issue_number": 66,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
       }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "TECHSOUP-REFURBISHED-HARDWARE",
+      "provider": "TechSoup",
+      "program_name": "Refurbished Hardware (RHW)",
+      "program_aliases": [
+        "RHW",
+        "TechSoup refurbished computers",
+        "Refurbished Hardware for Nonprofits"
+      ],
+      "round": null,
+      "category": "Hardware and infrastructure",
+      "support_type": "Conditional refurbished equipment access with fees; no verified loan offer or received gift",
+      "official_program_url": "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+      "official_application_url": "https://www.techsoup.org/refurbished-computers",
+      "eligibility_jurisdiction": "Reviewed U.S. TechSoup route; exact product and recipient jurisdiction unverified",
+      "legal_entity_requirements": "Actual validated applicant remains Unknown. U.S. fiscally sponsored projects are explicitly excluded, including access through sponsor accounts. A genuinely owned-and-operated program of a recognized public charity is a distinct route, not an inferred project structure; specific product rules still apply. The reviewed policy requires IRS501(c)(3) recognition or a qualifying group-exemption route; neither is established for this project.",
+      "available_before_incorporation": "Unknown",
+      "available_through_fiscal_sponsorship": "Ineligible — documented U.S. fiscally sponsored organization/project route",
+      "available_after_501c3_recognition": "Unknown",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Actual recipient, mission, jurisdiction and signatory evidence remain unverified.",
+        "The reviewed U.S. fiscal-sponsored project route is ineligible. Actual independent recognition or a genuinely owned-and-operated nonprofit program and its product admission remain unverified.",
+        "The canonical memo separates current program facts, access failures and remaining applicant conditions."
+      ],
+      "application_gate": "No application or acquisition authorized by this assessment. Establish the finite receiving need, actual recipient, specific offer/terms, custody and financial/exit review before external representation or commitment.",
+      "application_status": "No application in this execution; historical state Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Compare evidenced cost of a necessary alternative actually avoided with all incremental fees, logistics, operation, maintenance and exit costs. Recipient accounting, donor tax valuation and avoided cost remain distinct; actual inputs and value are null.",
+      "restrictions_and_obligations": [
+        "Complete provider-specific findings, observed terms and inaccessible-policy limits are recorded in the canonical hardware memo.",
+        "Do not infer title, a loan offer, permission to transfer, a warranty duration or a free operating/exit path from a program name.",
+        "Resolve actual publication, publicity, data, software and permitted-use terms before a concrete arrangement; no editorial concession is offered."
+      ],
+      "program_objectives": "Provide suitable technology access to eligible nonprofit/social-benefit organizations; exact program admission remains separate.",
+      "fit_with_pick_your_ai": "Conditional support for one evidenced uncovered N08 manual accessibility/presentation task; no shortage or suitable unit has yet been established. Existing hosting, public CI and native device-matrix ownership remain intact.",
+      "required_application_evidence": [
+        "Actual organization, mission, jurisdiction and requesting representative; offer-specific requirements remain incomplete because the catalog is inaccessible.",
+        "Valid receiving/contact details and the actual product request."
+      ],
+      "required_contacts_or_decisions": [
+        "Evidence-backed inventory and exact receiving technical scope.",
+        "Actual recipient/signatory and asset custodian; no person appointed here.",
+        "Concrete provider offer and complete product/privacy/return terms.",
+        "Independent financial treatment, total-cost and useful-life review before an asset or deduction claim."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      ],
+      "confidence": "Bounded primary statements and access observations recorded; actual eligibility, offer, asset value and full findings acceptance remain unverified.",
+      "sources": [
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Current RHW overview; updated 2026-03-07; fee-based nonprofit hardware access."
+        },
+        {
+          "url": "https://page.techsoup.org/refurbished-hardware-nonprofits",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Current marketing/request path; product and environmental statements remain provider claims."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/360030995673-Providers-Policies-Nonprofit-Eligibility-Requirements-and-Restrictions",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated 2026-09-22; validation versus individual offer admission, geography and restrictions."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/360055217673-Terms-of-Use-Nonprofit-Offers-Acquired-Through-TechSoup",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated 2026-03-31; usual requesting-organization and nontransfer rules, including explicit exceptions."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/47348125260443-Refurbished-Hardware-RHW-Shipping-Support",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated 2026-03-05; shipping/receiving and time-sensitive reporting guidance."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/47348479344155-Refurbished-Hardware-RHW-Warranty-Support",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated 2026-03-05; public support summary read; linked full warranty separately inaccessible."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/47357148148635-Refurbished-Hardware-RHW-Returns-and-Refunds",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated 2026-03-05; return/refund process, not an actual approved return."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/47357282663195-End-of-Life-TakeBack-Program-for-Refurbished-Hardware-RHW",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated 2026-03-03; takeback summary read, complete linked scope separately inaccessible."
+        },
+        {
+          "url": "https://www.techsoup.org/refurbished-computers",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Attempted; successful content verification remains null",
+          "scope": "Actual HTTP403; current catalog, SKU inventory, price, product eligibility and order fields not inspected."
+        },
+        {
+          "url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Attempted; successful content verification remains null",
+          "scope": "Actual HTTP403 on linked standard warranty; successful verification date remains null."
+        },
+        {
+          "url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Attempted; successful content verification remains null",
+          "scope": "Actual HTTP403 on linked takeback detail; covered products, geography, shipping and data handling unverified."
+        },
+        {
+          "url": "https://page.techsoup.org/privacy?hsLang=en",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Attempted; successful content verification remains null",
+          "scope": "Actual HTTP404 on marketing landing privacy link; no policy contents recovered."
+        },
+        {
+          "url": "https://www.techsoup.org/privacypolicy",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Attempted; successful content verification remains null",
+          "scope": "Actual HTTP403 on canonical privacy URL; search excerpts not promoted to a full privacy review."
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+          "publisher": "NIST",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Final September2025 SP800-88 Revision2 publication/abstract; media-sanitization program reference only."
+        },
+        {
+          "url": "https://storage.fasb.org/ASU_2020-07.pdf",
+          "publisher": "FASB",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Issued September2020 official PDF, authority notice and summary pages1-2; conditional accounting reference, not applicant recognition."
+        },
+        {
+          "url": "https://www.irs.gov/publications/p561",
+          "publisher": "IRS",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated2026-09-22; explicit U.S. fiscal-sponsored applicant and sponsor-account exclusion."
+        },
+        {
+          "url": "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations",
+          "publisher": "TechSoup",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Updated2026-09-22; actual redirected canonical page distinguishes owned-and-operated nonprofit programs from fiscal sponsorship."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under the eight-factor scheme: actual eligibility, uncovered demand, defensible avoided cost, provider likelihood, timing and effort are unverified. P2 is the justified research priority, not an application ranking."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Accept or correct the complete findings through independent review, then resolve the finite receiving need and actual recipient before any provider-specific request.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Recheck before an offer, application, order, agreement, receipt, use, return or disposal; also after changed product/eligibility/privacy terms, access result or available inventory.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No receipt or activation in this execution; historical state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No binding schedule established; inspect the actual agreement before recording obligations",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "RHW",
+          "TechSoup refurbished computers",
+          "Refurbished Hardware for Nonprofits",
+          "TechSoup",
+          "TECHSOUP-REFURBISHED-HARDWARE"
+        ],
+        "canonical_match": "No existing program record or duplicate organization issue/PR identified; retained existing E06-04 / #54 ownership. Local canonical records and live issue/PR queries inspected.",
+        "queries": [
+          "org:Pick-Your-AI is:issue TechSoup",
+          "org:Pick-Your-AI is:pull-request TechSoup",
+          "org:Pick-Your-AI is:issue \"Computer Aid\"",
+          "org:Pick-Your-AI is:pull-request \"Computer Aid\"",
+          "org:Pick-Your-AI is:issue RHW",
+          "org:Pick-Your-AI is:pull-request RHW"
+        ]
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Not reviewed; complete independent findings acceptance pending",
+        "limitations": [
+          "No actual applicant, provider offer, physical inventory, unit condition, account/form or financial evidence established.",
+          "Bounded primary-source observations do not establish acceptance of the complete package."
+        ]
+      },
+      "owning_research_key": "E06-04",
+      "source_urls": [
+        "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+        "https://page.techsoup.org/refurbished-hardware-nonprofits",
+        "https://support.techsoup.org/hc/en-us/articles/360030995673-Providers-Policies-Nonprofit-Eligibility-Requirements-and-Restrictions",
+        "https://support.techsoup.org/hc/en-us/articles/360055217673-Terms-of-Use-Nonprofit-Offers-Acquired-Through-TechSoup",
+        "https://support.techsoup.org/hc/en-us/articles/47348125260443-Refurbished-Hardware-RHW-Shipping-Support",
+        "https://support.techsoup.org/hc/en-us/articles/47348479344155-Refurbished-Hardware-RHW-Warranty-Support",
+        "https://support.techsoup.org/hc/en-us/articles/47357148148635-Refurbished-Hardware-RHW-Returns-and-Refunds",
+        "https://support.techsoup.org/hc/en-us/articles/47357282663195-End-of-Life-TakeBack-Program-for-Refurbished-Hardware-RHW",
+        "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+        "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+        "https://www.techsoup.org/privacypolicy",
+        "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+        "https://storage.fasb.org/ASU_2020-07.pdf",
+        "https://www.irs.gov/publications/p561",
+        "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
+        "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations"
+      ],
+      "source_refs": [
+        "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+        "https://page.techsoup.org/refurbished-hardware-nonprofits",
+        "https://support.techsoup.org/hc/en-us/articles/360030995673-Providers-Policies-Nonprofit-Eligibility-Requirements-and-Restrictions",
+        "https://support.techsoup.org/hc/en-us/articles/360055217673-Terms-of-Use-Nonprofit-Offers-Acquired-Through-TechSoup",
+        "https://support.techsoup.org/hc/en-us/articles/47348125260443-Refurbished-Hardware-RHW-Shipping-Support",
+        "https://support.techsoup.org/hc/en-us/articles/47348479344155-Refurbished-Hardware-RHW-Warranty-Support",
+        "https://support.techsoup.org/hc/en-us/articles/47357148148635-Refurbished-Hardware-RHW-Returns-and-Refunds",
+        "https://support.techsoup.org/hc/en-us/articles/47357282663195-End-of-Life-TakeBack-Program-for-Refurbished-Hardware-RHW",
+        "https://www.techsoup.org/refurbished-computers",
+        "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+        "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+        "https://page.techsoup.org/privacy?hsLang=en",
+        "https://www.techsoup.org/privacypolicy",
+        "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+        "https://storage.fasb.org/ASU_2020-07.pdf",
+        "https://www.irs.gov/publications/p561",
+        "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
+        "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations"
+      ],
+      "source_review_status": "Primary program sources checked; U.S. fiscal-sponsored route excluded; recorded access/policy limits and full findings acceptance pending",
+      "award_status": "Unknown; no award evidence established",
+      "current_disposition": "Conditional lead for an actually eligible recipient; do not pursue the excluded U.S. fiscal-sponsored project route. Defer any order until the single uncovered need, product terms and full ownership costs are evidenced.",
+      "score": null,
+      "canonical_deliverable": "research/hardware/partner-shortlist.md",
+      "applicant_qualification_status": "Unknown",
+      "priority_scope_note": "P2 bounded program research; no qualified applicant, guaranteed value or approved acquisition.",
+      "source_evidence": [
+        {
+          "source_id": "T1",
+          "url": "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Current RHW overview; updated 2026-03-07; fee-based nonprofit hardware access."
+        },
+        {
+          "source_id": "T2",
+          "url": "https://page.techsoup.org/refurbished-hardware-nonprofits",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Current marketing/request path; product and environmental statements remain provider claims."
+        },
+        {
+          "source_id": "T3",
+          "url": "https://support.techsoup.org/hc/en-us/articles/360030995673-Providers-Policies-Nonprofit-Eligibility-Requirements-and-Restrictions",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated 2026-09-22; validation versus individual offer admission, geography and restrictions."
+        },
+        {
+          "source_id": "T4",
+          "url": "https://support.techsoup.org/hc/en-us/articles/360055217673-Terms-of-Use-Nonprofit-Offers-Acquired-Through-TechSoup",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated 2026-03-31; usual requesting-organization and nontransfer rules, including explicit exceptions."
+        },
+        {
+          "source_id": "T5",
+          "url": "https://support.techsoup.org/hc/en-us/articles/47348125260443-Refurbished-Hardware-RHW-Shipping-Support",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated 2026-03-05; shipping/receiving and time-sensitive reporting guidance."
+        },
+        {
+          "source_id": "T6",
+          "url": "https://support.techsoup.org/hc/en-us/articles/47348479344155-Refurbished-Hardware-RHW-Warranty-Support",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated 2026-03-05; public support summary read; linked full warranty separately inaccessible."
+        },
+        {
+          "source_id": "T7",
+          "url": "https://support.techsoup.org/hc/en-us/articles/47357148148635-Refurbished-Hardware-RHW-Returns-and-Refunds",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated 2026-03-05; return/refund process, not an actual approved return."
+        },
+        {
+          "source_id": "T8",
+          "url": "https://support.techsoup.org/hc/en-us/articles/47357282663195-End-of-Life-TakeBack-Program-for-Refurbished-Hardware-RHW",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated 2026-03-03; takeback summary read, complete linked scope separately inaccessible."
+        },
+        {
+          "source_id": "T9",
+          "url": "https://www.techsoup.org/refurbished-computers",
+          "review_date": "2026-10-19",
+          "successful_content_read": false,
+          "scope": "Actual HTTP403; current catalog, SKU inventory, price, product eligibility and order fields not inspected."
+        },
+        {
+          "source_id": "T10",
+          "url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+          "review_date": "2026-10-19",
+          "successful_content_read": false,
+          "scope": "Actual HTTP403 on linked standard warranty; successful verification date remains null."
+        },
+        {
+          "source_id": "T11",
+          "url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+          "review_date": "2026-10-19",
+          "successful_content_read": false,
+          "scope": "Actual HTTP403 on linked takeback detail; covered products, geography, shipping and data handling unverified."
+        },
+        {
+          "source_id": "T12",
+          "url": "https://page.techsoup.org/privacy?hsLang=en",
+          "review_date": "2026-10-19",
+          "successful_content_read": false,
+          "scope": "Actual HTTP404 on marketing landing privacy link; no policy contents recovered."
+        },
+        {
+          "source_id": "T13",
+          "url": "https://www.techsoup.org/privacypolicy",
+          "review_date": "2026-10-19",
+          "successful_content_read": false,
+          "scope": "Actual HTTP403 on canonical privacy URL; search excerpts not promoted to a full privacy review."
+        },
+        {
+          "source_id": "A1",
+          "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Final September2025 SP800-88 Revision2 publication/abstract; media-sanitization program reference only."
+        },
+        {
+          "source_id": "A2",
+          "url": "https://storage.fasb.org/ASU_2020-07.pdf",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Issued September2020 official PDF, authority notice and summary pages1-2; conditional accounting reference, not applicant recognition."
+        },
+        {
+          "source_id": "A3",
+          "url": "https://www.irs.gov/publications/p561",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
+        },
+        {
+          "source_id": "T14",
+          "url": "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated2026-09-22; explicit U.S. fiscal-sponsored applicant and sponsor-account exclusion."
+        },
+        {
+          "source_id": "T15",
+          "url": "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Updated2026-09-22; actual redirected canonical page distinguishes owned-and-operated nonprofit programs from fiscal sponsorship."
+        }
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "COMPUTER-AID-GET-COMPUTERS",
+      "provider": "Computer Aid International",
+      "program_name": "Get Computers — organizational equipment distribution",
+      "program_aliases": [
+        "Computer Aid Get Computers",
+        "Computer Aid hardware distribution"
+      ],
+      "round": null,
+      "category": "Hardware and infrastructure",
+      "support_type": "Conditional refurbished equipment access with fees; no verified loan offer or received gift",
+      "official_program_url": "https://www.computeraid.org/get-computers/",
+      "official_application_url": "https://computeraid.typeform.com/to/c7BT9gwY",
+      "eligibility_jurisdiction": "International organizational route; actual beneficiary and destination admission unverified",
+      "legal_entity_requirements": "Resolve the documented beneficiary requirements and any facilitator separately against actual legal status",
+      "available_before_incorporation": "Unknown",
+      "available_through_fiscal_sponsorship": "Unknown",
+      "available_after_501c3_recognition": "Unknown",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Actual recipient, mission, jurisdiction and signatory evidence remain unverified.",
+        "Admission to the specific program/product must be established independently of public repository access or a possible fiscal host.",
+        "The canonical memo separates current program facts, access failures and remaining applicant conditions."
+      ],
+      "application_gate": "No application or acquisition authorized by this assessment. Establish the finite receiving need, actual recipient, specific offer/terms, custody and financial/exit review before external representation or commitment.",
+      "application_status": "No application in this execution; historical state Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Compare evidenced cost of a necessary alternative actually avoided with all incremental fees, logistics, operation, maintenance and exit costs. Recipient accounting, donor tax valuation and avoided cost remain distinct; actual inputs and value are null.",
+      "restrictions_and_obligations": [
+        "Complete provider-specific findings, observed terms and inaccessible-policy limits are recorded in the canonical hardware memo.",
+        "Do not infer title, a loan offer, permission to transfer, a warranty duration or a free operating/exit path from a program name.",
+        "Resolve actual publication, publicity, data, software and permitted-use terms before a concrete arrangement; no editorial concession is offered."
+      ],
+      "program_objectives": "Provide suitable technology access to eligible nonprofit/social-benefit organizations; exact program admission remains separate.",
+      "fit_with_pick_your_ai": "Conditional support for one evidenced uncovered N08 manual accessibility/presentation task; no shortage or suitable unit has yet been established. Existing hosting, public CI and native device-matrix ownership remain intact.",
+      "required_application_evidence": [
+        "Actual beneficiary and any facilitator, requested equipment quantities, and receiving destination/terminal where applicable.",
+        "Documented local support and suitable operating arrangements; full embedded form fields were not readable."
+      ],
+      "required_contacts_or_decisions": [
+        "Evidence-backed inventory and exact receiving technical scope.",
+        "Actual recipient/signatory and asset custodian; no person appointed here.",
+        "Concrete provider offer and complete product/privacy/return terms.",
+        "Independent financial treatment, total-cost and useful-life review before an asset or deduction claim."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      ],
+      "confidence": "Bounded primary statements and access observations recorded; actual eligibility, offer, asset value and full findings acceptance remain unverified.",
+      "sources": [
+        {
+          "url": "https://www.computeraid.org/get-computers/",
+          "publisher": "Computer Aid International",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Current organizational equipment application lead; no actual recipient or award readback."
+        },
+        {
+          "url": "https://www.computeraid.org/faqs/",
+          "publisher": "Computer Aid International",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Current fee/shipping and provider stock descriptions; actual unit condition/value unverified."
+        },
+        {
+          "url": "https://www.computeraid.org/terms-conditions/",
+          "publisher": "Computer Aid International",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Separate Website Standard Terms and July2026 beneficiary-distribution terms read; legal scopes retained."
+        },
+        {
+          "url": "https://www.computeraid.org/privacy-policy/",
+          "publisher": "Computer Aid International",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Actual visible repeated Suggested text website sections; hardware application-data policy remains unverified."
+        },
+        {
+          "url": "https://computeraid.typeform.com/to/c7BT9gwY",
+          "publisher": "Computer Aid International",
+          "accessed_on": "2026-10-19",
+          "status": "Attempted; successful content verification remains null",
+          "scope": "Official linked form produced no readable content; no entries, progression or submission."
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+          "publisher": "NIST",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Final September2025 SP800-88 Revision2 publication/abstract; media-sanitization program reference only."
+        },
+        {
+          "url": "https://storage.fasb.org/ASU_2020-07.pdf",
+          "publisher": "FASB",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "Issued September2020 official PDF, authority notice and summary pages1-2; conditional accounting reference, not applicant recognition."
+        },
+        {
+          "url": "https://www.irs.gov/publications/p561",
+          "publisher": "IRS",
+          "accessed_on": "2026-10-19",
+          "status": "Public scope read",
+          "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under the eight-factor scheme: actual eligibility, uncovered demand, defensible avoided cost, provider likelihood, timing and effort are unverified. P2 is the justified research priority, not an application ranking."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Accept or correct the complete findings through independent review, then resolve the finite receiving need and actual recipient before any provider-specific request.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Recheck before an offer, application, order, agreement, receipt, use, return or disposal; also after changed product/eligibility/privacy terms, access result or available inventory.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No receipt or activation in this execution; historical state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No binding schedule established; inspect the actual agreement before recording obligations",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Computer Aid Get Computers",
+          "Computer Aid hardware distribution",
+          "Computer Aid International",
+          "COMPUTER-AID-GET-COMPUTERS"
+        ],
+        "canonical_match": "No existing program record or duplicate organization issue/PR identified; retained existing E06-04 / #54 ownership. Local canonical records and live issue/PR queries inspected.",
+        "queries": [
+          "org:Pick-Your-AI is:issue TechSoup",
+          "org:Pick-Your-AI is:pull-request TechSoup",
+          "org:Pick-Your-AI is:issue \"Computer Aid\"",
+          "org:Pick-Your-AI is:pull-request \"Computer Aid\"",
+          "org:Pick-Your-AI is:issue RHW",
+          "org:Pick-Your-AI is:pull-request RHW"
+        ]
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Not reviewed; complete independent findings acceptance pending",
+        "limitations": [
+          "No actual applicant, provider offer, physical inventory, unit condition, account/form or financial evidence established.",
+          "Bounded primary-source observations do not establish acceptance of the complete package."
+        ]
+      },
+      "owning_research_key": "E06-04",
+      "source_urls": [
+        "https://www.computeraid.org/get-computers/",
+        "https://www.computeraid.org/faqs/",
+        "https://www.computeraid.org/terms-conditions/",
+        "https://www.computeraid.org/privacy-policy/",
+        "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+        "https://storage.fasb.org/ASU_2020-07.pdf",
+        "https://www.irs.gov/publications/p561"
+      ],
+      "source_refs": [
+        "https://www.computeraid.org/get-computers/",
+        "https://www.computeraid.org/faqs/",
+        "https://www.computeraid.org/terms-conditions/",
+        "https://www.computeraid.org/privacy-policy/",
+        "https://computeraid.typeform.com/to/c7BT9gwY",
+        "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+        "https://storage.fasb.org/ASU_2020-07.pdf",
+        "https://www.irs.gov/publications/p561"
+      ],
+      "source_review_status": "Primary program sources checked with recorded access and policy limitations; complete findings acceptance pending",
+      "award_status": "Unknown; no award evidence established",
+      "current_disposition": "Conditional lead; defer any application or payment until beneficiary fit, logistics, concrete unit terms and useful value are evidenced",
+      "score": null,
+      "canonical_deliverable": "research/hardware/partner-shortlist.md",
+      "applicant_qualification_status": "Unknown",
+      "priority_scope_note": "P2 bounded program research; no qualified applicant, guaranteed value or approved acquisition.",
+      "source_evidence": [
+        {
+          "source_id": "C1",
+          "url": "https://www.computeraid.org/get-computers/",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Current organizational equipment application lead; no actual recipient or award readback."
+        },
+        {
+          "source_id": "C2",
+          "url": "https://www.computeraid.org/faqs/",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Current fee/shipping and provider stock descriptions; actual unit condition/value unverified."
+        },
+        {
+          "source_id": "C3",
+          "url": "https://www.computeraid.org/terms-conditions/",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Separate Website Standard Terms and July2026 beneficiary-distribution terms read; legal scopes retained."
+        },
+        {
+          "source_id": "C4",
+          "url": "https://www.computeraid.org/privacy-policy/",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Actual visible repeated Suggested text website sections; hardware application-data policy remains unverified."
+        },
+        {
+          "source_id": "C5",
+          "url": "https://computeraid.typeform.com/to/c7BT9gwY",
+          "review_date": "2026-10-19",
+          "successful_content_read": false,
+          "scope": "Official linked form produced no readable content; no entries, progression or submission."
+        },
+        {
+          "source_id": "A1",
+          "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Final September2025 SP800-88 Revision2 publication/abstract; media-sanitization program reference only."
+        },
+        {
+          "source_id": "A2",
+          "url": "https://storage.fasb.org/ASU_2020-07.pdf",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "Issued September2020 official PDF, authority notice and summary pages1-2; conditional accounting reference, not applicant recognition."
+        },
+        {
+          "source_id": "A3",
+          "url": "https://www.irs.gov/publications/p561",
+          "review_date": "2026-10-19",
+          "successful_content_read": true,
+          "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
+        }
+      ]
     }
   ],
   "important_limitations": [
-    "Published source facts were checked for all 39 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
-    "14 nonprofit/funding records and 25 compute/tool/service records share the same schema and stable owning research keys. A research package can own several distinct program records; those records are not duplicate issues.",
+    "Published source facts and explicit access/history limitations are recorded for all 41 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "14 nonprofit/funding records and 27 compute/tool/hardware/service records share the same schema and stable owning research keys. E06-04 adds two distinct physical-equipment program identities under the existing comparative issue; those records are not duplicate issues.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion does not accept the other program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",
     "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan is one program record reused across relevant research scopes.",
-    "All 39 owning issue URLs were matched to the independent live 72-issue readback. Native parent/blocker relationships and Project fields require separate final live verification."
+    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware program records reuse the actual #54 issue read on 2026-10-19; they do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification."
   ],
   "github_link_readback": {
     "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",

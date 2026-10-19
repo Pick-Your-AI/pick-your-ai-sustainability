@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 39,
+  "record_count": 41,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -795,6 +795,46 @@
       "priority": "P2",
       "score": null,
       "next_action": "Assess readiness and record only officially published future intake dates."
+    },
+    {
+      "opportunity_id": "TECHSOUP-REFURBISHED-HARDWARE",
+      "program_name": "Refurbished Hardware (RHW)",
+      "source_review_status": "Primary program sources checked; U.S. fiscal-sponsored route excluded; recorded access/policy limits and full findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+      "research_status": "In Review",
+      "opportunity_stage": "Discovered",
+      "disposition": "Conditional lead for an actually eligible recipient; do not pursue the excluded U.S. fiscal-sponsored project route. Defer any order until the single uncovered need, product terms and full ownership costs are evidenced.",
+      "eligibility": "Unknown",
+      "application_gate": "No application or acquisition authorized by this assessment. Establish the finite receiving need, actual recipient, specific offer/terms, custody and financial/exit review before external representation or commitment.",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No receipt or activation in this execution; historical state Unknown",
+      "reporting_status": "No binding schedule established; inspect the actual agreement before recording obligations",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P2",
+      "score": null,
+      "next_action": "Accept or correct the complete findings through independent review, then resolve the finite receiving need and actual recipient before any provider-specific request."
+    },
+    {
+      "opportunity_id": "COMPUTER-AID-GET-COMPUTERS",
+      "program_name": "Get Computers — organizational equipment distribution",
+      "source_review_status": "Primary program sources checked with recorded access and policy limitations; complete findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+      "research_status": "In Review",
+      "opportunity_stage": "Discovered",
+      "disposition": "Conditional lead; defer any application or payment until beneficiary fit, logistics, concrete unit terms and useful value are evidenced",
+      "eligibility": "Unknown",
+      "application_gate": "No application or acquisition authorized by this assessment. Establish the finite receiving need, actual recipient, specific offer/terms, custody and financial/exit review before external representation or commitment.",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No receipt or activation in this execution; historical state Unknown",
+      "reporting_status": "No binding schedule established; inspect the actual agreement before recording obligations",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P2",
+      "score": null,
+      "next_action": "Accept or correct the complete findings through independent review, then resolve the finite receiving need and actual recipient before any provider-specific request."
     }
   ]
 }

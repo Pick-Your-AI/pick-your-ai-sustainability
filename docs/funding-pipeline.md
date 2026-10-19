@@ -1,6 +1,6 @@
 # Funding and support pipeline
 
-**Draft evidence snapshot, 2026-10-19.** 39 program/channel records have current source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
+**Draft evidence snapshot, 2026-10-19.** 41 program/channel records have current source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
@@ -8,7 +8,7 @@ The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 32 records, including the completed Together and Cerebras Not Pursuing assessments retained at their historical stage |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 34 records, including the completed Together and Cerebras Not Pursuing assessments retained at their historical stage |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | 7: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), [Anthropic researcher access](../research/compute/anthropic-researcher-access.md), [Gemini academic support](../research/compute/google-gemini-research.md), [Azure nonprofit AI coverage](../research/compute/azure-nonprofit-ai.md) and [AWS open-source credits](../research/infrastructure/aws-open-source-credits.md), each with independent findings acceptance; [CodeSupply assessment](../data/opportunities/nlnet-programs.json) with the linked independent NLnet findings review |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -30,6 +30,8 @@ The [AWS assessment](../research/infrastructure/aws-open-source-credits.md) is D
 The [Cerebras assessment](../research/compute/cerebras-support.md) is Done / Not Pursuing for the proposed independent benchmark after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/95#pullrequestreview-5571431369) at `d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53`. Its stage remains Discovered, priority P3, all three applicant routes Unknown and actual value unverified. The closed research RFP and distinct current builder/event/ambassador leads do not establish admitted use, received support or activation.
 
 The [NLnet current-call assessment](../data/opportunities/nlnet-programs.json) is Done after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816). CodeSupply is Verified for program research and remains deferred from application pending actual scope and applicant evidence. Restack and Commons Fund are Done / Not Pursuing and retain their historical Discovered stages. This acceptance supplies neither applicant qualification nor an application, award or payable-work claim.
+
+The [hardware partner assessment](../research/hardware/partner-shortlist.md) adds two In Review / Discovered records under existing #54. Their current conditional leads do not establish a recipient, qualified request, physical inventory, equipment offer, loan, received gift or usable value. Actual findings acceptance remains pending; numeric scores and values stay null. Existing accepted lifecycle decisions are preserved.
 
 ## Known calendar facts
 

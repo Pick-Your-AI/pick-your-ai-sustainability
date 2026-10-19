@@ -38,6 +38,14 @@ it cannot silently become a matching score or zero. Ordinary decimals such as
 remain supported. Original file bytes are never rewritten. This checks the
 reader's numeric representation, not the accuracy or evidential basis of a score.
 
+URI format checks require a complete match of the original JSON string.
+Python's [`$` regular-expression anchor](https://docs.python.org/3.12/library/re.html#regular-expression-syntax)
+can match before a final newline (checked 2026-10-19); that prefix alone does
+not validate the complete URI value. Literal trailing newlines are rejected in
+canonical URI fields, freshness source URLs and filled template values.
+Permitted percent-encoded content such as `%0A` retains its existing syntax
+treatment, and original strings and file bytes are preserved without trimming.
+
 Markdown links and images are parsed as CommonMark, including reference links and tables. Relative and repository-root paths must exist inside the checkout. Code examples, external URLs and fragments are not checked; this is not a live-source freshness check or a heading-anchor/HTML-link checker. Local virtual environments, Git metadata, dependency directories and bytecode caches are excluded. External JSON Schema references are refused instead of fetched.
 
 The [validation workflow](.github/workflows/validate.yml) runs the same commands for pull requests to any target branch (including stacked contributions) and pushes to `main`, with only `contents: read` permission. It uses immutable releases of [checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1) and [setup-python v7.0.0](https://github.com/actions/setup-python/releases/tag/v7.0.0). Direct dependencies are pinned to official PyPI releases: [jsonschema 4.26.0](https://pypi.org/project/jsonschema/4.26.0/), [markdown-it-py 4.0.0](https://pypi.org/project/markdown-it-py/4.0.0/), [rfc3986-validator 0.1.1](https://pypi.org/project/rfc3986-validator/0.1.1/), and [PyYAML 6.0.3](https://pypi.org/project/PyYAML/6.0.3/). Reverify the official tag-to-commit mapping when updating action pins.

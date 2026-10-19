@@ -11,7 +11,7 @@ A shared owning key means one comparative research package evaluates different p
 | Program | Owning key | Opportunity disposition |
 |---|---|---|
 | Restack | E03-01 | Not Pursuing for ordinary AI-builder scope |
-| CodeSupply | E03-01 | Research; blocked from application pending scope, contributor and authority evidence |
+| CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
 | Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
 | Sponsors for organizations | E04-01 | Organization onboarding route documented; existing account state Unknown |
@@ -40,4 +40,4 @@ Use [the fill-in record template](../templates/opportunity-record.json). It inte
 
 `source_refs` contains durable official URLs, not browser-session identifiers or positional claim indices. Distinct application and registration endpoints are tracked by the freshness register, including unresolved access attempts. Identifying a link does not verify its current form contents.
 
-Source facts checked does not mean the canonical program/intake assessment has received independent acceptance. The records retain Discovered under the clarified [transition rules](../docs/operations-and-reporting.md). The [Fireworks startup exclusion](../research/compute/fireworks-support.md) has independently accepted bounded findings and completed research, while preserving its historical stage after the failed applicant gate and its Not Pursuing disposition. The other records retain their individual unresolved research/review gates. Verified, Qualified and externally authorized actions have separate evidence requirements.
+Source facts checked does not mean the canonical program/intake assessment has received independent acceptance. Records awaiting findings acceptance retain Discovered under the clarified [transition rules](../docs/operations-and-reporting.md). The [Fireworks startup exclusion](../research/compute/fireworks-support.md) has independently accepted bounded findings and completed research, while preserving its historical stage after the failed applicant gate and its Not Pursuing disposition. Each record retains its own research/review state and applicant gates. Verified, Qualified and externally authorized actions have separate evidence requirements.

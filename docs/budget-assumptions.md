@@ -2,6 +2,8 @@
 
 Status: partial planning worksheet. Currency for this worksheet: USD, selected explicitly for a proposed US program. No actual expenditure, appropriation or funding balance has been verified here.
 
+The canonical [twelve-month model](funding/operating-budget.md) and its [scenario data](../data/budget/operating-budget.json) consume these dated inputs. Preserve this initial worksheet as source history; do not add its totals to the same hosting scope a second time.
+
 ## Source-backed planning input
 
 The [leaderboard hosting architecture](https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/main/docs/hosting-architecture.md), inspected on 2026-10-19, records a USD 112.70 monthly engineering allocation and USD 200 monthly design ceiling. The record includes two application VMs, two databases and backup/export allowances; it expressly requires a current account-specific quote and billing/operating acceptance before provisioning. The USD 20 independent-export line is an allowance, not a vendor quote.

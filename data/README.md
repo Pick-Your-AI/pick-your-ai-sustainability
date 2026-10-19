@@ -1,6 +1,6 @@
 # Opportunity evidence register
 
-This register contains **39 distinct program/channel records**: 14 nonprofit and funding records and 25 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
+This register contains **49 distinct program/channel records**: the 46 previously accepted identities plus three distinct crowdfunding routes. The records distinguish seed evidence from individually accepted research findings. Records carry dated source observations and explicit access limits; no record is asserted to be a qualified or authorized application.
 
 The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
@@ -11,10 +11,10 @@ A shared owning key means one comparative research package evaluates different p
 | Program | Owning key | Opportunity disposition |
 |---|---|---|
 | Restack | E03-01 | Not Pursuing for ordinary AI-builder scope |
-| CodeSupply | E03-01 | Research; blocked from application pending scope, contributor and authority evidence |
+| CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
-| Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
-| Sponsors for organizations | E04-01 | Organization onboarding route documented; existing account state Unknown |
+| Secure Open Source Fund | E03-02 | Defer application; verify maintainer and project fit |
+| [Sponsors for organizations](opportunities/github-sponsors.json) | E04-01 | Done / Verified readiness research; actual recipient, authority and payout route Unknown; setup remains on hold |
 | Member-project fiscal sponsorship | E01-04 | Rolling inquiry/application process; acceptance may take months |
 | Associated project fiscal hosting | E01-04 | Application process documented; PYA acceptance/relationship Unknown |
 | Fiscal hosting for open-source projects | E01-04 | Application/validation route documented; no acceptance claimed |
@@ -24,6 +24,11 @@ A shared owning key means one comparative research package evaluates different p
 | PESOSE (NSF 26-506) | E03-06 | Active solicitation; PYA applicant route not qualified |
 | Small Research Grants on Education | E03-05 | Watch for a verified reopening; do not apply |
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
+| SBA 7(a) business loans | E03-08 | Completed nonbinding screen; Not Pursuing as present charitable project funding; no borrowing commitment |
+| YC standard investment deal | E03-08 | Completed nonbinding screen; Not Pursuing for the current charitable-funding shortlist; no investment or issuance |
+| GoFundMe personal/business fundraiser | E04-02 | P2 conditional lead; recipient/country/authority and exact permitted-use terms remain Unknown |
+| GoFundMe certified nonprofit fundraiser | E04-02 | P2 conditional lead; recognized beneficiary/host, certification and agreement remain Unknown |
+| Kickstarter creative-project crowdfunding | E04-02 | P3 not selected for the current maintenance scope; a new admissible creative proposal would need reassessment |
 
 ## How to interpret fields
 
@@ -40,4 +45,22 @@ Use [the fill-in record template](../templates/opportunity-record.json). It inte
 
 `source_refs` contains durable official URLs, not browser-session identifiers or positional claim indices. Distinct application and registration endpoints are tracked by the freshness register, including unresolved access attempts. Identifying a link does not verify its current form contents.
 
-Source facts checked does not mean the canonical program/intake assessment has received independent acceptance. The records retain Discovered under the clarified [transition rules](../docs/operations-and-reporting.md). The [Fireworks startup exclusion](../research/compute/fireworks-support.md) has independently accepted bounded findings and completed research, while preserving its historical stage after the failed applicant gate and its Not Pursuing disposition. The other records retain their individual unresolved research/review gates. Verified, Qualified and externally authorized actions have separate evidence requirements.
+Source facts checked does not mean the canonical program/intake assessment has received independent acceptance. Records awaiting findings acceptance retain Discovered under the clarified [transition rules](../docs/operations-and-reporting.md). The [Fireworks startup exclusion](../research/compute/fireworks-support.md) has independently accepted bounded findings and completed research, while preserving its historical stage after the failed applicant gate and its Not Pursuing disposition. Each record retains its own research/review state and applicant gates. Verified, Qualified and externally authorized actions have separate evidence requirements.
+
+## Hardware partner comparison
+
+The [E06-04 assessment](../research/hardware/partner-shortlist.md) adds two distinct TechSoup RHW and Computer Aid Get Computers records under existing [#54](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54). They are Done / Verified for program research after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399) at `25eb4b8e047e2adb736d6540b4588b1f3a462697`. Both retain actual overall applicant, inventory, custody, offer, value and effort Unknowns; the documented U.S. fiscal-sponsored TechSoup route is explicitly ineligible. Their shared owning issue was separately read; the original 39-record native setup audit does not extend to a new snapshot or Project item. Existing NVIDIA, AMD, Samsung and all other program rows remain unchanged. The memo distinguishes fee-based access, gifts, loans, accounting and donor-tax valuation, and includes an unsent single-station request with care and exit requirements.
+
+## Award mechanism findings accepted
+
+The [mechanism matrix](../docs/funding/award-mechanisms-and-restrictions.md) has [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352) for all thirteen issue #32 criteria at 5302c991db1087383f282663f7315f42d7054522. Its fourteen original `award_mechanism_screen` values remain byte-exact; their original Pending review objects are historical. A separate `award_mechanism_review` records the later scoped acceptance without changing existing program-owner workflow or findings. The two unique financing screens are Done research, retain historical Discovered stages, P3 and nonbinding Not Pursuing decisions, and preserve their original review/status history.
+
+In the earlier receiving snapshot, the accepted-main input was af922c0f61cb2a499f4206249ff2d079756f6bdd. At that revision, all 41 identities, every original field and all previous source-array members were preserved; only the three GSoC/Sloan source additions and the two scoped fields on fourteen records were additive. The other 27 records then remained byte-exact. The original 39-owner relationship/Project audit above and the initial85 source-preservation snapshot are historical; neither is refreshed by this composition. Actual eligibility, value, recipient, authority, instrument and operating gates remain separate.
+
+## Additional infrastructure comparison
+
+The [E06-03 comparison](../research/infrastructure/additional-programs.md) updates Fastly and adds distinct Netlify OSS, Buildkite OSS-pricing and historical DigitalOcean OSS-credit records under existing [#53](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53). Azure retains its separate accepted record without modification. The complete comparison is Done after [full independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595) at `638c14596dac123cd6c785da091b680c724d1907`. Fastly, Netlify and Buildkite are Verified for program research; DigitalOcean remains historically Discovered with its Not Pursuing current-request disposition. It preserves current hosting/public CI, explicit applicant and intake Unknowns, null values/scores and a separate disposition for each candidate. The historical DigitalOcean route is retained without asserting provider-wide closure.
+
+## Donation-channel comparison
+
+The [E04-02 comparison](../docs/funding/donation-channel-comparison.md) adds three distinct crowdfunding records under existing [#34](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34). Their research is Done after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949) at `c32717e7f11e4b4720954f551ec83687176bfc19`; their opportunity stages remain Discovered. The GoFundMe routes retain P2 conditional/deferred dispositions, and Kickstarter retains P3 non-selection for the proposed maintenance scope. The [structured assessment](opportunities/donation-channel-assessment.json) records the three applicant routes, dated public-source and access observations, and remaining recipient, need, agreement and tax questions. No actual applicant, account, campaign, charitable treatment, payment or usable value is established. The existing host and Sponsors records retain their canonical ownership; this addition does not extend the historical GitHub-link or Project audits.

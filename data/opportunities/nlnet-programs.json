@@ -1,0 +1,276 @@
+{
+  "schema_version": "nlnet-program-research/v1",
+  "research_key": "E03-01",
+  "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
+  "prepared_on": "2026-10-19",
+  "status": "Done; independent findings accepted",
+  "authorship": "Prepared with ChatGPT GPT-6 Astra Pro in session c3fa0109d6ff. This is AI-assisted program research, not a human-authored grant application or a claim for payable grant work.",
+  "decision": {
+    "recommendation": "Retain Restack and Commons Fund as Not Pursuing; defer CodeSupply qualification until a genuine reusable software-metadata deliverable and actual applicant facts are evidenced.",
+    "research_priority": "P2",
+    "numeric_score": null,
+    "score_reason": "Eligibility is a hard gate. Scope, contributor allocation, demand, cost and capacity evidence cannot support the repository's weighted numeric assessment yet. The external deadline does not create P0 readiness.",
+    "execution": "No application, provider contact, partner arrangement, contract, submission receipt, award, payment or activation was made by this research. Historical private activity remains Unknown.",
+    "completion_boundary": "A reviewed defer or researched exclusion can complete issue #25. It does not complete applicant qualification or authorize a future submission."
+  },
+  "programs": [
+    {
+      "opportunity_id": "NLNET-RESTACK",
+      "program_name": "Restack",
+      "source_ids": ["N01", "N07", "N08", "N09"],
+      "round": "First call, opened 2026-09-03",
+      "intake": "Open as observed 2026-10-19",
+      "deadline_id": "D01",
+      "benefit_type": "Prospective cash grant",
+      "currency": "EUR",
+      "first_proposal_range": {"minimum": 5000, "maximum": 50000},
+      "later_funding_limits": "The guide describes later proposals up to EUR 150,000 and a cumulative EUR 500,000 per person or entity, subject to its prior-completion and other conditions. These are ceilings, not an available PYA award, and do not apply to CodeSupply.",
+      "scope": "Work must contribute to the Open Internet Stack. Ordinary AI development, application or integration is excluded. The published exception requires an existing audience above one million active human users and direct stack relevance.",
+      "pya_assessment": "No accepted evidence establishes that exception. Repository stars, test runs, a planned audience and a sponsor's status cannot establish active human users or change the proposed work's scope.",
+      "eligibility_routes": {
+        "present_community": "Ineligible for the ordinary AI-builder scope; a generally permitted individual or informal organization route does not cure it.",
+        "fiscal_sponsored_project": "Ineligible for the same proposed scope; no sponsor or contributor exception is established.",
+        "independent_501c3": "Ineligible for the same proposed scope; actual recognition remains Unknown and would not cure this exclusion."
+      },
+      "recommended_disposition": "Not Pursuing for ordinary AI-builder scope",
+      "priority": "P3",
+      "next_action": "Retain the exclusion. Reopen only for a documented provider rule change or independently evidenced genuinely eligible scope and applicant; do not construct an exception to meet the deadline."
+    },
+    {
+      "opportunity_id": "NLNET-CODESUPPLY",
+      "program_name": "CodeSupply",
+      "source_ids": ["N02", "N10", "N11", "N12"],
+      "round": "First call, opened 2026-09-03",
+      "intake": "Open as observed 2026-10-19",
+      "deadline_id": "D01",
+      "benefit_type": "Prospective cash grant",
+      "currency": "EUR",
+      "first_proposal_range": {"minimum": 5000, "maximum": 50000},
+      "later_funding_limits": "The guide caps proposals and cumulative funding at EUR 60,000 per person or entity. The initial call's EUR 50,000 maximum remains the current first-proposal limit.",
+      "scope": "Auxiliary FOSS work must advance software-package metadata, including origin, licensing, security and quality, or its interoperable infrastructure. General AI-product development is not thereby qualified.",
+      "pya_assessment": "The existing license/provenance need provides a concrete investigation lead in use_case C01. No accepted CodeSupply integration, upstream demand, technical specification, delivery team or applicant qualification has been established.",
+      "eligibility_routes": {
+        "present_community": "Conditionally available applicant type: the FAQ permits individuals and formal or informal organizations. Actual PYA scope, contributors, allocation, conflicts, rights, authority and capacity remain Unknown.",
+        "fiscal_sponsored_project": "Unknown. A named authorized host, its relationship to the actual recipients, country/allocation evidence, fees and permitted funds flow are missing. No automatic fiscal-sponsorship entitlement is published in the inspected sources.",
+        "independent_501c3": "Conditionally available organization type. US nonprofit recognition is not a stated prerequisite or an exemption from European-dimension, scope, rights and conflict rules. Actual recognition and authority remain Unknown."
+      },
+      "recommended_disposition": "Defer application; P2 qualification research only",
+      "priority": "P2",
+      "next_action": "Consume the existing #11/#17/#21 evidence, establish C01's reusable package-metadata scope and real contributor budget, then make a separate qualification decision. If those facts do not support the call, retain defer or Not Pursuing rather than submit an unrelated AI proposal."
+    },
+    {
+      "opportunity_id": "NLNET-NGI0-COMMONS",
+      "program_name": "NGI Zero Commons Fund",
+      "source_ids": ["N03"],
+      "intake": "Closed to new applications",
+      "historical_final_call_closed_on": "2026-06-01",
+      "deadline_id": null,
+      "current_application_url": null,
+      "benefit_type": "Historical cash-grant program; no current offer",
+      "current_benefit_amount": null,
+      "historical_terms_warning": "The current closure notice governs intake. Older generic EUR 30,000 guidance and historical amounts in page text are not current application terms. Restack and CodeSupply retain their own identities and conditions.",
+      "eligibility_routes": {
+        "present_community": "Unavailable: intake closed",
+        "fiscal_sponsored_project": "Unavailable: intake closed",
+        "independent_501c3": "Unavailable: intake closed"
+      },
+      "recommended_disposition": "Not Pursuing; closed historical program",
+      "priority": "P3",
+      "next_action": "Preserve closure evidence. Record a genuinely new program separately; do not reopen this record merely because a different NLnet call is open."
+    }
+  ],
+  "current_intake": {
+    "source_ids": ["N01", "N02", "N04"],
+    "deadline": {
+      "id": "D01",
+      "applies_to": ["NLNET-RESTACK", "NLNET-CODESUPPLY"],
+      "local_date": "2026-11-03",
+      "local_time": "12:00",
+      "timezone": "CET (UTC+01:00)",
+      "utc": "2026-11-03T11:00:00Z",
+      "internal_submission_date": null,
+      "readiness": "Unqualified; a published cutoff neither assigns a person nor authorizes an application"
+    },
+    "application_url": "https://nlnet.nl/propose/",
+    "observed_process": "The actual public English proposal form was read without entering or submitting applicant data. Select the specific fund; provide applicant/contact/country details, project description, relevant experience, repository links, budget and task breakdown, comparison, challenges, ecosystem and other funding.",
+    "observed_limits": {
+      "project_summary_characters": 1000,
+      "relevant_experience_characters": 2000,
+      "repository_links": 4,
+      "budget_breakdown_characters": 4000,
+      "comparison_characters": 4000,
+      "technical_challenges_characters": 4000,
+      "ecosystem_characters": 2000,
+      "other_funding_characters": 1000,
+      "ai_interaction_log_characters": 8000,
+      "optional_attachment_megabytes": 50
+    },
+    "application_evidence_status": "Visible fields and guidance checked. Validation, submission delivery, a receipt, applicant account history and private fund-specific follow-up were not exercised.",
+    "application_draft": "Not prepared: the proposed deliverable and actual applicant are not qualified. No outreach is needed to establish the published defer/exclusion findings."
+  },
+  "shared_conditions": {
+    "european_dimension": {
+      "source_ids": ["N05", "N08", "N11"],
+      "published_route": "The dimension follows the people receiving grant funds, not merely the project's global benefit. The ordinary published route allocates at least 60 percent to contributors from Horizon Europe eligible countries.",
+      "country_source_date": "NLnet lists its country update as 2026-10-13 and says the European Commission list governs a discrepancy. This research does not qualify any specific person's country.",
+      "exception": "Eligibility pages describe provider discretion for exceptional quality and unique technical expertise. This is not an entitlement and supplies no PYA exception evidence.",
+      "unknowns": ["Actual contributors and eligible-country evidence", "Per-person work and grant allocation", "Any documented provider exception"],
+      "control": "Do not invent a European contributor, rename an address or assume a fiscal host satisfies the people-and-allocation test."
+    },
+    "licensing_and_conflicts": {
+      "source_ids": ["N07", "N08", "N10", "N11", "N12"],
+      "conditions": "Call-relevant results require recognized free/open source licensing. Eligible applicant types remain subject to consortium, staff, reviewer and connected-party exclusions in the guides; the broad eligibility-page wording does not remove those conflicts.",
+      "rights": "Establish rights to release the proposed component and each dependency/input. An open component must remain independently usable if a closed product surrounds it. Disclose relevant patents and incompatible obligations; extra licensing needs rights held by the licensor.",
+      "pya_state": "The actual asset/license inventory and contributor agreements belong to #17. A repository's public visibility or a catalog's license field does not establish all required rights."
+    },
+    "generative_ai": {
+      "source_ids": ["N04", "N06", "N09", "N12"],
+      "policy": "Effective 2025-12-08; inspected version 1.1 dated 2026-01-26",
+      "requirements": [
+        "Disclose application assistance, including drafting, translation and summarization. Preserve the model, interaction dates/times, prompts and unedited outputs required by the policy.",
+        "Purely AI-generated outcomes are ineligible for payment. Humans must retain responsibility and be able to explain the work; no human-authorship claim is supplied by this assessment.",
+        "Funded outputs need lawful free/open licensing and the applicable public AI-use provenance. The detailed policy distinguishes substantive generated contributions from documentation/testing-only disclosure.",
+        "Noncompliance can cause rejection or termination. AI as a research topic needs expressly accepted scope and does not override Restack's call exclusion."
+      ],
+      "reconciliation": "The form and FAQs discourage AI-generated proposals while allowing disclosed assistance under stated conditions. Read these alongside the dated detailed policy; neither unconditional permission nor a blanket prohibition accurately states the combined guidance.",
+      "pya_state": "This assessment discloses AI assistance. No complete historical contributor/prompt log, lawful-rights finding, human effort or payable milestone is certified."
+    },
+    "money_and_delivery": {
+      "source_ids": ["N09", "N12"],
+      "assessment_timing": "The FAQs estimate three to five months after the deadline; this is not an award date or an internal commitment.",
+      "cash_flow": "No advance payment. Work is paid through accepted milestones and payment requests. Work completed before official selection is not retrospectively payable.",
+      "duration": "The usual FAQ project duration is twelve months, subject to the actual MoU. Programme boundaries differ: Restack May 2030, CodeSupply May 2029. Neither implies a guaranteed new call or extension.",
+      "overhead": "The FAQs ordinarily exclude facilities/administration charges; exceptional overhead is capped at 25 percent. Do not assume a sponsor fee, overhead allowance or tax treatment is approved.",
+      "pya_state": "No bridge funding, payable human work plan, rate, budget, host fee, tax treatment or receiving account is established."
+    },
+    "reporting_branding_and_publication": {
+      "source_ids": ["N07", "N10", "N13"],
+      "actual_obligations": "Unknown until a concrete award and MoU are reviewed. The guides identify the MoU as the place for agreed scope, amount and conditions.",
+      "illustrative_only": "The published sample includes a public status page, progress reports every two months, milestone verification, support attribution/publicity provisions and a claim window after completion. Its named person, project, GPLv3 license, dates and amounts are examples, not a PYA agreement or a universal license/reporting requirement.",
+      "control": "Before agreement, settle the actual release license, acknowledgement wording, reporting calendar, publication/privacy boundary, scope-change process and termination/payment terms. Do not create a binding reporting date from the sample."
+    },
+    "privacy": {
+      "source_ids": ["N04", "N14"],
+      "observed": "The form permits an initial pseudonym and requests contact/applicant information; proposal material is confidential within the stated evaluation process and limited partner sharing. The privacy page also describes committee/partner/Commission use for named NGI programmes.",
+      "uncertainties": "The privacy page's programme labels predate the current Open Internet Stack calls; exact current recipients, proposal retention, deletion exceptions and any host/controller roles need the actual process and agreement. The two-week web-server-log period is not a proposal-retention guarantee.",
+      "conflict": "The privacy page describes PGP protection, but the current form explicitly cautions that not every outgoing email can be encrypted. Do not promise end-to-end encrypted correspondence.",
+      "control": "Keep personal identity, bank data, contributor location evidence and confidential prompt/application material out of public repositories. This research submitted none."
+    },
+    "portability_renewal_overage_and_independence": {
+      "source_ids": ["N07", "N10", "N12", "N13"],
+      "portability": "Required FOSS outputs support reuse, but actual export formats, dependency rights and a standalone reproducible release still need definition. No provider-hosted account or proprietary paid service is part of this proposed benefit.",
+      "renewal": "A follow-on needs an active fund and a substantive new proposal within the applicable caps. Continuation is not automatic.",
+      "overage": "Subscription overage and credit expiry do not describe a cash grant. Costs beyond an accepted budget, ineligible effort and post-grant maintenance remain the project's responsibility unless a later agreement says otherwise.",
+      "independence": "The programme selects scope and verifies milestones. Preserve independent technical conclusions, disclose funding and assess publicity, IP and conflict terms before agreement; no right to influence PYA comparisons is assumed from grant interest."
+    }
+  },
+  "use_case": {
+    "id": "C01",
+    "status": "Concrete existing need; future candidate scope remains unqualified",
+    "working_title": "Reusable software origin and license evidence export with validation",
+    "existing_evidence": [
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/blob/d3548b303eaea7450615848db056f33f97d2cea6/contracts/v1/schemas/catalog-item.schema.json",
+        "observation": "The frozen CatalogItem schema already has provenance references and license properties including spdx_id, commercial_use_allowed and self_hosting_allowed. Presence of a field neither fills it nor proves rights or package-metadata interoperability."
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/blob/d3548b303eaea7450615848db056f33f97d2cea6/research/T0-configuration/catalog-data-sources.md",
+        "observation": "The accepted source policy separates origin, version, date and per-use rights and preserves unknown/conflicting evidence. Its typed source-policy inventory is explicitly a proposal about research records, not a replacement CatalogItem wire contract."
+      }
+    ],
+    "prospective_public_deliverable": "Investigate a small independently reusable FOSS exporter/validator for software-dependency origin, version and license evidence, with open fixtures, documented uncertainty and reproducible checks. A useful component would preserve unknown or conflicting rights and document exactly which package facts it supports.",
+    "fit_test": "First compare established package metadata tools and standards, establish a documented unmet interoperability need with upstream users, and define an accepted contribution to CodeSupply infrastructure. Existing AI catalog fields alone cannot pass this test.",
+    "nonclaims": [
+      "No exporter, standard mapping, CodeSupply integration, package dataset, benchmark result or adopter is delivered by this funding assessment.",
+      "An AI ranking page, model-price catalog or ordinary builder interface is not relabeled as software-package metadata work.",
+      "No frozen v1 schema, license decision, repository implementation or technical ownership changes."
+    ],
+    "ownership": "Consume existing sustainability #17 and research #41/#54 evidence; those issues retain implementation, standards and rights decisions. Demand evidence remains in sustainability #21.",
+    "decision_gate": "Only a genuinely reusable, rights-cleared, call-relevant component with real contributors and costs may advance to qualification. Otherwise retain defer or conclude Not Pursuing."
+  },
+  "value_and_effort": {
+    "estimated_usable_cash_eur": null,
+    "estimated_avoided_cost_eur": null,
+    "application_hours": null,
+    "delivery_hours": null,
+    "maintenance_hours": null,
+    "method": "For an actually qualified scope, itemize future eligible human work by task, hours and justified rate, plus eligible direct expenses. Separate approved grant cash from any independently evidenced avoided service cost; never treat the call ceiling as net value.",
+    "deductions_and_risks": "Account separately for unapproved costs, host/payment fees, applicable tax treatment, reporting, accessibility/security work, maintenance and the no-advance cash gap. Exclude already completed work, purely AI-generated outcomes and unsupported overhead from a payable-work estimate.",
+    "evidence_needed": ["Accepted scope and demand", "Contributor commitments and eligible-country allocations", "Rights and contribution records", "Rate and cost evidence", "Review/reporting workload", "Actual proposed agreement and funds flow"],
+    "current_conclusion": "Unknown amounts and hours are the defensible result. No award probability, delivery commitment or financial return is inferred."
+  },
+  "project_inputs": [
+    {
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+      "evidence": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/015300e6834940d537c933de3490bb5d3a707cd8/docs/nonprofit/entity-baseline.md",
+      "role": "Accepted applicant/entity evidence ledger. Its documented Unknowns do not prove an incorporated applicant, signer, fiscal host or funds-control arrangement. This completed research input is not a missing-document blocker."
+    },
+    {
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+      "role": "Consume the existing asset/license/provenance inventory and agreements when accepted; actual proposed deliverable rights remain unestablished here."
+    },
+    {
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+      "role": "Consume actual demand evidence; no user count, willingness to pay or adopter is invented."
+    },
+    {
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+      "role": "Existing technical owner; funding research does not duplicate implementation."
+    },
+    {
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54",
+      "role": "Existing technical owner; funding research does not change contract or intake decisions."
+    }
+  ],
+  "remaining_decisions": [
+    {"id": "Q01", "question": "Does C01 resolve a real package-metadata interoperability need that advances CodeSupply?", "evidence_required": "Accepted technical scope, comparison with existing tools and actual upstream demand", "state": "Unknown; do not apply yet"},
+    {"id": "Q02", "question": "Who are the actual eligible contributors and authorized applicant?", "evidence_required": "Private contributor/country/allocation evidence and the #11 authority ledger; no invented host or EU participant", "state": "Unknown"},
+    {"id": "Q03", "question": "Can all proposed outputs be lawfully released and paid for under the AI policy?", "evidence_required": "#17 rights inventory, human responsibilities, actual AI provenance and future eligible work plan", "state": "Unknown"},
+    {"id": "Q04", "question": "Is the work feasible without advance funding and with the actual reporting burden?", "evidence_required": "Costed milestones, commitments, bridge funding and draft MoU review", "state": "Unknown"},
+    {"id": "Q05", "question": "What current-call privacy, retention, publicity and fiscal-host terms apply to a concrete applicant?", "evidence_required": "Actual intake/offer documents and, only if needed for a qualified proposal, authorized clarification", "state": "Unknown; no contact sent"}
+  ],
+  "sources": [
+    {"id": "N01", "url": "https://nlnet.nl/restack/", "kind": "official current call", "checked_on": "2026-10-19", "access": "Read", "scope": "First call, deadline, initial benefit and AI/stack scope gate"},
+    {"id": "N02", "url": "https://nlnet.nl/codesupply/", "kind": "official current call", "checked_on": "2026-10-19", "access": "Read", "scope": "First call, metadata objectives, initial benefit and deadline"},
+    {"id": "N03", "url": "https://nlnet.nl/commonsfund/", "kind": "official closure notice with historical body", "checked_on": "2026-10-19", "access": "Read", "scope": "Final call closed 2026-06-01; historical amounts do not reopen intake"},
+    {"id": "N04", "url": "https://nlnet.nl/propose/", "kind": "official live application form", "checked_on": "2026-10-19", "access": "Public form read; no entries or submission", "scope": "Visible intake fields, limits, AI disclosure, privacy and email-encryption caveat"},
+    {"id": "N05", "url": "https://nlnet.nl/NGI0/eu-dimension/", "kind": "official contributor/country guidance", "checked_on": "2026-10-19", "access": "Read", "scope": "People/allocation test, 2026-10-13 country update and Commission precedence; no specific person qualified"},
+    {"id": "N06", "url": "https://nlnet.nl/foundation/policies/generativeAI/", "kind": "official policy version 1.1, 2026-01-26", "checked_on": "2026-10-19", "access": "Read", "scope": "Application disclosure, AI provenance, rights, human responsibility and payment restrictions"},
+    {"id": "N07", "url": "https://nlnet.nl/restack/guideforapplicants/", "kind": "official call guide", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Programme dates, funding limits, conflicts and agreement process"},
+    {"id": "N08", "url": "https://nlnet.nl/restack/eligibility/", "kind": "official eligibility conditions", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Eligible activities, European dimension and exceptional-provider discretion"},
+    {"id": "N09", "url": "https://nlnet.nl/restack/faq/", "kind": "official FAQ", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Applicant types, milestones/no advance, assessment timing, project duration, overhead and AI/preselection payment limits"},
+    {"id": "N10", "url": "https://nlnet.nl/codesupply/guideforapplicants/", "kind": "official call guide", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Programme dates, distinct funding caps, conflicts and actual MoU"},
+    {"id": "N11", "url": "https://nlnet.nl/codesupply/eligibility/", "kind": "official eligibility conditions", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Call-relevant costs, European dimension and exceptional-provider discretion"},
+    {"id": "N12", "url": "https://nlnet.nl/codesupply/faq/", "kind": "official FAQ", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Applicant types, financial/delivery conditions, licensing, continuation and AI/preselection payment limits"},
+    {"id": "N13", "url": "https://nlnet.nl/foundation/request/sample_MoU.pdf", "kind": "official illustrative agreement", "checked_on": "2026-10-19", "access": "Four-page text read", "scope": "Example reporting, milestone, publication and payment clauses; not an actual PYA agreement"},
+    {"id": "N14", "url": "https://nlnet.nl/privacy/", "kind": "official privacy policy", "checked_on": "2026-10-19", "access": "Relevant clauses read", "scope": "Data handling, programme-label uncertainty and encryption/retention qualifications"}
+  ],
+  "freshness": {
+    "access_failures": [],
+    "limitations": "All fourteen listed official URLs yielded the relevant inspected text. No application submission or private agreement was verified. A source check date is not a guarantee of continued intake or applicant eligibility.",
+    "conflicts_reconciled": ["Closed Commons banner versus historical page body", "Short FAQ/form AI wording versus conditional detailed policy", "Broad eligible-person wording versus guide conflict exclusions", "Privacy-page PGP wording versus the current form caveat", "Older privacy programme labels versus current calls"],
+    "next_verification_date": null,
+    "triggers": ["Repository monthly program review", "Before reliance in qualification, application, agreement or a public eligibility claim", "Changed call, deadline, policy, source access or contributor facts"]
+  },
+  "acceptance_map": [
+    {"criterion": 1, "evidence": "programs: NLNET-NGI0-COMMONS closure and historical-terms warning"},
+    {"criterion": 2, "evidence": "Distinct Restack and CodeSupply identities, scopes, source catalog and central records"},
+    {"criterion": 3, "evidence": "current_intake.deadline D01 with separate unqualified readiness and null internal date"},
+    {"criterion": 4, "evidence": "decision, european_dimension, generative_ai and C01 nonclaims"},
+    {"criterion": 5, "evidence": "Fourteen primary sources, checked dates, historical/access/conflict qualifications"},
+    {"criterion": 6, "evidence": "Actual public form fields and limits; closed Commons and unexercised submission stated"},
+    {"criterion": 7, "evidence": "Each program's benefit and three separately assessed applicant routes"},
+    {"criterion": 8, "evidence": "shared_conditions: rights, reporting, publicity, privacy, portability, renewal, overage and independence"},
+    {"criterion": 9, "evidence": "C01 tied to exact accepted repository sources; null value/effort with explicit future estimation method"},
+    {"criterion": 10, "evidence": "Canonical JSON, existing record/projection updates, source IDs, questions, priorities and dispositions"},
+    {"criterion": 11, "evidence": "Accepted substantive findings at 4a24cae8e1a405330c4419bfa8db5208147d653f by independent review https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816; receiving checks and ordinary delivery remain separate."}
+  ],
+  "independent_review": {
+    "reviewer": "Apple engineering review lane, session c3fa0109d6ff",
+    "reviewed_revision": "4a24cae8e1a405330c4419bfa8db5208147d653f",
+    "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+    "decision": "Accepted substantive findings for all eleven research criteria; applicant qualification and execution remain separate",
+    "scope": "All eleven issue criteria, primary-source interpretation, actual project evidence and preservation of unrelated records",
+    "reviewed_on": "2026-10-19"
+  }
+}

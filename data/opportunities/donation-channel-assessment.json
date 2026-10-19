@@ -1,0 +1,1018 @@
+{
+  "schema_version": "sustainability-donation-channel-assessment/v1",
+  "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+  "owning_research_key": "E04-02",
+  "canonical_deliverable": "docs/funding/donation-channel-comparison.md",
+  "prepared_on": "2026-10-19",
+  "research_state": "Done",
+  "independent_review": {
+    "reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+    "source_revision": "c32717e7f11e4b4720954f551ec83687176bfc19",
+    "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949",
+    "decision": "Accepted complete #34 findings against all thirteen literal criteria, including the conditional/deferred GoFundMe routes and current-scope Kickstarter non-selection.",
+    "reviewed_on": "2026-10-19"
+  },
+  "scope": "Bounded comparison and three unique crowdfunding intake/fund-control identities; no provider action or achieved financial/legal result.",
+  "base_revision": "9ebe927b1bedda198aac8df57d80123b12de743b",
+  "priority": "P1",
+  "priority_reason": "Foundational collection/control comparison; candidate priorities and dispositions differ.",
+  "proposed_public_benefit": "One finite canonical repository maintenance and public-evidence package mapped to needs N03/N07/N08; actual issue/cohort, period, person, unmet units and budget not yet selected.",
+  "actual_entity": null,
+  "actual_jurisdiction": null,
+  "actual_501c3_recognition": null,
+  "actual_representative": null,
+  "actual_bank_account": null,
+  "actual_host_agreement": null,
+  "actual_donor_demand": null,
+  "available_funds": null,
+  "cash_value": null,
+  "avoided_cost": null,
+  "effort_hours": null,
+  "score": null,
+  "valuation_method": "Reconcile settled receipts, restriction/fee bases, processors/FX/outgoing costs, refunds/reserves and actual fulfillment/administration. Value only an evidenced necessary alternative actually avoided; no invented units or probability.",
+  "canonical_reused_program_ids": [
+    "GITHUB-SPONSORS-ORG",
+    "SFC-MEMBERSHIP",
+    "SPI-ASSOCIATED-PROJECT",
+    "OSC-FISCAL-HOST"
+  ],
+  "canonical_reuse": [
+    {
+      "issue": 14,
+      "published_source": "9e4e8b602b0c25b9f77b528a436644732bb6a448",
+      "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14#issuecomment-6269526052",
+      "status": "Actual independent findings accepted; not merged in this base. Source and full review read; canonical owner retains records."
+    },
+    {
+      "issue": 33,
+      "pr": 110,
+      "published_source": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+      "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702",
+      "status": "Corrected channel-readiness findings independently accepted at 19aa; the complete canonical/profile correction and actual acceptance reviews were read for this comparison. Actual recipient, account, route and activation remain Unknown. Canonical #33 retains record ownership and main delivery.",
+      "acceptance_metadata_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574370969",
+      "prior_comparison_reference": {
+        "issue": 33,
+        "pr": 110,
+        "published_source": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889",
+        "status": "Canonical draft has unresolved privacy/AI and payment-agreement findings; no complete acceptance inferred."
+      }
+    }
+  ],
+  "program_ids": [
+    "GOFUNDME-PERSONAL-BUSINESS",
+    "GOFUNDME-CERTIFIED-NONPROFIT",
+    "KICKSTARTER-CREATIVE-CROWDFUNDING"
+  ],
+  "applicant_route_results": {
+    "GOFUNDME-PERSONAL-BUSINESS": {
+      "present_community": "Unknown",
+      "fiscal_sponsored_project": "Unknown",
+      "independently_recognized_501c3": "Unknown"
+    },
+    "GOFUNDME-CERTIFIED-NONPROFIT": {
+      "present_community": "Unknown",
+      "fiscal_sponsored_project": "Unknown",
+      "independently_recognized_501c3": "Unknown"
+    },
+    "KICKSTARTER-CREATIVE-CROWDFUNDING": {
+      "present_community": "Unknown",
+      "fiscal_sponsored_project": "Unknown",
+      "independently_recognized_501c3": "Unknown"
+    }
+  },
+  "dispositions": {
+    "GOFUNDME-PERSONAL-BUSINESS": "P2 conditional lead; defer pending actual recipient/country/authority, additional donor need and exact permitted-use/AI terms.",
+    "GOFUNDME-CERTIFIED-NONPROFIT": "P2 conditional lead; defer pending actual recognized beneficiary/host, certification, agreement/receipt issuer and incremental need.",
+    "KICKSTARTER-CREATIVE-CROWDFUNDING": "P3 not selected for current maintenance scope; new specific creative proposal, prototype/human involvement, capacity and full legal terms would require reassessment."
+  },
+  "intake": {
+    "GoFundMe": "Current public setup guidance and start landing read; complete editor/consents and account-specific deadline unverified. No fixed application round observed.",
+    "Kickstarter": "Public creator eligibility and draft/review/launch process read. No fixed intake closing date published in inspected scope. Campaign duration is distinct; start form and full legal bodies unverified.",
+    "direct_collection": "Not a provider program; bank/processor unselected, so provider enrollment/fees/timing Unknown."
+  },
+  "verified_application_deadline": null,
+  "internal_next_action_date": null,
+  "execution_actions": {
+    "accounts_created": 0,
+    "applications_submitted": 0,
+    "campaigns_launched": 0,
+    "pledges_or_payments": 0,
+    "outreach_messages": 0,
+    "provider_ai_sessions": 0,
+    "scope": "Only this research execution; unknown historical activity is not asserted absent."
+  },
+  "source_observations": [
+    {
+      "id": "F1",
+      "title": "Country/route pricing",
+      "url": "https://www.gofundme.com/c/pricing",
+      "publisher": "GoFundMe",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Current country-specific tables, separate personal/business and certified-nonprofit rates; no applicant quote.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F1a",
+      "title": "Fee explanation",
+      "url": "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-09-30",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public transaction-fee, voluntary-tip and recurring-donor-fee explanation.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F2",
+      "title": "Supported countries",
+      "url": "https://support.gofundme.com/hc/en-us/articles/360001972748-Countries-supported-on-GoFundMe",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-06-24",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Twenty supported withdrawal countries, with territorial qualifications; no actual recipient verified.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F3",
+      "title": "Recipient requirements",
+      "url": "https://support.gofundme.com/hc/en-us/articles/360001977868-Requirements-to-receive-funds",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-07-27",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Country-specific adult, identity, tax/phone/address and bank requirements; actual account and editor not accessed.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F3a",
+      "title": "Transfer setup",
+      "url": "https://support.gofundme.com/hc/en-us/articles/360001992767-How-to-set-up-transfers",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-09-23",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Published recipient selection, verification and ordinary processing/transfer schedules; no account-specific deadline observed.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F4",
+      "title": "Business/organization transfers",
+      "url": "https://support.gofundme.com/hc/en-gb/articles/204532398-How-to-transfer-funds-to-a-business-or-organisation-bank-account",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-07-13",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Actual decision-maker and organization documentation process; English-UK URL does not establish PYA jurisdiction.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F5",
+      "title": "Unincorporated association/trust",
+      "url": "https://support.gofundme.com/hc/en-gb/articles/360059416272-Transferring-funds-to-a-trust-or-an-unincorporated-association-s-account",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-05-25",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Association charter/ID/bank evidence; Canada excludes the unincorporated-association account route. No personal substitute selected.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F6",
+      "title": "Certified-charity payouts",
+      "url": "https://support.gofundme.com/hc/en-gb/articles/360056093332-Receiving-charity-fundraiser-payouts",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-07-16",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Five-country certified route, organizer/charity distinction and GoFundMe Pay versus PPGF schedules; no actual agreement established.",
+      "opportunity_ids": [
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F7",
+      "title": "Terms for non-nonprofit users",
+      "url": "https://www.gofundme.com/c/terms",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-06-23",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Nonprofit users are expressly directed to F14. Scoped consumer clauses are not the complete nonprofit agreement.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F8",
+      "title": "Donor tax information",
+      "url": "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-08-31",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Personal versus nonprofit receipt statements and cross-border qualification; direct US receipt brand differs from F6.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F9",
+      "title": "Organizer tax information",
+      "url": "https://support.gofundme.com/hc/en-us/articles/204295498-Taxes-for-GoFundMe-organizers",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-01-16",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "US personal-gift generalization has a case-specific taxable-income exception; no PYA tax conclusion.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F10",
+      "title": "Public start landing",
+      "url": "https://www.gofundme.com/c/start",
+      "publisher": "GoFundMe",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Requested /start redirected here. Public creation/sharing/transfer guidance read; no actual editor/form fields or consents inspected.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint",
+        "application_endpoint"
+      ]
+    },
+    {
+      "id": "F11",
+      "title": "Monthly recurring donations",
+      "url": "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-10-07",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Published country exceptions, donor-paid fee, cancellation timing and closure handling; no recurrence activated.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F12",
+      "title": "Refund request guidance",
+      "url": "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-07-17",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public request instructions read; no refund form opened or request made.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F13",
+      "title": "Privacy Notice",
+      "url": "https://www.gofundme.com/c/privacy",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-08-17",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Scoped public/private data, roles, service-related AI, sharing, retention and cross-border sections read; actual account settings unknown.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "T1",
+      "title": "Charitable contribution background",
+      "url": "https://www.irs.gov/taxtopics/tc506",
+      "publisher": "Internal Revenue Service",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Current US qualified-recipient, returned-benefit and substantiation background; no project/donor determination.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT",
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Written acknowledgments",
+      "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+      "publisher": "Internal Revenue Service",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Current US USD250 acknowledgment content; actual deductible transaction not established.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT",
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "F14",
+      "title": "Separate nonprofit/Pro Terms",
+      "url": "https://www.gofundme.com/c/gofundme-pro-terms",
+      "publisher": "GoFundMe",
+      "displayed_page_date": "2026-05-15",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public nonprofit agreement read after independent draft finding; see canonical memo for scoped conditions and actual-agreement Unknowns.",
+      "opportunity_ids": [
+        "GOFUNDME-PERSONAL-BUSINESS",
+        "GOFUNDME-CERTIFIED-NONPROFIT"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "id": "K01",
+      "title": "Our Rules",
+      "url": "https://www.kickstarter.com/rules",
+      "publisher": "Kickstarter",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Complete 125-line public body read; no effective date visible. Apps/software require original creative thinking, an existing category and a demonstrated prototype. AI use requires human creativity, involvement and transparency; little or no human thought/involvement is prohibited. Submitted materials require rights. External engagement funneling and service-provider-centered projects are prohibited. Enforcement may restrict accounts/projects. Charity allowance is independently detailed in K04.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K02",
+      "title": "Who can use Kickstarter?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236650-who-can-use-kickstarter",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Creators must be adults. Individuals need residence and government ID matching the launch country, with an EU-ID exception. Entities launch where registered through an authorized owner/executive; beneficial owners and requested directors undergo verification. ID/tax documents, an appropriately named supported bank account and named card are required. A euro/IBAN exception permits specified cross-border accounts without replacing eligible-country/address verification; Canadian projects require credit cards.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K03",
+      "title": "Can Kickstarter be used to fund anything?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236681-can-kickstarter-be-used-to-fund-anything",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. A project must create something new with a clear endpoint and credible completion path. An already available product cannot itself be the campaign endpoint. Investment returns and monetary rewards are prohibited; project approval remains Kickstarter's decision.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K04",
+      "title": "Can business and nonprofit entities raise funds for projects?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236787-can-business-and-nonprofit-entities-raise-funds-for-projects",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Businesses and nonprofits can qualify. Nonprofits must fund a specific new, shareable endeavor, not general mission support. Up to 10% of campaign funds may go to charity if disclosed on submission; reward items may also be donated. A recipient need not be a registered nonprofit, but the donation must relate to the project and avoid personal fundraising. Pledges are generally not tax-deductible; possible project-specific exceptions do not establish PYA tax status.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K05",
+      "title": "Fees: United States",
+      "url": "https://www.kickstarter.com/help/fees",
+      "publisher": "Kickstarter",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Complete current public US fee table read. Successful US campaigns incur a 5% platform fee plus processing of 3% and $0.30 per pledge. Pledges under $10 use processing of 5% and $0.08. Unfunded campaigns incur no platform/processing fees. This US table is not a global applicant quote.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K06",
+      "title": "Kickstarter Fees: A Comprehensive Guide for Creators",
+      "url": "https://updates.kickstarter.com/kickstarter-fees-a-comprehensive-guide-for-creators/",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2024-03-13",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Complete 64-line public blog body read. The older guide states a $0.05 micropledge fixed component, conflicting with K05's current $0.08. It also identifies fulfillment, staff, shipping, rewards, marketing and tax costs beyond platform fees.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K07",
+      "title": "How to set the right funding goal for your Kickstarter campaign",
+      "url": "https://help.kickstarter.com/en-us/articles/16236709-how-to-set-the-right-funding-goal-for-your-kickstarter-campaign",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Funding is all-or-nothing: an unmet goal yields no collected pledges or creator funds. The goal should cover completion, rewards, fees and relevant taxes; goal/deadline cannot change after launch. Budget planning should use actual resource estimates. The documented calculator accepts a budget and tax assumption; no project estimate or calculator was entered.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K08",
+      "title": "What is the maximum project duration?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236742-what-is-the-maximum-project-duration",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Campaigns run 1–60 days. Kickstarter recommends 30 days or less. The funding duration/deadline cannot be adjusted after launch.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K09",
+      "title": "If my project is successfully funded, how do I receive my funds?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236545-if-my-project-is-successfully-funded-how-do-i-receive-my-funds",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. For the ordinary successful campaign, collection/processing lasts 14 calendar days after the deadline, then a single payout is initiated to one account. Bank availability may take another 3–14 business days. This is not a guaranteed availability date; installment and Late Pledge routes have separate schedules.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K10",
+      "title": "Pledge Over Time FAQ",
+      "url": "https://help.kickstarter.com/en-us/articles/16236386-pledge-over-time-faq",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Relevant published sections through lines 82 read, including current/legacy payout distinction; no checkout or feature enabled. Optional installments split qualifying pledges into three charges. For first payouts on/after January 15, 2026, the first payment arrives around the ordinary payout, followed by approximately eight- and twelve-week payouts. The feature has no extra fee according to this Help page. Failed subsequent collections can drop pledges; it is not immediately available maintenance cash.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K11",
+      "title": "How will I be paid out for Late Pledges?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236668-how-will-i-be-paid-out-for-late-pledges",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Optional Late Pledge payouts start seven days after the ordinary campaign payout, then recur weekly while applicable. Unsettled or sub-threshold amounts can delay/bundle payouts; the original campaign bank account is used. This feature was not enabled.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K12",
+      "title": "What is a creator obligated to do once their project is funded?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236551-what-is-a-creator-obligated-to-do-once-their-project-is-funded",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. The Help page assigns creators responsibility for promised work and rewards, honest responses and regular progress/delay updates. If fulfillment becomes impossible, creators must make reasonable efforts toward another satisfactory conclusion. It links current Terms section 4 and distinguishes projects launched before February 11, 2025; the linked full legal body was not verified.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K13",
+      "title": "If I am unable to complete my project as promised, what should I do?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236654-if-i-am-unable-to-complete-my-project-as-promised-what-should-i-do",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Creator failure guidance calls for reasonable resolution efforts including refund offers, communication and an update accounting for completed work, use of funds and obstacles. If inability to perform is known before funding ends, the creator is expected to cancel.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K14",
+      "title": "Does Kickstarter issue refunds?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236553-does-kickstarter-issue-refunds",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Kickstarter describes itself as neither a store nor the party issuing creator refunds. Backers request collected-pledge refunds from the creator; exhausted production funds may prevent them. Creator-issued refunds may take up to 30 days to reach the original payment method. These Help statements do not establish an unconditional legal no-refund entitlement.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K15",
+      "title": "How do I issue a refund to one of my backers?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236695-how-do-i-issue-a-refund-to-one-of-my-backers",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Creators can issue full or partial refunds through the backer report. Before campaign payout, platform and processing fees are returned; after payout the creator bears those fees. Refunds use a saved/new creator card. Active payment disputes and invalid original payment methods can require separate handling. No refund workflow was used.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K16",
+      "title": "Can I use AI-generated content or create AI technology in my project?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236759-can-i-use-ai-generated-content-or-create-ai-technology-in-my-project",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. AI-generated output requires disclosure of tools, incorporation, original work and AI-created elements. AI technology projects must identify data sources and explain consent/credit safeguards; lacking consent processes makes admission unlikely. Approved responses appear publicly. No finding about PYA training data, human contribution or admissibility was made.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K17",
+      "title": "What do backers get in return?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236656-what-do-backers-get-in-return",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Backers may select rewards or pledge without a reward. The Help page says creators retain ownership of their work and cannot offer equity, financial returns or loans. Ownership wording does not resolve the full platform license grant, whose legal body remains unread.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K18",
+      "title": "Can I use copyrighted material as part of my project?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236797-can-i-use-copyrighted-material-as-part-of-my-project",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Creators need rights to project content and must comply with applicable licenses. The Help page describes handling infringement reports under its DMCA procedure. This is not an audit of PYA content provenance or legal license permissions.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K19",
+      "title": "As a Kickstarter creator, how can I comply with data privacy rules?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236629-as-a-kickstarter-creator-how-can-i-comply-with-data-privacy-rules",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Backer personal information must stay confidential except for necessary communication/fulfillment; other uses require the applicable consent. Downloaded surveys and collaborators remain within the creator's responsibility, including handling applicable access/deletion requests. The page references GDPR/CPRA; this research did not determine which laws apply to PYA.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K20",
+      "title": "Where can I find my backer's pledge manager or survey responses?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236462-where-can-i-find-my-backer-s-pledge-manager-or-survey-responses",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Backer/survey responses, including requested addresses and item selections, can be exported as CSV. The creator must protect that personal information and assess the privacy/terms of fulfillment partners. No backer report was accessed.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K21",
+      "title": "How can I access my expired backer report?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236655-how-can-i-access-my-expired-backer-report",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Automatic report/PII access expires two years from the latest estimated reward delivery date; renewed access requires a reviewed request. Guidance restricts reuse to fulfillment, limits collaborator sharing, prohibits shared-computer access, and calls for deleting the downloaded file after all rewards are delivered.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K22",
+      "title": "How long does a project remain on Kickstarter?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236790-how-long-does-a-project-remain-on-kickstarter",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-09-02",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Project records persist after failure/cancellation; account deletion does not erase launched pages, updates or comments. Support may consider hiding a project. Unsubmitted drafts can be deleted; submitted drafts cannot simply be deleted.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K23",
+      "title": "How can I cancel my project?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236746-how-can-i-cancel-my-project",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Campaign cancellation is irreversible, leaves the public record and prevents subsequent editing. Relaunch requires a new draft/review; a launched campaign cannot revert to draft.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K24",
+      "title": "How do I delete my account?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236645-how-do-i-delete-my-account",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-09-02",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Account deletion is irreversible, can impair outstanding reward communication and does not automatically erase creator projects, names, comments or updates. Some information is retained for legal/necessary business purposes. This Help guidance does not supply the unread full Privacy retention schedule.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K25",
+      "title": "How can I download my Kickstarter data?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236514-how-can-i-download-my-kickstarter-data",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-09-02",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Help describes an authenticated email-confirmed privacy request producing a ZIP of CSV data. It gives no fixed completion time. That workflow was described by Help only, not visited or exercised.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K26",
+      "title": "How do I prepare to launch my project?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236409-how-do-i-prepare-to-launch-my-project",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Submission precedes approval and launch. All Design & Technology projects require manual review; stated timing is up to three business days, potentially longer with revisions. This is documented process, not an observed completed application.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K27",
+      "title": "My project is awaiting review, how does this work?",
+      "url": "https://help.kickstarter.com/en-us/articles/16236415-my-project-is-awaiting-review-how-does-this-work",
+      "publisher": "Kickstarter",
+      "displayed_page_date": "2026-08-06",
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": "2026-10-19",
+      "scope": "Public article body read through web retrieval; no account interaction. Help describes a finite-goal review, optional target launch date and scheduled identity/payment preparation. Review may take longer during revisions or high volume. Setting a target date does not automatically launch a campaign.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Scoped public content read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K28",
+      "title": "Terms of Use",
+      "url": "https://legal.kickstarter.com/policies/en/?name=terms-of-use",
+      "publisher": "Kickstarter",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": null,
+      "scope": "Only one JavaScript-disabled shell line returned. Full operative legal body, effective version, license grant, liability, dispute, sanctions and termination clauses remain unverified. No browser/JavaScript workaround was attempted.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Content not verified",
+      "source_roles": [
+        "related_policy_endpoint"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K29",
+      "title": "Privacy Policy (actual Rules link)",
+      "url": "https://legal.kickstarter.com/policies?name=privacy-policy",
+      "publisher": "Kickstarter",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": null,
+      "scope": "Only one JavaScript-disabled shell line returned from the actual Rules link. Full privacy body, effective version, service-side collection/sharing/transfers and retention terms remain unverified. The separate guessed ?name=privacy URL failed and was not treated as the actual policy.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Content not verified",
+      "source_roles": [
+        "related_policy_endpoint"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    },
+    {
+      "id": "K30",
+      "title": "Create your project",
+      "url": "https://www.kickstarter.com/start",
+      "publisher": "Kickstarter",
+      "displayed_page_date": null,
+      "accessed_on": "2026-10-19",
+      "last_successfully_verified": null,
+      "scope": "Both direct public URL and actual Help link returned the page title with zero extracted body lines. No actual form fields, consent checkbox text, authenticated editor or submission terms were observed. Zero extracted text does not prove a login requirement or HTTP 403. No entry/submission occurred.",
+      "opportunity_ids": [
+        "KICKSTARTER-CREATIVE-CROWDFUNDING"
+      ],
+      "content_status": "Content not verified",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "research_lane": "In-session peer primary research; author read the complete handed-off findings and independently checked decisive Rules, fit, nonprofit and fee sources."
+    }
+  ],
+  "source_date_rules": "Displayed page dates are distinct from access date and actual account/contract effectiveness. Failed or unread content has no successful content verification date.",
+  "additional_access_observations": [
+    {
+      "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
+      "attempted_on": "2026-10-19",
+      "last_successful_check_in_this_comparison": null,
+      "result": "Internal retrieval error with no visible HTTP status; relevant clauses attributed only to the existing host review."
+    },
+    {
+      "url": "https://docs.oscollective.org/for-hosted-member-projects/managing-project-funds/handling-donation-refunds-what-projects-need-to-know.md",
+      "attempted_on": "2026-10-19",
+      "last_successful_check_in_this_comparison": null,
+      "result": "Internal retrieval error; current non-md public route was subsequently read."
+    },
+    {
+      "url": "https://support.gofundme.com/hc/en-us/articles/360001982068-Requirements-to-receive-funds",
+      "attempted_on": "2026-10-19",
+      "last_successful_check_in_this_comparison": null,
+      "result": "Initially guessed wrong path returned internal retrieval error; actual officially linked360001977868 F3 was subsequently read."
+    }
+  ],
+  "material_conflicts_and_unknowns": [
+    "Current versus older Kickstarter US micropledge fee; preserve current-table scope and dated older observation.",
+    "Initial GoFundMe Pay/Pro terminology uncertainty resolved by public F14: Pay is part of Pro. Actual applicable product, Order Terms/MSA and receipt issuer remain Unknown; Pro pricing is separate from the certified table.",
+    "F7 consumer terms exclude nonprofit users; nonprofit counterparty terms are F14, which incorporates only F7 Section8. Consumer AI-use applicability remains unresolved for covered users, not presumed to bind the nonprofit through F7 wholesale.",
+    "SFC processed/gross fee bases; OSC external incoming/all deposits; current GitHub organization fees versus generic OSC integration wording remain with canonical host/Sponsors reviews.",
+    "Kickstarter full Terms/Privacy and campaign editor remain unverified; do not treat help ownership wording as full license or liability review."
+  ],
+  "remaining_questions": [
+    "Actual recipient, jurisdiction, authority, recognized status and account/host agreement",
+    "Finite canonical issue/cohort, period, unpaid need, donor demand and defensible budget/effort",
+    "Actual provider agreement, permitted use, fee/receipt/chargeback/privacy/export/exit scope",
+    "Donor-specific tax, solicitation, income and reward/presale tax treatment"
+  ],
+  "acceptance_map": {
+    "1": "Phase and fund-control matrices",
+    "2": "OSC versus charitable-host distinction and legal Unknowns",
+    "3": "Canonical four existing program IDs preserved",
+    "4": "Nonbinding recommendation and zero action record",
+    "5": "Dated source/history/conflict/access records",
+    "6": "Public process and explicit unknown application/round dates",
+    "7": "Three applicant-route assessments",
+    "8": "Campaign and publication/operating/exit conditions",
+    "9": "Finite proposal and non-numeric value/effort method",
+    "10": "Canonical memo, three records, evidence, questions and priority",
+    "11": "Actual independent findings acceptance for all thirteen criteria at https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949; reviewed source c32717e7f11e4b4720954f551ec83687176bfc19.",
+    "12": "Donation versus reward/creative-project crowdfunding comparison",
+    "13": "Nonbinding legal/tax treatment and no launch/rewards/funds claim"
+  }
+}

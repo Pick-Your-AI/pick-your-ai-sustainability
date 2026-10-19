@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 202,
-  "records_count": 41,
+  "source_count": 217,
+  "records_count": 43,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -141,7 +141,7 @@
     {
       "url": "https://claude.com/contact-sales/claude-for-oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities; ANTHROPIC-RESEARCHER: Researcher assessment checked only the separate subscription-versus-API-credit boundary",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
       "opportunity_ids": [
         "ANTHROPIC-CLAUDE-OSS",
         "ANTHROPIC-RESEARCHER"
@@ -152,12 +152,13 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "last_attempted": "2026-10-19"
     },
     {
       "url": "https://cloud.cerebras.ai",
@@ -299,7 +300,7 @@
     {
       "url": "https://developers.openai.com/community/codex-for-oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
       "opportunity_ids": [
         "OPENAI-CODEX-OSS"
       ],
@@ -309,11 +310,12 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "last_attempted": "2026-10-19"
     },
     {
       "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
@@ -664,9 +666,9 @@
     },
     {
       "url": "https://openai.com/form/codex-for-oss/",
-      "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Visible public application fields and rolling-review text read, including optional-interest and displayed organization/use fields. No form values, account, conditional flow completion or submission.",
       "opportunity_ids": [
         "OPENAI-CODEX-OSS"
       ],
@@ -676,9 +678,10 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
       "source_roles": [
-        "application_endpoint"
+        "application_endpoint",
+        "governing_source_evidence"
       ]
     },
     {
@@ -3819,6 +3822,296 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://developers.openai.com/codex/codex-for-oss-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public-form terms link redirects to learn.chatgpt.com/docs/codex-for-oss-terms; complete program terms read. No account or acceptance.",
+      "opportunity_ids": [
+        "OPENAI-CODEX-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/codex-for-oss-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "OPENAI-CODEX-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-for-oss-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "ANTHROPIC-CLAUDE-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://claude.com/open-source-max",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Terms-listed public intake URL redirects to the inspected program landing page. Authenticated GitHub/OAuth form fields and actual eligibility not inspected; requirements come from the separate current terms.",
+      "opportunity_ids": [
+        "ANTHROPIC-CLAUDE-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence",
+        "application_endpoint"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://sentry.io/for/open-source/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Web-reader content-type rejection followed by ordinary unauthenticated HTTP200 public HTML read; exact bytes/SHA and clause scope in support-stack.md. No script, SDK, model, product API or account invocation.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint",
+        "application_endpoint"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://sentry.io/for/good/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Web-reader content-type rejection followed by ordinary unauthenticated HTTP200 public HTML read; exact bytes/SHA and clause scope in support-stack.md. No script, SDK, model, product API or account invocation.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://sentry.io/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Web-reader content-type rejection followed by ordinary unauthenticated HTTP200 public HTML read; exact bytes/SHA and clause scope in support-stack.md. No script, SDK, model, product API or account invocation.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://sentry.io/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Web-reader content-type rejection followed by ordinary unauthenticated HTTP200 public HTML read; exact bytes/SHA and clause scope in support-stack.md. No script, SDK, model, product API or account invocation.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://sentry.io/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Web-reader content-type rejection followed by ordinary unauthenticated HTTP200 public HTML read; exact bytes/SHA and clause scope in support-stack.md. No script, SDK, model, product API or account invocation.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://docs.sentry.io/security-legal-pii/scrubbing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Web-reader content-type rejection followed by ordinary unauthenticated HTTP200 public HTML read; exact bytes/SHA and clause scope in support-stack.md. No script, SDK, model, product API or account invocation.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://crowdin.com/product/for-open-source",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint",
+        "application_endpoint"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://crowdin.com/pricing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://support.crowdin.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://support.crowdin.com/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://support.crowdin.com/downloading-translations/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public source text inspected for support-stack.md; actual applicant/account, provider decision and private form/offer remain unverified.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance, application, agreement, integration or activation",
+        "Upon changed terms/quotas, redirect, access failure or contradictory evidence"
+      ],
+      "state": "Current public source inspected; exact-revision independent findings acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
     }
   ],
   "rules": [
@@ -3827,6 +4120,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 179,
-  "additional_unverified_endpoint_count": 23
+  "source_evidence_url_count": 195,
+  "additional_unverified_endpoint_count": 22
 }

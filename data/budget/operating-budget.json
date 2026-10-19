@@ -369,20 +369,23 @@
       "source_refs": [
         "ENTITY"
       ],
-      "qualification_and_cost_boundary": "Structural zero host/federal filing line only inside this counterfactual; banking, processing, taxes, contracts and administrative capacity remain unresolved. No charitable eligibility is inferred."
+      "qualification_and_cost_boundary": "Structural zero host/federal filing line only inside this counterfactual; banking, processing, taxes, contracts and administrative capacity remain unresolved. No charitable eligibility is inferred.",
+      "host_fee_basis": "Not applicable within this no-host counterfactual"
     },
     {
       "id": "osc",
-      "family": "fiscal host, distinct from charitable501(c)(3) sponsorship",
+      "family": "501(c)(6) fiscal host, distinct from charitable501(c)(3) sponsorship",
       "actual_project_eligibility": "Unknown",
       "actual_selected": null,
       "host_fee_bps": 1000,
       "federal_application_fee_cents": 0,
       "source_refs": [
         "OSC-FEES",
-        "ENTITY"
+        "ENTITY",
+        "OSC-ABOUT"
       ],
-      "qualification_and_cost_boundary": "OSC candidate only; actual admission and fee base must be verified. Published10% applies to external inflows, not balances or credits. Third-party processing remains additional and Unknown. Entity-status qualification remains #14."
+      "qualification_and_cost_boundary": "OSC candidate only; actual admission and fee base must be verified. Published10% applies to external inflows, not balances or credits. Third-party processing remains additional and Unknown. Entity-status qualification remains #14.",
+      "host_fee_basis": "External funds entering the hosted project; exclude internal hosted transfers"
     },
     {
       "id": "sfc",
@@ -395,20 +398,23 @@
         "SFC",
         "ENTITY"
       ],
-      "qualification_and_cost_boundary": "SFC candidate only; maturity/licensing/community and negotiated agreement are separate gates. Revenue processed by the host is the fee base. No received grant or acceptance is assumed."
+      "qualification_and_cost_boundary": "SFC candidate only; maturity/licensing/community and negotiated agreement are separate gates. Revenue processed by the host is the fee base. No received grant or acceptance is assumed.",
+      "host_fee_basis": "Revenue that Conservancy processes for the project"
     },
     {
       "id": "spi",
       "family": "fiscal-sponsored charitable project",
       "actual_project_eligibility": "Unknown",
       "actual_selected": null,
-      "host_fee_bps": null,
+      "host_fee_bps": 500,
       "federal_application_fee_cents": 0,
       "source_refs": [
         "SPI",
-        "ENTITY"
+        "ENTITY",
+        "SPI-HOWTO"
       ],
-      "qualification_and_cost_boundary": "SPI-specific current fee percentage is Unknown. Do not substitute another sponsor's comparison. Expense approval, signature authority, extraordinary costs and restricted exits require actual agreement evidence."
+      "qualification_and_cost_boundary": "SPI-specific current HOWTO publishes5% of donated amounts, with attributable transaction and outgoing expense costs additional. Actual project terms/acceptance remain Unknown. Expense approval, signature authority, extraordinary costs and restricted exits require actual evidence.",
+      "host_fee_basis": "Donated amount within SPI's published fundraising guidance; attributable transaction costs separate"
     },
     {
       "id": "independent_1023",
@@ -422,7 +428,8 @@
         "IRS-INSTRUCTIONS",
         "ENTITY"
       ],
-      "qualification_and_cost_boundary": "Counterfactual full application candidate; actual form, eligibility, entity, preparation costs, filing month and recognition remain Unknown. Recheck fee schedule before filing."
+      "qualification_and_cost_boundary": "Counterfactual full application candidate; actual form, eligibility, entity, preparation costs, filing month and recognition remain Unknown. Recheck fee schedule before filing.",
+      "host_fee_basis": "Not applicable within this no-host counterfactual"
     },
     {
       "id": "independent_1023_ez",
@@ -436,7 +443,8 @@
         "IRS-INSTRUCTIONS",
         "ENTITY"
       ],
-      "qualification_and_cost_boundary": "Counterfactual streamlined application candidate only after the full eligibility worksheet. Not an automatic choice for this project; not added to the full-form fee."
+      "qualification_and_cost_boundary": "Counterfactual streamlined application candidate only after the full eligibility worksheet. Not an automatic choice for this project; not added to the full-form fee.",
+      "host_fee_basis": "Not applicable within this no-host counterfactual"
     }
   ],
   "scenarios": [
@@ -543,12 +551,12 @@
       null
     ]
   },
-  "funding_input_status": "Unset planning/evidence schedules. Cash receipts must exclude mere award notices; restricted cash remains restricted. Contingent awards, credit face value and evidenced avoided cost never enter a cash receipt, expense offset or available-cash total. For a hosted counterfactual, the external cash receipt schedules mean funds actually processed by that chosen host; other accounts and internal transfers are outside this fee base. Monthly fee rounding is a planning convention, not a transaction-level billing reproduction.",
+  "funding_input_status": "Unset planning/evidence schedules. Cash receipts exclude mere award notices; restricted cash remains restricted. Contingent awards, credit face value and evidenced avoided cost never enter a cash receipt, expense offset or available-cash total. The separate host_fee_inputs base is a calculation parameter, not another funding measure. Monthly fee rounding is a planning convention, not transaction-level billing reproduction.",
   "formulas": {
     "hosting_planned_cents": "2*2400 + 2*1515 + round_half_up(4800*3000/10000) + 2000 = 11270 per month",
     "hosting_annual_cents": "11270*12 = 135240; alternative20000*12 = 240000, never additive",
     "scaled_monthly_cost": "round_half_up(base_monthly_cash_cost_cents * scenario.workload_multiplier_bps /10000), independently per line/month; null input stays null",
-    "host_fee": "round_half_up((external_unrestricted_cash_receipts + external_restricted_cash_receipts) * selected_host_fee_bps/10000); both receipts and applicable rate must be known, except structural no-host cases",
+    "host_fee": "round_half_up(explicit_qualifying_host_fee_base_cents * selected_host_fee_bps/10000); base and applicable rate must be known, except structural no-host cases. The base is not summed as income and must match the selected host's donated/incoming/processed-revenue scope.",
     "one_time": "A positive amount with known timing appears once in month1..12; unknown timing leaves all months null. A known month with unknown amount leaves only that month null. Explicit known zero has no timing cost.",
     "known_subtotal": "Sum only known cost entries; this is a partial arithmetic subtotal, not complete expenses or a zero for missing costs",
     "complete_total": "Sum every scoped cost only if all are known; otherwise null. Annual complete totals require every month.",
@@ -599,7 +607,7 @@
       "inspected_on": "2026-10-19",
       "source_revision": null,
       "evidence_class": "current primary published terms",
-      "finding": "New members contribute10% of revenue Conservancy processes. FOSS/software-freedom/community and usual one-year/proof-of-concept criteria; rolling email inquiry and later negotiated agreement, often months. Hosting enables fundraising rather than supplying an award; funds/assets and exits retain charitable restrictions. The page mentions SPI5%, but this is not SPI-specific fee verification and the model leaves SPI rate Unknown."
+      "finding": "New members contribute10% of revenue Conservancy processes. FOSS/software-freedom/community and usual one-year/proof-of-concept criteria; rolling email inquiry and later negotiated agreement, often months. Hosting enables fundraising rather than supplying an award; funds/assets and exits retain charitable restrictions. The page mentions SPI5%, but this is not SPI-specific fee verification and is not used as evidence of SPI fees; SPI-HOWTO separately supplies the current published donation rate."
     },
     {
       "id": "SPI",
@@ -608,7 +616,7 @@
       "inspected_on": "2026-10-19",
       "source_revision": null,
       "evidence_class": "current primary published service terms",
-      "finding": "Earmarked funds, documented approved expenses and donor conditions; only SPI officers normally bind contracts. Assets and funds have compatible-charitable-transfer limits. Typical accounting covered, extraordinary project-specific costs may be charged. This source does not establish a current administration percentage."
+      "finding": "Earmarked funds, documented approved expenses and donor conditions; only SPI officers normally bind contracts. Assets and funds have compatible-charitable-transfer limits. Typical accounting covered, extraordinary project-specific costs may be charged. This source does not establish a current administration percentage. The separate current SPI-HOWTO source now supplies the published donation-overhead percentage."
     },
     {
       "id": "IRS-INSTRUCTIONS",
@@ -663,6 +671,24 @@
       "source_revision": null,
       "evidence_class": "explicit sensitivity assumptions; no empirical calibration",
       "finding": "Lean/expected/stress multipliers0.5/1/2 are freely editable sensitivity factors for usage-based incremental cash estimates, not measured demand, probabilities or adopted forecasts. The same fixed hosting plan remains in lean/expected; stress substitutes the dated same-scope ceiling."
+    },
+    {
+      "id": "SPI-HOWTO",
+      "publisher": "Software in the Public Interest",
+      "url": "https://www.spi-inc.org/projects/associated-project-howto/",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "current primary association and fundraising guide",
+      "finding": "No cost to become or remain associated. Fundraising section:5% of the donated amount for SPI overhead, plus attributable transaction costs. Expense transaction fees also come from project funds. Actual project terms/acceptance remain Unknown. This is direct SPI-specific evidence, found after the narrower services-page inspection; no website-change claim is made."
+    },
+    {
+      "id": "OSC-ABOUT",
+      "publisher": "Open Source Collective",
+      "url": "https://oscollective.org/about/",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "current primary organizational description",
+      "finding": "OSC identifies itself as a501(c)(6) nonprofit fiscal host. Its status does not establish independent501(c)(3) recognition or project-specific charitable deductibility."
     }
   ],
   "calculated": {
@@ -2496,5 +2522,29 @@
         }
       }
     ]
+  },
+  "host_fee_inputs": {
+    "monthly_base_cents": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evidence_class": "unmeasured",
+    "source_refs": [
+      "OSC-FEES",
+      "SFC",
+      "SPI-HOWTO"
+    ],
+    "scope_mapping": null,
+    "interpretation": "An explicit selected-host fee base, not new income. The reviewer must identify the qualifying donated/incoming/processed-revenue amounts and exclusions under that host's current terms. Never infer it from total cash, credits, contingent awards, internal transfers or account balances. Do not add this base to funding totals."
   }
 }

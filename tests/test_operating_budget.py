@@ -40,6 +40,8 @@ class OperatingBudgetTests(unittest.TestCase):
                 row["monthly_cents"] = [0] * 12
         for key in BUDGET.FUNDING_KEYS:
             self.document["funding_inputs"][key] = [0] * 12
+        self.document["host_fee_inputs"].update(monthly_base_cents=[0] * 12,
+            evidence_class="synthetic", scope_mapping="Synthetic qualifying fee base for the selected host only")
 
     def test_committed_outputs_reproduce_without_mutating_source_inputs(self):
         original = copy.deepcopy(self.document)
@@ -136,6 +138,7 @@ class OperatingBudgetTests(unittest.TestCase):
         funding = self.document["funding_inputs"]
         funding["external_unrestricted_cash_receipts"][0] = 10000
         funding["external_restricted_cash_receipts"][0] = 5000
+        self.document["host_fee_inputs"]["monthly_base_cents"][0] = 15000
         for name in ("contingent_cash_awards", "credit_face_value", "evidenced_avoided_cost"):
             funding[name][0] = 9000000
         result = self.scenario()
@@ -148,11 +151,35 @@ class OperatingBudgetTests(unittest.TestCase):
     def test_unknown_fee_or_fee_base_prevents_a_complete_cost(self):
         self.fully_priced_synthetic()
         self.document["parameters"]["selected_legal_path"] = "spi"
+        next(path for path in self.document["legal_paths"] if path["id"] == "spi")["host_fee_bps"] = None
         self.assertIsNone(self.scenario()["annual"]["complete_cash_cost_cents"])
         self.document["parameters"]["selected_legal_path"] = "osc"
+        self.document["host_fee_inputs"]["monthly_base_cents"][0] = None
         self.document["funding_inputs"]["external_restricted_cash_receipts"][0] = None
         self.assertIsNone(self.scenario()["monthly"][0]["cash_costs_cents"]["host_administration_fee"])
         self.assertIsNone(self.scenario()["annual"]["funding_measures_cents"]["external_restricted_cash_receipts"])
+
+    def test_spi_current_donation_fee_uses_only_explicit_qualifying_base(self):
+        self.fully_priced_synthetic()
+        self.document["parameters"]["selected_legal_path"] = "spi"
+        self.document["host_fee_inputs"]["monthly_base_cents"][0] = 10000
+        self.document["funding_inputs"]["external_unrestricted_cash_receipts"][0] = 900000
+        result = self.scenario()
+        self.assertEqual(result["monthly"][0]["cash_costs_cents"]["host_administration_fee"], 500)
+        self.assertEqual(result["annual"]["complete_cash_cost_cents"], 135740)
+        self.assertNotIn("host_fee_base", result["annual"]["funding_measures_cents"])
+        self.assertEqual(result["annual"]["funding_measures_cents"]["external_unrestricted_cash_receipts"], 900000)
+
+    def test_fee_base_needs_evidence_and_nonblank_mapping(self):
+        self.document["host_fee_inputs"]["monthly_base_cents"][0] = 0
+        with self.assertRaisesRegex(ValueError, "evidence class"):
+            BUDGET.calculate(self.document)
+        self.document["host_fee_inputs"]["evidence_class"] = "synthetic"
+        for invalid in (True, 17, [], {}, "", " \t\n"):
+            with self.subTest(mapping=invalid):
+                self.document["host_fee_inputs"]["scope_mapping"] = invalid
+                with self.assertRaisesRegex(ValueError, "mapping"):
+                    BUDGET.calculate(self.document)
 
     def test_contingency_and_reserve_are_distinct_from_baseline_expense(self):
         self.fully_priced_synthetic()

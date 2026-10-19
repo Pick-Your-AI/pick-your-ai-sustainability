@@ -99,20 +99,24 @@ host relationship. Only one route can be selected at a time.
 | Present community: `community` | No host or federal filing line within this counterfactual | Account authority, administrative capacity, taxes and all actual eligibility remain Unknown |
 | Fiscal host: `osc` | Published 10% of external funds entering the hosted project | Acceptance and actual fee base unverified; OSC's legal route remains distinct from independent charitable recognition |
 | Fiscal sponsor: `sfc` | Published 10% of revenue Conservancy processes | Software-freedom, licensing, community/maturity and negotiated agreement remain separate gates |
-| Fiscal sponsor: `spi` | Administration percentage **Unknown** | Use SPI-specific governing fee evidence; another host's comparison is insufficient |
+| Fiscal sponsor: `spi` | Published 5% of donated amounts, with attributable transaction costs separate | Current SPI-specific HOWTO supplies this input; actual project terms remain unverified |
 | Independent candidate: `independent_1023` | 2026 federal application fee USD 600 once, if scheduled | Actual form selection, eligibility, entity, filing date, other costs and recognition Unknown |
 | Independent candidate: `independent_1023_ez` | 2026 federal application fee USD 275 once, if scheduled | Full eligibility worksheet required; not an automatic route for this project |
 
 The [OSC fee page](https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md)
 also distinguishes third-party processing from its host fee and states there
 are no additional OSC setup, minimum-balance or recurring fees. Do not create a
-second charge for included host services. The [SFC application page](https://sfconservancy.org/projects/apply/)
+second charge for included host services. OSC [identifies itself](https://oscollective.org/about/)
+as a 501(c)(6) fiscal host; this is distinct from charitable 501(c)(3) recognition.
+The [SFC application page](https://sfconservancy.org/projects/apply/)
 describes rolling initial inquiry followed by review and agreement negotiation;
 hosting facilitates fundraising and does not provide an award. The
 [SPI service terms](https://www.spi-inc.org/projects/services/) require documented,
 approved expenses and normally an SPI officer's contract signature. Typical
 accounting is covered, while extraordinary project-specific costs may need a
-separate estimate. Its current administration percentage remains unverified.
+separate estimate. SPI's own current [association HOWTO](https://www.spi-inc.org/projects/associated-project-howto/)
+states that joining/remaining associated has no fee and that 5% of donated
+amounts is deducted for overhead; attributable transaction costs are separate.
 
 The federal alternatives come from **Revenue Procedure 2026-5, Appendix A** in
 the [official 2026 bulletin](https://www.irs.gov/irb/2026-01_IRB), reached through
@@ -140,10 +144,13 @@ workload, eligible actual coverage and evidence of the purchase it displaced.
 None of the last three measures is added to cash, used as an expense offset or
 included in an available-cash figure. Actual available cash remains null.
 
-For a hosted counterfactual, the two external-receipt schedules contain funds
-processed by that selected host. Internal transfers and other accounts are
-outside the fee base. A known host rate is applied to their monthly sum; an
-unknown rate or unknown receipt prevents a complete fee estimate. The monthly
+The separate `host_fee_inputs.monthly_base_cents` records the qualifying fee
+base under the selected host's actual scope: OSC's external incoming funds,
+SFC's processed revenue or SPI's donated amount. It requires its own evidence
+class and nonblank scope mapping, starts null, and is never added to funding
+receipts. Total cash, balances, internal transfers, awards and credits cannot
+silently substitute for that base. A known host rate applies to the explicit
+base; an unknown rate or base prevents a complete fee estimate. The monthly
 rounding convention is a planning approximation, not a reconstruction of the
 host's per-transaction ledger. Confirm actual transaction rounding, restrictions
 and fee allocation before treating a projected expense as chargeable to funds.
@@ -214,8 +221,10 @@ quote. The IRS bulletin is the current 2026 fee procedure, while its linked
 instructions have their own revision date. The first attempted IRS fee URL with
 an extra `charitable-organizations` path failed; the successful official index
 above and its actual linked bulletin supplied the fee findings. Unrelated
-search results were ignored. The SFC page's comparative SPI percentage remains
-unadopted because current SPI-specific evidence was not established.
+search results were ignored. The initial services-only inspection left SPI's
+percentage unverified; the subsequent current SPI HOWTO supplied direct 5%
+donation-overhead evidence. This is improved source coverage, not a claim that
+the provider changed its fees. SFC's comparative SPI quote is not the fee basis.
 
 The remaining facts are exact invoices/assets/account entitlements; qualified
 base demand from #21; selected route, form and timing; actual fees/taxes and

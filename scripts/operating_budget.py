@@ -168,6 +168,18 @@ def validate(document):
     for path in paths:
         integer(path["host_fee_bps"], f"{path['id']}.host_fee_bps", maximum=10000)
         integer(path["federal_application_fee_cents"], f"{path['id']}.federal_application_fee_cents")
+        require(isinstance(path["host_fee_basis"], str) and path["host_fee_basis"].strip(),
+                f"{path['id']}: host fee basis must be explicit")
+    fee_input = document["host_fee_inputs"]
+    series(fee_input["monthly_base_cents"], "host_fee_inputs.monthly_base_cents")
+    require(fee_input["evidence_class"] in {"unmeasured", "engineering_estimate", "quote", "synthetic"},
+            "host fee base: expected a planning evidence class")
+    require(isinstance(fee_input["source_refs"], list) and fee_input["source_refs"] and
+            all(ref in source_ids for ref in fee_input["source_refs"]), "host fee base: missing source provenance")
+    if any(value is not None for value in fee_input["monthly_base_cents"]):
+        require(fee_input["evidence_class"] != "unmeasured", "host fee base: populated values need an evidence class")
+        mapping = fee_input["scope_mapping"]
+        require(isinstance(mapping, str) and mapping.strip(), "host fee base: scope mapping must be nonblank text")
     scenarios = document["scenarios"]
     require(len(scenarios) == 3 and {s["id"] for s in scenarios} == {"lean", "expected", "stress"},
             "exactly lean, expected and stress scenarios are required")
@@ -220,10 +232,9 @@ def calculate(document):
         funding = document["funding_inputs"]
         amounts["host_administration_fee"] = []
         for i in range(MONTHS):
-            gross = complete_sum([funding["external_unrestricted_cash_receipts"][i],
-                                  funding["external_restricted_cash_receipts"][i]])
-            fee = (0 if fee_bps == 0 else None if fee_bps is None or gross is None
-                   else rounded(gross * fee_bps))
+            base = document["host_fee_inputs"]["monthly_base_cents"][i]
+            fee = (0 if fee_bps == 0 else None if fee_bps is None or base is None
+                   else rounded(base * fee_bps))
             amounts["host_administration_fee"].append(fee)
 
         months = []

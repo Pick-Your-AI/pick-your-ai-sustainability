@@ -810,7 +810,14 @@
       "blocked_issue_number": 20,
       "blocked_issue_id": 5918046004,
       "blocking_issue_number": 19,
-      "blocking_issue_id": 5918045714
+      "blocking_issue_id": 5918045714,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:38:48Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "blocked_key": "E02-05",
@@ -823,7 +830,14 @@
       "blocked_issue_number": 23,
       "blocked_issue_id": 5918046875,
       "blocking_issue_number": 20,
-      "blocking_issue_id": 5918046004
+      "blocking_issue_id": 5918046004,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.20"
+      }
     },
     {
       "blocked_key": "E02-05",
@@ -836,7 +850,14 @@
       "blocked_issue_number": 23,
       "blocked_issue_id": 5918046875,
       "blocking_issue_number": 22,
-      "blocking_issue_id": 5918046578
+      "blocking_issue_id": 5918046578,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T14:31:14Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "blocked_key": "E04-03",
@@ -849,7 +870,14 @@
       "blocked_issue_number": 35,
       "blocked_issue_id": 5918050866,
       "blocking_issue_number": 18,
-      "blocking_issue_id": 5918045368
+      "blocking_issue_id": 5918045368,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T14:26:14Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.18"
+      }
     },
     {
       "blocked_key": "E04-05",
@@ -862,7 +890,14 @@
       "blocked_issue_number": 37,
       "blocked_issue_id": 5918051519,
       "blocking_issue_number": 35,
-      "blocking_issue_id": 5918050866
+      "blocking_issue_id": 5918050866,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T16:40:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.35"
+      }
     },
     {
       "blocked_key": "E05-01D",
@@ -875,7 +910,14 @@
       "blocked_issue_number": 42,
       "blocked_issue_id": 5918053117,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E05-03",
@@ -888,7 +930,14 @@
       "blocked_issue_number": 48,
       "blocked_issue_id": 5918054982,
       "blocking_issue_number": 21,
-      "blocking_issue_id": 5918046298
+      "blocking_issue_id": 5918046298,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+      }
     },
     {
       "blocked_key": "E05-04",
@@ -901,7 +950,14 @@
       "blocked_issue_number": 49,
       "blocked_issue_id": 5918055324,
       "blocking_issue_number": 21,
-      "blocking_issue_id": 5918046298
+      "blocking_issue_id": 5918046298,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+      }
     },
     {
       "blocked_key": "E05-05",
@@ -914,7 +970,14 @@
       "blocked_issue_number": 50,
       "blocked_issue_id": 5918055619,
       "blocking_issue_number": 21,
-      "blocking_issue_id": 5918046298
+      "blocking_issue_id": 5918046298,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+      }
     },
     {
       "blocked_key": "E05-05",
@@ -927,7 +990,14 @@
       "blocked_issue_number": 50,
       "blocked_issue_id": 5918055619,
       "blocking_issue_number": 47,
-      "blocking_issue_id": 5918054673
+      "blocking_issue_id": 5918054673,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.47"
+      }
     },
     {
       "blocked_key": "E05-05",
@@ -940,7 +1010,14 @@
       "blocked_issue_number": 50,
       "blocked_issue_id": 5918055619,
       "blocking_issue_number": 48,
-      "blocking_issue_id": 5918054982
+      "blocking_issue_id": 5918054982,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.48"
+      }
     },
     {
       "blocked_key": "E05-05",
@@ -953,7 +1030,14 @@
       "blocked_issue_number": 50,
       "blocked_issue_id": 5918055619,
       "blocking_issue_number": 49,
-      "blocking_issue_id": 5918055324
+      "blocking_issue_id": 5918055324,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.49"
+      }
     },
     {
       "blocked_key": "E05-05",
@@ -966,7 +1050,14 @@
       "blocked_issue_number": 50,
       "blocked_issue_id": 5918055619,
       "blocking_issue_number": 38,
-      "blocking_issue_id": 5918051858
+      "blocking_issue_id": 5918051858,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.38"
+      }
     },
     {
       "blocked_key": "E06-01",
@@ -979,7 +1070,14 @@
       "blocked_issue_number": 51,
       "blocked_issue_id": 5918055946,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E06-01",
@@ -992,7 +1090,14 @@
       "blocked_issue_number": 51,
       "blocked_issue_id": 5918055946,
       "blocking_issue_number": 19,
-      "blocking_issue_id": 5918045714
+      "blocking_issue_id": 5918045714,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:38:48Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "blocked_key": "E06-02",
@@ -1005,7 +1110,14 @@
       "blocked_issue_number": 52,
       "blocked_issue_id": 5918056302,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E06-02",
@@ -1018,7 +1130,14 @@
       "blocked_issue_number": 52,
       "blocked_issue_id": 5918056302,
       "blocking_issue_number": 19,
-      "blocking_issue_id": 5918045714
+      "blocking_issue_id": 5918045714,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:38:48Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "blocked_key": "E06-03",
@@ -1031,7 +1150,14 @@
       "blocked_issue_number": 53,
       "blocked_issue_id": 5918056622,
       "blocking_issue_number": 19,
-      "blocking_issue_id": 5918045714
+      "blocking_issue_id": 5918045714,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:38:48Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "blocked_key": "E06-03",
@@ -1044,7 +1170,14 @@
       "blocked_issue_number": 53,
       "blocked_issue_id": 5918056622,
       "blocking_issue_number": 57,
-      "blocking_issue_id": 5918057900
+      "blocking_issue_id": 5918057900,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+      }
     },
     {
       "blocked_key": "E06-04",
@@ -1057,7 +1190,14 @@
       "blocked_issue_number": 54,
       "blocked_issue_id": 5918056953,
       "blocking_issue_number": 19,
-      "blocking_issue_id": 5918045714
+      "blocking_issue_id": 5918045714,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:38:48Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "blocked_key": "E06-04",
@@ -1070,7 +1210,14 @@
       "blocked_issue_number": 54,
       "blocked_issue_id": 5918056953,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E06-05",
@@ -1083,7 +1230,14 @@
       "blocked_issue_number": 55,
       "blocked_issue_id": 5918057238,
       "blocking_issue_number": 19,
-      "blocking_issue_id": 5918045714
+      "blocking_issue_id": 5918045714,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:38:48Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "blocked_key": "E06-05",
@@ -1096,7 +1250,14 @@
       "blocked_issue_number": 55,
       "blocked_issue_id": 5918057238,
       "blocking_issue_number": 57,
-      "blocking_issue_id": 5918057900
+      "blocking_issue_id": 5918057900,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+      }
     },
     {
       "blocked_key": "E07-04",
@@ -1109,7 +1270,14 @@
       "blocked_issue_number": 59,
       "blocked_issue_id": 5918058554,
       "blocking_issue_number": 57,
-      "blocking_issue_id": 5918057900
+      "blocking_issue_id": 5918057900,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+      }
     },
     {
       "blocked_key": "E07-05",
@@ -1122,7 +1290,14 @@
       "blocked_issue_number": 60,
       "blocked_issue_id": 5918058839,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E07-06",
@@ -1135,7 +1310,14 @@
       "blocked_issue_number": 61,
       "blocked_issue_id": 5918059149,
       "blocking_issue_number": 57,
-      "blocking_issue_id": 5918057900
+      "blocking_issue_id": 5918057900,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+      }
     },
     {
       "blocked_key": "E08-01",
@@ -1148,7 +1330,14 @@
       "blocked_issue_number": 62,
       "blocked_issue_id": 5918059455,
       "blocking_issue_number": 13,
-      "blocking_issue_id": 5918043791
+      "blocking_issue_id": 5918043791,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+      }
     },
     {
       "blocked_key": "E08-01",
@@ -1161,7 +1350,14 @@
       "blocked_issue_number": 62,
       "blocked_issue_id": 5918059455,
       "blocking_issue_number": 17,
-      "blocking_issue_id": 5918045061
+      "blocking_issue_id": 5918045061,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+      }
     },
     {
       "blocked_key": "E08-02",
@@ -1174,7 +1370,14 @@
       "blocked_issue_number": 63,
       "blocked_issue_id": 5918059717,
       "blocking_issue_number": 49,
-      "blocking_issue_id": 5918055324
+      "blocking_issue_id": 5918055324,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.49"
+      }
     },
     {
       "blocked_key": "E08-03",
@@ -1187,7 +1390,14 @@
       "blocked_issue_number": 64,
       "blocked_issue_id": 5918060043,
       "blocking_issue_number": 18,
-      "blocking_issue_id": 5918045368
+      "blocking_issue_id": 5918045368,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T14:26:14Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.18"
+      }
     },
     {
       "blocked_key": "E08-03",
@@ -1200,7 +1410,14 @@
       "blocked_issue_number": 64,
       "blocked_issue_id": 5918060043,
       "blocking_issue_number": 57,
-      "blocking_issue_id": 5918057900
+      "blocking_issue_id": 5918057900,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+      }
     },
     {
       "blocked_key": "E08-04",
@@ -1213,7 +1430,14 @@
       "blocked_issue_number": 65,
       "blocked_issue_id": 5918060366,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E08-05",
@@ -1226,7 +1450,14 @@
       "blocked_issue_number": 66,
       "blocked_issue_id": 5918060647,
       "blocking_issue_number": 22,
-      "blocking_issue_id": 5918046578
+      "blocking_issue_id": 5918046578,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T14:31:14Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "blocked_key": "E09-02",
@@ -1239,7 +1470,14 @@
       "blocked_issue_number": 68,
       "blocked_issue_id": 5918061290,
       "blocking_issue_number": 11,
-      "blocking_issue_id": 5918043201
+      "blocking_issue_id": 5918043201,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T10:43:22Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "blocked_key": "E09-02",
@@ -1252,7 +1490,14 @@
       "blocked_issue_number": 68,
       "blocked_issue_id": 5918061290,
       "blocking_issue_number": 24,
-      "blocking_issue_id": 5918047257
+      "blocking_issue_id": 5918047257,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:20:40Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.24"
+      }
     },
     {
       "blocked_key": "E09-03",
@@ -1265,7 +1510,14 @@
       "blocked_issue_number": 69,
       "blocked_issue_id": 5918061616,
       "blocking_issue_number": 68,
-      "blocking_issue_id": 5918061290
+      "blocking_issue_id": 5918061290,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:39:07Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.68"
+      }
     },
     {
       "blocked_key": "E09-03",
@@ -1278,7 +1530,14 @@
       "blocked_issue_number": 69,
       "blocked_issue_id": 5918061616,
       "blocking_issue_number": 24,
-      "blocking_issue_id": 5918047257
+      "blocking_issue_id": 5918047257,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:20:40Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.24"
+      }
     },
     {
       "blocked_key": "E09-04",
@@ -1291,7 +1550,14 @@
       "blocked_issue_number": 70,
       "blocked_issue_id": 5918061956,
       "blocking_issue_number": 67,
-      "blocking_issue_id": 5918060967
+      "blocking_issue_id": 5918060967,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:05:11Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.67"
+      }
     },
     {
       "blocked_key": "E09-05",
@@ -1304,7 +1570,14 @@
       "blocked_issue_number": 71,
       "blocked_issue_id": 5918062386,
       "blocking_issue_number": 18,
-      "blocking_issue_id": 5918045368
+      "blocking_issue_id": 5918045368,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T14:26:14Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.18"
+      }
     },
     {
       "blocked_key": "E09-05",
@@ -1317,7 +1590,14 @@
       "blocked_issue_number": 71,
       "blocked_issue_id": 5918062386,
       "blocking_issue_number": 20,
-      "blocking_issue_id": 5918046004
+      "blocking_issue_id": 5918046004,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.20"
+      }
     },
     {
       "blocked_key": "E09-06",
@@ -1330,7 +1610,14 @@
       "blocked_issue_number": 72,
       "blocked_issue_id": 5918062707,
       "blocking_issue_number": 69,
-      "blocking_issue_id": 5918061616
+      "blocking_issue_id": 5918061616,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "OPEN",
+        "prerequisite_closed_at": null,
+        "status": "blocked_acceptance_or_delivery_pending",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.69"
+      }
     },
     {
       "blocked_key": "E09-06",
@@ -1343,7 +1630,14 @@
       "blocked_issue_number": 72,
       "blocked_issue_id": 5918062707,
       "blocking_issue_number": 70,
-      "blocking_issue_id": 5918061956
+      "blocking_issue_id": 5918061956,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T12:16:42Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.70"
+      }
     },
     {
       "blocked_key": "E09-06",
@@ -1356,7 +1650,14 @@
       "blocked_issue_number": 72,
       "blocked_issue_id": 5918062707,
       "blocking_issue_number": 71,
-      "blocking_issue_id": 5918062386
+      "blocking_issue_id": 5918062386,
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T13:58:56Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.71"
+      }
     }
   ],
   "related_inputs": [
@@ -1366,7 +1667,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Entity and operating facts inform legal analysis; source research can start now.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E01-03",
@@ -1374,7 +1680,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Needs verified baseline for recommendation.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E01-03",
@@ -1382,7 +1693,12 @@
       "input_key": "E01-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
       "reason": "Purpose assessment changes suitability.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.12"
+      }
     },
     {
       "consumer_key": "E01-03",
@@ -1398,7 +1714,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Ownership/authority needed for eventual application.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E01-04",
@@ -1414,7 +1735,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Jurisdiction and baseline evidence govern the final state-specific section.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E01-05",
@@ -1430,7 +1756,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Entity age, fiscal year, revenue/assets and jurisdiction are needed to finalize applicability.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E01-06",
@@ -1438,7 +1769,12 @@
       "input_key": "E01-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
       "reason": "Purpose analysis informs exemption route.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.12"
+      }
     },
     {
       "consumer_key": "E01-06",
@@ -1454,7 +1790,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Asset baseline identifies owners and access.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E01-08",
@@ -1462,7 +1803,12 @@
       "input_key": "E01-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
       "reason": "Purpose/private-benefit analysis informs safeguards.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.12"
+      }
     },
     {
       "consumer_key": "E01-08",
@@ -1494,7 +1840,12 @@
       "input_key": "E02-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "Existing inventory supplies real usage where available.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "consumer_key": "E02-04",
@@ -1502,7 +1853,12 @@
       "input_key": "E01-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
       "reason": "Purpose analysis connects outcomes to charitable goals.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.12"
+      }
     },
     {
       "consumer_key": "E02-04",
@@ -1510,7 +1866,12 @@
       "input_key": "E02-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "Needs inventory clarifies resource-dependent outcomes.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "consumer_key": "E02-05",
@@ -1518,7 +1879,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Legal identity/authority remain gated before submission.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E02-06",
@@ -1534,7 +1900,12 @@
       "input_key": "E02-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "Inventory identifies payment/renewal risks.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "consumer_key": "E03-01",
@@ -1542,7 +1913,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Applicant/contributor facts needed for qualification.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E03-01",
@@ -1574,7 +1950,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Applicant identity and authority verified privately.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E03-02",
@@ -1582,7 +1963,12 @@
       "input_key": "E02-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Security/public impact measures support fit.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "consumer_key": "E03-03",
@@ -1598,7 +1984,12 @@
       "input_key": "E02-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "Concrete needs prevent speculative grant chasing.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "consumer_key": "E03-04",
@@ -1606,7 +1997,12 @@
       "input_key": "E02-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Measurement plan supplies outcomes.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "consumer_key": "E03-04",
@@ -1614,7 +2010,12 @@
       "input_key": "E01-08",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "reason": "Neutrality policy defines acceptable restrictions.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.18"
+      }
     },
     {
       "consumer_key": "E03-04",
@@ -1630,7 +2031,12 @@
       "input_key": "E02-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Educational outcome definition is needed for fit.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "consumer_key": "E03-05",
@@ -1638,7 +2044,12 @@
       "input_key": "E01-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
       "reason": "Purpose evidence anchors public benefit.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.12"
+      }
     },
     {
       "consumer_key": "E03-06",
@@ -1646,7 +2057,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Actual entity, employment and control facts required before qualification.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E03-06",
@@ -1654,7 +2070,12 @@
       "input_key": "E02-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Research benefit measures support fit.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "consumer_key": "E03-06",
@@ -1678,7 +2099,12 @@
       "input_key": "E02-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Mission/impact evidence anchors prospects.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "consumer_key": "E03-08",
@@ -1710,7 +2136,12 @@
       "input_key": "E02-06",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "reason": "Financial controls determine operational treatment.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.24"
+      }
     },
     {
       "consumer_key": "E04-01",
@@ -1718,7 +2149,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Legal operations, authority and payout baseline gate activation.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E04-01",
@@ -1734,7 +2170,12 @@
       "input_key": "E02-06",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "reason": "Controls needed before receiving/spending funds.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.24"
+      }
     },
     {
       "consumer_key": "E04-02",
@@ -1758,7 +2199,12 @@
       "input_key": "E02-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "Real needs anchor model value.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "consumer_key": "E04-03",
@@ -1774,7 +2220,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Entity and charitable-status facts needed for access qualification.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E04-04",
@@ -1790,7 +2241,12 @@
       "input_key": "E02-06",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "reason": "Receipt and restricted-fund controls required before activation.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.24"
+      }
     },
     {
       "consumer_key": "E04-05",
@@ -1798,7 +2254,12 @@
       "input_key": "E02-06",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "reason": "Financial controls govern acknowledgments.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.24"
+      }
     },
     {
       "consumer_key": "E04-05",
@@ -1806,7 +2267,12 @@
       "input_key": "E02-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Outcome metrics determine reportable public benefit.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.22"
+      }
     },
     {
       "consumer_key": "E09-01",
@@ -1814,7 +2280,12 @@
       "input_key": "E01-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.11"
+      }
     },
     {
       "consumer_key": "E09-01",
@@ -1822,7 +2293,12 @@
       "input_key": "E01-08",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.18"
+      }
     },
     {
       "consumer_key": "E09-01",
@@ -1838,7 +2314,12 @@
       "input_key": "E09-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.68"
+      }
     },
     {
       "consumer_key": "E09-02",
@@ -1846,7 +2327,12 @@
       "input_key": "E01-08",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.18"
+      }
     },
     {
       "consumer_key": "E09-02",
@@ -1854,7 +2340,12 @@
       "input_key": "E04-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.35"
+      }
     },
     {
       "consumer_key": "E09-03",
@@ -1878,7 +2369,12 @@
       "input_key": "E06-04",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.54"
+      }
     },
     {
       "consumer_key": "E09-04",
@@ -1886,7 +2382,12 @@
       "input_key": "E09-02",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.68"
+      }
     },
     {
       "consumer_key": "E09-05",
@@ -1910,7 +2411,12 @@
       "input_key": "E02-01",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-19",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.19"
+      }
     },
     {
       "consumer_key": "E09-06",
@@ -3749,5 +4255,707 @@
         "all_numeric_node_and_url_identities_match": true
       }
     }
+  },
+  "acceptance_reconciliation": {
+    "checked_on": "2026-10-19",
+    "local_base_sha": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+    "history_rule": "All original edges, reasons, native verification and dated execution snapshots retained. Satisfaction describes only the bounded prerequisite output, never downstream completion or organizational approval. No GitHub relationship readback or mutation was performed in this reconciliation.",
+    "review_limit": "Cited independent in-session substantive engineering decisions use a shared GitHub account and COMMENTED reviews. They are not distinct-account APPROVED votes, independent human/legal approval or organizational adoption. Any such separately required approval remains pending. A merge alone never establishes satisfaction.",
+    "prerequisites": {
+      "11": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T10:43:22Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Entity evidence/Unknown ledger only; private facts and legal authority remain Unknown.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/82",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "2bba83484de3e70453cd9886e69e06f4fcec9120"
+          },
+          "mergedAt": "2026-10-19T10:42:14Z",
+          "number": 82,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/82"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11#issuecomment-6265069457"
+        ],
+        "acceptance_review_node_id": "PRR_kwDOVO8t2M8AAAABTAUzfw",
+        "accepted_source_sha": "e93841ae0e9e1455a55193bee64236bea382353e",
+        "acceptance_submitted_at": "2026-10-19T10:41:52Z"
+      },
+      "12": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T14:45:23Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Charitable-purpose research only; no legal opinion or qualified applicant.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/107#pullrequestreview-5572890061",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "6061a3be6a5ebfcf3f224c5cb6afc069ef61941f"
+          },
+          "mergedAt": "2026-10-19T14:41:02Z",
+          "number": 107,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/107"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12#issuecomment-6269068561",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12#issuecomment-6269668376"
+        ]
+      },
+      "13": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Issue open; formation output and acceptance not evidenced.",
+        "latest_comment_urls": []
+      },
+      "17": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Reviewed contributor source exists, but canonical main delivery and whole-issue completion explicitly pending.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6271963704",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6272047931"
+        ]
+      },
+      "18": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T14:26:14Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Draft neutrality proposal only; organizational adoption remains separate.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/106#pullrequestreview-5572715412",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "b7504597265146ba47d6c3ea99a9ce243a2b797b"
+          },
+          "mergedAt": "2026-10-19T14:20:08Z",
+          "number": 106,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/106"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18#issuecomment-6269199331",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18#issuecomment-6269578885"
+        ]
+      },
+      "19": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T12:38:48Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Needs evidence/Unknown baseline only; actual invoices and demand remain Unknown.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/96#pullrequestreview-5571462106",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "2c06977bdb59ec1fdf687e3e177c12dcc8a62cce"
+          },
+          "mergedAt": "2026-10-19T12:36:20Z",
+          "number": 96,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/96"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19#issuecomment-6266401590",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19#issuecomment-6267159081"
+        ]
+      },
+      "20": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Issue open; published budget candidate explicitly awaits independent acceptance and delivery.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6266988438",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6268053696"
+        ]
+      },
+      "21": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Issue open; canonical demand output and independent acceptance not evidenced.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6263808333",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6267557657"
+        ]
+      },
+      "22": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T14:31:14Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Measurement proposal only; targets are not observed outcomes.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/103#pullrequestreview-5572379791",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "16a0f2c9dea0e502d6a092e3b25dfdf7c4d0846c"
+          },
+          "mergedAt": "2026-10-19T14:15:40Z",
+          "number": 103,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/103"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22#issuecomment-6268218858",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22#issuecomment-6268768374"
+        ]
+      },
+      "24": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T12:20:40Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Proposed financial controls only; appointments and transactions remain separate.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/94#pullrequestreview-5571402954",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "82deb8c6944154f85d09590bd036f11f04e8679a"
+          },
+          "mergedAt": "2026-10-19T12:17:26Z",
+          "number": 94,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/94"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24#issuecomment-6266932897",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24#issuecomment-6267065633"
+        ]
+      },
+      "35": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T16:40:22Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Draft support-model menu only; no prices, agreement or activated benefit.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/109#pullrequestreview-5573774449",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "f3e9b016b08d5a69354de45001340ec20867a0f5"
+          },
+          "mergedAt": "2026-10-19T16:13:25Z",
+          "number": 109,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/109"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35#issuecomment-6270182690",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35#issuecomment-6272295276"
+        ]
+      },
+      "38": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Accepted source packet exists; C12 and accepting-main delivery explicitly pending.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6270987276",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6271589084"
+        ]
+      },
+      "47": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Findings accepted on PR #88, but final receiving/delivery reconciliation explicitly pending.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6265818809",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6271684343"
+        ]
+      },
+      "48": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Issue open; no comments or accepted output in the inspected evidence.",
+        "latest_comment_urls": []
+      },
+      "49": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Issue open; no comments or accepted output in the inspected evidence.",
+        "latest_comment_urls": []
+      },
+      "54": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T15:11:27Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Hardware program research only; no qualified applicant, equipment receipt or valuation.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "9d83cabc23b4454b43785abe5a792dbc1b01a817"
+          },
+          "mergedAt": "2026-10-19T15:06:42Z",
+          "number": 108,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54#issuecomment-6269004388",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54#issuecomment-6269826672"
+        ]
+      },
+      "57": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T10:48:54Z",
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Closed, but latest issue comment and canonical acceptance record retain pending acceptance; PR #79 supplies bounded source clearance, not an explicit final receiving acceptance receipt. Confirm exact final scope before satisfaction.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57#issuecomment-6265024760"
+        ],
+        "source_clearance_pr_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "a648627e9df846995b1275f2f19c8cb9fec90861"
+          },
+          "mergedAt": "2026-10-19T10:48:52Z",
+          "number": 79,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79"
+        }
+      },
+      "67": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T12:05:11Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Repository intake structure and synthetic example only.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/86#pullrequestreview-5571023022",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "015300e6834940d537c933de3490bb5d3a707cd8"
+          },
+          "mergedAt": "2026-10-19T11:58:33Z",
+          "number": 86,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/86"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67#issuecomment-6266473890",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67#issuecomment-6266761735"
+        ]
+      },
+      "68": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T12:39:07Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Authorization procedure only; sample external action remains unapproved.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/97#pullrequestreview-5571496146",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "6cae434061892d8b3378f4abe21d0226e9e93d95"
+          },
+          "mergedAt": "2026-10-19T12:32:57Z",
+          "number": 97,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/97"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68#issuecomment-6267163098",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68#issuecomment-6267407864"
+        ]
+      },
+      "69": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+        "state": "OPEN",
+        "closed_at": null,
+        "checked_on": "2026-10-19",
+        "disposition": "not_satisfied",
+        "missing": "Issue open; candidate undergoing independent full-source/manual-case review; no accepted delivery evidenced.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267033046",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038"
+        ]
+      },
+      "70": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T12:16:42Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Freshness procedure and dated first readback only; no new provider checks.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/87#pullrequestreview-5570970230",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "52c439c056beed504ee1d0ec2e904213f507e456"
+          },
+          "mergedAt": "2026-10-19T11:48:15Z",
+          "number": 87,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/87"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70#issuecomment-6266978348",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70#issuecomment-6266992367"
+        ]
+      },
+      "71": {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T13:58:56Z",
+        "checked_on": "2026-10-19",
+        "disposition": "accepted_bounded_input",
+        "scope": "Risk methodology only; budget-dependent calculations and policy adoption remain blocked.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/101#pullrequestreview-5572024427",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "039148b5e1d9ecbd555c4bda5d7907e516024cf3"
+          },
+          "mergedAt": "2026-10-19T13:47:51Z",
+          "number": 101,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/101"
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71#issuecomment-6267897238",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71#issuecomment-6268988773"
+        ]
+      }
+    },
+    "research_issue_state_snapshot": {
+      "source": "gh issue list -R Pick-Your-AI/pick-your-ai-research --state all --limit 300 --json number,state,closedAt",
+      "issues": [
+        {
+          "closedAt": "2026-10-18T13:52:56Z",
+          "number": 65,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T12:06:31Z",
+          "number": 64,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": null,
+          "number": 63,
+          "state": "OPEN"
+        },
+        {
+          "closedAt": null,
+          "number": 62,
+          "state": "OPEN"
+        },
+        {
+          "closedAt": null,
+          "number": 61,
+          "state": "OPEN"
+        },
+        {
+          "closedAt": "2026-10-18T10:38:30Z",
+          "number": 60,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T23:27:16Z",
+          "number": 59,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T11:55:01Z",
+          "number": 58,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T11:19:53Z",
+          "number": 57,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": null,
+          "number": 56,
+          "state": "OPEN"
+        },
+        {
+          "closedAt": "2026-10-18T10:38:47Z",
+          "number": 55,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T13:00:14Z",
+          "number": 54,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T14:44:47Z",
+          "number": 53,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": null,
+          "number": 52,
+          "state": "OPEN"
+        },
+        {
+          "closedAt": "2026-10-18T21:38:53Z",
+          "number": 51,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T15:09:13Z",
+          "number": 50,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T16:17:49Z",
+          "number": 49,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T12:34:40Z",
+          "number": 48,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": null,
+          "number": 47,
+          "state": "OPEN"
+        },
+        {
+          "closedAt": "2026-10-19T07:01:13Z",
+          "number": 42,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T00:52:53Z",
+          "number": 39,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T01:57:49Z",
+          "number": 38,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T02:42:43Z",
+          "number": 37,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T21:54:58Z",
+          "number": 36,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T22:50:59Z",
+          "number": 35,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T03:31:30Z",
+          "number": 34,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T02:45:23Z",
+          "number": 33,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T05:21:19Z",
+          "number": 32,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T21:52:29Z",
+          "number": 31,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T19:02:53Z",
+          "number": 30,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T06:17:54Z",
+          "number": 29,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T17:51:50Z",
+          "number": 24,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T22:50:53Z",
+          "number": 16,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T19:53:50Z",
+          "number": 15,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T13:41:40Z",
+          "number": 10,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T15:53:14Z",
+          "number": 9,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T18:56:38Z",
+          "number": 7,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T22:11:44Z",
+          "number": 3,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-18T23:38:59Z",
+          "number": 2,
+          "state": "CLOSED"
+        },
+        {
+          "closedAt": "2026-10-19T07:03:18Z",
+          "number": 1,
+          "state": "CLOSED"
+        }
+      ],
+      "limitation": "Closed state verified, not acceptance of each criterion or any downstream receiving output."
+    },
+    "cross_repository_context_snapshot": [
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-android/issues/107",
+        "state": "OPEN",
+        "closed_at": null,
+        "last_comment_urls": [],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/107",
+        "state": "OPEN",
+        "closed_at": null,
+        "last_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/107#issuecomment-6260532842",
+          "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/107#issuecomment-6260653935"
+        ],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/24",
+        "state": "CLOSED",
+        "closed_at": "2026-10-18T01:31:10Z",
+        "last_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/24#issuecomment-6244245944",
+          "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/24#issuecomment-6257617615"
+        ],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/1",
+        "state": "OPEN",
+        "closed_at": null,
+        "last_comment_urls": [],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "state": "OPEN",
+        "closed_at": null,
+        "last_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25#issuecomment-6242980289",
+          "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25#issuecomment-6256654429"
+        ],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "state": "CLOSED",
+        "closed_at": "2026-10-18T22:47:56Z",
+        "last_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41#issuecomment-6258702233",
+          "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41#issuecomment-6260214028"
+        ],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54",
+        "state": "CLOSED",
+        "closed_at": "2026-10-18T13:00:14Z",
+        "last_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54#issuecomment-6249081976",
+          "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54#issuecomment-6249197680"
+        ],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      },
+      {
+        "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/60",
+        "state": "CLOSED",
+        "closed_at": "2026-10-18T10:38:30Z",
+        "last_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/60#issuecomment-6256566108",
+          "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/60#issuecomment-6260217715"
+        ],
+        "receiving_acceptance_established": false,
+        "limitation": "Context only. Closure and scoped upstream decisions do not establish sustainability receiving acceptance; no native blocker inferred."
+      }
+    ],
+    "jetbrains_replacement": {
+      "delivery": {
+        "mergeCommit": {
+          "oid": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e"
+        },
+        "mergedAt": "2026-10-19T16:36:00Z",
+        "number": 113,
+        "state": "MERGED",
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/113"
+      },
+      "receiving_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/113",
+      "limitation": "Merged replacement verified; no dependency inferred, no downstream acceptance or applicant/license entitlement inferred.",
+      "review_nodes": [
+        "PRR_kwDOVO8t2M8AAAABTDxtpQ",
+        "PRR_kwDOVO8t2M8AAAABTEaKwA"
+      ]
+    },
+    "proposed_edges": []
   }
 }

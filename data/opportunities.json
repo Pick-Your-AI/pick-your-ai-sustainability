@@ -9,50 +9,99 @@
       "provider": "NLnet",
       "program_name": "Restack",
       "program_aliases": [],
-      "round": null,
+      "round": "First call, opened 2026-09-03",
       "category": "funding",
       "support_type": "cash_grant",
       "official_program_url": "https://nlnet.nl/restack/",
       "official_application_url": "https://nlnet.nl/propose/",
-      "eligibility_jurisdiction": "Unknown; verify applicant location and program country requirements",
-      "legal_entity_requirements": "Unknown; obtain current provider-specific applicant requirements",
-      "available_before_incorporation": "Ineligible for the current ordinary AI-builder scope",
-      "available_through_fiscal_sponsorship": "Ineligible for the same scope; sponsorship does not cure it",
-      "available_after_501c3_recognition": "Ineligible for the same scope; recognition does not cure it",
+      "eligibility_jurisdiction": "Contributor and grant-allocation rules apply; see canonical european_dimension. Actual country eligibility, allocation and any provider exception remain Unknown.",
+      "legal_entity_requirements": "Individuals and formal/informal organizations are published applicant types; actual applicant authority and fiscal-host arrangements remain Unknown. See the separately assessed three routes.",
+      "available_before_incorporation": "Ineligible for the ordinary AI-builder scope; a generally permitted individual or informal organization route does not cure it.",
+      "available_through_fiscal_sponsorship": "Ineligible for the same proposed scope; no sponsor or contributor exception is established.",
+      "available_after_501c3_recognition": "Ineligible for the same proposed scope; actual recognition remains Unknown and would not cure this exclusion.",
       "eligibility_status": "Ineligible for the ordinary AI-builder scope; exception evidence absent",
       "eligibility_conditions": [
         "Concrete contribution to open internet infrastructure",
         "Recognized free/open source release of funded outputs"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "application_status": "Call open; Pick Your AI scope excluded absent exception evidence",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "In Review",
       "verified_deadline": "2026-11-03",
       "deadline_timezone": "CET (UTC+01:00)",
       "deadline_source_url": "https://nlnet.nl/restack/",
       "benefit_amount_or_capacity": "Published proposal range €5,000–€50,000; no anticipated award to Pick Your AI.",
       "currency": "EUR",
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
       "restrictions_and_obligations": [
-        "Do not infer user adoption or an exception from planned features or synthetic previews."
+        "See canonical shared_conditions for call-specific licensing/conflicts, AI provenance and payable work, cash flow, actual versus sample MoU, reporting/publicity, privacy, portability, continuation, overage and independence."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
-      "required_application_evidence": [],
+      "program_objectives": "Open Internet Stack contribution within the current call scope; see canonical Restack assessment.",
+      "fit_with_pick_your_ai": "Current ordinary AI-builder scope excluded; no accepted exception evidence. See canonical program assessment.",
+      "required_application_evidence": [
+        "See canonical current_intake for actual form fields and shared_conditions for the required underlying rights, contributor, AI-provenance and cost evidence."
+      ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Fourteen official sources support the combined assessment; actual findings are pending independent review. Applicant facts and future use-case qualification remain separate.",
       "sources": [
         {
           "url": "https://nlnet.nl/restack/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "First call, deadline, initial benefit and AI/stack scope gate"
+        },
+        {
+          "url": "https://nlnet.nl/restack/guideforapplicants/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Programme dates, funding limits, conflicts and agreement process"
+        },
+        {
+          "url": "https://nlnet.nl/restack/eligibility/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Eligible activities, European dimension and exceptional-provider discretion"
+        },
+        {
+          "url": "https://nlnet.nl/restack/faq/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Applicant types, milestones/no advance, assessment timing, project duration, overhead and AI/preselection payment limits"
+        },
+        {
+          "url": "https://nlnet.nl/propose/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Visible intake fields, limits, AI disclosure, privacy and email-encryption caveat"
+        },
+        {
+          "url": "https://nlnet.nl/NGI0/eu-dimension/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "People/allocation test, 2026-10-13 country update and Commission precedence; no specific person qualified"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Application disclosure, AI provenance, rights, human responsibility and payment restrictions"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Example reporting, milestone, publication and payment clauses; not an actual PYA agreement"
+        },
+        {
+          "url": "https://nlnet.nl/privacy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Data handling, programme-label uncertainty and encryption/retention qualifications"
         }
       ],
       "scoring": {
@@ -65,12 +114,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Source-backed scope exclusion; the current deadline does not create a P0 opportunity. E03-01 remains a broader P2 comparison. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score."
       },
       "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Preserve the exclusion; reopen only upon independent evidence of a genuinely eligible scope or published rule change.",
+      "next_action": "Retain the exclusion. Reopen only for a documented provider rule change or independently evidenced genuinely eligible scope and applicant; do not construct an exception to meet the deadline.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -80,36 +129,46 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "No binding schedule established. The canonical assessment separates illustrative MoU clauses from an actual accepted agreement.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "NLnet",
-          "Restack"
+          "Restack",
+          "CodeSupply",
+          "NGI Zero Commons Fund"
         ],
         "canonical_match": "NLNET-RESTACK",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Live issue #25 and all comments, parent #4, organization NLnet issue/PR search and existing register inspected before claim6266831542; retain the three existing program identities."
       },
       "review": {
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Canonical assessment published for independent findings review; acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research acceptance is separate from applicant qualification, an application, award or payable work."
         ]
       },
       "owning_research_key": "E03-01",
       "source_urls": [
-        "https://nlnet.nl/restack/"
+        "https://nlnet.nl/restack/",
+        "https://nlnet.nl/restack/guideforapplicants/",
+        "https://nlnet.nl/restack/eligibility/",
+        "https://nlnet.nl/restack/faq/",
+        "https://nlnet.nl/propose/",
+        "https://nlnet.nl/NGI0/eu-dimension/",
+        "https://nlnet.nl/foundation/policies/generativeAI/",
+        "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+        "https://nlnet.nl/privacy/"
       ],
       "application_url": "https://nlnet.nl/propose/",
       "source_evidence": [
-        "The current first call closes 2026-11-03 at noon CET. AI-related projects are excluded unless they already exceed one million active human users and directly serve the stack."
+        "Current first-call deadline and scope exclusion checked directly. The canonical assessment records the three applicant routes and preserves Not Pursuing."
       ],
       "benefit": "Published proposal range €5,000–€50,000; no anticipated award to Pick Your AI.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+      "required_application_evidence_status": "Actual public form fields and limits checked; see current_intake in the canonical assessment. No submission, receipt or private follow-up was tested.",
       "published_qualification_requirements": [
         "Concrete contribution to open internet infrastructure",
         "Recognized free/open source release of funded outputs"
@@ -122,39 +181,54 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P3",
       "score": null,
-      "scoring_justification": "Source-backed scope exclusion; the current deadline does not create a P0 opportunity. E03-01 remains a broader P2 comparison.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "scoring_justification": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score.",
+      "source_freshness": "Actual relevant official text checked 2026-10-19; see canonical source IDs and conflict/access scope. Recheck before reliance; submission and private agreement were not exercised.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
-        "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "reviewed_on": null,
+        "scope": "Independent acceptance of this complete current assessment is pending; previous seed consistency checks do not satisfy issue #25."
       },
       "deadline_local_time": "12:00",
       "deadline_utc": "2026-11-03T11:00:00Z",
       "current_disposition": "Not Pursuing for ordinary AI-builder scope",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Current call and intake findings checked; independent acceptance pending",
       "applicant_qualification_status": "Ineligible for the ordinary AI-builder scope; exception evidence absent",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "Source-backed scope exclusion; the current deadline does not create a P0 opportunity. E03-01 remains a broader P2 comparison.",
+      "estimated_usable_value_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
+      "score_reason": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "currency_status": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "application_route_description": "Current public English proposal form at the existing application URL; select the actual fund. Fields read; no applicant data entered or submitted.",
+      "currency_status": "Published call denominated in EUR; no conversion or grant receipt inferred.",
+      "gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
+      "jurisdiction": "Contributor and grant-allocation rules apply; see canonical european_dimension. Actual country eligibility, allocation and any provider exception remain Unknown.",
+      "priority_scope_note": "Priority concerns researched scope and follow-up; no application readiness is inferred.",
+      "recommended_disposition": "Not Pursuing for ordinary AI-builder scope",
       "source_refs": [
-        "https://nlnet.nl/restack/"
+        "https://nlnet.nl/restack/",
+        "https://nlnet.nl/restack/guideforapplicants/",
+        "https://nlnet.nl/restack/eligibility/",
+        "https://nlnet.nl/restack/faq/",
+        "https://nlnet.nl/propose/",
+        "https://nlnet.nl/NGI0/eu-dimension/",
+        "https://nlnet.nl/foundation/policies/generativeAI/",
+        "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+        "https://nlnet.nl/privacy/"
       ],
-      "related_research_issue_urls": [],
-      "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54"
+      ],
+      "dependency_relationship_verification": "Issue #25 explicitly identifies #11/#17/#21 as research inputs and research #41/#54 as existing technical owners, with no hard research prerequisite. This change does not create native dependency relationships.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 25,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "research_deliverable": "data/opportunities/nlnet-programs.json"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -162,64 +236,99 @@
       "provider": "NLnet",
       "program_name": "CodeSupply",
       "program_aliases": [],
-      "round": null,
+      "round": "First call, opened 2026-09-03",
       "category": "funding",
       "support_type": "cash_grant",
       "official_program_url": "https://nlnet.nl/codesupply/",
       "official_application_url": "https://nlnet.nl/propose/",
-      "eligibility_jurisdiction": "European-dimension requirement applies; published route places at least 60% of funding with contributors from eligible countries.",
-      "legal_entity_requirements": "Independent researchers/developers and organizations may participate; verify the actual applicant and current call guide.",
-      "available_before_incorporation": "Conditionally Eligible route for independent developers; PYA scope and contributor facts Unknown",
-      "available_through_fiscal_sponsorship": "Unknown; host status does not establish contributor or scope eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible route; recognition does not satisfy contributor or scope gates",
+      "eligibility_jurisdiction": "Contributor and grant-allocation rules apply; see canonical european_dimension. Actual country eligibility, allocation and any provider exception remain Unknown.",
+      "legal_entity_requirements": "Individuals and formal/informal organizations are published applicant types; actual applicant authority and fiscal-host arrangements remain Unknown. See the separately assessed three routes.",
+      "available_before_incorporation": "Conditionally available applicant type: the FAQ permits individuals and formal or informal organizations. Actual PYA scope, contributors, allocation, conflicts, rights, authority and capacity remain Unknown.",
+      "available_through_fiscal_sponsorship": "Unknown. A named authorized host, its relationship to the actual recipients, country/allocation evidence, fees and permitted funds flow are missing. No automatic fiscal-sponsorship entitlement is published in the inspected sources.",
+      "available_after_501c3_recognition": "Conditionally available organization type. US nonprofit recognition is not a stated prerequisite or an exemption from European-dimension, scope, rights and conflict rules. Actual recognition and authority remain Unknown.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "Results under recognized free/open source licensing",
         "Contribution to CodeSupply objectives"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "application_status": "Call open; applicant and proposed work not qualified",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "In Review",
       "verified_deadline": "2026-11-03",
       "deadline_timezone": "CET (UTC+01:00)",
       "deadline_source_url": "https://nlnet.nl/codesupply/",
       "benefit_amount_or_capacity": "€5,000–€50,000 proposal range; net usable value and actual award Unknown.",
       "currency": "EUR",
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
       "restrictions_and_obligations": [
-        "AI use must be disclosed; purely generated outputs are not eligible billable grant work. Exact call and agreement terms require review."
+        "See canonical shared_conditions for call-specific licensing/conflicts, AI provenance and payable work, cash flow, actual versus sample MoU, reporting/publicity, privacy, portability, continuation, overage and independence."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+      "program_objectives": "Reusable software-package metadata and supporting infrastructure; see canonical CodeSupply assessment.",
+      "fit_with_pick_your_ai": "Canonical C01 connects an existing license/provenance need to a prospective reusable exporter/validator. Scope, interoperability need, contributors, rights, demand and costs remain unqualified.",
       "required_application_evidence": [
-        "For GenAI-assisted applications, maintain a provenance log with model, prompt dates/times, prompts and unedited outputs."
+        "See canonical current_intake for actual form fields and shared_conditions for the required underlying rights, contributor, AI-provenance and cost evidence."
       ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Fourteen official sources support the combined assessment; actual findings are pending independent review. Applicant facts and future use-case qualification remain separate.",
       "sources": [
         {
           "url": "https://nlnet.nl/codesupply/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "First call, metadata objectives, initial benefit and deadline"
+        },
+        {
+          "url": "https://nlnet.nl/codesupply/guideforapplicants/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Programme dates, distinct funding caps, conflicts and actual MoU"
+        },
+        {
+          "url": "https://nlnet.nl/codesupply/eligibility/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Call-relevant costs, European dimension and exceptional-provider discretion"
+        },
+        {
+          "url": "https://nlnet.nl/codesupply/faq/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Applicant types, financial/delivery conditions, licensing, continuation and AI/preselection payment limits"
+        },
+        {
+          "url": "https://nlnet.nl/propose/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Visible intake fields, limits, AI disclosure, privacy and email-encryption caveat"
         },
         {
           "url": "https://nlnet.nl/NGI0/eu-dimension/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "People/allocation test, 2026-10-13 country update and Commission precedence; no specific person qualified"
         },
         {
           "url": "https://nlnet.nl/foundation/policies/generativeAI/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Application disclosure, AI provenance, rights, human responsibility and payment restrictions"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Example reporting, milestone, publication and payment clauses; not an actual PYA agreement"
+        },
+        {
+          "url": "https://nlnet.nl/privacy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Data handling, programme-label uncertainty and encryption/retention qualifications"
         }
       ],
       "scoring": {
@@ -232,12 +341,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null."
       },
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Define a real package-metadata or supply-chain deliverable, evidence contributor eligibility and cost allocation, then qualify the current call.",
+      "next_action": "Consume the existing #11/#17/#21 evidence, establish C01's reusable package-metadata scope and real contributor budget, then make a separate qualification decision. If those facts do not support the call, retain defer or Not Pursuing rather than submit an unrelated AI proposal.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -247,38 +356,46 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "No binding schedule established. The canonical assessment separates illustrative MoU clauses from an actual accepted agreement.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "NLnet",
-          "CodeSupply"
+          "Restack",
+          "CodeSupply",
+          "NGI Zero Commons Fund"
         ],
         "canonical_match": "NLNET-CODESUPPLY",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Live issue #25 and all comments, parent #4, organization NLnet issue/PR search and existing register inspected before claim6266831542; retain the three existing program identities."
       },
       "review": {
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Canonical assessment published for independent findings review; acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research acceptance is separate from applicant qualification, an application, award or payable work."
         ]
       },
       "owning_research_key": "E03-01",
       "source_urls": [
         "https://nlnet.nl/codesupply/",
+        "https://nlnet.nl/codesupply/guideforapplicants/",
+        "https://nlnet.nl/codesupply/eligibility/",
+        "https://nlnet.nl/codesupply/faq/",
+        "https://nlnet.nl/propose/",
         "https://nlnet.nl/NGI0/eu-dimension/",
-        "https://nlnet.nl/foundation/policies/generativeAI/"
+        "https://nlnet.nl/foundation/policies/generativeAI/",
+        "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+        "https://nlnet.nl/privacy/"
       ],
       "application_url": "https://nlnet.nl/propose/",
       "source_evidence": [
-        "Auxiliary FOSS work must advance software-package metadata, security or license compliance. The current call closes 2026-11-03 at noon CET; the proposal range is €5,000–€50,000."
+        "Current call and public intake checked directly. The canonical assessment distinguishes the initial proposal range from the guide ceiling and records the concrete C01 investigation lead."
       ],
       "benefit": "€5,000–€50,000 proposal range; net usable value and actual award Unknown.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+      "required_application_evidence_status": "Actual public form fields and limits checked; see current_intake in the canonical assessment. No submission, receipt or private follow-up was tested.",
       "published_qualification_requirements": [
         "Results under recognized free/open source licensing",
         "Contribution to CodeSupply objectives"
@@ -291,41 +408,54 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "scoring_justification": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null.",
+      "source_freshness": "Actual relevant official text checked 2026-10-19; see canonical source IDs and conflict/access scope. Recheck before reliance; submission and private agreement were not exercised.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
-        "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "reviewed_on": null,
+        "scope": "Independent acceptance of this complete current assessment is pending; previous seed consistency checks do not satisfy issue #25."
       },
       "deadline_local_time": "12:00",
       "deadline_utc": "2026-11-03T11:00:00Z",
-      "current_disposition": "Research; blocked from application pending scope, contributor and authority evidence",
+      "current_disposition": "Defer application; P2 qualification research only",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Current call and intake findings checked; independent acceptance pending",
       "applicant_qualification_status": "Unknown",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
+      "estimated_usable_value_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
+      "score_reason": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "currency_status": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "application_route_description": "Current public English proposal form at the existing application URL; select the actual fund. Fields read; no applicant data entered or submitted.",
+      "currency_status": "Published call denominated in EUR; no conversion or grant receipt inferred.",
+      "gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
+      "jurisdiction": "Contributor and grant-allocation rules apply; see canonical european_dimension. Actual country eligibility, allocation and any provider exception remain Unknown.",
+      "priority_scope_note": "Priority concerns researched scope and follow-up; no application readiness is inferred.",
+      "recommended_disposition": "Defer application; P2 qualification research only",
       "source_refs": [
         "https://nlnet.nl/codesupply/",
+        "https://nlnet.nl/codesupply/guideforapplicants/",
+        "https://nlnet.nl/codesupply/eligibility/",
+        "https://nlnet.nl/codesupply/faq/",
+        "https://nlnet.nl/propose/",
         "https://nlnet.nl/NGI0/eu-dimension/",
-        "https://nlnet.nl/foundation/policies/generativeAI/"
+        "https://nlnet.nl/foundation/policies/generativeAI/",
+        "https://nlnet.nl/foundation/request/sample_MoU.pdf",
+        "https://nlnet.nl/privacy/"
       ],
-      "related_research_issue_urls": [],
-      "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54"
+      ],
+      "dependency_relationship_verification": "Issue #25 explicitly identifies #11/#17/#21 as research inputs and research #41/#54 as existing technical owners, with no hard research prerequisite. This change does not create native dependency relationships.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 25,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "research_deliverable": "data/opportunities/nlnet-programs.json"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -338,40 +468,41 @@
       "support_type": "cash_grant",
       "official_program_url": "https://nlnet.nl/commonsfund/",
       "official_application_url": null,
-      "eligibility_jurisdiction": "Unknown; verify applicant location and program country requirements",
-      "legal_entity_requirements": "Unknown; obtain current provider-specific applicant requirements",
-      "available_before_incorporation": "Unavailable; intake closed",
-      "available_through_fiscal_sponsorship": "Unavailable; intake closed",
-      "available_after_501c3_recognition": "Unavailable; intake closed",
+      "eligibility_jurisdiction": "Not applicable to a new application: intake closed.",
+      "legal_entity_requirements": "Not applicable to a new application: intake closed. No historical terms are used to qualify a present applicant.",
+      "available_before_incorporation": "Unavailable: intake closed",
+      "available_through_fiscal_sponsorship": "Unavailable: intake closed",
+      "available_after_501c3_recognition": "Unavailable: intake closed",
       "eligibility_status": "Unavailable — closed intake",
       "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "application_status": "Closed historical program; no new applications",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "In Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
       "benefit_amount_or_capacity": "No current award availability; historical amounts are not current offers.",
       "currency": "EUR",
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "restrictions_and_obligations": [],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+      "valuation_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
+      "restrictions_and_obligations": [
+        "No current offer or new applicant obligations established; retain historical closure separately from current calls."
+      ],
+      "program_objectives": "Historical Commons Fund objectives; no current intake is inferred from the older page body.",
+      "fit_with_pick_your_ai": "Not Pursuing: no current opportunity exists in this closed program.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Fourteen official sources support the combined assessment; actual findings are pending independent review. Applicant facts and future use-case qualification remain separate.",
       "sources": [
         {
           "url": "https://nlnet.nl/commonsfund/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Final call closed 2026-06-01; historical amounts do not reopen intake"
         }
       ],
       "scoring": {
@@ -384,12 +515,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Retain closed-program evidence to prevent duplicate or stale qualification; no current opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P3 retained historical closure. No current opportunity or numeric qualification score is supported."
       },
       "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Retain closure evidence and refer distinct future programs to separate records.",
+      "next_action": "Preserve closure evidence. Record a genuinely new program separately; do not reopen this record merely because a different NLnet call is open.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -399,24 +530,26 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "No binding schedule established. The canonical assessment separates illustrative MoU clauses from an actual accepted agreement.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "NLnet",
+          "Restack",
+          "CodeSupply",
           "NGI Zero Commons Fund"
         ],
         "canonical_match": "NLNET-NGI0-COMMONS",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Live issue #25 and all comments, parent #4, organization NLnet issue/PR search and existing register inspected before claim6266831542; retain the three existing program identities."
       },
       "review": {
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Canonical assessment published for independent findings review; acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research acceptance is separate from applicant qualification, an application, award or payable work."
         ]
       },
       "owning_research_key": "E03-01",
@@ -425,10 +558,10 @@
       ],
       "application_url": null,
       "source_evidence": [
-        "The final call closed 2026-06-01. The official page states no further new applications are sought."
+        "Current closure notice inspected. The canonical assessment retains the final-call historical date and rejects stale generic amount guidance."
       ],
       "benefit": "No current award availability; historical amounts are not current offers.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+      "required_application_evidence_status": "Not applicable: the program is closed to new applications.",
       "published_qualification_requirements": [],
       "internal_application_review_controls": [
         "Verify applicant facts and authority",
@@ -438,39 +571,46 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P3",
       "score": null,
-      "scoring_justification": "Retain closed-program evidence to prevent duplicate or stale qualification; no current opportunity score.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "scoring_justification": "P3 retained historical closure. No current opportunity or numeric qualification score is supported.",
+      "source_freshness": "Actual relevant official text checked 2026-10-19; see canonical source IDs and conflict/access scope. Recheck before reliance; submission and private agreement were not exercised.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
-        "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "reviewed_on": null,
+        "scope": "Independent acceptance of this complete current assessment is pending; previous seed consistency checks do not satisfy issue #25."
       },
-      "current_disposition": "Not Pursuing — closed",
+      "current_disposition": "Not Pursuing; closed historical program",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Current call and intake findings checked; independent acceptance pending",
       "applicant_qualification_status": "Unavailable — closed intake",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "Retain closed-program evidence to prevent duplicate or stale qualification; no current opportunity score.",
+      "estimated_usable_value_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
+      "score_reason": "P3 retained historical closure. No current opportunity or numeric qualification score is supported.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "currency_status": null,
+      "application_route_description": "Unavailable: closed to new applications.",
+      "currency_status": "Historical denomination only; no current offer or usable-value amount.",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
+      "jurisdiction": "Not applicable to a new application: intake closed.",
+      "priority_scope_note": "Priority concerns researched scope and follow-up; no application readiness is inferred.",
+      "recommended_disposition": "Not Pursuing; closed historical program",
       "source_refs": [
         "https://nlnet.nl/commonsfund/"
       ],
-      "related_research_issue_urls": [],
-      "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54"
+      ],
+      "dependency_relationship_verification": "Issue #25 explicitly identifies #11/#17/#21 as research inputs and research #41/#54 as existing technical owners, with no hard research prerequisite. This change does not create native dependency relationships.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 25,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "research_deliverable": "data/opportunities/nlnet-programs.json"
     },
     {
       "schema_version": "sustainability-opportunity/v1",

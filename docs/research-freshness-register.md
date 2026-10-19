@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks 83 distinct source and endpoint URLs for the 39 opportunity records: 66 governing-source URLs, including the Apple and Together decision reviews, plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
+The [source register](../data/research-freshness.json) tracks 91 distinct source and endpoint URLs for the 39 opportunity records: 75 governing-source URLs, including the Apple and Together decision reviews, plus 16 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
 
 ## Review triggers
 
@@ -22,3 +22,5 @@ Read the [freshness policy](research-freshness.md) and [methodology](research-me
 ## Application endpoints
 
 Every distinct `official_program_url`, `official_application_url` and `application_url` must appear in the source register, even when a form is inaccessible, requires an account or belongs to a closed program. The AWS application workbook retains its recorded HTTP 403 attempt and a null successful-verification date. A monthly reviewer must revisit the failed result; a program-page refresh cannot silently refresh the workbook.
+
+The [NLnet assessment](../data/opportunities/nlnet-programs.json) records fourteen actually inspected official sources, including the public proposal form. The form is now a checked governing source and application endpoint; no form submission or private agreement was verified. The assessment distinguishes closed historical intake, current-call dates, conditional AI guidance, illustrative MoU clauses and privacy/encryption uncertainty. Independent acceptance of the complete findings is pending.

@@ -19,6 +19,8 @@ The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done
 
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
+The [NLnet current-call assessment](../data/opportunities/nlnet-programs.json) is In Review. It retains Restack as Not Pursuing for the ordinary AI-builder scope and Commons Fund as closed; CodeSupply is deferred pending an evidenced reusable software-metadata deliverable and actual applicant facts. All three remain Discovered until independent findings acceptance; no application, award or payable work is inferred. The actual public proposal fields, current AI policy, contributor allocation, financial conditions and illustrative-agreement limits are recorded in that assessment.
+
 ## Known calendar facts
 
 | Record | Published external date | Qualification consequence |

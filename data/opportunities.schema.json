@@ -204,6 +204,48 @@
               "type": "string",
               "format": "uri"
             }
+          },
+          "provider": {
+            "type": "string",
+            "minLength": 1
+          },
+          "program_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "available_before_incorporation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "available_through_fiscal_sponsorship": {
+            "type": "string",
+            "minLength": 1
+          },
+          "available_after_501c3_recognition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "eligibility_status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "application_gate": {
+            "type": "string",
+            "minLength": 1
+          },
+          "last_verified": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "application_url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
           }
         }
       }

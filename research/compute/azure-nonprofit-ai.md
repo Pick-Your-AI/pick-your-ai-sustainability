@@ -1,6 +1,6 @@
 # Azure nonprofit grant: AI coverage and project decision
 
-Opportunity **AZURE-NONPROFIT** · [E05-01D / #42](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42) · Source review **2026-10-19 UTC**. Research is **In Review**, opportunity stage **Discovered**, priority **P2**. Full findings acceptance and its exact revision remain pending. This assessment neither qualifies an applicant nor records an application, award, payment or activation.
+Opportunity **AZURE-NONPROFIT** · [E05-01D / #42](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42) · Source review **2026-10-19 UTC**. Research is **Done**, opportunity stage **Verified**, priority **P2**, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/99#pullrequestreview-5571849343) of exact source efcefd379cc34315ab74664371edcce11525f618. Final main delivery and later applicant qualification remain separate. This assessment neither qualifies an applicant nor records an application, award, payment or activation.
 
 ## Decision and received evidence
 
@@ -60,13 +60,13 @@ The proposed first output is a reproducible **Azure inference coverage record**:
 
 This is an **unexecuted internal proposal**, not observed demand: 12 original public, nonpersonal synthetic prompts, each attempted twice against one generally available model, for at most **24 total API attempts**, concurrency one, no automatic retries. A failed request consumes the attempt allowance. Proposed per-attempt ceilings are 512 input and 256 total billable generated tokens; the selected model must support enforceable limits including any reasoning or other charged units, otherwise revise the design before use. The resulting proposed bounds are 12,288 input and 6,144 generated tokens, not a cost estimate. Use no fine-tuning, agents, retrieval, uploaded private data or persistent chat features in this initial scope. Any added feature changes the assessed scope.
 
-Before a future authorized run, record the exact eligible offer/profile, model terms, quota and current meter rates, inspect one bounded probe's actual billing/credit evidence, then decide whether the remaining allowance is covered. Include fixed resources, storage, networking, tax and cleanup in the cost model. Do not claim that 24 requests consume the whole grant or that unused credit has cash value. [A7, A10]
+Before a future authorized run, record the exact eligible offer/profile, model terms, quota and current meter rates. Use the first of these same 24 attempts as the billing probe; it is not an additional preflight request. Inspect that attempt's actual billing/credit evidence before continuing within the remaining allowance. Include fixed resources, storage, networking, tax and cleanup in the cost model. Do not claim that 24 requests consume the whole grant or that unused credit has cash value. [A7, A10]
 
 **Value and effort remain Unknown.** Estimate consumption from actual billable units and immutable rate evidence; estimate avoided cost only against an accepted otherwise-paid workload, limited by eligible usable credit and reduced by integration, maintenance and exit costs. #21 must establish demand and capacity. There is no supported acceptance probability, effort-hour estimate or cost counterfactual here, so all eight weighted factors and numeric totals remain null. P2 reflects a plausible but gated route; it is not a Qualified score or an urgent application.
 
 ## Remaining decisions and acceptance map
 
-Complete independent findings review of this memo and its three structured projections first. Before any later application or allocation, establish the actual applicant/host and mandate; obtain current intake/offer/model terms; verify tenant, billing profile and meter admission; accept the bounded workload, independence/data conditions, accountable operator and worst-case spend/exit plan. None is an extra gate to accepting this completed public-source assessment with explicit Unknowns.
+[Independent findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/99#pullrequestreview-5571849343) accepted this memo and its three structured projections at efcefd379cc34315ab74664371edcce11525f618. The requested probe clarification is incorporated above; exact amendment review and final delivery are recorded in #42. Before any later application or allocation, establish the actual applicant/host and mandate; obtain current intake/offer/model terms; verify tenant, billing profile and meter admission; accept the bounded workload, independence/data conditions, accountable operator and worst-case spend/exit plan. None is an extra gate to accepting this completed public-source assessment with explicit Unknowns.
 
 | Literal #42 criteria | Evidence in this package |
 | --- | --- |
@@ -76,7 +76,7 @@ Complete independent findings review of this memo and its three structured proje
 | 4, 6 and 12: canonical memo, disposition, justification and structured record | This #42 path, the unique AZURE-NONPROFIT record, pipeline and freshness projections; #53/#11 links and remaining questions. |
 | 10: restrictions, reporting, privacy, publication, portability and independence | Rights/independence and spending/exit controls, with actual agreement gaps retained. |
 | 11: concrete repository use and defensible value/effort | Bounded unexecuted 24-attempt proposal, receiving-owner links and null-value methodology. |
-| 5 and 13: independent acceptance of actual findings | Pending full exact-revision review; publish the real review and delivery references in #42 before closure. A schema check and the narrower coverage review are not full acceptance. |
+| 5 and 13: independent acceptance of actual findings | [Full independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/99#pullrequestreview-5571849343) is linked to efcefd379cc34315ab74664371edcce11525f618; the probe clarification is incorporated. Link the actual final delivery in #42 before closure. A schema check alone is not acceptance. |
 
 ## Primary source inventory
 

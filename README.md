@@ -51,6 +51,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [GitHub developer and security baseline](research/tooling/github-baseline.md)
 - [OpenAI Researcher Access qualification and proposed study](research/compute/openai-researcher-access.md)
 - [Groq conditional evaluation and support discovery](research/compute/groq-support.md)
+- [Mentorship and volunteer partnership design](research/partnerships/mentorship-volunteers.md)
 
 ## Execution and audit evidence
 

@@ -539,13 +539,13 @@
     {
       "opportunity_id": "AZURE-NONPROFIT",
       "program_name": "Annual Azure nonprofit grant",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program findings independently accepted with explicit Unknowns.",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
-      "research_status": "Blocked",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
-      "eligibility": "Not Verified; legal eligibility blocked",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Done / Verified for the accepted bounded Azure assessment. Retain P2 conditional inference/billing-study route; actual applicant, offer/profile, model/meter admission and operation remain unqualified.",
+      "eligibility": "Unknown actual applicant; conditional recognized-nonprofit route requires provider validation and workload/account admission.",
+      "application_gate": "Application and activation remain blocked by actual applicant/authority, current intake/offer/model terms and admitted workload/billing evidence; this research performs no external action.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -554,7 +554,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Verify legal status and service-specific credit applicability before application."
+      "next_action": "Verify the actual applicant/host and mandate, current intake/offer/model terms, grant/profile and exact model/meter admission, bounded workload and operating controls before any application or allocation."
     },
     {
       "opportunity_id": "AMD-DEVCLOUD",

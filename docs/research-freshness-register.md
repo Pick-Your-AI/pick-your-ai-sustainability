@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks 90 distinct source and endpoint URLs for the 39 opportunity records: 73 governing-source URLs, including the Apple, Together and OpenAI assessments, plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. The OpenAI application endpoint records the observed public homepage separately from the unverified program-specific form. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
+The [source register](../data/research-freshness.json) tracks 102 distinct source and endpoint URLs for the 39 opportunity records: 85 governing-source URLs, including the Apple, Together, OpenAI and AWS assessments, plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. The OpenAI application endpoint records the observed public homepage separately from the unverified program-specific form. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
 
 ## Review triggers
 
@@ -21,4 +21,4 @@ Read the [freshness policy](research-freshness.md) and [methodology](research-me
 
 ## Application endpoints
 
-Every distinct `official_program_url`, `official_application_url` and `application_url` must appear in the source register, even when a form is inaccessible, requires an account or belongs to a closed program. The AWS application workbook retains its recorded HTTP 403 attempt and a null successful-verification date. A monthly reviewer must revisit the failed result; a program-page refresh cannot silently refresh the workbook.
+Every distinct `official_program_url`, `official_application_url` and `application_url` must appear in the source register, even when a form is inaccessible, requires an account or belongs to a closed program. The AWS application workbook retains its seed HTTP 403 attempt and a null successful-verification date. The later session c3fa0109d6ff web attempt returned an internal access error without workbook bytes or a visible status; it is not recorded as another observed 403. The [AWS assessment](../research/infrastructure/aws-open-source-credits.md) separates these attempts from successfully read program and governing sources. A monthly reviewer must revisit the failed result; a program-page refresh cannot silently refresh the workbook.

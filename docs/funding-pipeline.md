@@ -21,6 +21,8 @@ The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done
 
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
+The [AWS source assessment](../research/infrastructure/aws-open-source-credits.md) prepares a recovery-workload request and current terms review. Its research is In Review / Discovered: accepted #11 and #19 evidence-and-Unknown baselines are consumed, and independent findings review remains pending. All three applicant routes, exact request quantities, requested amount and usable value remain Unknown. Application and operating decisions retain their separate evidence requirements.
+
 ## Known calendar facts
 
 | Record | Published external date | Qualification consequence |

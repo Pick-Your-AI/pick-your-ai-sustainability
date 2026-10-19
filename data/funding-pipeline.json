@@ -299,13 +299,13 @@
     {
       "opportunity_id": "AWS-OSS-CREDITS",
       "program_name": "Cloud Credits for Open Source",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; canonical assessment awaiting independent review",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
-      "research_status": "Blocked",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Hold application; accepted #11/#19 baselines consumed, canonical findings awaiting independent review",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Hold application: unread current workbook, unresolved applicant/community/independence/account authority, exact incremental workload quantities and publication/operating terms. The accepted #19 needs baseline is consumed; research and GitHub review authority remain separate.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -314,7 +314,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Verify current workbook and record project independence and workload evidence."
+      "next_action": "Complete exact-revision independent findings review; resolve workbook, project independence, account authority, exact quantities and publication conditions before any application."
     },
     {
       "opportunity_id": "CLOUDFLARE-ALEXANDRIA",

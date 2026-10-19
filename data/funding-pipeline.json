@@ -399,22 +399,22 @@
     {
       "opportunity_id": "APPLE-FEE-WAIVER",
       "program_name": "Apple Developer Program fee waiver",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
-      "research_status": "Blocked",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "eligibility": "Not Verified; blocked pending entity and monetization evidence",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Annual waiver eligibility reaffirmation is source-established. Actual membership/renewal dates and further applicable agreement obligations remain Unknown; no reporting schedule is adopted.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Establish actual account entity and monetization facts before any waiver request."
+      "next_action": "Verify actual applicant/account/monetization and a real distribution need before preparing any concrete waiver request; use the accepted canonical checklist."
     },
     {
       "opportunity_id": "FASTLY-FAST-FORWARD",
@@ -439,10 +439,10 @@
     {
       "opportunity_id": "OPENAI-RESEARCHER",
       "program_name": "Researcher Access Program",
-      "source_review_status": "Canonical source assessment prepared; independent findings acceptance pending",
+      "source_review_status": "Independently accepted canonical program and intake assessment; applicant qualification remains Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
       "disposition": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
       "eligibility": "Unknown",
       "application_gate": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
@@ -454,7 +454,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain exact-revision independent findings review, then refine the #21/#49 demand and study evidence; do not apply or activate from source review alone."
+      "next_action": "Use the accepted assessment to refine #21/#49 demand and study evidence; verify actual applicant, account, current form/offer and authority before any application or activation."
     },
     {
       "opportunity_id": "OPENAI-CODEX-OSS",
@@ -641,11 +641,11 @@
       "program_name": "Invite-only Research Credits Program",
       "source_review_status": "Source facts checked",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45",
-      "research_status": "Ready",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Not Pursuing for the proposed public comparison study under currently published terms",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "No application or activation: applicant/invitation unresolved and the proposed benchmarking needs explicit written permission under the current use restriction.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -654,7 +654,7 @@
       "deadline_timezone": null,
       "priority": "P3",
       "score": null,
-      "next_action": "Resolve official student/invitation eligibility and terms; keep application blocked meanwhile."
+      "next_action": "Retain the scoped Not Pursuing finding; revisit only on changed official terms or a documented program-specific permission and applicant route."
     },
     {
       "opportunity_id": "FIREWORKS-STARTUP",

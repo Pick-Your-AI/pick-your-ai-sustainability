@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks 79 distinct source and endpoint URLs for the 39 opportunity records: 62 governing-source URLs, including the OpenAI qualification's current policy/FAQ sources, plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. The OpenAI application endpoint records the observed public homepage separately from the unverified program-specific form. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
+The [source register](../data/research-freshness.json) tracks 90 distinct source and endpoint URLs for the 39 opportunity records: 73 governing-source URLs, including the Apple, Together and OpenAI assessments, plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. The OpenAI application endpoint records the observed public homepage separately from the unverified program-specific form. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
 
 ## Review triggers
 

@@ -2,7 +2,7 @@
 
 **Opportunity:** `OPENAI-RESEARCHER` · **Owning issue:** [E05-01A / #39](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39) · **Coverage parent:** [#38](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38).
 
-**Source review:** 2026-10-19 UTC. **Research state:** In Review. **Opportunity stage:** Discovered. **Applicant eligibility:** Unknown for all three routes. **Disposition:** continue preparing a narrowly scoped research proposal; hold application and activation. **Priority:** P2; score and usable value remain null. Preparation used an OpenAI assistant under the user's project engineering delegation; independent review must record its own identity, source checks, conflicts and limits. No grant application, account change, provider contact or model execution occurred in this work.
+**Source review:** 2026-10-19 UTC. **Research state:** Done (findings accepted). **Opportunity stage:** Verified for program research; actual delivery is recorded separately. **Applicant eligibility:** Unknown for all three routes. **Disposition:** continue preparing a narrowly scoped research proposal; hold application and activation. **Priority:** P2; score and usable value remain null. Preparation used an OpenAI assistant under the user's project engineering delegation; the independent source review, its actual identity, checks and limits are recorded in section 9. No grant application, account change, provider contact or model execution occurred in this work.
 
 ## 1. Decision and change from the seed record
 
@@ -70,7 +70,7 @@ OpenAI's current Usage Policies remain applicable; this benign text study does n
 
 The eight scoring factors retain the [20/20/15/10/10/10/10/5 weights](../../docs/scoring-and-qualification.md). No ordinal factor or total is assigned: mission fit is a reasoned candidate, while applicant eligibility, expected consumption, selection likelihood, timing, effort, restrictions and sustained capacity are not sufficiently established for a defensible score. P2 reflects a plausible but unresolved opportunity. The quarterly cadence does not justify P0 urgency.
 
-**Next research action:** independently review this exact qualification, then use it to refine the #21/#49 study inputs and evidence checklist. Do not submit the application until the actual applicant/affiliation, jurisdiction, durable account, study, complete form/offer, requested resources and authorized representative are verified. No absent contributor is appointed by this document.
+**Next research action:** use this independently accepted qualification to refine the #21/#49 study inputs and evidence checklist. Do not submit the application until the actual applicant/affiliation, jurisdiction, durable account, study, complete form/offer, requested resources and authorized representative are verified. No absent contributor is appointed by this document.
 
 The public program identifies the research question and planned product use; the FAQ describes applicant/institution legitimacy checks. These are the captured provider requirements. The following are **internal preparation questions**, not a claimed complete list of form fields:
 
@@ -115,14 +115,24 @@ All external sources below were directly opened on **2026-10-19 UTC**. These are
 | 2. Application, benefit, restrictions, obligations and deadline | Sections 2 and 5; exact form/offer and cutoff remain explicitly Unknown. |
 | 3. Separate three applicant routes | Section 3; no route is labeled eligible from missing facts. |
 | 4. Canonical disposition, scoring and questions | Sections 1 and 6; P2, unscored, application/activation held. |
-| 5. Independent acceptance, distinct from external action | Pending actual exact-revision review; no acceptance is prefilled. |
+| 5. Independent acceptance, distinct from external action | [Actual findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90#pullrequestreview-5571140493) at the source recorded in section 9; no external action is implied. |
 | 6. Required canonical program qualification and OSS cross-link | This file and section 1; no duplicate program record. |
 | 7. Current primary sources, access results and conflicts | Sections 2 and 7; public portal extraction and historical wording qualified. |
 | 8. Current program/intake/deadline or justified Unknown | Section 2. |
 | 9. Benefit and separate applicant routes | Sections 2 and 3. |
 | 10. Full restriction and operating assessment | Section 5; actual award-specific obligations remain Unknown. |
 | 11. Concrete use, defensible value/effort, separate cash | Sections 4 and 6; proposed pilot and calculation method, no measured outcome. |
-| 12. Canonical publication, structured record, sources and disposition | This file plus the single opportunity and pipeline/freshness projections; publication remains a separate delivery event. |
-| 13. Linked independent substantive acceptance | Pending review in #39/its PR after the exact source is available. Tests alone do not satisfy this criterion. |
+| 12. Canonical publication, structured record, sources and disposition | This file and the single opportunity/pipeline/freshness projections are published in [PR #90](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90); current-main delivery retains its own evidence. |
+| 13. Linked independent substantive acceptance | [Independent review 5571140493](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90#pullrequestreview-5571140493) accepts the actual complete findings and all thirteen original criteria; see section 9 for the exact revision and limits. |
 
 Research may be accepted as a complete qualification with explicit Unknowns. That decision does not make the opportunity Qualified, create an award, authorize paid work, or supply the missing applicant and study evidence. The issue will retain its original acceptance criteria until the actual independent review and delivered revision are recorded.
+
+## 9. Actual independent findings acceptance
+
+At **2026-10-19 11:55:04 UTC**, the independent in-session Research engineering reviewer published [review 5571140493](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90#pullrequestreview-5571140493) on source `4b331430c577cd414f816d09eba1ec190eff69f3`, tree `9a59b66e02fe5dbf7cae6e1ca1955ff3db967533`, sole parent `cad980ecc8e43a472ebe63c4360f94846d175a96`. The complete review body, revision, timestamp and COMMENTED state were directly read back. The source is unsigned. The reviewer read all seven changed files, all thirteen original #39 criteria, the accepted #11 evidence boundary and all ten official source scopes, and accepted the complete findings without requesting a source correction.
+
+The reviewer independently checked the full preservation map and joined the author's original 61 passing test identities (zero skips, 5.157 seconds), 21-JSON / 34-Markdown validation and whitespace receipts to that source. Those are the author's original executions; the reviewer did not rerun them or relabel them as a later receiving/main run. Independent review proof SHA-256: `4d0b6bd54afb8c0937fce8080cdc64096d06f425c732398cd57bec1fd51f6198`.
+
+This establishes **Done** for the research findings and **Verified** under the [accepted-assessment transition rule](../../docs/operations-and-reporting.md#evidence-for-transitions). The actual applicant remains Unknown for each route. The reviewer used the shared GitHub account `CompleteDotTech`; this substantive independent in-session COMMENT is not a separate-account approval vote, an organizational appointment or legal clearance. It creates no experiment, application, account, financial commitment, award or activation. Source access dates and the original seed review history remain unchanged.
+
+PR #90 separately records current-main preservation, review of this acceptance receipt, hosted checks and actual delivery. This pre-delivery receipt does not invent a merged revision or a successful main run. The issue's original criteria and related work retain their own exact reconciliation and evidence.

@@ -3068,11 +3068,11 @@
       "support_type": "software_fee_waiver",
       "official_program_url": "https://developer.apple.com/help/account/membership/fee-waivers/",
       "official_application_url": "https://developer.apple.com/help/account/membership/fee-waivers/",
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
+      "eligibility_jurisdiction": "Unknown for the actual applicant; verify entity jurisdiction and supported program/country treatment before a request.",
       "legal_entity_requirements": "Qualifying nonprofit, accredited educational or government legal entity",
-      "available_before_incorporation": "Ineligible as an unincorporated community",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Ineligible if the applicant lacks a qualifying legal entity; the accepted baseline does not establish the actual project legal form, so present applicant qualification remains Not Verified.",
+      "available_through_fiscal_sponsorship": "Unknown; no published pass-through entitlement established. Actual host/applicant/account arrangement and provider-specific acceptance are required.",
+      "available_after_501c3_recognition": "Conditionally Eligible in principle; actual recognition is not established and the remaining entity, account, monetization and enrollment conditions still apply.",
       "eligibility_status": "Not Verified; blocked pending entity and monetization evidence",
       "eligibility_conditions": [
         "A qualifying nonprofit, accredited educational institution or government legal entity",
@@ -3080,26 +3080,36 @@
         "Eligibility confirmation for enrollment or before membership expiry and reaffirmation at renewal"
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Requests available during enrollment or before membership expiry for eligible account holder; no project deadline confirmed",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "application_status": "Public guidance supports requests at organization enrollment or before an eligible existing membership expires. No fixed closing date is published; actual account date and current form fields remain Unknown.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
       "benefit_amount_or_capacity": "Annual membership fee waiver; existing paid membership is not refunded",
-      "currency": null,
+      "currency": "USD",
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Net annual avoided cost = eligible membership fee actually otherwise paid for an accepted distribution use minus incremental verification, administration and renewal cost. USD 99/year is the public benchmark; actual local fee, payer, counterfactual and effort are Unknown. Exclude past fees, cash, existing free capabilities and EU transaction-fee savings; usable value remains null.",
       "restrictions_and_obligations": [
         "Paid-app/IAP and other digital-goods restrictions may conflict with monetization.",
-        "Fiscal sponsor route needs specific provider confirmation; no automatic eligibility transfer."
+        "Fiscal sponsor route needs specific provider confirmation; no automatic eligibility transfer.",
+        "Annual eligibility reaffirmation is established; actual renewal date and further agreement obligations remain Unknown.",
+        "Fee-waiver help retains legacy EU CTF language while current EU guidance describes an October 1, 2026 DPLA transition. Confirm the actual accepted agreement and use; no EU transaction-fee savings are valued.",
+        "Current form attachments, complete publication/branding terms, account custody and any host transfer/exit route remain unverified."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential future Apple app distribution avoided cost, subject to entity and product decisions.",
-      "required_application_evidence": [],
+      "program_objectives": "Membership fee relief for qualifying nonprofit, educational and government organizations; no cash award or research grant represented.",
+      "fit_with_pick_your_ai": "Conditional future beta/distribution access for the evidence-aware SwiftUI planner documented by the Apple README at ee2b3adfc99869d71141425f31b38a0ebf3cf3bc. Free development and physical-device/release evidence remain separate; the actual distribution need is unverified.",
+      "required_application_evidence": [
+        "Privately verified exact legal applicant, jurisdiction and qualifying status, with a public-safe receipt.",
+        "Actual account identity/type, authorized Account Holder and legal mandate, with applicable published enrollment prerequisites.",
+        "Dated account agreement and app monetization/distribution review covering the relevant account.",
+        "Actual membership state, fee/payer/currency and expiry, accepted distribution need and incremental effort basis.",
+        "Current form and complete applicable agreement review before a concrete request; public guidance is not a verified complete form."
+      ],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Actual applicant evidence custodian, Account Holder and legal/commitment decision maker; identities and mandate remain Unknown.",
+        "Apple receiving owner to establish the concrete distribution need and preserve device/release acceptance.",
+        "If a fiscal route is selected, actual host approval and provider-specific eligibility/account clarification through an authorized action."
       ],
       "native_dependency_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
@@ -3110,7 +3120,43 @@
           "url": "https://developer.apple.com/help/account/membership/fee-waivers/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Published waiver conditions and request guidance; linked form retrieval failed with InternalError, so fields and login state are unverified."
+        },
+        {
+          "url": "https://developer.apple.com/help/account/membership/program-enrollment/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Organization enrollment and USD 99 annual membership benchmark; actual entity, account and local fee remain Unknown."
+        },
+        {
+          "url": "https://developer.apple.com/help/account/basics/about-your-developer-account",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Free account versus membership capabilities; no account activation observed."
+        },
+        {
+          "url": "https://developer.apple.com/help/account/membership/renewal",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Renewal timing and expiry consequences; actual membership and expiry remain Unknown."
+        },
+        {
+          "url": "https://developer.apple.com/support/privacy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Developer-account privacy and identity-verification processing; no project identity data supplied."
+        },
+        {
+          "url": "https://developer.apple.com/support/apps-in-the-eu/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "August 18, 2026 DPLA update and October 1 acceptance-dependent EU transition; actual agreement Unknown."
+        },
+        {
+          "url": "https://developer.apple.com/help/app-store-connect/understanding-the-core-technology-fee/core-technology-fee-report-fields/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Legacy CTF reporting deprecation for accounts accepting the latest DPLA from October 1, 2026; no universal EU fee exemption inferred."
         }
       ],
       "scoring": {
@@ -3127,8 +3173,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Establish actual account entity and monetization facts before any waiver request.",
+      "independent_reviewer": "ChatGPT in-session /root/android; independent findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Verify actual applicant/account/monetization and a real distribution need before preparing any concrete waiver request; use the accepted canonical checklist.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3138,43 +3184,62 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
-      "reporting_obligations": [],
+      "reporting_status": "Annual waiver eligibility reaffirmation is source-established. Actual membership/renewal dates and further applicable agreement obligations remain Unknown; no reporting schedule is adopted.",
+      "reporting_obligations": [
+        "Annual eligibility reaffirmation if a waiver is granted; responsible Account Holder and account dates must be established before activation."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Apple",
-          "Apple Developer Program fee waiver"
+          "Apple Developer Program fee waiver",
+          "fee waiver"
         ],
         "canonical_match": "APPLE-FEE-WAIVER",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Local register and GitHub organization issue query for fee waiver returned owning issue #60 and parent #8; aliases reconciled to the stable ID. Bounded public search does not establish private account state."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session /root/android; independent findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "adf8baaa0a5dc55b5591f1c014fd626542039eee",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597",
+        "decision": "Accepted canonical #60 research findings and program/intake assessment; applicant qualification and Apple actions remain separately gated.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Technical COMMENT records an in-session independent findings review, not a separate-account GitHub APPROVED vote.",
+          "Actual applicant/entity, account/agreements, monetization, usable value and external-action authority remain Not Verified; historical account activity remains Unknown."
         ]
       },
       "owning_research_key": "E07-05",
       "source_urls": [
-        "https://developer.apple.com/help/account/membership/fee-waivers/"
+        "https://developer.apple.com/help/account/membership/fee-waivers/",
+        "https://developer.apple.com/help/account/membership/program-enrollment/",
+        "https://developer.apple.com/help/account/basics/about-your-developer-account",
+        "https://developer.apple.com/help/account/membership/renewal",
+        "https://developer.apple.com/support/privacy/",
+        "https://developer.apple.com/support/apps-in-the-eu/",
+        "https://developer.apple.com/help/app-store-connect/understanding-the-core-technology-fee/core-technology-fee-report-fields/"
       ],
       "source_evidence": [
         "Requires a qualifying nonprofit/education/government legal entity; individuals and sole proprietors excluded.",
-        "Must not have an active paid-apps agreement or sell digital goods/services through apps; eligibility reaffirmed at renewal."
+        "Must not have an active paid-apps agreement or sell digital goods/services through apps; eligibility reaffirmed at renewal.",
+        "Enrollment guidance lists USD 99/year for Developer Program membership, with regional/local pricing; actual cost otherwise incurred remains Unknown.",
+        "Free developer-account capabilities precede membership; no distribution-ready build, activation or hardware support is inferred.",
+        "Current EU guidance dates the DPLA update August 18, 2026 and transition October 1, with account acceptance and prior obligations explicit. Legacy CTF reporting is conditional/deprecated; no universal EU fee exemption is inferred."
       ],
       "benefit": "Annual membership fee waiver; existing paid membership is not refunded",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "estimated_usable_value_method": "Net annual avoided cost = eligible membership fee actually otherwise paid for an accepted distribution use minus incremental verification, administration and renewal cost. USD 99/year is the public benchmark; actual local fee, payer, counterfactual and effort are Unknown. Exclude past fees, cash, existing free capabilities and EU transaction-fee savings; usable value remains null.",
+      "source_freshness": "Seven official pages read 2026-10-19; redirects and failed linked-form retrieval recorded in the canonical note. Monthly and before-action review remains required; no form success or standing eligibility inferred.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://developer.apple.com/help/account/membership/fee-waivers/"
+        "https://developer.apple.com/help/account/membership/fee-waivers/",
+        "https://developer.apple.com/help/account/membership/program-enrollment/",
+        "https://developer.apple.com/help/account/basics/about-your-developer-account",
+        "https://developer.apple.com/help/account/membership/renewal",
+        "https://developer.apple.com/support/privacy/",
+        "https://developer.apple.com/support/apps-in-the-eu/",
+        "https://developer.apple.com/help/app-store-connect/understanding-the-core-technology-fee/core-technology-fee-report-fields/"
       ],
       "application_url": "https://developer.apple.com/help/account/membership/fee-waivers/",
       "gate": "Blocked by qualifying legal entity and app monetization decisions",
@@ -3185,29 +3250,31 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "Prepared internal checklist informed by public requirements, not a verified complete Apple form. Linked form retrieval failed with InternalError on 2026-10-19; actual fields/attachments remain Unknown.",
       "published_qualification_requirements": [
         "A qualifying nonprofit, accredited educational institution or government legal entity",
         "No active Paid Applications Agreement and no other digital goods or services sold through the apps",
         "Eligibility confirmation for enrollment or before membership expiry and reaffirmation at renewal"
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "currency_status": "USD denotes only the sourced 99/year membership benchmark. Actual account country, local currency and fee otherwise paid remain Unknown; no realized value is recorded.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the seven current official sources, accepted entity baseline, actual note and structured projections; acceptance of research findings only.",
+        "reviewed_revision": "adf8baaa0a5dc55b5591f1c014fd626542039eee",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted",
       "applicant_qualification_status": "Not Verified; blocked pending entity and monetization evidence",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "The official application URL is public request guidance. New organizations request during enrollment; existing Account Holders request before expiry. Linked form retrieval failed with InternalError on 2026-10-19; fields and login state were not inspected.",
+      "current_disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "jurisdiction": "Actual applicant jurisdiction Unknown; no worldwide or US-only qualification inferred.",
+      "priority_scope_note": "P2 is a qualitative conditional research recommendation, not qualification, a numeric score, an urgent deadline or authority for an Apple action.",
+      "recommended_disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -3215,7 +3282,8 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 60,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable": "research/tooling/apple-fee-waiver.md"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -3403,8 +3471,8 @@
       ],
       "application_gate": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
       "application_status": "Published intake guidance is recorded in section 2. Public portal homepage was read on 2026-10-19; program-specific form, current fields and exact cutoff remain Unknown.",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -3491,8 +3559,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Obtain exact-revision independent findings review, then refine the #21/#49 demand and study evidence; do not apply or activate from source review alone.",
+      "independent_reviewer": "ChatGPT, independent in-session Research engineering reviewer; public COMMENT posted through shared GitHub identity CompleteDotTech",
+      "next_action": "Use the accepted assessment to refine #21/#49 demand and study evidence; verify actual applicant, account, current form/offer and authority before any application or activation.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3514,12 +3582,18 @@
         "scope": "2026-10-19 repository and organization Researcher Access issue/PR search; owning #39 retained, distinct Anthropic #40 and OPENAI-CODEX-OSS not merged or modified."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Complete qualification draft prepared; exact-revision independent substantive acceptance pending",
+        "reviewer": "ChatGPT, independent in-session Research engineering reviewer; public COMMENT posted through shared GitHub identity CompleteDotTech",
+        "reviewed_revision": "4b331430c577cd414f816d09eba1ec190eff69f3",
+        "reviewed_tree": "9a59b66e02fe5dbf7cae6e1ca1955ff3db967533",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T11:55:04Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90#pullrequestreview-5571140493",
+        "decision": "Accepted the complete research findings and all 13 original #39 criteria, including explicit Unknowns",
+        "scope": "All seven source files, original criteria, accepted entity evidence boundary and all ten official source scopes; exact source preservation and original validation receipts independently checked.",
         "limitations": [
-          "Source assessment and proposed study only; no applicant qualification, experiment, application, award or activation."
+          "Research acceptance establishes no applicant qualification, legal clearance, experiment, application, account, award or activation.",
+          "This substantive peer COMMENT uses the shared GitHub account and is not a separate-account APPROVED event.",
+          "Current-main composition, hosted checks and delivery retain their own review and execution identities in PR #90."
         ]
       },
       "owning_research_key": "E05-01A",
@@ -3574,7 +3648,7 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Canonical source assessment prepared; independent findings acceptance pending",
+      "source_review_status": "Independently accepted canonical program and intake assessment; applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
@@ -5026,16 +5100,16 @@
       "official_program_url": "https://www.together.ai/research-credits-program-request",
       "official_application_url": "https://www.together.ai/research-credits-program-request",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Student/researcher wording ambiguous; invitation required",
+      "legal_entity_requirements": "Invitation/student versus broader applicant wording remains unresolved; see canonical assessment",
       "available_before_incorporation": "Unknown",
       "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
       "available_after_501c3_recognition": "Unknown; recognition does not resolve unverified applicant, intake or representation requirements.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Invitation-only; route/access not confirmed",
+      "application_gate": "No application or activation: applicant/invitation unresolved and the proposed benchmarking needs explicit written permission under the current use restriction.",
+      "application_status": "Invitation-only public description; invitation acquisition and complete intake remain Unknown",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -5044,15 +5118,17 @@
       "estimated_usable_value": null,
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "restrictions_and_obligations": [
-        "Acknowledgement requested.",
-        "Expiry, service coverage and applicant eligibility not sufficiently specified."
+        "Acknowledgment requested; actual reporting, grant expiry, covered services and renewal remain Unknown.",
+        "The current Terms of Service restrict competitive analysis or benchmarking; no program-specific exception is established.",
+        "Published commercial billing and privacy controls do not establish grant treatment or the project's account settings."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential scoped research benefit if invitation and eligibility can be established.",
+      "program_objectives": "Small research-credit support described publicly; exact applicant and permitted study scope need clarification.",
+      "fit_with_pick_your_ai": "A proposed finite, reproducible structured-extraction comparison could inform AI stack choices, but is not qualified under the published terms; see the canonical memo.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Reopen only for changed official terms or a documented program-specific response covering the exact study",
+        "Establish eligible applicant, invitation route and representation before any application",
+        "Review actual award terms, permitted publication, data controls, covered usage, reporting and exit"
       ],
       "native_dependency_issue_urls": [],
       "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
@@ -5061,7 +5137,37 @@
           "url": "https://www.together.ai/research-credits-program-request",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Undated live program; invitation/applicant ambiguity and incomplete intake retained"
+        },
+        {
+          "url": "https://www.together.ai/terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2026-05-19; published use restrictions, including section 4.3(c)"
+        },
+        {
+          "url": "https://docs.together.ai/docs/billing-credits",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current purchased-credit rules; research-award exceptions unverified"
+        },
+        {
+          "url": "https://www.together.ai/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2025-12-17; published policy, not observed project-account behavior"
+        },
+        {
+          "url": "https://docs.together.ai/docs/privacy-and-security",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current account/organization and passthrough distinctions; no settings inspected"
+        },
+        {
+          "url": "https://docs.together.ai/docs/zero-data-retention",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current prospective controls and retained metadata; no settings enabled"
         }
       ],
       "scoring": {
@@ -5074,12 +5180,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "Not scored: proposed benchmarking is not qualified under current published terms; applicant, invitation, award and net usable value remain unresolved."
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Resolve official student/invitation eligibility and terms; keep application blocked meanwhile.",
+      "independent_reviewer": "ChatGPT independent Research reviewer, project session fb6378fc6b16",
+      "next_action": "Retain the scoped Not Pursuing finding; revisit only on changed official terms or a documented program-specific permission and applicant route.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -5095,40 +5201,56 @@
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Together AI",
-          "Invite-only Research Credits Program"
+          "Together",
+          "Invite-only Research Credits Program",
+          "TOGETHER-RESEARCH"
         ],
         "canonical_match": "TOGETHER-RESEARCH",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Local register and owning issue/comments; organization Together-in-title issue search returned #45 only. Broader 30-result issue search retained technical references, not additional grant identities."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT independent Research reviewer, project session fb6378fc6b16",
+        "reviewed_revision": "9442547017fdfbcdb38915d40ee3cf490aa53157",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136",
+        "decision": "Accepted bounded findings: Not Pursuing for the specified public comparison study; applicant eligibility Unknown",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Applicant eligibility, invitation, award terms and actual account state remain Unknown.",
+          "The scoped Not Pursuing recommendation is not a finding that all Together research is ineligible.",
+          "No outreach, application, provider execution, purchase or activation performed.",
+          "Delegated independent findings review is not a separate-account GitHub APPROVED vote or a legal opinion."
         ]
       },
       "owning_research_key": "E05-01G",
       "source_urls": [
-        "https://www.together.ai/research-credits-program-request"
+        "https://www.together.ai/research-credits-program-request",
+        "https://www.together.ai/terms-of-service",
+        "https://docs.together.ai/docs/billing-credits",
+        "https://www.together.ai/privacy",
+        "https://docs.together.ai/docs/privacy-and-security",
+        "https://docs.together.ai/docs/zero-data-retention"
       ],
       "source_evidence": [
-        "Official page describes a small invite-only program for student research outside formal classes.",
-        "It also says anyone with a research idea may apply; broader wording needs clarification."
+        "Program-page invitation/student versus broad-applicant wording remains unresolved.",
+        "Current terms impose a material use restriction on the proposed benchmarking.",
+        "Commercial purchased-credit and privacy documentation was reviewed separately from any research-award terms."
       ],
       "benefit": "A few hundred dollars described, not a guaranteed allocation",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "source_freshness": "Official sources retrieved 2026-10-19; separate policy update dates and retrieval limits recorded in the canonical memo.",
       "priority_recommendation": "P3",
       "score": null,
-      "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "scoring_justification": "Not scored: proposed benchmarking is not qualified under current published terms; applicant, invitation, award and net usable value remain unresolved.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://www.together.ai/research-credits-program-request"
+        "https://www.together.ai/research-credits-program-request",
+        "https://www.together.ai/terms-of-service",
+        "https://docs.together.ai/docs/billing-credits",
+        "https://www.together.ai/privacy",
+        "https://docs.together.ai/docs/privacy-and-security",
+        "https://docs.together.ai/docs/zero-data-retention"
       ],
       "application_url": "https://www.together.ai/research-credits-program-request",
-      "gate": "Invitation and eligibility unresolved",
+      "gate": "Applicant and invitation Unknown; proposed benchmarking not qualified under the published use restriction",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -5146,15 +5268,15 @@
       "related_research_keys": [],
       "source_review_status": "Source facts checked",
       "applicant_qualification_status": "Unknown",
-      "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "score_reason": "Failed use-case qualification and unresolved applicant/award facts; no defensible weighted total.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Public request page retrieved. No complete intake or invitation-acquisition procedure established; no form or account action performed.",
+      "current_disposition": "Not Pursuing for the proposed public comparison study under currently published terms",
       "deadline_local_time": null,
       "deadline_utc": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "P3 research priority; use-case restriction and unresolved applicant/invitation prevent opportunity scoring.",
+      "recommended_disposition": "Not Pursuing for the proposed public comparison study under currently published terms",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -5162,7 +5284,8 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 45,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable": "research/compute/together-research-credits.md"
     },
     {
       "schema_version": "sustainability-opportunity/v1",

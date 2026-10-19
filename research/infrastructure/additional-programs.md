@@ -1,6 +1,6 @@
 # Additional infrastructure programs: a gap-driven comparison
 
-**Owning research:** [E06-03 / #53](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53). **Source review:** 2026-10-19. **Research status:** In Review; independent acceptance of this complete assessment is pending. This document is a research decision, not an application, award, activated account, deployed migration or completed infrastructure experiment.
+**Owning research:** [E06-03 / #53](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53). **Source review:** 2026-10-19. **Research status:** Done; [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595) at `638c14596dac123cd6c785da091b680c724d1907` on **2026-10-19 15:03:10 UTC**. This document is a research decision, not an application, award, activated account, deployed migration or completed infrastructure experiment.
 
 ## Recommendation and accepted inputs
 
@@ -66,7 +66,7 @@ The official application destination returned HTTP 200 on 2026-10-19 at 13:19:56
 
 The self-serve agreement still displays 2020-09-08. It permits discretionary free-service changes/termination, plan-based fees and a 30-day electronic retrieval period after termination; this is not a universal archive or deletion guarantee. Customer ownership coexists with permitted service uses. Its customer-listing opt-out and separate promotional name/logo permission must both be considered; do not assume one erases the other. [N4]
 
-The Website terms updated 2026-10-14 limit their content license to operating, maintaining, securing and improving the Website; Services remain governed by subscription agreements. Do not apply the Website clause to all hosted source code. [N5] The 2026-04-10 privacy policy says code/content are not sold or used for AI training without explicit opt-in. Personal-data retention depends on purpose and legal obligations; enterprise processor terms are separate. No fixed universal retention period or actual account setting is verified. [N6]
+The Website terms updated 2026-10-14 limit their content license to operating, maintaining, securing and improving the Website; Services remain governed by subscription agreements. Do not apply the Website clause to all hosted source code. [N5] The 2026-04-10 privacy policy says it does not sell code/content and does not use it for AI training without explicit opt-in. Personal-data retention depends on purpose and legal obligations; enterprise processor terms are separate. No fixed universal retention period or actual account setting is verified. [N6]
 
 ### Buildkite
 
@@ -92,7 +92,7 @@ Any later agreement must preserve independent evaluation, publication of valid f
 
 ## Remaining questions and acceptance record
 
-The research conclusion can be accepted with explicit Unknowns. Actual applicant evidence is a prerequisite for a later application, not invented proof required to complete this comparison. Reconsider a deferred candidate only when a measured residual workload, current offer/intake, actual applicant/account authority and feasible maintenance/exit plan provide new evidence. Current deadlines are Unknown, with no fabricated internal due dates or contributor commitments.
+The research conclusion is independently accepted with explicit Unknowns. Actual applicant evidence is a prerequisite for a later application, not invented proof required to complete this comparison. Reconsider a deferred candidate only when a measured residual workload, current offer/intake, actual applicant/account authority and feasible maintenance/exit plan provide new evidence. Current deadlines are Unknown, with no fabricated internal due dates or contributor commitments.
 
 The duplicate audit on 2026-10-19 checked all 39 existing canonical records and complete bounded organization issue/PR searches for Fastly, DigitalOcean, Netlify and Buildkite. Fastly reuses its record; Azure remains unchanged under #42. Three distinct program identities are added under existing E06-03, including DigitalOcean's historical route. Related epic, need-ledger and AWS references are not duplicate applications. No new issue, Project item or unrelated record is created or rewritten.
 
@@ -104,7 +104,9 @@ The duplicate audit on 2026-10-19 checked all 39 existing canonical records and 
 | Criteria 4, 6 and 12: canonical matrix, disposition and records | This memo, one updated Fastly record, three new program records, unchanged Azure record, pipeline and source projections |
 | Criterion 10: obligations and independence | Provider-specific terms plus portability, renewal, billing, data and publication controls |
 | Criterion 11: public-benefit use, value and effort | Finite proposed corpus/preview comparison and net avoided-cost method; no executed workload or invented valuation |
-| Criteria 5 and 13: independent acceptance of actual findings | Pending review of this complete source revision; a schema pass or the earlier bounded source checks does not constitute that acceptance |
+| Criteria 5 and 13: independent acceptance of actual findings | Accepted in [the complete findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595) at `638c14596dac123cd6c785da091b680c724d1907`; all thirteen criteria and seven original source paths are covered |
+
+The independent in-session Apple/source-review lane accepted the complete findings through the existing connected project account. Its earlier bounded Fastly/DigitalOcean source observations are declared in the review; it did not author or edit this canonical assessment. This substantive COMMENT is not a separate-account GitHub approval or organizational appointment. All four research records are Done. Fastly, Netlify and Buildkite are Verified for their accepted current program assessments; DigitalOcean retains its historical Discovered stage and Not Pursuing disposition for the unverified current request route. Actual applicant/offer and operating gates remain unresolved. This amendment records that acceptance and clarifies the Netlify sale/AI-training sentence without refreshing any provider observation; exact receiver qualification and main delivery retain their own receipts.
 
 ## Source ledger
 

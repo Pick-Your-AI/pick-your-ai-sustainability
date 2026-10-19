@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 250,
+  "source_count": 282,
   "records_count": 44,
   "sources": [
     {
@@ -46,8 +46,8 @@
     {
       "url": "https://app.coderabbit.ai",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public text retrieval exposed no readable intake fields; signed-in account and consent contents remain Not Verified.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -60,7 +60,8 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
-      ]
+      ],
+      "access_result": "Public content only; one readable line, no form fields."
     },
     {
       "url": "https://apply.sovereign.tech",
@@ -320,7 +321,8 @@
       "last_verified": "2026-10-19",
       "verification_scope": "Published facts recorded for linked opportunities",
       "opportunity_ids": [
-        "GITHUB-SPONSORS-ORG"
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -331,7 +333,15 @@
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
         "governing_source_evidence"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "Supported-region criteria and separation from the expired matching fund.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
@@ -357,7 +367,8 @@
       "last_verified": "2026-10-19",
       "verification_scope": "Published facts recorded for linked opportunities",
       "opportunity_ids": [
-        "GITHUB-SPONSORS-ORG"
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -368,7 +379,15 @@
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
         "governing_source_evidence"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "General Sponsors payout-host mechanics only; not fund-specific host approval.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
@@ -460,10 +479,17 @@
       ],
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
-        "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "Current fund intake, selection, benefits and participation.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://github.com/sponsors",
@@ -838,6 +864,23 @@
       ]
     },
     {
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/18950890312210-The-free-non-commercial-licensing-FAQ",
+      "last_verified": "2026-10-19",
+      "verification_scope": "August 13, 2026 individual-product FAQ; compared with its separate agreement for eligibility, activation, renewal and telemetry distinctions.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
       "last_verified": "2026-10-19",
       "verification_scope": "Published facts recorded for linked opportunities",
@@ -854,6 +897,23 @@
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/360021922640-Can-I-use-free-versions-of-IntelliJ-IDEA-and-PyCharm-for-developing-commercial-proprietary-software",
+      "last_verified": "2026-10-19",
+      "verification_scope": "August 13, 2026 FAQ: free core IDE functionality is a separate alternative; premium/plugin rights and actual feature needs are not established.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
       ]
     },
     {
@@ -1128,7 +1188,7 @@
     {
       "url": "https://www.coderabbit.ai/oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current public-repository offer and separate cash route; independent canonical research acceptance and account qualification are separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1166,8 +1226,8 @@
     {
       "url": "https://www.jetbrains.com/community/opensource/",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Direct public HTTP 200 and search-tool requests on 2026-10-19 returned a page shell without the program body; exact current group form/fields and submission availability remain Not Verified.",
       "opportunity_ids": [
         "JETBRAINS-OSS"
       ],
@@ -1177,9 +1237,79 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Not Verified — direct body unavailable; actual access attempt recorded",
       "source_roles": [
         "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+      "last_verified": null,
+      "verification_scope": "Official-domain indexed landing text describes distinct individual and established-project routes; direct page body and live group form remain Not Verified.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Indexed official text read; direct body and current form Not Verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19",
+      "indexed_text_accessed": "2026-10-19"
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/privacy/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Privacy Notice v3.2 dated June 12, 2026; older .html URL redirects here; account/service processing, not a project legal conclusion.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/terms/product_data_collection/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Data notice v1.6 dated July 7, 2026; documented categories and license-specific controls, not actual installation or account readback.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/toolbox/license_non-commercial/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Individual agreement v3.0 effective December 16, 2025; distinct customer/use and data rules; renewal wording conflict retained in the canonical note.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
       ]
     },
     {
@@ -3821,6 +3951,492 @@
       ]
     },
     {
+      "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Future review scoping controls; no configuration changed; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/central-configuration.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Possible configuration sources; actual PYA defaults Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/faq.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Proprietary/customer-code assurances compared with the explicit privacy-policy OSS-training exception; not independent certification; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/plans.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current OSS plan and capacity table plus the below-ten-star manual-trigger condition; actual account tier Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/rate-limits.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Review event accounting and rolling capacity; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/platforms/github-com.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Documented GitHub authorization and permissions; actual installation form not inspected; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/reference/caching.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Cache scope, default, expiry and OSS encryption exception; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published April 20, 2026 terms, including general section 3.3 training language; actual accepted agreement and organizational authority Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/privacy-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published October 16, 2026 notice: section 7 explicit OSS-training exception and section 12 proprietary-code storage scope; actual account agreement and settings Unknown; independent canonical research acceptance and account qualification are separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, registration, agreement, activation or public qualification claim",
+        "Upon redirect, access error, changed terms, benefit, privacy, permissions or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/dpa",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Processing roles, transfer and deletion boundaries; actual agreement and recipients Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/knowledge-base",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Scoped context deletion; general training statement compared with OSS privacy exception; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/guides/data-export",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published CSV/API access boundaries; no actual export or measured savings; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/subscription-management",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published scheduled billing and cancellation lifecycle; actual account Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/pricing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Optional paid usage controls; no service use or monetary valuation; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/getting-started/quickstart",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Published account and repository-selection route; no activation; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/configuration-inheritance",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Explicit inheritance and override rules; effective settings Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before an installation, agreement, activation, billing or public qualification claim",
+        "Upon access failure or changed terms, privacy, permissions, transfers, retention or limits"
+      ],
+      "state": "Source checked; actual account and applicant conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://trust.coderabbit.ai/subprocessors",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public text retrieval exposed no readable recipient list; actual recipients and transfer arrangements remain Not Verified.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on processing, transfer or recipient terms for an agreement or activation",
+        "Upon changed DPA, recipient list or access result"
+      ],
+      "state": "Not Verified — endpoint review required",
+      "source_roles": [
+        "related_policy_endpoint"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public conduct context; actual Fund Code of Conduct identity remains unverified.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Sponsored-developer clauses, SOSS pooled payments, USD, confidentiality/publicity and assignment; sponsor-only renewal kept separate.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "General personal-data processing, training, sharing, third parties, retention and jurisdictional rights; no private form consent reviewed.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR72dY7PBsFZJkFTETCg9J0xUNDdPUUU2S1pXTjFUOFMwNExEMzk5T1IxQi4u&route=shorturl",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Not Verified — no readable form fields / failed public-reader access",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "access_observation": "The FAQ application link resolved to a Microsoft Forms page with zero readable lines. No fields, declarations, attachment requirements or successful form admission were inspected."
+    },
+    {
+      "url": "https://forms.office.com/r/YN3MWEKQ5m",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Not Verified — no readable form fields / failed public-reader access",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "access_observation": "The Apply now link failed in the public reader with a timeout and a wrapper (400) message. The origin server HTTP status was not established. No form bytes or successful admission were obtained."
+    },
+    {
+      "url": "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Historical launch and its different weekly time wording; not current intake or capacity.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Conditional cloud-billing risk context; no exact SOSS credit offer mapping.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Startup graduation/credit expiry and continued billing context; not a PYA account observation.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual complete COMMENT readback accepts all eleven findings criteria at published revision c5ef1e9857536f4a4db35c5b23c2e97a301d5719; applicant, participant and execution states remain separate",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed reviewed findings or canonical source",
+        "Before relying on research acceptance or qualification"
+      ],
+      "state": "Independent findings acceptance read back",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://www.gofundme.com/c/pricing",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
@@ -4755,6 +5371,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 224,
-  "additional_unverified_endpoint_count": 26
+  "source_evidence_url_count": 253,
+  "additional_unverified_endpoint_count": 29
 }

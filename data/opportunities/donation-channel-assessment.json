@@ -4,12 +4,13 @@
   "owning_research_key": "E04-02",
   "canonical_deliverable": "docs/funding/donation-channel-comparison.md",
   "prepared_on": "2026-10-19",
-  "research_state": "Review",
+  "research_state": "Done",
   "independent_review": {
-    "reviewer": null,
-    "source_revision": null,
-    "review_url": null,
-    "decision": "Pending exact-source substantive review"
+    "reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+    "source_revision": "c32717e7f11e4b4720954f551ec83687176bfc19",
+    "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949",
+    "decision": "Accepted complete #34 findings against all thirteen literal criteria, including the conditional/deferred GoFundMe routes and current-scope Kickstarter non-selection.",
+    "reviewed_on": "2026-10-19"
   },
   "scope": "Bounded comparison and three unique crowdfunding intake/fund-control identities; no provider action or achieved financial/legal result.",
   "base_revision": "9ebe927b1bedda198aac8df57d80123b12de743b",
@@ -45,9 +46,17 @@
     {
       "issue": 33,
       "pr": 110,
-      "published_source": "6920cb41a6d4593e6cd13150e292c15dce40a212",
-      "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889",
-      "status": "Canonical draft has unresolved privacy/AI and payment-agreement findings; no complete acceptance inferred."
+      "published_source": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+      "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702",
+      "status": "Corrected channel-readiness findings independently accepted at 19aa; the complete canonical/profile correction and actual acceptance reviews were read for this comparison. Actual recipient, account, route and activation remain Unknown. Canonical #33 retains record ownership and main delivery.",
+      "acceptance_metadata_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574370969",
+      "prior_comparison_reference": {
+        "issue": 33,
+        "pr": 110,
+        "published_source": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889",
+        "status": "Canonical draft has unresolved privacy/AI and payment-agreement findings; no complete acceptance inferred."
+      }
     }
   ],
   "program_ids": [
@@ -989,8 +998,7 @@
     "Actual recipient, jurisdiction, authority, recognized status and account/host agreement",
     "Finite canonical issue/cohort, period, unpaid need, donor demand and defensible budget/effort",
     "Actual provider agreement, permitted use, fee/receipt/chargeback/privacy/export/exit scope",
-    "Donor-specific tax, solicitation, income and reward/presale tax treatment",
-    "Exact independent substantive findings acceptance"
+    "Donor-specific tax, solicitation, income and reward/presale tax treatment"
   ],
   "acceptance_map": {
     "1": "Phase and fund-control matrices",
@@ -1003,7 +1011,7 @@
     "8": "Campaign and publication/operating/exit conditions",
     "9": "Finite proposal and non-numeric value/effort method",
     "10": "Canonical memo, three records, evidence, questions and priority",
-    "11": "Pending actual independent review",
+    "11": "Actual independent findings acceptance for all thirteen criteria at https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949; reviewed source c32717e7f11e4b4720954f551ec83687176bfc19.",
     "12": "Donation versus reward/creative-project crowdfunding comparison",
     "13": "Nonbinding legal/tax treatment and no launch/rewards/funds claim"
   }

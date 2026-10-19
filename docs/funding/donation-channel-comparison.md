@@ -1,6 +1,6 @@
 # Donation channels and crowdfunding
 
-Issue [#34 / E04-02](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34) · Research observed **2026-10-19 UTC** · **Findings awaiting independent acceptance**.
+Issue [#34 / E04-02](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34) · Research observed **2026-10-19 UTC** · **Findings independently accepted; main delivery pending**.
 
 ## Recommendation
 
@@ -110,7 +110,7 @@ The existing `GITHUB-SPONSORS-ORG`, `SFC-MEMBERSHIP`, `SPI-ASSOCIATED-PROJECT` a
 
 The host comparison at published [source `9e4e8b60`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/9e4e8b602b0c25b9f77b528a436644732bb6a448/docs/nonprofit/fiscal-sponsorship-comparison.md) has an actual [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14#issuecomment-6269526052). That source was read and reused; it was not yet delivered to the accepted base used here. Its stale pending-review header is not used to erase the later actual review. The older main draft's SPI fee Unknown is superseded for this comparison by SPI's own current adopted resolution. The canonical host writer retains ownership of its source and records. [H1, H3]
 
-Sponsors [PR #110](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110) remains under its canonical review. Its [independent findings](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889) require resolving current GitHub privacy/AI and Stripe recipient-versus-service agreement scope; this comparison does not declare that draft fully accepted. The existing Sponsors source is reused for ownership, with only bounded directly verified platform facts summarized here. [G1–G2]
+The comparison initially referenced Sponsors draft `6920cb41` and its [two pending source findings](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889). The canonical [corrected source `19aa5fd3`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/19aa5fd372052fd96145e7c4c721f4ebd7c45aa1/data/opportunities/github-sponsors.json) has now received [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702), followed by its [acceptance-metadata review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574370969). The complete canonical/profile correction and both acceptance reviews were read for this comparison. They resolve the public GitHub content/AI and Stripe recipient-versus-connected-account scope findings while keeping actual recipient, account, route and agreement facts Unknown. Sponsors [PR #110](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110) retains its canonical record ownership and delivery; this comparison neither refreshes its provider observations nor establishes activation. The original pending reference remains in structured comparison history. [G1–G2]
 
 Material history/conflicts retained:
 
@@ -120,7 +120,7 @@ Material history/conflicts retained:
 - The OSC public agreement could not be retrieved in this specific comparison; its clauses are attributed to H1's reviewed findings. A `.md` refund URL failed, while the current HTML route O4 was read. An initially guessed GoFundMe transfer-requirements URL failed; the actual linked F3 was read. No provider closure or HTTP status is inferred from those retrieval errors.
 - Kickstarter full Terms/Privacy returned only JavaScript shells and its start page no extracted body. GoFundMe's start redirect exposed public guidance rather than a complete application form. Preserve null successful-form/legal verification dates for those unverified scopes.
 
-**Independent acceptance:** pending exact-source review of all thirteen issue criteria, the substantive findings/route assessments and preservation of unrelated records. Validation alone does not supply acceptance. Research completion will be linked here only after the review occurs.
+**Independent acceptance:** the [complete findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949) accepted all thirteen issue criteria against published source `c32717e7f11e4b4720954f551ec83687176bfc19`, tree `f734dbf264ea637831a9eaf37e136f4cd58434e0`, on 2026-10-19. The reviewer assessed the substantive findings, three applicant-route matrices, provider/access scope, conditional dispositions and preservation of unrelated records. This was an independent in-session Apple engineering review through the shared connected account, not a distinct-account approval vote or an organizational appointment. Research acceptance is separate from applicant qualification, provider actions and actual main delivery; source dates and remaining entity, need, agreement and tax questions are unchanged.
 
 | Criterion | Reviewable location |
 | --- | --- |
@@ -129,7 +129,7 @@ Material history/conflicts retained:
 | 5–6: dated primary evidence, conflicts and intake/deadline | Source observations; campaign intake; explicit access limits |
 | 7–8: three routes and operating obligations | Phase matrix; campaign models; publication/exit table |
 | 9–10: use, value/effort, record, priority and disposition | Concrete package/value method; activation order; three records |
-| 11: actual independent findings acceptance | Pending linked exact-source review |
+| 11: actual independent findings acceptance | [Accepted complete findings at exact published source](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949) |
 | 12–13: crowdfunding models and nonbinding legal/tax disposition | Separate GoFundMe/Kickstarter findings; no campaign/rewards/deduction claim |
 
 ### Source index

@@ -1,6 +1,6 @@
 # Opportunity evidence register
 
-This register contains **41 distinct program/channel records**: 14 nonprofit and funding records and 27 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
+This register contains **44 distinct program/channel records**: 17 nonprofit and funding records and 27 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
 
 The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
@@ -13,7 +13,7 @@ A shared owning key means one comparative research package evaluates different p
 | Restack | E03-01 | Not Pursuing for ordinary AI-builder scope |
 | CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
-| Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
+| Secure Open Source Fund | E03-02 | Defer application; verify maintainer and project fit |
 | Sponsors for organizations | E04-01 | Organization onboarding route documented; existing account state Unknown |
 | Member-project fiscal sponsorship | E01-04 | Rolling inquiry/application process; acceptance may take months |
 | Associated project fiscal hosting | E01-04 | Application process documented; PYA acceptance/relationship Unknown |
@@ -24,6 +24,9 @@ A shared owning key means one comparative research package evaluates different p
 | PESOSE (NSF 26-506) | E03-06 | Active solicitation; PYA applicant route not qualified |
 | Small Research Grants on Education | E03-05 | Watch for a verified reopening; do not apply |
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
+| GoFundMe personal/business fundraiser | E04-02 | P2 conditional lead; recipient/country/authority and exact permitted-use terms remain Unknown |
+| GoFundMe certified nonprofit fundraiser | E04-02 | P2 conditional lead; recognized beneficiary/host, certification and agreement remain Unknown |
+| Kickstarter creative-project crowdfunding | E04-02 | P3 not selected for the current maintenance scope; a new admissible creative proposal would need reassessment |
 
 ## How to interpret fields
 
@@ -45,3 +48,7 @@ Source facts checked does not mean the canonical program/intake assessment has r
 ## Hardware partner comparison
 
 The [E06-04 assessment](../research/hardware/partner-shortlist.md) adds two distinct TechSoup RHW and Computer Aid Get Computers records under existing [#54](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54). They are Done / Verified for program research after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399) at `25eb4b8e047e2adb736d6540b4588b1f3a462697`. Both retain actual overall applicant, inventory, custody, offer, value and effort Unknowns; the documented U.S. fiscal-sponsored TechSoup route is explicitly ineligible. Their shared owning issue was separately read; the original 39-record native setup audit does not extend to a new snapshot or Project item. Existing NVIDIA, AMD, Samsung and all other program rows remain unchanged. The memo distinguishes fee-based access, gifts, loans, accounting and donor-tax valuation, and includes an unsent single-station request with care and exit requirements.
+
+## Donation-channel comparison
+
+The [E04-02 comparison](../docs/funding/donation-channel-comparison.md) adds three distinct crowdfunding records under existing [#34](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34). Their research is Done after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949) at `c32717e7f11e4b4720954f551ec83687176bfc19`; their opportunity stages remain Discovered. The GoFundMe routes retain P2 conditional/deferred dispositions, and Kickstarter retains P3 non-selection for the proposed maintenance scope. The [structured assessment](opportunities/donation-channel-assessment.json) records the three applicant routes, dated public-source and access observations, and remaining recipient, need, agreement and tax questions. No actual applicant, account, campaign, charitable treatment, payment or usable value is established. The existing host and Sponsors records retain their canonical ownership; this addition does not extend the historical GitHub-link or Project audits.

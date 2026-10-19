@@ -1,0 +1,805 @@
+{
+  "schema_version": "sustainability-public-coderabbit-coverage/v1",
+  "observed_on": "2026-10-19",
+  "collection_completed_at": "2026-10-19 11:09:45 UTC",
+  "owner_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
+  "scope": "Six named public repositories; complete pinned main trees; the three most recently updated PRs returned per repository at sample selection; every returned review and issue-comment page for those PRs. This is not an organization installation or historical coverage audit.",
+  "method": {
+    "pull_request_selection": "GET pulls?state=all&per_page=3&sort=updated&direction=desc",
+    "actor_match": "Case-insensitive coderabbit substring in GitHub user.login or performed_via_github_app.slug.",
+    "review_and_comment_page_size": 100,
+    "configuration_match": "Case-insensitive coderabbit substring in each complete pinned tree path.",
+    "limitations": [
+      "Indexed search can lag or omit content.",
+      "No code configuration file is required for dashboard/default configuration.",
+      "PR selection and paginated reads are separate observations, not an atomic snapshot.",
+      "No installation, dashboard, seat, billing, webhook, data-retention setting or current operating coverage was read.",
+      "No CodeRabbit model, bot command, review trigger, installation, account change or outreach was performed."
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "Pick-Your-AI/pick-your-ai-website",
+      "repository_url": "https://github.com/Pick-Your-AI/pick-your-ai-website",
+      "visibility": "public",
+      "main_commit": "900c14d7e5101183a930834cb5249597837efb41",
+      "tree": "34ef322f73fd7295bbfd9afbb2ab5db36ac97c23",
+      "tree_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/git/trees/34ef322f73fd7295bbfd9afbb2ab5db36ac97c23?recursive=1",
+      "tree_truncated": false,
+      "blob_count": 204,
+      "coderabbit_named_paths": [],
+      "sampled_pull_requests": [
+        {
+          "number": 298,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-website/pull/298",
+          "head_at_selection": "b2829bb6abacf7bb1fed92996ec07ebdc9a19165",
+          "updated_at_selection": "2026-10-19T10:58:45Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/pulls/298/reviews?per_page=100",
+          "review_page_counts": [
+            0
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/issues/298/comments?per_page=100",
+          "issue_comment_page_counts": [
+            5
+          ],
+          "total_review_records": 0,
+          "total_issue_comment_records": 5,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 303,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-website/pull/303",
+          "head_at_selection": "52b383f56067dbe31803b514b5dd72ebb8806042",
+          "updated_at_selection": "2026-10-19T10:52:04Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/pulls/303/reviews?per_page=100",
+          "review_page_counts": [
+            2
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/issues/303/comments?per_page=100",
+          "issue_comment_page_counts": [
+            6
+          ],
+          "total_review_records": 2,
+          "total_issue_comment_records": 6,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 301,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-website/pull/301",
+          "head_at_selection": "b6c6596fdd5904da6b3c313e93407113f26e9d9c",
+          "updated_at_selection": "2026-10-19T10:31:50Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/pulls/301/reviews?per_page=100",
+          "review_page_counts": [
+            5
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/issues/301/comments?per_page=100",
+          "issue_comment_page_counts": [
+            0
+          ],
+          "total_review_records": 5,
+          "total_issue_comment_records": 0,
+          "matching_actor_rows": []
+        }
+      ],
+      "existing_installation": "Unknown",
+      "current_review_coverage": "Not established by the bounded public evidence",
+      "metadata_endpoint": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website",
+      "metadata_observed_on": "2026-10-19",
+      "stargazers_count": 5,
+      "below_ten_star_manual_trigger_threshold": true
+    },
+    {
+      "repository": "Pick-Your-AI/pick-your-ai-research",
+      "repository_url": "https://github.com/Pick-Your-AI/pick-your-ai-research",
+      "visibility": "public",
+      "main_commit": "daac1dae7348c8f4f1011c85979068c8ba6c1489",
+      "tree": "c81b9483d4685b75b18a6ba8a48728e2249a1773",
+      "tree_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/git/trees/c81b9483d4685b75b18a6ba8a48728e2249a1773?recursive=1",
+      "tree_truncated": false,
+      "blob_count": 812,
+      "coderabbit_named_paths": [],
+      "sampled_pull_requests": [
+        {
+          "number": 485,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/pull/485",
+          "head_at_selection": "85ca9b7c3745aeea79b83dd2682a77d9c209d744",
+          "updated_at_selection": "2026-10-19T11:00:42Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/pulls/485/reviews?per_page=100",
+          "review_page_counts": [
+            0
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/issues/485/comments?per_page=100",
+          "issue_comment_page_counts": [
+            0
+          ],
+          "total_review_records": 0,
+          "total_issue_comment_records": 0,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 476,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/pull/476",
+          "head_at_selection": "ad70da8423b72a7afc5c1c1769a4f12567750831",
+          "updated_at_selection": "2026-10-19T10:49:10Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/pulls/476/reviews?per_page=100",
+          "review_page_counts": [
+            11
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/issues/476/comments?per_page=100",
+          "issue_comment_page_counts": [
+            12
+          ],
+          "total_review_records": 11,
+          "total_issue_comment_records": 12,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 480,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/pull/480",
+          "head_at_selection": "960a2adf9c0b6a4d7ddd465caae0ef0fffa88fcc",
+          "updated_at_selection": "2026-10-19T09:32:16Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/pulls/480/reviews?per_page=100",
+          "review_page_counts": [
+            2
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/issues/480/comments?per_page=100",
+          "issue_comment_page_counts": [
+            0
+          ],
+          "total_review_records": 2,
+          "total_issue_comment_records": 0,
+          "matching_actor_rows": []
+        }
+      ],
+      "existing_installation": "Unknown",
+      "current_review_coverage": "Not established by the bounded public evidence",
+      "metadata_endpoint": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research",
+      "metadata_observed_on": "2026-10-19",
+      "stargazers_count": 13,
+      "below_ten_star_manual_trigger_threshold": false
+    },
+    {
+      "repository": "Pick-Your-AI/pick-your-ai-leaderboard",
+      "repository_url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard",
+      "visibility": "public",
+      "main_commit": "24c0140466cfa1454723adfba04ff030646821c5",
+      "tree": "16a3ac849a8ce4f59f904ac87b7d1536622ad80e",
+      "tree_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/git/trees/16a3ac849a8ce4f59f904ac87b7d1536622ad80e?recursive=1",
+      "tree_truncated": false,
+      "blob_count": 742,
+      "coderabbit_named_paths": [],
+      "sampled_pull_requests": [
+        {
+          "number": 385,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/pull/385",
+          "head_at_selection": "9ff6d37b40e32626b4c06b739dd8e346bf041747",
+          "updated_at_selection": "2026-10-19T11:03:20Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/pulls/385/reviews?per_page=100",
+          "review_page_counts": [
+            1
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/issues/385/comments?per_page=100",
+          "issue_comment_page_counts": [
+            0
+          ],
+          "total_review_records": 1,
+          "total_issue_comment_records": 0,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 277,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/pull/277",
+          "head_at_selection": "9dadb87a5bfe7bcdc7fdfa077231300ed263545f",
+          "updated_at_selection": "2026-10-19T11:02:44Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/pulls/277/reviews?per_page=100",
+          "review_page_counts": [
+            7
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/issues/277/comments?per_page=100",
+          "issue_comment_page_counts": [
+            100,
+            100,
+            100,
+            29
+          ],
+          "total_review_records": 7,
+          "total_issue_comment_records": 329,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 358,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/pull/358",
+          "head_at_selection": "3bf9a00ea255b0261e2a953d2f7490df0cdbe981",
+          "updated_at_selection": "2026-10-19T11:00:06Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/pulls/358/reviews?per_page=100",
+          "review_page_counts": [
+            18
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/issues/358/comments?per_page=100",
+          "issue_comment_page_counts": [
+            9
+          ],
+          "total_review_records": 18,
+          "total_issue_comment_records": 9,
+          "matching_actor_rows": []
+        }
+      ],
+      "existing_installation": "Unknown",
+      "current_review_coverage": "Not established by the bounded public evidence",
+      "metadata_endpoint": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard",
+      "metadata_observed_on": "2026-10-19",
+      "stargazers_count": 0,
+      "below_ten_star_manual_trigger_threshold": true
+    },
+    {
+      "repository": "Pick-Your-AI/pick-your-ai-apple",
+      "repository_url": "https://github.com/Pick-Your-AI/pick-your-ai-apple",
+      "visibility": "public",
+      "main_commit": "ee2b3adfc99869d71141425f31b38a0ebf3cf3bc",
+      "tree": "1950bfe4a182384064f9118c826bc981711b6298",
+      "tree_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/git/trees/1950bfe4a182384064f9118c826bc981711b6298?recursive=1",
+      "tree_truncated": false,
+      "blob_count": 267,
+      "coderabbit_named_paths": [],
+      "sampled_pull_requests": [
+        {
+          "number": 350,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/pull/350",
+          "head_at_selection": "8090af5bd25045118464a1a6d975361d9e367ffe",
+          "updated_at_selection": "2026-10-19T11:03:41Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/pulls/350/reviews?per_page=100",
+          "review_page_counts": [
+            5
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/issues/350/comments?per_page=100",
+          "issue_comment_page_counts": [
+            2
+          ],
+          "total_review_records": 5,
+          "total_issue_comment_records": 2,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 367,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/pull/367",
+          "head_at_selection": "6006763281a95cbb6d0e9e8bf4f80d4d7059dd5a",
+          "updated_at_selection": "2026-10-19T11:03:36Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/pulls/367/reviews?per_page=100",
+          "review_page_counts": [
+            1
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/issues/367/comments?per_page=100",
+          "issue_comment_page_counts": [
+            0
+          ],
+          "total_review_records": 1,
+          "total_issue_comment_records": 0,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 346,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/pull/346",
+          "head_at_selection": "5339ff2b7fabaf98dcff926a89d2716bfb33f8b4",
+          "updated_at_selection": "2026-10-19T11:00:45Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/pulls/346/reviews?per_page=100",
+          "review_page_counts": [
+            8
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/issues/346/comments?per_page=100",
+          "issue_comment_page_counts": [
+            14
+          ],
+          "total_review_records": 8,
+          "total_issue_comment_records": 14,
+          "matching_actor_rows": []
+        }
+      ],
+      "existing_installation": "Unknown",
+      "current_review_coverage": "Not established by the bounded public evidence",
+      "metadata_endpoint": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple",
+      "metadata_observed_on": "2026-10-19",
+      "stargazers_count": 0,
+      "below_ten_star_manual_trigger_threshold": true
+    },
+    {
+      "repository": "Pick-Your-AI/pick-your-ai-android",
+      "repository_url": "https://github.com/Pick-Your-AI/pick-your-ai-android",
+      "visibility": "public",
+      "main_commit": "875a339ec7e05046349afb9963e59285831350df",
+      "tree": "0f4f6d8c2749e7c7c8f59571f13230bb96c9dba4",
+      "tree_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/git/trees/0f4f6d8c2749e7c7c8f59571f13230bb96c9dba4?recursive=1",
+      "tree_truncated": false,
+      "blob_count": 541,
+      "coderabbit_named_paths": [],
+      "sampled_pull_requests": [
+        {
+          "number": 556,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-android/pull/556",
+          "head_at_selection": "2e6b1ab3f8f1784590bba9f55934fffd4efcf7e5",
+          "updated_at_selection": "2026-10-19T11:03:34Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/pulls/556/reviews?per_page=100",
+          "review_page_counts": [
+            1
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/issues/556/comments?per_page=100",
+          "issue_comment_page_counts": [
+            1
+          ],
+          "total_review_records": 1,
+          "total_issue_comment_records": 1,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 521,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-android/pull/521",
+          "head_at_selection": "d6169bda0d5706ffd6fd0bd10d44b7a7e6562b21",
+          "updated_at_selection": "2026-10-19T11:03:07Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/pulls/521/reviews?per_page=100",
+          "review_page_counts": [
+            15
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/issues/521/comments?per_page=100",
+          "issue_comment_page_counts": [
+            20
+          ],
+          "total_review_records": 15,
+          "total_issue_comment_records": 20,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 467,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-android/pull/467",
+          "head_at_selection": "948f3d58bb14f378e96a7b40f780958801920ca2",
+          "updated_at_selection": "2026-10-19T11:02:33Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/pulls/467/reviews?per_page=100",
+          "review_page_counts": [
+            38
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/issues/467/comments?per_page=100",
+          "issue_comment_page_counts": [
+            100,
+            45
+          ],
+          "total_review_records": 38,
+          "total_issue_comment_records": 145,
+          "matching_actor_rows": []
+        }
+      ],
+      "existing_installation": "Unknown",
+      "current_review_coverage": "Not established by the bounded public evidence",
+      "metadata_endpoint": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android",
+      "metadata_observed_on": "2026-10-19",
+      "stargazers_count": 0,
+      "below_ten_star_manual_trigger_threshold": true
+    },
+    {
+      "repository": "Pick-Your-AI/pick-your-ai-sustainability",
+      "repository_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability",
+      "visibility": "public",
+      "main_commit": "cad980ecc8e43a472ebe63c4360f94846d175a96",
+      "tree": "2dfdb6a554381d767f869ed3f33a2429d531abe1",
+      "tree_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/git/trees/2dfdb6a554381d767f869ed3f33a2429d531abe1?recursive=1",
+      "tree_truncated": false,
+      "blob_count": 63,
+      "coderabbit_named_paths": [],
+      "sampled_pull_requests": [
+        {
+          "number": 81,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/81",
+          "head_at_selection": "fd14400cec73a9f9aec17277d3d0bc0e501b3f0c",
+          "updated_at_selection": "2026-10-19T10:52:20Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/pulls/81/reviews?per_page=100",
+          "review_page_counts": [
+            2
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/81/comments?per_page=100",
+          "issue_comment_page_counts": [
+            2
+          ],
+          "total_review_records": 2,
+          "total_issue_comment_records": 2,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 79,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79",
+          "head_at_selection": "b5822ba331adf8d4fec75742031db5fc602c4dce",
+          "updated_at_selection": "2026-10-19T10:48:53Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/pulls/79/reviews?per_page=100",
+          "review_page_counts": [
+            2
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/79/comments?per_page=100",
+          "issue_comment_page_counts": [
+            1
+          ],
+          "total_review_records": 2,
+          "total_issue_comment_records": 1,
+          "matching_actor_rows": []
+        },
+        {
+          "number": 82,
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/82",
+          "head_at_selection": "e93841ae0e9e1455a55193bee64236bea382353e",
+          "updated_at_selection": "2026-10-19T10:42:15Z",
+          "review_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/pulls/82/reviews?per_page=100",
+          "review_page_counts": [
+            1
+          ],
+          "issue_comment_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/82/comments?per_page=100",
+          "issue_comment_page_counts": [
+            0
+          ],
+          "total_review_records": 1,
+          "total_issue_comment_records": 0,
+          "matching_actor_rows": []
+        }
+      ],
+      "existing_installation": "Unknown",
+      "current_review_coverage": "Not established by the bounded public evidence",
+      "metadata_endpoint": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability",
+      "metadata_observed_on": "2026-10-19",
+      "stargazers_count": 0,
+      "below_ten_star_manual_trigger_threshold": true
+    }
+  ],
+  "indexed_searches": [
+    {
+      "query": "org:Pick-Your-AI is:issue coderabbit",
+      "url": "https://api.github.com/search/issues?q=org%3APick-Your-AI%20is%3Aissue%20coderabbit&per_page=100&sort=updated&order=desc",
+      "total_count": 3,
+      "incomplete_results": false,
+      "result_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56"
+      ]
+    },
+    {
+      "query": "org:Pick-Your-AI is:pr coderabbit",
+      "url": "https://api.github.com/search/issues?q=org%3APick-Your-AI%20is%3Apr%20coderabbit&per_page=100&sort=updated&order=desc",
+      "total_count": 0,
+      "incomplete_results": false,
+      "result_urls": []
+    },
+    {
+      "query": "org:Pick-Your-AI is:pr reviewed-by:coderabbitai[bot]",
+      "url": "https://api.github.com/search/issues?q=org%3APick-Your-AI%20is%3Apr%20reviewed-by%3Acoderabbitai%5Bbot%5D&per_page=100&sort=updated&order=desc",
+      "total_count": 0,
+      "incomplete_results": false,
+      "result_urls": []
+    }
+  ],
+  "central_configuration_repository": {
+    "url": "https://api.github.com/repos/Pick-Your-AI/coderabbit",
+    "observed_status": 404,
+    "interpretation": "Not found or not accessible to this connection. This does not prove the absence of private central configuration or dashboard settings."
+  },
+  "official_document_readbacks": [
+    {
+      "key": "faq",
+      "url": "https://docs.coderabbit.ai/faq.md",
+      "final_url": "https://docs.coderabbit.ai/faq.md",
+      "status": 200,
+      "bytes": 32427,
+      "sha256": "5e9c524d2657bf9008ad1a4273ec9c5f6e6b54e3caec91680ca2a7ac7374016a",
+      "accessed_on": "2026-10-19"
+    },
+    {
+      "key": "central",
+      "url": "https://docs.coderabbit.ai/configuration/central-configuration.md",
+      "final_url": "https://docs.coderabbit.ai/configuration/central-configuration.md",
+      "status": 200,
+      "bytes": 10291,
+      "sha256": "4bb4d6025fedc949aaa0ecc05bb7a5a14d0955e958cc69e6d1b4569a8103fc8d",
+      "accessed_on": "2026-10-19"
+    },
+    {
+      "key": "github",
+      "url": "https://docs.coderabbit.ai/platforms/github-com.md",
+      "final_url": "https://docs.coderabbit.ai/platforms/github-com.md",
+      "status": 200,
+      "bytes": 7468,
+      "sha256": "75a79144cc7c4a292c62ec54f168d9c09c818db69ff67d35e6861aee76983696",
+      "accessed_on": "2026-10-19"
+    },
+    {
+      "key": "limits",
+      "url": "https://docs.coderabbit.ai/management/rate-limits.md",
+      "final_url": "https://docs.coderabbit.ai/management/rate-limits.md",
+      "status": 200,
+      "bytes": 18334,
+      "sha256": "c1141954914aea0bac8cef851b242eb0ee3b1a4f54e4dca3b7a998baae553b4c",
+      "accessed_on": "2026-10-19"
+    },
+    {
+      "key": "plans",
+      "url": "https://docs.coderabbit.ai/management/plans.md",
+      "final_url": "https://docs.coderabbit.ai/management/plans.md",
+      "status": 200,
+      "bytes": 19387,
+      "sha256": "e0cd80b287f4384783b812b33f67aa33c360faea29ea1a7b4353b71726fbf511",
+      "accessed_on": "2026-10-19"
+    },
+    {
+      "key": "autoreview",
+      "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
+      "final_url": "https://docs.coderabbit.ai/configuration/auto-review.md",
+      "status": 200,
+      "bytes": 12592,
+      "sha256": "8f0b2cc968820cdc00f548883af85d0d842d412446fd26e2d34a15e74bf0b13b",
+      "accessed_on": "2026-10-19"
+    },
+    {
+      "key": "caching",
+      "url": "https://docs.coderabbit.ai/reference/caching.md",
+      "final_url": "https://docs.coderabbit.ai/reference/caching.md",
+      "status": 200,
+      "bytes": 1662,
+      "sha256": "d87ad281508be5ce6a7ea2122a06572de93c97e922a2a5150a0c5295088a3132",
+      "accessed_on": "2026-10-19"
+    }
+  ],
+  "documented_manual_trigger_threshold": {
+    "source_url": "https://docs.coderabbit.ai/management/plans.md",
+    "last_verified": "2026-10-19",
+    "requires_manual_trigger_when_public_and_stars_below": 10,
+    "repository_count_below_threshold": 5,
+    "scope": "Published operating condition applied to the retained public metadata counts; does not prove account entitlement, installation, effective automatic-review settings or actual review coverage. No review was triggered."
+  },
+  "supplemental_contributor_observation": {
+    "source_pr": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/91",
+    "source_head": "ee53f5716116bdb6db1dba75f3a52697528f8382",
+    "source_note": "research/tooling/coderabbit-oss.md",
+    "bounded_root_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/91#pullrequestreview-5571276958",
+    "attribution": "Original public GitHub observations reported by the PR #91 contributor at the recorded revision and interval. Imported without re-execution by the integrating researcher or root reviewer; not an installation, passing-check or actual-review claim.",
+    "observation": {
+      "observed_on": "2026-10-19",
+      "observation_interval": "Approximately 11:00–11:07 UTC",
+      "scope": "Read-only public repository metadata, full pinned root listings, latest-filtered head checks, combined statuses and organization-index searches",
+      "repositories": [
+        {
+          "repository": "Pick-Your-AI/pick-your-ai-apple",
+          "head": "ee2b3adfc99869d71141425f31b38a0ebf3cf3bc",
+          "private": false,
+          "archived": false,
+          "stars": 0,
+          "root_entry_count": 12,
+          "coderabbit_root_entries": [],
+          "check_run_count": 17,
+          "check_run_ids": [
+            118024185470,
+            118023893344,
+            118023519430,
+            118023434373,
+            118023304664,
+            118023234940,
+            118023220850,
+            118022834628,
+            118022631846,
+            118022470668,
+            118021830285,
+            118021827172,
+            118021826890,
+            118021826724,
+            118021826356,
+            118021826154,
+            118021826030
+          ],
+          "check_app_slugs": [
+            "github-actions"
+          ],
+          "combined_status_count": 0,
+          "actual_installation": "Unknown",
+          "actual_plan_and_settings": "Unknown",
+          "sources": {
+            "metadata": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple",
+            "root": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/contents?ref=ee2b3adfc99869d71141425f31b38a0ebf3cf3bc",
+            "checks": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/commits/ee2b3adfc99869d71141425f31b38a0ebf3cf3bc/check-runs?per_page=100&filter=latest",
+            "statuses": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/commits/ee2b3adfc99869d71141425f31b38a0ebf3cf3bc/status?per_page=100"
+          }
+        },
+        {
+          "repository": "Pick-Your-AI/pick-your-ai-android",
+          "head": "875a339ec7e05046349afb9963e59285831350df",
+          "private": false,
+          "archived": false,
+          "stars": 0,
+          "root_entry_count": 21,
+          "coderabbit_root_entries": [],
+          "check_run_count": 3,
+          "check_run_ids": [
+            118022615632,
+            118022614067,
+            118022613584
+          ],
+          "check_app_slugs": [
+            "github-actions"
+          ],
+          "combined_status_count": 0,
+          "actual_installation": "Unknown",
+          "actual_plan_and_settings": "Unknown",
+          "sources": {
+            "metadata": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android",
+            "root": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/contents?ref=875a339ec7e05046349afb9963e59285831350df",
+            "checks": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/commits/875a339ec7e05046349afb9963e59285831350df/check-runs?per_page=100&filter=latest",
+            "statuses": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/commits/875a339ec7e05046349afb9963e59285831350df/status?per_page=100"
+          }
+        },
+        {
+          "repository": "Pick-Your-AI/pick-your-ai-leaderboard",
+          "head": "abc38d5d4caab73160eddbdc9a8a346bd3c3dac3",
+          "private": false,
+          "archived": false,
+          "stars": 0,
+          "root_entry_count": 24,
+          "coderabbit_root_entries": [],
+          "check_run_count": 5,
+          "check_run_ids": [
+            118023002372,
+            118023002207,
+            118023001432,
+            118023001279,
+            118023000756
+          ],
+          "check_app_slugs": [
+            "github-actions"
+          ],
+          "combined_status_count": 0,
+          "actual_installation": "Unknown",
+          "actual_plan_and_settings": "Unknown",
+          "sources": {
+            "metadata": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard",
+            "root": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/contents?ref=abc38d5d4caab73160eddbdc9a8a346bd3c3dac3",
+            "checks": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/commits/abc38d5d4caab73160eddbdc9a8a346bd3c3dac3/check-runs?per_page=100&filter=latest",
+            "statuses": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/commits/abc38d5d4caab73160eddbdc9a8a346bd3c3dac3/status?per_page=100"
+          }
+        },
+        {
+          "repository": "Pick-Your-AI/pick-your-ai-website",
+          "head": "900c14d7e5101183a930834cb5249597837efb41",
+          "private": false,
+          "archived": false,
+          "stars": 5,
+          "root_entry_count": 32,
+          "coderabbit_root_entries": [],
+          "check_run_count": 20,
+          "check_run_ids": [
+            118010319245,
+            118010159823,
+            118010140884,
+            118010092358,
+            118009331727,
+            118009331713,
+            118009042388,
+            118009042379,
+            118008883623,
+            118008845667,
+            118008845042,
+            118008845026,
+            118008844068,
+            118008844006,
+            118008843868,
+            118008843845,
+            118008843835,
+            118008843766,
+            118008843636,
+            118008843516
+          ],
+          "check_app_slugs": [
+            "github-actions"
+          ],
+          "combined_status_count": 0,
+          "actual_installation": "Unknown",
+          "actual_plan_and_settings": "Unknown",
+          "sources": {
+            "metadata": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website",
+            "root": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/contents?ref=900c14d7e5101183a930834cb5249597837efb41",
+            "checks": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/commits/900c14d7e5101183a930834cb5249597837efb41/check-runs?per_page=100&filter=latest",
+            "statuses": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-website/commits/900c14d7e5101183a930834cb5249597837efb41/status?per_page=100"
+          }
+        },
+        {
+          "repository": "Pick-Your-AI/pick-your-ai-research",
+          "head": "daac1dae7348c8f4f1011c85979068c8ba6c1489",
+          "private": false,
+          "archived": false,
+          "stars": 13,
+          "root_entry_count": 20,
+          "coderabbit_root_entries": [],
+          "check_run_count": 1,
+          "check_run_ids": [
+            118004218605
+          ],
+          "check_app_slugs": [
+            "github-actions"
+          ],
+          "combined_status_count": 0,
+          "actual_installation": "Unknown",
+          "actual_plan_and_settings": "Unknown",
+          "sources": {
+            "metadata": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research",
+            "root": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/contents?ref=daac1dae7348c8f4f1011c85979068c8ba6c1489",
+            "checks": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/commits/daac1dae7348c8f4f1011c85979068c8ba6c1489/check-runs?per_page=100&filter=latest",
+            "statuses": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/commits/daac1dae7348c8f4f1011c85979068c8ba6c1489/status?per_page=100"
+          }
+        },
+        {
+          "repository": "Pick-Your-AI/pick-your-ai-sustainability",
+          "head": "cad980ecc8e43a472ebe63c4360f94846d175a96",
+          "private": false,
+          "archived": false,
+          "stars": 0,
+          "root_entry_count": 10,
+          "coderabbit_root_entries": [],
+          "check_run_count": 1,
+          "check_run_ids": [
+            118020018892
+          ],
+          "check_app_slugs": [
+            "github-actions"
+          ],
+          "combined_status_count": 0,
+          "actual_installation": "Unknown",
+          "actual_plan_and_settings": "Unknown",
+          "sources": {
+            "metadata": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability",
+            "root": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/contents?ref=cad980ecc8e43a472ebe63c4360f94846d175a96",
+            "checks": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/commits/cad980ecc8e43a472ebe63c4360f94846d175a96/check-runs?per_page=100&filter=latest",
+            "statuses": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/commits/cad980ecc8e43a472ebe63c4360f94846d175a96/status?per_page=100"
+          }
+        }
+      ],
+      "indexed_bot_searches": [
+        {
+          "query": "org:Pick-Your-AI is:pull-request reviewed-by:coderabbitai[bot]",
+          "total_count": 0,
+          "incomplete_results": false
+        },
+        {
+          "query": "org:Pick-Your-AI is:pull-request commenter:coderabbitai[bot]",
+          "total_count": 0,
+          "incomplete_results": false
+        }
+      ],
+      "central_repository_read": {
+        "url": "https://api.github.com/repos/Pick-Your-AI/coderabbit",
+        "result": "404; private/inaccessible or absent cannot be distinguished"
+      },
+      "limitations": [
+        "Repository stars are dated metadata, not commit properties.",
+        "No account installation, UI configuration, permission grant or actual service execution was inspected.",
+        "A check run's presence does not establish success, actual code review or freshness."
+      ]
+    },
+    "supplemental_primary_source_readback": {
+      "read_on": "2026-10-19",
+      "reader": "ChatGPT in-session /root/apple",
+      "scope": "Independent reading of the seven additional official publications and public endpoint attempts; separate from the imported GitHub observations.",
+      "source_urls": [
+        "https://www.coderabbit.ai/legal/dpa",
+        "https://docs.coderabbit.ai/knowledge-base",
+        "https://docs.coderabbit.ai/guides/data-export",
+        "https://docs.coderabbit.ai/management/subscription-management",
+        "https://www.coderabbit.ai/pricing",
+        "https://docs.coderabbit.ai/getting-started/quickstart",
+        "https://docs.coderabbit.ai/configuration/configuration-inheritance"
+      ],
+      "public_endpoint_attempts": [
+        {
+          "url": "https://app.coderabbit.ai",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Public text retrieval exposed no readable intake fields; no signed-in account or consent screen inspected."
+        },
+        {
+          "url": "https://trust.coderabbit.ai/subprocessors",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Public text retrieval exposed no readable recipient list; current list and account-specific transfers remain Unknown."
+        }
+      ]
+    },
+    "canonical_handoff_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#issuecomment-6266752595"
+  }
+}

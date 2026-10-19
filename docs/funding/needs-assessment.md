@@ -1,6 +1,6 @@
 # Operating costs and resource needs
 
-Issue [#19 / E02-01](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19) · Source inspection: **2026-10-19** · Status: **findings prepared for independent review**.
+Issue [#19 / E02-01](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19) · Source inspection: **2026-10-19** · Status: **findings independently accepted**.
 
 This is the canonical cost-and-need baseline for the six Pick Your AI repositories.
 The recommendation is to accept the documented capabilities, proposed needs and
@@ -233,7 +233,7 @@ program or price findings.
 | Restrictions and operating conditions | Support-condition table with publication, privacy, portability, renewal/overage, reporting/branding and independence |
 | Concrete use and defensible value/effort | Finite receiving outcomes/meters; cash/credit/avoided-cost distinctions; no invented value or hours |
 | Canonical delivery, records, questions, priority/disposition | This file and explicit budget/demand/provider/evidence handoffs; P1, no irrelevant opportunity row |
-| Independent findings acceptance | **Pending exact-revision independent review and delivery; link the actual review in #19.** Local checks do not establish this acceptance. |
+| Independent findings acceptance | **Accepted by the root project-session review lane in [review 5571462106](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/96#pullrequestreview-5571462106) at [source `45ec6b57`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/45ec6b57a9243be9c38e851666199e048d8ae3fc), on 2026-10-19.** That substantive review covers all ten literal criteria; local checks remain separate. |
 
 The unresolved facts are the actual financial/asset inventory and each request's
 finite volume, terms, custodian and incremental value. They remain prerequisites

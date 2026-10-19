@@ -4,14 +4,17 @@
     "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
     "tracking_key": "E02-02",
     "prepared_on": "2026-10-19",
-    "status": "Draft findings; independent acceptance pending",
+    "status": "Findings independently accepted; normal delivery pending",
     "priority": "P1",
     "numeric_score": null,
     "score_reason": "Foundational planning tool; opportunity scoring is Not applicable.",
     "recommended_disposition": "Review the parameterized planning method, dated hosting inputs and explicit Unknowns; populate actual cost and demand evidence before an adopted funding request.",
     "benefit_type": "Internal cash-cost planning and scenario sensitivity; not an award or received benefit.",
     "program_intake_and_deadline": "Not applicable to an internal planning model; candidate host/form processes and actual dates remain separate research/decision inputs.",
-    "independent_review_url": null
+    "independent_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/102#pullrequestreview-5572495606",
+    "reviewed_source_revision": "236d764441f26edd1084953c53d00a365f5efbdc",
+    "reviewed_source_tree": "d970bff3a8a0ab4e81ddfebcf510462cc8c812a5",
+    "independent_review_scope": "The actual planning findings and all eleven #20 research criteria were accepted; normal source delivery, an adopted budget, actual eligibility, accounts, commitments and spending remain separate."
   },
   "parameters": {
     "currency": "USD",

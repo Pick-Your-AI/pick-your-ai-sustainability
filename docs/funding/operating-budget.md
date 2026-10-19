@@ -1,6 +1,16 @@
 # Twelve-month operating budget
 
-Issue [#20 / E02-02](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20) · Prepared **2026-10-19** · **Draft findings for independent acceptance**.
+Issue [#20 / E02-02](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20) · Prepared **2026-10-19** · **Findings independently accepted; normal delivery pending**.
+
+The [independent substantive review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/102#pullrequestreview-5572495606)
+accepted all eleven #20 research criteria at source
+`236d764441f26edd1084953c53d00a365f5efbdc`, tree
+`d970bff3a8a0ab4e81ddfebcf510462cc8c812a5`, on **2026-10-19**. It records
+the reproduced provenance-admission and N01 duplicate-cost findings and their
+corrections, independent arithmetic/receipt checks, primary fee-source review
+and exact preservation boundaries. Normal source delivery remains separate;
+this acceptance does not adopt a budget or establish actual eligibility,
+accounts, commitments, received support or spending authority.
 
 The [canonical budget](../../data/budget/operating-budget.json) is a populated,
 recalculable planning model for all six repositories. It consumes the accepted
@@ -270,4 +280,4 @@ no duplicate technical implementation or duplicate provider opportunity record.
 | Restrictions and operating conditions | Cash/control table, source rights, host terms and unknown operating inputs |
 | Concrete public-benefit use, value and effort | N01–N09 receiving scopes, explicit arithmetic, Unknown complete value/hours |
 | Canonical delivery, references, questions, priority/disposition | Canonical JSON, calculator, this guide, P1 recommendation and explicit downstream handoffs |
-| Independent actual findings acceptance | Pending exact-revision review; local tests alone do not establish it |
+| Independent actual findings acceptance | [Exact-source substantive acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/102#pullrequestreview-5572495606), including independently reproduced findings and correction controls; normal source delivery remains separate |

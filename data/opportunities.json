@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 47,
+  "records_count": 50,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -10635,6 +10635,992 @@
     },
     {
       "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "GOFUNDME-PERSONAL-BUSINESS",
+      "provider": "GoFundMe",
+      "program_name": "Personal/business donation fundraiser",
+      "program_aliases": [
+        "GOFUNDME",
+        "GoFundMe personal",
+        "GoFundMe business",
+        "GoFundMe unincorporated association"
+      ],
+      "round": null,
+      "category": "Donation channels and crowdfunding",
+      "support_type": "Donations to a verified personal/business/beneficiary recipient; no award or guaranteed net funds",
+      "official_program_url": "https://www.gofundme.com/c/start",
+      "official_application_url": "https://www.gofundme.com/c/start",
+      "eligibility_jurisdiction": "Supported withdrawal countries; actual recipient country, adult/identity/bank and organization evidence Unknown. Canada excludes unincorporated-association bank transfers.",
+      "legal_entity_requirements": "Actual applicant/recipient, authorized representative and country/account requirements must be established for the chosen route; see the canonical three-phase assessment.",
+      "available_before_incorporation": "Unknown",
+      "available_through_fiscal_sponsorship": "Unknown",
+      "available_after_501c3_recognition": "Unknown",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Published route criteria do not establish actual PYA qualification.",
+        "Host or recognition status does not bypass the program-specific applicant, account, project and permitted-use checks."
+      ],
+      "application_gate": "No campaign/application/activation authorized by this research; establish actual recipient authority, finite need and applicable terms before any representation or commitment.",
+      "application_status": "No application or campaign in this execution; historical state Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "Done",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Reconcile settled receipts, restriction/fee bases, processors/FX/outgoing costs, refunds/reserves and actual fulfillment/administration. Value only an evidenced necessary alternative actually avoided; no invented units or probability.",
+      "restrictions_and_obligations": [
+        "See the canonical assessment and memo for provider-specific control, fee, refund, content, privacy, recurring/fulfillment and exit conditions.",
+        "No donor treatment, receipt entitlement, outcome or unrestricted funds available is asserted."
+      ],
+      "program_objectives": "Donations to a verified personal/business/beneficiary recipient; no award or guaranteed net funds",
+      "fit_with_pick_your_ai": "P2 conditional lead; defer pending actual recipient/country/authority, additional donor need and exact permitted-use/AI terms.",
+      "required_application_evidence": [
+        "Actual recipient/country/representative and account or host authority",
+        "Finite new proposal, budget/effort and content rights",
+        "Actual current editor/consents and applicable agreement; successful public guidance retrieval does not verify those fields"
+      ],
+      "required_contacts_or_decisions": [
+        "Resolve the concrete remaining questions in the canonical assessment before any external representation. No outreach is sent."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Dated, bounded primary findings independently accepted on 2026-10-19; access limitations and actual applicant/activation/value Unknowns remain explicit.",
+      "sources": [
+        {
+          "url": "https://www.gofundme.com/c/pricing",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F1"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F1a"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/360001972748-Countries-supported-on-GoFundMe",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F2"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/360001977868-Requirements-to-receive-funds",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F3"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/360001992767-How-to-set-up-transfers",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F3a"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-gb/articles/204532398-How-to-transfer-funds-to-a-business-or-organisation-bank-account",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F4"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-gb/articles/360059416272-Transferring-funds-to-a-trust-or-an-unincorporated-association-s-account",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F5"
+        },
+        {
+          "url": "https://www.gofundme.com/c/terms",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F7"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F8"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/204295498-Taxes-for-GoFundMe-organizers",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F9"
+        },
+        {
+          "url": "https://www.gofundme.com/c/start",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F10"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F11"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F12"
+        },
+        {
+          "url": "https://www.gofundme.com/c/privacy",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F13"
+        },
+        {
+          "url": "https://www.irs.gov/taxtopics/tc506",
+          "publisher": "Internal Revenue Service",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: T1"
+        },
+        {
+          "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+          "publisher": "Internal Revenue Service",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: T2"
+        },
+        {
+          "url": "https://www.gofundme.com/c/gofundme-pro-terms",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F14"
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; required eligibility, usable-value and effort evidence has not been established."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+      "next_action": "P2 conditional lead; defer pending actual recipient/country/authority, additional donor need and exact permitted-use/AI terms.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any current recommendation, campaign, agreement, payment, activation or material applicant/source/terms change; preserve historical observations.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No campaign or receipt in this execution; historical state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No actual binding schedule established; provider conditions and later agreement-specific duties remain separate.",
+      "reporting_obligations": [
+        "Canonical memo describes prospective reporting/fulfillment conditions; no actual project reporting obligation or date established."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "GOFUNDME",
+          "GoFundMe personal",
+          "GoFundMe business",
+          "GoFundMe unincorporated association"
+        ],
+        "canonical_match": null,
+        "scope": "All41 existing program records, issue34 and ownership/comments plus organization GoFundMe/Kickstarter issue/PR searches; no existing crowdfunding record or conflicting owner found. Existing host/Sponsors identities preserved."
+      },
+      "review": {
+        "reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+        "reviewed_revision": "c32717e7f11e4b4720954f551ec83687176bfc19",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949",
+        "decision": "Accepted complete #34 findings against all thirteen literal criteria, including the conditional/deferred GoFundMe routes and current-scope Kickstarter non-selection.",
+        "limitations": [
+          "Actual applicant, recipient authority, activation, account agreement and financial value remain Unknown; no campaign, enrollment, payment or legal/tax conclusion is established.",
+          "Independent in-session substantive review through the shared connected account; not a distinct-account GitHub approval or an organizational appointment.",
+          "Research acceptance, subsequent receiving composition, hosted qualification and actual main delivery have separate evidence; acceptance does not refresh provider observations."
+        ],
+        "reviewed_on": "2026-10-19"
+      },
+      "owning_research_key": "E04-02",
+      "source_urls": [
+        "https://www.gofundme.com/c/pricing",
+        "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+        "https://support.gofundme.com/hc/en-us/articles/360001972748-Countries-supported-on-GoFundMe",
+        "https://support.gofundme.com/hc/en-us/articles/360001977868-Requirements-to-receive-funds",
+        "https://support.gofundme.com/hc/en-us/articles/360001992767-How-to-set-up-transfers",
+        "https://support.gofundme.com/hc/en-gb/articles/204532398-How-to-transfer-funds-to-a-business-or-organisation-bank-account",
+        "https://support.gofundme.com/hc/en-gb/articles/360059416272-Transferring-funds-to-a-trust-or-an-unincorporated-association-s-account",
+        "https://www.gofundme.com/c/terms",
+        "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+        "https://support.gofundme.com/hc/en-us/articles/204295498-Taxes-for-GoFundMe-organizers",
+        "https://www.gofundme.com/c/start",
+        "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+        "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+        "https://www.gofundme.com/c/privacy",
+        "https://www.irs.gov/taxtopics/tc506",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+        "https://www.gofundme.com/c/gofundme-pro-terms"
+      ],
+      "source_refs": [
+        "https://www.gofundme.com/c/pricing",
+        "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+        "https://support.gofundme.com/hc/en-us/articles/360001972748-Countries-supported-on-GoFundMe",
+        "https://support.gofundme.com/hc/en-us/articles/360001977868-Requirements-to-receive-funds",
+        "https://support.gofundme.com/hc/en-us/articles/360001992767-How-to-set-up-transfers",
+        "https://support.gofundme.com/hc/en-gb/articles/204532398-How-to-transfer-funds-to-a-business-or-organisation-bank-account",
+        "https://support.gofundme.com/hc/en-gb/articles/360059416272-Transferring-funds-to-a-trust-or-an-unincorporated-association-s-account",
+        "https://www.gofundme.com/c/terms",
+        "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+        "https://support.gofundme.com/hc/en-us/articles/204295498-Taxes-for-GoFundMe-organizers",
+        "https://www.gofundme.com/c/start",
+        "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+        "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+        "https://www.gofundme.com/c/privacy",
+        "https://www.irs.gov/taxtopics/tc506",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+        "https://www.gofundme.com/c/gofundme-pro-terms"
+      ],
+      "source_review_status": "Complete donation-channel findings independently accepted against all thirteen #34 criteria; conditional/deferred dispositions and access/applicant limitations retained.",
+      "award_status": "Unknown; no award evidence established",
+      "current_disposition": "P2 conditional lead; defer pending actual recipient/country/authority, additional donor need and exact permitted-use/AI terms.",
+      "score": null,
+      "canonical_deliverable": "docs/funding/donation-channel-comparison.md",
+      "applicant_qualification_status": "Unknown",
+      "priority_scope_note": "P1 foundational comparison; this candidate priority does not imply qualified applicant or monetary score.",
+      "source_evidence": {
+        "canonical_assessment": "data/opportunities/donation-channel-assessment.json",
+        "source_ids": [
+          "F1",
+          "F1a",
+          "F2",
+          "F3",
+          "F3a",
+          "F4",
+          "F5",
+          "F7",
+          "F8",
+          "F9",
+          "F10",
+          "F11",
+          "F12",
+          "F13",
+          "T1",
+          "T2",
+          "F14"
+        ]
+      },
+      "intake_status": "Current public setup guidance and start landing read; complete editor/consents and account-specific deadline unverified. No fixed application round observed.",
+      "full_application_content_status": "Not Verified",
+      "complete_legal_agreement_status": "Not Verified for actual applicant/account; public source scope is qualified in the canonical memo."
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "GOFUNDME-CERTIFIED-NONPROFIT",
+      "provider": "GoFundMe",
+      "program_name": "Certified nonprofit donation fundraiser",
+      "program_aliases": [
+        "GoFundMe charity",
+        "GoFundMe certified nonprofit",
+        "PayPal Giving Fund",
+        "GoFundMe Pay"
+      ],
+      "round": null,
+      "category": "Donation channels and crowdfunding",
+      "support_type": "Donations administered through the actual certified nonprofit/partner route; no PYA charitable or fund entitlement established",
+      "official_program_url": "https://support.gofundme.com/hc/en-gb/articles/360056093332-Receiving-charity-fundraiser-payouts",
+      "official_application_url": "https://www.gofundme.com/c/start",
+      "eligibility_jurisdiction": "Certified nonprofit route published for US, UK, Ireland, Canada and Australia. Actual recognized beneficiary, certification, relationship and payout/receipt agreement Unknown.",
+      "legal_entity_requirements": "Actual applicant/recipient, authorized representative and country/account requirements must be established for the chosen route; see the canonical three-phase assessment.",
+      "available_before_incorporation": "Unknown",
+      "available_through_fiscal_sponsorship": "Unknown",
+      "available_after_501c3_recognition": "Unknown",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Published route criteria do not establish actual PYA qualification.",
+        "Host or recognition status does not bypass the program-specific applicant, account, project and permitted-use checks."
+      ],
+      "application_gate": "No campaign/application/activation authorized by this research; establish actual recipient authority, finite need and applicable terms before any representation or commitment.",
+      "application_status": "No application or campaign in this execution; historical state Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "Done",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Reconcile settled receipts, restriction/fee bases, processors/FX/outgoing costs, refunds/reserves and actual fulfillment/administration. Value only an evidenced necessary alternative actually avoided; no invented units or probability.",
+      "restrictions_and_obligations": [
+        "See the canonical assessment and memo for provider-specific control, fee, refund, content, privacy, recurring/fulfillment and exit conditions.",
+        "No donor treatment, receipt entitlement, outcome or unrestricted funds available is asserted."
+      ],
+      "program_objectives": "Donations administered through the actual certified nonprofit/partner route; no PYA charitable or fund entitlement established",
+      "fit_with_pick_your_ai": "P2 conditional lead; defer pending actual recognized beneficiary/host, certification, agreement/receipt issuer and incremental need.",
+      "required_application_evidence": [
+        "Actual recipient/country/representative and account or host authority",
+        "Finite new proposal, budget/effort and content rights",
+        "Actual current editor/consents and applicable agreement; successful public guidance retrieval does not verify those fields"
+      ],
+      "required_contacts_or_decisions": [
+        "Resolve the concrete remaining questions in the canonical assessment before any external representation. No outreach is sent."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Dated, bounded primary findings independently accepted on 2026-10-19; access limitations and actual applicant/activation/value Unknowns remain explicit.",
+      "sources": [
+        {
+          "url": "https://www.gofundme.com/c/pricing",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F1"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F1a"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-gb/articles/360056093332-Receiving-charity-fundraiser-payouts",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F6"
+        },
+        {
+          "url": "https://www.gofundme.com/c/terms",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F7"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F8"
+        },
+        {
+          "url": "https://www.gofundme.com/c/start",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F10"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F11"
+        },
+        {
+          "url": "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F12"
+        },
+        {
+          "url": "https://www.gofundme.com/c/privacy",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F13"
+        },
+        {
+          "url": "https://www.irs.gov/taxtopics/tc506",
+          "publisher": "Internal Revenue Service",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: T1"
+        },
+        {
+          "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+          "publisher": "Internal Revenue Service",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: T2"
+        },
+        {
+          "url": "https://www.gofundme.com/c/gofundme-pro-terms",
+          "publisher": "GoFundMe",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: F14"
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; required eligibility, usable-value and effort evidence has not been established."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+      "next_action": "P2 conditional lead; defer pending actual recognized beneficiary/host, certification, agreement/receipt issuer and incremental need.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any current recommendation, campaign, agreement, payment, activation or material applicant/source/terms change; preserve historical observations.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No campaign or receipt in this execution; historical state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No actual binding schedule established; provider conditions and later agreement-specific duties remain separate.",
+      "reporting_obligations": [
+        "Canonical memo describes prospective reporting/fulfillment conditions; no actual project reporting obligation or date established."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "GoFundMe charity",
+          "GoFundMe certified nonprofit",
+          "PayPal Giving Fund",
+          "GoFundMe Pay"
+        ],
+        "canonical_match": null,
+        "scope": "All41 existing program records, issue34 and ownership/comments plus organization GoFundMe/Kickstarter issue/PR searches; no existing crowdfunding record or conflicting owner found. Existing host/Sponsors identities preserved."
+      },
+      "review": {
+        "reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+        "reviewed_revision": "c32717e7f11e4b4720954f551ec83687176bfc19",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949",
+        "decision": "Accepted complete #34 findings against all thirteen literal criteria, including the conditional/deferred GoFundMe routes and current-scope Kickstarter non-selection.",
+        "limitations": [
+          "Actual applicant, recipient authority, activation, account agreement and financial value remain Unknown; no campaign, enrollment, payment or legal/tax conclusion is established.",
+          "Independent in-session substantive review through the shared connected account; not a distinct-account GitHub approval or an organizational appointment.",
+          "Research acceptance, subsequent receiving composition, hosted qualification and actual main delivery have separate evidence; acceptance does not refresh provider observations."
+        ],
+        "reviewed_on": "2026-10-19"
+      },
+      "owning_research_key": "E04-02",
+      "source_urls": [
+        "https://www.gofundme.com/c/pricing",
+        "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+        "https://support.gofundme.com/hc/en-gb/articles/360056093332-Receiving-charity-fundraiser-payouts",
+        "https://www.gofundme.com/c/terms",
+        "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+        "https://www.gofundme.com/c/start",
+        "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+        "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+        "https://www.gofundme.com/c/privacy",
+        "https://www.irs.gov/taxtopics/tc506",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+        "https://www.gofundme.com/c/gofundme-pro-terms"
+      ],
+      "source_refs": [
+        "https://www.gofundme.com/c/pricing",
+        "https://support.gofundme.com/hc/en-us/articles/203604424-Learn-about-GoFundMe-fees",
+        "https://support.gofundme.com/hc/en-gb/articles/360056093332-Receiving-charity-fundraiser-payouts",
+        "https://www.gofundme.com/c/terms",
+        "https://support.gofundme.com/hc/en-us/articles/360039267752-Tax-information-for-donors",
+        "https://www.gofundme.com/c/start",
+        "https://support.gofundme.com/hc/en-us/articles/26707416172059-Provide-ongoing-support-with-recurring-monthly-donations",
+        "https://support.gofundme.com/hc/en-us/articles/204150420-Request-a-refund",
+        "https://www.gofundme.com/c/privacy",
+        "https://www.irs.gov/taxtopics/tc506",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+        "https://www.gofundme.com/c/gofundme-pro-terms"
+      ],
+      "source_review_status": "Complete donation-channel findings independently accepted against all thirteen #34 criteria; conditional/deferred dispositions and access/applicant limitations retained.",
+      "award_status": "Unknown; no award evidence established",
+      "current_disposition": "P2 conditional lead; defer pending actual recognized beneficiary/host, certification, agreement/receipt issuer and incremental need.",
+      "score": null,
+      "canonical_deliverable": "docs/funding/donation-channel-comparison.md",
+      "applicant_qualification_status": "Unknown",
+      "priority_scope_note": "P1 foundational comparison; this candidate priority does not imply qualified applicant or monetary score.",
+      "source_evidence": {
+        "canonical_assessment": "data/opportunities/donation-channel-assessment.json",
+        "source_ids": [
+          "F1",
+          "F1a",
+          "F6",
+          "F7",
+          "F8",
+          "F10",
+          "F11",
+          "F12",
+          "F13",
+          "T1",
+          "T2",
+          "F14"
+        ]
+      },
+      "intake_status": "Current public setup guidance and start landing read; complete editor/consents and account-specific deadline unverified. No fixed application round observed.",
+      "full_application_content_status": "Not Verified",
+      "complete_legal_agreement_status": "Not Verified for actual applicant/account; public source scope is qualified in the canonical memo."
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "KICKSTARTER-CREATIVE-CROWDFUNDING",
+      "provider": "Kickstarter",
+      "program_name": "Creative-project crowdfunding",
+      "program_aliases": [
+        "Kickstarter",
+        "reward crowdfunding",
+        "creative-project crowdfunding"
+      ],
+      "round": null,
+      "category": "Donation channels and crowdfunding",
+      "support_type": "Contingent all-or-nothing campaign proceeds with project/reward obligations; no guaranteed support",
+      "official_program_url": "https://www.kickstarter.com/rules",
+      "official_application_url": "https://www.kickstarter.com/start",
+      "eligibility_jurisdiction": "Published25-country creator/entity eligibility plus identity, bank, project and content criteria. Actual applicant/country and admissible prototype/human involvement Unknown.",
+      "legal_entity_requirements": "Actual applicant/recipient, authorized representative and country/account requirements must be established for the chosen route; see the canonical three-phase assessment.",
+      "available_before_incorporation": "Unknown",
+      "available_through_fiscal_sponsorship": "Unknown",
+      "available_after_501c3_recognition": "Unknown",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Published route criteria do not establish actual PYA qualification.",
+        "Host or recognition status does not bypass the program-specific applicant, account, project and permitted-use checks."
+      ],
+      "application_gate": "No campaign/application/activation authorized by this research; establish actual recipient authority, finite need and applicable terms before any representation or commitment.",
+      "application_status": "No application or campaign in this execution; historical state Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "Done",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Reconcile settled receipts, restriction/fee bases, processors/FX/outgoing costs, refunds/reserves and actual fulfillment/administration. Value only an evidenced necessary alternative actually avoided; no invented units or probability.",
+      "restrictions_and_obligations": [
+        "See the canonical assessment and memo for provider-specific control, fee, refund, content, privacy, recurring/fulfillment and exit conditions.",
+        "No donor treatment, receipt entitlement, outcome or unrestricted funds available is asserted."
+      ],
+      "program_objectives": "Contingent all-or-nothing campaign proceeds with project/reward obligations; no guaranteed support",
+      "fit_with_pick_your_ai": "P3 not selected for current maintenance scope; new specific creative proposal, prototype/human involvement, capacity and full legal terms would require reassessment.",
+      "required_application_evidence": [
+        "Actual recipient/country/representative and account or host authority",
+        "Finite new proposal, budget/effort and content rights",
+        "Actual current editor/consents and applicable agreement; successful public guidance retrieval does not verify those fields"
+      ],
+      "required_contacts_or_decisions": [
+        "Resolve the concrete remaining questions in the canonical assessment before any external representation. No outreach is sent."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Dated, bounded primary findings independently accepted on 2026-10-19; access limitations and actual applicant/activation/value Unknowns remain explicit.",
+      "sources": [
+        {
+          "url": "https://www.irs.gov/taxtopics/tc506",
+          "publisher": "Internal Revenue Service",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: T1"
+        },
+        {
+          "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+          "publisher": "Internal Revenue Service",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: T2"
+        },
+        {
+          "url": "https://www.kickstarter.com/rules",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K01"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236650-who-can-use-kickstarter",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K02"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236681-can-kickstarter-be-used-to-fund-anything",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K03"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236787-can-business-and-nonprofit-entities-raise-funds-for-projects",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K04"
+        },
+        {
+          "url": "https://www.kickstarter.com/help/fees",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K05"
+        },
+        {
+          "url": "https://updates.kickstarter.com/kickstarter-fees-a-comprehensive-guide-for-creators/",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K06"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236709-how-to-set-the-right-funding-goal-for-your-kickstarter-campaign",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K07"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236742-what-is-the-maximum-project-duration",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K08"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236545-if-my-project-is-successfully-funded-how-do-i-receive-my-funds",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K09"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236386-pledge-over-time-faq",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K10"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236668-how-will-i-be-paid-out-for-late-pledges",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K11"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236551-what-is-a-creator-obligated-to-do-once-their-project-is-funded",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K12"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236654-if-i-am-unable-to-complete-my-project-as-promised-what-should-i-do",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K13"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236553-does-kickstarter-issue-refunds",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K14"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236695-how-do-i-issue-a-refund-to-one-of-my-backers",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K15"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236759-can-i-use-ai-generated-content-or-create-ai-technology-in-my-project",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K16"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236656-what-do-backers-get-in-return",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K17"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236797-can-i-use-copyrighted-material-as-part-of-my-project",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K18"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236629-as-a-kickstarter-creator-how-can-i-comply-with-data-privacy-rules",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K19"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236462-where-can-i-find-my-backer-s-pledge-manager-or-survey-responses",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K20"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236655-how-can-i-access-my-expired-backer-report",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K21"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236790-how-long-does-a-project-remain-on-kickstarter",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K22"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236746-how-can-i-cancel-my-project",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K23"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236645-how-do-i-delete-my-account",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K24"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236514-how-can-i-download-my-kickstarter-data",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K25"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236409-how-do-i-prepare-to-launch-my-project",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K26"
+        },
+        {
+          "url": "https://help.kickstarter.com/en-us/articles/16236415-my-project-is-awaiting-review-how-does-this-work",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Scoped public content read",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K27"
+        },
+        {
+          "url": "https://legal.kickstarter.com/policies/en/?name=terms-of-use",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Content not verified",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K28"
+        },
+        {
+          "url": "https://legal.kickstarter.com/policies?name=privacy-policy",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Content not verified",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K29"
+        },
+        {
+          "url": "https://www.kickstarter.com/start",
+          "publisher": "Kickstarter",
+          "accessed_on": "2026-10-19",
+          "status": "Content not verified",
+          "scope": "Full scoped observation in data/opportunities/donation-channel-assessment.json: K30"
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; required eligibility, usable-value and effort evidence has not been established."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+      "next_action": "P3 not selected for current maintenance scope; new specific creative proposal, prototype/human involvement, capacity and full legal terms would require reassessment.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any current recommendation, campaign, agreement, payment, activation or material applicant/source/terms change; preserve historical observations.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No campaign or receipt in this execution; historical state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No actual binding schedule established; provider conditions and later agreement-specific duties remain separate.",
+      "reporting_obligations": [
+        "Canonical memo describes prospective reporting/fulfillment conditions; no actual project reporting obligation or date established."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Kickstarter",
+          "reward crowdfunding",
+          "creative-project crowdfunding"
+        ],
+        "canonical_match": null,
+        "scope": "All41 existing program records, issue34 and ownership/comments plus organization GoFundMe/Kickstarter issue/PR searches; no existing crowdfunding record or conflicting owner found. Existing host/Sponsors identities preserved."
+      },
+      "review": {
+        "reviewer": "Independent in-session Apple engineering reviewer, using the existing connected project account.",
+        "reviewed_revision": "c32717e7f11e4b4720954f551ec83687176bfc19",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949",
+        "decision": "Accepted complete #34 findings against all thirteen literal criteria, including the conditional/deferred GoFundMe routes and current-scope Kickstarter non-selection.",
+        "limitations": [
+          "Actual applicant, recipient authority, activation, account agreement and financial value remain Unknown; no campaign, enrollment, payment or legal/tax conclusion is established.",
+          "Independent in-session substantive review through the shared connected account; not a distinct-account GitHub approval or an organizational appointment.",
+          "Research acceptance, subsequent receiving composition, hosted qualification and actual main delivery have separate evidence; acceptance does not refresh provider observations."
+        ],
+        "reviewed_on": "2026-10-19"
+      },
+      "owning_research_key": "E04-02",
+      "source_urls": [
+        "https://www.irs.gov/taxtopics/tc506",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+        "https://www.kickstarter.com/rules",
+        "https://help.kickstarter.com/en-us/articles/16236650-who-can-use-kickstarter",
+        "https://help.kickstarter.com/en-us/articles/16236681-can-kickstarter-be-used-to-fund-anything",
+        "https://help.kickstarter.com/en-us/articles/16236787-can-business-and-nonprofit-entities-raise-funds-for-projects",
+        "https://www.kickstarter.com/help/fees",
+        "https://updates.kickstarter.com/kickstarter-fees-a-comprehensive-guide-for-creators/",
+        "https://help.kickstarter.com/en-us/articles/16236709-how-to-set-the-right-funding-goal-for-your-kickstarter-campaign",
+        "https://help.kickstarter.com/en-us/articles/16236742-what-is-the-maximum-project-duration",
+        "https://help.kickstarter.com/en-us/articles/16236545-if-my-project-is-successfully-funded-how-do-i-receive-my-funds",
+        "https://help.kickstarter.com/en-us/articles/16236386-pledge-over-time-faq",
+        "https://help.kickstarter.com/en-us/articles/16236668-how-will-i-be-paid-out-for-late-pledges",
+        "https://help.kickstarter.com/en-us/articles/16236551-what-is-a-creator-obligated-to-do-once-their-project-is-funded",
+        "https://help.kickstarter.com/en-us/articles/16236654-if-i-am-unable-to-complete-my-project-as-promised-what-should-i-do",
+        "https://help.kickstarter.com/en-us/articles/16236553-does-kickstarter-issue-refunds",
+        "https://help.kickstarter.com/en-us/articles/16236695-how-do-i-issue-a-refund-to-one-of-my-backers",
+        "https://help.kickstarter.com/en-us/articles/16236759-can-i-use-ai-generated-content-or-create-ai-technology-in-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236656-what-do-backers-get-in-return",
+        "https://help.kickstarter.com/en-us/articles/16236797-can-i-use-copyrighted-material-as-part-of-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236629-as-a-kickstarter-creator-how-can-i-comply-with-data-privacy-rules",
+        "https://help.kickstarter.com/en-us/articles/16236462-where-can-i-find-my-backer-s-pledge-manager-or-survey-responses",
+        "https://help.kickstarter.com/en-us/articles/16236655-how-can-i-access-my-expired-backer-report",
+        "https://help.kickstarter.com/en-us/articles/16236790-how-long-does-a-project-remain-on-kickstarter",
+        "https://help.kickstarter.com/en-us/articles/16236746-how-can-i-cancel-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236645-how-do-i-delete-my-account",
+        "https://help.kickstarter.com/en-us/articles/16236514-how-can-i-download-my-kickstarter-data",
+        "https://help.kickstarter.com/en-us/articles/16236409-how-do-i-prepare-to-launch-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236415-my-project-is-awaiting-review-how-does-this-work"
+      ],
+      "source_refs": [
+        "https://www.irs.gov/taxtopics/tc506",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments",
+        "https://www.kickstarter.com/rules",
+        "https://help.kickstarter.com/en-us/articles/16236650-who-can-use-kickstarter",
+        "https://help.kickstarter.com/en-us/articles/16236681-can-kickstarter-be-used-to-fund-anything",
+        "https://help.kickstarter.com/en-us/articles/16236787-can-business-and-nonprofit-entities-raise-funds-for-projects",
+        "https://www.kickstarter.com/help/fees",
+        "https://updates.kickstarter.com/kickstarter-fees-a-comprehensive-guide-for-creators/",
+        "https://help.kickstarter.com/en-us/articles/16236709-how-to-set-the-right-funding-goal-for-your-kickstarter-campaign",
+        "https://help.kickstarter.com/en-us/articles/16236742-what-is-the-maximum-project-duration",
+        "https://help.kickstarter.com/en-us/articles/16236545-if-my-project-is-successfully-funded-how-do-i-receive-my-funds",
+        "https://help.kickstarter.com/en-us/articles/16236386-pledge-over-time-faq",
+        "https://help.kickstarter.com/en-us/articles/16236668-how-will-i-be-paid-out-for-late-pledges",
+        "https://help.kickstarter.com/en-us/articles/16236551-what-is-a-creator-obligated-to-do-once-their-project-is-funded",
+        "https://help.kickstarter.com/en-us/articles/16236654-if-i-am-unable-to-complete-my-project-as-promised-what-should-i-do",
+        "https://help.kickstarter.com/en-us/articles/16236553-does-kickstarter-issue-refunds",
+        "https://help.kickstarter.com/en-us/articles/16236695-how-do-i-issue-a-refund-to-one-of-my-backers",
+        "https://help.kickstarter.com/en-us/articles/16236759-can-i-use-ai-generated-content-or-create-ai-technology-in-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236656-what-do-backers-get-in-return",
+        "https://help.kickstarter.com/en-us/articles/16236797-can-i-use-copyrighted-material-as-part-of-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236629-as-a-kickstarter-creator-how-can-i-comply-with-data-privacy-rules",
+        "https://help.kickstarter.com/en-us/articles/16236462-where-can-i-find-my-backer-s-pledge-manager-or-survey-responses",
+        "https://help.kickstarter.com/en-us/articles/16236655-how-can-i-access-my-expired-backer-report",
+        "https://help.kickstarter.com/en-us/articles/16236790-how-long-does-a-project-remain-on-kickstarter",
+        "https://help.kickstarter.com/en-us/articles/16236746-how-can-i-cancel-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236645-how-do-i-delete-my-account",
+        "https://help.kickstarter.com/en-us/articles/16236514-how-can-i-download-my-kickstarter-data",
+        "https://help.kickstarter.com/en-us/articles/16236409-how-do-i-prepare-to-launch-my-project",
+        "https://help.kickstarter.com/en-us/articles/16236415-my-project-is-awaiting-review-how-does-this-work"
+      ],
+      "source_review_status": "Complete donation-channel findings independently accepted against all thirteen #34 criteria; conditional/deferred dispositions and access/applicant limitations retained.",
+      "award_status": "Unknown; no award evidence established",
+      "current_disposition": "P3 not selected for current maintenance scope; new specific creative proposal, prototype/human involvement, capacity and full legal terms would require reassessment.",
+      "score": null,
+      "canonical_deliverable": "docs/funding/donation-channel-comparison.md",
+      "applicant_qualification_status": "Unknown",
+      "priority_scope_note": "P1 foundational comparison; this candidate priority does not imply qualified applicant or monetary score.",
+      "source_evidence": {
+        "canonical_assessment": "data/opportunities/donation-channel-assessment.json",
+        "source_ids": [
+          "T1",
+          "T2",
+          "K01",
+          "K02",
+          "K03",
+          "K04",
+          "K05",
+          "K06",
+          "K07",
+          "K08",
+          "K09",
+          "K10",
+          "K11",
+          "K12",
+          "K13",
+          "K14",
+          "K15",
+          "K16",
+          "K17",
+          "K18",
+          "K19",
+          "K20",
+          "K21",
+          "K22",
+          "K23",
+          "K24",
+          "K25",
+          "K26",
+          "K27",
+          "K28",
+          "K29",
+          "K30"
+        ]
+      },
+      "intake_status": "Public creator eligibility and draft/review/launch process read. No fixed intake closing date published in inspected scope. Campaign duration is distinct; start form and full legal bodies unverified.",
+      "full_application_content_status": "Not Verified",
+      "complete_legal_agreement_status": "Not Verified for actual applicant/account; public source scope is qualified in the canonical memo."
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
       "opportunity_id": "SLOAN-NEW-MEDIA",
       "provider": "Alfred P. Sloan Foundation",
       "program_name": "New Media",
@@ -10835,14 +11821,15 @@
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 47 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
-    "All 47 records share the same schema and stable owning research keys. The original 39 identities are retained alongside two E06-04 physical-equipment identities, two E03-08 loan/equity screenings, three E06-03 infrastructure identities and the distinct E03-05 Sloan New Media identity under their existing owning issues; those records are not duplicate issues.",
+    "Published source facts and explicit access/history limitations are recorded for all 50 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "The 47 existing program/channel identities, including the distinct E03-05 Sloan New Media identity, and three distinct crowdfunding identities share the same schema and stable owning research keys. E06-04 retains two physical-equipment program identities under its existing comparative issue. E04-02 distinguishes crowdfunding intake and fund control; all accepted current infrastructure, mechanism-screen, host, Sponsors and other program records remain unchanged by this addition.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",
     "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan Open Source in Science remains one program record reused across its research scopes; Sloan New Media is a distinct program record.",
-    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware records reuse actual #54 and three E06-03 infrastructure records reuse actual #53, each separately read on 2026-10-19; the later E03-08 mechanism records retain their existing #32 mapping. These additions do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification."
+    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware records reuse actual #54 and three E06-03 infrastructure records reuse actual #53, each separately read on 2026-10-19; the later E03-08 mechanism records retain their existing #32 mapping. These additions do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification.",
+    "The three E04-02 crowdfunding records reuse the actual issue34 read on2026-10-19. They do not extend the historical39-record GitHub-link audit or create Project items; complete donor/applicant/campaign/contract facts remain Unknown."
   ],
   "github_link_readback": {
     "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",

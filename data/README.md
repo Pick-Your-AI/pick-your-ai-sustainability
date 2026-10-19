@@ -1,6 +1,6 @@
 # Opportunity evidence register
 
-This register contains **47 distinct program/channel records**: the prior 43 identities, including the two explicit loan/equity mechanism screenings, plus three infrastructure program records and the distinct Sloan New Media education/accessibility screen. The records distinguish seed evidence from individually accepted research findings. Records carry dated source observations and explicit access limits; no record is asserted to be a qualified or authorized application.
+This register contains **50 distinct program/channel records**: the 49 accepted-main identities plus the distinct Sloan New Media education/accessibility record. The records distinguish seed evidence from individually accepted research findings. Records carry dated source observations and explicit access limits; no record is asserted to be a qualified or authorized application.
 
 The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
@@ -27,6 +27,9 @@ A shared owning key means one comparative research package evaluates different p
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
 | SBA 7(a) business loans | E03-08 | Completed nonbinding screen; Not Pursuing as present charitable project funding; no borrowing commitment |
 | YC standard investment deal | E03-08 | Completed nonbinding screen; Not Pursuing for the current charitable-funding shortlist; no investment or issuance |
+| GoFundMe personal/business fundraiser | E04-02 | P2 conditional lead; recipient/country/authority and exact permitted-use terms remain Unknown |
+| GoFundMe certified nonprofit fundraiser | E04-02 | P2 conditional lead; recognized beneficiary/host, certification and agreement remain Unknown |
+| Kickstarter creative-project crowdfunding | E04-02 | P3 not selected for the current maintenance scope; a new admissible creative proposal would need reassessment |
 
 ## How to interpret fields
 
@@ -67,6 +70,14 @@ The earlier education receiving composition used signed main bfa30ca5754e2068b06
 
 The [actual #29 findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29#issuecomment-6275510717) now supports Done research for both records. Spencer retains historical Discovered/P3 watch because intake is closed; Sloan New Media is Verified/P2 for its accepted public program assessment. The source-only acceptance snapshot contained **44 records: 29 Discovered / 15 Verified**. The original review/status values remain in each record's dated metadata history; all source, applicant, invitation and action limits remain. Ordinary source delivery and issue reconciliation are separate from this source-only acceptance continuation.
 
-## Current education receiving snapshot
+## Earlier education receiving snapshot — fab76cf2
 
-This composition receives signed main fab76cf2894f4db8bab97cc0960aeb336ef69386 and preserves its separately accepted budget and additional-infrastructure outcomes. The exact accepted education Spencer object replaces its prior main version, and the distinct Sloan New Media object is added; all **45 other main opportunity objects remain raw-exact**, including the accepted Fastly, Netlify, Buildkite and historical DigitalOcean records. The register contains **47 records: 29 Discovered / 18 Verified**. Both complete relative record orders survive. All fourteen original award-mechanism screens and their fourteen later review values remain exact. These are research-stage counts; actual applicant, invitation, PI/host, authority, account, application, award and benefit facts remain separate. The source-only workplace-giving proposal is not included.
+The earlier composition received signed main fab76cf2894f4db8bab97cc0960aeb336ef69386 and preserved its separately accepted budget and additional-infrastructure outcomes. The exact accepted education Spencer object replaced its prior main version, and the distinct Sloan New Media object was added; all **45 other main opportunity objects remained raw-exact**, including the accepted Fastly, Netlify, Buildkite and historical DigitalOcean records. That snapshot contained **47 records: 29 Discovered / 18 Verified**. Both complete relative record orders survived. All fourteen original award-mechanism screens and their fourteen later review values remained exact. These are research-stage counts; actual applicant, invitation, PI/host, authority, account, application, award and benefit facts remain separate. The source-only workplace-giving proposal was not included.
+
+## Donation-channel comparison
+
+The [E04-02 comparison](../docs/funding/donation-channel-comparison.md) adds three distinct crowdfunding records under existing [#34](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34). Their research is Done after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949) at `c32717e7f11e4b4720954f551ec83687176bfc19`; their opportunity stages remain Discovered. The GoFundMe routes retain P2 conditional/deferred dispositions, and Kickstarter retains P3 non-selection for the proposed maintenance scope. The [structured assessment](opportunities/donation-channel-assessment.json) records the three applicant routes, dated public-source and access observations, and remaining recipient, need, agreement and tax questions. No actual applicant, account, campaign, charitable treatment, payment or usable value is established. The existing host and Sponsors records retain their canonical ownership; this addition does not extend the historical GitHub-link or Project audits.
+
+## Current education and donation receiving snapshot
+
+This composition receives signed main 6b292c6d1fc42975e639f1241d01a0cdcdafa78f and preserves both complete accepted donation files and the grant-kit delivery metadata. The exact reviewed Spencer and Sloan New Media objects join all **48 other accepted-main opportunity objects byte for byte**; all 47 previous education-source objects are unchanged. The register contains **50 records: 32 Discovered / 18 Verified**. Both complete relative orders and all fourteen award-mechanism screens plus fourteen review values survive. Earlier 44-, 47- and 49-record paragraphs identify their own receiving snapshots. These are research-stage counts and preserved decisions, not new provider, applicant, campaign or funding facts.

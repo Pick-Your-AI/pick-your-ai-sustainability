@@ -2742,45 +2742,106 @@
       "support_type": "software_access",
       "official_program_url": "https://www.coderabbit.ai/oss",
       "official_application_url": "https://app.coderabbit.ai",
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Public GitHub/GitLab repository; no nonprofit incorporation requirement stated",
-      "available_before_incorporation": "Conditionally Eligible after public repo and administrator access verification",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "eligibility_jurisdiction": "Actual account-holder jurisdiction Unknown; verify applicable current terms before activation.",
+      "legal_entity_requirements": "No nonprofit formation requirement stated for public-repository product access; actual customer authority and input rights remain to be established.",
+      "available_before_incorporation": "Conditionally Eligible for the published public-repository route; six public repositories observed, actual account authority and permitted use Unknown.",
+      "available_through_fiscal_sponsorship": "Unknown for an actual sponsor arrangement; a future authorized host must separately satisfy the public-repository account and use conditions.",
+      "available_after_501c3_recognition": "Conditionally Eligible for the public-repository route; recognition is neither required nor sufficient and actual recognition/account facts remain Unknown.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "Public repository visibility; activation is through repository-app installation, without a separate funding application"
+        "Public repository visibility; observed for six project repositories at the pinned coverage snapshots",
+        "Actual account-holder and administrator authority, permitted inputs and use, and applicable agreement must be established",
+        "Effective entitlement, permissions, data settings and review configuration require account readback"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "No funding application; repository-app installation is the activation route",
+      "application_gate": "No installation, account change, paid use or outreach in this research. Actual administrator/account inventory and reviewed rights/use-case decision are required before considering a bounded pilot.",
+      "application_status": "Public-repository GitHub App activation is documented; no funding application. Actual installation screen and account have not been inspected.",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "In Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Free public-repository code review and related OSS features as documented",
+      "benefit_amount_or_capacity": "Free public-repository review with variable OSS quotas; public repositories below ten stars require manual triggers. Actual included capacity and useful coverage Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "See research/tooling/coderabbit-oss.md: compare a complete authorized pilot with the documented existing workflow, subtract setup/triage/maintenance effort, and distinguish volunteer time, cash and evidenced avoided spend. No pilot or monetary estimate exists.",
       "restrictions_and_obligations": [
-        "Review permissions, data handling and actual included feature limits; retain independent maintainer acceptance.",
-        "Cash sponsorship is neither automatic nor implied by product usage."
+        "Apply the canonical permissions, data, publication, branding and rights findings before any adoption decision.",
+        "Current plans require manual review triggers for public repositories with fewer than ten stars; five of the six inspected repositories meet that condition on 2026-10-19. Installation alone does not establish automatic coverage.",
+        "The October 16, 2026 privacy policy section 7 excludes OSS from its no-training assurance and says CodeRabbit uses OSS to train its systems. Reconcile this with general FAQ and April 20, 2026 ToS section 3.3 assurances through the actual agreement/input-rights assessment before any pilot; account-specific overrides and an applicable OSS training opt-out are Unknown.",
+        "Retain independent maintainer acceptance and existing checks.",
+        "Actual account limits, charges, settings and historical installation remain Unknown.",
+        "Cash sponsorship is separate from product access."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential review assistance across technical repos; check existing CodeRabbit coverage first.",
+      "program_objectives": "Support maintainers with code-review assistance; useful results require independent assessment.",
+      "fit_with_pick_your_ai": "Potential additional findings on ordinary sustainability Python/JSON changes under existing validation; technical research, native testing and release acceptance remain with their repositories.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Authorized administrator readback of app/account state and effective settings",
+        "Actual account-holder and appropriate contract/input-rights/use-case assessment",
+        "Receiving maintainer decision on a bounded pilot and its independent evaluation protocol"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Source-backed program and bounded public-coverage findings; applicant/account qualification, installed coverage, vendor performance and usable value are not established.",
       "sources": [
         {
           "url": "https://www.coderabbit.ai/oss",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Current public-repository offer and separate cash route"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/management/plans.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current OSS plan and capacity table plus the below-ten-star manual-trigger condition; actual account tier Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/management/rate-limits.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Review event accounting and rolling capacity"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/platforms/github-com.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Documented GitHub authorization and permissions; actual installation form not inspected"
+        },
+        {
+          "url": "https://www.coderabbit.ai/legal/terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published April 20, 2026 terms, including general section 3.3 training language; actual accepted agreement and organizational authority Unknown"
+        },
+        {
+          "url": "https://www.coderabbit.ai/privacy-policy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published October 16, 2026 notice: section 7 explicit OSS-training exception and section 12 proprietary-code storage scope; actual account agreement and settings Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/faq.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Proprietary/customer-code assurances compared with the explicit privacy-policy OSS-training exception; not independent certification"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/configuration/central-configuration.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Possible configuration sources; actual PYA defaults Unknown"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Future review scoping controls; no configuration changed"
+        },
+        {
+          "url": "https://docs.coderabbit.ai/reference/caching.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Cache scope, default, expiry and OSS encryption exception"
         }
       ],
       "scoring": {
@@ -2793,73 +2854,95 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2 research priority: plausible free product route, with actual account/rights fit, useful additional coverage, effort and net value unresolved. No weighted factor or total is sufficiently evidenced. All factor ratings and total remain null."
       },
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Audit existing installation and configuration before recommending any new integration.",
+      "next_action": "Obtain exact-revision independent research acceptance, then administrator account/configuration and rights assessment before considering a bounded manual pilot.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
       "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
-      "application_outcome": "No submission in this execution; historical state Unknown",
+      "application_outcome": "No funding application is required for the product offer; no installation or submission performed in this research. Historical account state Unknown.",
       "award_evidence": null,
-      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_status": "No activation in this research; existing installation and effective coverage Unknown.",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "No grant reporting identified for the product route in the reviewed sources; actual contract/account obligations remain unresolved.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "CodeRabbit",
-          "Free product access for public repositories"
+          "Free product access for public repositories",
+          "OSS",
+          "coderabbitai[bot]"
         ],
         "canonical_match": "CODERABBIT-OSS-PRODUCT",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Existing 39-record register and organization issue/PR searches; exact queries, returned matches and limitations retained in data/audits/coderabbit-public-coverage.json. Reuse sustainability #56; no duplicate integration or sponsorship issue created."
       },
       "review": {
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Canonical program and bounded public-coverage findings prepared; exact-revision independent acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research acceptance is separate from actual installation, applicant/account qualification, contract approval, public benchmarking rights, useful coverage or funding."
         ]
       },
       "owning_research_key": "E07-01",
       "source_urls": [
-        "https://www.coderabbit.ai/oss"
+        "https://www.coderabbit.ai/oss",
+        "https://docs.coderabbit.ai/management/plans.md",
+        "https://docs.coderabbit.ai/management/rate-limits.md",
+        "https://docs.coderabbit.ai/platforms/github-com.md",
+        "https://www.coderabbit.ai/legal/terms-of-service",
+        "https://www.coderabbit.ai/privacy-policy",
+        "https://docs.coderabbit.ai/faq.md",
+        "https://docs.coderabbit.ai/configuration/central-configuration.md",
+        "https://docs.coderabbit.ai/configuration/auto-review.md",
+        "https://docs.coderabbit.ai/reference/caching.md"
       ],
       "source_evidence": [
-        "Current FAQ makes free OSS access depend on public repository visibility and says no application/approval queue or credit card is needed.",
-        "Proactive cash sponsorships are explicitly a separate activity."
+        "Canonical findings: research/tooling/coderabbit-oss.md, with dated primary sources and explicit access boundaries.",
+        "The bounded six-repository receipt records 18 sampled PRs, 119 reviews and 546 comments without a matching CodeRabbit actor; it does not prove absent installation.",
+        "The same six public metadata reads observed Website 5 stars, Research 13, and Leaderboard, Apple, Android and Sustainability 0 each. The below-ten-star manual-trigger condition applies to five repositories at that dated cutoff; actual review configuration remains Unknown.",
+        "Current privacy section 7 expressly states OSS training. FAQ proprietary/customer-code assurances and ToS section 3.3 general no-training language do not establish a no-training guarantee for the public-repository route; section 12 storage controls establish no training opt-out."
       ],
-      "benefit": "Free public-repository code review and related OSS features as documented",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "benefit": "Free public-repository review with variable OSS quotas; public repositories below ten stars require manual triggers. Actual included capacity and useful coverage Unknown.",
+      "estimated_usable_value_method": "Use the canonical pilot protocol and an evidenced baseline; useful coverage, effort, currency and avoided spend remain Unknown.",
+      "source_freshness": "Primary program, terms, privacy and documentation read 2026-10-19; preserve their recorded versions and recheck before adoption or public qualification.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
+      "scoring_justification": "P2 research priority: plausible free product route, with actual account/rights fit, useful additional coverage, effort and net value unresolved. No weighted factor or total is sufficiently evidenced.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://www.coderabbit.ai/oss"
+        "https://www.coderabbit.ai/oss",
+        "https://docs.coderabbit.ai/management/plans.md",
+        "https://docs.coderabbit.ai/management/rate-limits.md",
+        "https://docs.coderabbit.ai/platforms/github-com.md",
+        "https://www.coderabbit.ai/legal/terms-of-service",
+        "https://www.coderabbit.ai/privacy-policy",
+        "https://docs.coderabbit.ai/faq.md",
+        "https://docs.coderabbit.ai/configuration/central-configuration.md",
+        "https://docs.coderabbit.ai/configuration/auto-review.md",
+        "https://docs.coderabbit.ai/reference/caching.md"
       ],
       "application_url": "https://app.coderabbit.ai",
-      "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
+      "score_reason": "P2 research priority: plausible free product route, with actual account/rights fit, useful additional coverage, effort and net value unresolved. No weighted factor or total is sufficiently evidenced.",
       "internal_application_review_controls": [
-        "Applicant eligibility and authority",
-        "Concrete workload or scoped support need",
-        "Maintainer/community evidence",
-        "No-influence publication and sponsor disclosure terms"
+        "Exact app/account and selected-repository readback",
+        "Actual authority and current agreement/use-case decision",
+        "Effective permissions, data, quota and billing settings",
+        "Bounded independently evaluated pilot with existing checks and maintainer acceptance preserved"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "No funding application for the documented product offer. The actual current installation/account screen was not inspected; this is not a complete live activation checklist.",
       "published_qualification_requirements": [
-        "Public repository visibility; activation is through repository-app installation, without a separate funding application"
+        "Public repository visibility; actual customer, authorization, account and use requirements must also be satisfied."
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "currency_status": "Product access is non-cash. No existing paid baseline, currency or realized avoided cost has been established.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
@@ -2867,15 +2950,15 @@
       "related_research_keys": [],
       "source_review_status": "Source facts checked",
       "applicant_qualification_status": "Unknown",
-      "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "award_status": "No cash award established; free product access is not a funding award.",
+      "application_route_description": "Documented Git-platform authentication, app authorization and repository selection; actual account/installation form not inspected.",
+      "current_disposition": "Conditional product option; administrator inventory and contract/use-case review precede a bounded pilot. Cash sponsorship not established.",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "gate": "No installation, account change, paid use or outreach in this research. Actual administrator/account inventory and reviewed rights/use-case decision are required before considering a bounded pilot.",
+      "jurisdiction": "Actual account-holder jurisdiction Unknown.",
+      "priority_scope_note": "Research priority only; no urgent deadline, application qualification or realized benefit is inferred.",
+      "recommended_disposition": "Conditional product option; administrator inventory and contract/use-case review precede a bounded pilot. Cash sponsorship not established.",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {

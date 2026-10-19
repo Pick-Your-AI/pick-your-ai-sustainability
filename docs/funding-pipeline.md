@@ -1,6 +1,6 @@
 # Funding and support pipeline
 
-**Draft evidence snapshot, 2026-10-19.** 39 program/channel records have current source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
+**Research and support ledger, 2026-10-19.** 39 program/channel records contain source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
@@ -18,6 +18,8 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done / Verified for program research after [independent findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597). Its applicant/account and monetization gates remain separate; no qualification, application or activation is inferred.
 
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
+
+The [CodeRabbit investigation](../research/tooling/coderabbit-oss.md) is In Review / Discovered pending exact independent findings acceptance. Its public-source observations establish neither current installation nor applicant qualification; any adoption or pilot retains its input, rights and operating gates.
 
 ## Known calendar facts
 

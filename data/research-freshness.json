@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 161,
+  "source_count": 180,
   "records_count": 39,
   "sources": [
     {
@@ -277,7 +277,7 @@
     {
       "url": "https://developer.samsung.com/remote-test-lab",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published facts recorded for linked opportunities Mobile lab #55 scope on 2026-10-19: Current public real-Galaxy service and signup lead; no account or reservation inspection.",
       "opportunity_ids": [
         "SAMSUNG-REMOTE-LAB"
       ],
@@ -287,7 +287,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings acceptance pending; actual account/eligibility/execution remains Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -407,7 +407,7 @@
     {
       "url": "https://firebase.google.com/docs/test-lab/usage-quotas-pricing",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published facts recorded for linked opportunities Mobile lab #55 scope on 2026-10-19: Current project-level Spark/Blaze/streaming allowances, USD execution rates, rounding and alerts that do not cap charges.",
       "opportunity_ids": [
         "FIREBASE-TEST-LAB"
       ],
@@ -417,7 +417,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings acceptance pending; actual account/eligibility/execution remains Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -3033,6 +3033,329 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://cloud.google.com/products/developer-device-platform",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published Preview and future price-table rates and distinct per-second/minimum and slot units; future April label versus FAQ date retained.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Customer authority, privacy/consent, IP, fee/tax, quota-avoidance, publicity and exit terms; actual customer/offline agreement Unknown.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/terms/service-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "General Pre-GA data/warranty and benchmark terms, plus GCP Device Cloud partner license/data boundaries; no partner activation.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/privacy?location=global",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current policy, effective 2026-01-29: account/usage information, cross-border and purpose/legal-need retention; no fixed immediate test-data purge established.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/remotetestlab/document/about-remote-test-lab.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual referenced public document GET: 20 credits/day, 15 minutes/credit, 30-minute minimum, distinct 40-credit/10-hour maximum; peripherals and availability limits.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/remotetestlab/document/tests-on-devices.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public document GET: Automated Test temporarily unavailable; APK, RDB/ADB and session controls, not a qualified project adapter.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/remotetestlab/rtl/api/v1/faqs",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public documentation FAQ GET: daily member credit, free member use, Wi-Fi and no SIM call/message tests; no account/device API operation.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/terms?location=us",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current US portal/RTL terms, effective 2026-01-29: Samsung-only app condition, qualified registration, uninstall, no locking, variable access and submitted-content obligations.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/device-run",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Android/iOS test interfaces and explicit input/output bucket deletion/lifecycle responsibility; no project adapter or run established.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/device-run/ios",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Device-targeted XCTest inputs and explicit device/software tuple; illustrative catalog is not current capacity.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/device-streaming/governance-security",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Partner lab enablement requires appropriate project/organization authority and separate partner terms.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/quickstart",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Account/project permissions, enabled services and billing prerequisites; no setup performed.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/android/analyzing-results",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Result states and 90-day detailed results; longer bucket retention has separate lifecycle/billing requirements.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/android/instrumentation-test",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Espresso/UI Automator instrumentation requires app and test APKs; no delivered host-driver adapter inferred.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/ios/run-xctest",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Device-targeted XCTest build, initial app/test/runner signatures and ZIP/xctestrun before lab re-signing.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/migrate",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Test Lab deprecated; full shutdown scheduled 2027-09-30; DDP successor remains separately scoped.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/migrate-faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "DDP billing requirement and matched-rate period through 2027-04-30; no actual migration or entitlement.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/support/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Customer data responsibility and global processing context; no actual account, private data or DDP-specific guarantee inferred.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Test Lab/Device Streaming Google Cloud agreement routing and ordinary professional-use intake, modified 2026-09-24; no terms acceptance.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings acceptance pending; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -3041,6 +3364,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 140,
+  "source_evidence_url_count": 159,
   "additional_unverified_endpoint_count": 21
 }

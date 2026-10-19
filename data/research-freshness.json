@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 72,
+  "source_count": 77,
   "records_count": 39,
   "sources": [
     {
@@ -1358,7 +1358,7 @@
     {
       "url": "https://www.together.ai/research-credits-program-request",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Undated live program; invitation/applicant ambiguity and incomplete intake retained",
       "opportunity_ids": [
         "TOGETHER-RESEARCH"
       ],
@@ -1368,11 +1368,101 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.together.ai/terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-05-19; published use restrictions, including section 4.3(c)",
+      "opportunity_ids": [
+        "TOGETHER-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.together.ai/docs/billing-credits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current purchased-credit rules; research-award exceptions unverified",
+      "opportunity_ids": [
+        "TOGETHER-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.together.ai/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2025-12-17; published policy, not observed project-account behavior",
+      "opportunity_ids": [
+        "TOGETHER-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.together.ai/docs/privacy-and-security",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current account/organization and passthrough distinctions; no settings inspected",
+      "opportunity_ids": [
+        "TOGETHER-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.together.ai/docs/zero-data-retention",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current prospective controls and retained metadata; no settings enabled",
+      "opportunity_ids": [
+        "TOGETHER-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
       ]
     }
   ],
@@ -1382,6 +1472,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 55,
+  "source_evidence_url_count": 60,
   "additional_unverified_endpoint_count": 17
 }

@@ -641,11 +641,11 @@
       "program_name": "Invite-only Research Credits Program",
       "source_review_status": "Source facts checked",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45",
-      "research_status": "Ready",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Not Pursuing for the proposed public comparison study under currently published terms",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "No application or activation: applicant/invitation unresolved and the proposed benchmarking needs explicit written permission under the current use restriction.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -654,7 +654,7 @@
       "deadline_timezone": null,
       "priority": "P3",
       "score": null,
-      "next_action": "Resolve official student/invitation eligibility and terms; keep application blocked meanwhile."
+      "next_action": "Retain the scoped Not Pursuing finding; revisit only on changed official terms or a documented program-specific permission and applicant route."
     },
     {
       "opportunity_id": "FIREWORKS-STARTUP",

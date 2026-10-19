@@ -661,7 +661,7 @@
       "program_name": "Fireworks for Startups",
       "source_review_status": "Source facts checked",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46",
-      "research_status": "In Review",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
       "disposition": "Not Pursuing for the intended nonprofit applicant; retain the source-backed exclusion separately from any research into different programs.",
       "eligibility": "Ineligible",
@@ -674,7 +674,7 @@
       "deadline_timezone": null,
       "priority": "P3",
       "score": null,
-      "next_action": "Mark startup offer Not Pursuing and investigate only a distinct official support route."
+      "next_action": "Retain Not Pursuing; reopen this exact program only after dated official terms or a documented program-specific exception support the intended applicant route."
     },
     {
       "opportunity_id": "SAMSUNG-REMOTE-LAB",

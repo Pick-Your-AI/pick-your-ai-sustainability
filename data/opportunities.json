@@ -5117,7 +5117,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Applications documented for qualifying startups",
       "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -5160,8 +5160,8 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Mark startup offer Not Pursuing and investigate only a distinct official support route.",
+      "independent_reviewer": "ChatGPT (independent source/technical review, session c2a536a7f3d2)",
+      "next_action": "Retain Not Pursuing; reopen this exact program only after dated official terms or a documented program-specific exception support the intended applicant route.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -5183,12 +5183,15 @@
         "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT (independent source/technical review, session c2a536a7f3d2)",
+        "reviewed_revision": "1e3983d093d30a93a882013306b25cc89e809c3e",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46#issuecomment-6264268148",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted bounded exclusion: Not Pursuing Fireworks for Startups for the intended nonprofit applicant routes",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Independent in-session source/technical review; not distinct-account GitHub approval or a legal opinion about actual organizational identity.",
+          "The historical Discovered stage is retained after the failed applicant gate; full qualifying intake requirements and private terms were not accepted or inferred.",
+          "No alternative program, applicant qualification, application, award, receipt or activation is established. Scores, usable value and unsupported dates remain null."
         ]
       },
       "owning_research_key": "E05-01H",

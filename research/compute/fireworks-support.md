@@ -4,9 +4,11 @@ Canonical issue: [E05-01H / #46](https://github.com/Pick-Your-AI/pick-your-ai-su
 Canonical opportunity record: `FIREWORKS-STARTUP` in [the opportunity register](../../data/opportunities.json)  
 Publication and review context: [foundation PR #73](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/73)  
 Source inspected: **2026-10-19**  
-Document status: **Draft findings awaiting independent acceptance**
+Document status: **Accepted bounded research exclusion**
 
-## Decision for review
+Independent source review: [2026-10-19 acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46#issuecomment-6264268148)
+
+## Accepted decision
 
 Retain **Not Pursuing** for this specific startup program under the intended nonprofit scope. The published for-profit applicant requirement is the decisive gate. The inference below applies the program's stated conditions to the three planned applicant routes; it does not establish the organization's current legal identity or substitute for legal advice about a different structure.
 
@@ -38,21 +40,25 @@ Jurisdiction, all application fields, any private exceptions and other applicant
 
 | Field | Recorded treatment |
 | --- | --- |
-| Work status | In Review; independent acceptance pending |
+| Work status | Done for this bounded exclusion; independent acceptance linked above |
 | Opportunity stage | Discovered; no submission, award or activation established |
 | Applicant eligibility | Ineligible for the intended nonprofit scope |
 | Current disposition | Not Pursuing |
 | Research priority | P3, preserving a supported exclusion under the supplied priority framework |
 | Numeric score | `null`; eligibility fails before weighted ranking |
 | Estimated usable value | `null`; no qualifying offer or usable award established |
-| Owner and independent reviewer | Unassigned |
+| Owner and independent reviewer | Owner unassigned; ChatGPT independently reviewed the source and exclusion in session c2a536a7f3d2 |
 | Submission or next-action date | Unassigned; no date inferred from the program page |
 
 Credits are neither unrestricted cash nor realized avoided cost. The public-interest inference workload linked by the owning issue does not overcome the applicant gate. No value, probability, effort estimate, award currency or commitment is manufactured to fill an empty field.
 
-## Reopening and acceptance
+## Review scope and reopening
 
 Reopen this exact program only when dated official terms, or a documented program-specific written exception, expressly support the intended applicant route. Any authorized change of applicant structure would require its own legal/governance review; do not change organizational representations solely to pass the startup criteria. A different program would require duplicate checking and separate source qualification before being represented as an opportunity.
 
-The independent reviewer should verify the cited current conditions, the route-specific inference, the P3/Not Pursuing treatment and consistency with record `FIREWORKS-STARTUP`, then link the reviewed revision and decision in #46. Until that happens, this document and the issue remain **awaiting acceptance**. Completing the review would establish an accepted research exclusion, with no implication of funding acquisition or activated support.
+The linked independent review accepted the exact exclusion findings and complete `FIREWORKS-STARTUP` record at revision `1e3983d093d30a93a882013306b25cc89e809c3e`, after retrieving the current official page on 2026-10-19. This is a source and technical research review, not a different-account GitHub approval or a legal opinion about the project's actual organizational identity.
+
+The historical **Discovered** opportunity stage is retained after the failed applicant gate, as required by the [lifecycle convention](../../docs/operations-and-reporting.md). Research completion does not promote this excluded route to Verified, Qualified or an application stage. Complete qualifying intake, private reporting/branding/publication/privacy/portability/renewal terms, and any program-specific exception remain unverified; they must be reviewed only if later official evidence warrants reopening. No alternate program is asserted from the present source.
+
+The acceptance establishes a completed research exclusion and preserves the unknown facts, null score/value and Not Pursuing disposition. It does not establish application authority, submission, an award, payment, usable credits or activated support.
 

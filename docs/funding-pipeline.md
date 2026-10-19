@@ -1,6 +1,6 @@
 # Funding and support pipeline
 
-**Draft evidence snapshot, 2026-10-19.** 41 program/channel records have current source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
+**Draft evidence snapshot, 2026-10-19.** 43 program/channel records retain dated source evidence and explicit access/qualification limits. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
@@ -10,7 +10,7 @@ The [Groq assessment](../research/compute/groq-support.md) proposes a conditiona
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 31 records, including the completed Together and Cerebras Not Pursuing assessments retained at their historical stage |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 33 records, including the completed Together and Cerebras Not Pursuing assessments retained at their historical stage |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | 10: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), [Anthropic researcher access](../research/compute/anthropic-researcher-access.md), [Gemini academic support](../research/compute/google-gemini-research.md), [Azure nonprofit AI coverage](../research/compute/azure-nonprofit-ai.md), [AWS open-source credits](../research/infrastructure/aws-open-source-credits.md) and [Groq assessment](../research/compute/groq-support.md), each with independent findings acceptance; [CodeSupply assessment](../data/opportunities/nlnet-programs.json) with the linked independent NLnet findings review; the [two hardware routes](../research/hardware/partner-shortlist.md) with [full findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399) |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -48,3 +48,7 @@ Closed programs, invitations and recognition-only routes remain visible in the r
 ## Operating procedure
 
 Use the monthly review in [operations and reporting](operations-and-reporting.md) to reconcile evidence and changes. Before moving any opportunity forward, recheck official intake terms, verify the intended applicant and exact use, confirm needs and capacity, quantify net value and record the authorized decision. After a real provider decision, record award restrictions, account owner, expiration, paid fallback and reporting obligations.
+
+## E03-08 mechanism screens
+
+The [award mechanism comparison](funding/award-mechanisms-and-restrictions.md) supplies a separate payment/restriction screen for 14 existing identities without changing their owners or lifecycle. Two additional records, SBA-7A-LOANS and YC-STANDARD-DEAL, are P3 / In Progress / Discovered with nonbinding Not Pursuing recommendations for the present charitable-funding shortlist. Their actual eligibility, value, score, instrument, absolute deadline, reviewers and internal due dates remain unestablished as recorded. All 41 original pipeline rows remain byte-exact. Neither borrowing nor equity capital is classified as a grant; independent findings acceptance remains Pending.

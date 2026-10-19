@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 41,
+  "records_count": 43,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -238,7 +238,32 @@
         "issue_number": 25,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
       },
-      "research_deliverable": "data/opportunities/nlnet-programs.json"
+      "research_deliverable": "data/opportunities/nlnet-programs.json",
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "restricted_milestone_grant",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual selected instrument/payment allocation unestablished; accepted scope exclusion remains controlling.",
+        "evidence_basis": "Attributed accepted NLnet input",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities/nlnet-programs.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -475,7 +500,33 @@
         "issue_number": 25,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
       },
-      "research_deliverable": "data/opportunities/nlnet-programs.json"
+      "research_deliverable": "data/opportunities/nlnet-programs.json",
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "restricted_milestone_grant",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual milestones, recipient, accepted budget and permitted spending bridge unestablished.",
+        "evidence_basis": "Direct payment-section read and attributed accepted call findings",
+        "source_refs": [
+          "https://nlnet.nl/codesupply/faq/",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities/nlnet-programs.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -640,7 +691,32 @@
         "issue_number": 25,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
       },
-      "research_deliverable": "data/opportunities/nlnet-programs.json"
+      "research_deliverable": "data/opportunities/nlnet-programs.json",
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "closed_historical_grant",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "No current offer or payment schedule; historical amounts are not current funding.",
+        "evidence_basis": "Attributed accepted closure finding",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities/nlnet-programs.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -795,6 +871,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 26,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "conditional_maintainer_payment",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual named payees, later-stage conditions, agreement and any host treatment unestablished.",
+        "evidence_basis": "Complete public program/FAQ read",
+        "source_refs": [
+          "https://github.com/open-source/github-secure-open-source-fund"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -963,6 +1064,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 33,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "donation_channel",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual setup, receipt, governing payment instrument, recipient and deductions unestablished.",
+        "evidence_basis": "Attributed independently accepted Sponsors findings",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/5185dc28c6e809eb3534f9d7f00aeaf5feaeacb8/data/opportunities/github-sponsors.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -1127,6 +1253,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 14,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "fiscal_host_custody",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual membership, fee exceptions, payment/exit terms and authority unestablished.",
+        "evidence_basis": "Attributed seed only; no fresh provider-term verification",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -1295,6 +1446,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 14,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "fiscal_host_custody",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual relationship, approved expenses, recipient and contract authority unestablished.",
+        "evidence_basis": "Complete public services-page read",
+        "source_refs": [
+          "https://www.spi-inc.org/projects/services/"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -1475,6 +1651,32 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 14,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "fiscal_host_custody",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual host agreement, deductions, payment/exit terms, tax and authority unestablished.",
+        "evidence_basis": "Attributed seed and financial-controls inputs",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities.json",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/docs/operations/financial-controls-draft.md"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -1785,6 +1987,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 27,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "work_commission_instrument_unresolved",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual instrument, milestones, acceptance, ownership/return conditions and technical fit unestablished.",
+        "evidence_basis": "Public core program scope read",
+        "source_refs": [
+          "https://www.sovereign.tech/programs/fund"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -1842,6 +2069,13 @@
           "source_kind": "official",
           "last_verified": "2026-10-19",
           "review_scope": "Published program facts, not applicant qualification"
+        },
+        {
+          "url": "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf",
+          "source_kind": "official",
+          "last_verified": null,
+          "last_attempted": "2026-10-19",
+          "review_scope": "Two-page July 2025 reporting PDF retrieved; much of page 1 text is garbled. No complete reporting-term review or actual award schedule established."
         }
       ],
       "scoring": {
@@ -1892,7 +2126,8 @@
       "owning_research_key": "E03-03",
       "source_urls": [
         "https://sloan.org/programs/digital-technology/open-source-in-science",
-        "https://sloan.org/grants/open-calls"
+        "https://sloan.org/grants/open-calls",
+        "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf"
       ],
       "application_url": "https://sloan.org/programs/digital-technology/open-source-in-science",
       "source_evidence": [
@@ -1935,7 +2170,8 @@
       "recommended_disposition": null,
       "source_refs": [
         "https://sloan.org/programs/digital-technology/open-source-in-science",
-        "https://sloan.org/grants/open-calls"
+        "https://sloan.org/grants/open-calls",
+        "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf"
       ],
       "related_research_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31"
@@ -1946,6 +2182,32 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 27,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "research_grant",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual amount, payment and complete reporting/award terms unestablished; reporting PDF only partly readable.",
+        "evidence_basis": "Complete program page; separate partial reporting extraction",
+        "source_refs": [
+          "https://sloan.org/programs/digital-technology/open-source-in-science",
+          "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -2111,6 +2373,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 30,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "restricted_research_grant",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual award/disbursement and submitting-entity terms unestablished; retain the existing specific cost-sharing prohibition.",
+        "evidence_basis": "Current solicitation through reporting provisions read",
+        "source_refs": [
+          "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -2261,6 +2548,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 29,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "closed_research_grant_intake",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Next-cycle intake, actual administering institution, payment/reporting and agreement unestablished.",
+        "evidence_basis": "Complete current program page read",
+        "source_refs": [
+          "https://www.spencer.org/grant_types/small-research-grant"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -2413,6 +2725,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 36,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "workplace_donation_channel",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual employer match, recipient, deductions, timing, restrictions and portal terms unestablished.",
+        "evidence_basis": "Attributed seed only; current specific terms unverified",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -7359,6 +7696,20 @@
           "source_kind": "official",
           "last_verified": "2026-10-19",
           "review_scope": "Published program facts, not applicant qualification"
+        },
+        {
+          "url": "https://developers.google.com/open-source/gsoc/faq",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "2026-02-20 FAQ: contributor payment depends on passing evaluation; a separate conditional organization stipend exists. This does not establish future-cycle acceptance or an actual PYA payee."
+        },
+        {
+          "url": "https://developers.google.com/open-source/gsoc/help/student-stipends",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "2026 contributor schedule, not a future-cycle deadline: evaluation-linked 45%/55% installments, residency/processor conditions. Country amount-table presence does not override FAQ eligibility exclusions."
         }
       ],
       "scoring": {
@@ -7408,7 +7759,9 @@
       },
       "owning_research_key": "E08-05",
       "source_urls": [
-        "https://summerofcode.withgoogle.com/how-it-works"
+        "https://summerofcode.withgoogle.com/how-it-works",
+        "https://developers.google.com/open-source/gsoc/faq",
+        "https://developers.google.com/open-source/gsoc/help/student-stipends"
       ],
       "source_evidence": [
         "Current official workflow lets OSS projects apply as mentor organizations; accepted organizations supply mentors and select contributor proposals.",
@@ -7422,7 +7775,9 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://summerofcode.withgoogle.com/how-it-works"
+        "https://summerofcode.withgoogle.com/how-it-works",
+        "https://developers.google.com/open-source/gsoc/faq",
+        "https://developers.google.com/open-source/gsoc/help/student-stipends"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
       "gate": "Closed intake and unverified mentor capacity",
@@ -7462,6 +7817,33 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 66,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "separate_contributor_and_organization_stipends",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual selected participant/organization, future-cycle rules, organization amount/payment schedule and host treatment unestablished.",
+        "evidence_basis": "Current public process, FAQ and historical 2026 contributor payment schedule read",
+        "source_refs": [
+          "https://summerofcode.withgoogle.com/how-it-works",
+          "https://developers.google.com/open-source/gsoc/faq",
+          "https://developers.google.com/open-source/gsoc/help/student-stipends"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
       }
     },
     {
@@ -8142,6 +8524,313 @@
           "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
         }
       ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "SBA-7A-LOANS",
+      "provider": "U.S. Small Business Administration",
+      "program_name": "7(a) business loans",
+      "program_aliases": [
+        "SBA",
+        "7(a)",
+        "7a loans"
+      ],
+      "round": null,
+      "category": "Financing mechanism screening",
+      "support_type": "repayable_business_loan",
+      "official_program_url": "https://www.sba.gov/loans/7a-loans/",
+      "official_application_url": null,
+      "eligibility_jurisdiction": "Published US business route; actual borrower and jurisdiction Unknown.",
+      "legal_entity_requirements": "Published operating for-profit business requirement; actual entity, creditworthiness, capacity and authority Unknown.",
+      "available_before_incorporation": "Unknown: no eligible operating business or borrowing authority established.",
+      "available_through_fiscal_sponsorship": "Not established: a nonprofit host does not satisfy the published for-profit borrower requirement or supply borrowing/guarantee authority.",
+      "available_after_501c3_recognition": "Not established: charitable recognition does not satisfy the published for-profit borrower condition; no separate commercial structure is proposed.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "See the actual borrower overview and the three-route questions in the canonical matrix; no project qualification."
+      ],
+      "application_gate": "No application, borrowing, investment or commitment proposed by this research; actual legal recipient, authority and material terms remain unqualified.",
+      "application_status": "Lender application route described; no selected lender, complete form, offer or deadline inspected.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Repayable principal; actual offer amount Unknown.",
+      "currency": "USD",
+      "estimated_usable_value": null,
+      "valuation_method": "No usable-value estimate: loan principal is financing paired with repayment obligations, not charitable-grant income.",
+      "restrictions_and_obligations": [
+        "Actual interest, fees, security, guarantees, covenants, repayment/default, termination and transfer terms require the proposed instrument and independent legal/financial review."
+      ],
+      "program_objectives": "Published business-loan program; evaluated here only to prevent grant misclassification.",
+      "fit_with_pick_your_ai": "No compatible present charitable-funding route established.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Actual prospective borrower and documented authority if this exclusion is reconsidered.",
+        "Independent qualified legal and financial review of the proposed instrument and compatibility; no guarantor, collateral or borrowing commitment selected."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Bounded public-source facts and explicit legal/financial questions; not applicant qualification.",
+      "sources": [
+        {
+          "url": "https://www.sba.gov/loans/7a-loans/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete public borrower overview; not an actual offer, credit decision or binding agreement."
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-13/section-120.110",
+          "source_kind": "official",
+          "last_verified": null,
+          "last_attempted": "2026-10-19",
+          "review_scope": "Attempt reached an access-request barrier; legal text not read and HTTP status not established."
+        },
+        {
+          "url": "https://www.sba.gov/sba-lenders/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Partial general lender-resource context after a clicked link; not a complete borrower terms or selected contract review."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Retain the exclusion. Reconsider only against an independently authorized, evidenced applicant and complete proposed loan instrument.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before reconsidering a real applicant, offer, contract, deadline or financing commitment; on changed provider terms.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "application_outcome": "No submission in this research; historical state Unknown.",
+      "award_evidence": null,
+      "activation_status": "No financing activated in this research; historical state Unknown.",
+      "activation_evidence": null,
+      "reporting_status": "Not applicable until actual terms establish obligations",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "SBA",
+          "7(a)",
+          "7a loans",
+          "SBA-7A-LOANS"
+        ],
+        "canonical_match": null,
+        "scope": "All 41 existing records/pipeline and local docs/research searched; separate complete organization-scoped SBA and Y Combinator issue and PR searches returned zero matches and incomplete_results=false. Initial combined query failed with 422 for a missing type qualifier and is not counted as a successful search.",
+        "search_queries": [
+          "org:Pick-Your-AI is:issue \"SBA\"",
+          "org:Pick-Your-AI is:issue \"Y Combinator\"",
+          "org:Pick-Your-AI is:pull-request \"SBA\"",
+          "org:Pick-Your-AI is:pull-request \"Y Combinator\""
+        ],
+        "reuse_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32"
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of actual matrix and structured findings.",
+        "limitations": [
+          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+        ]
+      },
+      "owning_research_key": "E03-08",
+      "source_urls": [
+        "https://www.sba.gov/loans/7a-loans/",
+        "https://www.ecfr.gov/current/title-13/section-120.110",
+        "https://www.sba.gov/sba-lenders/"
+      ],
+      "source_refs": [
+        "https://www.sba.gov/loans/7a-loans/",
+        "https://www.ecfr.gov/current/title-13/section-120.110",
+        "https://www.sba.gov/sba-lenders/"
+      ],
+      "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+      "score": null,
+      "award_status": "No financing offer or grant award obtained in this research; historical state Unknown.",
+      "canonical_deliverable": "docs/funding/award-mechanisms-and-restrictions.md",
+      "source_acceptance_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "current_disposition": "Not Pursuing as present charitable project funding; nonbinding screening, not a universal conclusion about nonprofit borrowing.",
+      "discovery_sources": [
+        {
+          "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+          "observed_on": "2026-10-19",
+          "scope": "Original public request redirected to the borrower overview; not a separate offer."
+        }
+      ],
+      "source_evidence": [
+        "See the canonical mechanism matrix for the sourced screening, access limitations, three applicant routes and explicit unresolved acceptance questions."
+      ],
+      "priority_recommendation": "P3",
+      "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application."
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "YC-STANDARD-DEAL",
+      "provider": "Y Combinator",
+      "program_name": "Standard startup investment deal",
+      "program_aliases": [
+        "Y Combinator",
+        "YC standard deal",
+        "SAFE"
+      ],
+      "round": "Public Winter 2027 intake; actual participation unestablished.",
+      "category": "Financing mechanism screening",
+      "support_type": "equity_investment_and_safe",
+      "official_program_url": "https://www.ycombinator.com/deal",
+      "official_application_url": "https://apply.ycombinator.com/",
+      "eligibility_jurisdiction": "Actual incorporated issuer and qualifying jurisdiction Unknown.",
+      "legal_entity_requirements": "Published company/future-equity route; actual issuer, capitalization, IP and authority unestablished.",
+      "available_before_incorporation": "Unknown: no incorporated eligible issuer, approved capitalization or accepted investment established.",
+      "available_through_fiscal_sponsorship": "Unresolved: hosting does not establish an equity issuer or authority over charitable/project assets.",
+      "available_after_501c3_recognition": "Unresolved: standard future-equity funding is not established as compatible charitable funding; actual structure requires independent legal/financial review.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "See the actual deal, applicant and three-route compatibility questions in the canonical matrix."
+      ],
+      "application_gate": "No application, borrowing, investment or commitment proposed by this research; actual legal recipient, authority and material terms remain unqualified.",
+      "application_status": "Public application entry inspected; private form not opened. Published November 2 at 8 p.m. Pacific cutoff belongs to Winter 2027; the associated calendar year 2026 is inferred from that batch, not printed beside the cutoff.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Published startup capital for future ownership rights; no project offer or receipt.",
+      "currency": "USD",
+      "estimated_usable_value": null,
+      "valuation_method": "No usable-value or dilution estimate: capital, future ownership and liabilities require an actual issuer, instruments and cap table. It is not charitable income.",
+      "restrictions_and_obligations": [
+        "Actual conversion, MFN, pro-rata, information/control, liquidation, transfer, IP and exit terms require the exact instruments and independent legal/financial review."
+      ],
+      "program_objectives": "Published startup investment route, screened separately from charitable grants and historical nonprofit offerings.",
+      "fit_with_pick_your_ai": "No compatible present charitable-funding route or authorized issuer is established.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Actual issuer, ownership, assets and signature authority if reconsidered.",
+        "Independent qualified legal/financial review of entity, charity, securities and contractual compatibility."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Bounded public-source facts and explicit legal/financial questions; not applicant qualification.",
+      "sources": [
+        {
+          "url": "https://www.ycombinator.com/deal",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete public standard-deal description; actual issuer, acceptance and instruments unestablished."
+        },
+        {
+          "url": "https://www.ycombinator.com/apply",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete public Winter 2027 intake entry; private form unvisited and absolute deadline not promoted from an inferred year."
+        },
+        {
+          "url": "https://www.ycombinator.com/safe",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Public future-equity explanation; actual selected form/side letter not qualified."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Retain the exclusion. Reconsider only against an independently authorized actual issuer proposal and complete proposed instruments.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before reconsidering a real applicant, offer, contract, deadline or financing commitment; on changed provider terms.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "application_outcome": "No submission in this research; historical state Unknown.",
+      "award_evidence": null,
+      "activation_status": "No financing activated in this research; historical state Unknown.",
+      "activation_evidence": null,
+      "reporting_status": "Not applicable until actual terms establish obligations",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Y Combinator",
+          "YC standard deal",
+          "SAFE",
+          "YC-STANDARD-DEAL"
+        ],
+        "canonical_match": null,
+        "scope": "All 41 existing records/pipeline and local docs/research searched; separate complete organization-scoped SBA and Y Combinator issue and PR searches returned zero matches and incomplete_results=false. Initial combined query failed with 422 for a missing type qualifier and is not counted as a successful search.",
+        "search_queries": [
+          "org:Pick-Your-AI is:issue \"SBA\"",
+          "org:Pick-Your-AI is:issue \"Y Combinator\"",
+          "org:Pick-Your-AI is:pull-request \"SBA\"",
+          "org:Pick-Your-AI is:pull-request \"Y Combinator\""
+        ],
+        "reuse_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32"
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of actual matrix and structured findings.",
+        "limitations": [
+          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+        ]
+      },
+      "owning_research_key": "E03-08",
+      "source_urls": [
+        "https://www.ycombinator.com/deal",
+        "https://www.ycombinator.com/apply",
+        "https://www.ycombinator.com/safe"
+      ],
+      "source_refs": [
+        "https://www.ycombinator.com/deal",
+        "https://www.ycombinator.com/apply",
+        "https://www.ycombinator.com/safe"
+      ],
+      "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+      "score": null,
+      "award_status": "No financing offer or grant award obtained in this research; historical state Unknown.",
+      "canonical_deliverable": "docs/funding/award-mechanisms-and-restrictions.md",
+      "source_acceptance_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "deadline_observation": {
+        "displayed": "November 2, 8 p.m. Pacific",
+        "batch": "Winter 2027",
+        "inferred_year": 2026,
+        "scope": "Public page observation; no complete independently verified absolute deadline or private form, so verified_deadline remains null."
+      },
+      "current_disposition": "Not Pursuing for the present charitable-funding shortlist; no incorporation, securities issuance or investment commitment.",
+      "source_evidence": [
+        "See the canonical mechanism matrix for the sourced screening, access limitations, three applicant routes and explicit unresolved acceptance questions."
+      ],
+      "priority_recommendation": "P3",
+      "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application."
     }
   ],
   "important_limitations": [

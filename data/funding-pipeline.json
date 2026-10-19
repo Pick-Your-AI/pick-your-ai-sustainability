@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 41,
+  "record_count": 43,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -835,6 +835,46 @@
       "priority": "P2",
       "score": null,
       "next_action": "Resolve the finite receiving need, actual recipient and custody authority, specific equipment offer and complete cost/exit terms before any provider-specific request or acquisition."
+    },
+    {
+      "opportunity_id": "SBA-7A-LOANS",
+      "program_name": "7(a) business loans",
+      "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "Not Pursuing as present charitable project funding; nonbinding screening, not a universal conclusion about nonprofit borrowing.",
+      "eligibility": "Unknown",
+      "application_gate": "No application, borrowing, investment or commitment proposed by this research; actual legal recipient, authority and material terms remain unqualified.",
+      "application_outcome": "No submission in this research; historical state Unknown.",
+      "award_status": "No financing offer or grant award obtained in this research; historical state Unknown.",
+      "activation_status": "No financing activated in this research; historical state Unknown.",
+      "reporting_status": "Not applicable until actual terms establish obligations",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P3",
+      "score": null,
+      "next_action": "Retain the exclusion. Reconsider only against an independently authorized, evidenced applicant and complete proposed loan instrument."
+    },
+    {
+      "opportunity_id": "YC-STANDARD-DEAL",
+      "program_name": "Standard startup investment deal",
+      "source_review_status": "Public mechanism screening complete; independent findings acceptance pending; actual applicant and private instrument unqualified.",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "Not Pursuing for the present charitable-funding shortlist; no incorporation, securities issuance or investment commitment.",
+      "eligibility": "Unknown",
+      "application_gate": "No application, borrowing, investment or commitment proposed by this research; actual legal recipient, authority and material terms remain unqualified.",
+      "application_outcome": "No submission in this research; historical state Unknown.",
+      "award_status": "No financing offer or grant award obtained in this research; historical state Unknown.",
+      "activation_status": "No financing activated in this research; historical state Unknown.",
+      "reporting_status": "Not applicable until actual terms establish obligations",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P3",
+      "score": null,
+      "next_action": "Retain the exclusion. Reconsider only against an independently authorized actual issuer proposal and complete proposed instruments."
     }
   ]
 }

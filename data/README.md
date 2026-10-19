@@ -13,7 +13,7 @@ A shared owning key means one comparative research package evaluates different p
 | Restack | E03-01 | Not Pursuing for ordinary AI-builder scope |
 | CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
-| Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
+| Secure Open Source Fund | E03-02 | Defer application; verify maintainer and project fit |
 | Sponsors for organizations | E04-01 | Organization onboarding route documented; existing account state Unknown |
 | Member-project fiscal sponsorship | E01-04 | Rolling inquiry/application process; acceptance may take months |
 | Associated project fiscal hosting | E01-04 | Application process documented; PYA acceptance/relationship Unknown |

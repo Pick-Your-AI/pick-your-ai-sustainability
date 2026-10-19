@@ -31,6 +31,8 @@ The [Cerebras assessment](../research/compute/cerebras-support.md) is Done / Not
 
 The [NLnet current-call assessment](../data/opportunities/nlnet-programs.json) is Done after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816). CodeSupply is Verified for program research and remains deferred from application pending actual scope and applicant evidence. Restack and Commons Fund are Done / Not Pursuing and retain their historical Discovered stages. This acceptance supplies neither applicant qualification nor an application, award or payable-work claim.
 
+The [Secure Open Source Fund assessment](../data/opportunities/github-secure-open-source-fund.json) is In Review / Discovered, with P2 and a recommendation to defer application pending actual maintainer and project fit. Its proposed security-learning case retains Unknown adoption, capacity, applicant and agreement facts. Independent findings acceptance is pending; cash, optional cloud benefits and actual receipt remain separate.
+
 ## Known calendar facts
 
 | Record | Published external date | Qualification consequence |

@@ -1,6 +1,8 @@
 # Sustainability program execution report
 
-**Draft for independent review. The repository, issue graph, actual Project fields and all nine saved views below are verified at the evidence cutoffs recorded here. The field, label and milestone catalogs also passed independent comparison.**
+**Initial execution snapshot. The repository, issue graph, actual Project fields and all nine saved views below were verified at the evidence cutoffs recorded here. The field, label and milestone catalogs also passed independent comparison.**
+
+The [later independent setup acceptance](program-setup-acceptance.md) records acceptance of the program architecture, initial pipeline and operating materials, the fresh GitHub readback, and subsequent bounded research completion. The initial review/status statements below remain historical observations; they do not override later accepted records or close unfinished child outcomes.
 
 Canonical locations: [repository](https://github.com/Pick-Your-AI/pick-your-ai-sustainability), [organization Project](https://github.com/orgs/Pick-Your-AI/projects/7), [program #1](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1), and [review PR #73](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/73). Suitable existing repository/Project resources were reused; their prior empty issue/project state was reconciled before new work was created.
 

@@ -19,7 +19,7 @@ The bounded deliverable is an exclusion record that prevents repeated qualificat
 The [Fireworks for Startups page](https://fireworks.ai/startups), inspected on 2026-10-19, states these applicant conditions:
 
 - A registered company with a working website, operating as a privately held for-profit entity.
-- Founded within the preceding five years.
+- Founded within the last five years.
 - Venture funding above the page's $500,000 threshold and no Series D or later funding.
 
 The page offers a program intake form, but this review did not complete that form or inspect any private offer. The public page does not establish an award amount or submission deadline for Pick Your AI.
@@ -50,7 +50,9 @@ Jurisdiction, all application fields, any private exceptions and other applicant
 | Owner and independent reviewer | Owner unassigned; ChatGPT independently reviewed the source and exclusion in session c2a536a7f3d2 |
 | Submission or next-action date | Unassigned; no date inferred from the program page |
 
-Credits are neither unrestricted cash nor realized avoided cost. The public-interest inference workload linked by the owning issue does not overcome the applicant gate. No value, probability, effort estimate, award currency or commitment is manufactured to fill an empty field.
+The [needs assessment](../../docs/needs-assessment.md) identifies evaluation compute for [Research #36](https://github.com/Pick-Your-AI/pick-your-ai-research/issues/36) and [Research #41](https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41). A prospective use case is a bounded reproducibility check of documented model/serving configurations using non-sensitive inputs, with source-pinned methods and rights-compatible aggregate comparisons intended to help people assess AI stacks. Configurations, run limits, token demand, existing entitlements and operating ownership remain unestablished. This is a possible use case, not an approved workload or award, and it does not change the failed applicant gate.
+
+Usable value and numerical effort remain `null` under the [budget valuation rules](../../docs/budget-assumptions.md). A defensible estimate would require an evidenced workload, existing free-access inventory, covered usage, applicable units/rates and expiry, with uncovered usage, post-credit billing, switching and maintenance costs accounted for. Effort would require task estimates for intake, setup, reproducibility, agreement/privacy/rights review, reporting and exit. Credit face value remains separate from cash and realized avoided cost; avoided cost requires evidence that the eligible resource would otherwise have been purchased. No unsupported value, probability, effort, currency or commitment is inferred.
 
 ## Review scope and reopening
 

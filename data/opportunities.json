@@ -5110,8 +5110,8 @@
       "available_after_501c3_recognition": "Ineligible for intended nonprofit applicant",
       "eligibility_status": "Ineligible",
       "eligibility_conditions": [
-        "Registered privately held for-profit company",
-        "Less than five years old",
+        "Registered privately held for-profit company with a functional website",
+        "Founded within the last five years",
         "Venture funding above $500,000 and no Series D or later round"
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
@@ -5124,13 +5124,13 @@
       "benefit_amount_or_capacity": "Credits of unspecified amount; one-year expiry",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Unknown; first establish a finite workload and existing free entitlements, covered usage, applicable units/rates and expiry. Separate credit face value from cash and evidenced avoided cost; account for uncovered usage, post-credit billing, switching and maintenance. Estimate effort from intake, setup, reproducibility, agreement/privacy/rights review, reporting and exit tasks before scoring.",
       "restrictions_and_obligations": [
         "Paid overage can continue when payment method exists.",
         "Not general nonprofit/OSS eligibility; do not alter organizational claims to qualify."
       ],
       "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Document a clear no-fit result; separate unverified research sponsorship may be investigated.",
+      "fit_with_pick_your_ai": "Retain the accepted exclusion for the intended nonprofit route. A prospective bounded reproducibility check for Research #36/#41 could provide source-pinned methods and rights-compatible aggregate AI-stack comparisons; workload, existing entitlements and ownership remain unestablished. No approved workload, award or separate support prospect is established by this program review.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
         "Authorized account holder and commitment approver",
@@ -5199,11 +5199,11 @@
         "https://fireworks.ai/startups"
       ],
       "source_evidence": [
-        "Current requirements include registered privately held for-profit company, under five years old, venture backing above $500,000 and no Series D/later funding.",
+        "Current requirements include a registered privately held for-profit company with a functional website, founded within the last five years, venture backing above $500,000 and no Series D/later funding.",
         "Credits expire after one year; services/reserved-capacity exclusions apply."
       ],
       "benefit": "Credits of unspecified amount; one-year expiry",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "estimated_usable_value_method": "Unknown; first establish a finite workload and existing free entitlements, covered usage, applicable units/rates and expiry. Separate credit face value from cash and evidenced avoided cost; account for uncovered usage, post-credit billing, switching and maintenance. Estimate effort from intake, setup, reproducibility, agreement/privacy/rights review, reporting and exit tasks before scoring.",
       "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
       "priority_recommendation": "P3",
       "score": null,
@@ -5223,8 +5223,8 @@
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
       "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
       "published_qualification_requirements": [
-        "Registered privately held for-profit company",
-        "Less than five years old",
+        "Registered privately held for-profit company with a functional website",
+        "Founded within the last five years",
         "Venture funding above $500,000 and no Series D or later round"
       ],
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",

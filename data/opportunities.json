@@ -5022,16 +5022,16 @@
       "official_program_url": "https://www.together.ai/research-credits-program-request",
       "official_application_url": "https://www.together.ai/research-credits-program-request",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Student/researcher wording ambiguous; invitation required",
+      "legal_entity_requirements": "Invitation/student versus broader applicant wording remains unresolved; see canonical assessment",
       "available_before_incorporation": "Unknown",
       "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
       "available_after_501c3_recognition": "Unknown; recognition does not resolve unverified applicant, intake or representation requirements.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Invitation-only; route/access not confirmed",
+      "application_gate": "No application or activation: applicant/invitation unresolved and the proposed benchmarking needs explicit written permission under the current use restriction.",
+      "application_status": "Invitation-only public description; invitation acquisition and complete intake remain Unknown",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -5040,15 +5040,17 @@
       "estimated_usable_value": null,
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "restrictions_and_obligations": [
-        "Acknowledgement requested.",
-        "Expiry, service coverage and applicant eligibility not sufficiently specified."
+        "Acknowledgment requested; actual reporting, grant expiry, covered services and renewal remain Unknown.",
+        "The current Terms of Service restrict competitive analysis or benchmarking; no program-specific exception is established.",
+        "Published commercial billing and privacy controls do not establish grant treatment or the project's account settings."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential scoped research benefit if invitation and eligibility can be established.",
+      "program_objectives": "Small research-credit support described publicly; exact applicant and permitted study scope need clarification.",
+      "fit_with_pick_your_ai": "A proposed finite, reproducible structured-extraction comparison could inform AI stack choices, but is not qualified under the published terms; see the canonical memo.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Reopen only for changed official terms or a documented program-specific response covering the exact study",
+        "Establish eligible applicant, invitation route and representation before any application",
+        "Review actual award terms, permitted publication, data controls, covered usage, reporting and exit"
       ],
       "native_dependency_issue_urls": [],
       "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
@@ -5057,7 +5059,37 @@
           "url": "https://www.together.ai/research-credits-program-request",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Undated live program; invitation/applicant ambiguity and incomplete intake retained"
+        },
+        {
+          "url": "https://www.together.ai/terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2026-05-19; published use restrictions, including section 4.3(c)"
+        },
+        {
+          "url": "https://docs.together.ai/docs/billing-credits",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current purchased-credit rules; research-award exceptions unverified"
+        },
+        {
+          "url": "https://www.together.ai/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2025-12-17; published policy, not observed project-account behavior"
+        },
+        {
+          "url": "https://docs.together.ai/docs/privacy-and-security",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current account/organization and passthrough distinctions; no settings inspected"
+        },
+        {
+          "url": "https://docs.together.ai/docs/zero-data-retention",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current prospective controls and retained metadata; no settings enabled"
         }
       ],
       "scoring": {
@@ -5070,12 +5102,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "Not scored: proposed benchmarking is not qualified under current published terms; applicant, invitation, award and net usable value remain unresolved."
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Resolve official student/invitation eligibility and terms; keep application blocked meanwhile.",
+      "independent_reviewer": "ChatGPT independent Research reviewer, project session fb6378fc6b16",
+      "next_action": "Retain the scoped Not Pursuing finding; revisit only on changed official terms or a documented program-specific permission and applicant route.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -5091,40 +5123,56 @@
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Together AI",
-          "Invite-only Research Credits Program"
+          "Together",
+          "Invite-only Research Credits Program",
+          "TOGETHER-RESEARCH"
         ],
         "canonical_match": "TOGETHER-RESEARCH",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Local register and owning issue/comments; organization Together-in-title issue search returned #45 only. Broader 30-result issue search retained technical references, not additional grant identities."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT independent Research reviewer, project session fb6378fc6b16",
+        "reviewed_revision": "9442547017fdfbcdb38915d40ee3cf490aa53157",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136",
+        "decision": "Accepted bounded findings: Not Pursuing for the specified public comparison study; applicant eligibility Unknown",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Applicant eligibility, invitation, award terms and actual account state remain Unknown.",
+          "The scoped Not Pursuing recommendation is not a finding that all Together research is ineligible.",
+          "No outreach, application, provider execution, purchase or activation performed.",
+          "Delegated independent findings review is not a separate-account GitHub APPROVED vote or a legal opinion."
         ]
       },
       "owning_research_key": "E05-01G",
       "source_urls": [
-        "https://www.together.ai/research-credits-program-request"
+        "https://www.together.ai/research-credits-program-request",
+        "https://www.together.ai/terms-of-service",
+        "https://docs.together.ai/docs/billing-credits",
+        "https://www.together.ai/privacy",
+        "https://docs.together.ai/docs/privacy-and-security",
+        "https://docs.together.ai/docs/zero-data-retention"
       ],
       "source_evidence": [
-        "Official page describes a small invite-only program for student research outside formal classes.",
-        "It also says anyone with a research idea may apply; broader wording needs clarification."
+        "Program-page invitation/student versus broad-applicant wording remains unresolved.",
+        "Current terms impose a material use restriction on the proposed benchmarking.",
+        "Commercial purchased-credit and privacy documentation was reviewed separately from any research-award terms."
       ],
       "benefit": "A few hundred dollars described, not a guaranteed allocation",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "source_freshness": "Official sources retrieved 2026-10-19; separate policy update dates and retrieval limits recorded in the canonical memo.",
       "priority_recommendation": "P3",
       "score": null,
-      "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "scoring_justification": "Not scored: proposed benchmarking is not qualified under current published terms; applicant, invitation, award and net usable value remain unresolved.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://www.together.ai/research-credits-program-request"
+        "https://www.together.ai/research-credits-program-request",
+        "https://www.together.ai/terms-of-service",
+        "https://docs.together.ai/docs/billing-credits",
+        "https://www.together.ai/privacy",
+        "https://docs.together.ai/docs/privacy-and-security",
+        "https://docs.together.ai/docs/zero-data-retention"
       ],
       "application_url": "https://www.together.ai/research-credits-program-request",
-      "gate": "Invitation and eligibility unresolved",
+      "gate": "Applicant and invitation Unknown; proposed benchmarking not qualified under the published use restriction",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -5142,15 +5190,15 @@
       "related_research_keys": [],
       "source_review_status": "Source facts checked",
       "applicant_qualification_status": "Unknown",
-      "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "score_reason": "Failed use-case qualification and unresolved applicant/award facts; no defensible weighted total.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Public request page retrieved. No complete intake or invitation-acquisition procedure established; no form or account action performed.",
+      "current_disposition": "Not Pursuing for the proposed public comparison study under currently published terms",
       "deadline_local_time": null,
       "deadline_utc": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "P3 research priority; use-case restriction and unresolved applicant/invitation prevent opportunity scoring.",
+      "recommended_disposition": "Not Pursuing for the proposed public comparison study under currently published terms",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -5158,7 +5206,8 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 45,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable": "research/compute/together-research-credits.md"
     },
     {
       "schema_version": "sustainability-opportunity/v1",

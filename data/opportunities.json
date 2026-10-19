@@ -821,8 +821,8 @@
       ],
       "application_gate": "Not authorized for setup by this research; actual recipient, authority, payout, terms and operating controls remain unqualified.",
       "application_status": "Public onboarding and landing redirect inspected; authenticated form, invitation and existing account state Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -848,7 +848,7 @@
         "Finite need, capacity and reviewed profile/benefits before authorization"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Eleven current public sources inspected; actual project eligibility and final independent findings acceptance remain separate.",
+      "confidence": "Independently accepted public channel-readiness findings; actual applicant, account and governing private agreements remain unqualified.",
       "sources": [
         {
           "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
@@ -931,8 +931,8 @@
       },
       "priority": "P1",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Obtain independent acceptance of the corrected criterion-8 findings and current receiving composition; then resolve G1-G6 using actual private administrative evidence before proposing any setup.",
+      "independent_reviewer": "Research engineering reviewer in the current project session (GitHub COMMENT through CompleteDotTech)",
+      "next_action": "Resolve actual recipient, authority, supported direct/host route and G1-G6 operating evidence before proposing a concrete setup; retain independent neutrality, privacy, value and financial controls.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -956,10 +956,10 @@
         "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Draft findings; independent acceptance pending",
+        "reviewer": "Research engineering reviewer in the current project session (GitHub COMMENT through CompleteDotTech)",
+        "reviewed_revision": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702",
+        "decision": "Accepted channel-readiness findings and unpublished profile draft against all eleven issue criteria",
         "limitations": [
           "Public research only; no applicant qualification, legal determination, financial action or separate-account approval claimed."
         ]
@@ -1000,12 +1000,12 @@
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
-        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889",
-        "scope": "The complete original eight-source contribution was reviewed with two criterion-8 corrections required. The corrected eleven-source contribution awaits acceptance; this is not current applicant qualification."
+        "reviewed_revision": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702",
+        "scope": "Actual complete original-source review plus independently accepted correction: eleven public observations and their limits, all eleven criteria, three actual applicant-route Unknowns, use/value method, exact profile, source/history/projection preservation and the original local output. No separate-account approval, legal/tax opinion, organizational appointment or operational qualification."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked; corrected criterion-8 findings await independent acceptance",
+      "source_review_status": "Independently accepted channel-readiness findings",
       "applicant_qualification_status": "Unknown",
       "estimated_usable_value_method": "Reconcile actual gross receipts, itemized deductions, settlement and restrictions without double counting; expected amount and administrative effort remain Unknown. See canonical value_and_effort.",
       "score_reason": "P1 foundational channel-readiness work. Actual applicant qualification, donor demand, net usable cash and effort are Unknown; all numeric score factors remain null.",
@@ -1155,9 +1155,27 @@
           "reviewed_on": "2026-10-19",
           "scope": "Research engineering review of the complete original eight-file source, eleven criteria, source/map/raw-history proof and original local output.",
           "decision": "Existing findings and preservation clear; final criterion-8 acceptance withheld pending the two public-source corrections."
+        },
+        {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Draft findings; independent acceptance pending",
+          "limitations": [
+            "Public research only; no applicant qualification, legal determination, financial action or separate-account approval claimed."
+          ]
         }
       ],
-      "eligibility_assessment_note": "The former generic conditional phase wording described possible mechanisms. Each actual PYA route is now explicitly Unknown; no evidence of ineligibility or a rejected application is inferred."
+      "eligibility_assessment_note": "The former generic conditional phase wording described possible mechanisms. Each actual PYA route is now explicitly Unknown; no evidence of ineligibility or a rejected application is inferred.",
+      "research_history": [
+        {
+          "revision": "19aa5fd372052fd96145e7c4c721f4ebd7c45aa1",
+          "opportunity_stage": "Discovered",
+          "work_status": "In Review",
+          "source_review_status": "Source facts checked; corrected criterion-8 findings await independent acceptance",
+          "reason": "State immediately before actual complete findings acceptance 5574121702; no provider observation or applicant fact is refreshed by the transition."
+        }
+      ]
     },
     {
       "schema_version": "sustainability-opportunity/v1",

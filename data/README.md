@@ -14,7 +14,7 @@ A shared owning key means one comparative research package evaluates different p
 | CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
 | Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
-| [Sponsors for organizations](opportunities/github-sponsors.json) | E04-01 | Corrected readiness findings in review; actual recipient, authority and payout route Unknown; setup remains on hold |
+| [Sponsors for organizations](opportunities/github-sponsors.json) | E04-01 | Done / Verified readiness research; actual recipient, authority and payout route Unknown; setup remains on hold |
 | Member-project fiscal sponsorship | E01-04 | Rolling inquiry/application process; acceptance may take months |
 | Associated project fiscal hosting | E01-04 | Application process documented; PYA acceptance/relationship Unknown |
 | Fiscal hosting for open-source projects | E01-04 | Application/validation route documented; no acceptance claimed |

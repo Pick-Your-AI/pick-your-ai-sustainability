@@ -1,6 +1,6 @@
 # GitHub Sponsors: channel readiness and profile draft
 
-Owning issue: [E04-01 / #33](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33). Prepared **2026-10-19 UTC**. **Draft for independent findings acceptance.**
+Owning issue: [E04-01 / #33](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33). Prepared **2026-10-19 UTC**. **Accepted readiness findings; unpublished profile draft.**
 
 The [canonical channel assessment](../../data/opportunities/github-sponsors.json) contains the actual source observations, all three applicant routes, host comparison boundary, monetary method and eleven acceptance criteria. The unique live register identity remains `GITHUB-SPONSORS-ORG`; this guide creates no second opportunity.
 
@@ -77,10 +77,16 @@ The dated findings and durable URLs are **S1–S11** in [the canonical JSON](../
 
 The historical matching offer, payer-versus-recipient fee distinction, source withholding conflict, form-selection ambiguity and payment-instrument scope differences remain explicit in the assessment. No legal or accounting determination is manufactured from a generic help page.
 
-Independent review must accept the actual interpretation and all eleven issue criteria, including this profile, before the record advances beyond its historical Discovered stage. Local schema/link checks only establish repository consistency. The findings review, exact revision and resulting delivery will be linked in #33; this draft currently makes no acceptance claim.
+The [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702) covers the corrected assessment and this profile at `19aa5fd372052fd96145e7c4c721f4ebd7c45aa1`. Under the existing [transition procedure](../operations-and-reporting.md), program research is now Done / Verified. Actual recipient qualification and operating prerequisites remain unresolved. Source publication, configured receiving checks and signed-main delivery retain their own receipts; a local schema/link check does not supply the findings acceptance.
 
 ## Correction review history
 
-The [supplemental source contribution](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500) and [complete original-source review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889) identified two finite public-source gaps at `6920cb41`. The assessment now records S9–S11 and the corresponding G4/G6 controls. Acceptance of that corrected interpretation remains pending; the original review and output retain their own revision.
+The [supplemental source contribution](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500) and [complete original-source review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889) identified two finite public-source gaps at `6920cb41`. The assessment now records S9–S11 and the corresponding G4/G6 controls. Acceptance was pending at that correction checkpoint; the later actual acceptance is recorded below. The original reviews and output retain their own revisions.
 
 The supplemental reviewer also reported a robots.txt denial for the Get sponsored target and varying country presentations for the recipient link. Those reports are preserved with their provenance in the canonical freshness section; they are not this author's access failures, an HTTP-status finding, an observed sign-in wall, a verified form or evidence of the project's country. Keeping private records outside Git does not by itself establish their treatment by a provider.
+
+## Actual independent findings acceptance — 2026-10-19
+
+[Review 5574121702](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5574121702), submitted at **15:46:08 UTC**, accepts the complete corrected readiness findings and unsent profile under all eleven #33 criteria at public source `19aa5fd372052fd96145e7c4c721f4ebd7c45aa1`, tree `e3fa44000dcf8cd792bb642ed98a80df06e2b0cc`. It extends the original complete-source review and preserves the supplemental contributor's separate attribution. This is an actual in-session engineering COMMENT through the connected account, not a separate-account formal approval, organizational appointment or legal/tax determination.
+
+The receipt supports the Done / Verified research transition. It does not establish an eligible applicant, accepted host, actual account or jurisdiction, adopted policy, financial authority, application, payment setup, pledge, award, received support or activated benefit. All source observations, failed or limited access reports, literal criteria, original profile copy, null value/effort estimates and historical review states retain their scope. The final receiving and signed-main checks will identify their own exact source; neither the original 61-method nor corrected local 68-method observation is relabeled by recording acceptance.

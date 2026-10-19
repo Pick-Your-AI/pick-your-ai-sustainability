@@ -42,6 +42,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 
 - [Organizational structure decision brief](docs/nonprofit/structure-decision-brief.md)
 - [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
+- [Formation and governance prerequisites](docs/nonprofit/formation-governance-checklist.md)
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)
 - [Opportunity evidence register](data/README.md)
 - [Funding pipeline](docs/funding-pipeline.md)

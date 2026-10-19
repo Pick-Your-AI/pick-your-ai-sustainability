@@ -6,7 +6,7 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 38 remaining seed records |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 38 records, including the completed Together Not Pursuing assessment retained at its historical stage |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | 1: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -16,6 +16,8 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 | Reporting | Obligations and dates from actual terms | No binding schedule established |
 
 The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done / Verified for program research after [independent findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597). Its applicant/account and monetization gates remain separate; no qualification, application or activation is inferred.
+
+The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
 ## Known calendar facts
 

@@ -259,9 +259,9 @@
     {
       "opportunity_id": "SPENCER-SMALL-EDUCATION",
       "program_name": "Small Research Grants on Education",
-      "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+      "source_review_status": "Independent bounded findings accepted at 9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2; closed intake and actual applicant/private-form/award Unknowns remain explicit.",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
-      "research_status": "In Review",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
       "disposition": "Watch for verified reopening; do not apply or treat ordinary software construction as research",
       "eligibility": "Unknown actual applicant; current intake closed and ordinary software scope excluded",
@@ -274,7 +274,7 @@
       "deadline_timezone": null,
       "priority": "P3",
       "score": null,
-      "next_action": "Keep closed/P3 watch. Independently review this screen; reconsider only on verified reopening and actual investigator/admin/research evidence."
+      "next_action": "Keep closed/P3 watch. Reconsider only on a verified reopening and actual investigator/admin/research evidence; no application is authorized."
     },
     {
       "opportunity_id": "BENEVITY-CAUSES",
@@ -879,10 +879,10 @@
     {
       "opportunity_id": "SLOAN-NEW-MEDIA",
       "program_name": "New Media",
-      "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+      "source_review_status": "Independent bounded program/intake findings accepted at 9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2; actual applicant, invitation, agreement and outcome remain Unknown.",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
       "disposition": "Investigate bounded public-engagement fit; defer inquiry/application pending actual grantee and scope",
       "eligibility": "Unknown; conditional public-engagement fit only, no actual grantee or invitation",
       "application_gate": "Not authorized. No actual applicant, inquiry, invitation, study, award agreement or financial authority established.",
@@ -894,7 +894,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Independently review the screen. Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant and appropriate authorization exist."
+      "next_action": "Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant facts and appropriate authorization exist."
     }
   ]
 }

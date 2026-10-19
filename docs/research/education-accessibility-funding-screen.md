@@ -192,3 +192,39 @@ Recheck before an external statement, inquiry, application, agreement or partici
 | Obtain and link independent acceptance of the actual findings. A schema check or initial source lead alone does not meet this criterion. | Pending actual independent substantive review and its delivered-source receipt; a validator does not supply it |
 
 Repository validators can establish local document/schema/projection consistency. They cannot independently accept the findings, qualify an applicant, authorize a study or establish received funding. Final acceptance must link the real substantive review and delivered revision while preserving all remaining facts and operational gates above.
+
+## 9. Actual findings acceptance and preserved source history — 2026-10-19
+
+The [actual independent findings decision](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29#issuecomment-6275510717) was published at **2026-10-19 19:29:29 UTC** by the in-session Android specialist through the shared CompleteDotTech account. It accepts all eleven original #29 criteria at public source **`9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2`**, tree **`cf29fcdf6b3c605b2d16b6041f2d4a1310d36025`**, including the complete corrected 36,774-byte canonical screen. This is an actual independent source/method review within the delegated engineering work. It is not a separate human's response, a formal distinct-account `APPROVED` review, an appointment to review a Spencer proposal or an organizational/legal/financial authorization.
+
+The preceding complete text retains its source-time proposed/pending language and criterion mapping. Those statements describe the reviewed preparation. This dated continuation records the real later decision without rewriting any original criterion, source observation, proposed study, access failure or actual applicant Unknown. Ordinary signed main delivery and issue reconciliation remain pending; this source-only branch and its review do not create a new PR or readiness event while the reported automatic-review hold remains unresolved.
+
+### Findings corrected before acceptance
+
+The final review followed two concrete corrections. Spencer's current statements now distinguish the earned doctorate required of each PI/co-PI from the PI's required affiliation with a willing eligible administrator; the actual co-PI arrangement remains to be verified. Sloan's non-research packet, p13, requests confidentiality for proposal content and application status until its evaluation and funding decision. This public provider-research screen is distinct from such an application, and no inquiry or proposal was submitted. Both corrections are in the preceding source and the current structured records. The complete earlier Spencer seed remains unchanged as history.
+
+| Source observation | Literal identity and limit |
+| --- | --- |
+| Original source preparation | Local `9bfa4a57695d599ac1787e91d36598239464cd77` and public `95a26ed722e8bd1bd0b3ad1b30db934f894b5b60` share tree `243644c6a38fc95cd7c522fac6ffa9ea190ebd54`; their commit identities and execution attribution remain separate. |
+| Accepted-main carry | Local `1be7e88cef4037816ad2c0a9adbcc66ac24b6f17`, tree `2add92ea89b7b592301397112d9a6bd634b1e101`, preserves signed `bfa30ca5754e2068b06f7ff5fbf846cb39c6972b` and the original education source. The complete 104-leaf map has eight authored paths and 96 other accepted-main entries. |
+| Two-finding correction | Local `fc6b92b3559b1bca1de60b44c331b2f15084a305` is a child of that carry. Public `9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2` has ordered parents `[95a26ed7, bfa30ca5]` and the exact same `cf29fcdf6b3c605b2d16b6041f2d4a1310d36025` tree. Only the canonical screen and current opportunity fields changed; both complete inverses restore the prior source. |
+| Independent receiving decision | The linked issue COMMENT accepts the corrected source and all eleven criteria at that exact public identity. It independently read the full primary-source/method scopes stated in its receipt, all eight consumed methods/templates and all eleven unchanged execution inputs. It preserves #27/#30 and Research #63 ownership. |
+
+### Current record metadata and operating limits
+
+Under the existing [transition procedure](../operations-and-reporting.md), research completion and actual applicant qualification remain separate. Spencer's closed intake is a failed current application gate, so it retains its historical Discovered stage. Sloan's accepted program/intake assessment supports Verified at the research scope; it does not establish a viable actual applicant or permission to inquire.
+
+| Program | Research status / stage | Continuing disposition |
+| --- | --- | --- |
+| Spencer Small Research | **Done / historical Discovered** | **P3 watch; closed.** Verify a real reopening and actual PI/admin/research facts before reconsideration. No next round or applicant is supplied. |
+| Sloan New Media | **Done / Verified public findings** | **P2 conditional investigation.** Actual grantee, audience/content/capacity, invitation, rights, agreement and authorization remain unresolved. No inquiry or application is authorized. |
+
+The current 44-record register is **29 Discovered / 15 Verified**. Only these two programs' research/review metadata and corresponding pipeline fields change. Their exact pre-acceptance metadata is retained alongside the current review, including the original pending review objects. All 42 unrelated opportunity objects and pipeline rows remain byte-exact. All fourteen existing `award_mechanism_screen` values and separate mechanism-review values, including Spencer's, retain their actual previous acceptance and raw bytes. This review does not replace that mechanism research or any other program owner's outcome.
+
+The complete **277-row freshness file remains unchanged**, including both parent orders, 265 unrelated source rows, the two Spencer observations with their complete prior objects, and ten new education-screen URLs. The count remains 248 canonical source URLs, one SBA discovery URL and 28 other endpoints. The acceptance is not a new provider or successful-form read; the failed SmartSimple observation and null successful form date remain literal. No source date, numerical score, usable value, applicant fact, person assignment, due date or Project field is invented.
+
+### Actual validation attribution
+
+Research's original local source execution passed all **68 unique named methods in 5.622 seconds**, with no failures/errors/skips or duplicate names. Its original log is 11,282 bytes, SHA-256 `b2808e845dd9e40004bc684ecaa33ae60969d92f85c76b42582b4cddb9c08bb3`; the independent reviewer read and rehashed that original. It is not execution of a later composition or metadata continuation. The original repository check reported 26 JSON / 66 Markdown; the bfa carry's actual 18:52:30 UTC check and the corrected source's 19:21:49 UTC check each reported 26 JSON / 68 Markdown / 0 errors. No additional 68-method execution is claimed here.
+
+The receiving metadata's affected validator and any subsequent configured/source/main checks must retain their own exact source and original output. Repository checks establish local consistency; the linked substantive review supplies findings acceptance. Neither establishes private form access, a participant study, measured educational benefit, an applicant/host decision, an award, financial custody or operational permission.

@@ -2923,7 +2923,7 @@
       "application_gate": "Not authorized. Closed intake; no actual investigator, administering agreement, study approval, budget or application decision established.",
       "application_status": "Closed; no verified reopening or next deadline",
       "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -2947,7 +2947,7 @@
         "Resolve method, authority, ethics, rights and cost before any protected or external action"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Current public findings documented for independent acceptance; actual applicant, future intake, private form and award remain Unknown.",
+      "confidence": "Independent bounded findings accepted at 9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2; closed intake and actual applicant/private-form/award Unknowns remain explicit.",
       "sources": [
         {
           "id": "S1",
@@ -3020,8 +3020,8 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Keep closed/P3 watch. Independently review this screen; reconsider only on verified reopening and actual investigator/admin/research evidence.",
+      "independent_reviewer": "In-session Android specialist, recorded through the shared CompleteDotTech GitHub account",
+      "next_action": "Keep closed/P3 watch. Reconsider only on a verified reopening and actual investigator/admin/research evidence; no application is authorized.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3046,12 +3046,15 @@
         "scope": "All 41 base program identities and actual GitHub Spencer issues/PRs searched; reuse owning #29, retain #32 mechanism scope."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Actual findings acceptance pending",
+        "reviewer": "In-session Android specialist, recorded through the shared CompleteDotTech GitHub account",
+        "reviewed_at": "2026-10-19T19:29:29Z",
+        "reviewed_revision": "9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2",
+        "reviewed_tree": "cf29fcdf6b3c605b2d16b6041f2d4a1310d36025",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29#issuecomment-6275510717",
+        "decision": "Accepted as the bounded #29 public source/method/findings outcome; ordinary main delivery remains separate.",
         "limitations": [
-          "This screen is not Spencer grant-proposal review, applicant qualification or operational authorization."
+          "This screen is not Spencer grant-proposal review, applicant qualification or operational authorization.",
+          "Shared-account issue COMMENT; no formal distinct-account PR approval, grant-review appointment, source refresh, applicant/host qualification, study, submission or funding authority."
         ]
       },
       "owning_research_key": "E03-05",
@@ -3091,7 +3094,7 @@
       },
       "current_disposition": "Watch for verified reopening; do not apply or treat ordinary software construction as research",
       "related_research_keys": [],
-      "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+      "source_review_status": "Independent bounded findings accepted at 9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2; closed intake and actual applicant/private-form/award Unknowns remain explicit.",
       "applicant_qualification_status": "Unknown actual applicant; closed intake and institutional/research gates unresolved",
       "estimated_usable_value_method": "Section 6 of the canonical screen: actual scope × evidenced cost, permitted indirect costs and uncovered obligations; all actual study cost/value inputs Unknown.",
       "score_reason": "Closed intake and substantive institutional/research gates; wider education-funder research may remain P2.",
@@ -3319,6 +3322,28 @@
           "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
           "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
         ]
+      },
+      "education_findings_preacceptance_metadata": {
+        "source_revision": "9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2",
+        "source_tree": "cf29fcdf6b3c605b2d16b6041f2d4a1310d36025",
+        "scope": "Exact pre-acceptance metadata from the reviewed source; original source observations and seed history remain separate",
+        "prior_fields": {
+          "work_status": "In Review",
+          "opportunity_stage": "Discovered",
+          "independent_reviewer": null,
+          "confidence": "Current public findings documented for independent acceptance; actual applicant, future intake, private form and award remain Unknown.",
+          "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+          "next_action": "Keep closed/P3 watch. Independently review this screen; reconsider only on verified reopening and actual investigator/admin/research evidence.",
+          "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Actual findings acceptance pending",
+        "limitations": [
+          "This screen is not Spencer grant-proposal review, applicant qualification or operational authorization."
+        ]
+      }
+        }
       }
     },
     {
@@ -10049,8 +10074,8 @@
       ],
       "application_gate": "Not authorized. No actual applicant, inquiry, invitation, study, award agreement or financial authority established.",
       "application_status": "Specific one-page inquiry route documented; formal proposal invitation-only; no contact or submission",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -10077,7 +10102,7 @@
         "Independent terms/rights, budget/custody and applicable study/ethics decisions"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Public source findings documented for independent acceptance; actual applicant, invitation, agreement, value and outcome remain Unknown.",
+      "confidence": "Independent bounded program/intake findings accepted at 9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2; actual applicant, invitation, agreement and outcome remain Unknown.",
       "sources": [
         {
           "id": "S8",
@@ -10129,8 +10154,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Independently review the screen. Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant and appropriate authorization exist.",
+      "independent_reviewer": "In-session Android specialist, recorded through the shared CompleteDotTech GitHub account",
+      "next_action": "Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant facts and appropriate authorization exist.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -10156,12 +10181,15 @@
         "scope": "All 41 base IDs plus actual GitHub New Media issues/PR search. Distinct from SLOAN-OSS-IN-SCIENCE owner #27; related #31 screen preserved."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Actual findings acceptance pending",
+        "reviewer": "In-session Android specialist, recorded through the shared CompleteDotTech GitHub account",
+        "reviewed_at": "2026-10-19T19:29:29Z",
+        "reviewed_revision": "9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2",
+        "reviewed_tree": "cf29fcdf6b3c605b2d16b6041f2d4a1310d36025",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29#issuecomment-6275510717",
+        "decision": "Accepted as the bounded #29 public source/method/findings outcome; ordinary main delivery remains separate.",
         "limitations": [
-          "Not a provider invitation, applicant/host acceptance or organizational approval."
+          "Not a provider invitation, applicant/host acceptance or organizational approval.",
+          "Shared-account issue COMMENT; no formal distinct-account PR approval, grant-review appointment, source refresh, applicant/host qualification, study, submission or funding authority."
         ]
       },
       "owning_research_key": "E03-05",
@@ -10179,7 +10207,7 @@
         "https://sloan.org/grants/grantees",
         "https://sloan.org/storage/app/media/files/application_documents/Proposal-Administration-Form.pdf"
       ],
-      "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+      "source_review_status": "Independent bounded program/intake findings accepted at 9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2; actual applicant, invitation, agreement and outcome remain Unknown.",
       "award_status": "Unknown; no award evidence established",
       "current_disposition": "Investigate bounded public-engagement fit; defer inquiry/application pending actual grantee and scope",
       "score": null,
@@ -10194,7 +10222,29 @@
       "application_route_description": "Program-specific one-page email inquiry, no telephone inquiry; general formal invitation-only route. No message sent.",
       "required_application_evidence_status": "Public guidelines and blank administration form read at stated versions; no invitation-specific or signed agreement reviewed.",
       "priority_scope_note": "P2 comparative research lead, not a score, qualified opportunity or application approval.",
-      "research_execution_attribution": "In-session Research lane, bounded #29 source work; no organizational appointment or external action"
+      "research_execution_attribution": "In-session Research lane, bounded #29 source work; no organizational appointment or external action",
+      "education_findings_preacceptance_metadata": {
+        "source_revision": "9dcd1d1e80a2037c0f5db7ab9d861132a4ac1ea2",
+        "source_tree": "cf29fcdf6b3c605b2d16b6041f2d4a1310d36025",
+        "scope": "Exact pre-acceptance metadata from the reviewed source; original source observations and seed history remain separate",
+        "prior_fields": {
+          "work_status": "In Review",
+          "opportunity_stage": "Discovered",
+          "independent_reviewer": null,
+          "confidence": "Public source findings documented for independent acceptance; actual applicant, invitation, agreement, value and outcome remain Unknown.",
+          "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+          "next_action": "Independently review the screen. Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant and appropriate authorization exist.",
+          "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Actual findings acceptance pending",
+        "limitations": [
+          "Not a provider invitation, applicant/host acceptance or organizational approval."
+        ]
+      }
+        }
+      }
     }
   ],
   "important_limitations": [

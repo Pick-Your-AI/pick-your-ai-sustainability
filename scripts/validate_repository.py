@@ -24,7 +24,12 @@ FORMAT_CHECKER = FormatChecker(["date"])
 def is_uri(value):
     # Explicitly register the pinned implementation: optional extras must not
     # silently decide whether URI checks run in a particular Python environment.
-    return not isinstance(value, str) or validate_rfc3986(value, rule="URI") is not None
+    if not isinstance(value, str):
+        return True  # JSON Schema's type constraint handles non-string values.
+    match = validate_rfc3986(value, rule="URI")
+    # Python's $ anchor can stop before a terminal LF. Require the complete
+    # original string instead of accepting that valid URI prefix or trimming it.
+    return match is not None and match.end() == len(value)
 
 
 REQUIRED_FILES = (

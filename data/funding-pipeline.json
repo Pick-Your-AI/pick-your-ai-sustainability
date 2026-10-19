@@ -539,13 +539,13 @@
     {
       "opportunity_id": "AZURE-NONPROFIT",
       "program_name": "Annual Azure nonprofit grant",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Current program assessment prepared; full independent findings acceptance pending.",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
-      "research_status": "Blocked",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
-      "eligibility": "Not Verified; legal eligibility blocked",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "disposition": "Retain P2 conditional Azure inference/billing-study route. Actual applicant, grant/profile, model/meter admission and operation remain unqualified; canonical findings await independent acceptance.",
+      "eligibility": "Unknown actual applicant; conditional recognized-nonprofit route requires provider validation and workload/account admission.",
+      "application_gate": "Application and activation remain blocked by actual applicant/authority, current intake/offer/model terms and admitted workload/billing evidence; this research performs no external action.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -554,7 +554,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Verify legal status and service-specific credit applicability before application."
+      "next_action": "Obtain exact independent findings acceptance, then verify the actual applicant/host, offer/profile, admitted model/meter and bounded workload before any application or activation."
     },
     {
       "opportunity_id": "AMD-DEVCLOUD",

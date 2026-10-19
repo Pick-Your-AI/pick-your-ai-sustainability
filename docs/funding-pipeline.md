@@ -21,6 +21,8 @@ The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done
 
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
+The [Azure nonprofit AI assessment](../research/compute/azure-nonprofit-ai.md) is In Review / Discovered, retaining P2 as a conditional inference and billing-study route. It consumes the accepted entity baseline with explicit Unknowns; full independent findings acceptance remains pending. Current eligibility, offer/model terms, actual billing admission and the unexecuted 24-attempt proposal remain separate from completed research and any application or activation.
+
 ## Known calendar facts
 
 | Record | Published external date | Qualification consequence |

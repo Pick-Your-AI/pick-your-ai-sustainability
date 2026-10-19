@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 267,
-  "records_count": 43,
+  "source_count": 291,
+  "records_count": 45,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -5607,6 +5607,515 @@
         }
       ]
     }
+  ,
+    {
+      "url": "https://causeshelp.benevity.org/hc/en-us/articles/30836041402260-How-does-Benevity-assess-eligibility-of-my-organization",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read complete public article; displayed updated August 28, 2026. Client rules remain separate.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B2",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://causeshelp.benevity.org/hc/en-us/articles/50062624508052-How-does-my-organization-accept-the-Causes-Terms-of-Use",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read complete public help article; displayed June 8, 2026. No acceptance or profile claim performed.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B3",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://causeshelp.benevity.org/hc/article_attachments/50062607999636",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Twelve-page PDF, visible Last Updated January 2024 despite legacy filename. Root read the access, eligibility, ownership and foundation clauses and complete §§5.7–8; Android source assistance independently checked the latter and cross-references. No actual agreement accepted.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B4",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://causeshelp.benevity.org/hc/en-us/articles/360001142723-What-fees-can-be-deducted-from-donations",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read public article, displayed June 12, 2026; follow the actual current fee-schedule link.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B5",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://go.benevity.com/hubfs/website/en/Benevity-Fees-Schedule.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Last Updated October 1, 2026; seven pages. Android retrieved and inspected the PDF; root independently read all extracted text, including foundation rows and footnotes. No actual client's fee contract was inspected.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B6",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://go.benevity.com/hubfs/website/client-and-prospect-files/Benevity-Platform-Guidelines.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Six pages, revised December 2025. Initial web-reader failure followed by actual HTTP 200 PDF retrieval. Android and root read all extracted text; Android also checked rendered restriction pages.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B7",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Six pages, revised July 2025, actual HTTP 200. Android compared complete text with B7; root received that scoped comparison and read current B7 directly. Historical version, not a current-policy substitute.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B7h",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP 404 on October 19 after an earlier web-reader failure; no successful content verification or invented policy text. B7 supplies the separately identified readable current original.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "HTTP 404; no policy content read",
+      "source_roles": [
+        "failed_guidelines_endpoint"
+      ],
+      "workplace_giving_source_id": "B7f",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://benevity.com/legal/privacy-notice",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Visible October 1, 2025. Android read complete public text; root read the controller, retention, rights, transfer and service supplements, including Cause Portal Users. No separate security, DPF-certification or client-DPA audit claimed.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "B8",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.fidelitycharitable.org/nonprofits/faqs.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read recipient/application, EFT, timing, donor-detail and acknowledgment questions. No private enrollment/Stripe dashboard accessed.",
+      "opportunity_ids": [
+        "FIDELITY-CHARITABLE-DAF"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "workplace_giving_source_id": "F1",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read full public eligibility answer, with specified recipient classes and exclusions.",
+      "opportunity_ids": [
+        "FIDELITY-CHARITABLE-DAF"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "F2",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read the public recommendation and charitable-purpose guidance; actual donor/grant facts remain absent.",
+      "opportunity_ids": [
+        "FIDELITY-CHARITABLE-DAF"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "F3",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Twenty-two-page PDF, root read printed pp. 9–12 grant provisions and pp. 16–17 miscellaneous provisions; footer has ©2026 and code CGF-PC-04/24, not an inferred new effective date. An earlier guessed legacy path failed; the actual FAQ-linked current PDF succeeded. No full tax/investment review claimed.",
+      "opportunity_ids": [
+        "FIDELITY-CHARITABLE-DAF"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "F4",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.dafgiving360.org/resource/dafgiving360-program-policies",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Landing dated August 7, 2026; PDF updated August 2026. Apple source assistant read pp. 9–11 and 24–29. Root independently read full pp. 24–29 from the exact captured PDF text; web PDF parsing failed but direct public retrieval succeeded. No full 42-page legal audit claimed.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D1",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://bynder.schwab.com/asset/2b6117aa-31f9-4d09-8bb6-c9e4528ae3a4/DAFgiving360-2026-Program-Policies.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Landing dated August 7, 2026; PDF updated August 2026. Apple source assistant read pp. 9–11 and 24–29. Root independently read full pp. 24–29 from the exact captured PDF text; web PDF parsing failed but direct public retrieval succeeded. No full 42-page legal audit claimed.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D1",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.dafgiving360.org/resource/download-dafgiving360-frequently-asked-questions-pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Footer09/26,24pages. Apple read pp. 2–3 and13–19; root independently read pp.13–14 and18–19, including the conflicting timing and company-specific matching answers.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D2",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://bynder.schwab.com/asset/11bab08f-9fa5-4349-be05-727c2988c3a7/DAFgiving360-Program-Policies-FAQ-0926-interactive.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Footer09/26,24pages. Apple read pp. 2–3 and13–19; root independently read pp.13–14 and18–19, including the conflicting timing and company-specific matching answers.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D2",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.dafgiving360.org/charities",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read public recipient resource page; historical industry giving totals are not used as a project forecast or donor lead.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "workplace_giving_source_id": "D3",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://bynder.schwab.com/m/4511d2b779c7b4e4/original/Schwab-Charitable-What-charities-should-know-about-Schwab-Charitable-granting-guidelines.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current linked two-page charity guide, footer05/25; Apple and root read complete text. Historical filename is retained literally.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D4",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.dafgiving360.org/resource/2026-guidelines",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Two pages, footer09/26; Apple and root read complete text. Donor recommendation and contribution dates remain distinct.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D5",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Two pages, footer09/26; Apple and root read complete text. Donor recommendation and contribution dates remain distinct.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D5",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "One-page illustrative letter dated February4,2025; Apple and root read it. No named sample person, charity or amount is a project relationship.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D6",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Two-page guide, footer05/25; Apple and root read it. Its public guidance identifies no central DAF donor prospect database; no outreach or invented prospect follows.",
+      "opportunity_ids": [
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "D7",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    },
+    {
+      "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Root read the substantive organizational-form and organizing-document requirements. General guidance does not establish current project status.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES",
+        "FIDELITY-CHARITABLE-DAF",
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly source-review procedure",
+        "Before a concrete action or reliance on these recipient rules",
+        "Changed provider, recipient, fee, privacy, donor/employer or grant terms; conflicting or inaccessible source"
+      ],
+      "state": "Public source read at the expressly recorded scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "workplace_giving_source_id": "G1",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
+    }
   ],
   "rules": [
     "Preserve source event, publication, access and analysis dates separately.",
@@ -5614,6 +6123,369 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 239,
-  "additional_unverified_endpoint_count": 28
+  "source_evidence_url_count": 263,
+  "additional_unverified_endpoint_count": 28,
+  "workplace_giving_observations": {
+    "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+    "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+    "prepared_on": "2026-10-19",
+    "scope": "Additive current E04-04 observations. All 267 original source rows and their order remain exact; no original successful date or unrelated finding is refreshed.",
+    "sources": [
+      {
+        "source_id": "B1",
+        "url": "https://benevity.com/nonprofits",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read the public nonprofit landing page: registration channel, no joining fee and ongoing eligibility context; no account action.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B2",
+        "url": "https://causeshelp.benevity.org/hc/en-us/articles/30836041402260-How-does-Benevity-assess-eligibility-of-my-organization",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read complete public article; displayed updated August 28, 2026. Client rules remain separate.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B3",
+        "url": "https://causeshelp.benevity.org/hc/en-us/articles/50062624508052-How-does-my-organization-accept-the-Causes-Terms-of-Use",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read complete public help article; displayed June 8, 2026. No acceptance or profile claim performed.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B4",
+        "url": "https://causeshelp.benevity.org/hc/article_attachments/50062607999636",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Twelve-page PDF, visible Last Updated January 2024 despite legacy filename. Root read the access, eligibility, ownership and foundation clauses and complete §§5.7–8; Android source assistance independently checked the latter and cross-references. No actual agreement accepted.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B5",
+        "url": "https://causeshelp.benevity.org/hc/en-us/articles/360001142723-What-fees-can-be-deducted-from-donations",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read public article, displayed June 12, 2026; follow the actual current fee-schedule link.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B6",
+        "url": "https://go.benevity.com/hubfs/website/en/Benevity-Fees-Schedule.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Last Updated October 1, 2026; seven pages. Android retrieved and inspected the PDF; root independently read all extracted text, including foundation rows and footnotes. No actual client's fee contract was inspected.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B7",
+        "url": "https://go.benevity.com/hubfs/website/client-and-prospect-files/Benevity-Platform-Guidelines.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Six pages, revised December 2025. Initial web-reader failure followed by actual HTTP 200 PDF retrieval. Android and root read all extracted text; Android also checked rendered restriction pages.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B7h",
+        "url": "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Six pages, revised July 2025, actual HTTP 200. Android compared complete text with B7; root received that scoped comparison and read current B7 directly. Historical version, not a current-policy substitute.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B7f",
+        "url": "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "review_scope": "Actual HTTP 404 on October 19 after an earlier web-reader failure; no successful content verification or invented policy text. B7 supplies the separately identified readable current original.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "HTTP 404; no policy content read",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "B8",
+        "url": "https://benevity.com/legal/privacy-notice",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Visible October 1, 2025. Android read complete public text; root read the controller, retention, rights, transfer and service supplements, including Cause Portal Users. No separate security, DPF-certification or client-DPA audit claimed.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES"
+        ]
+      },
+      {
+        "source_id": "F1",
+        "url": "https://www.fidelitycharitable.org/nonprofits/faqs.html",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read recipient/application, EFT, timing, donor-detail and acknowledgment questions. No private enrollment/Stripe dashboard accessed.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "FIDELITY-CHARITABLE-DAF"
+        ]
+      },
+      {
+        "source_id": "F2",
+        "url": "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read full public eligibility answer, with specified recipient classes and exclusions.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "FIDELITY-CHARITABLE-DAF"
+        ]
+      },
+      {
+        "source_id": "F3",
+        "url": "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read the public recommendation and charitable-purpose guidance; actual donor/grant facts remain absent.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "FIDELITY-CHARITABLE-DAF"
+        ]
+      },
+      {
+        "source_id": "F4",
+        "url": "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Twenty-two-page PDF, root read printed pp. 9–12 grant provisions and pp. 16–17 miscellaneous provisions; footer has ©2026 and code CGF-PC-04/24, not an inferred new effective date. An earlier guessed legacy path failed; the actual FAQ-linked current PDF succeeded. No full tax/investment review claimed.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "FIDELITY-CHARITABLE-DAF"
+        ]
+      },
+      {
+        "source_id": "D1",
+        "url": "https://www.dafgiving360.org/resource/dafgiving360-program-policies",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Landing dated August 7, 2026; PDF updated August 2026. Apple source assistant read pp. 9–11 and 24–29. Root independently read full pp. 24–29 from the exact captured PDF text; web PDF parsing failed but direct public retrieval succeeded. No full 42-page legal audit claimed.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D1",
+        "url": "https://bynder.schwab.com/asset/2b6117aa-31f9-4d09-8bb6-c9e4528ae3a4/DAFgiving360-2026-Program-Policies.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Landing dated August 7, 2026; PDF updated August 2026. Apple source assistant read pp. 9–11 and 24–29. Root independently read full pp. 24–29 from the exact captured PDF text; web PDF parsing failed but direct public retrieval succeeded. No full 42-page legal audit claimed.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D2",
+        "url": "https://www.dafgiving360.org/resource/download-dafgiving360-frequently-asked-questions-pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Footer09/26,24pages. Apple read pp. 2–3 and13–19; root independently read pp.13–14 and18–19, including the conflicting timing and company-specific matching answers.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D2",
+        "url": "https://bynder.schwab.com/asset/11bab08f-9fa5-4349-be05-727c2988c3a7/DAFgiving360-Program-Policies-FAQ-0926-interactive.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Footer09/26,24pages. Apple read pp. 2–3 and13–19; root independently read pp.13–14 and18–19, including the conflicting timing and company-specific matching answers.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D3",
+        "url": "https://www.dafgiving360.org/charities",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read public recipient resource page; historical industry giving totals are not used as a project forecast or donor lead.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D4",
+        "url": "https://bynder.schwab.com/m/4511d2b779c7b4e4/original/Schwab-Charitable-What-charities-should-know-about-Schwab-Charitable-granting-guidelines.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Current linked two-page charity guide, footer05/25; Apple and root read complete text. Historical filename is retained literally.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D5",
+        "url": "https://www.dafgiving360.org/resource/2026-guidelines",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Two pages, footer09/26; Apple and root read complete text. Donor recommendation and contribution dates remain distinct.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D5",
+        "url": "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Two pages, footer09/26; Apple and root read complete text. Donor recommendation and contribution dates remain distinct.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D6",
+        "url": "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "One-page illustrative letter dated February4,2025; Apple and root read it. No named sample person, charity or amount is a project relationship.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "D7",
+        "url": "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Two-page guide, footer05/25; Apple and root read it. Its public guidance identifies no central DAF donor prospect database; no outreach or invented prospect follows.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "DAFGIVING360-RECIPIENT"
+        ]
+      },
+      {
+        "source_id": "G1",
+        "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "review_scope": "Root read the substantive organizational-form and organizing-document requirements. General guidance does not establish current project status.",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "access_result": "Public source read at the expressly recorded scope",
+        "provider_version_is_distinct_from_access_date": true,
+        "opportunity_ids": [
+          "BENEVITY-CAUSES",
+          "FIDELITY-CHARITABLE-DAF",
+          "DAFGIVING360-RECIPIENT"
+        ]
+      }
+    ],
+    "prior_failed_or_partial_attempts": [
+      {
+        "url": "https://go.benevity.com/hubfs/website/client-and-prospect-files/Benevity-Platform-Guidelines.pdf",
+        "observed_on": "2026-10-19",
+        "result": "Initial web reader exposed metadata or an internal failure; later direct HTTP 200 supplied separately identified actual content."
+      },
+      {
+        "url": "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
+        "observed_on": "2026-10-19",
+        "result": "Earlier web reader failure followed by actual HTTP 404; no readable policy."
+      },
+      {
+        "url": "https://www.fidelitycharitable.org/~/media/docs/Giving-Account/fidelity-charitable-program-guidelines.pdf",
+        "observed_on": "2026-10-19",
+        "result": "Guessed legacy URL returned tool Internal Error; no HTTP status or content verified. The actual FAQ-linked PDF was separately read."
+      },
+      {
+        "url": "https://bynder.schwab.com/asset/2b6117aa-31f9-4d09-8bb6-c9e4528ae3a4/DAFgiving360-2026-Program-Policies.pdf",
+        "observed_on": "2026-10-19",
+        "result": "Root web PDF parser failed; the exact direct public capture succeeded and root inspected the specified extracted pages."
+      }
+    ],
+    "private_form_success_dates": {
+      "Benevity_actual_recipient_registration": null,
+      "Fidelity_actual_recipient_EFT": null,
+      "DAFgiving360_actual_donor_recommendation": null
+    },
+    "independent_findings_acceptance": "Pending"
+  }
 }

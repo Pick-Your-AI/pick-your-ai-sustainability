@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 43,
+  "records_count": 45,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -3090,6 +3090,351 @@
       "opportunity_id": "BENEVITY-CAUSES",
       "provider": "Benevity",
       "program_name": "Causes Portal / workplace giving channel",
+      "program_aliases": [
+        "Benevity Causes",
+        "Causes Portal"
+      ],
+      "round": null,
+      "category": "sponsorship",
+      "support_type": "workplace_giving_channel",
+      "official_program_url": "https://benevity.com/nonprofits",
+      "official_application_url": "https://causes.benevity.org",
+      "eligibility_jurisdiction": "Actual recipient jurisdiction and applicable provider/foundation rules remain Unknown; see the separate route assessment.",
+      "legal_entity_requirements": "Published recipient rules are documented in the canonical provider comparison; actual legal recipient, status and authority remain Unknown.",
+      "available_before_incorporation": "Unknown; organizational form and recognized charitable status are separate facts, and no actual recipient is qualified.",
+      "available_through_fiscal_sponsorship": "Unknown; the qualified-host possibility is a conditional research inference, not verified admission or an executed host arrangement.",
+      "available_after_501c3_recognition": "Unknown for the actual entity; recognition would not resolve all provider, purpose, governance and grant-specific requirements.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Apply the provider-specific public requirements and unresolved actual facts in docs/research/workplace-giving-and-daf-routes.md; no universal DAF or employer policy is inferred."
+      ],
+      "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
+      "application_status": "Public registration/claim route documented; actual profile ownership, eligibility, employer admission and private fields remain unverified.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Contingent charitable support after separate donor/employer and sponsor decisions; no project amount, matching ratio or receipt established.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Use only actual settled permitted funds less supported fees, restrictions and unavoidable delivery/administration costs; avoid duplicate gross/net and match accounting. No defensible project amount or avoided-cost counterfactual exists yet. See the canonical method.",
+      "restrictions_and_obligations": [
+        "See the provider-specific restrictions, reporting, marks, publication, privacy, payment, portability, renewal and independence assessment in docs/research/workplace-giving-and-daf-routes.md.",
+        "Actual grant, host, banking, donor and employer conditions remain to be reviewed; public access is not an entitlement."
+      ],
+      "program_objectives": "Charitable support through the separately documented provider route; actual program admission and project funding are unestablished.",
+      "fit_with_pick_your_ai": "Proposed educational AI-evidence guide, accessible explanation and reproducible source notes; actual demand, capacity and outcomes remain Unknown.",
+      "required_application_evidence": [
+        "Published registration guidance requires an authority declaration and profile-owner Terms acceptance; complete actual recipient form contents remain unverified (B3).",
+        "Published eligibility guidance reviews charitable status and applicable program conditions; the actual recipient verification request is unestablished (B2)."
+      ],
+      "required_contacts_or_decisions": [
+        "Establish the actual legal recipient or fiscal host, charitable classification, authorized representative and banking authority.",
+        "Establish a supported public-benefit need, rights-cleared scope and genuine delivery/reporting capacity.",
+        "Review the applicable provider, host, donor or employer conditions and actual grant/payment terms before any concrete action.",
+        "Retain donor privacy, independent findings, permitted-use records, reconciliation and exit/refund controls."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+      "sources": [
+        {
+          "source_id": "B1",
+          "url": "https://benevity.com/nonprofits",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read the public nonprofit landing page: registration channel, no joining fee and ongoing eligibility context; no account action.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B2",
+          "url": "https://causeshelp.benevity.org/hc/en-us/articles/30836041402260-How-does-Benevity-assess-eligibility-of-my-organization",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read complete public article; displayed updated August 28, 2026. Client rules remain separate.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B3",
+          "url": "https://causeshelp.benevity.org/hc/en-us/articles/50062624508052-How-does-my-organization-accept-the-Causes-Terms-of-Use",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read complete public help article; displayed June 8, 2026. No acceptance or profile claim performed.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B4",
+          "url": "https://causeshelp.benevity.org/hc/article_attachments/50062607999636",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Twelve-page PDF, visible Last Updated January 2024 despite legacy filename. Root read the access, eligibility, ownership and foundation clauses and complete §§5.7–8; Android source assistance independently checked the latter and cross-references. No actual agreement accepted.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B5",
+          "url": "https://causeshelp.benevity.org/hc/en-us/articles/360001142723-What-fees-can-be-deducted-from-donations",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read public article, displayed June 12, 2026; follow the actual current fee-schedule link.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B6",
+          "url": "https://go.benevity.com/hubfs/website/en/Benevity-Fees-Schedule.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Last Updated October 1, 2026; seven pages. Android retrieved and inspected the PDF; root independently read all extracted text, including foundation rows and footnotes. No actual client's fee contract was inspected.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B7",
+          "url": "https://go.benevity.com/hubfs/website/client-and-prospect-files/Benevity-Platform-Guidelines.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Six pages, revised December 2025. Initial web-reader failure followed by actual HTTP 200 PDF retrieval. Android and root read all extracted text; Android also checked rendered restriction pages.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B7h",
+          "url": "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Six pages, revised July 2025, actual HTTP 200. Android compared complete text with B7; root received that scoped comparison and read current B7 directly. Historical version, not a current-policy substitute.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B7f",
+          "url": "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "review_scope": "Actual HTTP 404 on October 19 after an earlier web-reader failure; no successful content verification or invented policy text. B7 supplies the separately identified readable current original.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "HTTP 404; no policy content read",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "B8",
+          "url": "https://benevity.com/legal/privacy-notice",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Visible October 1, 2025. Android read complete public text; root read the controller, retention, rights, transfer and service supplements, including Cause Portal Users. No separate security, DPF-certification or client-DPA audit claimed.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "G1",
+          "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read the substantive organizational-form and organizing-document requirements. General guidance does not establish current project status.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "P2 is a research priority. Actual eligibility, supported need, value and effort are unresolved; all weighted factors and total remain null."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any concrete registration, solicitation, receipt or agreement; on provider, fee, privacy, recipient/host, employer, purpose, grant or source-access changes; existing monthly procedure.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+      "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Potential provider/recipient obligations documented; actual grant and host duties and dates remain unestablished.",
+      "reporting_obligations": [
+        "Use the actual accepted terms and grant advice; no binding project schedule is created by this research."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Benevity Causes",
+          "Causes Portal",
+          "Benevity",
+          "Causes Portal / workplace giving channel"
+        ],
+        "canonical_match": "BENEVITY-CAUSES",
+        "scope": "Complete organization issue/PR searches and local register/source comparison; see canonical duplicate-check section.",
+        "limitations": [
+          "An earlier unqualified Schwab search returned 422 and supplies no evidence; corrected issue and PR searches each returned complete zero results.",
+          "No donor, employer or private account search or contact occurred."
+        ]
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "limitations": [
+          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+        ]
+      },
+      "owning_research_key": "E04-04",
+      "source_urls": [
+        "https://benevity.com/nonprofits",
+        "https://causeshelp.benevity.org/hc/en-us/articles/30836041402260-How-does-Benevity-assess-eligibility-of-my-organization",
+        "https://causeshelp.benevity.org/hc/en-us/articles/50062624508052-How-does-my-organization-accept-the-Causes-Terms-of-Use",
+        "https://causeshelp.benevity.org/hc/article_attachments/50062607999636",
+        "https://causeshelp.benevity.org/hc/en-us/articles/360001142723-What-fees-can-be-deducted-from-donations",
+        "https://go.benevity.com/hubfs/website/en/Benevity-Fees-Schedule.pdf",
+        "https://go.benevity.com/hubfs/website/client-and-prospect-files/Benevity-Platform-Guidelines.pdf",
+        "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
+        "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
+        "https://benevity.com/legal/privacy-notice",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+      ],
+      "application_url": "https://causes.benevity.org",
+      "source_evidence": [
+        "See the canonical E04-04 comparison and dated observation scopes; prior seed and E03-08 mechanism findings retain their original scope and dates."
+      ],
+      "benefit": "Contingent charitable support after separate donor/employer and sponsor decisions; no project amount, matching ratio or receipt established.",
+      "required_application_evidence_status": "Only explicitly documented public registration/eligibility requirements are listed; the current recipient-specific form and supporting requests have not been inspected.",
+      "published_qualification_requirements": [
+        "Apply the provider-specific public requirements and unresolved actual facts in docs/research/workplace-giving-and-daf-routes.md; no universal DAF or employer policy is inferred."
+      ],
+      "internal_application_review_controls": [
+        "Establish supported public-benefit need, a rights-cleared scope and genuine delivery/reporting capacity.",
+        "Establish actual decision and banking authority, permitted use, documented costs, reconciliation, privacy and exit/refund controls.",
+        "Preserve the accepted neutrality proposal and independent evaluation; these are project review controls, not universal provider requirements."
+      ],
+      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions.",
+      "priority_recommendation": "P2",
+      "score": null,
+      "scoring_justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
+      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "independent_source_review": {
+        "reviewed_on": "2026-10-19",
+        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+      },
+      "related_research_keys": [],
+      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "applicant_qualification_status": "Unknown",
+      "estimated_usable_value_method": "Use only actual settled permitted funds less supported fees, restrictions and unavoidable delivery/administration costs; avoid duplicate gross/net and match accounting. No defensible project amount or avoided-cost counterfactual exists yet. See the canonical method.",
+      "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
+      "award_status": "Unknown; no award evidence established",
+      "application_route_description": "Public registration/claim route documented; actual profile ownership, eligibility, employer admission and private fields remain unverified.",
+      "currency_status": null,
+      "current_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "deadline_local_time": null,
+      "deadline_utc": null,
+      "gate": null,
+      "jurisdiction": null,
+      "priority_scope_note": null,
+      "recommended_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "source_refs": [
+        "https://benevity.com/nonprofits",
+        "https://causeshelp.benevity.org/hc/en-us/articles/30836041402260-How-does-Benevity-assess-eligibility-of-my-organization",
+        "https://causeshelp.benevity.org/hc/en-us/articles/50062624508052-How-does-my-organization-accept-the-Causes-Terms-of-Use",
+        "https://causeshelp.benevity.org/hc/article_attachments/50062607999636",
+        "https://causeshelp.benevity.org/hc/en-us/articles/360001142723-What-fees-can-be-deducted-from-donations",
+        "https://go.benevity.com/hubfs/website/en/Benevity-Fees-Schedule.pdf",
+        "https://go.benevity.com/hubfs/website/client-and-prospect-files/Benevity-Platform-Guidelines.pdf",
+        "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
+        "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
+        "https://benevity.com/legal/privacy-notice",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+      ],
+      "related_research_issue_urls": [],
+      "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
+      "github_link_verification": {
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
+        "read_at": "2026-10-19T04:59:39.870Z",
+        "issue_number": 36,
+        "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "award_mechanism_screen": {
+        "schema_version": "award-mechanism-screen/v1",
+        "owning_research_key": "E03-08",
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "canonical_matrix": "docs/funding/award-mechanisms-and-restrictions.md",
+        "compared_on": "2026-10-19",
+        "input_record_revision": "85ad9fb524c9c496ea1c5d025cafe0b9731ef51e",
+        "mechanism": "workplace_donation_channel",
+        "actual_payment_terms_status": "Unknown or Not applicable as explicitly identified in the matrix.",
+        "missing_terms": "Actual employer match, recipient, deductions, timing, restrictions and portal terms unestablished.",
+        "evidence_basis": "Attributed seed only; current specific terms unverified",
+        "source_refs": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/85ad9fb524c9c496ea1c5d025cafe0b9731ef51e/data/opportunities.json"
+        ],
+        "three_route_assessment": "See the named matrix row and the three existing eligibility fields; no existing applicant qualification is advanced.",
+        "cash_versus_noncash_rule": "No contingent offer, personal stipend, credit or host-held amount is posted as unrestricted project cash.",
+        "material_acceptance_gate": "Actual recipient, instrument, cost allocation and independent legal/financial review must resolve the matrix checklist.",
+        "independent_review": {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending substantive findings acceptance for this E03-08 screen only."
+        },
+        "owner_scope_preserved": "Existing owner, work status, eligibility, opportunity stage and original findings remain with the canonical program issue."
+      },
+      "award_mechanism_review": {
+        "owning_research_key": "E03-08",
+        "scope": "Actual award-mechanism screen findings only; existing program-owner lifecycle and applicant facts are separate.",
+        "reviewer": "Independent Android/engineering reviewer in the current project session (GitHub COMMENT through the shared account)",
+        "reviewed_revision": "5302c991db1087383f282663f7315f42d7054522",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/115#pullrequestreview-5575474352",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T17:46:35Z",
+        "decision": "Accepted with constraints against all thirteen literal research criteria.",
+        "limitations": [
+          "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
+          "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
+          "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
+      },
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+      "workplace_giving_research": {
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "prepared_on": "2026-10-19",
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
+        "independent_findings_acceptance": "Pending",
+        "source_observation_count": 11
+      },
+      "workplace_giving_input_history": {
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "original_record_blob_sha1": "743bb8ca1a97b460ce192df552fa50a34367265f",
+        "scope": "Complete earlier BENEVITY-CAUSES object retained below as historical input; the separate E03-08 mechanism namespaces remain unchanged in the active record.",
+        "prior_record": {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "BENEVITY-CAUSES",
+      "provider": "Benevity",
+      "program_name": "Causes Portal / workplace giving channel",
       "program_aliases": [],
       "round": null,
       "category": "sponsorship",
@@ -3275,6 +3620,8 @@
           "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
           "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
         ]
+      }
+    }
       }
     },
     {
@@ -9784,6 +10131,461 @@
           "scope": "Original published research state before actual findings review5575474352."
         }
       ]
+    }
+  ,
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "FIDELITY-CHARITABLE-DAF",
+      "provider": "Fidelity Charitable",
+      "program_name": "Donor-advised charitable grant recipient route",
+      "program_aliases": [
+        "Fidelity Charitable recipient grants"
+      ],
+      "round": null,
+      "category": "sponsorship",
+      "support_type": "donor_advised_charitable_grant_recipient",
+      "official_program_url": "https://www.fidelitycharitable.org/nonprofits/faqs.html",
+      "official_application_url": null,
+      "eligibility_jurisdiction": "Actual recipient jurisdiction and applicable provider/foundation rules remain Unknown; see the separate route assessment.",
+      "legal_entity_requirements": "Published recipient rules are documented in the canonical provider comparison; actual legal recipient, status and authority remain Unknown.",
+      "available_before_incorporation": "Unknown; organizational form and recognized charitable status are separate facts, and no actual recipient is qualified.",
+      "available_through_fiscal_sponsorship": "Unknown; the qualified-host possibility is a conditional research inference, not verified admission or an executed host arrangement.",
+      "available_after_501c3_recognition": "Unknown for the actual entity; recognition would not resolve all provider, purpose, governance and grant-specific requirements.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Apply the provider-specific public requirements and unresolved actual facts in docs/research/workplace-giving-and-daf-routes.md; no universal DAF or employer policy is inferred."
+      ],
+      "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
+      "application_status": "Donors recommend grants; the recipient FAQ states that funding applications are not accepted. Recipient EFT enrollment is a separate payment step, not a grant application.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Contingent charitable support after separate donor/employer and sponsor decisions; no project amount, matching ratio or receipt established.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Use only actual settled permitted funds less supported fees, restrictions and unavoidable delivery/administration costs; avoid duplicate gross/net and match accounting. No defensible project amount or avoided-cost counterfactual exists yet. See the canonical method.",
+      "restrictions_and_obligations": [
+        "See the provider-specific restrictions, reporting, marks, publication, privacy, payment, portability, renewal and independence assessment in docs/research/workplace-giving-and-daf-routes.md.",
+        "Actual grant, host, banking, donor and employer conditions remain to be reviewed; public access is not an entitlement."
+      ],
+      "program_objectives": "Charitable support through the separately documented provider route; actual program admission and project funding are unestablished.",
+      "fit_with_pick_your_ai": "Proposed educational AI-evidence guide, accessible explanation and reproducible source notes; actual demand, capacity and outcomes remain Unknown.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Establish the actual legal recipient or fiscal host, charitable classification, authorized representative and banking authority.",
+        "Establish a supported public-benefit need, rights-cleared scope and genuine delivery/reporting capacity.",
+        "Review the applicable provider, host, donor or employer conditions and actual grant/payment terms before any concrete action.",
+        "Retain donor privacy, independent findings, permitted-use records, reconciliation and exit/refund controls."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+      "sources": [
+        {
+          "source_id": "F1",
+          "url": "https://www.fidelitycharitable.org/nonprofits/faqs.html",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read recipient/application, EFT, timing, donor-detail and acknowledgment questions. No private enrollment/Stripe dashboard accessed.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "F2",
+          "url": "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read full public eligibility answer, with specified recipient classes and exclusions.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "F3",
+          "url": "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read the public recommendation and charitable-purpose guidance; actual donor/grant facts remain absent.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "F4",
+          "url": "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Twenty-two-page PDF, root read printed pp. 9–12 grant provisions and pp. 16–17 miscellaneous provisions; footer has ©2026 and code CGF-PC-04/24, not an inferred new effective date. An earlier guessed legacy path failed; the actual FAQ-linked current PDF succeeded. No full tax/investment review claimed.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "G1",
+          "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read the substantive organizational-form and organizing-document requirements. General guidance does not establish current project status.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "P2 is a research priority. Actual eligibility, supported need, value and effort are unresolved; all weighted factors and total remain null."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any concrete registration, solicitation, receipt or agreement; on provider, fee, privacy, recipient/host, employer, purpose, grant or source-access changes; existing monthly procedure.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+      "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Potential provider/recipient obligations documented; actual grant and host duties and dates remain unestablished.",
+      "reporting_obligations": [
+        "Use the actual accepted terms and grant advice; no binding project schedule is created by this research."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Fidelity Charitable recipient grants",
+          "Fidelity Charitable",
+          "Donor-advised charitable grant recipient route"
+        ],
+        "canonical_match": "FIDELITY-CHARITABLE-DAF",
+        "scope": "Complete organization issue/PR searches and local register/source comparison; see canonical duplicate-check section.",
+        "limitations": [
+          "An earlier unqualified Schwab search returned 422 and supplies no evidence; corrected issue and PR searches each returned complete zero results.",
+          "No donor, employer or private account search or contact occurred."
+        ]
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "limitations": [
+          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+        ]
+      },
+      "owning_research_key": "E04-04",
+      "source_urls": [
+        "https://www.fidelitycharitable.org/nonprofits/faqs.html",
+        "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
+        "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
+        "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+      ],
+      "source_refs": [
+        "https://www.fidelitycharitable.org/nonprofits/faqs.html",
+        "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
+        "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
+        "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+      ],
+      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "application_route_description": "Donors recommend grants; the recipient FAQ states that funding applications are not accepted. Recipient EFT enrollment is a separate payment step, not a grant application.",
+      "award_status": "Unknown; no award evidence established",
+      "score": null,
+      "current_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+      "workplace_giving_research": {
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "prepared_on": "2026-10-19",
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
+        "independent_findings_acceptance": "Pending",
+        "source_observation_count": 5
+      },
+      "required_application_evidence_status": "No competitive funding-application checklist applies to the bounded donor-recommendation screen; actual recipient verification and payment form contents remain unverified. Public requirements are scoped in the canonical source map.",
+      "internal_application_review_controls": [
+        "Establish supported public-benefit need, a rights-cleared scope and genuine delivery/reporting capacity.",
+        "Establish actual decision and banking authority, permitted use, documented costs, reconciliation, privacy and exit/refund controls.",
+        "Preserve the accepted neutrality proposal and independent evaluation; these are project review controls, not universal provider requirements."
+      ],
+      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions."
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "DAFGIVING360-RECIPIENT",
+      "provider": "DAFgiving360",
+      "program_name": "Donor-advised charitable grant recipient route",
+      "program_aliases": [
+        "Schwab Charitable",
+        "DAFgiving360 charity recipients"
+      ],
+      "round": null,
+      "category": "sponsorship",
+      "support_type": "donor_advised_charitable_grant_recipient",
+      "official_program_url": "https://www.dafgiving360.org/charities",
+      "official_application_url": null,
+      "eligibility_jurisdiction": "Actual recipient jurisdiction and applicable provider/foundation rules remain Unknown; see the separate route assessment.",
+      "legal_entity_requirements": "Published recipient rules are documented in the canonical provider comparison; actual legal recipient, status and authority remain Unknown.",
+      "available_before_incorporation": "Unknown; organizational form and recognized charitable status are separate facts, and no actual recipient is qualified.",
+      "available_through_fiscal_sponsorship": "Unknown; the qualified-host possibility is a conditional research inference, not verified admission or an executed host arrangement.",
+      "available_after_501c3_recognition": "Unknown for the actual entity; recognition would not resolve all provider, purpose, governance and grant-specific requirements.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Apply the provider-specific public requirements and unresolved actual facts in docs/research/workplace-giving-and-daf-routes.md; no universal DAF or employer policy is inferred."
+      ],
+      "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
+      "application_status": "Donor-initiated recommendations and sponsor review; no competitive recipient application round or fixed nonprofit deadline was identified in the bounded public source set.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Contingent charitable support after separate donor/employer and sponsor decisions; no project amount, matching ratio or receipt established.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Use only actual settled permitted funds less supported fees, restrictions and unavoidable delivery/administration costs; avoid duplicate gross/net and match accounting. No defensible project amount or avoided-cost counterfactual exists yet. See the canonical method.",
+      "restrictions_and_obligations": [
+        "See the provider-specific restrictions, reporting, marks, publication, privacy, payment, portability, renewal and independence assessment in docs/research/workplace-giving-and-daf-routes.md.",
+        "Actual grant, host, banking, donor and employer conditions remain to be reviewed; public access is not an entitlement."
+      ],
+      "program_objectives": "Charitable support through the separately documented provider route; actual program admission and project funding are unestablished.",
+      "fit_with_pick_your_ai": "Proposed educational AI-evidence guide, accessible explanation and reproducible source notes; actual demand, capacity and outcomes remain Unknown.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Establish the actual legal recipient or fiscal host, charitable classification, authorized representative and banking authority.",
+        "Establish a supported public-benefit need, rights-cleared scope and genuine delivery/reporting capacity.",
+        "Review the applicable provider, host, donor or employer conditions and actual grant/payment terms before any concrete action.",
+        "Retain donor privacy, independent findings, permitted-use records, reconciliation and exit/refund controls."
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+      "sources": [
+        {
+          "source_id": "D1",
+          "url": "https://www.dafgiving360.org/resource/dafgiving360-program-policies",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Landing dated August 7, 2026; PDF updated August 2026. Apple source assistant read pp. 9–11 and 24–29. Root independently read full pp. 24–29 from the exact captured PDF text; web PDF parsing failed but direct public retrieval succeeded. No full 42-page legal audit claimed.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D1",
+          "url": "https://bynder.schwab.com/asset/2b6117aa-31f9-4d09-8bb6-c9e4528ae3a4/DAFgiving360-2026-Program-Policies.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Landing dated August 7, 2026; PDF updated August 2026. Apple source assistant read pp. 9–11 and 24–29. Root independently read full pp. 24–29 from the exact captured PDF text; web PDF parsing failed but direct public retrieval succeeded. No full 42-page legal audit claimed.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D2",
+          "url": "https://www.dafgiving360.org/resource/download-dafgiving360-frequently-asked-questions-pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Footer09/26,24pages. Apple read pp. 2–3 and13–19; root independently read pp.13–14 and18–19, including the conflicting timing and company-specific matching answers.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D2",
+          "url": "https://bynder.schwab.com/asset/11bab08f-9fa5-4349-be05-727c2988c3a7/DAFgiving360-Program-Policies-FAQ-0926-interactive.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Footer09/26,24pages. Apple read pp. 2–3 and13–19; root independently read pp.13–14 and18–19, including the conflicting timing and company-specific matching answers.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D3",
+          "url": "https://www.dafgiving360.org/charities",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read public recipient resource page; historical industry giving totals are not used as a project forecast or donor lead.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D4",
+          "url": "https://bynder.schwab.com/m/4511d2b779c7b4e4/original/Schwab-Charitable-What-charities-should-know-about-Schwab-Charitable-granting-guidelines.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current linked two-page charity guide, footer05/25; Apple and root read complete text. Historical filename is retained literally.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D5",
+          "url": "https://www.dafgiving360.org/resource/2026-guidelines",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Two pages, footer09/26; Apple and root read complete text. Donor recommendation and contribution dates remain distinct.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D5",
+          "url": "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Two pages, footer09/26; Apple and root read complete text. Donor recommendation and contribution dates remain distinct.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D6",
+          "url": "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "One-page illustrative letter dated February4,2025; Apple and root read it. No named sample person, charity or amount is a project relationship.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "D7",
+          "url": "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Two-page guide, footer05/25; Apple and root read it. Its public guidance identifies no central DAF donor prospect database; no outreach or invented prospect follows.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "source_id": "G1",
+          "url": "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "review_scope": "Root read the substantive organizational-form and organizing-document requirements. General guidance does not establish current project status.",
+          "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+          "access_result": "Public source read at the expressly recorded scope",
+          "provider_version_is_distinct_from_access_date": true
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "P2 is a research priority. Actual eligibility, supported need, value and effort are unresolved; all weighted factors and total remain null."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any concrete registration, solicitation, receipt or agreement; on provider, fee, privacy, recipient/host, employer, purpose, grant or source-access changes; existing monthly procedure.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+      "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Potential provider/recipient obligations documented; actual grant and host duties and dates remain unestablished.",
+      "reporting_obligations": [
+        "Use the actual accepted terms and grant advice; no binding project schedule is created by this research."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Schwab Charitable",
+          "DAFgiving360 charity recipients",
+          "DAFgiving360",
+          "Donor-advised charitable grant recipient route"
+        ],
+        "canonical_match": "DAFGIVING360-RECIPIENT",
+        "scope": "Complete organization issue/PR searches and local register/source comparison; see canonical duplicate-check section.",
+        "limitations": [
+          "An earlier unqualified Schwab search returned 422 and supplies no evidence; corrected issue and PR searches each returned complete zero results.",
+          "No donor, employer or private account search or contact occurred."
+        ]
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "limitations": [
+          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+        ]
+      },
+      "owning_research_key": "E04-04",
+      "source_urls": [
+        "https://www.dafgiving360.org/resource/dafgiving360-program-policies",
+        "https://bynder.schwab.com/asset/2b6117aa-31f9-4d09-8bb6-c9e4528ae3a4/DAFgiving360-2026-Program-Policies.pdf",
+        "https://www.dafgiving360.org/resource/download-dafgiving360-frequently-asked-questions-pdf",
+        "https://bynder.schwab.com/asset/11bab08f-9fa5-4349-be05-727c2988c3a7/DAFgiving360-Program-Policies-FAQ-0926-interactive.pdf",
+        "https://www.dafgiving360.org/charities",
+        "https://bynder.schwab.com/m/4511d2b779c7b4e4/original/Schwab-Charitable-What-charities-should-know-about-Schwab-Charitable-granting-guidelines.pdf",
+        "https://www.dafgiving360.org/resource/2026-guidelines",
+        "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
+        "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
+        "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+      ],
+      "source_refs": [
+        "https://www.dafgiving360.org/resource/dafgiving360-program-policies",
+        "https://bynder.schwab.com/asset/2b6117aa-31f9-4d09-8bb6-c9e4528ae3a4/DAFgiving360-2026-Program-Policies.pdf",
+        "https://www.dafgiving360.org/resource/download-dafgiving360-frequently-asked-questions-pdf",
+        "https://bynder.schwab.com/asset/11bab08f-9fa5-4349-be05-727c2988c3a7/DAFgiving360-Program-Policies-FAQ-0926-interactive.pdf",
+        "https://www.dafgiving360.org/charities",
+        "https://bynder.schwab.com/m/4511d2b779c7b4e4/original/Schwab-Charitable-What-charities-should-know-about-Schwab-Charitable-granting-guidelines.pdf",
+        "https://www.dafgiving360.org/resource/2026-guidelines",
+        "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
+        "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
+        "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+      ],
+      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "application_route_description": "Donor-initiated recommendations and sponsor review; no competitive recipient application round or fixed nonprofit deadline was identified in the bounded public source set.",
+      "award_status": "Unknown; no award evidence established",
+      "score": null,
+      "current_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+      "workplace_giving_research": {
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "prepared_on": "2026-10-19",
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
+        "independent_findings_acceptance": "Pending",
+        "source_observation_count": 11
+      },
+      "required_application_evidence_status": "No competitive funding-application checklist applies to the bounded donor-recommendation screen; actual recipient verification and payment form contents remain unverified. Public requirements are scoped in the canonical source map.",
+      "internal_application_review_controls": [
+        "Establish supported public-benefit need, a rights-cleared scope and genuine delivery/reporting capacity.",
+        "Establish actual decision and banking authority, permitted use, documented costs, reconciliation, privacy and exit/refund controls.",
+        "Preserve the accepted neutrality proposal and independent evaluation; these are project review controls, not universal provider requirements."
+      ],
+      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions."
     }
   ],
   "important_limitations": [

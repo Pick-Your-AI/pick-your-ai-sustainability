@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 41,
+  "record_count": 42,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -779,22 +779,22 @@
     {
       "opportunity_id": "GSOC-MENTOR-ORG",
       "program_name": "Summer of Code mentoring organization",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
       "research_status": "Blocked",
       "opportunity_stage": "Discovered",
-      "disposition": null,
-      "eligibility": "Unknown; closed intake",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "disposition": "Prepare capacity; defer application/enrollment and recruitment.",
+      "eligibility": "Unknown actual applicant; historical 2026 organization intake closed and next cycle unverified.",
+      "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Any binding cohort evaluations and calendar depend on actual selected terms; no project schedule established.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Assess readiness and record only officially published future intake dates."
+      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application."
     },
     {
       "opportunity_id": "TECHSOUP-REFURBISHED-HARDWARE",
@@ -835,6 +835,26 @@
       "priority": "P2",
       "score": null,
       "next_action": "Resolve the finite receiving need, actual recipient and custody authority, specific equipment offer and complete cost/exit terms before any provider-specific request or acquisition."
+    },
+    {
+      "opportunity_id": "LFX-MENTORSHIP-HOST",
+      "program_name": "LFX Mentorship project enrollment",
+      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
+      "research_status": "Blocked",
+      "opportunity_stage": "Discovered",
+      "disposition": "Prepare capacity; defer application/enrollment and recruitment.",
+      "eligibility": "Unknown actual project/participant eligibility; no selected term or approved program.",
+      "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "reporting_status": "Any binding cohort evaluations and calendar depend on actual selected terms; no project schedule established.",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P2",
+      "score": null,
+      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application."
     }
   ]
 }

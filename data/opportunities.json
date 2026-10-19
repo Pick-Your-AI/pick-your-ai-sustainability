@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 41,
+  "records_count": 42,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -8012,43 +8012,52 @@
       "opportunity_id": "GSOC-MENTOR-ORG",
       "provider": "Google",
       "program_name": "Summer of Code mentoring organization",
-      "program_aliases": [],
+      "program_aliases": [
+        "GSoC",
+        "Google Summer of Code mentoring organization"
+      ],
       "round": null,
       "category": "partnership",
       "support_type": "mentorship_program",
       "official_program_url": "https://summerofcode.withgoogle.com/how-it-works",
       "official_application_url": "https://summerofcode.withgoogle.com/how-it-works",
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
+      "eligibility_jurisdiction": "Unknown actual organization/contributor route; current rules endpoint unreadable.",
       "legal_entity_requirements": "Open-source mentoring organization meeting program rules",
-      "available_before_incorporation": "Conditionally Eligible in a future confirmed intake",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
-      "eligibility_status": "Unknown; closed intake",
+      "available_before_incorporation": "Unknown actual eligibility; released open-source project, community and mentor evidence not admitted.",
+      "available_through_fiscal_sponsorship": "Unknown; actual host status does not replace project, mentor or program requirements.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish project maturity, available mentors, intake or acceptance.",
+      "eligibility_status": "Unknown actual applicant; historical 2026 organization intake closed and next cycle unverified.",
       "eligibility_conditions": [
-        "An open-source project seeking mentoring-organization acceptance",
-        "Project ideas, available mentors and evaluation capacity; current organization registration is closed"
+        "Public FAQ describes an established active released open-source project.",
+        "Mentor, administrator, ideas and actual capacity evidence required; organization guide has dated community/maturity questions.",
+        "No selected future round or agreement verified."
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Organization registration closed; next-cycle dates not verified",
+      "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
+      "application_status": "Organization registration closed. Dated2026 deadline passed; no later cycle or form verified.",
       "opportunity_stage": "Discovered",
       "work_status": "Blocked",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Supported contributor projects; not a guarantee of free labor or unrestricted funding",
+      "benefit_amount_or_capacity": "Conditional mentored projects; organization payments are separate and no project income or free labor is established.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Count actual teaching, administration, backup hours and evidenced expenses separately. No stipend, donor receipt, labor saving or learning result observed. The note contains only labeled synthetic capacity arithmetic.",
       "restrictions_and_obligations": [
-        "Requires sustained mentor capacity and evaluations.",
-        "Do not assign mentors or invent calendar dates."
+        "Teaching, regular communication, administrator coverage and evaluations under actual round terms.",
+        "Rights-cleared inputs and participant/employer authority; no inferred license.",
+        "No invented future deadline, assigned mentor, guaranteed job or admitted project."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Future bounded education/contributor growth once maintainers can mentor reliably.",
-      "required_application_evidence": [],
+      "program_objectives": "Support newcomer open-source learning through mentored contributor projects.",
+      "fit_with_pick_your_ai": "Prospective evidence-traceability learning; M-01 is preparation, not a full formal program project.",
+      "required_application_evidence": [
+        "Public project and meaningful contributor-ideas proposal for the selected round.",
+        "Evidence addressing published community/mentoring questions; complete current form unverified."
+      ],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Actual authorized project/host representative.",
+        "Agreed primary mentor, backup, administrator and reviewer capacity.",
+        "Rights-cleared task, future intake and participant operating package."
       ],
       "native_dependency_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22"
@@ -8056,10 +8065,104 @@
       "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
       "sources": [
         {
+          "source_id": "S1",
           "url": "https://summerofcode.withgoogle.com/how-it-works",
-          "source_kind": "official",
+          "source_date_text": "[GSoC how it works](https://summerofcode.withgoogle.com/how-it-works), current displayed page",
+          "review_scope": "Workflow and closed organization registration read; no private application inspected.",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S2",
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "source_date_text": "[GSoC timeline](https://developers.google.com/open-source/gsoc/timeline), dated 2026 table; page updated 2025-12-03",
+          "review_scope": "Historical organization intake and extended-project dates read. Page-summary dates conflict with the table; no future cycle inferred.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S3",
+          "url": "https://developers.google.com/open-source/gsoc/faq",
+          "source_date_text": "[GSoC FAQ](https://developers.google.com/open-source/gsoc/faq), updated 2026-02-20",
+          "review_scope": "Public OSS/project and contributor scope read. A summary-only mentor-count assertion is not adopted as a current rule.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S4",
+          "url": "https://developers.google.com/open-source/gsoc/help/responsibilities",
+          "source_date_text": "[GSoC roles and responsibilities](https://developers.google.com/open-source/gsoc/help/responsibilities), updated 2024-07-23",
+          "review_scope": "Full contributor/mentor/administrator guidance read; not a new round agreement.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S5",
+          "url": "https://developers.google.com/open-source/gsoc/help/org-payments",
+          "source_date_text": "[GSoC organization payments](https://developers.google.com/open-source/gsoc/help/org-payments), updated 2026-05-11",
+          "review_scope": "Full public payment guidance read; 2017–2025 account wording, 2025 form label, 2026 reference and older summary remain distinct. Current actual award, payee and calendar terms Unknown.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S6",
+          "url": "https://google.github.io/gsocguides/mentor/",
+          "source_date_text": "[GSoC mentor guide](https://google.github.io/gsocguides/mentor/), site generated 2026-09-15",
+          "review_scope": "Introduction/role/project-size guidance read; historical scale and outcome statements are not project forecasts.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S7",
+          "url": "https://google.github.io/gsocguides/mentor/org-application",
+          "source_date_text": "[GSoC organization application guide](https://google.github.io/gsocguides/mentor/org-application), site generated 2026-09-15",
+          "review_scope": "Full chapter read, including active-community/maturity/ideas guidance and explicit 2025 preference. No actual current application readback.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S8",
+          "url": "https://developers.google.com/open-source/gsoc/rules",
+          "source_date_text": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/)",
+          "review_scope": "Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified"
+        },
+        {
+          "source_id": "S8",
+          "url": "https://summerofcode.withgoogle.com/rules/",
+          "source_date_text": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/)",
+          "review_scope": "Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified"
+        },
+        {
+          "source_id": "S23",
+          "url": "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor",
+          "source_date_text": "[GSoC good-mentor guidance](https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor), site generated 2026-09-15",
+          "review_scope": "Full capacity/self-assessment chapter read. An earlier guessed `/mentor/time-commitment` path was inaccessible; following the actual guide navigation resolved the relevant guidance without inferring unseen content.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
         }
       ],
       "scoring": {
@@ -8072,61 +8175,85 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null."
       },
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Assess readiness and record only officially published future intake dates.",
+      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "next_verification_trigger": "Monthly procedure and before invitation, application, agreement, activation or public qualification; changed terms, redirects, conflicts or an actual new intake.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
-      "reporting_obligations": [],
+      "reporting_status": "Any binding cohort evaluations and calendar depend on actual selected terms; no project schedule established.",
+      "reporting_obligations": [
+        "Inspect actual selected terms and evaluation calendar before acceptance.",
+        "No internal deadline, participant or report recipient assigned."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
-          "Google",
-          "Summer of Code mentoring organization"
+          "Google Summer of Code",
+          "GSoC",
+          "GSOC-MENTOR-ORG"
         ],
         "canonical_match": "GSOC-MENTOR-ORG",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Unique existing E08-05/#66 row reused; separate pending115 award-screen fields not adopted or replaced."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "/root/apple; in-session shared project account",
+        "reviewed_revision": "98418492424f37b3a3afe0c90dc51de7b2f89bf4",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6274369249",
+        "decision": "Initial note changes requested: platform rights/survival and U.S. Activities. Author corrections await successor review; full records were outside the initial scope.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "No full findings acceptance, separate-account approval, actual applicant determination, participant, application, award or activation."
         ]
       },
       "owning_research_key": "E08-05",
       "source_urls": [
-        "https://summerofcode.withgoogle.com/how-it-works"
+        "https://summerofcode.withgoogle.com/how-it-works",
+        "https://developers.google.com/open-source/gsoc/timeline",
+        "https://developers.google.com/open-source/gsoc/faq",
+        "https://developers.google.com/open-source/gsoc/help/responsibilities",
+        "https://developers.google.com/open-source/gsoc/help/org-payments",
+        "https://google.github.io/gsocguides/mentor/",
+        "https://google.github.io/gsocguides/mentor/org-application",
+        "https://developers.google.com/open-source/gsoc/rules",
+        "https://summerofcode.withgoogle.com/rules/",
+        "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "source_evidence": [
-        "Current official workflow lets OSS projects apply as mentor organizations; accepted organizations supply mentors and select contributor proposals.",
-        "Current page states organization registration closed."
+        "Actual public organization registration is closed.",
+        "The dated 2026 table lists January19–February3 at18:00UTC; conflicting summary retained.",
+        "Roles, payments and mentoring guides have distinct dates; headline support is not actual usable value.",
+        "Rules redirect and target exposed zero readable lines."
       ],
-      "benefit": "Supported contributor projects; not a guarantee of free labor or unrestricted funding",
+      "benefit": "Conditional learning/contributor support; no received award, project payment or labor saving.",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "source_freshness": "Public scopes inspected 2026-10-19; unreadable rules and unverified form retain null successful dates.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "scoring_justification": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://summerofcode.withgoogle.com/how-it-works"
+        "https://summerofcode.withgoogle.com/how-it-works",
+        "https://developers.google.com/open-source/gsoc/timeline",
+        "https://developers.google.com/open-source/gsoc/faq",
+        "https://developers.google.com/open-source/gsoc/help/responsibilities",
+        "https://developers.google.com/open-source/gsoc/help/org-payments",
+        "https://google.github.io/gsocguides/mentor/",
+        "https://google.github.io/gsocguides/mentor/org-application",
+        "https://developers.google.com/open-source/gsoc/rules",
+        "https://summerofcode.withgoogle.com/rules/",
+        "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
-      "gate": "Closed intake and unverified mentor capacity",
+      "gate": "Closed intake and unverified actual project, mentor, capacity and rights.",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -8134,28 +8261,28 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "Published guide/FAQ only; no current private form or complete rules inspected.",
       "published_qualification_requirements": [
-        "An open-source project seeking mentoring-organization acceptance",
-        "Project ideas, available mentors and evaluation capacity; current organization registration is closed"
+        "Public FAQ: active open-source project, released code and community.",
+        "Public organization guide: project ideas, community and mentoring questions; explicit2025 preference remains historical."
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "currency_status": "No actual offer, award or intended currency established.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
-      "applicant_qualification_status": "Unknown; closed intake",
-      "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "applicant_qualification_status": "Unknown actual applicant; no project, community, mentor or agreement acceptance.",
+      "score_reason": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Wait for an announced future organization intake and inspect its actual current form/terms before considering an application.",
+      "current_disposition": "Prepare capacity; defer application/enrollment and recruitment.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "Qualitative research priority; no applicant or numeric opportunity score.",
+      "recommended_disposition": "Prepare capacity; defer application/enrollment and recruitment.",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -8163,6 +8290,28 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 66,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "research_assessment_status": "Complete source prepared for successor review; two initial note findings now addressed by the author. Full findings acceptance and canonical delivery remain pending.",
+      "native_dependency_status": "Issue22 was directly read closed; this does not establish program or participant readiness.",
+      "canonical_deliverable": "research/partnerships/mentorship-volunteers.md",
+      "review_history": [
+        {
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Source consistency reviewed; full research deliverable not accepted",
+          "limitations": [
+            "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          ]
+        }
+      ],
+      "source_refs_note": "Includes unreadable rules redirect and target; membership does not establish contents verification.",
+      "historical_intake": {
+        "round": "2026 organization intake",
+        "opens": "2026-01-19T18:00:00Z",
+        "closes": "2026-02-03T18:00:00Z",
+        "source_url": "https://developers.google.com/open-source/gsoc/timeline",
+        "scope": "Historical dated table; page summary differs. No next-cycle deadline."
       }
     },
     {
@@ -8843,6 +8992,329 @@
           "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
         }
       ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "LFX-MENTORSHIP-HOST",
+      "provider": "The Linux Foundation",
+      "program_name": "LFX Mentorship project enrollment",
+      "program_aliases": [
+        "LFX Mentorship",
+        "CommunityBridge Mentorship"
+      ],
+      "round": null,
+      "category": "partnership",
+      "support_type": "mentorship_program",
+      "official_program_url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+      "official_application_url": "https://mentorship.lfx.linuxfoundation.org/",
+      "eligibility_jurisdiction": "Unknown actual participant/location/tool applicability; dated Service 2.2.11 requires clarification before selecting a location or tool.",
+      "legal_entity_requirements": "Actual project representative authority and enrollment conditions unverified; recognition alone does not establish admission.",
+      "available_before_incorporation": "Unknown actual eligibility; community-project scope does not establish an authorized maintainer, accepted project or mentor capacity.",
+      "available_through_fiscal_sponsorship": "Unknown; host status supplies none of the actual project, mentor, participant or platform-authority facts.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish open-source fit, enrollment or program prerequisites.",
+      "eligibility_status": "Unknown actual project/participant eligibility; no selected term or approved program.",
+      "eligibility_conditions": [
+        "Enrollment guide describes open-source scope, adoption and mission alignment, followed by LF review.",
+        "Published preparation includes badge identifier, code-of-conduct link and mentor details; actual form not inspected.",
+        "Individual eligibility and actual location, equipment and agreement questions unresolved."
+      ],
+      "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
+      "application_status": "Documented project-submission and review process; portal contents, current listing, form and term dates unverified.",
+      "opportunity_stage": "Discovered",
+      "work_status": "Blocked",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Potential mentorship participation; no stipend unless explicitly provided by the selected opportunity, no allocated project labor or cash award.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Count actual teaching, administration, backup hours and evidenced expenses separately. No stipend, donor receipt, labor saving or learning result observed. The note contains only labeled synthetic capacity arithmetic.",
+      "restrictions_and_obligations": [
+        "Platform 4.1 repository rules are separate from 4.3 commercial content reuse and 4.6 feedback assignment/fallback license; 2.5 retains specified rights after termination.",
+        "Dated Service 2.2.11: non-US mentees must address the defined U.S. Activities/development/equipment representation; actual applicability unresolved.",
+        "Public/private surfaces, participant terms, conduct, evaluation and exit need actual review before enrollment.",
+        "Service 2.2.1 does not treat mentee work as project financial/commercial benefit; no stipend or employment assumption."
+      ],
+      "program_objectives": "Connect newcomers and experienced open-source mentors for learning and career development.",
+      "fit_with_pick_your_ai": "Conditional evidence-literacy teaching; existing owners select useful unclaimed tasks without duplicate implementation or new product executions.",
+      "required_application_evidence": [
+        "Public project materials addressing the guide criteria.",
+        "Badge identifier, conduct-policy link and mentor details requested by the public guide."
+      ],
+      "required_contacts_or_decisions": [
+        "Actual authorized project representative and agreed human mentors.",
+        "Project/participant rights, privacy, conduct and exit review.",
+        "Clarify Service 2.2.11 with actual participant/location/equipment facts before selecting a tool or location."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22"
+      ],
+      "confidence": "Bounded public-source findings only. Actual intake, applicant/participant eligibility, legal applicability and usable value Unknown.",
+      "sources": [
+        {
+          "source_id": "S9",
+          "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+          "source_date_text": "[LFX Mentorship entry](https://lfx.linuxfoundation.org/tools/mentorship/) → [portal](https://mentorship.lfx.linuxfoundation.org/)",
+          "review_scope": "Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified"
+        },
+        {
+          "source_id": "S9",
+          "url": "https://mentorship.lfx.linuxfoundation.org/",
+          "source_date_text": "[LFX Mentorship entry](https://lfx.linuxfoundation.org/tools/mentorship/) → [portal](https://mentorship.lfx.linuxfoundation.org/)",
+          "review_scope": "Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified"
+        },
+        {
+          "source_id": "S10",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+          "source_date_text": "[LFX enroll your program](https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program), no revision date visible",
+          "review_scope": "Full public enrollment instructions read; LF review and stated preparation materials are not an approved project or inspected form.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S11",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+          "source_date_text": "[LFX open/close applications](https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications), no revision date visible",
+          "review_scope": "Complete term-date/UTC application-window guide read; no particular program window selected.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S12",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+          "source_date_text": "[LFX administrators](https://docs.linuxfoundation.org/lfx/mentorship/administrators), no revision date visible",
+          "review_scope": "Administrator duties and documented enrollment/term routes read.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S13",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+          "source_date_text": "[LFX mentors](https://docs.linuxfoundation.org/lfx/mentorship/mentors), no revision date visible",
+          "review_scope": "Full eligibility and responsibility text read; actual individuals remain unassessed.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S14",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+          "source_date_text": "[LFX mentee eligibility](https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible), no revision date visible",
+          "review_scope": "Full individual/program eligibility text read; no jurisdiction or age verification performed.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S15",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+          "source_date_text": "[LFX mentor FAQ](https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs), no revision date visible",
+          "review_scope": "No universal hours and program-specific dates; explicit 2022 region passage is historical, not current eligibility.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S16",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+          "source_date_text": "[LFX standards of excellence](https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence), no revision date visible",
+          "review_scope": "Complete scope, reporting, respectful conduct, evaluation and metric-gaming provisions read.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S17",
+          "url": "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+          "source_date_text": "[LFX platform agreement](https://www.linuxfoundation.org/legal/platform-use-agreement/), updated 2024-08-14",
+          "review_scope": "Project/account authority, the distinct 4.1 repository/4.3 content/4.6 feedback rights and 2.5 survival, marks, privacy, portability, change/termination and disclaimer provisions read. Its separate incorporated documents retain their scope; this is not a legal sufficiency or signed-agreement review.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S18",
+          "url": "https://www.linuxfoundation.org/legal/service-terms",
+          "source_date_text": "[LFX service terms](https://www.linuxfoundation.org/legal/service-terms), updated 2020-11-07",
+          "review_scope": "Complete mentorship section 2 read, including the 2.2.11 U.S. Activities representation; payment-related public-ledger context from section 1. Historical country/link examples and current applicability remain distinct; no current legal advice.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S19",
+          "url": "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+          "source_date_text": "[LFX privacy addendum](https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum), updated 2025-02-19",
+          "review_scope": "Mentorship section and relevant crowdfunding/identity visibility context read. Other platform analytics are not adopted as the project's measurement method.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S20",
+          "url": "https://www.linuxfoundation.org/legal/terms",
+          "source_date_text": "[LF website terms](https://www.linuxfoundation.org/legal/terms), revised 2020-11-16",
+          "review_scope": "Full website terms read; explicit LFX agreement distinction prevents applying the website's general submission defaults to repository contributions.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S21",
+          "url": "https://www.linuxfoundation.org/legal/privacy-policy",
+          "source_date_text": "[LF privacy policy](https://www.linuxfoundation.org/legal/privacy-policy), updated 2024-09-11",
+          "review_scope": "LFX/account/project/provenance and mentorship paragraphs read; this is a scoped read, not certification of the entire privacy regime.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        },
+        {
+          "source_id": "S22",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct",
+          "source_date_text": "[LFX code of conduct](https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct), no revision date visible",
+          "review_scope": "Full code read; it does not provide this project's actual reporting contact or incident decision.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified"
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Monthly procedure and before invitation, application, agreement, activation or public qualification; changed terms, redirects, conflicts or an actual new intake.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Any binding cohort evaluations and calendar depend on actual selected terms; no project schedule established.",
+      "reporting_obligations": [
+        "Inspect actual selected terms and evaluation calendar before acceptance.",
+        "No internal deadline, participant or report recipient assigned."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "LFX Mentorship",
+          "CommunityBridge Mentorship",
+          "Linux Foundation mentorship"
+        ],
+        "canonical_match": null,
+        "scope": "No match in full41-record accepted220e input; one distinct route under existing E08-05/#66. No duplicate fiscal-hosting, professional-service or OSPO program."
+      },
+      "review": {
+        "reviewer": "/root/apple; in-session shared project account",
+        "reviewed_revision": "98418492424f37b3a3afe0c90dc51de7b2f89bf4",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6274369249",
+        "decision": "Initial note changes requested: platform rights/survival and U.S. Activities. Author corrections await successor review; full records were outside the initial scope.",
+        "limitations": [
+          "No full findings acceptance, separate-account approval, actual applicant determination, participant, application, award or activation."
+        ]
+      },
+      "owning_research_key": "E08-05",
+      "source_urls": [
+        "https://lfx.linuxfoundation.org/tools/mentorship/",
+        "https://mentorship.lfx.linuxfoundation.org/",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+        "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+        "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+        "https://www.linuxfoundation.org/legal/service-terms",
+        "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+        "https://www.linuxfoundation.org/legal/terms",
+        "https://www.linuxfoundation.org/legal/privacy-policy",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct"
+      ],
+      "source_refs": [
+        "https://lfx.linuxfoundation.org/tools/mentorship/",
+        "https://mentorship.lfx.linuxfoundation.org/",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+        "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+        "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+        "https://www.linuxfoundation.org/legal/service-terms",
+        "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+        "https://www.linuxfoundation.org/legal/terms",
+        "https://www.linuxfoundation.org/legal/privacy-policy",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct"
+      ],
+      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "priority_recommendation": "P2",
+      "score": null,
+      "score_reason": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
+      "scoring_justification": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
+      "priority_scope_note": "Qualitative research priority; no applicant or numeric opportunity score.",
+      "research_assessment_status": "Complete source prepared for successor review; two initial note findings now addressed by the author. Full findings acceptance and canonical delivery remain pending.",
+      "native_dependency_status": "Issue22 was directly read closed; this does not establish program or participant readiness.",
+      "award_status": "Unknown; no award evidence established",
+      "currency_status": "No actual offer, award or intended currency established.",
+      "canonical_deliverable": "research/partnerships/mentorship-volunteers.md",
+      "current_disposition": "Prepare capacity; defer application/enrollment and recruitment.",
+      "recommended_disposition": "Prepare capacity; defer application/enrollment and recruitment.",
+      "application_url": "https://mentorship.lfx.linuxfoundation.org/",
+      "applicant_qualification_status": "Unknown; no project admission, participant eligibility or account authority assessed.",
+      "published_qualification_requirements": [
+        "Public guide: open-source project fit, adoption and review.",
+        "Public preparation fields: project materials, badge identifier, conduct policy and mentor details."
+      ],
+      "required_application_evidence_status": "Guide only; no complete current form readback or personal mentor details collected.",
+      "benefit": "Potential learning partnership, not funding or guaranteed engineering output.",
+      "source_evidence": [
+        "Public guide documents enrollment and LF review; no actual project or account accepted.",
+        "Entry redirects to a portal with zero readable lines; no live term, form or offer verified.",
+        "Current guides, dated 2020service text, dated 2022FAQ example and separate 2024/2025agreement/privacy scopes remain distinct."
+      ],
+      "source_freshness": "Dated public observations2026-10-19; portal/form successful verification remains null.",
+      "application_route_description": "Prepare project and actual mentor capacity, then inspect current enrollment and selected-program terms before considering submission.",
+      "gate": "No accepted project, inspected form/term, actual mentor commitments or complete operating package."
     }
   ],
   "important_limitations": [

@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 255,
-  "records_count": 41,
+  "source_count": 279,
+  "records_count": 42,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -1293,6 +1293,21 @@
         "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S1",
+          "url": "https://summerofcode.withgoogle.com/how-it-works",
+          "source_date_text": "[GSoC how it works](https://summerofcode.withgoogle.com/how-it-works), current displayed page",
+          "review_scope": "Workflow and closed organization registration read; no private application inspected.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
       ]
     },
     {
@@ -5293,6 +5308,800 @@
       ],
       "retrieved_at": "2026-10-19T11:30:54.920097+00:00",
       "content_sha256": "b32c02a2dfa393019b3f189791f0b57d9225e3ddb11708f8585749b35133558c"
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/timeline",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Historical organization intake and extended-project dates read. Page-summary dates conflict with the table; no future cycle inferred.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S2",
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "source_date_text": "[GSoC timeline](https://developers.google.com/open-source/gsoc/timeline), dated 2026 table; page updated 2025-12-03",
+          "review_scope": "Historical organization intake and extended-project dates read. Page-summary dates conflict with the table; no future cycle inferred.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public OSS/project and contributor scope read. A summary-only mentor-count assertion is not adopted as a current rule.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S3",
+          "url": "https://developers.google.com/open-source/gsoc/faq",
+          "source_date_text": "[GSoC FAQ](https://developers.google.com/open-source/gsoc/faq), updated 2026-02-20",
+          "review_scope": "Public OSS/project and contributor scope read. A summary-only mentor-count assertion is not adopted as a current rule.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/help/responsibilities",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full contributor/mentor/administrator guidance read; not a new round agreement.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S4",
+          "url": "https://developers.google.com/open-source/gsoc/help/responsibilities",
+          "source_date_text": "[GSoC roles and responsibilities](https://developers.google.com/open-source/gsoc/help/responsibilities), updated 2024-07-23",
+          "review_scope": "Full contributor/mentor/administrator guidance read; not a new round agreement.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/help/org-payments",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full public payment guidance read; 2017–2025 account wording, 2025 form label, 2026 reference and older summary remain distinct. Current actual award, payee and calendar terms Unknown.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S5",
+          "url": "https://developers.google.com/open-source/gsoc/help/org-payments",
+          "source_date_text": "[GSoC organization payments](https://developers.google.com/open-source/gsoc/help/org-payments), updated 2026-05-11",
+          "review_scope": "Full public payment guidance read; 2017–2025 account wording, 2025 form label, 2026 reference and older summary remain distinct. Current actual award, payee and calendar terms Unknown.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://google.github.io/gsocguides/mentor/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Introduction/role/project-size guidance read; historical scale and outcome statements are not project forecasts.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S6",
+          "url": "https://google.github.io/gsocguides/mentor/",
+          "source_date_text": "[GSoC mentor guide](https://google.github.io/gsocguides/mentor/), site generated 2026-09-15",
+          "review_scope": "Introduction/role/project-size guidance read; historical scale and outcome statements are not project forecasts.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://google.github.io/gsocguides/mentor/org-application",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full chapter read, including active-community/maturity/ideas guidance and explicit 2025 preference. No actual current application readback.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S7",
+          "url": "https://google.github.io/gsocguides/mentor/org-application",
+          "source_date_text": "[GSoC organization application guide](https://google.github.io/gsocguides/mentor/org-application), site generated 2026-09-15",
+          "review_scope": "Full chapter read, including active-community/maturity/ideas guidance and explicit 2025 preference. No actual current application readback.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/rules",
+      "last_verified": null,
+      "verification_scope": "Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Redirect/zero readable target lines; contents unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S8",
+          "url": "https://developers.google.com/open-source/gsoc/rules",
+          "source_date_text": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/)",
+          "review_scope": "Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://summerofcode.withgoogle.com/rules/",
+      "last_verified": null,
+      "verification_scope": "Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Redirect/zero readable target lines; contents unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S8",
+          "url": "https://summerofcode.withgoogle.com/rules/",
+          "source_date_text": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/)",
+          "review_scope": "Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full capacity/self-assessment chapter read. An earlier guessed `/mentor/time-commitment` path was inaccessible; following the actual guide navigation resolved the relevant guidance without inferring unseen content.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S23",
+          "url": "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor",
+          "source_date_text": "[GSoC good-mentor guidance](https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor), site generated 2026-09-15",
+          "review_scope": "Full capacity/self-assessment chapter read. An earlier guessed `/mentor/time-commitment` path was inaccessible; following the actual guide navigation resolved the relevant guidance without inferring unseen content.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "GSOC-MENTOR-ORG",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+      "last_verified": null,
+      "verification_scope": "Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Redirect/zero readable target lines; contents unverified",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S9",
+          "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+          "source_date_text": "[LFX Mentorship entry](https://lfx.linuxfoundation.org/tools/mentorship/) → [portal](https://mentorship.lfx.linuxfoundation.org/)",
+          "review_scope": "Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://mentorship.lfx.linuxfoundation.org/",
+      "last_verified": null,
+      "verification_scope": "Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Redirect/zero readable target lines; contents unverified",
+      "source_roles": [
+        "governing_source_evidence",
+        "application_endpoint"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S9",
+          "url": "https://mentorship.lfx.linuxfoundation.org/",
+          "source_date_text": "[LFX Mentorship entry](https://lfx.linuxfoundation.org/tools/mentorship/) → [portal](https://mentorship.lfx.linuxfoundation.org/)",
+          "review_scope": "Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified.",
+          "last_verified": null,
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Redirect/zero readable target lines; contents unverified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full public enrollment instructions read; LF review and stated preparation materials are not an approved project or inspected form.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S10",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+          "source_date_text": "[LFX enroll your program](https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program), no revision date visible",
+          "review_scope": "Full public enrollment instructions read; LF review and stated preparation materials are not an approved project or inspected form.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete term-date/UTC application-window guide read; no particular program window selected.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S11",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+          "source_date_text": "[LFX open/close applications](https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications), no revision date visible",
+          "review_scope": "Complete term-date/UTC application-window guide read; no particular program window selected.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Administrator duties and documented enrollment/term routes read.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S12",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+          "source_date_text": "[LFX administrators](https://docs.linuxfoundation.org/lfx/mentorship/administrators), no revision date visible",
+          "review_scope": "Administrator duties and documented enrollment/term routes read.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full eligibility and responsibility text read; actual individuals remain unassessed.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S13",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+          "source_date_text": "[LFX mentors](https://docs.linuxfoundation.org/lfx/mentorship/mentors), no revision date visible",
+          "review_scope": "Full eligibility and responsibility text read; actual individuals remain unassessed.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full individual/program eligibility text read; no jurisdiction or age verification performed.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S14",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+          "source_date_text": "[LFX mentee eligibility](https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible), no revision date visible",
+          "review_scope": "Full individual/program eligibility text read; no jurisdiction or age verification performed.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+      "last_verified": "2026-10-19",
+      "verification_scope": "No universal hours and program-specific dates; explicit 2022 region passage is historical, not current eligibility.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S15",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+          "source_date_text": "[LFX mentor FAQ](https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs), no revision date visible",
+          "review_scope": "No universal hours and program-specific dates; explicit 2022 region passage is historical, not current eligibility.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete scope, reporting, respectful conduct, evaluation and metric-gaming provisions read.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S16",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+          "source_date_text": "[LFX standards of excellence](https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence), no revision date visible",
+          "review_scope": "Complete scope, reporting, respectful conduct, evaluation and metric-gaming provisions read.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Project/account authority, the distinct 4.1 repository/4.3 content/4.6 feedback rights and 2.5 survival, marks, privacy, portability, change/termination and disclaimer provisions read. Its separate incorporated documents retain their scope; this is not a legal sufficiency or signed-agreement review.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S17",
+          "url": "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+          "source_date_text": "[LFX platform agreement](https://www.linuxfoundation.org/legal/platform-use-agreement/), updated 2024-08-14",
+          "review_scope": "Project/account authority, the distinct 4.1 repository/4.3 content/4.6 feedback rights and 2.5 survival, marks, privacy, portability, change/termination and disclaimer provisions read. Its separate incorporated documents retain their scope; this is not a legal sufficiency or signed-agreement review.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/service-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete mentorship section 2 read, including the 2.2.11 U.S. Activities representation; payment-related public-ledger context from section 1. Historical country/link examples and current applicability remain distinct; no current legal advice.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S18",
+          "url": "https://www.linuxfoundation.org/legal/service-terms",
+          "source_date_text": "[LFX service terms](https://www.linuxfoundation.org/legal/service-terms), updated 2020-11-07",
+          "review_scope": "Complete mentorship section 2 read, including the 2.2.11 U.S. Activities representation; payment-related public-ledger context from section 1. Historical country/link examples and current applicability remain distinct; no current legal advice.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Mentorship section and relevant crowdfunding/identity visibility context read. Other platform analytics are not adopted as the project's measurement method.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S19",
+          "url": "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+          "source_date_text": "[LFX privacy addendum](https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum), updated 2025-02-19",
+          "review_scope": "Mentorship section and relevant crowdfunding/identity visibility context read. Other platform analytics are not adopted as the project's measurement method.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full website terms read; explicit LFX agreement distinction prevents applying the website's general submission defaults to repository contributions.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S20",
+          "url": "https://www.linuxfoundation.org/legal/terms",
+          "source_date_text": "[LF website terms](https://www.linuxfoundation.org/legal/terms), revised 2020-11-16",
+          "review_scope": "Full website terms read; explicit LFX agreement distinction prevents applying the website's general submission defaults to repository contributions.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/privacy-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "LFX/account/project/provenance and mentorship paragraphs read; this is a scoped read, not certification of the entire privacy regime.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S21",
+          "url": "https://www.linuxfoundation.org/legal/privacy-policy",
+          "source_date_text": "[LF privacy policy](https://www.linuxfoundation.org/legal/privacy-policy), updated 2024-09-11",
+          "review_scope": "LFX/account/project/provenance and mentorship paragraphs read; this is a scoped read, not certification of the entire privacy regime.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full code read; it does not provide this project's actual reporting contact or incident decision.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before invitation, application, agreement, activation or public qualification",
+        "Changed source/terms, redirect, contradiction or verified new intake"
+      ],
+      "state": "Material public scope read; no private form or actual applicant verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "program_specific_observations": [
+        {
+          "source_id": "S22",
+          "url": "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct",
+          "source_date_text": "[LFX code of conduct](https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct), no revision date visible",
+          "review_scope": "Full code read; it does not provide this project's actual reporting contact or incident decision.",
+          "last_verified": "2026-10-19",
+          "accessed_on": "2026-10-19",
+          "source_kind": "official",
+          "access_result": "Material public scope read; no private form or actual applicant verified",
+          "opportunity_id": "LFX-MENTORSHIP-HOST",
+          "assessment_path": "research/partnerships/mentorship-volunteers.md",
+          "assessment_state": "Complete source awaiting successor findings acceptance; no applicant/form qualification."
+        }
+      ]
     }
   ],
   "rules": [
@@ -5301,6 +6110,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 229,
+  "source_evidence_url_count": 253,
   "additional_unverified_endpoint_count": 26
 }

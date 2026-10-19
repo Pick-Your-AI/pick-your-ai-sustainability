@@ -4,6 +4,8 @@
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
+The [Groq assessment](../research/compute/groq-support.md) proposes a conditional small evaluation and records a separate historical NAIRR discovery lead. Its source assessment is in independent review; activation, publication, actual account eligibility and any application remain separate. The proposed request budget has not been executed or counted as an award or avoided cost.
+
 | Stage | Required evidence | Current evidence |
 |---|---|---|
 | Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 39 seed records |

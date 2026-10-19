@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks 72 distinct source and endpoint URLs for the 39 opportunity records: 55 governing-source URLs from the initial evidence review plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
+The [source register](../data/research-freshness.json) tracks 90 distinct source and endpoint URLs for the 39 opportunity records: 74 referenced source/discovery URLs plus 16 additional program/application endpoints. These are URL membership counts, not 90 successful verifications. The initial review contained 55 source URLs and 17 additional endpoints; the [Groq assessment](../research/compute/groq-support.md) adds current evidence, a separately qualified historical NAIRR lead and explicit access/redirect limits. Unverified contents keep `last_verified` null; a dated observation of a public entry point does not verify the authenticated account or complete form. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
 
 ## Review triggers
 

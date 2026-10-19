@@ -599,22 +599,22 @@
     {
       "opportunity_id": "GROQ-FREE-PLAN",
       "program_name": "Public free-plan inference allowance",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; independent findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43",
-      "research_status": "Ready",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Conditional small evaluation option; activation and publication deferred",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Hold for actual customer/authority, applicable terms and competing-use scope, model/data/publication rights and exact account entitlement. This research authorizes no account, application, agreement, paid upgrade or experiment.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "No grant reporting calendar or binding offer established; inspect actual terms/offer before acceptance. No application or activation in this execution.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Map demand to exact quotas and investigate a separate formal-support route only if necessary."
+      "next_action": "Obtain independent acceptance of the exact canonical assessment; retain the conditional plan without execution, then resolve actual terms/customer/account gates and current NAIRR evidence only when warranted."
     },
     {
       "opportunity_id": "CEREBRAS-TRIAL",

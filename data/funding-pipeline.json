@@ -339,22 +339,22 @@
     {
       "opportunity_id": "HF-COMMUNITY-GPU",
       "program_name": "Community GPU Grants for Spaces",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Current public facts checked; full independent qualification review pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
-      "research_status": "Ready",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Defer application pending an evidenced Space, incremental GPU need and current terms",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Not authorized; defer until an actual Space, incremental GPU need, current governing terms, eligible applicant and exact external-action scope are established.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Unknown actual grant obligations and cadence; no award, agreement or reporting receipt established",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Build a defensible Space proposal and verify grant terms without activating paid hardware."
+      "next_action": "Independently review research/compute/hugging-face-community-gpu.md and this record; retain deferred application and supply any accepted bounded finding to existing E05-05."
     },
     {
       "opportunity_id": "CODERABBIT-OSS-PRODUCT",

@@ -46,7 +46,7 @@
     "independence_risk": null,
     "strategic_value": null,
     "total": null,
-    "justification": null
+    "justification": "Not scored; required eligibility, usable-value and effort evidence has not been established."
   },
   "priority": null,
   "assigned_owner": null,
@@ -74,5 +74,9 @@
     "review_url": null,
     "decision": "Not reviewed",
     "limitations": []
-  }
+  },
+  "owning_research_key": null,
+  "source_urls": [],
+  "source_refs": [],
+  "source_review_status": "Not Verified"
 }

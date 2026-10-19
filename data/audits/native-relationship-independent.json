@@ -1,0 +1,1671 @@
+{
+  "generated_at": "2026-10-19T07:29:06.366522+00:00",
+  "readback_started_at": "2026-10-19T06:50:23.821Z",
+  "readback_finished_at": "2026-10-19T06:50:24.988Z",
+  "snapshot_read_at": "2026-10-19 07:24:19 UTC",
+  "summary": {
+    "endpoint_queries_expected": 58,
+    "endpoint_results": 58,
+    "endpoints_passed": 58,
+    "parent_child_edges_read": 71,
+    "unique_children_read": 71,
+    "blocked_by_edges_read": 43,
+    "reciprocal_blocking_edges_read": 43,
+    "issue_summary_checks": 72,
+    "issue_summary_passed": 72,
+    "findings": 0,
+    "all_passed": true,
+    "dependency_reciprocity_verified": true,
+    "hierarchy_acyclic": true,
+    "dependency_graph_acyclic": true,
+    "pull_requests_excluded": 1,
+    "numeric_and_node_id_references_checked": 157,
+    "all_numeric_node_and_url_identities_match": true
+  },
+  "findings": [],
+  "verified_endpoints": [
+    {
+      "kind": "sub_issues",
+      "key": "PROGRAM",
+      "verified": true,
+      "edges": 9,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E01",
+      "verified": true,
+      "edges": 8,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/15",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/16",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E02",
+      "verified": true,
+      "edges": 6,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E03",
+      "verified": true,
+      "edges": 8,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/26",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/27",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/28",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E04",
+      "verified": true,
+      "edges": 5,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/37"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E05",
+      "verified": true,
+      "edges": 5,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E06",
+      "verified": true,
+      "edges": 5,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E07",
+      "verified": true,
+      "edges": 6,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E08",
+      "verified": true,
+      "edges": 5,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E09",
+      "verified": true,
+      "edges": 6,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72"
+      ]
+    },
+    {
+      "kind": "sub_issues",
+      "key": "E05-01",
+      "verified": true,
+      "edges": 8,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E02-02",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E02-05",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E04-03",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E04-05",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E05-01D",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E05-03",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E05-04",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E05-05",
+      "verified": true,
+      "edges": 5,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E06-01",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E06-02",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E06-03",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E06-04",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E06-05",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E07-04",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E07-05",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E07-06",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E08-01",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E08-02",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E08-03",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E08-04",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E08-05",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E09-02",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E09-03",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E09-04",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E09-05",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20"
+      ]
+    },
+    {
+      "kind": "blocked_by",
+      "key": "E09-06",
+      "verified": true,
+      "edges": 3,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E01-01",
+      "verified": true,
+      "edges": 7,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E01-03",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E01-07",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E01-08",
+      "verified": true,
+      "edges": 3,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E02-01",
+      "verified": true,
+      "edges": 6,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E02-02",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E02-03",
+      "verified": true,
+      "edges": 3,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E02-04",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E02-06",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E04-03",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/37"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E05-01",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E05-02",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E05-03",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E05-04",
+      "verified": true,
+      "edges": 2,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E07-02",
+      "verified": true,
+      "edges": 5,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E09-01",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E09-02",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E09-03",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E09-04",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72"
+      ]
+    },
+    {
+      "kind": "blocking",
+      "key": "E09-05",
+      "verified": true,
+      "edges": 1,
+      "actual_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72"
+      ]
+    },
+    {
+      "kind": "parent",
+      "key": "PROGRAM",
+      "verified": true,
+      "expected_absence": true
+    }
+  ],
+  "issue_summary_checks": [
+    {
+      "issue_number": 1,
+      "verified": true,
+      "expected": {
+        "sub_issues": 9,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 9,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 2,
+      "verified": true,
+      "expected": {
+        "sub_issues": 8,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 8,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 3,
+      "verified": true,
+      "expected": {
+        "sub_issues": 6,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 6,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 4,
+      "verified": true,
+      "expected": {
+        "sub_issues": 8,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 8,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 5,
+      "verified": true,
+      "expected": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 6,
+      "verified": true,
+      "expected": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 7,
+      "verified": true,
+      "expected": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 8,
+      "verified": true,
+      "expected": {
+        "sub_issues": 6,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 6,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 9,
+      "verified": true,
+      "expected": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 5,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 10,
+      "verified": true,
+      "expected": {
+        "sub_issues": 6,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 6,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 11,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 7
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 7
+      }
+    },
+    {
+      "issue_number": 12,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 13,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 14,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 15,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 16,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 17,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 18,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 3
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 3
+      }
+    },
+    {
+      "issue_number": 19,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 6
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 6
+      }
+    },
+    {
+      "issue_number": 20,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 2
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 2
+      }
+    },
+    {
+      "issue_number": 21,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 3
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 3
+      }
+    },
+    {
+      "issue_number": 22,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 2
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 2
+      }
+    },
+    {
+      "issue_number": 23,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 24,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 2
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 2
+      }
+    },
+    {
+      "issue_number": 25,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 26,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 27,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 28,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 29,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 30,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 31,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 32,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 33,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 34,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 35,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 36,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 37,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 38,
+      "verified": true,
+      "expected": {
+        "sub_issues": 8,
+        "blocked_by": 0,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 8,
+        "blocked_by": 0,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 39,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 40,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 41,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 42,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 43,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 44,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 45,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 46,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 47,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 48,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 49,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 2
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 2
+      }
+    },
+    {
+      "issue_number": 50,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 5,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 5,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 51,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 52,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 53,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 54,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 55,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 56,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 57,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 5
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 5
+      }
+    },
+    {
+      "issue_number": 58,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 59,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 60,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 61,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 62,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 63,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 64,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 65,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 66,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 0
+      }
+    },
+    {
+      "issue_number": 67,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 0,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 68,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 69,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 70,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 1,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 71,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 1
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 2,
+        "blocking": 1
+      }
+    },
+    {
+      "issue_number": 72,
+      "verified": true,
+      "expected": {
+        "sub_issues": 0,
+        "blocked_by": 3,
+        "blocking": 0
+      },
+      "actual": {
+        "sub_issues": 0,
+        "blocked_by": 3,
+        "blocking": 0
+      }
+    }
+  ],
+  "limitations": [
+    "This is an automated technical audit, not approval by another GitHub account.",
+    "Endpoint edges were read at the recorded 06:50 timestamp; all 72 native collection summaries were freshly matched at 07:24.",
+    "Project fields and saved views have separate UI readback evidence."
+  ],
+  "source": "Independent GitHub connector endpoint readback; not copied from relationship workflow output",
+  "source_readback_sha256": "99672ea9ac3605816fcde945b9ec7fcd7ddda953a3e7643276ec42495cb301fd",
+  "source_routes": {
+    "sub_issues": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/{parent_number}/sub_issues?per_page=100",
+    "root_parent": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/1/parent",
+    "blocked_by": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/{blocked_number}/dependencies/blocked_by?per_page=100",
+    "blocking": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/{blocker_number}/dependencies/blocking?per_page=100",
+    "current_summary": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100"
+  }
+}

@@ -1,0 +1,2509 @@
+{
+  "scope": "Fresh independent issue-content and metadata readback after 18 published-draft sections and four narrowly scoped research-taxonomy repairs",
+  "verified_at": "2026-10-19 07:24:19 UTC",
+  "result": "PASS",
+  "expected_issues": 72,
+  "live_issues": 72,
+  "programs": 1,
+  "epics": 9,
+  "required_work_packages": 54,
+  "additional_provider_issues": 8,
+  "priority_distribution": {
+    "P1": 37,
+    "P2": 32,
+    "P3": 3
+  },
+  "applied_label_distribution": {
+    "blocked:decision": 4,
+    "blocked:dependency": 26,
+    "category:funding": 22,
+    "category:hardware": 3,
+    "category:inference": 16,
+    "category:nonprofit": 10,
+    "category:partnership": 6,
+    "category:security": 5,
+    "category:software": 5,
+    "category:sponsorship": 6,
+    "eligibility:501c3": 2,
+    "eligibility:immediate": 7,
+    "eligibility:unknown": 63,
+    "priority:P1": 37,
+    "priority:P2": 32,
+    "priority:P3": 3,
+    "ready:research": 45,
+    "ready:review": 1,
+    "type:epic": 9,
+    "type:grant": 8,
+    "type:legal": 6,
+    "type:operations": 16,
+    "type:outreach": 1,
+    "type:research": 41
+  },
+  "required_label_inventory": {
+    "Type": [
+      "type:epic",
+      "type:research",
+      "type:grant",
+      "type:legal",
+      "type:outreach",
+      "type:operations"
+    ],
+    "Priority": [
+      "priority:P0",
+      "priority:P1",
+      "priority:P2",
+      "priority:P3"
+    ],
+    "Category": [
+      "category:funding",
+      "category:inference",
+      "category:hardware",
+      "category:software",
+      "category:security",
+      "category:nonprofit",
+      "category:sponsorship",
+      "category:partnership"
+    ],
+    "Eligibility": [
+      "eligibility:immediate",
+      "eligibility:fiscal-sponsor",
+      "eligibility:501c3",
+      "eligibility:unknown"
+    ],
+    "Readiness": [
+      "ready:research",
+      "ready:review",
+      "blocked:dependency",
+      "blocked:decision"
+    ]
+  },
+  "project_membership": {
+    "source": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-sustainability%20is%3Aissue%20project%3APick-Your-AI%2F7&per_page=100",
+    "read_at": "2026-10-19T06:25:22.180Z",
+    "expected": 72,
+    "present": 72,
+    "missing": [],
+    "unexpected": [],
+    "complement_count": 0,
+    "both_searches_complete": true
+  },
+  "duplicate_work_review": {
+    "duplicate_keys_titles_paths_and_nonaggregate_outcomes": {
+      "key": [],
+      "title": [],
+      "path": [],
+      "nonaggregate_outcome": []
+    },
+    "all_72_canonical_paths_distinct": true,
+    "all_62_nonaggregate_scopes_preserved_in_live_bodies": true,
+    "aggregate_template_note": "The nine epics share a synthesis-outcome sentence but have distinct workstreams, child scopes and canonical paths; this is an aggregate convention, not duplicate research.",
+    "reviewed_overlap_boundaries": [
+      "E01-04 fiscal-host qualification versus E08-01 broader institutional governance fit.",
+      "E03-06 NSF grant/applicant paths versus E08-02 academic/capstone relationship qualification.",
+      "E03-02 GitHub Secure Open Source Fund versus E07-02 standard existing GitHub benefits.",
+      "E04-01 Sponsors channel/payout qualification versus E04-03 support-model design and E04-05 acknowledgment/renewal kit.",
+      "E05-01 provider coverage coordination versus E05-01A through E05-01H provider-specific investigations.",
+      "E03-08 grant payment/restriction mechanics versus E05-05 usable compute support and platform restrictions."
+    ],
+    "conclusion": "No duplicate canonical research tasks identified. Related scopes consume or cross-reference evidence rather than duplicate the same required outcome."
+  },
+  "cross_repository_links": {
+    "read_at": "2026-10-19T06:25:58.313Z",
+    "expected_count": 8,
+    "results": [
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/1",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/issues/1",
+        "read_at": "2026-10-19T06:25:58.312Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/1",
+        "number": 1,
+        "title": "Leaderboard: Contributor recognition and showcase",
+        "state": "open",
+        "pull_request": false,
+        "updated_at": "2026-10-17T02:38:37Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "read_at": "2026-10-19T06:25:58.007Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "number": 41,
+        "title": "T0: Catalog Data Sources & Freshness",
+        "state": "closed",
+        "pull_request": false,
+        "updated_at": "2026-10-19T05:15:48Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/issues/54",
+        "read_at": "2026-10-19T06:25:57.981Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/54",
+        "number": 54,
+        "title": "MR-07 — Pricing & Monetization",
+        "state": "closed",
+        "pull_request": false,
+        "updated_at": "2026-10-18T13:04:49Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/60",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-research/issues/60",
+        "read_at": "2026-10-19T06:25:58.281Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/60",
+        "number": 60,
+        "title": "MR-08: Validate commercial display and redistribution rights",
+        "state": "closed",
+        "pull_request": false,
+        "updated_at": "2026-10-19T05:16:06Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "read_at": "2026-10-19T06:25:58.251Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+        "number": 25,
+        "title": "LB 01.04: Decide repository, domain and runtime placement",
+        "state": "open",
+        "pull_request": false,
+        "updated_at": "2026-10-19T05:09:06Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/24",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/issues/24",
+        "read_at": "2026-10-19T06:25:57.982Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/24",
+        "number": 24,
+        "title": "Apple/iOS 01.05: Accounts and monetization decisions",
+        "state": "closed",
+        "pull_request": false,
+        "updated_at": "2026-10-19T01:19:26Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/107",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-apple/issues/107",
+        "read_at": "2026-10-19T06:25:57.936Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-apple/issues/107",
+        "number": 107,
+        "title": "Apple/iOS 15.04: Device, OS and lifecycle test matrix",
+        "state": "open",
+        "pull_request": false,
+        "updated_at": "2026-10-19T05:55:51Z"
+      },
+      {
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-android/issues/107",
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-android/issues/107",
+        "read_at": "2026-10-19T06:25:57.990Z",
+        "isError": false,
+        "resolved_url": "https://github.com/Pick-Your-AI/pick-your-ai-android/issues/107",
+        "number": 107,
+        "title": "Android 15.04: Device and lifecycle matrix",
+        "state": "open",
+        "pull_request": false,
+        "updated_at": "2026-10-18T22:17:44Z"
+      }
+    ]
+  },
+  "all_original_acceptance_criteria_preserved": true,
+  "all_issues_open": true,
+  "all_issues_unassigned": true,
+  "all_used_milestones_undated": true,
+  "all_18_published_draft_sections_exact": true,
+  "issues": [
+    {
+      "key": "PROGRAM",
+      "number": 1,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
+      "title": "[PROGRAM] Pick Your AI — Funding, Grants & Sustainability",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "README.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 12,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Program",
+      "workstream": "Program",
+      "updated_at": "2026-10-19T06:38:21Z",
+      "body_sha256": "478a9dde350ff625f3e34ddbe0eb536dc777c6ec43f1430a827425f232546eac"
+    },
+    {
+      "key": "E01",
+      "number": 2,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
+      "title": "[EPIC 01] Nonprofit Formation & Legal Readiness",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e01-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T06:38:23Z",
+      "body_sha256": "5d322049532de5b317f38d20c4d1b98384fb78452aeade01590d676927973b50"
+    },
+    {
+      "key": "E02",
+      "number": 3,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
+      "title": "[EPIC 02] Funding Readiness & Demonstrable Public Benefit",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e02-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T06:38:26Z",
+      "body_sha256": "b201b8bf7f80d479600385d1e7d3398620cd89786badf5af01f6777990720853"
+    },
+    {
+      "key": "E03",
+      "number": 4,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
+      "title": "[EPIC 03] Grants & Public-Interest Funding",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e03-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T06:38:29Z",
+      "body_sha256": "f13f4d51328fd686305c94f737e01c4fd29f131081aea41bad0805acce13d0b0"
+    },
+    {
+      "key": "E04",
+      "number": 5,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
+      "title": "[EPIC 04] Recurring Funding, Donations & Sponsorship",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:sponsorship",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e04-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "04 Sponsorship",
+      "updated_at": "2026-10-19T06:38:32Z",
+      "body_sha256": "79180e2ba4f69adbc04f89f883240c6c2181af5ba222fcf48375742e27eb1acc"
+    },
+    {
+      "key": "E05",
+      "number": 6,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
+      "title": "[EPIC 05] AI Inference, GPU & Model Research Support",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e05-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T06:38:34Z",
+      "body_sha256": "e5a09133230be3223c5317e8e8c96a35a1b7e2ce79be0c67bf2dd54cd8892fac"
+    },
+    {
+      "key": "E06",
+      "number": 7,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
+      "title": "[EPIC 06] Cloud Infrastructure & Physical Hardware",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:hardware",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e06-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "06 Infrastructure",
+      "updated_at": "2026-10-19T06:38:37Z",
+      "body_sha256": "8213be1e827badfe969d12cdc1f2307077d6fdf4ec1b2a5515f33a49dc50cd77"
+    },
+    {
+      "key": "E07",
+      "number": 8,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
+      "title": "[EPIC 07] Code Quality, Security & Development Tools",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:security",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e07-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T06:38:39Z",
+      "body_sha256": "0076c77545c660d09b9753d9464ffdaca128c49e2fdfe93fd33f2b555d0c9409"
+    },
+    {
+      "key": "E08",
+      "number": 9,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
+      "title": "[EPIC 08] Institutional Partners & Pro Bono Support",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:partnership",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e08-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "08 Partnerships",
+      "updated_at": "2026-10-19T06:38:42Z",
+      "body_sha256": "b090df0913b859fbeb74e361d56a971ec5340842f3b600e8f623a295a449ee61"
+    },
+    {
+      "key": "E09",
+      "number": 10,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
+      "title": "[EPIC 09] Funding Pipeline Operations & Sustainability",
+      "state": "open",
+      "labels": [
+        "type:epic",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/workstreams/e09-summary.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Epic",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:38:51Z",
+      "body_sha256": "01e331d6d09b7a9dbc82cdda72643e077e9b3b642eb7459216b1e7eeeeaef1cb"
+    },
+    {
+      "key": "E01-01",
+      "number": 11,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+      "title": "[OPERATIONS][Nonprofit] Pick Your AI — establish entity, asset and administrative baseline [E01-01]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research",
+        "blocked:decision"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/entity-baseline.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T04:53:43Z",
+      "body_sha256": "ed3d705bd2de0ae2380f30e161fc52b706016453859b430db562710d49a2b506"
+    },
+    {
+      "key": "E01-02",
+      "number": 12,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
+      "title": "[LEGAL][Nonprofit] Pick Your AI — test charitable purpose against actual activities [E01-02]",
+      "state": "open",
+      "labels": [
+        "type:legal",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/public-benefit-legal-assessment.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T04:53:45Z",
+      "body_sha256": "826f95d68d4a3933549e4b6052e1b538e1aa451e9a3fe05b7a58c6372745ae21"
+    },
+    {
+      "key": "E01-03",
+      "number": 13,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+      "title": "[LEGAL][Nonprofit] Pick Your AI — compare independent and hosted organizational paths [E01-03]",
+      "state": "open",
+      "labels": [
+        "type:legal",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/structure-decision-brief.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T06:38:53Z",
+      "body_sha256": "d9d65d93a9c06f1ecb0423151ea172520b2a482de3767048d10e7f1a857961aa"
+    },
+    {
+      "key": "E01-04",
+      "number": 14,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+      "title": "[RESEARCH][Nonprofit] SFC, SPI and Open Source Collective — compare fiscal-host suitability [E01-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/fiscal-sponsorship-comparison.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T06:38:56Z",
+      "body_sha256": "aa45f34534429a0545c8e6e5e5a04158c5ac441508caa6f6fadaaa9da31a2735"
+    },
+    {
+      "key": "E01-05",
+      "number": 15,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/15",
+      "title": "[LEGAL][Nonprofit] Pick Your AI — map formation and governance prerequisites [E01-05]",
+      "state": "open",
+      "labels": [
+        "type:legal",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research",
+        "blocked:decision"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/formation-governance-checklist.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T04:53:51Z",
+      "body_sha256": "2c3dd02a2afc83ffec8973030a76b326459b246f1d85ef468c45fc7e85d9abfc"
+    },
+    {
+      "key": "E01-06",
+      "number": 16,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/16",
+      "title": "[LEGAL][Nonprofit] IRS and state regulators — assess exemption filing and recurring compliance [E01-06]",
+      "state": "open",
+      "labels": [
+        "type:legal",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research",
+        "blocked:decision"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/exemption-compliance-assessment.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T06:23:59Z",
+      "body_sha256": "f93ce84c0d49a91d6de948e437f7560d0770a7b18cab1b164dbb60b2c1c73045"
+    },
+    {
+      "key": "E01-07",
+      "number": 17,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+      "title": "[LEGAL][Nonprofit] Pick Your AI repositories — verify licensing, IP and asset stewardship [E01-07]",
+      "state": "open",
+      "labels": [
+        "type:legal",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/nonprofit/ip-stewardship-register.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T04:53:56Z",
+      "body_sha256": "685e1c3a2b43b589d481b28f332d6358cd915e959e9a7364310a8b94334b6e5c"
+    },
+    {
+      "key": "E01-08",
+      "number": 18,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
+      "title": "[LEGAL][Nonprofit] Pick Your AI — draft vendor neutrality and sponsorship ethics policy [E01-08]",
+      "state": "open",
+      "labels": [
+        "type:legal",
+        "priority:P1",
+        "category:nonprofit",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/policies/vendor-neutrality-and-sponsorship-ethics-draft.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "01 Nonprofit",
+      "updated_at": "2026-10-19T04:53:58Z",
+      "body_sha256": "38983140ef1635bf1b925137bbf9ed3610607e2e658363951b24da642586b082"
+    },
+    {
+      "key": "E02-01",
+      "number": 19,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+      "title": "[OPERATIONS][Funding] Pick Your AI — inventory real operating costs and resource gaps [E02-01]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/needs-assessment.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 10,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T04:54:00Z",
+      "body_sha256": "ff238ea704b95ce11a385865e774c5531da7c30543a08693ceadb4630675fca9"
+    },
+    {
+      "key": "E02-02",
+      "number": 20,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+      "title": "[OPERATIONS][Funding] Pick Your AI — model a 12-month operating budget [E02-02]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "data/budget/operating-budget.json",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T06:24:13Z",
+      "body_sha256": "51c58308fa7eb766021689e87ec0b50511de91ad12f9db714867a2db198a03e0"
+    },
+    {
+      "key": "E02-03",
+      "number": 21,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+      "title": "[OPERATIONS][Inference] Pick Your AI — build reproducible compute and API demand model [E02-03]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "data/budget/compute-demand-model.json",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T04:54:04Z",
+      "body_sha256": "4871f2e677aff714e41140059a51c60ea5df050a6f84e8e550c140d23be63f2d"
+    },
+    {
+      "key": "E02-04",
+      "number": 22,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
+      "title": "[OPERATIONS][Funding] Pick Your AI — define measurable public-benefit outcomes [E02-04]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/public-benefit-measurement-plan.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T04:54:06Z",
+      "body_sha256": "a2d483f1a48069797d369946dd1345cffc64b28b7a16259bd7e4a29124b1ccb7"
+    },
+    {
+      "key": "E02-05",
+      "number": 23,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
+      "title": "[OPERATIONS][Funding] Pick Your AI — assemble reusable grant narrative and evidence kit [E02-05]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/grant-application-kit.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T04:54:08Z",
+      "body_sha256": "689c0f3968bb0e279ad57d4af2f6b0ddc547e33f4bf367ba09bbd237c5c2d842"
+    },
+    {
+      "key": "E02-06",
+      "number": 24,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
+      "title": "[OPERATIONS][Funding] Pick Your AI — draft financial controls and restricted-fund procedures [E02-06]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/operations/financial-controls-draft.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "02 Readiness",
+      "updated_at": "2026-10-19T04:54:11Z",
+      "body_sha256": "95eb6a95cab296ab91bbf2496fb6af0aa4b1b3c0e7efc4cd3eb1840470c14c11"
+    },
+    {
+      "key": "E03-01",
+      "number": 25,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
+      "title": "[RESEARCH][Funding] NLnet — qualify current calls for a concrete public-interest deliverable [E03-01]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "data/opportunities/nlnet-programs.json",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:13Z",
+      "body_sha256": "dd0a43a4738f8f5db59c1e62143d9a4307d23714c7d9d9b482fc05e0f681f5fb"
+    },
+    {
+      "key": "E03-02",
+      "number": 26,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/26",
+      "title": "[RESEARCH][Security] GitHub — qualify Secure Open Source Fund participation [E03-02]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P1",
+        "category:security",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "data/opportunities/github-secure-open-source-fund.json",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:15Z",
+      "body_sha256": "9e4ad803bb4156aa931afe885a37492d4417fa2401876a7d748c1b499ea6178f"
+    },
+    {
+      "key": "E03-03",
+      "number": 27,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/27",
+      "title": "[RESEARCH][Funding] Digital commons funders — screen infrastructure grant fit [E03-03]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/research/digital-commons-grant-screen.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:17Z",
+      "body_sha256": "569e74fc30fe8a69302486fe3ce9e9f75124e5d86ed2b9d0fe0f1e5bb642a689"
+    },
+    {
+      "key": "E03-04",
+      "number": 28,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/28",
+      "title": "[RESEARCH][Funding] AI transparency funders — screen benchmarking and reproducibility support [E03-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/research/ai-transparency-funding-screen.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:19Z",
+      "body_sha256": "03eff58dfbbdcfa7c5a3a1f075973f48e22f9ed7cd63ae0f48b8326c0a3701cf"
+    },
+    {
+      "key": "E03-05",
+      "number": 29,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+      "title": "[RESEARCH][Funding] Education funders — screen AI literacy and accessibility research [E03-05]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/research/education-accessibility-funding-screen.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:21Z",
+      "body_sha256": "cf92f91960ae3e25e440b11bfa570f004b9ef45915c93bc638d376e409ca86a5"
+    },
+    {
+      "key": "E03-06",
+      "number": 30,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
+      "title": "[RESEARCH][Funding] NSF — assess PESOSE and eligible academic collaboration paths [E03-06]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "data/opportunities/nsf-pesose.json",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:23Z",
+      "body_sha256": "b64b1d52a1bfd9c1bf37dec17d43a17bb1aa20e20c876ab79e4929f3dabfaf88"
+    },
+    {
+      "key": "E03-07",
+      "number": 31,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
+      "title": "[RESEARCH][Funding] Foundations and corporate philanthropy — qualify nonprofit technology-education prospects [E03-07]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/research/charitable-grant-prospect-matrix.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T04:54:25Z",
+      "body_sha256": "2d930f205e5a2b63f638617096210063fb524e51c18b2069434f96f553e33f5f"
+    },
+    {
+      "key": "E03-08",
+      "number": 32,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+      "title": "[RESEARCH][Funding] Grant terms — classify restrictions, payment mechanisms and matching requirements [E03-08]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "type:grant",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/award-mechanisms-and-restrictions.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "03 Grants",
+      "updated_at": "2026-10-19T07:17:51Z",
+      "body_sha256": "c079dfaa1e5987c5362c1fb3d5549ccbab77a97aa9e5b5407520d179cf4b3751",
+      "taxonomy_append_exact": true
+    },
+    {
+      "key": "E04-01",
+      "number": 33,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
+      "title": "[RESEARCH][Sponsorship] GitHub Sponsors — assess organization setup and payout readiness [E04-01]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:sponsorship",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "data/opportunities/github-sponsors.json",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "04 Sponsorship",
+      "updated_at": "2026-10-19T04:54:30Z",
+      "body_sha256": "962de629c66010567ddbd5d12310e16b0aa3a27feaddfae9562b8c2d5e9e3f59"
+    },
+    {
+      "key": "E04-02",
+      "number": 34,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+      "title": "[RESEARCH][Sponsorship] Donation channels — compare fiscal-hosted and direct collection [E04-02]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:sponsorship",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/donation-channel-comparison.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "04 Sponsorship",
+      "updated_at": "2026-10-19T07:17:53Z",
+      "body_sha256": "323b9117b3ad11ecca0a811d669a78f0ec426e091d59fd8758f4dd692b126e6c",
+      "taxonomy_append_exact": true
+    },
+    {
+      "key": "E04-03",
+      "number": 35,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
+      "title": "[OPERATIONS][Sponsorship] Pick Your AI — design individual and corporate support models [E04-03]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:sponsorship",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/ethical-sponsorship-models-draft.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "04 Sponsorship",
+      "updated_at": "2026-10-19T04:54:34Z",
+      "body_sha256": "f0408be1caa8f7529c1bbe172604f281b386411a31b8b5f4b6b87a6e5a548c1a"
+    },
+    {
+      "key": "E04-04",
+      "number": 36,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+      "title": "[RESEARCH][Sponsorship] Workplace giving and donor-advised funds — map verified access routes [E04-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:sponsorship",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/research/workplace-giving-and-daf-routes.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "04 Sponsorship",
+      "updated_at": "2026-10-19T04:54:36Z",
+      "body_sha256": "f330eb8403c582df806bdd99856fb2ea05a26f7789d51fe52c535606f36363f0"
+    },
+    {
+      "key": "E04-05",
+      "number": 37,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/37",
+      "title": "[OPERATIONS][Sponsorship] Pick Your AI — draft benefits, acknowledgments and renewal kit [E04-05]",
+      "state": "open",
+      "labels": [
+        "type:outreach",
+        "type:operations",
+        "priority:P2",
+        "category:sponsorship",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "docs/funding/sponsor-benefits-and-renewal-kit-draft.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 11,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "04 Sponsorship",
+      "updated_at": "2026-10-19T04:54:39Z",
+      "body_sha256": "23d53e673f0676e2bd5d6e5a610614ae1bcefef21d2a11b4d49ac1a7c08f6ac3"
+    },
+    {
+      "key": "E05-01",
+      "number": 38,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+      "title": "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:inference",
+        "eligibility:immediate",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/provider-coverage.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T06:24:15Z",
+      "body_sha256": "82296dd22dfcb46adc7864a1eea59021d52e7558242162b27cb5b990855cee25"
+    },
+    {
+      "key": "E05-01A",
+      "number": 39,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
+      "title": "[RESEARCH][Inference] OpenAI — qualify Researcher Access API credits [E05-01A]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/openai-researcher-access.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:43Z",
+      "body_sha256": "296454034a2b0c614002d5ec365a126196ba69ec14aa481617c36e2542cb5984"
+    },
+    {
+      "key": "E05-01B",
+      "number": 40,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40",
+      "title": "[RESEARCH][Inference] Anthropic — qualify external researcher API access [E05-01B]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/anthropic-researcher-access.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:45Z",
+      "body_sha256": "32c2518b0a305b3cdde5a5bd18d0ad61565f7fe5d787d58d655dd5746d0309fa"
+    },
+    {
+      "key": "E05-01C",
+      "number": 41,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41",
+      "title": "[RESEARCH][Inference] Google — verify Gemini academic support eligibility [E05-01C]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/google-gemini-research.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:47Z",
+      "body_sha256": "ee8a50ca0d122e43fac7fc78c988ed17b2e8d76ac9774f8556a3c3f3648c447c"
+    },
+    {
+      "key": "E05-01D",
+      "number": 42,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
+      "title": "[RESEARCH][Inference] Microsoft Azure — verify nonprofit AI-credit coverage [E05-01D]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:501c3",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/azure-nonprofit-ai.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:49Z",
+      "body_sha256": "db423da3bd244335b7d03451c9972c815dab744fb1ea765c1b58a6fea4466132"
+    },
+    {
+      "key": "E05-01E",
+      "number": 43,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43",
+      "title": "[RESEARCH][Inference] Groq — assess public free-plan fit and sponsorship gaps [E05-01E]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/groq-support.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:51Z",
+      "body_sha256": "c9697dd515b12e2df05a921b594ae0883d1dc5dfd3a214d75ed3bd437409ce14"
+    },
+    {
+      "key": "E05-01F",
+      "number": 44,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44",
+      "title": "[RESEARCH][Inference] Cerebras — assess trial limits and research-support evidence [E05-01F]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P3",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/cerebras-support.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P3",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:53Z",
+      "body_sha256": "01b4186753bfa76469b4ed40570c677cae1ff21c4ff5de15f47b6da6eebed0bb"
+    },
+    {
+      "key": "E05-01G",
+      "number": 45,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45",
+      "title": "[RESEARCH][Inference] Together AI — resolve invite-only research-credit fit [E05-01G]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P3",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/together-research-credits.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P3",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:55Z",
+      "body_sha256": "49991b3f71e112683ae3cb5ad360c562b55b9c98f3f4b9265210d2538332214e"
+    },
+    {
+      "key": "E05-01H",
+      "number": 46,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46",
+      "title": "[RESEARCH][Inference] Fireworks — document startup-program exclusion for the nonprofit path [E05-01H]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P3",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:review"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/fireworks-support.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P3",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:54:57Z",
+      "body_sha256": "7fb46cadf29322acd2f94b0575fd34cea9c0ec10077923610aed5816d6bea0d6"
+    },
+    {
+      "key": "E05-02",
+      "number": 47,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+      "title": "[RESEARCH][Inference] Hugging Face — qualify Community GPU support for a public Space [E05-02]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/hugging-face-community-gpu.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:55:00Z",
+      "body_sha256": "ab9f7db50a9ccf55cf1402e362159d5da509426c0da6a1249d53010bc3dc9a72"
+    },
+    {
+      "key": "E05-03",
+      "number": 48,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+      "title": "[RESEARCH][Inference] GPU cloud access — compare independent evaluation routes [E05-03]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/gpu-access-matrix.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:55:02Z",
+      "body_sha256": "4992b4752e68501a7c930b24107ea8d3aa9ae7ec09059afaadbf0bd9115c87d8"
+    },
+    {
+      "key": "E05-04",
+      "number": 49,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+      "title": "[RESEARCH][Inference] Evaluation proposal — define a reproducible sponsor-neutral study [E05-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:inference",
+        "eligibility:immediate",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/evaluation-proposal.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:55:04Z",
+      "body_sha256": "f76b75e06534b09cc15899b3ff85abca1e58f7ad9c8cb188b246d3c29e53a6af"
+    },
+    {
+      "key": "E05-05",
+      "number": 50,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50",
+      "title": "[RESEARCH][Inference] Compute restrictions — rank net usable support [E05-05]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/compute/usable-support-ranking.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "05 Inference",
+      "updated_at": "2026-10-19T04:55:06Z",
+      "body_sha256": "8c4e1503396e86cd76fede1870bf43ac25af6ae1dfed8977f6813ffcd33042b2"
+    },
+    {
+      "key": "E06-01",
+      "number": 51,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
+      "title": "[RESEARCH][Software] AWS — qualify Cloud Credits for Open Source [E06-01]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:inference",
+        "category:software",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/infrastructure/aws-open-source-credits.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "06 Infrastructure",
+      "updated_at": "2026-10-19T04:55:08Z",
+      "body_sha256": "be3ecfe076273b1e93ead630da3577315b6ea9c630c79325220820a51b1d7ddb"
+    },
+    {
+      "key": "E06-02",
+      "number": 52,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
+      "title": "[RESEARCH][Software] Cloudflare — qualify Project Alexandria sponsorship [E06-02]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:software",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/infrastructure/cloudflare-project-alexandria.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "06 Infrastructure",
+      "updated_at": "2026-10-19T04:55:10Z",
+      "body_sha256": "932247d4b20992b9460c71262e288b52e8c80383ccd7481c28087f6ba50009d7"
+    },
+    {
+      "key": "E06-03",
+      "number": 53,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+      "title": "[RESEARCH][Software] Infrastructure support — compare additional hosting and CI programs [E06-03]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:software",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/infrastructure/additional-programs.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "06 Infrastructure",
+      "updated_at": "2026-10-19T06:24:17Z",
+      "body_sha256": "572b73a808a7dc2f16e42bb3baddf3d98a8c4df4132760d1fa139e8e36e39902"
+    },
+    {
+      "key": "E06-04",
+      "number": 54,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+      "title": "[RESEARCH][Hardware] Hardware partners — qualify donation and loan routes [E06-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:hardware",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/hardware/partner-shortlist.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 14,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "06 Infrastructure",
+      "updated_at": "2026-10-19T07:17:56Z",
+      "body_sha256": "b55855fbe4ce6d75011186a1e8170c290801916937e3b34dea5dcb62597b02f8",
+      "taxonomy_append_exact": true
+    },
+    {
+      "key": "E06-05",
+      "number": 55,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55",
+      "title": "[RESEARCH][Hardware] Mobile device labs — cover Apple and Android testing gaps [E06-05]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:hardware",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/hardware/mobile-device-labs.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "06 Infrastructure",
+      "updated_at": "2026-10-19T06:24:19Z",
+      "body_sha256": "0111a431d43a15b5c11857a8e3507ff6236becef77282dce5d23234006887aa0"
+    },
+    {
+      "key": "E07-01",
+      "number": 56,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
+      "title": "[RESEARCH][Security] CodeRabbit — assess free OSS review and existing coverage [E07-01]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:security",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/tooling/coderabbit-oss.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T04:55:19Z",
+      "body_sha256": "5c43533d0281800f15d1cc2c927683e31431c59f19bd1abef766cc95eafc0003"
+    },
+    {
+      "key": "E07-02",
+      "number": 57,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
+      "title": "[RESEARCH][Security] GitHub — audit existing no-cost developer and security benefits [E07-02]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:security",
+        "eligibility:immediate",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/tooling/github-baseline.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T04:55:21Z",
+      "body_sha256": "8630e4b7bd44dda1d218e90cc2a719fa528be6f49dd91ba17ab0b9f49e18c8bb"
+    },
+    {
+      "key": "E07-03",
+      "number": 58,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58",
+      "title": "[RESEARCH][Software] JetBrains — verify OSS development licenses and alternatives [E07-03]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:software",
+        "eligibility:unknown",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/tooling/jetbrains-oss.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T04:55:23Z",
+      "body_sha256": "318b1c2f8780e05ae0fe8a918d3910a8ebb585342b40726fa9aec4d20e8ca05c"
+    },
+    {
+      "key": "E07-04",
+      "number": 59,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
+      "title": "[RESEARCH][Security] External reviews — qualify security and accessibility assistance [E07-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:security",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/security/external-review-support.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T04:55:25Z",
+      "body_sha256": "840383cb03e65b72efcc382e11ded0b42e156d1a89323c9d1ee788c1f7673497"
+    },
+    {
+      "key": "E07-05",
+      "number": 60,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
+      "title": "[RESEARCH][Nonprofit] Apple — determine Developer Program fee-waiver eligibility [E07-05]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:nonprofit",
+        "eligibility:501c3",
+        "blocked:dependency",
+        "blocked:decision"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/tooling/apple-fee-waiver.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T04:55:28Z",
+      "body_sha256": "77f357a49cb08533f9dcf115743624148ffde10919f72d74fbe06f38d614ddce"
+    },
+    {
+      "key": "E07-06",
+      "number": 61,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+      "title": "[RESEARCH][Software] Support stack — evaluate testing, documentation and monitoring offers [E07-06]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:software",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/tooling/support-stack.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "07 Tools and security",
+      "updated_at": "2026-10-19T04:55:30Z",
+      "body_sha256": "fc2f03654c19962554befef435566fdedc1d1080c9cdfea6d322cf5b480261a0"
+    },
+    {
+      "key": "E08-01",
+      "number": 62,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+      "title": "[RESEARCH][Partnership] Institutional homes — compare governance and community fit [E08-01]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:partnership",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/partnerships/institutional-homes.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 15,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "08 Partnerships",
+      "updated_at": "2026-10-19T07:17:54Z",
+      "body_sha256": "cc2e2514bbd29f171f700e79cbfcc0331375b3fb7958433e029edd2b7d1a6ad0",
+      "taxonomy_append_exact": true
+    },
+    {
+      "key": "E08-02",
+      "number": 63,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
+      "title": "[RESEARCH][Partnership] Academic partners — qualify research and capstone collaborations [E08-02]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:partnership",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/partnerships/academic-partners.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "08 Partnerships",
+      "updated_at": "2026-10-19T04:55:33Z",
+      "body_sha256": "8f09d8afa9ae11964cefad068ed30713df3445e2b019c39a4bb077eb70a4e941"
+    },
+    {
+      "key": "E08-03",
+      "number": 64,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64",
+      "title": "[RESEARCH][Partnership] Corporate OSPOs — identify engineering contribution routes [E08-03]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:partnership",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/partnerships/ospo-contributions.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "08 Partnerships",
+      "updated_at": "2026-10-19T04:55:35Z",
+      "body_sha256": "cc6cbfe558c44dc94ea5541616acb04b79d5569aeb639817efd9f14ff66bd0b4"
+    },
+    {
+      "key": "E08-04",
+      "number": 65,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+      "title": "[RESEARCH][Partnership] Pro bono support — qualify legal, finance and governance assistance [E08-04]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P1",
+        "category:partnership",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/partnerships/pro-bono-support.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "08 Partnerships",
+      "updated_at": "2026-10-19T04:55:37Z",
+      "body_sha256": "9b82ca102ebab475ab09bb9fc827bdd802aee62403617032ad40a40e4feb9d30"
+    },
+    {
+      "key": "E08-05",
+      "number": 66,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
+      "title": "[RESEARCH][Partnership] Mentorship and outreach — design sustainable volunteer partnerships [E08-05]",
+      "state": "open",
+      "labels": [
+        "type:research",
+        "priority:P2",
+        "category:partnership",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "due_on": null
+      },
+      "canonical_path": "research/partnerships/mentorship-volunteers.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Opportunity",
+      "workstream": "08 Partnerships",
+      "updated_at": "2026-10-19T04:55:39Z",
+      "body_sha256": "8c1671496d166a18279e22c8cf36dee85065022c51e9b0994bc6f5153458f78a"
+    },
+    {
+      "key": "E09-01",
+      "number": 67,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
+      "title": "[OPERATIONS][Funding] Pipeline — Create provider research and outreach templates [E09-01]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:immediate",
+        "ready:research"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "templates/provider-research.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:38:58Z",
+      "body_sha256": "30162d8a66db59ed1a14ecaa6302aa7b1b3dc8c2f8f0da3d81f460735b7878de"
+    },
+    {
+      "key": "E09-02",
+      "number": 68,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
+      "title": "[OPERATIONS][Funding] Pipeline — Define application and commitment authorization [E09-02]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P1",
+        "category:funding",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/workflow-and-authorization.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P1",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:39:01Z",
+      "body_sha256": "f062a30d06b4e88d8aa54e7d9ff31f913051ccb04a9fbd26f34af449b888a6e7"
+    },
+    {
+      "key": "E09-03",
+      "number": 69,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+      "title": "[OPERATIONS][Funding] Pipeline — Define activation, reporting and renewal procedures [E09-03]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P2",
+        "category:funding",
+        "eligibility:unknown",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/operations-and-reporting.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:39:04Z",
+      "body_sha256": "e5d11625ad35488ec9ef988b40abc2d33ef251577bd06fb173d619f5c8000b54"
+    },
+    {
+      "key": "E09-04",
+      "number": 70,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
+      "title": "[OPERATIONS][Funding] Pipeline — Establish evidence and deadline refresh review [E09-04]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P2",
+        "category:funding",
+        "eligibility:immediate",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/research-freshness.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:39:07Z",
+      "body_sha256": "cd1b97b5ee18f2254007647d1ed6303a95079f1aa8b67dcc3bb7408a3dc6e18b"
+    },
+    {
+      "key": "E09-05",
+      "number": 71,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
+      "title": "[OPERATIONS][Funding] Pipeline — Define concentration and sustainability risk indicators [E09-05]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P2",
+        "category:funding",
+        "eligibility:immediate",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/risk-indicators.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:39:09Z",
+      "body_sha256": "3e13fb92eeb71326518d4eb371970d7518bd26b2d302d1be6e310ba40845e27c"
+    },
+    {
+      "key": "E09-06",
+      "number": 72,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72",
+      "title": "[OPERATIONS][Funding] Pipeline — Create the monthly sustainability dashboard [E09-06]",
+      "state": "open",
+      "labels": [
+        "type:operations",
+        "priority:P2",
+        "category:funding",
+        "eligibility:immediate",
+        "blocked:dependency"
+      ],
+      "assignees": [],
+      "milestone": {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "due_on": null
+      },
+      "canonical_path": "docs/dashboard.md",
+      "canonical_path_present_in_body": true,
+      "expected_priority": "P2",
+      "priority_label_present": true,
+      "acceptance_criteria_count": 13,
+      "expected_acceptance_criteria_preserved": true,
+      "record_type": "Foundation",
+      "workstream": "09 Operations",
+      "updated_at": "2026-10-19T06:39:11Z",
+      "body_sha256": "8c71cb0c749b8105f5f4186f20c9e582e77d91210c57a556b1d0c2c5b134487c"
+    }
+  ],
+  "issue_collection_source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
+  "all_72_latest_bodies_and_metadata_exact": true,
+  "research_taxonomy_repairs": {
+    "result": "PASS",
+    "verified_at": "2026-10-19 07:24:19 UTC",
+    "mutations": [
+      {
+        "number": 32,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "mutation_succeeded": true,
+        "readback_verified": true,
+        "original_body_sha256": "64812271aa85ffce75498f118034fc383d0152820eb4d9c2abf3f500a6007451",
+        "repaired_body_sha256": "c079dfaa1e5987c5362c1fb3d5549ccbab77a97aa9e5b5407520d179cf4b3751",
+        "preserved_original_body": true,
+        "updated_at": "2026-10-19T07:17:51Z"
+      },
+      {
+        "number": 34,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+        "mutation_succeeded": true,
+        "readback_verified": true,
+        "original_body_sha256": "c9de0d20506724efa0c16884fe56537ef06b64b94a8af68b8b220e1350e6130b",
+        "repaired_body_sha256": "323b9117b3ad11ecca0a811d669a78f0ec426e091d59fd8758f4dd692b126e6c",
+        "preserved_original_body": true,
+        "updated_at": "2026-10-19T07:17:53Z"
+      },
+      {
+        "number": 62,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+        "mutation_succeeded": true,
+        "readback_verified": true,
+        "original_body_sha256": "6cca4e971a3c01982083b00be042d132168baafa6a4aebf58559e6547777f64c",
+        "repaired_body_sha256": "cc2e2514bbd29f171f700e79cbfcc0331375b3fb7958433e029edd2b7d1a6ad0",
+        "preserved_original_body": true,
+        "updated_at": "2026-10-19T07:17:54Z"
+      },
+      {
+        "number": 54,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+        "mutation_succeeded": true,
+        "readback_verified": true,
+        "original_body_sha256": "e5420d4a5dc2c08dbd8bcb8e3890dd31ce24b7d46b7b97da9f93ea48eab1fd66",
+        "repaired_body_sha256": "b55855fbe4ce6d75011186a1e8170c290801916937e3b34dea5dcb62597b02f8",
+        "preserved_original_body": true,
+        "updated_at": "2026-10-19T07:17:56Z"
+      }
+    ],
+    "independent_exact_readback": [
+      {
+        "number": 32,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+        "exact_body": true,
+        "preserves_original": true,
+        "has_exact_append": true,
+        "updated_at": "2026-10-19T07:17:51Z",
+        "criteria_count": 13
+      },
+      {
+        "number": 34,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+        "exact_body": true,
+        "preserves_original": true,
+        "has_exact_append": true,
+        "updated_at": "2026-10-19T07:17:53Z",
+        "criteria_count": 13
+      },
+      {
+        "number": 62,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+        "exact_body": true,
+        "preserves_original": true,
+        "has_exact_append": true,
+        "updated_at": "2026-10-19T07:17:54Z",
+        "criteria_count": 15
+      },
+      {
+        "number": 54,
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+        "exact_body": true,
+        "preserves_original": true,
+        "has_exact_append": true,
+        "updated_at": "2026-10-19T07:17:56Z",
+        "criteria_count": 14
+      }
+    ],
+    "scope_note": "Four append-only additions cover loans/investments, crowdfunding, nonprofit accelerators, and equipment depreciation/useful-life accounting. No new issue, assignee, deadline, priority, eligibility or graph change."
+  },
+  "unused_required_labels_verified_present": [
+    "priority:P0",
+    "eligibility:fiscal-sponsor"
+  ],
+  "full_label_catalog_verification": {
+    "result": "PASS",
+    "required": 26,
+    "present": 26,
+    "total_unique": 36,
+    "applied_counts_match": true,
+    "source_path": "data/audits/label-catalog-readback.json",
+    "comparison_path": "data/audits/catalog-validation.json"
+  },
+  "full_milestone_catalog_verification": {
+    "result": "PASS",
+    "open_milestones": 4,
+    "all_undated": true,
+    "open_issue_counts": {
+      "M1": 24,
+      "M2": 48,
+      "M3": 0,
+      "M4": 0
+    },
+    "source_path": "data/audits/milestone-catalog-readback.json"
+  }
+}

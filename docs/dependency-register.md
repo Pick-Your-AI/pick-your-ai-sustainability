@@ -1,8 +1,8 @@
 # Dependency register
 
-**Draft — planned relationship register.** Issue numbers and URLs are matched to the independent GitHub readback at 2026-10-19T04:59:39.870Z. Native relationship verification remains a separate final audit. This document does not claim that a planned relationship has already been created.
+**Draft program documentation; native execution verified.** [Run 39211246900](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/actions/runs/39211246900) at commit `e933da4663bde2d3b91992c889a74ac480cac9ba` successfully applied and read back all 71 declared parent/sub-issue links and 43 blocked-by links, including the 43 reverse blocking links. The [execution evidence](../data/audits/native-relationship-execution.json) records the actual mutations and final graph. The [independent connector audit](../data/audits/native-relationship-independent.json) separately passed all 58 endpoint comparisons and 72 fresh issue-summary checks, with matching numeric/node IDs, reciprocal dependencies and no cycles or extra edges.
 
-There are 71 intended parent/sub-issue relationships, 43 hard dependencies and 70 related inputs. The complete machine-readable [dependency register](../data/dependencies.json) also preserves 179 cross-repository context edges to 8 distinct existing issues.
+There are 71 verified native parent/sub-issue relationships, 43 verified hard dependencies and 70 related inputs. The complete machine-readable [dependency register](../data/dependencies.json) also preserves 179 cross-repository context edges to 8 distinct existing issues.
 
 ## Hard dependencies
 
@@ -57,6 +57,10 @@ Each row means the blocked work requires the accepted output of the blocking iss
 ## Related inputs and cross-repository ownership
 
 The data register lists every related input with both issue links and a reason. Those relationships allow parallel preliminary work and are not requested as native blockers. Cross-repository issues retain their original ownership: this sustainability program consumes their contracts, cost semantics, threat models, policy decisions and device matrices. It does not create replacements for that implementation work.
+
+## Execution implementation
+
+The scoped [GitHub workflow](../.github/workflows/native-relationships.yml) runs the pinned [relationship executor](../scripts/apply_native_relationships.py). The [graph checks](../tests/test_native_relationships.py) validate the declared relationship plan, and the [workflow marker checks](../tests/test_workflow_marker.py) cover the explicit execution gate. Updating evidence metadata does not change any planned edge or issue identity.
 
 ## Verification rule
 

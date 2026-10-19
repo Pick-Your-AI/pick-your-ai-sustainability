@@ -1,0 +1,1159 @@
+{
+  "result": "PASS",
+  "validated_at": "2026-10-19T07:54:20.768152+00:00",
+  "method": "Independent comparison of complete rendered settings/catalog evidence against master-brief field semantics, prescribed status/lifecycle conventions, issue-manifest values, mandatory label taxonomy and actual issue assignments. Options not prescribed verbatim by the brief are recorded as supported configuration choices, not falsely described as an earlier exact specification.",
+  "field_catalog": {
+    "editable_settings_count": 23,
+    "custom_fields": 21,
+    "native_editable_fields": [
+      "Status",
+      "Sub-issues progress"
+    ],
+    "checks": [
+      {
+        "name": "Status",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Backlog",
+          "Ready",
+          "In Progress",
+          "In Review",
+          "Blocked",
+          "Done",
+          "Not Pursuing"
+        ],
+        "actual_options": [
+          "Backlog",
+          "Ready",
+          "In Progress",
+          "In Review",
+          "Blocked",
+          "Done",
+          "Not Pursuing"
+        ],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": "Backlog",
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/Status",
+        "captured_at": "2026-10-19T07:48:01.110Z",
+        "passed": true
+      },
+      {
+        "name": "Opportunity stage",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Not applicable",
+          "Discovered",
+          "Verified",
+          "Qualified",
+          "Preparing",
+          "Submitted",
+          "Awarded",
+          "Declined",
+          "Activated",
+          "Reporting"
+        ],
+        "actual_options": [
+          "Not applicable",
+          "Discovered",
+          "Verified",
+          "Qualified",
+          "Preparing",
+          "Submitted",
+          "Awarded",
+          "Declined",
+          "Activated",
+          "Reporting"
+        ],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741248",
+        "captured_at": "2026-10-19T07:48:05.302Z",
+        "passed": true
+      },
+      {
+        "name": "Priority",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "actual_options": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": "P2",
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741661",
+        "captured_at": "2026-10-19T07:48:07.029Z",
+        "passed": true
+      },
+      {
+        "name": "Workstream",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Program",
+          "01 Nonprofit",
+          "02 Readiness",
+          "03 Grants",
+          "04 Sponsorship",
+          "05 Inference",
+          "06 Infrastructure",
+          "07 Tools and security",
+          "08 Partnerships",
+          "09 Operations"
+        ],
+        "actual_options": [
+          "Program",
+          "01 Nonprofit",
+          "02 Readiness",
+          "03 Grants",
+          "04 Sponsorship",
+          "05 Inference",
+          "06 Infrastructure",
+          "07 Tools and security",
+          "08 Partnerships",
+          "09 Operations"
+        ],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": "Program",
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741925",
+        "captured_at": "2026-10-19T07:48:09.368Z",
+        "passed": true
+      },
+      {
+        "name": "Record type",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Program",
+          "Epic",
+          "Foundation",
+          "Opportunity"
+        ],
+        "actual_options": [
+          "Program",
+          "Epic",
+          "Foundation",
+          "Opportunity"
+        ],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": "Foundation",
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742054",
+        "captured_at": "2026-10-19T07:48:18.607Z",
+        "passed": true
+      },
+      {
+        "name": "Eligibility phase",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Immediate",
+          "Fiscal sponsor",
+          "501c3",
+          "Unknown"
+        ],
+        "actual_options": [
+          "Immediate",
+          "Fiscal sponsor",
+          "501c3",
+          "Unknown",
+          "Not applicable"
+        ],
+        "additional_supported_options": [
+          "Not applicable"
+        ],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742835",
+        "captured_at": "2026-10-19T07:48:20.724Z",
+        "passed": true
+      },
+      {
+        "name": "Eligibility",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Eligible",
+          "Conditionally eligible",
+          "Unknown",
+          "Ineligible",
+          "Not applicable"
+        ],
+        "actual_options": [
+          "Eligible",
+          "Conditionally eligible",
+          "Unknown",
+          "Ineligible",
+          "Not applicable"
+        ],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742893",
+        "captured_at": "2026-10-19T07:48:22.479Z",
+        "passed": true
+      },
+      {
+        "name": "Effort",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Unknown"
+        ],
+        "actual_options": [
+          "S",
+          "M",
+          "L",
+          "Unknown"
+        ],
+        "additional_supported_options": [
+          "L",
+          "M",
+          "S"
+        ],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742908",
+        "captured_at": "2026-10-19T07:48:24.719Z",
+        "passed": true
+      },
+      {
+        "name": "Resource category",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Funding",
+          "Inference",
+          "Hardware",
+          "Software",
+          "Security",
+          "Nonprofit",
+          "Sponsorship",
+          "Partnership"
+        ],
+        "actual_options": [
+          "Funding",
+          "Inference",
+          "Hardware",
+          "Software",
+          "Security",
+          "Nonprofit",
+          "Sponsorship",
+          "Partnership",
+          "Operations"
+        ],
+        "additional_supported_options": [
+          "Operations"
+        ],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745821",
+        "captured_at": "2026-10-19T07:48:26.674Z",
+        "passed": true
+      },
+      {
+        "name": "Confidence",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Not verified"
+        ],
+        "actual_options": [
+          "High",
+          "Medium",
+          "Low",
+          "Not verified"
+        ],
+        "additional_supported_options": [
+          "High",
+          "Low",
+          "Medium"
+        ],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745906",
+        "captured_at": "2026-10-19T07:48:40.520Z",
+        "passed": true
+      },
+      {
+        "name": "Support type",
+        "expected_type": "Single select",
+        "actual_type": "Single select",
+        "required_options": [
+          "Cash",
+          "Credit",
+          "Hardware",
+          "Software",
+          "Service",
+          "Mixed"
+        ],
+        "actual_options": [
+          "Cash",
+          "Credit",
+          "Hardware",
+          "Software",
+          "Service",
+          "Mixed",
+          "Not applicable"
+        ],
+        "additional_supported_options": [
+          "Not applicable"
+        ],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745968",
+        "captured_at": "2026-10-19T07:48:42.667Z",
+        "passed": true
+      },
+      {
+        "name": "Provider",
+        "expected_type": "Text",
+        "actual_type": "Text",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746039",
+        "captured_at": "2026-10-19T07:48:46.211Z",
+        "passed": true
+      },
+      {
+        "name": "Program",
+        "expected_type": "Text",
+        "actual_type": "Text",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746071",
+        "captured_at": "2026-10-19T07:48:48.359Z",
+        "passed": true
+      },
+      {
+        "name": "Currency",
+        "expected_type": "Text",
+        "actual_type": "Text",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746099",
+        "captured_at": "2026-10-19T07:48:50.282Z",
+        "passed": true
+      },
+      {
+        "name": "Independent reviewer",
+        "expected_type": "Text",
+        "actual_type": "Text",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746167",
+        "captured_at": "2026-10-19T07:48:52.379Z",
+        "passed": true
+      },
+      {
+        "name": "Decision blockers",
+        "expected_type": "Text",
+        "actual_type": "Text",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746168",
+        "captured_at": "2026-10-19T07:49:06.390Z",
+        "passed": true
+      },
+      {
+        "name": "Estimated usable value",
+        "expected_type": "Number",
+        "actual_type": "Number",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746227",
+        "captured_at": "2026-10-19T07:49:08.612Z",
+        "passed": true
+      },
+      {
+        "name": "Score",
+        "expected_type": "Number",
+        "actual_type": "Number",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746242",
+        "captured_at": "2026-10-19T07:49:10.597Z",
+        "passed": true
+      },
+      {
+        "name": "Deadline",
+        "expected_type": "Date",
+        "actual_type": "Date",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746257",
+        "captured_at": "2026-10-19T07:49:12.744Z",
+        "passed": true
+      },
+      {
+        "name": "Next action",
+        "expected_type": "Date",
+        "actual_type": "Date",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746307",
+        "captured_at": "2026-10-19T07:49:14.821Z",
+        "passed": true
+      },
+      {
+        "name": "Source verified",
+        "expected_type": "Date",
+        "actual_type": "Date",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746346",
+        "captured_at": "2026-10-19T07:49:17.170Z",
+        "passed": true
+      },
+      {
+        "name": "Next verification",
+        "expected_type": "Date",
+        "actual_type": "Date",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746365",
+        "captured_at": "2026-10-19T07:49:18.996Z",
+        "passed": true
+      },
+      {
+        "name": "Sub-issues progress",
+        "expected_type": "Sub-issues progress",
+        "actual_type": "Sub-issues progress",
+        "required_options": [],
+        "actual_options": [],
+        "additional_supported_options": [],
+        "missing_required_options": [],
+        "options_unique": true,
+        "rendered_options_match_parsed_catalog": true,
+        "default_option": null,
+        "default_option_is_valid": true,
+        "source_url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/Sub-issues%20progress",
+        "captured_at": "2026-10-19T07:48:03.182Z",
+        "passed": true
+      }
+    ],
+    "current_issue_single_select_checks": [
+      {
+        "key": "PROGRAM",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E06",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E08",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-06",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-07",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E01-08",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E02-06",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-06",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-07",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E03-08",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E04-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E04-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E04-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E04-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E04-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01A",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01B",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01C",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01D",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01E",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01F",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01G",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-01H",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E05-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E06-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E06-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E06-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E06-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E06-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E07-06",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E08-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E08-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E08-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E08-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E08-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09-01",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09-02",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09-03",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09-04",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09-05",
+        "passed": true,
+        "invalid_values": {}
+      },
+      {
+        "key": "E09-06",
+        "passed": true,
+        "invalid_values": {}
+      }
+    ],
+    "settings_checks": {
+      "exact_name": true,
+      "default_repository": true,
+      "public_visibility": true,
+      "canonical_repository_in_readme": true,
+      "safe_status_default": true,
+      "no_default_qualification_or_outcome": true,
+      "dates_and_numbers_have_no_select_default": true
+    }
+  },
+  "labels": {
+    "required_count": 26,
+    "required_present": 26,
+    "total_unique": 36,
+    "missing": [],
+    "duplicates": [],
+    "retained_other_labels": [
+      "accessibility",
+      "bug",
+      "documentation",
+      "duplicate",
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "invalid",
+      "question",
+      "wontfix"
+    ],
+    "applied_issue_count_checks": [
+      {
+        "name": "blocked:decision",
+        "expected_applied_issues": 4,
+        "actual_catalog_open_issues": 4,
+        "passed": true
+      },
+      {
+        "name": "blocked:dependency",
+        "expected_applied_issues": 26,
+        "actual_catalog_open_issues": 26,
+        "passed": true
+      },
+      {
+        "name": "category:funding",
+        "expected_applied_issues": 22,
+        "actual_catalog_open_issues": 22,
+        "passed": true
+      },
+      {
+        "name": "category:hardware",
+        "expected_applied_issues": 3,
+        "actual_catalog_open_issues": 3,
+        "passed": true
+      },
+      {
+        "name": "category:inference",
+        "expected_applied_issues": 16,
+        "actual_catalog_open_issues": 16,
+        "passed": true
+      },
+      {
+        "name": "category:nonprofit",
+        "expected_applied_issues": 10,
+        "actual_catalog_open_issues": 10,
+        "passed": true
+      },
+      {
+        "name": "category:partnership",
+        "expected_applied_issues": 6,
+        "actual_catalog_open_issues": 6,
+        "passed": true
+      },
+      {
+        "name": "category:security",
+        "expected_applied_issues": 5,
+        "actual_catalog_open_issues": 5,
+        "passed": true
+      },
+      {
+        "name": "category:software",
+        "expected_applied_issues": 5,
+        "actual_catalog_open_issues": 5,
+        "passed": true
+      },
+      {
+        "name": "category:sponsorship",
+        "expected_applied_issues": 6,
+        "actual_catalog_open_issues": 6,
+        "passed": true
+      },
+      {
+        "name": "eligibility:501c3",
+        "expected_applied_issues": 2,
+        "actual_catalog_open_issues": 2,
+        "passed": true
+      },
+      {
+        "name": "eligibility:fiscal-sponsor",
+        "expected_applied_issues": 0,
+        "actual_catalog_open_issues": 0,
+        "passed": true
+      },
+      {
+        "name": "eligibility:immediate",
+        "expected_applied_issues": 7,
+        "actual_catalog_open_issues": 7,
+        "passed": true
+      },
+      {
+        "name": "eligibility:unknown",
+        "expected_applied_issues": 63,
+        "actual_catalog_open_issues": 63,
+        "passed": true
+      },
+      {
+        "name": "priority:P0",
+        "expected_applied_issues": 0,
+        "actual_catalog_open_issues": 0,
+        "passed": true
+      },
+      {
+        "name": "priority:P1",
+        "expected_applied_issues": 37,
+        "actual_catalog_open_issues": 37,
+        "passed": true
+      },
+      {
+        "name": "priority:P2",
+        "expected_applied_issues": 32,
+        "actual_catalog_open_issues": 32,
+        "passed": true
+      },
+      {
+        "name": "priority:P3",
+        "expected_applied_issues": 3,
+        "actual_catalog_open_issues": 3,
+        "passed": true
+      },
+      {
+        "name": "ready:research",
+        "expected_applied_issues": 45,
+        "actual_catalog_open_issues": 45,
+        "passed": true
+      },
+      {
+        "name": "ready:review",
+        "expected_applied_issues": 1,
+        "actual_catalog_open_issues": 1,
+        "passed": true
+      },
+      {
+        "name": "type:epic",
+        "expected_applied_issues": 9,
+        "actual_catalog_open_issues": 9,
+        "passed": true
+      },
+      {
+        "name": "type:grant",
+        "expected_applied_issues": 8,
+        "actual_catalog_open_issues": 8,
+        "passed": true
+      },
+      {
+        "name": "type:legal",
+        "expected_applied_issues": 6,
+        "actual_catalog_open_issues": 6,
+        "passed": true
+      },
+      {
+        "name": "type:operations",
+        "expected_applied_issues": 16,
+        "actual_catalog_open_issues": 16,
+        "passed": true
+      },
+      {
+        "name": "type:outreach",
+        "expected_applied_issues": 1,
+        "actual_catalog_open_issues": 1,
+        "passed": true
+      },
+      {
+        "name": "type:research",
+        "expected_applied_issues": 41,
+        "actual_catalog_open_issues": 41,
+        "passed": true
+      }
+    ],
+    "unused_required_labels_present": true
+  },
+  "milestones": {
+    "open_catalog_count": 4,
+    "all_undated": true,
+    "checks": [
+      {
+        "number": 1,
+        "title": "M1 — Foundation evidence",
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/1",
+        "open_issues": 24,
+        "closed_issues": 0,
+        "no_due_date": true,
+        "passed": true
+      },
+      {
+        "number": 2,
+        "title": "M2 — Support qualification",
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/2",
+        "open_issues": 48,
+        "closed_issues": 0,
+        "no_due_date": true,
+        "passed": true
+      },
+      {
+        "number": 3,
+        "title": "M3 — Authorized pursuit",
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/3",
+        "open_issues": 0,
+        "closed_issues": 0,
+        "no_due_date": true,
+        "passed": true
+      },
+      {
+        "number": 4,
+        "title": "M4 — Activation and accountability",
+        "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/4",
+        "open_issues": 0,
+        "closed_issues": 0,
+        "no_due_date": true,
+        "passed": true
+      }
+    ]
+  },
+  "findings": [],
+  "limitations": [
+    "This is an automated technical comparison of actual rendered GitHub evidence, not independent acceptance of the research or approval by another GitHub account.",
+    "Native Assignees remains the owner field; the editable-field settings catalog does not enumerate every built-in table column.",
+    "Single-select defaults are triage starting values. The 72 existing issues were individually populated and separately read back; defaults are not evidence of qualification."
+  ],
+  "evidence_files": {
+    "project-field-catalog-readback.json": {
+      "sha256": "c43c500e013c70bb2789c65f99abd28af8ed358c34a8c8439e97998565bf058b",
+      "bytes": 35397
+    },
+    "label-catalog-readback.json": {
+      "sha256": "d62333e9c72ea13fdd2b0cea07a1c7fcc75e108426d588f8e8d2f577be0da8ec",
+      "bytes": 22643
+    },
+    "milestone-catalog-readback.json": {
+      "sha256": "0e3f1619a20306bba409bddeab3088995eb80131a2ec0ff2ba2832d0b06f392b",
+      "bytes": 11093
+    }
+  }
+}

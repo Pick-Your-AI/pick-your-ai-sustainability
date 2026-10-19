@@ -2,7 +2,7 @@
 
 This register contains **39 distinct program/channel records**: 14 nonprofit and funding records and 25 compute, software, hardware and professional-service records. All are seed evidence for open research work. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
 
-The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. Native parent/blocker relationships and Project fields still require the final GitHub audit.
+The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
 A shared owning key means one comparative research package evaluates different programs. It does not create duplicate provider tasks. Closed programs and scope exclusions are retained so future research does not revive them as current offers. The Cloudflare historical OSS name and Project Alexandria use one record.
 
@@ -33,3 +33,11 @@ A shared owning key means one comparative research package evaluates different p
 - `required_application_evidence` contains only explicit published requirements captured so far. It is incomplete unless the record explicitly says otherwise. `internal_application_review_controls` are our own review needs.
 - External deadlines are source-backed and timezone-specific. No internal due dates or named contributors are assigned.
 - Headline dollars, euros, credits, service access and volunteer time are not added together as realized support. Currency remains unknown when the reviewed source did not establish it separately.
+
+## Template, citations and lifecycle
+
+Use [the fill-in record template](../templates/opportunity-record.json). It intentionally starts with unresolved values and is not a publishable opportunity as-is. Before adding a record, fill every schema-required property, including the existing owning research key, at least one official `source_urls` entry, `source_review_status`, the program identity and a justified priority; remove `template_only`. Preserve unknown applicant facts instead of manufacturing eligibility or scores.
+
+`source_refs` contains durable official URLs, not browser-session identifiers or positional claim indices. Distinct application and registration endpoints are tracked by the freshness register, including unresolved access attempts. Identifying a link does not verify its current form contents.
+
+Source facts checked does not mean the canonical program/intake assessment has received independent acceptance. The 39 seed records therefore remain Discovered under the clarified [transition rules](../docs/operations-and-reporting.md). Verified, Qualified and externally authorized actions have separate evidence gates.

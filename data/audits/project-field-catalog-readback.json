@@ -1,0 +1,394 @@
+{
+  "captured_at": "2026-10-19T07:49:18.996Z",
+  "source": "GitHub Project settings rendered UI, each actual field settings page",
+  "settings": {
+    "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings",
+    "fields": [
+      {
+        "name": "Status",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/Status"
+      },
+      {
+        "name": "Sub-issues progress",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/Sub-issues%20progress"
+      },
+      {
+        "name": "Opportunity stage",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741248"
+      },
+      {
+        "name": "Priority",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741661"
+      },
+      {
+        "name": "Workstream",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741925"
+      },
+      {
+        "name": "Record type",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742054"
+      },
+      {
+        "name": "Eligibility phase",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742835"
+      },
+      {
+        "name": "Eligibility",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742893"
+      },
+      {
+        "name": "Effort",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742908"
+      },
+      {
+        "name": "Resource category",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745821"
+      },
+      {
+        "name": "Confidence",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745906"
+      },
+      {
+        "name": "Support type",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745968"
+      },
+      {
+        "name": "Provider",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746039"
+      },
+      {
+        "name": "Program",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746071"
+      },
+      {
+        "name": "Currency",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746099"
+      },
+      {
+        "name": "Independent reviewer",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746167"
+      },
+      {
+        "name": "Decision blockers",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746168"
+      },
+      {
+        "name": "Estimated usable value",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746227"
+      },
+      {
+        "name": "Score",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746242"
+      },
+      {
+        "name": "Deadline",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746257"
+      },
+      {
+        "name": "Next action",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746307"
+      },
+      {
+        "name": "Source verified",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746346"
+      },
+      {
+        "name": "Next verification",
+        "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746365"
+      }
+    ],
+    "projectSettings": "Project settings\nProject name\nDefault repository\nPick-Your-AI/pick-your-ai-sustainability\nBy default, new issues created from this project are added to this repository.\nShort description\nREADME\nMarkdown input: edit mode selected.\nWrite\nPreview\nAdd Files\nSave changes\nTemplates\nMake template\n\nMake this project a template that can be used by members of the Pick-Your-AI organization when creating new projects.\n\nOff\nCopy as template\nCopy this project into a template that can be used when creating new projects.\nCopy as template\nMore options\nMake a copy\nMake a copy of this project.\nMake a copy\nDanger zone\nVisibility\nThis project is currently public.\nPublic\nClose project\nClosing a project will disable its workflows & remove it from the list of open projects.\nClose this project\nDelete project\nOnce you delete a project, there is no going back. Please be certain.\nDelete this project",
+    "name": "Pick Your AI — Funding, Grants & Sustainability",
+    "description": "Community-led research, nonprofit readiness, grant discovery, financial sponsorship, donated infrastructure, inference credits, hardware, development tools, technical assistance, and sustainable funding for Pick Your AI.",
+    "readme": "# Funding, Grants & Sustainability\n\nCanonical program repository: https://github.com/Pick-Your-AI/pick-your-ai-sustainability\n\nTrack immediate open-source support, fiscal-sponsorship pathways, and future independent nonprofit readiness. Pick Your AI intends to pursue US 501(c)(3) status; incorporation, IRS recognition and program-specific eligibility are separate gates.\n\nResearch completion does not mean an application was submitted or support obtained. Applications, outreach, benefit activation, agreements, financial accounts and legal filings require recorded authorization. Sponsor support must not buy research conclusions, rankings, compatibility results, or exclusion of competitors.\n\nUse the repository README, opportunity register, source dates and issue acceptance criteria. GitHub Assignees remain authoritative; no owner commitments are assumed. Existing technical, market, website, mobile and leaderboard work stays in its canonical Projects 1–6.\n"
+  },
+  "fields": [
+    {
+      "name": "Status",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/Status",
+      "captured_at": "2026-10-19T07:48:01.110Z",
+      "main_snapshot": "\n  - heading \"Status field settings\" [level=2]\n  - generic: Field name\n  - textbox \"Field name\" [disabled]: Status\n  - generic: Status fields are created by GitHub and cannot be renamed.\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Status options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Backlog\":\n    - generic: Backlog\n    - generic: Default\n    - paragraph: Scoped work awaiting readiness or contributor ownership; no funding outcome implied.\n    - button \"Open field actions for Backlog\":\n    - button \"Move Ready\":\n    - generic: Ready\n    - paragraph: Research can begin from available evidence. Applications, spending and activation still require qualification and authorization.\n    - button \"Open field actions for Ready\":\n    - button \"Move In Progress\":\n    - generic: In Progress\n    - paragraph: This is actively being worked on\n    - button \"Open field actions for In Progress\":\n    - button \"Move In Review\":\n    - generic: In Review\n    - paragraph: Findings are ready for independent acceptance; source review is separate from applicant qualification and funding outcome.\n    - button \"Open field actions for In Review\":\n    - button \"Move Blocked\":\n    - generic: Blocked\n    - paragraph: A named research prerequisite or decision prevents acceptance. See native blockers and Decision blockers.\n    - button \"Open field actions for Blocked\":\n    - button \"Move Done\":\n    - generic: Done\n    - paragraph: Research acceptance criteria are evidenced and independently accepted; this does not mean submitted, awarded or activated.\n    - button \"Open field actions for Done\":\n    - button \"Move Not Pursuing\":\n    - generic: Not Pursuing\n    - paragraph: Current route is parked because its cycle, eligibility, scope or obligations do not support pursuit; preserve evidence and review status.\n    - button \"Open field actions for Not Pursuing\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - generic: \"Item added to project: Active\"\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Backlog",
+        "Ready",
+        "In Progress",
+        "In Review",
+        "Blocked",
+        "Done",
+        "Not Pursuing"
+      ],
+      "default_option": "Backlog"
+    },
+    {
+      "name": "Sub-issues progress",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/Sub-issues%20progress",
+      "captured_at": "2026-10-19T07:48:03.182Z",
+      "main_snapshot": "\n  - heading \"Sub-issues progress field settings\" [level=2]\n  - generic: Field name\n  - textbox \"Field name\" [disabled]: Sub-issues progress\n  - generic: Sub-issues progress fields are created by GitHub and cannot be renamed.\n  - generic: Field type\n  - button \"Sub-issues progress\" [disabled]:\n    - generic: Sub-issues progress\n  - heading \"Sub-issues progress options\" [level=3]: Options\n  - generic: 2 / 5\n  - progressbar\n  - progressbar\n  - progressbar\n  - progressbar\n  - progressbar\n  - generic: 40%\n  - button \"Progress visualization variant\":\n    - generic: Segmented bar\n  - checkbox \"Show numerical value\" [checked]\n  - generic: Show numerical value\n  - group \"Color\":\n    - generic: Color\n    - radio \"Gray\"\n    - radio \"Blue\"\n    - radio \"Green\"\n    - radio \"Yellow\"\n    - radio \"Orange\"\n    - radio \"Red\"\n    - radio \"Pink\"\n    - radio \"Purple\" [checked]\n  - text: Saved!",
+      "type": "Sub-issues progress",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Opportunity stage",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741248",
+      "captured_at": "2026-10-19T07:48:05.302Z",
+      "main_snapshot": "\n  - heading \"Opportunity stage field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Opportunity stage\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Opportunity stage options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Not applicable\":\n    - generic: Not applicable\n    - paragraph\n    - button \"Open field actions for Not applicable\":\n    - button \"Move Discovered\":\n    - generic: Discovered\n    - paragraph\n    - button \"Open field actions for Discovered\":\n    - button \"Move Verified\":\n    - generic: Verified\n    - paragraph\n    - button \"Open field actions for Verified\":\n    - button \"Move Qualified\":\n    - generic: Qualified\n    - paragraph\n    - button \"Open field actions for Qualified\":\n    - button \"Move Preparing\":\n    - generic: Preparing\n    - paragraph\n    - button \"Open field actions for Preparing\":\n    - button \"Move Submitted\":\n    - generic: Submitted\n    - paragraph\n    - button \"Open field actions for Submitted\":\n    - button \"Move Awarded\":\n    - generic: Awarded\n    - paragraph\n    - button \"Open field actions for Awarded\":\n    - button \"Move Declined\":\n    - generic: Declined\n    - paragraph\n    - button \"Open field actions for Declined\":\n    - button \"Move Activated\":\n    - generic: Activated\n    - paragraph\n    - button \"Open field actions for Activated\":\n    - button \"Move Reporting\":\n    - generic: Reporting\n    - paragraph\n    - button \"Open field actions for Reporting\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Not applicable",
+        "Discovered",
+        "Verified",
+        "Qualified",
+        "Preparing",
+        "Submitted",
+        "Awarded",
+        "Declined",
+        "Activated",
+        "Reporting"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Priority",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741661",
+      "captured_at": "2026-10-19T07:48:07.029Z",
+      "main_snapshot": "\n  - heading \"Priority field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Priority\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Priority options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move P0\":\n    - generic: P0\n    - paragraph\n    - button \"Open field actions for P0\":\n    - button \"Move P1\":\n    - generic: P1\n    - paragraph\n    - button \"Open field actions for P1\":\n    - button \"Move P2\":\n    - generic: P2\n    - generic: Default\n    - paragraph\n    - button \"Open field actions for P2\":\n    - button \"Move P3\":\n    - generic: P3\n    - paragraph\n    - button \"Open field actions for P3\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "default_option": "P2"
+    },
+    {
+      "name": "Workstream",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428741925",
+      "captured_at": "2026-10-19T07:48:09.368Z",
+      "main_snapshot": "\n  - heading \"Workstream field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Workstream\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Workstream options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Program\":\n    - generic: Program\n    - generic: Default\n    - paragraph\n    - button \"Open field actions for Program\":\n    - button \"Move 01 Nonprofit\":\n    - generic: 01 Nonprofit\n    - paragraph\n    - button \"Open field actions for 01 Nonprofit\":\n    - button \"Move 02 Readiness\":\n    - generic: 02 Readiness\n    - paragraph\n    - button \"Open field actions for 02 Readiness\":\n    - button \"Move 03 Grants\":\n    - generic: 03 Grants\n    - paragraph\n    - button \"Open field actions for 03 Grants\":\n    - button \"Move 04 Sponsorship\":\n    - generic: 04 Sponsorship\n    - paragraph\n    - button \"Open field actions for 04 Sponsorship\":\n    - button \"Move 05 Inference\":\n    - generic: 05 Inference\n    - paragraph\n    - button \"Open field actions for 05 Inference\":\n    - button \"Move 06 Infrastructure\":\n    - generic: 06 Infrastructure\n    - paragraph\n    - button \"Open field actions for 06 Infrastructure\":\n    - button \"Move 07 Tools and security\":\n    - generic: 07 Tools and security\n    - paragraph\n    - button \"Open field actions for 07 Tools and security\":\n    - button \"Move 08 Partnerships\":\n    - generic: 08 Partnerships\n    - paragraph\n    - button \"Open field actions for 08 Partnerships\":\n    - button \"Move 09 Operations\":\n    - generic: 09 Operations\n    - paragraph\n    - button \"Open field actions for 09 Operations\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Program",
+        "01 Nonprofit",
+        "02 Readiness",
+        "03 Grants",
+        "04 Sponsorship",
+        "05 Inference",
+        "06 Infrastructure",
+        "07 Tools and security",
+        "08 Partnerships",
+        "09 Operations"
+      ],
+      "default_option": "Program"
+    },
+    {
+      "name": "Record type",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742054",
+      "captured_at": "2026-10-19T07:48:18.607Z",
+      "main_snapshot": "\n  - heading \"Record type field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Record type\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Record type options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Program\":\n    - generic: Program\n    - paragraph\n    - button \"Open field actions for Program\":\n    - button \"Move Epic\":\n    - generic: Epic\n    - paragraph\n    - button \"Open field actions for Epic\":\n    - button \"Move Foundation\":\n    - generic: Foundation\n    - generic: Default\n    - paragraph\n    - button \"Open field actions for Foundation\":\n    - button \"Move Opportunity\":\n    - generic: Opportunity\n    - paragraph\n    - button \"Open field actions for Opportunity\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Program",
+        "Epic",
+        "Foundation",
+        "Opportunity"
+      ],
+      "default_option": "Foundation"
+    },
+    {
+      "name": "Eligibility phase",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742835",
+      "captured_at": "2026-10-19T07:48:20.724Z",
+      "main_snapshot": "\n  - heading \"Eligibility phase field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Eligibility phase\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Eligibility phase options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Immediate\":\n    - generic: Immediate\n    - paragraph\n    - button \"Open field actions for Immediate\":\n    - button \"Move Fiscal sponsor\":\n    - generic: Fiscal sponsor\n    - paragraph\n    - button \"Open field actions for Fiscal sponsor\":\n    - button \"Move 501c3\":\n    - generic: 501c3\n    - paragraph\n    - button \"Open field actions for 501c3\":\n    - button \"Move Unknown\":\n    - generic: Unknown\n    - paragraph\n    - button \"Open field actions for Unknown\":\n    - button \"Move Not applicable\":\n    - generic: Not applicable\n    - paragraph\n    - button \"Open field actions for Not applicable\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Immediate",
+        "Fiscal sponsor",
+        "501c3",
+        "Unknown",
+        "Not applicable"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Eligibility",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742893",
+      "captured_at": "2026-10-19T07:48:22.479Z",
+      "main_snapshot": "\n  - heading \"Eligibility field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Eligibility\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Eligibility options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Eligible\":\n    - generic: Eligible\n    - paragraph\n    - button \"Open field actions for Eligible\":\n    - button \"Move Conditionally eligible\":\n    - generic: Conditionally eligible\n    - paragraph\n    - button \"Open field actions for Conditionally eligible\":\n    - button \"Move Unknown\":\n    - generic: Unknown\n    - paragraph\n    - button \"Open field actions for Unknown\":\n    - button \"Move Ineligible\":\n    - generic: Ineligible\n    - paragraph\n    - button \"Open field actions for Ineligible\":\n    - button \"Move Not applicable\":\n    - generic: Not applicable\n    - paragraph\n    - button \"Open field actions for Not applicable\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Eligible",
+        "Conditionally eligible",
+        "Unknown",
+        "Ineligible",
+        "Not applicable"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Effort",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428742908",
+      "captured_at": "2026-10-19T07:48:24.719Z",
+      "main_snapshot": "\n  - heading \"Effort field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Effort\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Effort options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move S\":\n    - generic: S\n    - paragraph\n    - button \"Open field actions for S\":\n    - button \"Move M\":\n    - generic: M\n    - paragraph\n    - button \"Open field actions for M\":\n    - button \"Move L\":\n    - generic: L\n    - paragraph\n    - button \"Open field actions for L\":\n    - button \"Move Unknown\":\n    - generic: Unknown\n    - paragraph\n    - button \"Open field actions for Unknown\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "S",
+        "M",
+        "L",
+        "Unknown"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Resource category",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745821",
+      "captured_at": "2026-10-19T07:48:26.674Z",
+      "main_snapshot": "\n  - heading \"Resource category field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Resource category\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Resource category options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Funding\":\n    - generic: Funding\n    - paragraph\n    - button \"Open field actions for Funding\":\n    - button \"Move Inference\":\n    - generic: Inference\n    - paragraph\n    - button \"Open field actions for Inference\":\n    - button \"Move Hardware\":\n    - generic: Hardware\n    - paragraph\n    - button \"Open field actions for Hardware\":\n    - button \"Move Software\":\n    - generic: Software\n    - paragraph\n    - button \"Open field actions for Software\":\n    - button \"Move Security\":\n    - generic: Security\n    - paragraph\n    - button \"Open field actions for Security\":\n    - button \"Move Nonprofit\":\n    - generic: Nonprofit\n    - paragraph\n    - button \"Open field actions for Nonprofit\":\n    - button \"Move Sponsorship\":\n    - generic: Sponsorship\n    - paragraph\n    - button \"Open field actions for Sponsorship\":\n    - button \"Move Partnership\":\n    - generic: Partnership\n    - paragraph\n    - button \"Open field actions for Partnership\":\n    - button \"Move Operations\":\n    - generic: Operations\n    - paragraph\n    - button \"Open field actions for Operations\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Funding",
+        "Inference",
+        "Hardware",
+        "Software",
+        "Security",
+        "Nonprofit",
+        "Sponsorship",
+        "Partnership",
+        "Operations"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Confidence",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745906",
+      "captured_at": "2026-10-19T07:48:40.520Z",
+      "main_snapshot": "\n  - heading \"Confidence field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Confidence\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Confidence options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move High\":\n    - generic: High\n    - paragraph\n    - button \"Open field actions for High\":\n    - button \"Move Medium\":\n    - generic: Medium\n    - paragraph\n    - button \"Open field actions for Medium\":\n    - button \"Move Low\":\n    - generic: Low\n    - paragraph\n    - button \"Open field actions for Low\":\n    - button \"Move Not verified\":\n    - generic: Not verified\n    - paragraph\n    - button \"Open field actions for Not verified\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "High",
+        "Medium",
+        "Low",
+        "Not verified"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Support type",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428745968",
+      "captured_at": "2026-10-19T07:48:42.667Z",
+      "main_snapshot": "\n  - heading \"Support type field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Support type\n  - generic: Field type\n  - button \"Single select\" [disabled]:\n    - generic: Single select\n  - heading \"Support type options\" [level=3]: Options\n  - list \"Single select options\":\n    - button \"Move Cash\":\n    - generic: Cash\n    - paragraph\n    - button \"Open field actions for Cash\":\n    - button \"Move Credit\":\n    - generic: Credit\n    - paragraph\n    - button \"Open field actions for Credit\":\n    - button \"Move Hardware\":\n    - generic: Hardware\n    - paragraph\n    - button \"Open field actions for Hardware\":\n    - button \"Move Software\":\n    - generic: Software\n    - paragraph\n    - button \"Open field actions for Software\":\n    - button \"Move Service\":\n    - generic: Service\n    - paragraph\n    - button \"Open field actions for Service\":\n    - button \"Move Mixed\":\n    - generic: Mixed\n    - paragraph\n    - button \"Open field actions for Mixed\":\n    - button \"Move Not applicable\":\n    - generic: Not applicable\n    - paragraph\n    - button \"Open field actions for Not applicable\":\n  - status\n  - group \"Add option\":\n    - generic: Add option\n    - generic: Label text\n    - textbox \"Label text\":\n      - /placeholder: Add option…\n    - button \"Add\" [disabled]:\n      - generic: Add\n  - text: Saved!",
+      "type": "Single select",
+      "options": [
+        "Cash",
+        "Credit",
+        "Hardware",
+        "Software",
+        "Service",
+        "Mixed",
+        "Not applicable"
+      ],
+      "default_option": null
+    },
+    {
+      "name": "Provider",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746039",
+      "captured_at": "2026-10-19T07:48:46.211Z",
+      "main_snapshot": "\n  - heading \"Provider field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Provider\n  - generic: Field type\n  - button \"Text\" [disabled]:\n    - generic: Text\n  - generic: Default value\n  - textbox \"Default value\":\n    - /placeholder: Enter default text\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Text",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Program",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746071",
+      "captured_at": "2026-10-19T07:48:48.359Z",
+      "main_snapshot": "\n  - heading \"Program field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Program\n  - generic: Field type\n  - button \"Text\" [disabled]:\n    - generic: Text\n  - generic: Default value\n  - textbox \"Default value\":\n    - /placeholder: Enter default text\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Text",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Currency",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746099",
+      "captured_at": "2026-10-19T07:48:50.282Z",
+      "main_snapshot": "\n  - heading \"Currency field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Currency\n  - generic: Field type\n  - button \"Text\" [disabled]:\n    - generic: Text\n  - generic: Default value\n  - textbox \"Default value\":\n    - /placeholder: Enter default text\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Text",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Independent reviewer",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746167",
+      "captured_at": "2026-10-19T07:48:52.379Z",
+      "main_snapshot": "\n  - heading \"Independent reviewer field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Independent reviewer\n  - generic: Field type\n  - button \"Text\" [disabled]:\n    - generic: Text\n  - generic: Default value\n  - textbox \"Default value\":\n    - /placeholder: Enter default text\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Text",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Decision blockers",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746168",
+      "captured_at": "2026-10-19T07:49:06.390Z",
+      "main_snapshot": "\n  - heading \"Decision blockers field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Decision blockers\n  - generic: Field type\n  - button \"Text\" [disabled]:\n    - generic: Text\n  - generic: Default value\n  - textbox \"Default value\":\n    - /placeholder: Enter default text\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Text",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Estimated usable value",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746227",
+      "captured_at": "2026-10-19T07:49:08.612Z",
+      "main_snapshot": "\n  - heading \"Estimated usable value field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Estimated usable value\n  - generic: Field type\n  - button \"Number\" [disabled]:\n    - generic: Number\n  - generic: Default value\n  - spinbutton \"Default value\"\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Number",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Score",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746242",
+      "captured_at": "2026-10-19T07:49:10.597Z",
+      "main_snapshot": "\n  - heading \"Score field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Score\n  - generic: Field type\n  - button \"Number\" [disabled]:\n    - generic: Number\n  - generic: Default value\n  - spinbutton \"Default value\"\n  - generic: New items added to the project will automatically have this value set for this field.",
+      "type": "Number",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Deadline",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746257",
+      "captured_at": "2026-10-19T07:49:12.744Z",
+      "main_snapshot": "\n  - heading \"Deadline field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Deadline\n  - generic: Field type\n  - button \"Date\" [disabled]:\n    - generic: Date",
+      "type": "Date",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Next action",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746307",
+      "captured_at": "2026-10-19T07:49:14.821Z",
+      "main_snapshot": "\n  - heading \"Next action field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Next action\n  - generic: Field type\n  - button \"Date\" [disabled]:\n    - generic: Date",
+      "type": "Date",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Source verified",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746346",
+      "captured_at": "2026-10-19T07:49:17.170Z",
+      "main_snapshot": "\n  - heading \"Source verified field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Source verified\n  - generic: Field type\n  - button \"Date\" [disabled]:\n    - generic: Date",
+      "type": "Date",
+      "options": [],
+      "default_option": null
+    },
+    {
+      "name": "Next verification",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/settings/fields/428746365",
+      "captured_at": "2026-10-19T07:49:18.996Z",
+      "main_snapshot": "\n  - heading \"Next verification field settings\" [level=2]\n  - button \"Delete field\":\n    - generic: Delete field\n  - generic: Field name\n  - textbox \"Field name\": Next verification\n  - generic: Field type\n  - button \"Date\" [disabled]:\n    - generic: Date",
+      "type": "Date",
+      "options": [],
+      "default_option": null
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "verified_at": "2026-10-19 06:50:10 UTC",
+  "head": "e933da4663bde2d3b91992c889a74ac480cac9ba",
+  "tree": "b147e9342ff43b5497aea8c374547e98825aa8c5",
+  "pr": {
+    "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/73",
+    "state": "open",
+    "draft": false,
+    "merged": false,
+    "base_sha": "b6c2f9c0a630efbb5ca57c0bde2f491e0cbcf9be"
+  },
+  "reviews": [
+    {
+      "id": "PRR_kwDOVO8t2M8AAAABS9x_Qw",
+      "state": "COMMENTED",
+      "submitted_at": "2026-10-19T06:34:02Z",
+      "author": "chatgpt-codex-connector"
+    }
+  ],
+  "workflow_runs": [
+    {
+      "id": 39211246900,
+      "name": "Apply and verify declared sustainability relationships",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 1,
+      "jobs_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/actions/runs/39211246900/jobs",
+      "logs_url": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/actions/runs/39211246900/logs",
+      "workflow_id": 389087467
+    }
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/native-relationships.yml",
+      "git_blob_sha": "d05877a7a2642feec07df4cea0cbae57bcafe5b8",
+      "bytes": 5442,
+      "mode": "100644",
+      "expected_git_blob_sha": "d05877a7a2642feec07df4cea0cbae57bcafe5b8",
+      "match": true,
+      "verification": "Read file content at current commit and matched local computed Git blob SHA",
+      "sha256": "19b2ee973ef66e4c4d4568944ecf968d09951f2e16ba52ffbf96117cf466fa3a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "git_blob_sha": "1f412f3cfcdbda31f0603f4ec301670964da87c8",
+      "bytes": 2241,
+      "mode": "100644",
+      "expected_git_blob_sha": "1f412f3cfcdbda31f0603f4ec301670964da87c8",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "6f5406cb4bcdbd2793021f788aeab91fe620df9b",
+      "bytes": 4849,
+      "mode": "100644",
+      "expected_git_blob_sha": "6f5406cb4bcdbd2793021f788aeab91fe620df9b",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "data/README.md",
+      "git_blob_sha": "1f3247e0abe93f8b50994d0d91831d35fda403e5",
+      "bytes": 3825,
+      "mode": "100644",
+      "expected_git_blob_sha": "1f3247e0abe93f8b50994d0d91831d35fda403e5",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "data/budget-assumptions.json",
+      "git_blob_sha": "18691589479be9f3e52838032a1272cd738cdec7",
+      "bytes": 2943,
+      "mode": "100644",
+      "expected_git_blob_sha": "18691589479be9f3e52838032a1272cd738cdec7",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "data/dependencies.json",
+      "git_blob_sha": "1f8ca92c60ea11ccdfd9f1fd42e3791043914419",
+      "bytes": 168902,
+      "mode": "100644",
+      "expected_git_blob_sha": "1f8ca92c60ea11ccdfd9f1fd42e3791043914419",
+      "match": true,
+      "verification": "Read file content at current commit and matched local computed Git blob SHA",
+      "sha256": "8bfd7519b9f43746f87a17cb1640073e406dda64bffbbd2b7097fe2f0ad8d3ca"
+    },
+    {
+      "path": "data/funding-pipeline.json",
+      "git_blob_sha": "1a99997052c36d4a8dcc19634dbecfaad83a9b4d",
+      "bytes": 47255,
+      "mode": "100644",
+      "expected_git_blob_sha": "1a99997052c36d4a8dcc19634dbecfaad83a9b4d",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "data/opportunities.json",
+      "git_blob_sha": "11efd844273af248cf0a7b68163d66d8b112d138",
+      "bytes": 374423,
+      "mode": "100644",
+      "expected_git_blob_sha": "11efd844273af248cf0a7b68163d66d8b112d138",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "data/opportunities.schema.json",
+      "git_blob_sha": "f7b7450731253c0207085187ba67e985b63fa410",
+      "bytes": 3077,
+      "mode": "100644",
+      "expected_git_blob_sha": "f7b7450731253c0207085187ba67e985b63fa410",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "data/research-freshness.json",
+      "git_blob_sha": "007d653be91983b059fe8daceab122610e6298c8",
+      "bytes": 37523,
+      "mode": "100644",
+      "expected_git_blob_sha": "007d653be91983b059fe8daceab122610e6298c8",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/budget-assumptions.md",
+      "git_blob_sha": "1ef8bb337d89f8da6f0269cc284f268321afda21",
+      "bytes": 3199,
+      "mode": "100644",
+      "expected_git_blob_sha": "1ef8bb337d89f8da6f0269cc284f268321afda21",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/charter.md",
+      "git_blob_sha": "adc2e809704590133f481048eecbc4b888938bf7",
+      "bytes": 2879,
+      "mode": "100644",
+      "expected_git_blob_sha": "adc2e809704590133f481048eecbc4b888938bf7",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/dashboard.md",
+      "git_blob_sha": "7942708b03028d267eb025c13c9836f2a0124f0f",
+      "bytes": 2290,
+      "mode": "100644",
+      "expected_git_blob_sha": "7942708b03028d267eb025c13c9836f2a0124f0f",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/dependency-register.md",
+      "git_blob_sha": "f61635ac359ec4391d303d08780f0aa9a0d40b42",
+      "bytes": 14684,
+      "mode": "100644",
+      "expected_git_blob_sha": "f61635ac359ec4391d303d08780f0aa9a0d40b42",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/funding-pipeline.md",
+      "git_blob_sha": "6717b10dabbfc6e70f46609b5d1f8e40d4b9893a",
+      "bytes": 2735,
+      "mode": "100644",
+      "expected_git_blob_sha": "6717b10dabbfc6e70f46609b5d1f8e40d4b9893a",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/grant-narrative-draft.md",
+      "git_blob_sha": "dddb8686d2f89be95e682be967f56e3ff3b40459",
+      "bytes": 3118,
+      "mode": "100644",
+      "expected_git_blob_sha": "dddb8686d2f89be95e682be967f56e3ff3b40459",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/needs-assessment.md",
+      "git_blob_sha": "f78028794e2f6b27be90dae8d6e8eecafe7d1c24",
+      "bytes": 3416,
+      "mode": "100644",
+      "expected_git_blob_sha": "f78028794e2f6b27be90dae8d6e8eecafe7d1c24",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/nonprofit/fiscal-sponsorship-comparison.md",
+      "git_blob_sha": "fe78745f578e62bc9b95d499b5834feecba7c949",
+      "bytes": 4663,
+      "mode": "100644",
+      "expected_git_blob_sha": "fe78745f578e62bc9b95d499b5834feecba7c949",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/nonprofit/structure-decision-brief.md",
+      "git_blob_sha": "b3f5eaec4df7ab4a4980fb5a417aa141cef16718",
+      "bytes": 5933,
+      "mode": "100644",
+      "expected_git_blob_sha": "b3f5eaec4df7ab4a4980fb5a417aa141cef16718",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/operations-and-reporting.md",
+      "git_blob_sha": "fc10d7b78ae69e187bd737570168d64f8a3abf28",
+      "bytes": 3116,
+      "mode": "100644",
+      "expected_git_blob_sha": "fc10d7b78ae69e187bd737570168d64f8a3abf28",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/research-freshness-register.md",
+      "git_blob_sha": "566d87f621db55847c04db5d575a05e44eb3720a",
+      "bytes": 1870,
+      "mode": "100644",
+      "expected_git_blob_sha": "566d87f621db55847c04db5d575a05e44eb3720a",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/research-freshness.md",
+      "git_blob_sha": "fe86ae7da114e6f0a2f63a89f24a8aaa9c3a2f79",
+      "bytes": 2614,
+      "mode": "100644",
+      "expected_git_blob_sha": "fe86ae7da114e6f0a2f63a89f24a8aaa9c3a2f79",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/research-methodology.md",
+      "git_blob_sha": "1e4dce39cf654af8c587a4f2dd3ddae8e5f921a5",
+      "bytes": 3904,
+      "mode": "100644",
+      "expected_git_blob_sha": "1e4dce39cf654af8c587a4f2dd3ddae8e5f921a5",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/risk-indicators.md",
+      "git_blob_sha": "0b1737f9004cbba675ca3862311abcab0be2ed74",
+      "bytes": 2532,
+      "mode": "100644",
+      "expected_git_blob_sha": "0b1737f9004cbba675ca3862311abcab0be2ed74",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/roadmap.md",
+      "git_blob_sha": "5a6030cbc5752cb4b107e636c36b7d2b21268d2a",
+      "bytes": 1772,
+      "mode": "100644",
+      "expected_git_blob_sha": "5a6030cbc5752cb4b107e636c36b7d2b21268d2a",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/scoring-and-qualification.md",
+      "git_blob_sha": "9cae800d5abe1f55cdee4d017a614756070d7d9a",
+      "bytes": 3241,
+      "mode": "100644",
+      "expected_git_blob_sha": "9cae800d5abe1f55cdee4d017a614756070d7d9a",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/sponsorship-ethics-draft.md",
+      "git_blob_sha": "4f2d95f68e2f9f2b999796784cc89107ce56f22f",
+      "bytes": 2396,
+      "mode": "100644",
+      "expected_git_blob_sha": "4f2d95f68e2f9f2b999796784cc89107ce56f22f",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "docs/workflow-and-authorization.md",
+      "git_blob_sha": "f73b05c18e9c69ec493b27f002e2b13244a29f9a",
+      "bytes": 2948,
+      "mode": "100644",
+      "expected_git_blob_sha": "f73b05c18e9c69ec493b27f002e2b13244a29f9a",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "scripts/apply_native_relationships.py",
+      "git_blob_sha": "4f6944ba9b1d33a67c9f917e2a694ccb118a01b9",
+      "bytes": 22648,
+      "mode": "100644",
+      "expected_git_blob_sha": "4f6944ba9b1d33a67c9f917e2a694ccb118a01b9",
+      "match": true,
+      "verification": "Read file content at current commit and matched local computed Git blob SHA",
+      "sha256": "21f36247c353343de5facc3b380bf4d4b11dcf76d4b6ffebb74c2c01282678f4"
+    },
+    {
+      "path": "templates/application-approval.md",
+      "git_blob_sha": "2746ea15c4fc2c7a63e7ac6324db3ab2e5cfb1d5",
+      "bytes": 913,
+      "mode": "100644",
+      "expected_git_blob_sha": "2746ea15c4fc2c7a63e7ac6324db3ab2e5cfb1d5",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "templates/award-report.md",
+      "git_blob_sha": "064126074ddc4673165d15efafbfb9980ecd8fc4",
+      "bytes": 941,
+      "mode": "100644",
+      "expected_git_blob_sha": "064126074ddc4673165d15efafbfb9980ecd8fc4",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "templates/opportunity-record.json",
+      "git_blob_sha": "597d7c4f6e11c5e2ca2592ea5590c52e4b34af4f",
+      "bytes": 2278,
+      "mode": "100644",
+      "expected_git_blob_sha": "597d7c4f6e11c5e2ca2592ea5590c52e4b34af4f",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "templates/outreach-draft.md",
+      "git_blob_sha": "8d9aca0f726b9db22defae37e19e78ce1c1d864c",
+      "bytes": 1348,
+      "mode": "100644",
+      "expected_git_blob_sha": "8d9aca0f726b9db22defae37e19e78ce1c1d864c",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "templates/provider-research.md",
+      "git_blob_sha": "dec276974c096cca20217fbdcb7ed175e01eb330",
+      "bytes": 2536,
+      "mode": "100644",
+      "expected_git_blob_sha": "dec276974c096cca20217fbdcb7ed175e01eb330",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "templates/research-issue.md",
+      "git_blob_sha": "3625fb6a87fa3e3d5cb65fdd72341d03635aac9f",
+      "bytes": 2189,
+      "mode": "100644",
+      "expected_git_blob_sha": "3625fb6a87fa3e3d5cb65fdd72341d03635aac9f",
+      "match": true,
+      "verification": "Unchanged immutable blob; exact content verified at initial publication",
+      "sha256": null
+    },
+    {
+      "path": "tests/test_native_relationships.py",
+      "git_blob_sha": "ea6495054ebd0fb738bfdafd4082bb7140c0c6e8",
+      "bytes": 6482,
+      "mode": "100644",
+      "expected_git_blob_sha": "ea6495054ebd0fb738bfdafd4082bb7140c0c6e8",
+      "match": true,
+      "verification": "Read file content at current commit and matched local computed Git blob SHA",
+      "sha256": "102b7b21485738a417b37c4177d7da1e08439a2eea4e916a4ec440642a97eb94"
+    },
+    {
+      "path": "tests/test_workflow_marker.py",
+      "git_blob_sha": "a26a88d2cc38616c5d6e8d170c43a20a07ca3bb0",
+      "bytes": 3613,
+      "mode": "100644",
+      "expected_git_blob_sha": "a26a88d2cc38616c5d6e8d170c43a20a07ca3bb0",
+      "match": true,
+      "verification": "Read file content at current commit and matched local computed Git blob SHA",
+      "sha256": "7729025aaaaac0830c34eddfbb7e470bc23457e0545c560824ca896d6e16c6a8"
+    }
+  ],
+  "draft_document_link_jobs": [
+    {
+      "key": "PROGRAM",
+      "number": 1,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
+      "updated_at": "2026-10-19T06:38:21Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "docs/charter.md",
+        "docs/roadmap.md",
+        "docs/research-methodology.md",
+        "docs/scoring-and-qualification.md",
+        "data/README.md",
+        "data/opportunities.json",
+        "data/opportunities.schema.json",
+        "docs/dependency-register.md",
+        "data/dependencies.json"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E01",
+      "number": 2,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
+      "updated_at": "2026-10-19T06:38:23Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/nonprofit/structure-decision-brief.md",
+        "docs/nonprofit/fiscal-sponsorship-comparison.md",
+        "docs/workflow-and-authorization.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E02",
+      "number": 3,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
+      "updated_at": "2026-10-19T06:38:26Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/needs-assessment.md",
+        "docs/budget-assumptions.md",
+        "data/budget-assumptions.json",
+        "docs/grant-narrative-draft.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E03",
+      "number": 4,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
+      "updated_at": "2026-10-19T06:38:29Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/funding-pipeline.md",
+        "data/funding-pipeline.json",
+        "docs/grant-narrative-draft.md",
+        "data/opportunities.json"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E04",
+      "number": 5,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
+      "updated_at": "2026-10-19T06:38:32Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/sponsorship-ethics-draft.md",
+        "templates/outreach-draft.md",
+        "data/opportunities.json"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E05",
+      "number": 6,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
+      "updated_at": "2026-10-19T06:38:34Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "data/opportunities.json",
+        "templates/provider-research.md",
+        "docs/needs-assessment.md",
+        "docs/budget-assumptions.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E06",
+      "number": 7,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
+      "updated_at": "2026-10-19T06:38:37Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/needs-assessment.md",
+        "data/budget-assumptions.json",
+        "data/opportunities.json"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E07",
+      "number": 8,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
+      "updated_at": "2026-10-19T06:38:39Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "data/opportunities.json",
+        "docs/needs-assessment.md",
+        "templates/provider-research.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E08",
+      "number": 9,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
+      "updated_at": "2026-10-19T06:38:42Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/nonprofit/fiscal-sponsorship-comparison.md",
+        "docs/needs-assessment.md",
+        "templates/outreach-draft.md",
+        "data/opportunities.json"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09",
+      "number": 10,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
+      "updated_at": "2026-10-19T06:38:51Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/workflow-and-authorization.md",
+        "docs/operations-and-reporting.md",
+        "docs/research-freshness.md",
+        "docs/risk-indicators.md",
+        "docs/dashboard.md",
+        "docs/research-freshness-register.md",
+        "data/research-freshness.json",
+        "templates/provider-research.md",
+        "templates/research-issue.md",
+        "templates/application-approval.md",
+        "templates/award-report.md",
+        "templates/opportunity-record.json",
+        "templates/outreach-draft.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E01-03",
+      "number": 13,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+      "updated_at": "2026-10-19T06:38:53Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/nonprofit/structure-decision-brief.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E01-04",
+      "number": 14,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+      "updated_at": "2026-10-19T06:38:56Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/nonprofit/fiscal-sponsorship-comparison.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09-01",
+      "number": 67,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
+      "updated_at": "2026-10-19T06:38:58Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "templates/provider-research.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09-02",
+      "number": 68,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
+      "updated_at": "2026-10-19T06:39:01Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/workflow-and-authorization.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09-03",
+      "number": 69,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+      "updated_at": "2026-10-19T06:39:04Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/operations-and-reporting.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09-04",
+      "number": 70,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
+      "updated_at": "2026-10-19T06:39:07Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/research-freshness.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09-05",
+      "number": 71,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
+      "updated_at": "2026-10-19T06:39:09Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/risk-indicators.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    },
+    {
+      "key": "E09-06",
+      "number": 72,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72",
+      "updated_at": "2026-10-19T06:39:11Z",
+      "expected_exact_body": true,
+      "original_body_preserved": true,
+      "appended_section_exact": true,
+      "marker_count": 1,
+      "published_paths": [
+        "docs/dashboard.md"
+      ],
+      "all_immutable_links_present": true,
+      "review_pr_link_present": true
+    }
+  ]
+}

@@ -144,7 +144,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://nlnet.nl/restack/"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -311,7 +313,11 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://nlnet.nl/codesupply/",
+        "https://nlnet.nl/NGI0/eu-dimension/",
+        "https://nlnet.nl/foundation/policies/generativeAI/"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -454,7 +460,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://nlnet.nl/commonsfund/"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -607,7 +615,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://github.com/open-source/github-secure-open-source-fund"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -771,7 +781,11 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -932,7 +946,10 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://sfconservancy.org/projects/apply/",
+        "https://sfconservancy.org/projects/services/"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -1096,7 +1113,11 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://www.spi-inc.org/projects/associated-project-howto/",
+        "https://www.spi-inc.org/projects/services/",
+        "https://www.spi-inc.org/projects/relationship/"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -1271,7 +1292,12 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://oscollective.org/about/",
+        "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
+        "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
+        "https://opencollective.com/opensource/apply/intro"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -1425,7 +1451,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://support.google.com/nonprofits/answer/3215869"
+      ],
       "related_research_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/16"
@@ -1577,7 +1605,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://www.sovereign.tech/programs/fund"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -1733,7 +1763,10 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://sloan.org/programs/digital-technology/open-source-in-science",
+        "https://sloan.org/grants/open-calls"
+      ],
       "related_research_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31"
       ],
@@ -1897,7 +1930,10 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation",
+        "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -2045,7 +2081,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://www.spencer.org/grant_types/small-research-grant"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -2195,7 +2233,9 @@
       "jurisdiction": null,
       "priority_scope_note": null,
       "recommended_disposition": null,
-      "source_refs": null,
+      "source_refs": [
+        "https://benevity.com/nonprofits"
+      ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -2324,8 +2364,7 @@
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "application_url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
       "source_refs": [
-        "turn2view0",
-        "turn8view0"
+        "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/"
       ],
       "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Linked application XLSX returned 403 in this review; monthly review documented, but do not claim submission path tested end-to-end.",
       "internal_application_review_controls": [
@@ -2496,7 +2535,8 @@
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "application_url": "https://www.cloudflare.com/lp/project-alexandria/",
       "source_refs": [
-        "turn11view1"
+        "https://www.cloudflare.com/lp/project-alexandria/",
+        "https://www.cloudflare.com/lp/oss-sponsorship/"
       ],
       "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Benefits discretionary; valid payment method required; not every Cloudflare product is automatically funded.",
       "internal_application_review_controls": [
@@ -2650,7 +2690,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn2view2"
+        "https://huggingface.co/docs/hub/en/spaces-gpus"
       ],
       "application_url": null,
       "internal_application_review_controls": [
@@ -2804,7 +2844,7 @@
       "scoring_justification": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn2view3"
+        "https://www.coderabbit.ai/oss"
       ],
       "application_url": "https://app.coderabbit.ai",
       "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
@@ -2973,9 +3013,9 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn3view0",
-        "turn23view0",
-        "turn23view1"
+        "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
+        "https://www.jetbrains.com/legal/docs/toolbox/license_opensource/",
+        "https://sales.jetbrains.com/hc/en-gb/articles/16544922728466-Is-JetBrains-AI-subscription-included-in-All-Products-Pack-or-dotUltimate"
       ],
       "application_url": "https://www.jetbrains.com/community/opensource/",
       "internal_application_review_controls": [
@@ -3134,7 +3174,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn2view5"
+        "https://developer.apple.com/help/account/membership/fee-waivers/"
       ],
       "application_url": "https://developer.apple.com/help/account/membership/fee-waivers/",
       "gate": "Blocked by qualifying legal entity and app monetization decisions",
@@ -3295,7 +3335,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn11view2"
+        "https://www.fastly.com/fast-forward"
       ],
       "application_url": null,
       "internal_application_review_controls": [
@@ -3452,7 +3492,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn31view2"
+        "https://openai.com/form/researcher-access-program/"
       ],
       "application_url": "https://openai.smapply.org",
       "jurisdiction": "OpenAI API supported countries",
@@ -3610,7 +3650,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn11view5"
+        "https://developers.openai.com/community/codex-for-oss"
       ],
       "application_url": "https://openai.com/form/codex-for-oss/",
       "internal_application_review_controls": [
@@ -3767,7 +3807,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn17view1"
+        "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program"
       ],
       "application_url": null,
       "internal_application_review_controls": [
@@ -3924,7 +3964,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn17view0"
+        "https://claude.com/contact-sales/claude-for-oss"
       ],
       "application_url": "https://claude.com/contact-sales/claude-for-oss",
       "internal_application_review_controls": [
@@ -4076,7 +4116,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn17view2"
+        "https://ai.google.dev/gemini-api/docs/gemini-for-research"
       ],
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
@@ -4240,8 +4280,8 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn19view2",
-        "turn23view2"
+        "https://www.microsoft.com/en-us/nonprofits/azure",
+        "https://learn.microsoft.com/en-us/industry/nonprofit/microsoft-for-nonprofits/eligibility"
       ],
       "application_url": "https://www.microsoft.com/en-us/nonprofits/azure",
       "gate": "Blocked by nonprofit legal validation",
@@ -4399,7 +4439,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn23view4"
+        "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html"
       ],
       "application_url": "https://developer.amd.com",
       "internal_application_review_controls": [
@@ -4556,7 +4596,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn17view3"
+        "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/"
       ],
       "application_url": "https://academicgrants.nvidia.com",
       "gate": "Closed intake plus academic applicant prerequisite",
@@ -4708,7 +4748,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn23view5"
+        "https://console.groq.com/docs/rate-limits"
       ],
       "application_url": "https://console.groq.com",
       "internal_application_review_controls": [
@@ -4861,7 +4901,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn23view6"
+        "https://inference-docs.cerebras.ai/support/rate-limits"
       ],
       "application_url": "https://cloud.cerebras.ai",
       "internal_application_review_controls": [
@@ -5013,7 +5053,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn31view0"
+        "https://www.together.ai/research-credits-program-request"
       ],
       "application_url": "https://www.together.ai/research-credits-program-request",
       "gate": "Invitation and eligibility unresolved",
@@ -5167,7 +5207,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn31view1"
+        "https://fireworks.ai/startups"
       ],
       "application_url": "https://fireworks.ai/startups",
       "recommended_disposition": "Not Pursuing",
@@ -5325,7 +5365,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn19view0"
+        "https://developer.samsung.com/remote-test-lab"
       ],
       "application_url": "https://developer.samsung.com/remote-test-lab",
       "internal_application_review_controls": [
@@ -5482,7 +5522,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn19view1"
+        "https://firebase.google.com/docs/test-lab/usage-quotas-pricing"
       ],
       "application_url": "https://console.firebase.google.com",
       "internal_application_review_controls": [
@@ -5640,7 +5680,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn19view6"
+        "https://ostif.org/get-an-audit/"
       ],
       "application_url": "https://ostif.org/get-an-audit/",
       "internal_application_review_controls": [
@@ -5799,7 +5839,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn17view7"
+        "https://taprootfoundation.org/nonprofits"
       ],
       "application_url": "https://taprootfoundation.org/nonprofits",
       "jurisdiction": "US, Canada, EU, India and UK as documented",
@@ -5953,7 +5993,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn19view3"
+        "https://softwarefreedom.org/services/"
       ],
       "application_url": "https://softwarefreedom.org/about/contact/",
       "internal_application_review_controls": [
@@ -6108,7 +6148,7 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "turn19view4"
+        "https://summerofcode.withgoogle.com/how-it-works"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
       "gate": "Closed intake and unverified mentor capacity",

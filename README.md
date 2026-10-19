@@ -45,3 +45,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Dependency register](docs/dependency-register.md)
 - [Budget assumption data](data/budget-assumptions.json)
 - [Research freshness register](docs/research-freshness-register.md)
+
+## Execution and audit evidence
+
+Read the [execution report](docs/execution-report.md) and [Project configuration/readback](docs/project-configuration.md) for verified issue counts, native relationships, actual field values, saved-view configuration and review status. The [audit evidence](docs/execution-report.md#evidence-index) preserves the observations used for those claims. These reports remain program drafts subject to the organization contribution process.

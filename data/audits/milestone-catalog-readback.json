@@ -1,0 +1,82 @@
+{
+  "source": "GitHub Milestones rendered UI, complete four-row open catalog",
+  "captured_at": "2026-10-19T07:49:50.066Z",
+  "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestones",
+  "rows": [
+    {
+      "links": [
+        {
+          "name": "M4 — Activation and accountability",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/4"
+        },
+        {
+          "name": "0 open",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M4%20%E2%80%94%20Activation%20and%20accountability%22"
+        },
+        {
+          "name": "0 closed",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M4%20%E2%80%94%20Activation%20and%20accountability%22"
+        }
+      ],
+      "text": "M4 — Activation and accountability\n\nFuture award-specific issues track accepted terms, benefit delivery and use, real reporting deadlines, renewal, restricted-fund controls, and exit. Awarded, Activated, and Reporting are separately evidenced. No current awards or invented due date.\n\nNo due date\n0% complete\n0 open\n0 closed"
+    },
+    {
+      "links": [
+        {
+          "name": "M3 — Authorized pursuit",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/3"
+        },
+        {
+          "name": "0 open",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M3%20%E2%80%94%20Authorized%20pursuit%22"
+        },
+        {
+          "name": "0 closed",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M3%20%E2%80%94%20Authorized%20pursuit%22"
+        }
+      ],
+      "text": "M3 — Authorized pursuit\n\nFuture issues only after explicit scope-bound authorization for outreach or submission, confirmed applicant eligibility, and independent review. Tracks approved pursuit, never promises an award. No current application commitments or invented due date.\n\nNo due date\n0% complete\n0 open\n0 closed"
+    },
+    {
+      "links": [
+        {
+          "name": "M2 — Support qualification",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/2"
+        },
+        {
+          "name": "48 open",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M2%20%E2%80%94%20Support%20qualification%22"
+        },
+        {
+          "name": "0 closed",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M2%20%E2%80%94%20Support%20qualification%22"
+        }
+      ],
+      "text": "M2 — Support qualification\n\nAccept provider-specific research, evidence, eligibility gates, use cases, restrictions, and defensible scoring. Completing research may conclude Ineligible or Not Pursuing and never means an application was submitted or funding obtained. No assumed due date.\n\nNo due date\n•\n0/48 issues closed\n0% complete\n48 open\n0 closed"
+    },
+    {
+      "links": [
+        {
+          "name": "M1 — Foundation evidence",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/1"
+        },
+        {
+          "name": "24 open",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M1%20%E2%80%94%20Foundation%20evidence%22"
+        },
+        {
+          "name": "0 closed",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M1%20%E2%80%94%20Foundation%20evidence%22"
+        }
+      ],
+      "text": "M1 — Foundation evidence\n\nAccept the administrative baseline, needs, budget assumptions, legal readiness analysis, governance drafts, and program controls. Completion means independently accepted research and preparation, not legal recognition or funds received. Outcome-based; no invented due date.\n\nNo due date\n•\n0/24 issues closed\n0% complete\n24 open\n0 closed"
+    }
+  ],
+  "main_snapshot": "\n  - complementary \"Issues sidebar navigation\":\n    - navigation \"Issue filters\":\n      - list:\n        - link \"Issues\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aissue+state%3Aopen\n          - generic \"Issues\"\n        - link \"Assigned to me\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aissue+state%3Aopen+assignee%3A%40me\n          - generic \"Assigned to me\"\n        - link \"Created by me\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aissue+state%3Aopen+author%3A%40me\n          - generic \"Created by me\"\n        - link \"Mentioned\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aissue+state%3Aopen+mentions%3A%40me\n          - generic \"Mentioned\"\n        - link \"Recent activity\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aissue+updated%3A%3E%40today-1w+sort%3Aupdated-desc\n          - generic \"Recent activity\"\n    - separator\n    - navigation \"Pages\":\n      - list:\n        - link \"Projects\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/projects\n          - generic: Projects\n        - link \"Milestones\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/milestones\n          - generic: Milestones\n        - link \"Labels\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/labels\n          - generic: Labels\n    - navigation \"Feedback\":\n      - list:\n        - link \"Feedback Preview\":\n          - /url: https://gh.io/issues-sidebar-feedback\n          - generic: Feedback\n          - generic: Preview\n    - list:\n      - button \"Collapse sidebar\" [expanded]:\n        - generic: Collapse sidebar\n  - heading \"Milestones\" [level=1]\n  - link \"New milestone\":\n    - /url: /Pick-Your-AI/pick-your-ai-sustainability/milestones/new\n    - generic: New milestone\n  - group \"Milestones\":\n    - heading \"List view\" [level=2]\n    - list:\n      - link \"Open (4)\":\n        - /url: /Pick-Your-AI/pick-your-ai-sustainability/milestones\n        - generic: Open\n        - generic: \"4\"\n        - generic: (4)\n      - link \"Closed (0)\":\n        - /url: /Pick-Your-AI/pick-your-ai-sustainability/milestones?state=closed\n        - generic: Closed\n        - generic: \"0\"\n        - generic: (0)\n    - toolbar \"Actions\":\n      - button \"Sort\":\n        - generic: Sort\n    - list \"List view\":\n      - listitem \"M4 — Activation and accountability. More information available below.\":\n        - heading \"M4 — Activation and accountability\" [level=3]:\n          - link \"M4 — Activation and accountability\":\n            - /url: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/4\n        - paragraph: Future award-specific issues track accepted terms, benefit delivery and use, real reporting deadlines, renewal, restricted-fund controls, and exit. Awarded, Activated, and Reporting are separately evidenced. No current awards or invented due date.\n        - generic: No due date\n        - generic: 0%\n        - text: complete\n        - link \"0 open\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M4%20%E2%80%94%20Activation%20and%20accountability%22\n        - link \"0 closed\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M4%20%E2%80%94%20Activation%20and%20accountability%22\n        - button \"Milestone menu\":\n      - listitem \"M3 — Authorized pursuit. More information available below.\":\n        - heading \"M3 — Authorized pursuit\" [level=3]:\n          - link \"M3 — Authorized pursuit\":\n            - /url: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/3\n        - paragraph: Future issues only after explicit scope-bound authorization for outreach or submission, confirmed applicant eligibility, and independent review. Tracks approved pursuit, never promises an award. No current application commitments or invented due date.\n        - generic: No due date\n        - generic: 0%\n        - text: complete\n        - link \"0 open\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M3%20%E2%80%94%20Authorized%20pursuit%22\n        - link \"0 closed\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M3%20%E2%80%94%20Authorized%20pursuit%22\n        - button \"Milestone menu\":\n      - listitem \"M2 — Support qualification. More information available below.\":\n        - heading \"M2 — Support qualification\" [level=3]:\n          - link \"M2 — Support qualification\":\n            - /url: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/2\n        - paragraph: Accept provider-specific research, evidence, eligibility gates, use cases, restrictions, and defensible scoring. Completing research may conclude Ineligible or Not Pursuing and never means an application was submitted or funding obtained. No assumed due date.\n        - generic: No due date\n        - generic: •\n        - generic: 0/48 issues closed\n        - generic: 0%\n        - text: complete\n        - link \"48 open\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M2%20%E2%80%94%20Support%20qualification%22\n        - link \"0 closed\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M2%20%E2%80%94%20Support%20qualification%22\n        - button \"Milestone menu\":\n      - listitem \"M1 — Foundation evidence. More information available below.\":\n        - heading \"M1 — Foundation evidence\" [level=3]:\n          - link \"M1 — Foundation evidence\":\n            - /url: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/milestone/1\n        - paragraph: Accept the administrative baseline, needs, budget assumptions, legal readiness analysis, governance drafts, and program controls. Completion means independently accepted research and preparation, not legal recognition or funds received. Outcome-based; no invented due date.\n        - generic: No due date\n        - generic: •\n        - generic: 0/24 issues closed\n        - generic: 0%\n        - text: complete\n        - link \"24 open\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20milestone%3A%22M1%20%E2%80%94%20Foundation%20evidence%22\n        - link \"0 closed\":\n          - /url: /Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aclosed%20milestone%3A%22M1%20%E2%80%94%20Foundation%20evidence%22\n        - button \"Milestone menu\":\n",
+  "validation": {
+    "count": 4,
+    "no_due_date_count": 4,
+    "open_issues": 72,
+    "closed_issues": 0
+  }
+}

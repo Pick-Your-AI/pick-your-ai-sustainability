@@ -3,7 +3,7 @@
   "research_key": "E03-01",
   "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
   "prepared_on": "2026-10-19",
-  "status": "In Review; independent findings acceptance pending",
+  "status": "Done; independent findings accepted",
   "authorship": "Prepared with ChatGPT GPT-6 Astra Pro in session c3fa0109d6ff. This is AI-assisted program research, not a human-authored grant application or a claim for payable grant work.",
   "decision": {
     "recommendation": "Retain Restack and Commons Fund as Not Pursuing; defer CodeSupply qualification until a genuine reusable software-metadata deliverable and actual applicant facts are evidenced.",
@@ -263,13 +263,14 @@
     {"criterion": 8, "evidence": "shared_conditions: rights, reporting, publicity, privacy, portability, renewal, overage and independence"},
     {"criterion": 9, "evidence": "C01 tied to exact accepted repository sources; null value/effort with explicit future estimation method"},
     {"criterion": 10, "evidence": "Canonical JSON, existing record/projection updates, source IDs, questions, priorities and dispositions"},
-    {"criterion": 11, "evidence": "Pending actual independent findings acceptance on a published revision; schema checks do not satisfy it"}
+    {"criterion": 11, "evidence": "Accepted substantive findings at 4a24cae8e1a405330c4419bfa8db5208147d653f by independent review https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816; receiving checks and ordinary delivery remain separate."}
   ],
   "independent_review": {
-    "reviewer": null,
-    "reviewed_revision": null,
-    "review_url": null,
-    "decision": "Pending independent review of the actual findings",
-    "scope": "All eleven issue criteria, primary-source interpretation, actual project evidence and preservation of unrelated records"
+    "reviewer": "Apple engineering review lane, session c3fa0109d6ff",
+    "reviewed_revision": "4a24cae8e1a405330c4419bfa8db5208147d653f",
+    "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+    "decision": "Accepted substantive findings for all eleven research criteria; applicant qualification and execution remain separate",
+    "scope": "All eleven issue criteria, primary-source interpretation, actual project evidence and preservation of unrelated records",
+    "reviewed_on": "2026-10-19"
   }
 }

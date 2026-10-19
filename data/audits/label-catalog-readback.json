@@ -1,0 +1,553 @@
+{
+  "source": "GitHub Labels rendered UI, both paginated catalog pages",
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/labels",
+      "captured_at": "2026-10-19T07:50:05.817Z",
+      "rows": [
+        {
+          "links": [
+            {
+              "name": "accessibility",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aaccessibility"
+            }
+          ],
+          "name": "accessibility",
+          "text": "accessibility\naccessibility\nBarrier affecting people with disabilities"
+        },
+        {
+          "links": [
+            {
+              "name": "blocked:decision",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Ablocked%3Adecision"
+            },
+            {
+              "name": "4\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22blocked%3Adecision%22"
+            }
+          ],
+          "name": "blocked:decision",
+          "text": "blocked:decision\nblocked:decision\nAn authorized organizational decision is needed; do not invent the answer.\n4\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "blocked:dependency",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Ablocked%3Adependency"
+            },
+            {
+              "name": "26\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22blocked%3Adependency%22"
+            }
+          ],
+          "name": "blocked:dependency",
+          "text": "blocked:dependency\nblocked:dependency\nA named prerequisite prevents the next gated action or acceptance.\n26\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "bug",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Abug"
+            }
+          ],
+          "name": "bug",
+          "text": "bug\nbug\nSomething isn't working"
+        },
+        {
+          "links": [
+            {
+              "name": "category:funding",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Afunding"
+            },
+            {
+              "name": "22\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Afunding%22"
+            }
+          ],
+          "name": "category:funding",
+          "text": "category:funding\ncategory:funding\nGrants, budgets, cash support, and sustainability finance research.\n22\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:hardware",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Ahardware"
+            },
+            {
+              "name": "3\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Ahardware%22"
+            }
+          ],
+          "name": "category:hardware",
+          "text": "category:hardware\ncategory:hardware\nPhysical hardware, build runners, devices, and test labs.\n3\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:inference",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Ainference"
+            },
+            {
+              "name": "16\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Ainference%22"
+            }
+          ],
+          "name": "category:inference",
+          "text": "category:inference\ncategory:inference\nAI inference, evaluation, GPU compute, and model research support.\n16\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:nonprofit",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Anonprofit"
+            },
+            {
+              "name": "10\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Anonprofit%22"
+            }
+          ],
+          "name": "category:nonprofit",
+          "text": "category:nonprofit\ncategory:nonprofit\nEntity baseline, nonprofit formation, fiscal sponsorship, and governance.\n10\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:partnership",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Apartnership"
+            },
+            {
+              "name": "6\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Apartnership%22"
+            }
+          ],
+          "name": "category:partnership",
+          "text": "category:partnership\ncategory:partnership\nInstitutional, academic, volunteer, and pro bono support.\n6\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:security",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Asecurity"
+            },
+            {
+              "name": "5\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Asecurity%22"
+            }
+          ],
+          "name": "category:security",
+          "text": "category:security\ncategory:security\nSecurity review, vulnerability work, and supply-chain support.\n5\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:software",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Asoftware"
+            },
+            {
+              "name": "5\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Asoftware%22"
+            }
+          ],
+          "name": "category:software",
+          "text": "category:software\ncategory:software\nDeveloper tools, hosting software, licenses, and service access.\n5\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "category:sponsorship",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Acategory%3Asponsorship"
+            },
+            {
+              "name": "6\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22category%3Asponsorship%22"
+            }
+          ],
+          "name": "category:sponsorship",
+          "text": "category:sponsorship\ncategory:sponsorship\nDonations, recurring sponsorship, and ethical sponsor relationships.\n6\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "documentation",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Adocumentation"
+            }
+          ],
+          "name": "documentation",
+          "text": "documentation\ndocumentation\nImprovements or additions to documentation"
+        },
+        {
+          "links": [
+            {
+              "name": "duplicate",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aduplicate"
+            }
+          ],
+          "name": "duplicate",
+          "text": "duplicate\nduplicate\nThis issue or pull request already exists"
+        },
+        {
+          "links": [
+            {
+              "name": "eligibility:501c3",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aeligibility%3A501c3"
+            },
+            {
+              "name": "2\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22eligibility%3A501c3%22"
+            }
+          ],
+          "name": "eligibility:501c3",
+          "text": "eligibility:501c3\neligibility:501c3\nOpportunity depends on the project's own verified nonprofit recognition and other terms.\n2\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "eligibility:fiscal-sponsor",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aeligibility%3Afiscal-sponsor"
+            }
+          ],
+          "name": "eligibility:fiscal-sponsor",
+          "text": "eligibility:fiscal-sponsor\neligibility:fiscal-sponsor\nPotential route requires a suitable accepted fiscal sponsor; not yet established."
+        },
+        {
+          "links": [
+            {
+              "name": "eligibility:immediate",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aeligibility%3Aimmediate"
+            },
+            {
+              "name": "7\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22eligibility%3Aimmediate%22"
+            }
+          ],
+          "name": "eligibility:immediate",
+          "text": "eligibility:immediate\neligibility:immediate\nResearch/work accessible now; does not authorize applications or guarantee awards.\n7\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "eligibility:unknown",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aeligibility%3Aunknown"
+            },
+            {
+              "name": "63\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22eligibility%3Aunknown%22"
+            }
+          ],
+          "name": "eligibility:unknown",
+          "text": "eligibility:unknown\neligibility:unknown\nApplicant qualification or legal baseline is not yet verified.\n63\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "enhancement",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aenhancement"
+            }
+          ],
+          "name": "enhancement",
+          "text": "enhancement\nenhancement\nNew feature or request"
+        },
+        {
+          "links": [
+            {
+              "name": "good first issue",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22"
+            }
+          ],
+          "name": "good first issue",
+          "text": "good first issue\ngood first issue\nGood for newcomers"
+        },
+        {
+          "links": [
+            {
+              "name": "help wanted",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3A%22help%20wanted%22"
+            }
+          ],
+          "name": "help wanted",
+          "text": "help wanted\nhelp wanted\nExtra attention is needed"
+        },
+        {
+          "links": [
+            {
+              "name": "invalid",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Ainvalid"
+            }
+          ],
+          "name": "invalid",
+          "text": "invalid\ninvalid\nThis doesn't seem right"
+        },
+        {
+          "links": [
+            {
+              "name": "priority:P0",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Apriority%3AP0"
+            }
+          ],
+          "name": "priority:P0",
+          "text": "priority:P0\npriority:P0\nVerified urgent deadline or serious operational blocker requiring immediate attention."
+        },
+        {
+          "links": [
+            {
+              "name": "priority:P1",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Apriority%3AP1"
+            },
+            {
+              "name": "37\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22priority%3AP1%22"
+            }
+          ],
+          "name": "priority:P1",
+          "text": "priority:P1\npriority:P1\nHigh-value viable support or foundational work to begin promptly.\n37\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "priority:P2",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Apriority%3AP2"
+            },
+            {
+              "name": "32\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22priority%3AP2%22"
+            }
+          ],
+          "name": "priority:P2",
+          "text": "priority:P2\npriority:P2\nPromising research with additional qualifications or dependencies.\n32\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "priority:P3",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Apriority%3AP3"
+            },
+            {
+              "name": "3\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22priority%3AP3%22"
+            }
+          ],
+          "name": "priority:P3",
+          "text": "priority:P3\npriority:P3\nSpeculative, distant, or low-value research; preserve evidence.\n3\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "question",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aquestion"
+            }
+          ],
+          "name": "question",
+          "text": "question\nquestion\nFurther information is requested"
+        },
+        {
+          "links": [
+            {
+              "name": "ready:research",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aready%3Aresearch"
+            },
+            {
+              "name": "45\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22ready%3Aresearch%22"
+            }
+          ],
+          "name": "ready:research",
+          "text": "ready:research\nready:research\nSufficient public context to begin research; qualification and activation remain separate.\n45\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "ready:review",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Aready%3Areview"
+            },
+            {
+              "name": "1\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22ready%3Areview%22"
+            }
+          ],
+          "name": "ready:review",
+          "text": "ready:review\nready:review\nEvidence assembled and awaiting independent acceptance; no funding outcome implied.\n1\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "type:epic",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Atype%3Aepic"
+            },
+            {
+              "name": "9\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22type%3Aepic%22"
+            }
+          ],
+          "name": "type:epic",
+          "text": "type:epic\ntype:epic\nParent workstream with independently reviewable child issues.\n9\nopen issues"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/labels?page=2",
+      "captured_at": "2026-10-19T07:50:27.370Z",
+      "rows": [
+        {
+          "links": [
+            {
+              "name": "type:grant",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Atype%3Agrant"
+            },
+            {
+              "name": "8\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22type%3Agrant%22"
+            }
+          ],
+          "name": "type:grant",
+          "text": "type:grant\ntype:grant\nGrant, cash award, or public-interest funding qualification.\n8\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "type:legal",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Atype%3Alegal"
+            },
+            {
+              "name": "6\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22type%3Alegal%22"
+            }
+          ],
+          "name": "type:legal",
+          "text": "type:legal\ntype:legal\nLegal readiness research; does not approve filings or legal status.\n6\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "type:operations",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Atype%3Aoperations"
+            },
+            {
+              "name": "16\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22type%3Aoperations%22"
+            }
+          ],
+          "name": "type:operations",
+          "text": "type:operations\ntype:operations\nProgram process, budget, controls, or maintenance work.\n16\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "type:outreach",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Atype%3Aoutreach"
+            },
+            {
+              "name": "1\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22type%3Aoutreach%22"
+            }
+          ],
+          "name": "type:outreach",
+          "text": "type:outreach\ntype:outreach\nDraft or authorized outreach work; no contact authorization implied.\n1\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "type:research",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Atype%3Aresearch"
+            },
+            {
+              "name": "41\nopen issues",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22type%3Aresearch%22"
+            }
+          ],
+          "name": "type:research",
+          "text": "type:research\ntype:research\nPrimary-source investigation with an independently reviewable outcome.\n41\nopen issues"
+        },
+        {
+          "links": [
+            {
+              "name": "wontfix",
+              "style": null,
+              "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues?q=state%3Aopen%20label%3Awontfix"
+            }
+          ],
+          "name": "wontfix",
+          "text": "wontfix\nwontfix\nThis will not be worked on"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "required_count": 26,
+    "total_count": 36,
+    "unique_count": 36,
+    "missing": [],
+    "retained_other_labels": [
+      "accessibility",
+      "bug",
+      "documentation",
+      "duplicate",
+      "enhancement",
+      "good first issue",
+      "help wanted",
+      "invalid",
+      "question",
+      "wontfix"
+    ]
+  }
+}

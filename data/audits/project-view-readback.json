@@ -1,0 +1,1683 @@
+{
+  "captured_at": "2026-10-19 07:42:06 UTC",
+  "project": "https://github.com/orgs/Pick-Your-AI/projects/7",
+  "source": "Actual GitHub UI, with every view saved and reloaded",
+  "views": [
+    {
+      "name": "Overview",
+      "key": "overview",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/1",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Program,Epic",
+      "issue_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1Row actions",
+            "Backlog",
+            "0 / 90%",
+            "P1",
+            "Program",
+            "Program",
+            ""
+          ],
+          "number": 1,
+          "title": "[PROGRAM] Pick Your AI — Funding, Grants & Sustainability"
+        },
+        {
+          "cells": [
+            "2Row actions",
+            "Backlog",
+            "0 / 80%",
+            "P1",
+            "01 Nonprofit",
+            "Epic",
+            ""
+          ],
+          "number": 2,
+          "title": "[EPIC 01] Nonprofit Formation & Legal Readiness"
+        },
+        {
+          "cells": [
+            "3Row actions",
+            "Backlog",
+            "0 / 60%",
+            "P1",
+            "02 Readiness",
+            "Epic",
+            ""
+          ],
+          "number": 3,
+          "title": "[EPIC 02] Funding Readiness & Demonstrable Public Benefit"
+        },
+        {
+          "cells": [
+            "4Row actions",
+            "Backlog",
+            "0 / 80%",
+            "P1",
+            "03 Grants",
+            "Epic",
+            ""
+          ],
+          "number": 4,
+          "title": "[EPIC 03] Grants & Public-Interest Funding"
+        },
+        {
+          "cells": [
+            "5Row actions",
+            "Backlog",
+            "0 / 50%",
+            "P1",
+            "04 Sponsorship",
+            "Epic",
+            ""
+          ],
+          "number": 5,
+          "title": "[EPIC 04] Recurring Funding, Donations & Sponsorship"
+        },
+        {
+          "cells": [
+            "6Row actions",
+            "Backlog",
+            "0 / 50%",
+            "P1",
+            "05 Inference",
+            "Epic",
+            ""
+          ],
+          "number": 6,
+          "title": "[EPIC 05] AI Inference, GPU & Model Research Support"
+        },
+        {
+          "cells": [
+            "7Row actions",
+            "Backlog",
+            "0 / 50%",
+            "P1",
+            "06 Infrastructure",
+            "Epic",
+            ""
+          ],
+          "number": 7,
+          "title": "[EPIC 06] Cloud Infrastructure & Physical Hardware"
+        },
+        {
+          "cells": [
+            "8Row actions",
+            "Backlog",
+            "0 / 60%",
+            "P1",
+            "07 Tools and security",
+            "Epic",
+            ""
+          ],
+          "number": 8,
+          "title": "[EPIC 07] Code Quality, Security & Development Tools"
+        },
+        {
+          "cells": [
+            "9Row actions",
+            "Backlog",
+            "0 / 50%",
+            "P1",
+            "08 Partnerships",
+            "Epic",
+            ""
+          ],
+          "number": 9,
+          "title": "[EPIC 08] Institutional Partners & Pro Bono Support"
+        },
+        {
+          "cells": [
+            "10Row actions",
+            "Backlog",
+            "0 / 60%",
+            "P1",
+            "09 Operations",
+            "Epic",
+            ""
+          ],
+          "number": 10,
+          "title": "[EPIC 09] Funding Pipeline Operations & Sustainability"
+        }
+      ],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Workstream (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Sub-issues progress",
+        "Priority",
+        "Workstream",
+        "Record type"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Program,Epic\n10\n (10)\nmatching items\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "Sub-issues progressSub-issues progress column options",
+        "PriorityPriority column options",
+        "WorkstreamWorkstream column options",
+        "Record typeRecord type column options",
+        "Add field"
+      ]
+    },
+    {
+      "name": "Research Backlog",
+      "key": "research_backlog",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/2",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Foundation,Opportunity status:Backlog,Ready,\"In Progress\",Blocked",
+      "issue_numbers": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "rows": [
+        {
+          "cells": [
+            "1Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Decision prerequisite unresolved; scoped research may proceed. Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 11,
+          "title": "[OPERATIONS][Nonprofit] Pick Your AI — establish entity, asset and administrative baseline [E01-01]"
+        },
+        {
+          "cells": [
+            "2Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 12,
+          "title": "[LEGAL][Nonprofit] Pick Your AI — test charitable purpose against actual activities [E01-02]"
+        },
+        {
+          "cells": [
+            "3Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 13,
+          "title": "[LEGAL][Nonprofit] Pick Your AI — compare independent and hosted organizational paths [E01-03]"
+        },
+        {
+          "cells": [
+            "4Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 14,
+          "title": "[RESEARCH][Nonprofit] SFC, SPI and Open Source Collective — compare fiscal-host suitability [E01-04]"
+        },
+        {
+          "cells": [
+            "5Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Decision prerequisite unresolved; scoped research may proceed. Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 15,
+          "title": "[LEGAL][Nonprofit] Pick Your AI — map formation and governance prerequisites [E01-05]"
+        },
+        {
+          "cells": [
+            "6Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Decision prerequisite unresolved; scoped research may proceed. Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 16,
+          "title": "[LEGAL][Nonprofit] IRS and state regulators — assess exemption filing and recurring compliance [E01-06]"
+        },
+        {
+          "cells": [
+            "7Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 17,
+          "title": "[LEGAL][Nonprofit] Pick Your AI repositories — verify licensing, IP and asset stewardship [E01-07]"
+        },
+        {
+          "cells": [
+            "8Row actions",
+            "Ready",
+            "[EPIC 01] Nonprofit Formation & Legal Readiness #2",
+            "P1",
+            "01 Nonprofit",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 18,
+          "title": "[LEGAL][Nonprofit] Pick Your AI — draft vendor neutrality and sponsorship ethics policy [E01-08]"
+        },
+        {
+          "cells": [
+            "9Row actions",
+            "Ready",
+            "[EPIC 02] Funding Readiness & Demonstrable Public Benefit #3",
+            "P1",
+            "02 Readiness",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 19,
+          "title": "[OPERATIONS][Funding] Pick Your AI — inventory real operating costs and resource gaps [E02-01]"
+        },
+        {
+          "cells": [
+            "10Row actions",
+            "Blocked",
+            "[EPIC 02] Funding Readiness & Demonstrable Public Benefit #3",
+            "P1",
+            "02 Readiness",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-01 (#19; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19). Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 20,
+          "title": "[OPERATIONS][Funding] Pick Your AI — model a 12-month operating budget [E02-02]"
+        },
+        {
+          "cells": [
+            "11Row actions",
+            "Ready",
+            "[EPIC 02] Funding Readiness & Demonstrable Public Benefit #3",
+            "P1",
+            "02 Readiness",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 21,
+          "title": "[OPERATIONS][Inference] Pick Your AI — build reproducible compute and API demand model [E02-03]"
+        },
+        {
+          "cells": [
+            "12Row actions",
+            "Ready",
+            "[EPIC 02] Funding Readiness & Demonstrable Public Benefit #3",
+            "P1",
+            "02 Readiness",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 22,
+          "title": "[OPERATIONS][Funding] Pick Your AI — define measurable public-benefit outcomes [E02-04]"
+        },
+        {
+          "cells": [
+            "13Row actions",
+            "Blocked",
+            "[EPIC 02] Funding Readiness & Demonstrable Public Benefit #3",
+            "P1",
+            "02 Readiness",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-02 (#20; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20); E02-04 (#22; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22). Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 23,
+          "title": "[OPERATIONS][Funding] Pick Your AI — assemble reusable grant narrative and evidence kit [E02-05]"
+        },
+        {
+          "cells": [
+            "14Row actions",
+            "Ready",
+            "[EPIC 02] Funding Readiness & Demonstrable Public Benefit #3",
+            "P1",
+            "02 Readiness",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 24,
+          "title": "[OPERATIONS][Funding] Pick Your AI — draft financial controls and restricted-fund procedures [E02-06]"
+        },
+        {
+          "cells": [
+            "15Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P1",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 26,
+          "title": "[RESEARCH][Security] GitHub — qualify Secure Open Source Fund participation [E03-02]"
+        },
+        {
+          "cells": [
+            "16Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P1",
+            "03 Grants",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 32,
+          "title": "[RESEARCH][Funding] Grant terms — classify restrictions, payment mechanisms and matching requirements [E03-08]"
+        },
+        {
+          "cells": [
+            "17Row actions",
+            "Ready",
+            "[EPIC 04] Recurring Funding, Donations & Sponsorship #5",
+            "P1",
+            "04 Sponsorship",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 33,
+          "title": "[RESEARCH][Sponsorship] GitHub Sponsors — assess organization setup and payout readiness [E04-01]"
+        },
+        {
+          "cells": [
+            "18Row actions",
+            "Ready",
+            "[EPIC 04] Recurring Funding, Donations & Sponsorship #5",
+            "P1",
+            "04 Sponsorship",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 34,
+          "title": "[RESEARCH][Sponsorship] Donation channels — compare fiscal-hosted and direct collection [E04-02]"
+        },
+        {
+          "cells": [
+            "19Row actions",
+            "Blocked",
+            "[EPIC 04] Recurring Funding, Donations & Sponsorship #5",
+            "P1",
+            "04 Sponsorship",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-08 (#18; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18). Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 35,
+          "title": "[OPERATIONS][Sponsorship] Pick Your AI — design individual and corporate support models [E04-03]"
+        },
+        {
+          "cells": [
+            "20Row actions",
+            "Ready",
+            "[EPIC 05] AI Inference, GPU & Model Research Support #6",
+            "P1",
+            "05 Inference",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Action qualification: Foundational coverage work. Do not create a grant record just because a provider sells inference.",
+            ""
+          ],
+          "number": 38,
+          "title": "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01]"
+        },
+        {
+          "cells": [
+            "21Row actions",
+            "Blocked",
+            "[EPIC 05] AI Inference, GPU & Model Research Support #6",
+            "P1",
+            "05 Inference",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Research blocked by: E02-03 (#21; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21). Action qualification: Foundational work; no provider receives editorial control or purchased rankings.",
+            ""
+          ],
+          "number": 49,
+          "title": "[RESEARCH][Inference] Evaluation proposal — define a reproducible sponsor-neutral study [E05-04]"
+        },
+        {
+          "cells": [
+            "22Row actions",
+            "Blocked",
+            "[EPIC 06] Cloud Infrastructure & Physical Hardware #7",
+            "P1",
+            "06 Infrastructure",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-01 (#19; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19); E07-02 (#57; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57). Action qualification: Remote lab access is a product allowance, not ownership of donated devices; verify migration notices and avoid uncapped paid testing.",
+            ""
+          ],
+          "number": 55,
+          "title": "[RESEARCH][Hardware] Mobile device labs — cover Apple and Android testing gaps [E06-05]"
+        },
+        {
+          "cells": [
+            "23Row actions",
+            "Ready",
+            "[EPIC 07] Code Quality, Security & Development Tools #8",
+            "P1",
+            "07 Tools and security",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Action qualification: Public standard hosted-runner time is free; larger runners are charged and storage allowances still matter. Do not infer enabled state from eligibility.",
+            ""
+          ],
+          "number": 57,
+          "title": "[RESEARCH][Security] GitHub — audit existing no-cost developer and security benefits [E07-02]"
+        },
+        {
+          "cells": [
+            "24Row actions",
+            "Blocked",
+            "[EPIC 07] Code Quality, Security & Development Tools #8",
+            "P1",
+            "07 Tools and security",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E07-02 (#57; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57). Action qualification: No guaranteed free audit. Research must include accessibility-specific providers and cannot treat generic code security as accessibility validation.",
+            ""
+          ],
+          "number": 59,
+          "title": "[RESEARCH][Security] External reviews — qualify security and accessibility assistance [E07-04]"
+        },
+        {
+          "cells": [
+            "25Row actions",
+            "Blocked",
+            "[EPIC 08] Institutional Partners & Pro Bono Support #9",
+            "P1",
+            "08 Partnerships",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11). Action qualification: Taproot explicitly includes fiscally sponsored organizations; individual consultant availability and legal representation remain unconfirmed.",
+            ""
+          ],
+          "number": 65,
+          "title": "[RESEARCH][Partnership] Pro bono support — qualify legal, finance and governance assistance [E08-04]"
+        },
+        {
+          "cells": [
+            "26Row actions",
+            "Ready",
+            "[EPIC 09] Funding Pipeline Operations & Sustainability #10",
+            "P1",
+            "09 Operations",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Action qualification: Applicant status and action authority remain unverified.",
+            ""
+          ],
+          "number": 67,
+          "title": "[OPERATIONS][Funding] Pipeline — Create provider research and outreach templates [E09-01]"
+        },
+        {
+          "cells": [
+            "27Row actions",
+            "Blocked",
+            "[EPIC 09] Funding Pipeline Operations & Sustainability #10",
+            "P1",
+            "09 Operations",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11); E02-06 (#24; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24). Action qualification: Applicant status and action authority remain unverified.",
+            ""
+          ],
+          "number": 68,
+          "title": "[OPERATIONS][Funding] Pipeline — Define application and commitment authorization [E09-02]"
+        },
+        {
+          "cells": [
+            "28Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P2",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 29,
+          "title": "[RESEARCH][Funding] Education funders — screen AI literacy and accessibility research [E03-05]"
+        },
+        {
+          "cells": [
+            "29Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P2",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 25,
+          "title": "[RESEARCH][Funding] NLnet — qualify current calls for a concrete public-interest deliverable [E03-01]"
+        },
+        {
+          "cells": [
+            "30Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P2",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 27,
+          "title": "[RESEARCH][Funding] Digital commons funders — screen infrastructure grant fit [E03-03]"
+        },
+        {
+          "cells": [
+            "31Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P2",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 28,
+          "title": "[RESEARCH][Funding] AI transparency funders — screen benchmarking and reproducibility support [E03-04]"
+        },
+        {
+          "cells": [
+            "32Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P2",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 30,
+          "title": "[RESEARCH][Funding] NSF — assess PESOSE and eligible academic collaboration paths [E03-06]"
+        },
+        {
+          "cells": [
+            "33Row actions",
+            "Ready",
+            "[EPIC 03] Grants & Public-Interest Funding #4",
+            "P2",
+            "03 Grants",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 31,
+          "title": "[RESEARCH][Funding] Foundations and corporate philanthropy — qualify nonprofit technology-education prospects [E03-07]"
+        },
+        {
+          "cells": [
+            "34Row actions",
+            "Ready",
+            "[EPIC 04] Recurring Funding, Donations & Sponsorship #5",
+            "P2",
+            "04 Sponsorship",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 36,
+          "title": "[RESEARCH][Sponsorship] Workplace giving and donor-advised funds — map verified access routes [E04-04]"
+        },
+        {
+          "cells": [
+            "35Row actions",
+            "Blocked",
+            "[EPIC 04] Recurring Funding, Donations & Sponsorship #5",
+            "P2",
+            "04 Sponsorship",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E04-03 (#35; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35). Action qualification: Not authorized; program/entity qualifications must be resolved separately.",
+            ""
+          ],
+          "number": 37,
+          "title": "[OPERATIONS][Sponsorship] Pick Your AI — draft benefits, acknowledgments and renewal kit [E04-05]"
+        },
+        {
+          "cells": [
+            "36Row actions",
+            "Ready",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: API research award differs from ChatGPT subscriptions and general product hosting.",
+            ""
+          ],
+          "number": 39,
+          "title": "[RESEARCH][Inference] OpenAI — qualify Researcher Access API credits [E05-01A]"
+        },
+        {
+          "cells": [
+            "37Row actions",
+            "Ready",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Current standard award described as $1,000 API credits; no nonpublic-model access or policy exemptions.",
+            ""
+          ],
+          "number": 40,
+          "title": "[RESEARCH][Inference] Anthropic — qualify external researcher API access [E05-01B]"
+        },
+        {
+          "cells": [
+            "38Row actions",
+            "Ready",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Do not claim an academic affiliation, open application, allocation, or nonprofit eligibility from the overview page alone.",
+            ""
+          ],
+          "number": 41,
+          "title": "[RESEARCH][Inference] Google — verify Gemini academic support eligibility [E05-01C]"
+        },
+        {
+          "cells": [
+            "39Row actions",
+            "Blocked",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "501c3",
+            "Research blocked by: E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11). Action qualification: $2,000 annual headline credit is not usable value; application is blocked pending program eligibility validation.",
+            ""
+          ],
+          "number": 42,
+          "title": "[RESEARCH][Inference] Microsoft Azure — verify nonprofit AI-credit coverage [E05-01D]"
+        },
+        {
+          "cells": [
+            "40Row actions",
+            "Ready",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Do not multiply quotas through identities; exact account limits can differ and no grant is confirmed.",
+            ""
+          ],
+          "number": 43,
+          "title": "[RESEARCH][Inference] Groq — assess public free-plan fit and sponsorship gaps [E05-01E]"
+        },
+        {
+          "cells": [
+            "41Row actions",
+            "Ready",
+            "[EPIC 05] AI Inference, GPU & Model Research Support #6",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Program documented; no award, allocation, open-ended duration, or standalone API subsidy confirmed.",
+            ""
+          ],
+          "number": 47,
+          "title": "[RESEARCH][Inference] Hugging Face — qualify Community GPU support for a public Space [E05-02]"
+        },
+        {
+          "cells": [
+            "42Row actions",
+            "Blocked",
+            "[EPIC 05] AI Inference, GPU & Model Research Support #6",
+            "P2",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-03 (#21; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21). Action qualification: NVIDIA intake is currently closed and academic-only; do not treat developer credits as a donated physical GPU.",
+            ""
+          ],
+          "number": 48,
+          "title": "[RESEARCH][Inference] GPU cloud access — compare independent evaluation routes [E05-03]"
+        },
+        {
+          "cells": [
+            "43Row actions",
+            "Blocked",
+            "[EPIC 05] AI Inference, GPU & Model Research Support #6",
+            "P2",
+            "05 Inference",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-03 (#21; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21); E05-02 (#47; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47); E05-03 (#48; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48); E05-04 (#49; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49); E05-01 (#38; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38). Action qualification: Rank only conditionally viable programs; unknown usable value stays Unknown rather than headline value.",
+            ""
+          ],
+          "number": 50,
+          "title": "[RESEARCH][Inference] Compute restrictions — rank net usable support [E05-05]"
+        },
+        {
+          "cells": [
+            "44Row actions",
+            "Blocked",
+            "[EPIC 06] Cloud Infrastructure & Physical Hardware #7",
+            "P2",
+            "06 Infrastructure",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11); E02-01 (#19; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19). Action qualification: Linked application XLSX returned 403 in this review; monthly review documented, but do not claim submission path tested end-to-end.",
+            ""
+          ],
+          "number": 51,
+          "title": "[RESEARCH][Software] AWS — qualify Cloud Credits for Open Source [E06-01]"
+        },
+        {
+          "cells": [
+            "45Row actions",
+            "Blocked",
+            "[EPIC 06] Cloud Infrastructure & Physical Hardware #7",
+            "P2",
+            "06 Infrastructure",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11); E02-01 (#19; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19). Action qualification: Benefits discretionary; valid payment method required; not every Cloudflare product is automatically funded.",
+            ""
+          ],
+          "number": 52,
+          "title": "[RESEARCH][Software] Cloudflare — qualify Project Alexandria sponsorship [E06-02]"
+        },
+        {
+          "cells": [
+            "46Row actions",
+            "Blocked",
+            "[EPIC 06] Cloud Infrastructure & Physical Hardware #7",
+            "P2",
+            "06 Infrastructure",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-01 (#19; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19); E07-02 (#57; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57). Action qualification: DigitalOcean's current OSS page does not confirm its historical credits program; Azure nonprofit validation is a gate.",
+            ""
+          ],
+          "number": 53,
+          "title": "[RESEARCH][Software] Infrastructure support — compare additional hosting and CI programs [E06-03]"
+        },
+        {
+          "cells": [
+            "47Row actions",
+            "Blocked",
+            "[EPIC 06] Cloud Infrastructure & Physical Hardware #7",
+            "P2",
+            "06 Infrastructure",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-01 (#19; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19); E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11). Action qualification: Named vendors are investigation targets unless a current applicable program is sourced; no hardware awards assumed.",
+            ""
+          ],
+          "number": 54,
+          "title": "[RESEARCH][Hardware] Hardware partners — qualify donation and loan routes [E06-04]"
+        },
+        {
+          "cells": [
+            "48Row actions",
+            "Ready",
+            "[EPIC 07] Code Quality, Security & Development Tools #8",
+            "P2",
+            "07 Tools and security",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Free product access needs no grant application; cash sponsorships are proactive and not guaranteed. Do not install during this research task.",
+            ""
+          ],
+          "number": 56,
+          "title": "[RESEARCH][Security] CodeRabbit — assess free OSS review and existing coverage [E07-01]"
+        },
+        {
+          "cells": [
+            "49Row actions",
+            "Ready",
+            "[EPIC 07] Code Quality, Security & Development Tools #8",
+            "P2",
+            "07 Tools and security",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Main eligibility webpage was not extractable; legal agreement and FAQ confirmed. Do not invent activity thresholds or assume all team tools included.",
+            ""
+          ],
+          "number": 58,
+          "title": "[RESEARCH][Software] JetBrains — verify OSS development licenses and alternatives [E07-03]"
+        },
+        {
+          "cells": [
+            "50Row actions",
+            "Blocked",
+            "[EPIC 07] Code Quality, Security & Development Tools #8",
+            "P2",
+            "07 Tools and security",
+            "Unknown",
+            "Oct 19, 2026",
+            "501c3",
+            "Research blocked by: E01-01 (#11; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11). Decision prerequisite unresolved. Action qualification: Application blocked pending legal-entity eligibility and app monetization facts; fiscal sponsorship is not an automatic qualification.",
+            ""
+          ],
+          "number": 60,
+          "title": "[RESEARCH][Nonprofit] Apple — determine Developer Program fee-waiver eligibility [E07-05]"
+        },
+        {
+          "cells": [
+            "51Row actions",
+            "Blocked",
+            "[EPIC 07] Code Quality, Security & Development Tools #8",
+            "P2",
+            "07 Tools and security",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E07-02 (#57; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57). Action qualification: Do not label a commercial free tier as a grant award; no activation or recurring spend authorized.",
+            ""
+          ],
+          "number": 61,
+          "title": "[RESEARCH][Software] Support stack — evaluate testing, documentation and monitoring offers [E07-06]"
+        },
+        {
+          "cells": [
+            "52Row actions",
+            "Blocked",
+            "[EPIC 08] Institutional Partners & Pro Bono Support #9",
+            "P2",
+            "08 Partnerships",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-03 (#13; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13); E01-07 (#17; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17). Action qualification: Do not initiate project transfer, membership, trademark assignment or agreements. Keep fiscal sponsor qualification in EPIC 01.",
+            ""
+          ],
+          "number": 62,
+          "title": "[RESEARCH][Partnership] Institutional homes — compare governance and community fit [E08-01]"
+        },
+        {
+          "cells": [
+            "53Row actions",
+            "Blocked",
+            "[EPIC 08] Institutional Partners & Pro Bono Support #9",
+            "P2",
+            "08 Partnerships",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E05-04 (#49; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49). Action qualification: An academic contact is not an established affiliation; CMU official examples charge sponsorship fees, so do not assume capstones are pro bono.",
+            ""
+          ],
+          "number": 63,
+          "title": "[RESEARCH][Partnership] Academic partners — qualify research and capstone collaborations [E08-02]"
+        },
+        {
+          "cells": [
+            "54Row actions",
+            "Blocked",
+            "[EPIC 08] Institutional Partners & Pro Bono Support #9",
+            "P2",
+            "08 Partnerships",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E01-08 (#18; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18); E07-02 (#57; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57). Action qualification: Provider OSS activity shows a prospect, not an open external labor-donation entitlement; no outreach without authorization.",
+            ""
+          ],
+          "number": 64,
+          "title": "[RESEARCH][Partnership] Corporate OSPOs — identify engineering contribution routes [E08-03]"
+        },
+        {
+          "cells": [
+            "55Row actions",
+            "Blocked",
+            "[EPIC 08] Institutional Partners & Pro Bono Support #9",
+            "P2",
+            "08 Partnerships",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E02-04 (#22; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22). Action qualification: GSoC currently says organization registration closed; no invented next-cycle deadline or volunteer assignments.",
+            ""
+          ],
+          "number": 66,
+          "title": "[RESEARCH][Partnership] Mentorship and outreach — design sustainable volunteer partnerships [E08-05]"
+        },
+        {
+          "cells": [
+            "56Row actions",
+            "Blocked",
+            "[EPIC 09] Funding Pipeline Operations & Sustainability #10",
+            "P2",
+            "09 Operations",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Unknown",
+            "Research blocked by: E09-02 (#68; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68); E02-06 (#24; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24). Action qualification: Applicant status and action authority remain unverified.",
+            ""
+          ],
+          "number": 69,
+          "title": "[OPERATIONS][Funding] Pipeline — Define activation, reporting and renewal procedures [E09-03]"
+        },
+        {
+          "cells": [
+            "57Row actions",
+            "Blocked",
+            "[EPIC 09] Funding Pipeline Operations & Sustainability #10",
+            "P2",
+            "09 Operations",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Research blocked by: E09-01 (#67; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67). Action qualification: Applicant status and action authority remain unverified.",
+            ""
+          ],
+          "number": 70,
+          "title": "[OPERATIONS][Funding] Pipeline — Establish evidence and deadline refresh review [E09-04]"
+        },
+        {
+          "cells": [
+            "58Row actions",
+            "Blocked",
+            "[EPIC 09] Funding Pipeline Operations & Sustainability #10",
+            "P2",
+            "09 Operations",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Research blocked by: E01-08 (#18; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18); E02-02 (#20; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20). Action qualification: Applicant status and action authority remain unverified.",
+            ""
+          ],
+          "number": 71,
+          "title": "[OPERATIONS][Funding] Pipeline — Define concentration and sustainability risk indicators [E09-05]"
+        },
+        {
+          "cells": [
+            "59Row actions",
+            "Blocked",
+            "[EPIC 09] Funding Pipeline Operations & Sustainability #10",
+            "P2",
+            "09 Operations",
+            "Not applicable",
+            "Oct 19, 2026",
+            "Immediate",
+            "Research blocked by: E09-03 (#69; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69); E09-04 (#70; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70); E09-05 (#71; https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71). Action qualification: Applicant status and action authority remain unverified.",
+            ""
+          ],
+          "number": 72,
+          "title": "[OPERATIONS][Funding] Pipeline — Create the monthly sustainability dashboard [E09-06]"
+        },
+        {
+          "cells": [
+            "60Row actions",
+            "Ready",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P3",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: No permanent free tier; trial access is not a grant or sustained benchmark budget.",
+            ""
+          ],
+          "number": 44,
+          "title": "[RESEARCH][Inference] Cerebras — assess trial limits and research-support evidence [E05-01F]"
+        },
+        {
+          "cells": [
+            "61Row actions",
+            "Ready",
+            "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01] #38",
+            "P3",
+            "05 Inference",
+            "Unknown",
+            "Oct 19, 2026",
+            "Unknown",
+            "Action qualification: Invitation-only; eligibility and application accessibility unresolved; historical universal signup credits must not be assumed.",
+            ""
+          ],
+          "number": 45,
+          "title": "[RESEARCH][Inference] Together AI — resolve invite-only research-credit fit [E05-01G]"
+        }
+      ],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Priority (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Parent issue",
+        "Priority",
+        "Workstream",
+        "Eligibility",
+        "Source verified",
+        "Eligibility phase",
+        "Decision blockers"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Foundation,Opportunity\n \nstatus:Backlog,Ready,\"In Progress\",Blocked\n61\n (61)\nmatching items\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "Parent issueParent issue column options",
+        "PriorityPriority column options",
+        "WorkstreamWorkstream column options",
+        "EligibilityEligibility column options",
+        "Source verifiedSource verified column options",
+        "Eligibility phaseEligibility phase column options",
+        "Decision blockersDecision blockers column options",
+        "Add field"
+      ]
+    },
+    {
+      "name": "Funding Pipeline",
+      "key": "funding_pipeline",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/3",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Opportunity support-type:Cash,Mixed opportunity-stage:Qualified,Preparing,Submitted eligibility:Eligible,\"Conditionally eligible\" -status:Blocked,\"Not Pursuing\"",
+      "issue_numbers": [],
+      "rows": [],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Priority (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Opportunity stage",
+        "Priority",
+        "Eligibility",
+        "Provider",
+        "Program",
+        "Currency",
+        "Estimated usable value",
+        "Deadline",
+        "Support type",
+        "Score",
+        "Next action"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Opportunity\n \nsupport-type:Cash,Mixed\n \nopportunity-stage:Qualified,Preparing,Submitted\n \neligibility:Eligible,\"Conditionally eligible\"\n \n-status:Blocked,\"Not Pursuing\"\n0\n (0)\nmatching items\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "Opportunity stageOpportunity stage column options",
+        "PriorityPriority column options",
+        "EligibilityEligibility column options",
+        "ProviderProvider column options",
+        "ProgramProgram column options",
+        "CurrencyCurrency column options",
+        "Estimated usable valueEstimated usable value column options",
+        "DeadlineDeadline column options",
+        "Support typeSupport type column options",
+        "ScoreScore column options",
+        "Next actionNext action column options",
+        "Add field"
+      ]
+    },
+    {
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/4",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Opportunity support-type:Credit,Hardware,Software,Service,Mixed -eligibility:Ineligible",
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Priority (ascending)",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Opportunity stage",
+        "Priority",
+        "Eligibility phase",
+        "Eligibility",
+        "Support type",
+        "Provider",
+        "Resource category",
+        "Program",
+        "Decision blockers"
+      ],
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Opportunity\n \nsupport-type:Credit,Hardware,Software,Service,Mixed\n \n-eligibility:Ineligible\n24\n (24)\nmatching items\nView",
+      "name": "In-Kind Support",
+      "key": "in_kind_support",
+      "issue_numbers": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "membership_readback_method": "Saved base filter count plus four disjoint six-item UI filter cohorts, then restored base filter and reloaded",
+      "cohort_readbacks": [
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Opportunity support-type:Credit,Hardware,Software,Service,Mixed -eligibility:Ineligible title:\"*[E05-01A]\",\"*[E05-01B]\",\"*[E05-01C]\",\"*[E05-01D]\",\"*[E05-01E]\",\"*[E05-01F]\"",
+          "numbers": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "verified": true
+        },
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Opportunity support-type:Credit,Hardware,Software,Service,Mixed -eligibility:Ineligible title:\"*[E05-01G]\",\"*[E05-02]\",\"*[E05-03]\",\"*[E06-01]\",\"*[E06-02]\",\"*[E06-03]\"",
+          "region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Opportunity\n \nsupport-type:Credit,Hardware,Software,Service,Mixed\n \n-eligibility:Ineligible\n \ntitle:\"*[E05-01G]\",\"*[E05-02]\",\"*[E05-03]\",\"*[E06-01]\",\"*[E06-02]\",\"*[E06-03]\"\n6\n (6)\nmatching items\nDiscard\nSave\nView",
+          "numbers": [
+            45,
+            47,
+            48,
+            51,
+            52,
+            53
+          ],
+          "verified": true
+        },
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Opportunity support-type:Credit,Hardware,Software,Service,Mixed -eligibility:Ineligible title:\"*[E06-04]\",\"*[E06-05]\",\"*[E07-01]\",\"*[E07-03]\",\"*[E07-04]\",\"*[E07-05]\"",
+          "region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Opportunity\n \nsupport-type:Credit,Hardware,Software,Service,Mixed\n \n-eligibility:Ineligible\n \ntitle:\"*[E06-04]\",\"*[E06-05]\",\"*[E07-01]\",\"*[E07-03]\",\"*[E07-04]\",\"*[E07-05]\"\n6\n (6)\nmatching items\nDiscard\nSave\nView",
+          "numbers": [
+            54,
+            55,
+            56,
+            58,
+            59,
+            60
+          ],
+          "verified": true
+        },
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue record-type:Opportunity support-type:Credit,Hardware,Software,Service,Mixed -eligibility:Ineligible title:\"*[E07-06]\",\"*[E08-01]\",\"*[E08-02]\",\"*[E08-03]\",\"*[E08-04]\",\"*[E08-05]\"",
+          "region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nrecord-type:Opportunity\n \nsupport-type:Credit,Hardware,Software,Service,Mixed\n \n-eligibility:Ineligible\n \ntitle:\"*[E07-06]\",\"*[E08-01]\",\"*[E08-02]\",\"*[E08-03]\",\"*[E08-04]\",\"*[E08-05]\"\n6\n (6)\nmatching items\nDiscard\nSave\nView",
+          "numbers": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "verified": true
+        }
+      ],
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "Opportunity stageOpportunity stage column options",
+        "PriorityPriority column options",
+        "Eligibility phaseEligibility phase column options",
+        "EligibilityEligibility column options",
+        "Support typeSupport type column options",
+        "ProviderProvider column options",
+        "Resource categoryResource category column options",
+        "ProgramProgram column options",
+        "Decision blockersDecision blockers column options",
+        "Add field"
+      ]
+    },
+    {
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/5",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue workstream:\"01 Nonprofit\",\"02 Readiness\"",
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Priority (ascending)",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Parent issue",
+        "Priority",
+        "Eligibility phase",
+        "Independent reviewer",
+        "Decision blockers",
+        "Sub-issues progress",
+        "Workstream"
+      ],
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nworkstream:\"01 Nonprofit\",\"02 Readiness\"\n16\n (16)\nmatching items\nView",
+      "name": "Nonprofit Readiness",
+      "key": "nonprofit_readiness",
+      "issue_numbers": [
+        2,
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "membership_readback_method": "Saved base-filter count plus three disjoint UI filter cohorts; base filter restored before leaving",
+      "cohort_readbacks": [
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue workstream:\"01 Nonprofit\",\"02 Readiness\" title:\"[EPIC 01]*\",\"[EPIC 02]*\",\"*[E01-01]\",\"*[E01-02]\",\"*[E01-03]\",\"*[E01-04]\"",
+          "region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nworkstream:\"01 Nonprofit\",\"02 Readiness\"\n \ntitle:\"[EPIC 01]*\",\"[EPIC 02]*\",\"*[E01-01]\",\"*[E01-02]\",\"*[E01-03]\",\"*[E01-04]\"\n6\n (6)\nmatching items\nDiscard\nSave\nView",
+          "numbers": [
+            2,
+            3,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue workstream:\"01 Nonprofit\",\"02 Readiness\" title:\"*[E01-05]\",\"*[E01-06]\",\"*[E01-07]\",\"*[E01-08]\",\"*[E02-01]\",\"*[E02-02]\"",
+          "region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nworkstream:\"01 Nonprofit\",\"02 Readiness\"\n \ntitle:\"*[E01-05]\",\"*[E01-06]\",\"*[E01-07]\",\"*[E01-08]\",\"*[E02-01]\",\"*[E02-02]\"\nDiscard\nSave\nView",
+          "numbers": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "query": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue workstream:\"01 Nonprofit\",\"02 Readiness\" title:\"*[E02-03]\",\"*[E02-04]\",\"*[E02-05]\",\"*[E02-06]\"",
+          "region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nworkstream:\"01 Nonprofit\",\"02 Readiness\"\n \ntitle:\"*[E02-03]\",\"*[E02-04]\",\"*[E02-05]\",\"*[E02-06]\"\n4\n (4)\nmatching items\nDiscard\nSave\nView",
+          "numbers": [
+            21,
+            22,
+            23,
+            24
+          ]
+        }
+      ],
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "Parent issueParent issue column options",
+        "PriorityPriority column options",
+        "Eligibility phaseEligibility phase column options",
+        "Independent reviewerIndependent reviewer column options",
+        "Decision blockersDecision blockers column options",
+        "Sub-issues progressSub-issues progress column options",
+        "WorkstreamWorkstream column options",
+        "Add field"
+      ]
+    },
+    {
+      "name": "Deadlines",
+      "key": "deadlines",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/6",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue deadline:>=@today",
+      "issue_numbers": [
+        25,
+        30
+      ],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Deadline (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Priority",
+        "Eligibility",
+        "Provider",
+        "Program",
+        "Deadline",
+        "Eligibility phase",
+        "Decision blockers"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \ndeadline:>=@today\n2\n (2)\nmatching items\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "PriorityPriority column options",
+        "EligibilityEligibility column options",
+        "ProviderProvider column options",
+        "ProgramProgram column options",
+        "DeadlineDeadline column options",
+        "Eligibility phaseEligibility phase column options",
+        "Decision blockersDecision blockers column options",
+        "Add field"
+      ]
+    },
+    {
+      "name": "Ready for Review",
+      "key": "ready_for_review",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/7",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue status:\"In Review\"",
+      "issue_numbers": [
+        46
+      ],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Priority (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Status",
+        "Priority",
+        "Eligibility",
+        "Confidence",
+        "Independent reviewer",
+        "Source verified",
+        "Opportunity stage",
+        "Decision blockers"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nstatus:\"In Review\"\n1\n (1)\nmatching item\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "StatusStatus column options",
+        "PriorityPriority column options",
+        "EligibilityEligibility column options",
+        "ConfidenceConfidence column options",
+        "Independent reviewerIndependent reviewer column options",
+        "Source verifiedSource verified column options",
+        "Opportunity stageOpportunity stage column options",
+        "Decision blockersDecision blockers column options",
+        "Add field"
+      ]
+    },
+    {
+      "name": "Outreach & Applications",
+      "key": "outreach_applications",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/8",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue opportunity-stage:Preparing,Submitted eligibility:Eligible,\"Conditionally eligible\" -status:Blocked,\"Not Pursuing\"",
+      "issue_numbers": [],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Priority (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Assignees",
+        "Status",
+        "Opportunity stage",
+        "Priority",
+        "Eligibility",
+        "Provider",
+        "Program",
+        "Decision blockers",
+        "Deadline",
+        "Next action"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nopportunity-stage:Preparing,Submitted\n \neligibility:Eligible,\"Conditionally eligible\"\n \n-status:Blocked,\"Not Pursuing\"\n0\n (0)\nmatching items\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "AssigneesAssignees column options",
+        "StatusStatus column options",
+        "Opportunity stageOpportunity stage column options",
+        "PriorityPriority column options",
+        "EligibilityEligibility column options",
+        "ProviderProvider column options",
+        "ProgramProgram column options",
+        "Decision blockersDecision blockers column options",
+        "DeadlineDeadline column options",
+        "Next actionNext action column options",
+        "Add field"
+      ]
+    },
+    {
+      "name": "Awards & Reporting",
+      "key": "awards_reporting",
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7/views/9",
+      "filter": "repo:Pick-Your-AI/pick-your-ai-sustainability is:issue opportunity-stage:Awarded,Activated,Reporting",
+      "issue_numbers": [],
+      "layout": "Table",
+      "grouping": "Group by: none",
+      "sorting": "Sort by:  Next action (ascending)",
+      "slice": "Slice by: none",
+      "show_hierarchy": false,
+      "visible_fields": [
+        "Title",
+        "Assignees",
+        "Status",
+        "Opportunity stage",
+        "Support type",
+        "Provider",
+        "Program",
+        "Currency",
+        "Estimated usable value",
+        "Next action",
+        "Next verification"
+      ],
+      "saved": true,
+      "captured_after_reload": true,
+      "filter_region": "Filter\nrepo:Pick-Your-AI/pick-your-ai-sustainability\n \nis:issue\n \nopportunity-stage:Awarded,Activated,Reporting\n0\n (0)\nmatching items\nView",
+      "visible_fields_raw": [
+        "TitleTitle column options",
+        "AssigneesAssignees column options",
+        "StatusStatus column options",
+        "Opportunity stageOpportunity stage column options",
+        "Support typeSupport type column options",
+        "ProviderProvider column options",
+        "ProgramProgram column options",
+        "CurrencyCurrency column options",
+        "Estimated usable valueEstimated usable value column options",
+        "Next actionNext action column options",
+        "Next verificationNext verification column options",
+        "Add field"
+      ]
+    }
+  ]
+}

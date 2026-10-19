@@ -1,0 +1,20 @@
+{
+  "status": "updated_and_verified",
+  "verification": {
+    "single_matching_task": true,
+    "id_preserved": true,
+    "is_enabled": true,
+    "prompt_exact_match": true,
+    "schedule_exactly_preserved": true,
+    "timing_mode": "flexible_schedule",
+    "created_duplicate": false,
+    "current_github_read_succeeded": true
+  },
+  "read_at": "2026-10-19T05:52:00.267Z",
+  "service": "Existing ChatGPT automation; not a GitHub scheduled workflow",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261118T080000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=18\nEND:VEVENT",
+  "timing_mode": "flexible_schedule",
+  "timezone": "America/New_York",
+  "authorization_boundaries": "Research and reviewable updates only; no outreach, applications, account activation, spending, legal filings, reviewer assignments or self-approval",
+  "private_task_and_conversation_identifiers_omitted": true
+}

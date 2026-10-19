@@ -1,0 +1,1906 @@
+{
+  "after": {
+    "1": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "10": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    "11": {
+      "blocked_by": [],
+      "blocking": [
+        42,
+        51,
+        52,
+        54,
+        60,
+        65,
+        68
+      ],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "12": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "13": {
+      "blocked_by": [],
+      "blocking": [
+        62
+      ],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "14": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "15": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "16": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "17": {
+      "blocked_by": [],
+      "blocking": [
+        62
+      ],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "18": {
+      "blocked_by": [],
+      "blocking": [
+        35,
+        64,
+        71
+      ],
+      "parent": 2,
+      "sub_issues": []
+    },
+    "19": {
+      "blocked_by": [],
+      "blocking": [
+        20,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "parent": 3,
+      "sub_issues": []
+    },
+    "2": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "20": {
+      "blocked_by": [
+        19
+      ],
+      "blocking": [
+        23,
+        71
+      ],
+      "parent": 3,
+      "sub_issues": []
+    },
+    "21": {
+      "blocked_by": [],
+      "blocking": [
+        48,
+        49,
+        50
+      ],
+      "parent": 3,
+      "sub_issues": []
+    },
+    "22": {
+      "blocked_by": [],
+      "blocking": [
+        23,
+        66
+      ],
+      "parent": 3,
+      "sub_issues": []
+    },
+    "23": {
+      "blocked_by": [
+        20,
+        22
+      ],
+      "blocking": [],
+      "parent": 3,
+      "sub_issues": []
+    },
+    "24": {
+      "blocked_by": [],
+      "blocking": [
+        68,
+        69
+      ],
+      "parent": 3,
+      "sub_issues": []
+    },
+    "25": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "26": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "27": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "28": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "29": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "3": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "30": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "31": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "32": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 4,
+      "sub_issues": []
+    },
+    "33": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 5,
+      "sub_issues": []
+    },
+    "34": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 5,
+      "sub_issues": []
+    },
+    "35": {
+      "blocked_by": [
+        18
+      ],
+      "blocking": [
+        37
+      ],
+      "parent": 5,
+      "sub_issues": []
+    },
+    "36": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 5,
+      "sub_issues": []
+    },
+    "37": {
+      "blocked_by": [
+        35
+      ],
+      "blocking": [],
+      "parent": 5,
+      "sub_issues": []
+    },
+    "38": {
+      "blocked_by": [],
+      "blocking": [
+        50
+      ],
+      "parent": 6,
+      "sub_issues": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    },
+    "39": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "4": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    "40": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "41": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "42": {
+      "blocked_by": [
+        11
+      ],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "43": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "44": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "45": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "46": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 38,
+      "sub_issues": []
+    },
+    "47": {
+      "blocked_by": [],
+      "blocking": [
+        50
+      ],
+      "parent": 6,
+      "sub_issues": []
+    },
+    "48": {
+      "blocked_by": [
+        21
+      ],
+      "blocking": [
+        50
+      ],
+      "parent": 6,
+      "sub_issues": []
+    },
+    "49": {
+      "blocked_by": [
+        21
+      ],
+      "blocking": [
+        50,
+        63
+      ],
+      "parent": 6,
+      "sub_issues": []
+    },
+    "5": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    "50": {
+      "blocked_by": [
+        21,
+        38,
+        47,
+        48,
+        49
+      ],
+      "blocking": [],
+      "parent": 6,
+      "sub_issues": []
+    },
+    "51": {
+      "blocked_by": [
+        11,
+        19
+      ],
+      "blocking": [],
+      "parent": 7,
+      "sub_issues": []
+    },
+    "52": {
+      "blocked_by": [
+        11,
+        19
+      ],
+      "blocking": [],
+      "parent": 7,
+      "sub_issues": []
+    },
+    "53": {
+      "blocked_by": [
+        19,
+        57
+      ],
+      "blocking": [],
+      "parent": 7,
+      "sub_issues": []
+    },
+    "54": {
+      "blocked_by": [
+        11,
+        19
+      ],
+      "blocking": [],
+      "parent": 7,
+      "sub_issues": []
+    },
+    "55": {
+      "blocked_by": [
+        19,
+        57
+      ],
+      "blocking": [],
+      "parent": 7,
+      "sub_issues": []
+    },
+    "56": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 8,
+      "sub_issues": []
+    },
+    "57": {
+      "blocked_by": [],
+      "blocking": [
+        53,
+        55,
+        59,
+        61,
+        64
+      ],
+      "parent": 8,
+      "sub_issues": []
+    },
+    "58": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 8,
+      "sub_issues": []
+    },
+    "59": {
+      "blocked_by": [
+        57
+      ],
+      "blocking": [],
+      "parent": 8,
+      "sub_issues": []
+    },
+    "6": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        38,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    "60": {
+      "blocked_by": [
+        11
+      ],
+      "blocking": [],
+      "parent": 8,
+      "sub_issues": []
+    },
+    "61": {
+      "blocked_by": [
+        57
+      ],
+      "blocking": [],
+      "parent": 8,
+      "sub_issues": []
+    },
+    "62": {
+      "blocked_by": [
+        13,
+        17
+      ],
+      "blocking": [],
+      "parent": 9,
+      "sub_issues": []
+    },
+    "63": {
+      "blocked_by": [
+        49
+      ],
+      "blocking": [],
+      "parent": 9,
+      "sub_issues": []
+    },
+    "64": {
+      "blocked_by": [
+        18,
+        57
+      ],
+      "blocking": [],
+      "parent": 9,
+      "sub_issues": []
+    },
+    "65": {
+      "blocked_by": [
+        11
+      ],
+      "blocking": [],
+      "parent": 9,
+      "sub_issues": []
+    },
+    "66": {
+      "blocked_by": [
+        22
+      ],
+      "blocking": [],
+      "parent": 9,
+      "sub_issues": []
+    },
+    "67": {
+      "blocked_by": [],
+      "blocking": [
+        70
+      ],
+      "parent": 10,
+      "sub_issues": []
+    },
+    "68": {
+      "blocked_by": [
+        11,
+        24
+      ],
+      "blocking": [
+        69
+      ],
+      "parent": 10,
+      "sub_issues": []
+    },
+    "69": {
+      "blocked_by": [
+        24,
+        68
+      ],
+      "blocking": [
+        72
+      ],
+      "parent": 10,
+      "sub_issues": []
+    },
+    "7": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ]
+    },
+    "70": {
+      "blocked_by": [
+        67
+      ],
+      "blocking": [
+        72
+      ],
+      "parent": 10,
+      "sub_issues": []
+    },
+    "71": {
+      "blocked_by": [
+        18,
+        20
+      ],
+      "blocking": [
+        72
+      ],
+      "parent": 10,
+      "sub_issues": []
+    },
+    "72": {
+      "blocked_by": [
+        69,
+        70,
+        71
+      ],
+      "blocking": [],
+      "parent": 10,
+      "sub_issues": []
+    },
+    "8": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    "9": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": 1,
+      "sub_issues": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    }
+  },
+  "api_rate_remaining": 4712,
+  "api_requests": 809,
+  "before": {
+    "1": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "10": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "11": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "12": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "13": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "14": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "15": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "16": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "17": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "18": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "19": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "2": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "20": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "21": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "22": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "23": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "24": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "25": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "26": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "27": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "28": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "29": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "3": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "30": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "31": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "32": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "33": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "34": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "35": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "36": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "37": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "38": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "39": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "4": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "40": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "41": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "42": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "43": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "44": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "45": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "46": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "47": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "48": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "49": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "5": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "50": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "51": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "52": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "53": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "54": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "55": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "56": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "57": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "58": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "59": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "6": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "60": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "61": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "62": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "63": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "64": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "65": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "66": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "67": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "68": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "69": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "7": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "70": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "71": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "72": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "8": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    },
+    "9": {
+      "blocked_by": [],
+      "blocking": [],
+      "parent": null,
+      "sub_issues": []
+    }
+  },
+  "expected": {
+    "blocked_by": 43,
+    "issues": 72,
+    "parent_child": 71
+  },
+  "finished_at": "2026-10-19T06:44:58.746484+00:00",
+  "head_sha": "e933da4663bde2d3b91992c889a74ac480cac9ba",
+  "mode": "apply",
+  "mutations": [
+    {
+      "child": 2,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918030557,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 3,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918030703,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 4,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918030840,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 5,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918034992,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 6,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918035306,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 7,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918035633,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 8,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918035946,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 9,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918036259,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 10,
+      "kind": "parent_child",
+      "parent": 1,
+      "payload_id": 5918036563,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 11,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 12,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918043484,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 13,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918043791,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 14,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918044060,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 15,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918044406,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 16,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918044719,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 17,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918045061,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 18,
+      "kind": "parent_child",
+      "parent": 2,
+      "payload_id": 5918045368,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 19,
+      "kind": "parent_child",
+      "parent": 3,
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 20,
+      "kind": "parent_child",
+      "parent": 3,
+      "payload_id": 5918046004,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 21,
+      "kind": "parent_child",
+      "parent": 3,
+      "payload_id": 5918046298,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 22,
+      "kind": "parent_child",
+      "parent": 3,
+      "payload_id": 5918046578,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 23,
+      "kind": "parent_child",
+      "parent": 3,
+      "payload_id": 5918046875,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 24,
+      "kind": "parent_child",
+      "parent": 3,
+      "payload_id": 5918047257,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 25,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918047588,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 26,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918047859,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 27,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918048150,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 28,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918048496,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 29,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918048887,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 30,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918049208,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 31,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918049494,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 32,
+      "kind": "parent_child",
+      "parent": 4,
+      "payload_id": 5918049814,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 33,
+      "kind": "parent_child",
+      "parent": 5,
+      "payload_id": 5918050123,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 34,
+      "kind": "parent_child",
+      "parent": 5,
+      "payload_id": 5918050457,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 35,
+      "kind": "parent_child",
+      "parent": 5,
+      "payload_id": 5918050866,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 36,
+      "kind": "parent_child",
+      "parent": 5,
+      "payload_id": 5918051164,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 37,
+      "kind": "parent_child",
+      "parent": 5,
+      "payload_id": 5918051519,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 38,
+      "kind": "parent_child",
+      "parent": 6,
+      "payload_id": 5918051858,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 47,
+      "kind": "parent_child",
+      "parent": 6,
+      "payload_id": 5918054673,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 48,
+      "kind": "parent_child",
+      "parent": 6,
+      "payload_id": 5918054982,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 49,
+      "kind": "parent_child",
+      "parent": 6,
+      "payload_id": 5918055324,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 50,
+      "kind": "parent_child",
+      "parent": 6,
+      "payload_id": 5918055619,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 51,
+      "kind": "parent_child",
+      "parent": 7,
+      "payload_id": 5918055946,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 52,
+      "kind": "parent_child",
+      "parent": 7,
+      "payload_id": 5918056302,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 53,
+      "kind": "parent_child",
+      "parent": 7,
+      "payload_id": 5918056622,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 54,
+      "kind": "parent_child",
+      "parent": 7,
+      "payload_id": 5918056953,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 55,
+      "kind": "parent_child",
+      "parent": 7,
+      "payload_id": 5918057238,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 56,
+      "kind": "parent_child",
+      "parent": 8,
+      "payload_id": 5918057588,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 57,
+      "kind": "parent_child",
+      "parent": 8,
+      "payload_id": 5918057900,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 58,
+      "kind": "parent_child",
+      "parent": 8,
+      "payload_id": 5918058231,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 59,
+      "kind": "parent_child",
+      "parent": 8,
+      "payload_id": 5918058554,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 60,
+      "kind": "parent_child",
+      "parent": 8,
+      "payload_id": 5918058839,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 61,
+      "kind": "parent_child",
+      "parent": 8,
+      "payload_id": 5918059149,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 62,
+      "kind": "parent_child",
+      "parent": 9,
+      "payload_id": 5918059455,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 63,
+      "kind": "parent_child",
+      "parent": 9,
+      "payload_id": 5918059717,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 64,
+      "kind": "parent_child",
+      "parent": 9,
+      "payload_id": 5918060043,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 65,
+      "kind": "parent_child",
+      "parent": 9,
+      "payload_id": 5918060366,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 66,
+      "kind": "parent_child",
+      "parent": 9,
+      "payload_id": 5918060647,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 67,
+      "kind": "parent_child",
+      "parent": 10,
+      "payload_id": 5918060967,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 68,
+      "kind": "parent_child",
+      "parent": 10,
+      "payload_id": 5918061290,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 69,
+      "kind": "parent_child",
+      "parent": 10,
+      "payload_id": 5918061616,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 70,
+      "kind": "parent_child",
+      "parent": 10,
+      "payload_id": 5918061956,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 71,
+      "kind": "parent_child",
+      "parent": 10,
+      "payload_id": 5918062386,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 72,
+      "kind": "parent_child",
+      "parent": 10,
+      "payload_id": 5918062707,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 39,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918052171,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 40,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918052463,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 41,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918052830,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 42,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918053117,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 43,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918053414,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 44,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918053702,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 45,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918054032,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "child": 46,
+      "kind": "parent_child",
+      "parent": 38,
+      "payload_id": 5918054329,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 20,
+      "blocking": 19,
+      "kind": "blocked_by",
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 23,
+      "blocking": 20,
+      "kind": "blocked_by",
+      "payload_id": 5918046004,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 23,
+      "blocking": 22,
+      "kind": "blocked_by",
+      "payload_id": 5918046578,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 35,
+      "blocking": 18,
+      "kind": "blocked_by",
+      "payload_id": 5918045368,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 37,
+      "blocking": 35,
+      "kind": "blocked_by",
+      "payload_id": 5918050866,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 42,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 48,
+      "blocking": 21,
+      "kind": "blocked_by",
+      "payload_id": 5918046298,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 49,
+      "blocking": 21,
+      "kind": "blocked_by",
+      "payload_id": 5918046298,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 50,
+      "blocking": 21,
+      "kind": "blocked_by",
+      "payload_id": 5918046298,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 50,
+      "blocking": 38,
+      "kind": "blocked_by",
+      "payload_id": 5918051858,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 50,
+      "blocking": 47,
+      "kind": "blocked_by",
+      "payload_id": 5918054673,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 50,
+      "blocking": 48,
+      "kind": "blocked_by",
+      "payload_id": 5918054982,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 50,
+      "blocking": 49,
+      "kind": "blocked_by",
+      "payload_id": 5918055324,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 51,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 51,
+      "blocking": 19,
+      "kind": "blocked_by",
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 52,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 52,
+      "blocking": 19,
+      "kind": "blocked_by",
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 53,
+      "blocking": 19,
+      "kind": "blocked_by",
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 53,
+      "blocking": 57,
+      "kind": "blocked_by",
+      "payload_id": 5918057900,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 54,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 54,
+      "blocking": 19,
+      "kind": "blocked_by",
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 55,
+      "blocking": 19,
+      "kind": "blocked_by",
+      "payload_id": 5918045714,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 55,
+      "blocking": 57,
+      "kind": "blocked_by",
+      "payload_id": 5918057900,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 59,
+      "blocking": 57,
+      "kind": "blocked_by",
+      "payload_id": 5918057900,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 60,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 61,
+      "blocking": 57,
+      "kind": "blocked_by",
+      "payload_id": 5918057900,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 62,
+      "blocking": 13,
+      "kind": "blocked_by",
+      "payload_id": 5918043791,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 62,
+      "blocking": 17,
+      "kind": "blocked_by",
+      "payload_id": 5918045061,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 63,
+      "blocking": 49,
+      "kind": "blocked_by",
+      "payload_id": 5918055324,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 64,
+      "blocking": 18,
+      "kind": "blocked_by",
+      "payload_id": 5918045368,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 64,
+      "blocking": 57,
+      "kind": "blocked_by",
+      "payload_id": 5918057900,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 65,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 66,
+      "blocking": 22,
+      "kind": "blocked_by",
+      "payload_id": 5918046578,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 68,
+      "blocking": 11,
+      "kind": "blocked_by",
+      "payload_id": 5918043201,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 68,
+      "blocking": 24,
+      "kind": "blocked_by",
+      "payload_id": 5918047257,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 69,
+      "blocking": 24,
+      "kind": "blocked_by",
+      "payload_id": 5918047257,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 69,
+      "blocking": 68,
+      "kind": "blocked_by",
+      "payload_id": 5918061290,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 70,
+      "blocking": 67,
+      "kind": "blocked_by",
+      "payload_id": 5918060967,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 71,
+      "blocking": 18,
+      "kind": "blocked_by",
+      "payload_id": 5918045368,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 71,
+      "blocking": 20,
+      "kind": "blocked_by",
+      "payload_id": 5918046004,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 72,
+      "blocking": 69,
+      "kind": "blocked_by",
+      "payload_id": 5918061616,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 72,
+      "blocking": 70,
+      "kind": "blocked_by",
+      "payload_id": 5918061956,
+      "result": "http_201_and_final_native_readback_verified"
+    },
+    {
+      "blocked": 72,
+      "blocking": 71,
+      "kind": "blocked_by",
+      "payload_id": 5918062386,
+      "result": "http_201_and_final_native_readback_verified"
+    }
+  ],
+  "plan_sha256": "87f40e822422cefc52f92c55acd419b1bc5a438055f6b2399273e479ceebbaec",
+  "pull_request": 73,
+  "repository": "Pick-Your-AI/pick-your-ai-sustainability",
+  "result": "all_71_parent_and_43_blocked_by_relationships_verified",
+  "skipped_existing": [],
+  "started_at": "2026-10-19T06:40:20.922570+00:00",
+  "verified_counts": {
+    "blocked_by": 43,
+    "blocking_reverse": 43,
+    "issues": 72,
+    "parent_child": 71
+  }
+}

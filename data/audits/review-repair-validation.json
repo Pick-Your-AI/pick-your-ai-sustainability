@@ -1,0 +1,142 @@
+{
+  "result": "PASS",
+  "prepared_at": "2026-10-19T07:09:42.694373+00:00",
+  "scope": "Local review repairs, not GitHub publication or independent acceptance",
+  "schema_method": "Targeted validator covering every keyword declared in this schema: type, required, const, enum, properties, items, minItems, minLength, pattern, numeric minimum/maximum, URI and date formats. No general-purpose JSON Schema package was installed.",
+  "register_records_validated": 39,
+  "register_validation_errors": [],
+  "template_exposes_all_required_fields": true,
+  "completed_template_validates": true,
+  "invalid_examples": [
+    {
+      "field": "scoring.mission_fit",
+      "invalid_value": "high",
+      "rejected": true,
+      "errors": [
+        "$.scoring.mission_fit: type"
+      ]
+    },
+    {
+      "field": "scoring.eligibility",
+      "invalid_value": 99,
+      "rejected": true,
+      "errors": [
+        "$.scoring.eligibility: maximum"
+      ]
+    },
+    {
+      "field": "scoring.net_usable_value",
+      "invalid_value": -1,
+      "rejected": true,
+      "errors": [
+        "$.scoring.net_usable_value: minimum"
+      ]
+    },
+    {
+      "field": "scoring.total",
+      "invalid_value": {},
+      "rejected": true,
+      "errors": [
+        "$.scoring.total: type"
+      ]
+    },
+    {
+      "field": "scoring.total",
+      "invalid_value": 101,
+      "rejected": true,
+      "errors": [
+        "$.scoring.total: maximum"
+      ]
+    },
+    {
+      "field": "source_refs",
+      "invalid_value": [
+        "turn2view0"
+      ],
+      "rejected": true
+    },
+    {
+      "field": "owning_research_key",
+      "invalid_value": "missing",
+      "rejected": true
+    },
+    {
+      "field": "source_urls",
+      "invalid_value": "missing",
+      "rejected": true
+    },
+    {
+      "field": "source_review_status",
+      "invalid_value": "missing",
+      "rejected": true
+    }
+  ],
+  "source_reference_session_ids_removed": true,
+  "source_evidence_urls": 55,
+  "freshness_total_urls": 72,
+  "additional_unverified_endpoints": 17,
+  "all_program_and_application_endpoints_tracked": true,
+  "new_endpoint_verified_dates_all_null": true,
+  "opportunity_stages_priorities_scores_eligibility_unchanged": true,
+  "declared_native_plan_and_issue_ids_unchanged": true,
+  "native_registry_checksum_before": "8bfd7519b9f43746f87a17cb1640073e406dda64bffbbd2b7097fe2f0ad8d3ca",
+  "native_registry_checksum_after": "b4022a944210954e536ca9a841ea13fe5d1b41f12bb651ec4b02419441035cd2",
+  "workflow_pinned_registry_checksum_matches": true,
+  "independent_native_connector_readback": "PASS: 58 endpoint comparisons, 71 parent links, 43 forward and 43 reverse blockers, 72 fresh issue summaries",
+  "native_script_load_plan_passed": true,
+  "native_plan_sha256": "87f40e822422cefc52f92c55acd419b1bc5a438055f6b2399273e479ceebbaec",
+  "independent_native_report_path": "data/audits/native-relationship-independent.json",
+  "independent_automated_review": {
+    "result": "PASS",
+    "scope": "A separate research agent independently read all five live GitHub review thread bodies and the prepared local fixes. This is technical verification, not GitHub approval.",
+    "observations": [
+      "Every schema-required record and scoring field is present in the template.",
+      "Component scores accept only number/null from 0 through 5; total accepts only number/null from 0 through 100.",
+      "All 39 records retain their previous priority, eligibility, lifecycle, score, scoring and estimated-value state.",
+      "All 57 distinct program/application URLs have freshness records and correct opportunity membership; the 17 additional endpoints have null verified dates.",
+      "The AWS workbook retains its dated HTTP 403 attempt and null successful verification date.",
+      "No session-local turn identifiers remain in source_refs.",
+      "Verified consistently requires an independently accepted canonical program/intake assessment; no record was advanced."
+    ],
+    "review_is_other_account_approval": false
+  },
+  "final_overlay_checks": {
+    "checked_at": "2026-10-19T07:59:39.681040+00:00",
+    "relative_markdown_links_checked": 78,
+    "missing_relative_targets": [],
+    "relationship_plan_ids_and_scope_unchanged": true,
+    "opportunity_record_state_unchanged": true,
+    "method_note": "Local checks of intended files; final publication requires a separate GitHub readback."
+  },
+  "final_prose_review": {
+    "reviewed_at": "2026-10-19T07:50:01.244837+00:00",
+    "result": "PASS with bounded wording clarifications",
+    "clarifications": [
+      "Anchored issue-body comparisons to the actual 07:24 snapshot; later immutable-link refresh requires its own final readback.",
+      "Preserved the independently verified 37-file publication baseline without implying it proves the later audit revision.",
+      "Explained that saved eligibility/status filters do not automatically approve outreach or submission.",
+      "Described checked source facts as dated observations rather than a guarantee of continuing program availability."
+    ],
+    "remaining_configuration_verification": [],
+    "independent_research_acceptance_remains_unresolved": true,
+    "github_mutation_performed": false,
+    "catalog_validation": "PASS"
+  },
+  "automated_review_limitation": {
+    "kind": "automated-code-review-service-limit",
+    "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/73#issuecomment-6261310094",
+    "comment_id": 6261310094,
+    "comment_created_at": "2026-10-19T06:40:17Z",
+    "author": "chatgpt-codex-connector[bot]",
+    "summary": "The automated code-review service reported that its review usage allowance was exhausted. This is a service limitation, not a code finding or approval.",
+    "other_account_approval": false,
+    "new_code_finding": false,
+    "credits_added": false,
+    "scope": "The five earlier concrete review comments remain addressed by the prepared fixes; this comment does not demonstrate a completed review of the later workflow or audit revision."
+  },
+  "screenshot_limitation": {
+    "source": "Root observed browser timeouts after all required UI readbacks were persisted",
+    "screenshot_captured": false,
+    "prior_field_view_and_catalog_evidence_complete": true
+  }
+}

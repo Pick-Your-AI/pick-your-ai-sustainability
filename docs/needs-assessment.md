@@ -1,5 +1,9 @@
 # Funding and in-kind support needs
 
+The dated [canonical E02-01 cost-and-need ledger](funding/needs-assessment.md)
+records the later source/receipt inventory, proposed amounts and explicit Unknowns.
+The table below retains the initial map; its links do not override later delivery evidence.
+
 Status: initial evidence map, inspected 2026-10-19. E02.01 must establish actual expenditure, demand and accepted operating requirements before valuation.
 
 | Need | Existing evidence and canonical work | Useful support to investigate | Current gap |

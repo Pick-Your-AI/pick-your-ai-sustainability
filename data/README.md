@@ -1,6 +1,6 @@
 # Opportunity evidence register
 
-This register contains **46 distinct program/channel records**: the prior 43 identities, including the two explicit loan/equity mechanism screenings, plus three infrastructure program records. The records distinguish seed evidence from individually accepted research findings. Records carry dated source observations and explicit access limits; no record is asserted to be a qualified or authorized application.
+This register contains **49 distinct program/channel records**: the 46 previously accepted identities plus three distinct crowdfunding routes. The records distinguish seed evidence from individually accepted research findings. Records carry dated source observations and explicit access limits; no record is asserted to be a qualified or authorized application.
 
 The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
@@ -26,6 +26,9 @@ A shared owning key means one comparative research package evaluates different p
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
 | SBA 7(a) business loans | E03-08 | Completed nonbinding screen; Not Pursuing as present charitable project funding; no borrowing commitment |
 | YC standard investment deal | E03-08 | Completed nonbinding screen; Not Pursuing for the current charitable-funding shortlist; no investment or issuance |
+| GoFundMe personal/business fundraiser | E04-02 | P2 conditional lead; recipient/country/authority and exact permitted-use terms remain Unknown |
+| GoFundMe certified nonprofit fundraiser | E04-02 | P2 conditional lead; recognized beneficiary/host, certification and agreement remain Unknown |
+| Kickstarter creative-project crowdfunding | E04-02 | P3 not selected for the current maintenance scope; a new admissible creative proposal would need reassessment |
 
 ## How to interpret fields
 
@@ -57,3 +60,7 @@ In the earlier receiving snapshot, the accepted-main input was af922c0f61cb2a499
 ## Additional infrastructure comparison
 
 The [E06-03 comparison](../research/infrastructure/additional-programs.md) updates Fastly and adds distinct Netlify OSS, Buildkite OSS-pricing and historical DigitalOcean OSS-credit records under existing [#53](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53). Azure retains its separate accepted record without modification. The complete comparison is Done after [full independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595) at `638c14596dac123cd6c785da091b680c724d1907`. Fastly, Netlify and Buildkite are Verified for program research; DigitalOcean remains historically Discovered with its Not Pursuing current-request disposition. It preserves current hosting/public CI, explicit applicant and intake Unknowns, null values/scores and a separate disposition for each candidate. The historical DigitalOcean route is retained without asserting provider-wide closure.
+
+## Donation-channel comparison
+
+The [E04-02 comparison](../docs/funding/donation-channel-comparison.md) adds three distinct crowdfunding records under existing [#34](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34). Their research is Done after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34#issuecomment-6272380949) at `c32717e7f11e4b4720954f551ec83687176bfc19`; their opportunity stages remain Discovered. The GoFundMe routes retain P2 conditional/deferred dispositions, and Kickstarter retains P3 non-selection for the proposed maintenance scope. The [structured assessment](opportunities/donation-channel-assessment.json) records the three applicant routes, dated public-source and access observations, and remaining recipient, need, agreement and tax questions. No actual applicant, account, campaign, charitable treatment, payment or usable value is established. The existing host and Sponsors records retain their canonical ownership; this addition does not extend the historical GitHub-link or Project audits.

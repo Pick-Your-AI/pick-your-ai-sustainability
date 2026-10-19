@@ -2,6 +2,8 @@
 import copy
 import importlib.util
 import json
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -205,6 +207,16 @@ class FilesystemChecks(unittest.TestCase):
         target.write_text(content, encoding="utf-8")
         return target
 
+    def pipeline_score(self, canonical, original_token):
+        register = copy.deepcopy(BASE["data/opportunities.json"])
+        pipeline = copy.deepcopy(BASE["data/funding-pipeline.json"])
+        register["records"][0]["score"] = canonical
+        pipeline["records"][0]["score"] = canonical
+        self.write("data/opportunities.json", json.dumps(register))
+        raw = json.dumps(pipeline).replace(
+            '"score": ' + json.dumps(canonical), '"score": ' + original_token, 1)
+        return self.write("data/funding-pipeline.json", raw)
+
     def test_complete_fixture_and_live_checkout_pass_without_network(self):
         with patch("socket.socket", side_effect=AssertionError("network attempted")):
             self.assertEqual(validation.validate_repository(self.root)[0], [])
@@ -250,6 +262,69 @@ class FilesystemChecks(unittest.TestCase):
                 self.write("data/broken.json", content)
                 errors, _ = validation.validate_repository(self.root)
                 self.assertTrue(any(expected in e for e in errors), errors)
+
+    def test_raw_float_tokens_cannot_lose_decimal_or_integral_precision(self):
+        for token in ("1.00000000000000001", "9007199254740993.0", "1e23",
+                      "1e-999", "-1e-999", "1e-999999999999999999999999"):
+            with self.subTest(token=token):
+                original = '{"history": [{"amount": ' + token + '}]}'
+                target = self.write("data/numeric-input.json", original)
+                errors, _ = validation.validate_repository(self.root)
+                self.assertTrue(any("data/numeric-input.json: unsupported JSON numeric precision" in e
+                                    for e in errors), errors)
+                self.assertEqual(target.read_text(encoding="utf-8"), original)
+
+    def test_original_pipeline_numbers_cannot_round_to_the_canonical_score(self):
+        for canonical, token in ((1, "1.00000000000000001"), (0, "1e-999")):
+            with self.subTest(canonical=canonical, token=token):
+                target = self.pipeline_score(canonical, token)
+                original = target.read_bytes()
+                errors, _ = validation.validate_repository(self.root)
+                self.assertTrue(any("data/funding-pipeline.json: unsupported JSON numeric precision" in e
+                                    for e in errors), errors)
+                self.assertEqual(target.read_bytes(), original)
+        self.pipeline_score(1, "1.0000000000000002")
+        errors, _ = validation.validate_repository(self.root)
+        self.assertTrue(any("[score]: differs" in e for e in errors), errors)
+
+    def test_out_of_range_original_scores_cannot_round_inside_schema_limits(self):
+        for boundary, token in ((100, "100.00000000000000001"), (0, "-1e-999")):
+            with self.subTest(boundary=boundary, token=token):
+                register = copy.deepcopy(BASE["data/opportunities.json"])
+                register["records"][0]["scoring"]["total"] = boundary
+                raw = json.dumps(register).replace('"total": ' + str(boundary),
+                                                   '"total": ' + token, 1)
+                target = self.write("data/opportunities.json", raw)
+                errors, _ = validation.validate_repository(self.root)
+                self.assertTrue(any("data/opportunities.json: unsupported JSON numeric precision" in e
+                                    for e in errors), errors)
+                self.assertEqual(target.read_text(encoding="utf-8"), raw)
+
+    def test_supported_decimal_spellings_whole_floats_and_signed_zero_still_pass(self):
+        self.write("data/numeric-input.json", '{"exact_integer_float": 9007199254740992.0, '
+                   '"exact_integral_exponent": 1e22, "subnormal": 5e-324}')
+        for canonical, token in ((0.1, "0.10"), (0.1, "1e-1"), (1, "1.000"),
+                                 (1, "1e0"), (0, "-0.000e999"), (0, "0e-999"), (100, "1e2")):
+            with self.subTest(token=token):
+                target = self.pipeline_score(canonical, token)
+                original = target.read_bytes()
+                self.assertEqual(validation.validate_repository(self.root)[0], [])
+                self.assertEqual(target.read_bytes(), original)
+
+    def test_cli_checks_original_numbers_in_normal_and_optimized_python(self):
+        for options in ([], ["-O"]):
+            for canonical, token, expected in ((1, "1.00000000000000001", 1),
+                                                (0, "1e-999", 1), (0.1, "0.10", 0)):
+                with self.subTest(options=options, token=token):
+                    target = self.pipeline_score(canonical, token)
+                    original = target.read_bytes()
+                    result = subprocess.run(
+                        [sys.executable, *options, str(ROOT / "scripts/validate_repository.py"),
+                         "--root", str(self.root)], capture_output=True, text=True, check=False)
+                    self.assertEqual(result.returncode, expected, result.stdout + result.stderr)
+                    self.assertIn("unsupported JSON numeric precision" if expected else "PASS:", result.stdout)
+                    self.assertNotIn("Traceback", result.stdout + result.stderr)
+                    self.assertEqual(target.read_bytes(), original)
 
     def test_symlink_loop_is_reported_without_an_uncaught_exception(self):
         (self.root / "loop.md").symlink_to("loop.md")

@@ -2,6 +2,7 @@
 """Validate local sustainability evidence and Markdown targets without network access."""
 
 import argparse
+from decimal import Decimal, InvalidOperation
 import json
 import math
 import os
@@ -73,6 +74,17 @@ def finite_float(value):
     number = float(value)
     if not math.isfinite(number):
         no_nonfinite(value)
+    try:
+        original = Decimal(value)
+    except InvalidOperation as error:
+        raise ValueError(f"unsupported JSON numeric precision: {value}") from error
+    # Preserve ordinary decimal floats, but do not let their shortest decimal
+    # readback hide a changed value before schema or projection checks. A whole
+    # float must also retain its exact integer: 1e23 prints as 1e+23 while its
+    # actual integral value differs from the original JSON number.
+    if (not original.is_finite() or original != Decimal(str(number))
+            or (number.is_integer() and original != int(number))):
+        raise ValueError(f"unsupported JSON numeric precision: {value}")
     return number
 
 

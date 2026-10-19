@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 77,
+  "source_count": 83,
   "records_count": 39,
   "sources": [
     {
@@ -256,7 +256,7 @@
     {
       "url": "https://developer.apple.com/help/account/membership/fee-waivers/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published waiver conditions and request guidance; linked form retrieval failed with InternalError, so fields and login state are unverified.",
       "opportunity_ids": [
         "APPLE-FEE-WAIVER"
       ],
@@ -1376,6 +1376,114 @@
       ]
     },
     {
+      "url": "https://developer.apple.com/help/account/membership/program-enrollment/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Organization enrollment and USD 99 annual membership benchmark; actual entity, account and local fee remain Unknown.",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; actual account, applicant and applicable agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/help/account/basics/about-your-developer-account",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Free account versus membership capabilities; no account activation observed.",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; actual account, applicant and applicable agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/help/account/membership/renewal",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Renewal timing and expiry consequences; actual membership and expiry remain Unknown.",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; actual account, applicant and applicable agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/support/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Developer-account privacy and identity-verification processing; no project identity data supplied.",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; actual account, applicant and applicable agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/support/apps-in-the-eu/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "August 18, 2026 DPLA update and October 1 acceptance-dependent EU transition; actual agreement Unknown.",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; actual account, applicant and applicable agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/help/app-store-connect/understanding-the-core-technology-fee/core-technology-fee-report-fields/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Legacy CTF reporting deprecation for accounts accepting the latest DPLA from October 1, 2026; no universal EU fee exemption inferred.",
+      "opportunity_ids": [
+        "APPLE-FEE-WAIVER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked; actual account, applicant and applicable agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://www.together.ai/terms-of-service",
       "last_verified": "2026-10-19",
       "verification_scope": "Updated 2026-05-19; published use restrictions, including section 4.3(c)",
@@ -1472,6 +1580,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 60,
+  "source_evidence_url_count": 66,
   "additional_unverified_endpoint_count": 17
 }

@@ -399,22 +399,22 @@
     {
       "opportunity_id": "APPLE-FEE-WAIVER",
       "program_name": "Apple Developer Program fee waiver",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
-      "research_status": "Blocked",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "eligibility": "Not Verified; blocked pending entity and monetization evidence",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Annual waiver eligibility reaffirmation is source-established. Actual membership/renewal dates and further applicable agreement obligations remain Unknown; no reporting schedule is adopted.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Establish actual account entity and monetization facts before any waiver request."
+      "next_action": "Verify actual applicant/account/monetization and a real distribution need before preparing any concrete waiver request; use the accepted canonical checklist."
     },
     {
       "opportunity_id": "FASTLY-FAST-FORWARD",

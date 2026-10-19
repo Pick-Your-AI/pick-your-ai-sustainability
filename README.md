@@ -12,6 +12,8 @@ The [website](https://github.com/Pick-Your-AI/pick-your-ai-website/blob/main/REA
 
 ## Program structure
 
+The [independent setup acceptance](docs/program-setup-acceptance.md) accepts the published program architecture, initial pipeline and operating materials at the recorded revision. The nine epic syntheses and unfinished child outcomes keep their own acceptance requirements; organizational charter adoption and funding acquisition remain separate.
+
 The required baseline is one program, nine epics and 54 independently reviewable foundational issues. Additional provider-specific issues are justified by distinct research outcomes. The actual published issue count, hierarchy and Project state belong in the execution readback, not in an assumed completion claim.
 
 | Epic | Outcome |
@@ -48,4 +50,4 @@ These artifacts are drafts for review. Their existence does not close the owning
 
 ## Execution and audit evidence
 
-Read the [execution report](docs/execution-report.md) and [Project configuration/readback](docs/project-configuration.md) for verified issue counts, native relationships, actual field values, saved-view configuration and review status. The [audit evidence](docs/execution-report.md#evidence-index) preserves the observations used for those claims. These reports remain program drafts subject to the organization contribution process.
+Read the [initial execution report](docs/execution-report.md), [Project configuration/readback](docs/project-configuration.md) and [later setup acceptance](docs/program-setup-acceptance.md) for verified issue counts, native relationships, actual field values, saved-view configuration and review status. The [audit evidence](docs/execution-report.md#evidence-index) preserves each historical observation at its recorded cutoff; the later acceptance does not rewrite those snapshots or complete the unfinished research they describe.

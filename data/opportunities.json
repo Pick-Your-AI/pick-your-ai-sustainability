@@ -6197,7 +6197,7 @@
   "important_limitations": [
     "Published source facts were checked for all 39 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "14 nonprofit/funding records and 25 compute/tool/service records share the same schema and stable owning research keys. A research package can own several distinct program records; those records are not duplicate issues.",
-    "All numeric scores, usable values, people assignments, internal action dates and review dates remain null pending evidence or an actual responsible-person decision. Published external deadlines are recorded separately with exact source/timezone.",
+    "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion does not accept the other program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",

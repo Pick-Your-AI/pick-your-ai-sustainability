@@ -3081,8 +3081,8 @@
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Public guidance supports requests at organization enrollment or before an eligible existing membership expires. No fixed closing date is published; actual account date and current form fields remain Unknown.",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -3173,8 +3173,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Obtain independent acceptance of research/tooling/apple-fee-waiver.md, then verify actual applicant/account/monetization and a real distribution need before preparing a request.",
+      "independent_reviewer": "ChatGPT in-session /root/android; independent findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Verify actual applicant/account/monetization and a real distribution need before preparing any concrete waiver request; use the accepted canonical checklist.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3199,12 +3199,13 @@
         "scope": "Local register and GitHub organization issue query for fee waiver returned owning issue #60 and parent #8; aliases reconciled to the stable ID. Bounded public search does not establish private account state."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Canonical findings prepared; independent exact-revision acceptance pending.",
+        "reviewer": "ChatGPT in-session /root/android; independent findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "adf8baaa0a5dc55b5591f1c014fd626542039eee",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597",
+        "decision": "Accepted canonical #60 research findings and program/intake assessment; applicant qualification and Apple actions remain separately gated.",
         "limitations": [
-          "Source checking and repository validation do not establish applicant qualification, legal authority, an Apple submission, award or activation."
+          "Technical COMMENT records an in-session independent findings review, not a separate-account GitHub APPROVED vote.",
+          "Actual applicant/entity, account/agreements, monetization, usable value and external-action authority remain Not Verified; historical account activity remains Unknown."
         ]
       },
       "owning_research_key": "E07-05",
@@ -3258,20 +3259,22 @@
       "currency_status": "USD denotes only the sourced 99/year membership benchmark. Actual account country, local currency and fee otherwise paid remain Unknown; no realized value is recorded.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the seven current official sources, accepted entity baseline, actual note and structured projections; acceptance of research findings only.",
+        "reviewed_revision": "adf8baaa0a5dc55b5591f1c014fd626542039eee",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted",
       "applicant_qualification_status": "Not Verified; blocked pending entity and monetization evidence",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": "The official application URL is public request guidance. New organizations request during enrollment; existing Account Holders request before expiry. Linked form retrieval failed with InternalError on 2026-10-19; fields and login state were not inspected.",
-      "current_disposition": "Retain P2 conditional membership avoided-cost route. Canonical research is In Review; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
+      "current_disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "jurisdiction": "Actual applicant jurisdiction Unknown; no worldwide or US-only qualification inferred.",
       "priority_scope_note": "P2 is a qualitative conditional research recommendation, not qualification, a numeric score, an urgent deadline or authority for an Apple action.",
-      "recommended_disposition": "Retain P2 conditional membership avoided-cost route. Canonical research is In Review; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
+      "recommended_disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {

@@ -399,11 +399,11 @@
     {
       "opportunity_id": "APPLE-FEE-WAIVER",
       "program_name": "Apple Developer Program fee waiver",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
-      "disposition": "Retain P2 conditional membership avoided-cost route. Canonical research is In Review; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Retain P2 conditional membership avoided-cost route. Canonical research findings are accepted; actual applicant/status, account/agreements, monetization and distribution need remain Not Verified. No application or activation is authorized by this research.",
       "eligibility": "Not Verified; blocked pending entity and monetization evidence",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -414,7 +414,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain independent acceptance of research/tooling/apple-fee-waiver.md, then verify actual applicant/account/monetization and a real distribution need before preparing a request."
+      "next_action": "Verify actual applicant/account/monetization and a real distribution need before preparing any concrete waiver request; use the accepted canonical checklist."
     },
     {
       "opportunity_id": "FASTLY-FAST-FORWARD",

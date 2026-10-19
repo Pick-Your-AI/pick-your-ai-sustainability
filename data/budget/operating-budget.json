@@ -1,0 +1,2500 @@
+{
+  "schema_version": "pya-operating-budget/v1",
+  "research": {
+    "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+    "tracking_key": "E02-02",
+    "prepared_on": "2026-10-19",
+    "status": "Draft findings; independent acceptance pending",
+    "priority": "P1",
+    "numeric_score": null,
+    "score_reason": "Foundational planning tool; opportunity scoring is Not applicable.",
+    "recommended_disposition": "Review the parameterized planning method, dated hosting inputs and explicit Unknowns; populate actual cost and demand evidence before an adopted funding request.",
+    "benefit_type": "Internal cash-cost planning and scenario sensitivity; not an award or received benefit.",
+    "program_intake_and_deadline": "Not applicable to an internal planning model; candidate host/form processes and actual dates remain separate research/decision inputs.",
+    "independent_review_url": null
+  },
+  "parameters": {
+    "currency": "USD",
+    "months": 12,
+    "start_month": null,
+    "selected_legal_path": null,
+    "formation_month": null,
+    "contingency_bps": null,
+    "reserve_months": null
+  },
+  "actuals": {
+    "current_entity": null,
+    "fiscal_sponsor": null,
+    "independent_recognition": null,
+    "financial_owner": null,
+    "signer": null,
+    "accountant": null,
+    "approved_spending": null,
+    "actual_expenses_cents": null,
+    "cash_balance_cents": null,
+    "restricted_cash_balance_cents": null,
+    "received_awards": null,
+    "activated_credits": null,
+    "realized_avoided_cost_cents": null,
+    "effort_hours": null
+  },
+  "hosting": {
+    "scope": "Both staging and production together; one N01 scope",
+    "evidence_class": "engineering_estimate",
+    "source_refs": [
+      "HOSTING"
+    ],
+    "vm_count": 2,
+    "vm_unit_monthly_cents": 2400,
+    "database_count": 2,
+    "database_unit_monthly_cents": 1515,
+    "backup_bps_of_vm_cost": 3000,
+    "export_monthly_cents": 2000,
+    "same_scope_ceiling_monthly_cents": 20000,
+    "live_quote_verified": false,
+    "actual_spend_cents": null,
+    "adopted": false
+  },
+  "compute_handoff": {
+    "owning_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+    "canonical_deliverable_path": "data/budget/compute-demand-model.json",
+    "source_revision": null,
+    "field_and_scope_mapping": null,
+    "actual_usage_evidence": null,
+    "status": "Qualified monthly compute cash-cost input is not yet supplied. Keep all research_compute values null. The separate #21 engine owns tokens, accelerator-hours, throughput and rate conversion.",
+    "coordination_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6267557657"
+  },
+  "cost_inputs": [
+    {
+      "id": "website_domain",
+      "mode": "monthly",
+      "need_ids": [
+        "N02"
+      ],
+      "exclusive_scope": "website_domain",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Existing website/domain renewal or incremental scope, after inspecting current invoices and entitlement; preserve the static deployment contract.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ci_incremental",
+      "mode": "scaled_monthly",
+      "need_ids": [
+        "N03"
+      ],
+      "exclusive_scope": "incremental_ci_only",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Only priced CI/storage beyond existing documented no-cost capabilities; exclude research accelerator jobs and hosted-product VMs.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "research_compute",
+      "mode": "scaled_monthly",
+      "need_ids": [
+        "N06"
+      ],
+      "exclusive_scope": "research_compute_only",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS",
+        "DEMAND-OWNER"
+      ],
+      "scope_and_missing_evidence": "Qualified #21 research-compute cash-cost output; exclude product hosting, CI and demonstrations already costed elsewhere. Scale only a base forecast, never a forecast already scaled for the scenario.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "evidence_licensing",
+      "mode": "monthly",
+      "need_ids": [
+        "N07"
+      ],
+      "exclusive_scope": "source_and_evidence_rights",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Only incremental source/licensing/evidence needs admitted by the canonical research/website work; no payment implies publication rights.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "mobile_equipment",
+      "mode": "one_time",
+      "need_ids": [
+        "N04",
+        "N05"
+      ],
+      "exclusive_scope": "shared_mobile_equipment",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "One shared acquisition/loan-support envelope for Apple and Android devices and compatible build hardware, including shipping/returns when applicable. An item serving both platforms appears once.",
+      "amount_cents": null,
+      "month": null
+    },
+    {
+      "id": "security_accessibility",
+      "mode": "one_time",
+      "need_ids": [
+        "N08"
+      ],
+      "exclusive_scope": "independent_assurance_services",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "A finite accepted security/accessibility/professional-review scope with qualified estimate; exclude ordinary CI and existing volunteer work.",
+      "amount_cents": null,
+      "month": null
+    },
+    {
+      "id": "project_coordination",
+      "mode": "monthly",
+      "need_ids": [
+        "N09"
+      ],
+      "exclusive_scope": "project_coordination_only",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Only an explicit prospective contracted operating need; all contributor identities, commitments, effort and compensation remain unknown.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "route_admin_extras",
+      "mode": "monthly",
+      "need_ids": [
+        "N09"
+      ],
+      "exclusive_scope": "administration_not_in_host_fee",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Incremental bookkeeping/legal/filing/support beyond services already included in a selected host fee. Never add a second charge for included SPI accounting or OSC services.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "taxes",
+      "mode": "monthly",
+      "need_ids": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "exclusive_scope": "taxes_not_in_base_quotes",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Only taxes excluded from the other input amounts; confirm jurisdiction, tax base and exemption separately. Intended nonprofit status does not justify zero.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "processor_fees",
+      "mode": "monthly",
+      "need_ids": [
+        "N09"
+      ],
+      "exclusive_scope": "payment_processing_not_host_fee",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "Incoming/outgoing processor costs excluded from gross external receipts and all other expense lines; actual method, currency and country needed.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "migration_exit",
+      "mode": "one_time",
+      "need_ids": [
+        "N01",
+        "N02",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N09"
+      ],
+      "exclusive_scope": "incremental_exit_transition",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "One finite incremental migration/return/portability cost scope; exclude the recurring hosting export allocation and costs already included in equipment estimates.",
+      "amount_cents": null,
+      "month": null
+    },
+    {
+      "id": "independent_formation_other",
+      "mode": "independent_one_time",
+      "need_ids": [
+        "N09"
+      ],
+      "exclusive_scope": "independent_formation_excluding_federal_fee",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS"
+      ],
+      "scope_and_missing_evidence": "State/local formation, preparation and related setup costs excluding the selected federal application fee; inactive in hosted/community counterfactuals.",
+      "amount_cents": null,
+      "month": null
+    }
+  ],
+  "legal_paths": [
+    {
+      "id": "community",
+      "family": "present community without a selected host",
+      "actual_project_eligibility": "Unknown",
+      "actual_selected": null,
+      "host_fee_bps": 0,
+      "federal_application_fee_cents": 0,
+      "source_refs": [
+        "ENTITY"
+      ],
+      "qualification_and_cost_boundary": "Structural zero host/federal filing line only inside this counterfactual; banking, processing, taxes, contracts and administrative capacity remain unresolved. No charitable eligibility is inferred."
+    },
+    {
+      "id": "osc",
+      "family": "fiscal host, distinct from charitable501(c)(3) sponsorship",
+      "actual_project_eligibility": "Unknown",
+      "actual_selected": null,
+      "host_fee_bps": 1000,
+      "federal_application_fee_cents": 0,
+      "source_refs": [
+        "OSC-FEES",
+        "ENTITY"
+      ],
+      "qualification_and_cost_boundary": "OSC candidate only; actual admission and fee base must be verified. Published10% applies to external inflows, not balances or credits. Third-party processing remains additional and Unknown. Entity-status qualification remains #14."
+    },
+    {
+      "id": "sfc",
+      "family": "fiscal-sponsored charitable project",
+      "actual_project_eligibility": "Unknown",
+      "actual_selected": null,
+      "host_fee_bps": 1000,
+      "federal_application_fee_cents": 0,
+      "source_refs": [
+        "SFC",
+        "ENTITY"
+      ],
+      "qualification_and_cost_boundary": "SFC candidate only; maturity/licensing/community and negotiated agreement are separate gates. Revenue processed by the host is the fee base. No received grant or acceptance is assumed."
+    },
+    {
+      "id": "spi",
+      "family": "fiscal-sponsored charitable project",
+      "actual_project_eligibility": "Unknown",
+      "actual_selected": null,
+      "host_fee_bps": null,
+      "federal_application_fee_cents": 0,
+      "source_refs": [
+        "SPI",
+        "ENTITY"
+      ],
+      "qualification_and_cost_boundary": "SPI-specific current fee percentage is Unknown. Do not substitute another sponsor's comparison. Expense approval, signature authority, extraordinary costs and restricted exits require actual agreement evidence."
+    },
+    {
+      "id": "independent_1023",
+      "family": "independent recognition application candidate",
+      "actual_project_eligibility": "Unknown",
+      "actual_selected": null,
+      "host_fee_bps": 0,
+      "federal_application_fee_cents": 60000,
+      "source_refs": [
+        "IRS-2026-5",
+        "IRS-INSTRUCTIONS",
+        "ENTITY"
+      ],
+      "qualification_and_cost_boundary": "Counterfactual full application candidate; actual form, eligibility, entity, preparation costs, filing month and recognition remain Unknown. Recheck fee schedule before filing."
+    },
+    {
+      "id": "independent_1023_ez",
+      "family": "independent recognition application candidate",
+      "actual_project_eligibility": "Unknown",
+      "actual_selected": null,
+      "host_fee_bps": 0,
+      "federal_application_fee_cents": 27500,
+      "source_refs": [
+        "IRS-2026-5",
+        "IRS-INSTRUCTIONS",
+        "ENTITY"
+      ],
+      "qualification_and_cost_boundary": "Counterfactual streamlined application candidate only after the full eligibility worksheet. Not an automatic choice for this project; not added to the full-form fee."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "lean",
+      "workload_multiplier_bps": 5000,
+      "hosting_profile": "planned",
+      "source_refs": [
+        "HYPOTHESES",
+        "HOSTING"
+      ],
+      "interpretation": "0.5 times future base CI/research variable cash estimates; dated fixed hosting scope retained. No inferred removal of an environment or half-price fixed commitment."
+    },
+    {
+      "id": "expected",
+      "workload_multiplier_bps": 10000,
+      "hosting_profile": "planned",
+      "source_refs": [
+        "HYPOTHESES",
+        "HOSTING"
+      ],
+      "interpretation": "1.0 times future base variable cash estimates; this name does not imply measured expected demand or a probability."
+    },
+    {
+      "id": "stress",
+      "workload_multiplier_bps": 20000,
+      "hosting_profile": "same_scope_ceiling",
+      "source_refs": [
+        "HYPOTHESES",
+        "HOSTING"
+      ],
+      "interpretation": "2.0 times future base variable cash estimates; substitute the USD200 N01 design ceiling for all four USD112.70 components. Do not sum both hosting alternatives."
+    }
+  ],
+  "funding_inputs": {
+    "external_unrestricted_cash_receipts": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "external_restricted_cash_receipts": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "contingent_cash_awards": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "credit_face_value": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "evidenced_avoided_cost": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "funding_input_status": "Unset planning/evidence schedules. Cash receipts must exclude mere award notices; restricted cash remains restricted. Contingent awards, credit face value and evidenced avoided cost never enter a cash receipt, expense offset or available-cash total. For a hosted counterfactual, the external cash receipt schedules mean funds actually processed by that chosen host; other accounts and internal transfers are outside this fee base. Monthly fee rounding is a planning convention, not a transaction-level billing reproduction.",
+  "formulas": {
+    "hosting_planned_cents": "2*2400 + 2*1515 + round_half_up(4800*3000/10000) + 2000 = 11270 per month",
+    "hosting_annual_cents": "11270*12 = 135240; alternative20000*12 = 240000, never additive",
+    "scaled_monthly_cost": "round_half_up(base_monthly_cash_cost_cents * scenario.workload_multiplier_bps /10000), independently per line/month; null input stays null",
+    "host_fee": "round_half_up((external_unrestricted_cash_receipts + external_restricted_cash_receipts) * selected_host_fee_bps/10000); both receipts and applicable rate must be known, except structural no-host cases",
+    "one_time": "A positive amount with known timing appears once in month1..12; unknown timing leaves all months null. A known month with unknown amount leaves only that month null. Explicit known zero has no timing cost.",
+    "known_subtotal": "Sum only known cost entries; this is a partial arithmetic subtotal, not complete expenses or a zero for missing costs",
+    "complete_total": "Sum every scoped cost only if all are known; otherwise null. Annual complete totals require every month.",
+    "contingency": "Optional planning allowance = round_half_up(complete_monthly_cash_cost * contingency_bps/10000); unset policy stays null, separate from baseline expense",
+    "liquidity_reserve": "Optional end-state cash stock = round_half_up(complete_annual_recurring_cash_cost * reserve_months/12); one-time fees/assets excluded; not added twelve times or treated as income/expense",
+    "funding": "Each measure gets its own twelve-month strict sum. No unrestricted/restricted availability or donor-compliance allocation is inferred.",
+    "rounding": "Integer cents and nonnegative rational arithmetic only; nearest cent with exact halves upward at each line/month. Annual sums use the rounded monthly entries."
+  },
+  "questions_before_adoption": [
+    "What exact twelve-month start date, actual entity/roles, invoices, balances, restrictions, device inventory and contracts are verified?",
+    "Which #21 revision and workload/rate/account facts support each base compute cash estimate, excluding product hosting and CI already counted?",
+    "Which legal route and actual sponsor agreement/form eligibility are selected, and when would any one-time filing occur?",
+    "What costs are already included in a selected host service or quoted gross amount, and what incremental processor, tax, overage, maintenance and exit costs remain?",
+    "Which named authorized financial decision accepts the sensitivity factors, reserve/contingency policy, use restrictions and funding narrative?"
+  ],
+  "sources": [
+    {
+      "id": "NEEDS",
+      "publisher": "Pick Your AI",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md",
+      "inspected_on": "2026-10-19",
+      "source_revision": "2c06977bdb59ec1fdf687e3e177c12dcc8a62cce",
+      "evidence_class": "independently accepted project evidence",
+      "finding": "Accepted #19 N01-N09 scope and cost inventory; actual expenses, cash, assets, entitlements and operating roles remain Unknown. Review5571462106 plus continuation5571568995; delivered by PR96."
+    },
+    {
+      "id": "HOSTING",
+      "publisher": "Pick Your AI leaderboard",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/73715b4850fc0df4a2afbdd877ad2b2644f1d769/docs/hosting-architecture.md",
+      "inspected_on": "2026-10-19",
+      "source_revision": "73715b4850fc0df4a2afbdd877ad2b2644f1d769",
+      "evidence_class": "dated engineering estimate; not quote or actual expense",
+      "finding": "Both staging and production together: 2 VMs at USD24/month, 2 databases at USD15.15/month, daily backup allocation30% of VM cost, provisional independent export allocationUSD20/month. TotalUSD112.70/month; USD200 alternative same-scope design ceiling."
+    },
+    {
+      "id": "OSC-FEES",
+      "publisher": "Open Source Collective",
+      "url": "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "current primary published terms",
+      "finding": "10% when external funds enter a hosted project; internal hosted transfers have no OSC fee. No separate OSC setup, minimum-balance or recurring fee. Third-party incoming/outgoing processor fees vary by payment method/currency/country. No project-specific reduction or acceptance is known."
+    },
+    {
+      "id": "SFC",
+      "publisher": "Software Freedom Conservancy",
+      "url": "https://sfconservancy.org/projects/apply/",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "current primary published terms",
+      "finding": "New members contribute10% of revenue Conservancy processes. FOSS/software-freedom/community and usual one-year/proof-of-concept criteria; rolling email inquiry and later negotiated agreement, often months. Hosting enables fundraising rather than supplying an award; funds/assets and exits retain charitable restrictions. The page mentions SPI5%, but this is not SPI-specific fee verification and the model leaves SPI rate Unknown."
+    },
+    {
+      "id": "SPI",
+      "publisher": "Software in the Public Interest",
+      "url": "https://www.spi-inc.org/projects/services/",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "current primary published service terms",
+      "finding": "Earmarked funds, documented approved expenses and donor conditions; only SPI officers normally bind contracts. Assets and funds have compatible-charitable-transfer limits. Typical accounting covered, extraordinary project-specific costs may be charged. This source does not establish a current administration percentage."
+    },
+    {
+      "id": "IRS-INSTRUCTIONS",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/instructions/i1023ez",
+      "inspected_on": "2026-10-19",
+      "source_revision": "January2025 instructions as currently served",
+      "evidence_class": "current primary instructions with dated revision",
+      "finding": "A completed eligibility worksheet is required for the EZ route; not every intended nonprofit qualifies. The project has not selected a form, jurisdiction, filing date or legal structure."
+    },
+    {
+      "id": "IRS-FEE-INDEX",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/charities-non-profits/user-fees-for-tax-exempt-and-government-entities-division",
+      "inspected_on": "2026-10-19",
+      "source_revision": "current2026 fee-procedure index",
+      "evidence_class": "current primary index",
+      "finding": "Links the current annual revenue procedure for exempt-organization fees. Recheck before an actual filing or use in a later calendar year."
+    },
+    {
+      "id": "IRS-2026-5",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/irb/2026-01_IRB",
+      "inspected_on": "2026-10-19",
+      "source_revision": "Revenue Procedure2026-5, AppendixA; IRB published2025-12-29",
+      "evidence_class": "current2026 official fee schedule",
+      "finding": "Exempt-organization AppendixA lists Form1023-EZ USD275 and other recognition applications including Form1023 USD600. These mutually exclusive federal fee candidates exclude state filings, legal preparation, renewals, taxes and accounting. The separate Director letter fee in another procedure in the same bulletin is not the basis."
+    },
+    {
+      "id": "ENTITY",
+      "publisher": "Pick Your AI",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/395da05868f3169548893ea239f9fc327fcdc8c8/docs/nonprofit/entity-baseline.md",
+      "inspected_on": "2026-10-19",
+      "source_revision": "395da05868f3169548893ea239f9fc327fcdc8c8",
+      "evidence_class": "accepted project evidence",
+      "finding": "Current entity, fiscal sponsor, nonprofit recognition, authorized people, balances and asset custody are not verified. Repository contributors are not thereby financial signers."
+    },
+    {
+      "id": "DEMAND-OWNER",
+      "publisher": "Pick Your AI",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6263808333",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "existing implementation ownership; not accepted numeric input",
+      "finding": "#21 owns compute-demand-model.json and its workload/token/accelerator calculator. #20 consumes its qualified monthly cash-cost output with exact revision/units/scope; it does not recreate that engine."
+    },
+    {
+      "id": "HYPOTHESES",
+      "publisher": "This operating-budget contribution",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6266988438",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "explicit sensitivity assumptions; no empirical calibration",
+      "finding": "Lean/expected/stress multipliers0.5/1/2 are freely editable sensitivity factors for usage-based incremental cash estimates, not measured demand, probabilities or adopted forecasts. The same fixed hosting plan remains in lean/expected; stress substitutes the dated same-scope ceiling."
+    }
+  ],
+  "calculated": {
+    "currency": "USD",
+    "money_unit": "integer cents",
+    "actual_available_cash_cents": null,
+    "status": "Planning only; complete totals remain null when a required input is unknown",
+    "scenarios": [
+      {
+        "scenario": "lean",
+        "legal_path_hypothesis": null,
+        "monthly": [
+          {
+            "month": 1,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 2,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 3,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 4,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 5,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 6,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 7,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 8,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 9,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 10,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 11,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 12,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          }
+        ],
+        "annual": {
+          "known_cost_subtotal_cents": 135240,
+          "complete_cash_cost_cents": null,
+          "contingency_allowance_cents": null,
+          "cash_requirement_with_contingency_cents": null,
+          "liquidity_reserve_target_cents": null,
+          "funding_measures_cents": {
+            "external_unrestricted_cash_receipts": null,
+            "external_restricted_cash_receipts": null,
+            "contingent_cash_awards": null,
+            "credit_face_value": null,
+            "evidenced_avoided_cost": null
+          }
+        }
+      },
+      {
+        "scenario": "expected",
+        "legal_path_hypothesis": null,
+        "monthly": [
+          {
+            "month": 1,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 2,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 3,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 4,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 5,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 6,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 7,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 8,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 9,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 10,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 11,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 12,
+            "cash_costs_cents": {
+              "hosting_vms": 4800,
+              "hosting_databases": 3030,
+              "hosting_backups": 1440,
+              "hosting_exports": 2000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 11270,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          }
+        ],
+        "annual": {
+          "known_cost_subtotal_cents": 135240,
+          "complete_cash_cost_cents": null,
+          "contingency_allowance_cents": null,
+          "cash_requirement_with_contingency_cents": null,
+          "liquidity_reserve_target_cents": null,
+          "funding_measures_cents": {
+            "external_unrestricted_cash_receipts": null,
+            "external_restricted_cash_receipts": null,
+            "contingent_cash_awards": null,
+            "credit_face_value": null,
+            "evidenced_avoided_cost": null
+          }
+        }
+      },
+      {
+        "scenario": "stress",
+        "legal_path_hypothesis": null,
+        "monthly": [
+          {
+            "month": 1,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 2,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 3,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 4,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 5,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 6,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 7,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 8,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 9,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 10,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 11,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          },
+          {
+            "month": 12,
+            "cash_costs_cents": {
+              "hosting_same_scope_ceiling": 20000,
+              "website_domain": null,
+              "ci_incremental": null,
+              "research_compute": null,
+              "evidence_licensing": null,
+              "mobile_equipment": null,
+              "security_accessibility": null,
+              "project_coordination": null,
+              "route_admin_extras": null,
+              "taxes": null,
+              "processor_fees": null,
+              "migration_exit": null,
+              "independent_formation_other": null,
+              "federal_application_fee": null,
+              "host_administration_fee": null
+            },
+            "known_cost_subtotal_cents": 20000,
+            "missing_cost_ids": [
+              "website_domain",
+              "ci_incremental",
+              "research_compute",
+              "evidence_licensing",
+              "mobile_equipment",
+              "security_accessibility",
+              "project_coordination",
+              "route_admin_extras",
+              "taxes",
+              "processor_fees",
+              "migration_exit",
+              "independent_formation_other",
+              "federal_application_fee",
+              "host_administration_fee"
+            ],
+            "complete_cash_cost_cents": null,
+            "contingency_allowance_cents": null,
+            "cash_requirement_with_contingency_cents": null,
+            "funding_measures_cents": {
+              "external_unrestricted_cash_receipts": null,
+              "external_restricted_cash_receipts": null,
+              "contingent_cash_awards": null,
+              "credit_face_value": null,
+              "evidenced_avoided_cost": null
+            }
+          }
+        ],
+        "annual": {
+          "known_cost_subtotal_cents": 240000,
+          "complete_cash_cost_cents": null,
+          "contingency_allowance_cents": null,
+          "cash_requirement_with_contingency_cents": null,
+          "liquidity_reserve_target_cents": null,
+          "funding_measures_cents": {
+            "external_unrestricted_cash_receipts": null,
+            "external_restricted_cash_receipts": null,
+            "contingent_cash_awards": null,
+            "credit_face_value": null,
+            "evidenced_avoided_cost": null
+          }
+        }
+      }
+    ]
+  }
+}

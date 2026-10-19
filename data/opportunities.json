@@ -4867,45 +4867,121 @@
       "official_program_url": "https://inference-docs.cerebras.ai/support/rate-limits",
       "official_application_url": "https://cloud.cerebras.ai",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Eligible account with verified payment method",
-      "available_before_incorporation": "Conditionally Eligible for trial subject to terms",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "legal_entity_requirements": "Actual qualifying account, jurisdiction and representative remain Unknown; documentation requires new-account trial eligibility and a verified payment method.",
+      "available_before_incorporation": "Unknown for the actual community/account; no eligible applicant established and the proposed-use gate fails.",
+      "available_through_fiscal_sponsorship": "Unknown; no executed host relationship or provider acceptance established, and the same use/account gates apply.",
+      "available_after_501c3_recognition": "Unknown; actual recognition and any special provider entitlement are unverified, and recognition does not establish permitted use.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "A new account and verified payment method for the documented trial"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Public trial; no independent OSS/research grant verified",
+      "application_gate": "Closed for the proposed independent benchmark under the inspected terms; this research creates no application or activation.",
+      "application_status": "Advertised trial; exact account/form contents remain Not Verified. Historical research RFP closed; related builder/event/advocacy leads do not establish current independent-research admission.",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "In Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
       "benefit_amount_or_capacity": "$5 one-time 30-day trial",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Canonical note gives a non-executed 16-attempt conditional usage estimate of 0.0088064 displayed dollar units; current request and paid budgets are zero. Trial debit rates/currency, actual credit, paid counterfactual and effort remain unverified, so usable value stays null.",
       "restrictions_and_obligations": [
         "Payment-method requirement; no automatic recurring free allowance.",
         "Model quotas and scope vary; no sustained benchmarking budget implied.",
-        "The current source expressly says charges do not begin unless the applicant chooses to buy additional credits; do not infer automatic paid overage from the payment-method requirement."
+        "The current source expressly says charges do not begin unless the applicant chooses to buy additional credits; do not infer automatic paid overage from the payment-method requirement.",
+        "The inspected API-scoped terms prohibit benchmarking/competitive analysis; the canonical assessment therefore does not admit the proposed use.",
+        "Original model prose conflicts with its structured trial component and current rate page; unresolved actual account limits prevent execution.",
+        "Actual model/output rights, account agreements, residency, grant-specific reporting/branding and any exception remain unverified."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "A bounded smoke test only; separate sponsor investigation must not relabel the trial.",
+      "program_objectives": "Temporary commercial-trial access; separate discovery records the closed research RFP and current builder/event/ambassador leads without making their benefits trial entitlements.",
+      "fit_with_pick_your_ai": "Proposed research #41 source-handling/numerical-response evaluation has a concrete synthetic plan, but the inspected terms do not admit the intended independent benchmark. Not Pursuing; no execution or ranking claim.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Independent findings review of this canonical assessment",
+        "On reconsideration: evidence of permitted use, actual applicant/account/payer authority, current terms and model/data rights",
+        "On a new grant lead: official active program and complete intake evidence; no outreach sent"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Attributed trial/terms statements and separate public program leads are source-supported. Actual intake/account, applicable exceptions, current independent-research admission and usable value remain unverified; quota and expiry-label differences are explicit.",
       "sources": [
         {
           "url": "https://inference-docs.cerebras.ai/support/rate-limits",
           "source_kind": "official",
           "last_verified": "2026-10-19",
           "review_scope": "Published program facts, not applicant qualification"
+        },
+        {
+          "url": "https://www.cerebras.ai/pricing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Advertised trial terms and separate paid continuation; numerical price table was not exposed. Pricing says expiry from activation whereas rate/billing pages say grant; actual start/expiry remains Unknown."
+        },
+        {
+          "url": "https://inference-docs.cerebras.ai/console/account-billing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Public account, credit, auto-recharge and deletion procedures; no account inspected"
+        },
+        {
+          "url": "https://inference-docs.cerebras.ai/models/openai-oss.md",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Advertised public Markdown retrieved after HTML/navigation and web-fetch limitations; conflicting prose/component and displayed Developer rates read"
+        },
+        {
+          "url": "https://www.cerebras.ai/terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current linked API-scoped terms, effective 2024-08-27; proposed use gate assessed without an unseen account agreement"
+        },
+        {
+          "url": "https://www.cerebras.ai/privacy-policy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Relevant public data, retention and transfer provisions, updated 2024-08-27; no private DPA or account verification"
+        },
+        {
+          "url": "https://inference-docs.cerebras.ai/capabilities/reasoning",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "gpt-oss-120b reasoning controls and completion-token budgeting"
+        },
+        {
+          "url": "https://www.cerebras.ai/policies",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current destination of inference documentation policy link; distinguishes linked API terms from separate older product terms"
+        },
+        {
+          "url": "https://inference-docs.cerebras.ai/llms.txt",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "All 133 returned index lines inspected for a distinct research/OSS intake lead; not every linked page reviewed"
+        },
+        {
+          "url": "https://www.cerebras.ai/blog/grantfrp",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Closed historical call; no current intake or project agreement established; complete public page read, no application or award inferred"
+        },
+        {
+          "url": "https://www.cerebras.ai/early-access",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Documented builder lead; independent-research fit, selection, value and applicable agreement Unknown; complete public page read, no application or award inferred"
+        },
+        {
+          "url": "https://www.cerebras.ai/sponsorships",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Documented event lead; no actual event, award or benchmark permission established; complete public page read, no application or award inferred"
+        },
+        {
+          "url": "https://www.cerebras.ai/ambassadors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Documented advocacy/event lead; Not Pursuing for this independent-evaluation use; complete public page read, no application or award inferred"
         }
       ],
       "scoring": {
@@ -4918,16 +4994,16 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P3 reflects the failed proposed-use gate and temporary trial. Actual applicant, usable value, paid counterfactual and effort remain unverified; all weighted ratings and totals stay null."
       },
       "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Document trial limits and whether any current formal research-support program exists.",
+      "next_action": "Independently review the canonical Not Pursuing assessment; reconsider only on material new program/terms evidence or a separately reviewed permitted use.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "next_verification_trigger": "Monthly source maintenance; immediately on material changed program/terms/price/quota evidence and before any reliance or reconsidered external action.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
@@ -4942,34 +5018,62 @@
           "Shared Inference Free Trial"
         ],
         "canonical_match": "CEREBRAS-TRIAL",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Existing CEREBRAS-TRIAL and #44 reused. Organization issue/PR Cerebras search before the public work claim identified the existing issue/parent/related references and no Cerebras PR; no new program record is invented."
       },
       "review": {
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Prepared canonical Not Pursuing findings; exact-revision independent acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research acceptance is separate from applicant qualification, an external legal opinion, an organization commitment and a GitHub approval vote.",
+          "Actual account/form/agreement, distinct funding intake, currency and usable value remain unverified; original source-fact review remains historical."
         ]
       },
       "owning_research_key": "E05-01F",
       "source_urls": [
-        "https://inference-docs.cerebras.ai/support/rate-limits"
+        "https://inference-docs.cerebras.ai/support/rate-limits",
+        "https://www.cerebras.ai/pricing",
+        "https://inference-docs.cerebras.ai/console/account-billing",
+        "https://inference-docs.cerebras.ai/models/openai-oss.md",
+        "https://www.cerebras.ai/terms-of-service",
+        "https://www.cerebras.ai/privacy-policy",
+        "https://inference-docs.cerebras.ai/capabilities/reasoning",
+        "https://www.cerebras.ai/policies",
+        "https://inference-docs.cerebras.ai/llms.txt",
+        "https://www.cerebras.ai/blog/grantfrp",
+        "https://www.cerebras.ai/early-access",
+        "https://www.cerebras.ai/sponsorships",
+        "https://www.cerebras.ai/ambassadors"
       ],
       "source_evidence": [
         "Current docs explicitly say there is no permanent free tier.",
-        "New accounts receive $5 after verified payment method; credits expire after 30 days. Access stops when trial ends until credits are purchased."
+        "New accounts receive $5 after verified payment method; credits expire after 30 days. Access stops when trial ends until credits are purchased.",
+        "The trial is distinct from the closed historical research RFP and current builder/event/ambassador leads; no presently admitted independent-research grant route or applicable benchmark exception is established.",
+        "The current trial table and model component agree on 5 RPM / 30,000 uncached TPM, while older model prose states larger Free tier limits.",
+        "The canonical note records the API use restriction, conditional budget assumptions, three Unknown applicant routes and content-empty intake retrieval."
       ],
       "benefit": "$5 one-time 30-day trial",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "estimated_usable_value_method": "Canonical note gives a non-executed 16-attempt conditional usage estimate of 0.0088064 displayed dollar units; current request and paid budgets are zero. Trial debit rates/currency, actual credit, paid counterfactual and effort remain unverified, so usable value stays null.",
+      "source_freshness": "Official source inspection 2026-10-19; policy effective/update date 2024-08-27 is distinct. Cloud form remains unverified after a content-empty retrieval; model Markdown recovered after extraction failures.",
       "priority_recommendation": "P3",
       "score": null,
-      "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
-      "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "scoring_justification": "P3 reflects the failed proposed-use gate and temporary trial. Actual applicant, usable value, paid counterfactual and effort remain unverified; all weighted ratings and totals stay null.",
+      "next_verification_rule": "Monthly source maintenance; immediately on material changed program/terms/price/quota evidence and before any reliance or reconsidered external action.",
       "source_refs": [
-        "https://inference-docs.cerebras.ai/support/rate-limits"
+        "https://inference-docs.cerebras.ai/support/rate-limits",
+        "https://www.cerebras.ai/pricing",
+        "https://inference-docs.cerebras.ai/console/account-billing",
+        "https://inference-docs.cerebras.ai/models/openai-oss.md",
+        "https://www.cerebras.ai/terms-of-service",
+        "https://www.cerebras.ai/privacy-policy",
+        "https://inference-docs.cerebras.ai/capabilities/reasoning",
+        "https://www.cerebras.ai/policies",
+        "https://inference-docs.cerebras.ai/llms.txt",
+        "https://www.cerebras.ai/blog/grantfrp",
+        "https://www.cerebras.ai/early-access",
+        "https://www.cerebras.ai/sponsorships",
+        "https://www.cerebras.ai/ambassadors"
       ],
       "application_url": "https://cloud.cerebras.ai",
       "internal_application_review_controls": [
@@ -4983,24 +5087,24 @@
       "published_qualification_requirements": [
         "A new account and verified payment method for the documented trial"
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "currency_status": "The inspected offer and model rates use a dollar symbol without a separately established currency code. Conditional arithmetic assumes matching billing units; currency and usable value remain null.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; canonical assessment prepared for independent review",
       "applicant_qualification_status": "Unknown",
-      "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "score_reason": "P3 reflects the failed proposed-use gate and temporary trial. Actual applicant, usable value, paid counterfactual and effort remain unverified; all weighted ratings and totals stay null.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Official cloud endpoint identified; public retrieval returned no form content. Published new-account/payment prerequisites are separate from unknown current form fields and account agreements.",
+      "current_disposition": "Not Pursuing",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
+      "gate": "Proposed independent evaluation is not admitted under the inspected API-scoped benchmark restriction; actual applicant remains Unknown.",
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "P3 for this excluded proposed use and small temporary benefit; no application urgency or score inferred.",
+      "recommended_disposition": "Not Pursuing",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -5008,6 +5112,42 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 44,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "research_deliverable": "research/compute/cerebras-support.md",
+      "research_support_discovery": {
+        "reviewed_on": "2026-10-19",
+        "status": "Historical research RFP closed; separate current leads documented, but no presently admitted independent-research grant route or applicable benchmark exception established",
+        "scope": "Related leads retain distinct identities; their benefits are not trial credit, Qualified opportunities or awards. Historical RFP USD does not establish trial currency.",
+        "programs": [
+          {
+            "program_name": "Inference Research Grant RFP (2024–2025)",
+            "source_url": "https://www.cerebras.ai/blog/grantfrp",
+            "status": "Closed historical call; no current intake or project agreement established",
+            "application_url": null,
+            "application_status": "Explicit closed notice; no application attempted"
+          },
+          {
+            "program_name": "Early Access Program for Builders",
+            "source_url": "https://www.cerebras.ai/early-access",
+            "status": "Documented builder lead; independent-research fit, selection, value and applicable agreement Unknown",
+            "application_url": "https://forms.cloud.microsoft/r/zUw2W8LEiY",
+            "application_status": "Linked endpoint; independent public retrieval returned zero content lines, current fields/availability Not Verified"
+          },
+          {
+            "program_name": "Cerebras Sponsorships",
+            "source_url": "https://www.cerebras.ai/sponsorships",
+            "status": "Documented event lead; no actual event, award or benchmark permission established",
+            "application_url": "https://form.typeform.com/to/TUK3flkj",
+            "application_status": "Linked endpoint; independent public retrieval returned zero content lines, current fields/availability Not Verified"
+          },
+          {
+            "program_name": "Ambassador Program",
+            "source_url": "https://www.cerebras.ai/ambassadors",
+            "status": "Documented advocacy/event lead; Not Pursuing for this independent-evaluation use",
+            "application_url": "https://forms.cloud.microsoft/r/fXi2GLpDGQ",
+            "application_status": "Linked endpoint; independent public retrieval returned zero content lines, current fields/availability Not Verified"
+          }
+        ]
       }
     },
     {

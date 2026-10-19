@@ -17,6 +17,7 @@ DEFAULT_INPUT = ROOT / "data/budget/operating-budget.json"
 SCHEMA = "pya-operating-budget/v1"
 MONTHS = 12
 COST_MODES = {
+    "hosting_extras": "planned_hosting_monthly",
     "website_domain": "monthly",
     "ci_incremental": "scaled_monthly",
     "research_compute": "scaled_monthly",
@@ -139,6 +140,10 @@ def validate(document):
         name = cost["id"]
         mode = COST_MODES[name]
         require(cost["mode"] == mode, f"{name}: unexpected cost mode")
+        if name == "hosting_extras":
+            require(cost["need_ids"] == ["N01"], "hosting_extras: N01 scope only")
+        if name == "taxes":
+            require("N01" not in cost["need_ids"], "taxes: N01 belongs in hosting_extras")
         require(cost["evidence_class"] in {"unmeasured", "engineering_estimate", "quote", "synthetic"},
                 f"{name}: input is a planning assumption, not an actual-expense claim")
         require(isinstance(cost["source_refs"], list) and cost["source_refs"] and
@@ -224,6 +229,11 @@ def calculate(document):
                 values = list(cost["monthly_cents"])
                 if mode == "scaled_monthly":
                     values = [scaled(value, scenario["workload_multiplier_bps"]) for value in values]
+                elif mode == "planned_hosting_monthly" and scenario["hosting_profile"] == "same_scope_ceiling":
+                    # The source ceiling already includes N01 usage, monitoring,
+                    # taxes and restore overlap. This zero excludes a duplicate
+                    # charge; it never states that those costs are actually zero.
+                    values = [0] * MONTHS
             amounts[name] = values
 
         federal = None if path is None else path["federal_application_fee_cents"]
@@ -243,14 +253,20 @@ def calculate(document):
             missing = [name for name, value in line_items.items() if value is None]
             subtotal = sum(value for value in line_items.values() if value is not None)
             total = None if missing else subtotal
-            contingency = (None if total is None or parameters["contingency_bps"] is None
-                           else rounded(total * parameters["contingency_bps"]))
+            # The all-in N01 ceiling already includes its own contingency.
+            # Apply an additional project allowance only to the other scopes.
+            contingency_base = (None if total is None else total -
+                                (hosting["same_scope_ceiling_monthly_cents"]
+                                 if scenario["hosting_profile"] == "same_scope_ceiling" else 0))
+            contingency = (None if contingency_base is None or parameters["contingency_bps"] is None
+                           else rounded(contingency_base * parameters["contingency_bps"]))
             months.append({
                 "month": i + 1,
                 "cash_costs_cents": line_items,
                 "known_cost_subtotal_cents": subtotal,
                 "missing_cost_ids": missing,
                 "complete_cash_cost_cents": total,
+                "contingency_base_cents": contingency_base,
                 "contingency_allowance_cents": contingency,
                 "cash_requirement_with_contingency_cents": complete_sum([total, contingency]),
                 "funding_measures_cents": {key: funding[key][i] for key in FUNDING_KEYS},

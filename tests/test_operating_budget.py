@@ -68,10 +68,54 @@ class OperatingBudgetTests(unittest.TestCase):
         stress = self.scenario("stress")["monthly"][0]["cash_costs_cents"]
         self.assertEqual({k: v for k, v in planned.items() if k.startswith("hosting_")},
                          {"hosting_vms": 4800, "hosting_databases": 3030,
-                          "hosting_backups": 1440, "hosting_exports": 2000})
+                          "hosting_backups": 1440, "hosting_exports": 2000,
+                          "hosting_extras": 0})
         self.assertEqual({k: v for k, v in stress.items() if k.startswith("hosting_")},
-                         {"hosting_same_scope_ceiling": 20000})
+                         {"hosting_same_scope_ceiling": 20000, "hosting_extras": 0})
         self.assertEqual(self.scenario("stress")["annual"]["complete_cash_cost_cents"], 240000)
+
+    def test_n01_extras_are_in_planned_cost_but_already_inside_all_in_ceiling(self):
+        self.fully_priced_synthetic()
+        self.cost("hosting_extras")["monthly_cents"] = [1000] * 12
+        self.cost("taxes")["monthly_cents"] = [300] * 12
+        for name in ("lean", "expected"):
+            result = self.scenario(name)
+            self.assertEqual(result["monthly"][0]["complete_cash_cost_cents"], 12570)
+            self.assertEqual(result["annual"]["complete_cash_cost_cents"], 150840)
+        stress = self.scenario("stress")
+        self.assertEqual(stress["monthly"][0]["cash_costs_cents"]["hosting_extras"], 0)
+        self.assertEqual(stress["monthly"][0]["cash_costs_cents"]["taxes"], 300)
+        self.assertEqual(stress["annual"]["complete_cash_cost_cents"], 243600)
+
+    def test_unknown_n01_extras_only_invalidate_planned_profile(self):
+        self.fully_priced_synthetic()
+        self.cost("hosting_extras")["monthly_cents"][0] = None
+        self.assertIsNone(self.scenario()["monthly"][0]["complete_cash_cost_cents"])
+        self.assertEqual(self.scenario("stress")["annual"]["complete_cash_cost_cents"], 240000)
+        self.cost("taxes")["monthly_cents"][0] = None
+        self.assertIsNone(self.scenario("stress")["annual"]["complete_cash_cost_cents"])
+
+    def test_tax_and_hosting_extras_need_scopes_cannot_be_interchanged(self):
+        for name, needs in (("taxes", ["N01"]), ("hosting_extras", ["N02"])):
+            with self.subTest(cost=name):
+                original = self.cost(name)["need_ids"]
+                self.cost(name)["need_ids"] = needs
+                with self.assertRaisesRegex(ValueError, "N01"):
+                    BUDGET.calculate(self.document)
+                self.cost(name)["need_ids"] = original
+
+    def test_all_in_ceiling_is_excluded_from_additional_contingency_base(self):
+        self.fully_priced_synthetic()
+        self.document["parameters"]["contingency_bps"] = 1000
+        self.cost("hosting_extras")["monthly_cents"] = [1000] * 12
+        self.cost("taxes")["monthly_cents"] = [300] * 12
+        expected = self.scenario()["monthly"][0]
+        self.assertEqual(expected["contingency_base_cents"], 12570)
+        self.assertEqual(expected["contingency_allowance_cents"], 1257)
+        stress = self.scenario("stress")["monthly"][0]
+        self.assertEqual(stress["contingency_base_cents"], 300)
+        self.assertEqual(stress["contingency_allowance_cents"], 30)
+        self.assertEqual(stress["cash_requirement_with_contingency_cents"], 20330)
 
     def test_fractional_cent_scale_rounds_once_per_line_and_month(self):
         self.fully_priced_synthetic()

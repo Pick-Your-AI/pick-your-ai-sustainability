@@ -66,6 +66,34 @@
   },
   "cost_inputs": [
     {
+      "id": "hosting_extras",
+      "mode": "planned_hosting_monthly",
+      "need_ids": [
+        "N01"
+      ],
+      "exclusive_scope": "leaderboard_hosting_extras_excluded_from_planned_components",
+      "evidence_class": "unmeasured",
+      "source_refs": [
+        "NEEDS",
+        "HOSTING"
+      ],
+      "scope_and_missing_evidence": "Only N01 usage, monitoring, taxes and temporary restore overlap excluded from the four planned hosting components. Unknown in planned profiles; already included in the alternative all-in USD200 ceiling, where the separate line is suppressed. Exclude additional contingency, counted separately only outside a ceiling that already includes it.",
+      "monthly_cents": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "website_domain",
       "mode": "monthly",
       "need_ids": [
@@ -263,7 +291,6 @@
       "id": "taxes",
       "mode": "monthly",
       "need_ids": [
-        "N01",
         "N02",
         "N03",
         "N04",
@@ -273,12 +300,12 @@
         "N08",
         "N09"
       ],
-      "exclusive_scope": "taxes_not_in_base_quotes",
+      "exclusive_scope": "non_N01_taxes_not_in_base_quotes",
       "evidence_class": "unmeasured",
       "source_refs": [
         "NEEDS"
       ],
-      "scope_and_missing_evidence": "Only taxes excluded from the other input amounts; confirm jurisdiction, tax base and exemption separately. Intended nonprofit status does not justify zero.",
+      "scope_and_missing_evidence": "Only non-N01 taxes excluded from other input amounts; N01 taxes belong exclusively in hosting_extras because its all-in ceiling already includes them. Confirm jurisdiction, tax base and exemption separately. Intended nonprofit status does not justify zero.",
       "monthly_cents": [
         null,
         null,
@@ -338,7 +365,7 @@
       "source_refs": [
         "NEEDS"
       ],
-      "scope_and_missing_evidence": "One finite incremental migration/return/portability cost scope; exclude the recurring hosting export allocation and costs already included in equipment estimates.",
+      "scope_and_missing_evidence": "One finite incremental migration/return/portability scope, excluding N01 recurring exports and temporary restore overlap already included in hosting_extras or the all-in ceiling, and costs already included in equipment estimates.",
       "amount_cents": null,
       "month": null
     },
@@ -382,10 +409,11 @@
       "source_refs": [
         "OSC-FEES",
         "ENTITY",
-        "OSC-ABOUT"
+        "OSC-ABOUT",
+        "OSC-AGREEMENT"
       ],
       "qualification_and_cost_boundary": "OSC candidate only; actual admission and fee base must be verified. Published10% applies to external inflows, not balances or credits. Third-party processing remains additional and Unknown. Entity-status qualification remains #14.",
-      "host_fee_basis": "External funds entering the hosted project; exclude internal hosted transfers"
+      "host_fee_basis": "External funds entering the hosted project; exclude internal hosted transfers This is the OSC-FEES operational-page hypothesis; OSC-AGREEMENT ExhibitA instead says all deposited funds regardless of source. Actual applicable basis requires written reconciliation."
     },
     {
       "id": "sfc",
@@ -476,7 +504,7 @@
         "HYPOTHESES",
         "HOSTING"
       ],
-      "interpretation": "2.0 times future base variable cash estimates; substitute the USD200 N01 design ceiling for all four USD112.70 components. Do not sum both hosting alternatives."
+      "interpretation": "2.0 times future base variable cash estimates; the USD200 all-in N01 design ceiling replaces all four USD112.70 components and N01 extras/contingency. It is an alternative planning allocation, not a hard cap or measured worst case. Other scopes and taxes remain separate."
     }
   ],
   "funding_inputs": {
@@ -553,14 +581,14 @@
   },
   "funding_input_status": "Unset planning/evidence schedules. Cash receipts exclude mere award notices; restricted cash remains restricted. Contingent awards, credit face value and evidenced avoided cost never enter a cash receipt, expense offset or available-cash total. The separate host_fee_inputs base is a calculation parameter, not another funding measure. Monthly fee rounding is a planning convention, not transaction-level billing reproduction.",
   "formulas": {
-    "hosting_planned_cents": "2*2400 + 2*1515 + round_half_up(4800*3000/10000) + 2000 = 11270 per month",
-    "hosting_annual_cents": "11270*12 = 135240; alternative20000*12 = 240000, never additive",
+    "hosting_planned_cents": "Four dated components total11270 per month, plus the separately sourced N01 hosting_extras input; unknown extras keep the complete planned cost unknown.",
+    "hosting_annual_cents": "Known component subtotal11270*12=135240; alternative all-in N01 ceiling20000*12=240000 replaces those components plus N01 usage/monitoring/taxes/restore overlap/contingency, never additive.",
     "scaled_monthly_cost": "round_half_up(base_monthly_cash_cost_cents * scenario.workload_multiplier_bps /10000), independently per line/month; null input stays null",
     "host_fee": "round_half_up(explicit_qualifying_host_fee_base_cents * selected_host_fee_bps/10000); base and applicable rate must be known, except structural no-host cases. The base is not summed as income and must match the selected host's donated/incoming/processed-revenue scope.",
     "one_time": "A positive amount with known timing appears once in month1..12; unknown timing leaves all months null. A known month with unknown amount leaves only that month null. Explicit known zero has no timing cost.",
     "known_subtotal": "Sum only known cost entries; this is a partial arithmetic subtotal, not complete expenses or a zero for missing costs",
     "complete_total": "Sum every scoped cost only if all are known; otherwise null. Annual complete totals require every month.",
-    "contingency": "Optional planning allowance = round_half_up(complete_monthly_cash_cost * contingency_bps/10000); unset policy stays null, separate from baseline expense",
+    "contingency": "Optional allowance = round_half_up(contingency_base_cents * contingency_bps/10000). Base is the complete monthly cash-cost total less any all-in N01 ceiling, which already includes its own contingency; unknown complete cost or unset policy stays null.",
     "liquidity_reserve": "Optional end-state cash stock = round_half_up(complete_annual_recurring_cash_cost * reserve_months/12); one-time fees/assets excluded; not added twelve times or treated as income/expense",
     "funding": "Each measure gets its own twelve-month strict sum. No unrestricted/restricted availability or donor-compliance allocation is inferred.",
     "rounding": "Integer cents and nonnegative rational arithmetic only; nearest cent with exact halves upward at each line/month. Annual sums use the rounded monthly entries."
@@ -570,7 +598,8 @@
     "Which #21 revision and workload/rate/account facts support each base compute cash estimate, excluding product hosting and CI already counted?",
     "Which legal route and actual sponsor agreement/form eligibility are selected, and when would any one-time filing occur?",
     "What costs are already included in a selected host service or quoted gross amount, and what incremental processor, tax, overage, maintenance and exit costs remain?",
-    "Which named authorized financial decision accepts the sensitivity factors, reserve/contingency policy, use restrictions and funding narrative?"
+    "Which named authorized financial decision accepts the sensitivity factors, reserve/contingency policy, use restrictions and funding narrative?",
+    "Which OSC agreement and written fee-base interpretation applies, given the all-deposits agreement versus operational-page internal-transfer exclusion?"
   ],
   "sources": [
     {
@@ -589,7 +618,7 @@
       "inspected_on": "2026-10-19",
       "source_revision": "73715b4850fc0df4a2afbdd877ad2b2644f1d769",
       "evidence_class": "dated engineering estimate; not quote or actual expense",
-      "finding": "Both staging and production together: 2 VMs at USD24/month, 2 databases at USD15.15/month, daily backup allocation30% of VM cost, provisional independent export allocationUSD20/month. TotalUSD112.70/month; USD200 alternative same-scope design ceiling."
+      "finding": "Both staging and production together: 2 VMs at USD24/month, 2 databases at USD15.15/month, daily backup allocation30% of VM cost, provisional independent export allocationUSD20/month. TotalUSD112.70/month; USD200 alternative same-scope design ceiling. The remaining USD87.30 ceiling headroom explicitly includes usage, monitoring, taxes, restore overlap and contingency. Separate N01 extras apply only to planned profiles; the all-in ceiling is also excluded from additional contingency."
     },
     {
       "id": "OSC-FEES",
@@ -689,6 +718,15 @@
       "source_revision": null,
       "evidence_class": "current primary organizational description",
       "finding": "OSC identifies itself as a501(c)(6) nonprofit fiscal host. Its status does not establish independent501(c)(3) recognition or project-specific charitable deductibility."
+    },
+    {
+      "id": "OSC-AGREEMENT",
+      "publisher": "Open Source Collective",
+      "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
+      "inspected_on": "2026-10-19",
+      "source_revision": null,
+      "evidence_class": "current public agreement linked by the application; material source discrepancy",
+      "finding": "ExhibitA specifies10% of all funds deposited regardless of source, while OSC-FEES excludes internal hosted transfers. Published documents differ in fee-base scope. The operational-page base is a conditional planning hypothesis only; obtain the applicable written agreement and reconcile this distinction before adoption."
     }
   ],
   "calculated": {
@@ -708,6 +746,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -725,6 +764,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -741,6 +781,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -758,6 +799,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -775,6 +817,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -791,6 +834,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -808,6 +852,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -825,6 +870,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -841,6 +887,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -858,6 +905,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -875,6 +923,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -891,6 +940,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -908,6 +958,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -925,6 +976,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -941,6 +993,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -958,6 +1011,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -975,6 +1029,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -991,6 +1046,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1008,6 +1064,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1025,6 +1082,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1041,6 +1099,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1058,6 +1117,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1075,6 +1135,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1091,6 +1152,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1108,6 +1170,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1125,6 +1188,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1141,6 +1205,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1158,6 +1223,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1175,6 +1241,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1191,6 +1258,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1208,6 +1276,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1225,6 +1294,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1241,6 +1311,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1258,6 +1329,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1275,6 +1347,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1291,6 +1364,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1328,6 +1402,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1345,6 +1420,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1361,6 +1437,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1378,6 +1455,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1395,6 +1473,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1411,6 +1490,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1428,6 +1508,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1445,6 +1526,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1461,6 +1543,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1478,6 +1561,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1495,6 +1579,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1511,6 +1596,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1528,6 +1614,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1545,6 +1632,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1561,6 +1649,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1578,6 +1667,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1595,6 +1685,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1611,6 +1702,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1628,6 +1720,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1645,6 +1738,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1661,6 +1755,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1678,6 +1773,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1695,6 +1791,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1711,6 +1808,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1728,6 +1826,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1745,6 +1844,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1761,6 +1861,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1778,6 +1879,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1795,6 +1897,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1811,6 +1914,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1828,6 +1932,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1845,6 +1950,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1861,6 +1967,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1878,6 +1985,7 @@
               "hosting_databases": 3030,
               "hosting_backups": 1440,
               "hosting_exports": 2000,
+              "hosting_extras": null,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1895,6 +2003,7 @@
             },
             "known_cost_subtotal_cents": 11270,
             "missing_cost_ids": [
+              "hosting_extras",
               "website_domain",
               "ci_incremental",
               "research_compute",
@@ -1911,6 +2020,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1945,6 +2055,7 @@
             "month": 1,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -1978,6 +2089,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -1992,6 +2104,7 @@
             "month": 2,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2025,6 +2138,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2039,6 +2153,7 @@
             "month": 3,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2072,6 +2187,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2086,6 +2202,7 @@
             "month": 4,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2119,6 +2236,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2133,6 +2251,7 @@
             "month": 5,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2166,6 +2285,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2180,6 +2300,7 @@
             "month": 6,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2213,6 +2334,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2227,6 +2349,7 @@
             "month": 7,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2260,6 +2383,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2274,6 +2398,7 @@
             "month": 8,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2307,6 +2432,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2321,6 +2447,7 @@
             "month": 9,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2354,6 +2481,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2368,6 +2496,7 @@
             "month": 10,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2401,6 +2530,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2415,6 +2545,7 @@
             "month": 11,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2448,6 +2579,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2462,6 +2594,7 @@
             "month": 12,
             "cash_costs_cents": {
               "hosting_same_scope_ceiling": 20000,
+              "hosting_extras": 0,
               "website_domain": null,
               "ci_incremental": null,
               "research_compute": null,
@@ -2495,6 +2628,7 @@
               "host_administration_fee"
             ],
             "complete_cash_cost_cents": null,
+            "contingency_base_cents": null,
             "contingency_allowance_cents": null,
             "cash_requirement_with_contingency_cents": null,
             "funding_measures_cents": {
@@ -2542,7 +2676,8 @@
     "source_refs": [
       "OSC-FEES",
       "SFC",
-      "SPI-HOWTO"
+      "SPI-HOWTO",
+      "OSC-AGREEMENT"
     ],
     "scope_mapping": null,
     "interpretation": "An explicit selected-host fee base, not new income. The reviewer must identify the qualifying donated/incoming/processed-revenue amounts and exclusions under that host's current terms. Never infer it from total cash, credits, contingent awards, internal transfers or account balances. Do not add this base to funding totals."

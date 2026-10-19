@@ -39,8 +39,14 @@ The [pinned leaderboard engineering plan](https://github.com/Pick-Your-AI/pick-y
 supplies the only currently priced operating scope: two VMs at USD 24, two
 databases at USD 15.15, a backup allocation of 30% of VM cost and a provisional
 USD 20 export allocation, per month. Thus `48 + 30.30 + 14.40 + 20 = 112.70`.
-This covers staging and production together. The USD 200 ceiling replaces all
-four components in stress; it is never an additional expense. These are dated
+This covers staging and production together. The USD 200 all-in ceiling replaces
+all four components plus N01 usage, monitoring, taxes, temporary restore overlap
+and contingency in stress. Those additional charges remain an explicit unknown
+`hosting_extras` input in planned profiles; their separate line is zero in stress
+solely because the ceiling already includes that scope. Non-N01 taxes remain
+separate in every scenario. The ceiling is never an additional expense or a
+hard cap on a later invoice. A quote exceeding it needs a revised engineering
+allocation; the stress label does not establish a measured worst case. These are dated
 engineering allocations, with an actual quote, billing scope and invoice still
 needed. The initial [assumption worksheet](../budget-assumptions.md) remains
 historical input and is not charged again.
@@ -49,12 +55,13 @@ historical input and is not charged again.
 
 Each input has one stable ID, an exclusive scope, the accepted need IDs it
 serves, an evidence class and source references. The calculator requires all
-twelve cost scopes exactly once and refuses duplicate IDs/scopes or a second
+thirteen cost scopes exactly once and refuses duplicate IDs/scopes or a second
 N01 hosting envelope. A reviewer must still detect semantic overlap in a quote;
 a program cannot prove that two differently described services are distinct.
 
 | Cost input | Accepted need | Required evidence before a non-synthetic value |
 | --- | --- | --- |
+| Planned-hosting extras | N01 only | Usage, monitoring, taxes and temporary restore overlap excluded from the four planned components; already included in the all-in ceiling |
 | Website/domain | N02 | Existing invoice/term, renewal, payer and incremental need |
 | Incremental CI/storage | N03 | Priced usage beyond applicable existing no-cost capabilities; exclude N01/N06 |
 | Research compute | N06 | Exact #21 source revision, monthly USD-cent field and workload/rate/scope mapping |
@@ -63,9 +70,9 @@ a program cannot prove that two differently described services are distinct.
 | Security/accessibility services | N08 | Finite accepted professional-review scope and estimate |
 | Project coordination | N09 | Actual prospective contracted need; no invented person, hours or commitment |
 | Route administration extras | N09 | Only services excluded from the selected host's included administration |
-| Taxes | Applicable needs | Jurisdiction, tax base and amounts excluded from other gross quotes |
+| Other taxes | N02–N09 | Jurisdiction, tax base and amounts excluded from other gross quotes; N01 taxes must use hosting extras |
 | Processor fees | N09 | Incoming/outgoing method, currency and country; exclude host administration |
-| Migration/exit | Applicable needs | One incremental portability/return scope, excluding recurring hosting exports and asset costs already included |
+| Migration/exit | Applicable needs | One incremental portability/return scope, excluding N01 exports/restore overlap and asset costs already included |
 | Other independent formation | N09 | State/local/setup and preparation costs excluding the selected federal application fee |
 
 All initial amounts in this table are **null**. A one-time cost with a known
@@ -155,9 +162,19 @@ rounding convention is a planning approximation, not a reconstruction of the
 host's per-transaction ledger. Confirm actual transaction rounding, restrictions
 and fee allocation before treating a projected expense as chargeable to funds.
 
+OSC's application-linked [public agreement](https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub),
+Exhibit A, instead describes 10% of all deposited funds regardless of source.
+This differs from the operational fee page's internal-transfer exclusion. The
+external-incoming base is a conditional planning hypothesis; neither source is
+silently declared controlling for an actual PYA agreement. Written reconciliation
+belongs in the host inquiry before adopting that fee base.
+
 Contingency and liquidity reserves are separate optional policies, both unset.
-Contingency is a proposed allowance on a complete monthly expense total; it is
-reported separately before the combined planning requirement. A liquidity
+Contingency is a proposed allowance on a complete monthly expense total, excluding
+the all-in N01 ceiling when selected because that ceiling already includes its
+own contingency. The explicit `contingency_base_cents` exposes that exclusion;
+the embedded N01 allowance is not assigned an invented amount. The additional
+allowance is reported separately before the combined planning requirement. A liquidity
 reserve is a **cash stock** based on a selected number of average recurring-cost
 months. One-time equipment and application/formation costs are excluded from
 that recurring base. The stock is not charged every month, added to income or

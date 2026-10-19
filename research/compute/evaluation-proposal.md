@@ -1,0 +1,247 @@
+# Sponsor-neutral explanation-fidelity evaluation proposal
+
+Issue [#49 / E05-04](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49) · Source review **2026-10-19** · **Proposed protocol; independent findings review pending; demand-sized request blocked by #21.**
+
+## 1. Decision, scope and actual state
+
+Prepare a small, reproducible study of whether an inference model faithfully explains a supplied synthetic evaluation report, including its uncertainty and currentness. The public-benefit output would be an original case corpus, explicit scoring rules, a complete result ledger and a reusable way to expose unsupported certainty. This can inform the existing project research and presentation work without making an inference model the authority for compatibility, prices or source rights. It does not test real hardware, task performance, user comprehension or production reliability.
+
+This is **P1 foundational work**, with opportunity stage and numeric opportunity score **Not applicable**. Recommended disposition: independently review this protocol now; retain the native [#21 demand-model prerequisite](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21) before completing the sized request or representing the whole #49 outcome as finished. The existing #21 [implementation claim](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6263808333) remains with its owner. This note supplies a proposed workload input to that model, not a replacement model or an assumed accepted output.
+
+The present deliverable is a preregistration-style proposal. It has not been submitted to a study registry, executed, accepted by a provider, or populated with observed model outcomes. No model routes, accounts, investigators, institutional affiliations, monetary allocation, workload measurements or future staff commitments are established. Protocol implementation, exact corpus bytes, scorer review and a final immutable execution manifest remain necessary before a later study could be run. Source research and repository validation do not constitute those events.
+
+This source was prepared against Sustainability main **221bde2609740807bd3f0aea682a0c097bab81b3**. All existing provider records, pipeline projections, freshness rows, budget values and technical ownership remain intact. An evaluation protocol is not a distinct benefit program, so it does not create an opportunity record. The relevant program owners remain [#39 OpenAI](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39), [#40 Anthropic](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40), [#41 Gemini](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41) and the other E05 provider issues.
+
+## 2. Question, hypotheses and interpretation
+
+**Question:** On an explicitly bounded original synthetic corpus, does an instruction package that requires current-report admission and evidence-linked explanations reduce unsupported certainty compared with a plain explanation request, within the same exact model route and settings?
+
+The primary directional hypothesis is that the evidence-explicit package produces fewer responses that assert a current verdict without an admissible current report, upgrade an unresolved outcome to a favorable one, or add an unsupported factual or source claim. The paired secondary hypothesis is that it produces more fully faithful responses under section 5. A null or opposite observed difference is a publishable outcome of the same planned analysis. This is a descriptive pilot over deliberately chosen examples: the hypotheses guide what is counted, without a power calculation, population inference or promised statistically significant result.
+
+Both packages receive the same information and required response fields. The treatment is the **whole instruction package**; any later observed difference must not be attributed to one sentence inside it. The two case wordings are a prespecified robustness dimension, not extra independent families. Repetitions are repeated observations of the same task. Between-provider results describe different model/route bundles; they are not a controlled estimate of provider quality, a ranking, or a one-factor hardware comparison.
+
+The [Research source policy at 8af15e63](https://github.com/Pick-Your-AI/pick-your-ai-research/blob/8af15e63a1b71e4914008f607554aa264c3e0cc5/research/T0-configuration/catalog-data-sources.md) distinguishes checked documentation, measurements and estimates, requires exact claim scope, and separates evidence eligibility from reuse rights. Its DS-R1–DS-R5 mechanics and existing change-event policy inform this study's cases; synthetic cases do not independently verify those mechanics or change the frozen contracts. A model must explain the supplied oracle rather than resolve real disputes, infer a missing list is exhaustive or invent an expiry interval.
+
+## 3. Corpus and two instruction packages
+
+### 3.1 Original synthetic case families
+
+Create exactly the twelve families below. Use fictional identifiers, short original facts and no copied vendor tables, proprietary benchmark outputs, private builds or personal data. Each family contains one dossier in two meaning-preserving English wordings, W1 and W2. W2 changes sentence order and ordinary wording only: it must preserve every identifier, numeric token, condition, required outcome, severity, dispute flag and source reference. An independent case review must establish this equality before any model output is observed.
+
+Every dossier supplies: family ID; current build ID/revision; current rule/evaluation identity; current cost and resource evidence IDs where consumed; either no report or one report with its own corresponding identities; explicitly stated report-admission result and reason; the intended displayed finding outcome and fixed severity; a finite list of original evidence objects; and required explanation facts and forbidden unsupported assertions. Fields absent by design are explicitly null. These are **study fields**, not a new product schema.
+
+| Family | Supplied synthetic condition | Oracle for a current explanation | Required distinction |
+| --- | --- | --- | --- |
+| C01 | Exact selected version and route have explicit support; all report identities match. | Current report, pass, informational severity. | A supported scoped fact does not establish performance or universal support. |
+| C02 | A complete applicable support list explicitly contains the requested member; all identities match. | Current report, pass, informational severity. | The stated completeness belongs to this list and scope only. |
+| C03 | An applicable source explicitly excludes the requested member; all identities match. | Current report, fail, error severity. | Known exclusion differs from missing evidence. |
+| C04 | A known other version's fact was applied to the selected version; the current report records that scope error. | Current report, fail, error severity. | A current report can contain an adverse finding; recency does not make the fact eligible. |
+| C05 | The requested member is absent from a source explicitly marked as an incomplete researched subset. | Current report, unknown, warning severity. | Absence from an incomplete list cannot establish unsupported or supported. |
+| C06 | Two equally ranked eligible sources make opposite yes/no claims; the supplied policy leaves the fact disputed. | Current report, unknown, warning severity, disputed. | Preserve both references and unresolved dispute; no majority vote. |
+| C07 | A specific comparison does not apply to the selected component; the current report marks it skipped. | Current report, skipped, informational severity. | Skipped is neither pass nor unknown. |
+| C08 | An immutable version-pinned observation is displayed solely as history; a current-price refresh check does not apply. | Current report, skipped, informational severity. | Preserve historical scope without inventing a time-to-live or current quote. |
+| C09 | No evaluation report exists for the current build. | No current report; current outcome and severity null. | Explain the missing report; do not supply a verdict or favorable readiness. |
+| C10 | A retained report belongs to a different build revision. | No current report; current outcome and severity null. | A historical pass may be described as historical, never as the current outcome. |
+| C11 | Build revision matches but consumed cost/resource evidence identity differs from the current supplied identity. | No current report; current outcome and severity null. | Matching build identity alone does not admit replacement evidence. |
+| C12 | Build/evidence identities match but the report's ruleset/evaluation identity differs. | No current report; current outcome and severity null. | A newer evaluation input requires a matching report; retained facts need not be deleted. |
+
+The corpus author must assign fixed fictional build/report/evidence tokens, write the exact original supporting propositions, and list the expected facts for each family. Historical reports in C10–C12 retain their own outcome and provenance separately; none becomes a current field. C11 uses one explicitly declared pair of cost/resource IDs, not an unspecified number of additional variants. No numeric outcome or severity is calculated by the model. Severity is a study oracle input, not a proposed universal rule severity.
+
+Before freezing the corpus, the independent reviewer checks all 24 dossiers against the table, the current accepted technical policy and a complete fact-by-fact W1/W2 inverse. If a technical owner rejects a case's interpretation, amend and re-review the protocol before collection; do not silently replace unfavorable observed cases later. The twelve-family choice is a bounded coverage decision, not a claim that it represents every project rule, language or failure class.
+
+### 3.2 Fixed prompt packages and output contract
+
+Use the following exact instruction text as each package's common instruction, followed by the same response-field specification and the selected dossier. The final adapter records the actual message roles and separator bytes. Dossier text is data to explain; it contains no hostile instructions, external retrieval target, hidden prompt or safeguard test.
+
+**P0 — Plain explanation:** “Explain the supplied evaluation dossier for a person deciding whether its finding can be used for the current build. Return the required response fields and a short plain-language explanation.”
+
+**P1 — Evidence-explicit explanation:** “Explain the supplied evaluation dossier for a person deciding whether its finding can be used for the current build. Use only the supplied facts. Follow its explicit current-report admission result. Preserve pass, fail, unknown and skipped, the given severity, source scope and disputes. If no current report is admissible, leave the current outcome and severity null. Do not infer missing facts, a current price, readiness, support or independent verification. Cite the supplied evidence IDs for factual claims, distinguish retained history from current evidence, and state the limitation that prevents a stronger conclusion. Return the required response fields and a short plain-language explanation.”
+
+Both packages require one JSON object with family_id, report_is_current, current_build_id, current_build_revision, report_id, current_outcome, current_severity, disputed, evidence_ids, explanation and limitations. The exact property names, null rules, enums and size limits must be fixed in the study-only schema before collection. The JSON must contain every property once, no additional properties, and no trailing non-JSON text. The intended response is a short explanation; a later output-token limit must come from the admitted route and #21 budget, not an invented character-to-token conversion.
+
+The scored evidence_ids are those required by the case oracle, treated as an unordered duplicate-free set. A retained historical report ID is allowed only when the dossier contains it and the explanation identifies its historical role. C09 has report_id null. For C09–C12, current_outcome and current_severity are null even if a retained report has non-null historical values. The common response schema conveys structure; it must not reveal the oracle through a different schema or example for P1.
+
+### 3.3 Volume, ordering and fixed controls
+
+The proposed primary allocation is **12 families × 2 wordings × 2 packages × 3 repetitions = 144 scored logical slots per model route**. Plan for at most **two independently admitted routes**, giving **288 slots**. One route can still yield a within-route pilot; a missing second route is reported as unfilled scope, never imputed or covertly replaced. These integers are author-selected study bounds, not measurements or a provider request.
+
+Each logical slot has a unique tuple (protocol revision, route, family, wording, package, repetition). For each route/family/wording/repetition, pair P0 with P1; alternate which package is sent first according to a frozen, balanced schedule. Generate and save that complete schedule before collection, using a documented deterministic algorithm, fixed seed and ordered input list. Record schedule bytes/hash and the actual chronological execution order. Do not reshuffle after inspecting responses or interleave another experiment's traffic with this accounting.
+
+Use a fresh independent conversation per attempt, no previous model response, external tools, retrieval, model judge, fine-tuning or embeddings. Within a route, pin model/version, account service class, API version, region if known, adapter/harness commit, message roles, tokenizer/input accounting, decoding, context/output limits, timeout, concurrency, cache/batch behavior and any reasoning setting. Select the lowest supported deterministic decoding setting documented for that exact route; record unsupported or hidden controls as Unknown, never silently pretend they match another route. Repetition does not guarantee stochastic independence or reproducibility of hosted internals.
+
+Prefer one in-flight request for this pilot, with a fixed admitted rate and documented timeout. Even that rate, timeout and token ceiling must pass the actual account's limits and demand handoff before execution. No undocumented provider default may be represented as a controlled setting. Pin the provider's returned model/version identifiers; if the route cannot expose an immutable backend, say so in every reproduction claim and treat a version change as a stop event.
+
+The earlier [OpenAI proposal](openai-researcher-access.md) describes 12 × 2 × 3 = 72 requests/model; the [Anthropic proposal](anthropic-researcher-access.md) and [Gemini proposal](google-gemini-research.md) each describe 120 × 2 × 3 = 720 requests/model. Those are separately accepted provider-research proposals, not executed datasets or a shared accepted demand allocation. This protocol introduces two instruction packages and its own smaller family coverage. A future #21 handoff must explicitly choose/reconcile workload revisions; do not add all four proposals together or rewrite their dated source histories.
+
+## 4. Collection, retries and a complete attempt ledger
+
+No collection is part of this drafting task. A later executor must first satisfy section 7 and freeze the study manifest. The ledger then creates all planned logical slots, including slots never attempted because of a stop. For each actual attempt record the immutable slot/attempt IDs, UTC start/end, route metadata, sanitized request metadata, exact releasable prompt/dossier bytes, response status and returned body, provider request ID where safe, actual usage units, rate/billing observations, finish reason and termination reason. Never store authorization headers, keys, account emails or confidential provider responses in public data.
+
+Allow **at most one retry per logical slot**, only for a recorded transport interruption, timeout, HTTP 429 or HTTP 5xx that yields no complete response. A later retry respects the admitted retry delay and remaining request/token/money ceilings. An ambiguous timeout may have been billed: reserve and account for its worst admitted cost before retrying. No retry is allowed after a complete refusal, malformed answer, truncation or undesirable scientific result. Do not use a retry to select the best response.
+
+The primary scored response is the first complete response, whether useful, refused, malformed or truncated. If the first attempt is retry-eligible and the sole retry produces a complete response, use that response and retain the failed attempt. If neither completes, the slot is operationally incomplete, with no fabricated content score. Keep the first-attempt-only table separately so transport behavior cannot be hidden by retries. Aborted/unattempted slots stay in the planned denominator.
+
+The worst-case bound is **288 actual attempts per route**, **576 for two routes**, including retries; there are no extra uncounted setup, calibration, smoke, tuning or judge calls. The first planned slots may confirm transport only and retain their original scores; a discovered protocol bug stops the collection instead of discarding those results and starting a supposedly untouched run. Offline parser fixtures may use original synthetic strings without model calls; they are implementation tests, never observed model outcomes.
+
+Distinguish these operational states: unattempted after stop, transport failed, complete response, complete refusal, incomplete/truncated response, malformed structured response and scored usable response. These are ledger statuses, not replacements for a supplied finding's pass/fail/unknown/skipped. An HTTP success alone is not a faithful answer. No current-report result is not the same as an operationally missing model response.
+
+## 5. Scoring and prespecified descriptive analysis
+
+Freeze an oracle for each family and a deterministic structural checker before model collection. Independently review the checker with positive and negative offline fixtures that demonstrate each condition below; those fixture results establish checker behavior only. No model-produced text is used to tune the oracle, prompt packages or thresholds for this primary run.
+
+| Measure | Exact rule | Denominator and limitation |
+| --- | --- | --- |
+| Currentness/identity fidelity | All required identity tokens, explicit admission result, current outcome, severity and dispute flag equal the case oracle with their original types; no boolean-as-integer, missing-to-null coercion or repaired JSON. | Report passes/complete responses and passes/all planned slots separately; incomplete slots remain unobserved, not fabricated adverse findings. |
+| Evidence-reference fidelity | Only supplied IDs appear; every required reference is present exactly once; no invented or misassigned provenance, independent-verification claim or current interpretation of historical evidence. | Automated ID check plus the explanation adjudication below; a valid ID alone does not substantiate the associated sentence. |
+| Unsupported certainty (primary adverse measure) | At least one current verdict without admission, favorable promotion of unknown/skipped, invented scope/price/support fact, concealed dispute, or unsupported evidence/verification claim in the complete response. | Adverse responses/complete responses, with complete-response coverage/all planned slots; do not count missing responses as demonstrated hallucinations. |
+| Full explanation fidelity (secondary) | Structural/currentness/reference checks pass, the explanation states every case-required distinction and limitation, and contains no unsupported assertion or contradiction. | Report faithful responses/complete responses and faithful responses/all planned slots. This is a task-specific composite, not a general intelligence score. |
+| Operational coverage | Counts for every slot and attempt state, refusals, truncations, rate limits, retries and stops. | All planned slots and all actual attempts, with reasons; no failed result is dropped. |
+| Resource observations | Actual provider-reported input/output/other billable units, elapsed request times and documented billed amounts when available. | Each exact route/attempt; missing usage or invoice remains Unknown. Request latency is not throughput, device power, production SLA or realized avoided cost. |
+
+Two independent adjudication roles review **all complete explanations**, using a frozen checklist of required/forbidden facts and evidence associations. Neither role may be the corpus author for that case; both receive case facts but are blinded to package label, model/provider and sponsorship wherever removing those labels preserves meaning. Preserve original responses and separately record unavoidable cues. The actual qualified people and availability remain unassigned; no paid or external model adjudication is assumed. If the roles cannot be staffed, report only the structural subset and leave the primary unsupported-certainty and full-fidelity outcomes unestablished.
+
+Each reviewer records every applicable error category and supporting response span. Retain both original decisions, disagreement counts and a documented resolution by a separately identified nonauthor adjudicator. Unresolved cases stay unresolved with both interpretations; do not convert them to pass or silently drop them. Report lower/upper descriptive counts treating each unresolved case both ways, alongside the resolved count. Original author corrections and post-output rubric changes are amendments/exploratory analyses, not unnoticed primary-score fixes.
+
+For each model route and each package, show a twelve-family table with both wordings and all three repetitions, exact numerators/denominators, per-category errors and operational coverage. Within each family/wording/repetition pair, tabulate P0-only adverse, P1-only adverse, both adverse, neither adverse and unresolved/incomplete. Aggregate these counts transparently and report the difference in observed complete-response adverse fractions with its coverage denominators. Also show first-attempt-only results and faithful/planned coverage, so unequal transport success cannot masquerade as a quality improvement.
+
+No significance test, p-value, confidence interval, population error rate, aggregate leaderboard rank or power claim is prespecified for this purposive twelve-family pilot. Do not treat the 144 slots as 144 independent real-world tasks. A later inferential study needs a separate sampling rationale and preregistered analysis before new outcomes; it may use this pilot to generate questions but cannot call those same observations an untouched confirmatory sample. Describe every null, adverse and mixed result; no best wording, best repetition or best route selection.
+
+## 6. Reproducibility and publication package
+
+Before a later run, publish or otherwise independently timestamp the final protocol revision and a manifest containing the following exact materials. A repository commit is a source identity; an OSF registration or journal Registered Report is a different event and may be claimed only with its actual receipt. The COS guidance [S1] supports recording planned versus unplanned analyses; HELM's published abstract [S2] motivates explicit coverage and multiple reported dimensions. Neither supplies this study's selected cases, sample size or actual results.
+
+| Material | Required fixed identity and release rule |
+| --- | --- |
+| Protocol and amendments | Commit/tree, date, accepted review, original plan and an append-only change log with reason and whether any outputs had been seen. Preserve prior versions. |
+| Corpus/oracle | All 24 exact original dossiers, twelve family mappings, W1/W2 equality review, expected fields/facts, provenance and applicable redistribution license/notice. |
+| Prompt/schema/schedule | Exact message-role bytes, both common packages, identical output schema, seed/algorithm/input order and full scheduled tuples/hash. |
+| Harness/scorer | Source revision, dependencies/lockfiles, runtime, schema/parser and checker versions, offline validation results, complete analysis instructions and independent review. No unpinned latest dependency. |
+| Model route | Actual model/provider/endpoint/API/account service class/region where known; returned IDs; accessible version; context/decoding/cache/rate/concurrency/timeout/reasoning limits; unknown hidden controls. |
+| Demand/rights admission | Accepted #21 exact input/output mapping, budget ceiling, units/currency/period, actual applicable terms and account rights, expiry, release/privacy decisions, independent funding disclosure. |
+| Originals/results | Complete slot/attempt ledger, exact releasable raw prompts and responses, errors/negative results, both adjudications, conflicts/amendments, analysis outputs and integrity hashes. |
+| Reproduction scope | A local analysis can recompute from admitted saved originals; a new hosted inference may differ. State which occurred. No planned command or synthetic test is evidence of either. |
+
+Publish the complete primary tables, negatives and planned analyses together. A sponsor can correct a factual statement through the ordinary recorded review but cannot approve findings, remove adverse cases, choose favorable denominators, purchase rank or veto publication. Disclose the real support type, provider, actual credit/award/consumption state and any review access, with protected personal/financial information kept in appropriate custody. Do not use logos, endorsement language or trademark notices without their actual required conditions.
+
+The intended public release includes original synthetic inputs and raw outputs **only where the exact material/use rights permit it**. Confirm that before executing a route; a public URL, citation, subscription, credit award or repository location is not a redistribution grant. The inspected Sustainability base has no root LICENSE or COPYING file, so this note does not call all its contents licensed open source or select an absent rights holder. [#17](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17) retains IP/license stewardship, and Research [#60](https://github.com/Pick-Your-AI/pick-your-ai-research/issues/60) retains source reuse decisions.
+
+If a later rights correction or unexpected sensitive content requires restricting a raw artifact, preserve lawful originals in suitable custody, record the exact affected IDs/reason and report the resulting reproducibility gap. Do not claim a fully public raw corpus where essential responses are unavailable, or hide unfavorable outcomes under a vague confidentiality label. Do not collect hidden reasoning traces or request provider-confidential internals. Public summaries of restrictions are distinct from publishing restricted content.
+
+This note and the source ledger remain in Sustainability. Any executable technical harness, actual catalog rule change or product integration belongs with its existing technical owner and contract process; this proposal neither adds a new API nor closes Research #41 or Leaderboard #25. No participant recruitment, comprehension survey or collaboration pilot is included; those remain with [#63](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63) if later qualified.
+
+## 7. Demand-sized request, stops and portability
+
+### 7.1 Exact handoff required from #21
+
+The accepted [operating budget](../../docs/funding/operating-budget.md) and [budget data](../../data/budget/operating-budget.json) retain an exclusive research-compute scope, separate from product hosting, CI and demonstrations. Their current #21 handoff is incomplete. Supply this protocol's version and the 144-slot/288-attempt-per-route bound as inputs; receive the following actual evidence before a sized request exists.
+
+| Handoff field | Required evidence | Current value |
+| --- | --- | --- |
+| Demand source and acceptance | Canonical model path, commit/tree, independent review and the exact source input/output JSON pointers. | Pending #21; no substitute spreadsheet or assumed delivered model. |
+| Selected workloads | This protocol revision, admitted route count, exact original prompt/corpus/schema bytes and schedule; relation to earlier 72/720 proposals. | Study design proposed; execution inputs and route selection pending. |
+| Billable units and bounds | Per-route tokenizer or documented accounting, worst-case input/output and other billable units, retry billing, context limits and total attempt bound. | Unknown; no bytes-to-token, API-token-to-GPU-hour or currency conversion assumption. |
+| Rates and availability | Exact service/account tier, dated applicable price/quota/credit scope, currency, taxes, discounts, expiry, cache/batch and non-token charges. | Unknown for the actual route; public headline credit value is not a quote. |
+| Cost output | Exclusive research-compute period/scope, requested unit allowance, cash ceiling and scenario treatment. The budget integration requires its admitted monthly USD-cent output or an explicitly evidenced conversion. | Unknown; do not place a foreign or unspecified dollar amount into a USD field. |
+| Useful support | Incremental necessary eligible units usable before expiry, no-support alternative, unavoidable operation/exit costs and remaining cash exposure. | Unknown; list value, useful coverage and genuine avoided cost remain separate. |
+| Operational owner | Actual account custodian/executor, monitoring/stop capability and permitted reviewer access; accepted handoff, not a person inferred from an issue. | Unassigned for execution. |
+
+The proposed counts bound logical work only. If worst-case billable usage cannot be bounded because a route hides necessary billing controls, that route remains unadmitted. A credit balance is not a cash-overage stop. A later unit request must be derived from the accepted model and exact workload, capped by the smaller admitted service and project limits; no arbitrary percentage contingency or provider headline amount fills missing terms. Preserve the #21 output's scope, units, horizon and uncertainty; do not apply a sensitivity multiplier twice or duplicate N01 hosting charges in N06 research compute.
+
+For effort, record the work components—24 dossier/oracle drafts, independent equivalence/scorer review, adapter/version/rights checks, at most 288 logical responses across two routes, all-response adjudication, release and exit—then attach actual justified hours/rates or explicitly retain Unknown. The counts are not hours and do not establish volunteer availability. No estimate of cash saved, social impact, grant success or investigator capacity is warranted from this proposal alone.
+
+### 7.2 Admission and stop rules
+
+Before any later collection, the responsible project process must establish the exact demand handoff, material/use rights, actual account/provider terms and regional eligibility, independent source/scorer/oracle review, release plan, executor/adjudication capacity and usable resource ceilings. Freeze all remaining manifest values; no null required operating input may become an implicit permissive default. This is a record of concrete missing requirements, not an application or a new authority granted by the draft.
+
+Stop before the next attempt when the request/token/cash/expiry/rate limit would be exceeded; when the observed billable scope is unknown or differs from admission; when an expected version/terms/region/retention condition changes; on an unhandled privacy/rights event; on a discovered corpus/oracle/harness defect; or when an account or provider reports enforcement or revocation. Record every outstanding attempt and whether it may still have completed or been billed. Persist available originals before ordinary cleanup, without claiming cancellation reverses cost or deletes remote data. No backoff/retry overrides a stop or an instruction not to execute.
+
+A content failure is a result, not itself permission to retune or repeatedly query. A genuine methodological defect stops the planned run and produces an amendment explaining seen outputs and retained coverage. Report partial studies with all unfilled slots. There is no early stopping for a favorable aggregate, no optional sampling until a desired conclusion, and no replacement of an unfavorable model after results are known.
+
+### 7.3 Portable exit
+
+Keep the study corpus, schema, prompt text, slot IDs, oracle, analysis and lawful saved originals outside any provider-specific service. Adapters must expose provider-specific fields explicitly rather than coercing them into falsely comparable defaults. Export permitted usage/error metadata and preserve source/terms versions before account or credit expiry; follow the actual provider retention/deletion process and record its outcome separately from local cleanup.
+
+If a route becomes unavailable before collection, amend and independently review its replacement and demand mapping before making a request. If it changes after collection starts, retain its partial block and register a separately labeled continuation; do not pool it as the same fixed model. A self-hosted alternative requires separate actual hardware/runtime/precision/license/hour-cost evidence and is not obtained by converting API tokens into accelerator hours. The default fallback for unmet limits is a documented unexecuted or partial study, with no spend or silent vendor dependency.
+
+## 8. Program context and all three applicant routes
+
+This foundational design has no application form, provider deadline, award type or activation of its own: those fields are **Not applicable for the protocol**. Its possible future benefits are API research credits or separately qualified compute access, not cash received. Current underlying program observations below are bounded public-source checks; the canonical provider notes retain their detailed terms/history and ownership.
+
+| Context | Current checked observation on 2026-10-19 | Limit on use here |
+| --- | --- | --- |
+| OpenAI Researcher Access [S3] | The FAQ describes responsible-AI/risk/societal-impact research, active academic/research affiliation or nonprofit research activity, up to the literal advertised $1,000 credits for twelve months, and quarterly March/June/September/December review of year-round applications. | No actual affiliation, applicant, currency, allocation or qualification is established. The FAQ does not waive policies. The existing #39 note owns the application and terms assessment; no portal or account was inspected in this task. |
+| Anthropic External Researcher Access [S4] | The dated 2026-03-16 help page prioritizes safety/alignment research, standard publicly offered API access, monthly first-Monday review and a typical literal advertised $1,000 credit allocation for approved applications. | Actual research fit, account, region, currency, acceptance and fixed submission deadline remain unestablished. No policy exemption, consumer-web access or retired-model paid route is imported. No form was submitted or interactively tested here. |
+| Other provider notes [P4] | Existing qualified research notes contain distinct candidate workloads, terms, dated observations and actual applicant Unknowns. | They are consumed as dated project inputs, not refreshed provider approval or additive demand. Their owners must establish exact route terms before use. |
+
+The dollar sign alone does not establish the currency for a future request, accounting field or cash equivalent. Review cadence is not a submission cutoff, guaranteed response, renewal right or project deadline. This study's cautious-uncertainty question may fit a provider's research goals, but that is an author inference for later assessment, not a provider's determination. Model/provider selection must follow the same predeclared scientific and rights/operating criteria whether support is offered or absent.
+
+| Actual applicant route | Present finding | Evidence still needed before an actual request/use |
+| --- | --- | --- |
+| Present community / individual | **Unknown for any specific provider.** Public project activity does not establish research affiliation, expertise, account authority, legal party or eligible region. | Actual investigator/account/region, permitted project use, program-specific fit, signer and release/terms scope. |
+| Fiscal-sponsored project | **Unknown.** A researched host is not this project's executed sponsor or credit custodian. | Executed host relationship, researcher/account/beneficiary identity, authority, restrictions, fee/exit terms and provider acceptance of that arrangement. |
+| Independent 501(c)(3) | **Unknown.** Recognition is not verified by this note and would not by itself satisfy research, individual or account requirements. | Actual entity/status, investigator capability, jurisdiction, authorized parties and each provider's separate conditions. |
+
+## 9. Obligations and independence screen
+
+These are required questions for the actual selected route, not findings that a provider has accepted the proposed conditions. Their governing terms and answers must be attached to the manifest; unresolved material conditions keep the route unadmitted.
+
+| Area | Proposed study requirement / remaining route-specific evidence |
+| --- | --- |
+| Reporting | Preserve all primary results and failures; identify actual provider reports, due dates, content and effort before accepting support. No fabricated results to meet a report. |
+| Branding | Accurate support acknowledgment separated from findings; check exact wordmark, attribution, comparison and nonendorsement conditions. No logo or testimonial commitment in this draft. |
+| Publication / IP | Establish rights for original inputs, prompts, generated responses, public comparisons and redistribution; no confidential application or other source imported. Preserve unfavorable findings and refuse editorial veto. |
+| Privacy / data use | Original non-sensitive dossiers only; establish applicable training/retention/abuse-monitoring settings and exceptions, location and collaborator access. No zero-retention promise from a generic marketing page. |
+| Portability | Export admitted originals/analysis; record model/account-specific limits; preserve distinct continuation blocks rather than pool changed versions. |
+| Renewal / expiry | Attach actual credit expiry, renewal/new-application conditions and account closure/export process. Do not assume credits roll over or transfer. |
+| Overage / fees | Separate input/output/other billable units, delayed charges, taxes and non-covered routes; no card/top-up activation here. Actual enforceable exposure remains Unknown until #21/account admission. |
+| Organizational independence | No sponsor controls the hypothesis, model/case selection after outputs, scoring, reviewer judgments, negative results or rankings. Existing ethics materials are proposed operating inputs, not an invented board-adopted policy. |
+| Review and staff | Preserve actual conflict disclosures and exact-source reviewer decisions. Neither a second agent's source analysis nor a repository validator establishes investigator credentials, a legal opinion or organizational consent. |
+
+The [charter](../../docs/charter.md), [original ethics draft](../../docs/sponsorship-ethics-draft.md) and [expanded ethics draft](../../docs/policies/vendor-neutrality-and-sponsorship-ethics-draft.md) support the proposed independence and value distinctions at the inspected base. Their adoption and any actual agreement remain separate. This protocol makes no tax-deductibility, ownership-transfer or contract-enforceability conclusion.
+
+## 10. Sources, actual access scope and dated project inputs
+
+All public accesses below occurred on **2026-10-19**. Author-selected design choices in sections 2–7 are proposals, not vendor claims, measured quantities or borrowed dataset results. Only short paraphrases are used; public availability is not a bulk-copy license.
+
+| ID | Exact source | Version / actual inspected scope / limit |
+| --- | --- | --- |
+| S1 | [Center for Open Science: Preregistration](https://www.cos.io/initiatives/prereg) | Live primary guidance; definition, planned/unplanned work, all-results reporting, amendments and reproduction-detail FAQ read. No displayed effective date adopted. No OSF account, submission, registry receipt or journal acceptance. |
+| S2 | [Liang et al., Holistic Evaluation of Language Models, arXiv:2211.09110v2](https://arxiv.org/abs/2211.09110v2) | Primary author abstract and version history read: submitted 2022-11-16, v2 revised 2023-10-01. Supports stating coverage, multiple dimensions and release scope. Full paper, benchmark code/data and current leaderboard were not evaluated or executed. No numerical finding is imported into this protocol. |
+| S3 | [OpenAI Researcher Access Program FAQ](https://help.openai.com/en/articles/10139500-researcher-access-program-faq) | Complete visible 56-line FAQ read. The page's relative “updated” display is not treated as a documented absolute effective date. Program-level observations only; no private form/account/award or full current commercial-terms review in this task. |
+| S4 | [Anthropic External Researcher Access](https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program) | Complete visible 136-line program/FAQ read; article dated 2026-03-16. Standard program scope only; no interactive application, actual account, grant or current full legal-terms requalification. |
+| P1 | [Research source policy](https://github.com/Pick-Your-AI/pick-your-ai-research/blob/8af15e63a1b71e4914008f607554aa264c3e0cc5/research/T0-configuration/catalog-data-sources.md) | Current received blob c862112312d45bbe13b9e9261b8f83ee581cafa6. Evidence-label/conflict/freshness sections, reuse/change-event rules and complete DS-R1–DS-R5 read. Their proposed-mechanics versus accepted-receiving boundaries remain explicit. No new source-rights or model evaluation acceptance. |
+| P2 | [Sustainability demand issue #21](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21) and [operating-budget input](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/data/budget/operating-budget.json) | Full issue, actual owner claim, native prerequisite and budget research-compute/handoff scope read on this date. A proposed 144-slot allocation is not an accepted output of the absent demand model. |
+| P3 | [Charter](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/docs/charter.md), [original ethics](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/docs/sponsorship-ethics-draft.md), [expanded ethics](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/docs/policies/vendor-neutrality-and-sponsorship-ethics-draft.md) | Full first two documents and expanded draft sections 1–9 through its dated input paragraph read. These are received project proposals, not refreshed legal sources or evidence of adoption. |
+| P4 | [OpenAI proposal](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/research/compute/openai-researcher-access.md), [Anthropic proposal](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/research/compute/anthropic-researcher-access.md), [Gemini proposal](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/221bde2609740807bd3f0aea682a0c097bab81b3/research/compute/google-gemini-research.md) | Proposed-study/count, benefit/route and dated-access portions read; Gemini note read in full. Their respective 72/720/720 designs and independent research receipts remain historical source inputs, not executed evidence or a combined request. |
+
+S1 and S2 address method, while S3 and S4 address different programs; no observed conflict is resolved by substituting one for another. The differing project proposal counts are deliberately preserved and require an explicit #21 choice. Current provider terms may differ from the dated project notes; the legal/account/price/region/publication screens must be refreshed for the selected route before action. No historical promotion establishes current intake. An initially unhelpful general search supplied no evidence; the named primary pages above were opened directly. No inaccessible full agreement is represented as read.
+
+## 11. Remaining decisions and literal acceptance boundary
+
+| Outstanding decision | Existing owning route | Required outcome |
+| --- | --- | --- |
+| Demand mapping and sized request | #21, consumed by #49 | Accepted revision/fields/units/scope and actual admissible ceilings; reconcile the separately proposed workloads without double counting. |
+| Final corpus, schema, harness, oracle and review | #49 with existing Research technical ownership | Exact immutable materials, independently checked meaning/evidence and code behavior before any model response; no new contract assumed. |
+| Actual routes, applicant and rights | Existing provider owners, #17 and affected Research source-use owner | Concrete eligible account/party/material/use/region/terms and publication basis; actual Unknowns stay explicit. |
+| Execution and adjudication capacity | Later #49 project process | Actual accountable people, conflicts, effort and resource controls; no absent person assigned. |
+| Findings acceptance and publication | #49 reviewer/publisher | Exact revised source review and ordinary permitted delivery; any accepted partial design must exclude the pending demand-sized request. |
+
+The following table maps the **thirteen issue criteria by summary**, preserving their original wording and checkboxes in the live issue. It is a review aid, not an assertion that the issue is done.
+
+| #49 criterion (summary) | This proposal's evidence | Remaining boundary |
+| --- | --- | --- |
+| 1. Primary sources, review date, current versus historical | Section 10, exact project pins and visible-source scopes. | Refresh actual selected-route terms before action. |
+| 2. Application, benefit, restrictions, obligations, deadline | Sections 8–9 distinguish foundational N/A, current program observations and actual Unknowns. | No applicant/account intake or award is established. |
+| 3. Three applicant routes | Section 8 explicitly separates all three. | Each actual program route remains Unknown. |
+| 4. Canonical completed disposition, scoring and questions | Sections 1 and 11 give P1/foundational N/A and concrete next inputs. | Whole requested outcome remains incomplete pending #21 and review/delivery. |
+| 5. Independent acceptance distinct from support | Exact-source review is requested; no acceptance invented. | Pending actual reviewer receipt for this source. |
+| 6. Canonical proposal, reproducibility and demand-sized request | Sections 2–7 define the proposed study and required request interface. | **The request is not yet sized from an accepted demand model; criterion remains incomplete.** |
+| 7. Current official sources, date, access/conflicts | Section 10 distinguishes live FAQ reads, historical paper and dated project proposals. | No full legal agreement or model/corpus execution is claimed. |
+| 8. Current process/deadline or reasoned N/A/Unknown | Section 8 records program review cadences separately from submission deadlines. | Actual route process and timing must be confirmed before use. |
+| 9. Benefit and all three routes | Section 8; credits/access distinct from cash. | No qualification or support activation. |
+| 10. Restrictions and independence | Sections 6–9 cover all named areas, stops, raw publication and exit. | Actual governing terms and release/custody decisions remain required. |
+| 11. Concrete public benefit, defensible value/effort | Sections 1, 3, 5 and 7 define a bounded study and accounting method. | No measured impact, available staff, useful credit value or cash savings. |
+| 12. Published canonical findings and relevant structured records | This canonical source and README navigation; no new provider record is relevant. | Remote/main delivery remains a separate actual event; no PR or readiness event implied. |
+| 13. Linked independent findings acceptance | Reviewer must read this exact revision and stated exclusions. | Pending; schema validation or a source lead cannot substitute. |
+
+Accepting a useful partial design must leave the native demand dependency and the unfinished request/publication criteria visible. A later accepted demand model requires a bounded exact-revision update and review of section 7, not retroactive promotion of these proposed counts into measurements. Research completion, a publicly delivered protocol, external registration, a provider decision, an authorized study, observed results and actual support consumption remain separately attributable events.

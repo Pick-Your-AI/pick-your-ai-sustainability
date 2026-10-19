@@ -3358,29 +3358,32 @@
         "Subscriptions assigned to individual authorized users under the applicable one-year agreement"
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Program documented; current application requirements and form not fully verified",
+      "application_status": "Program documented; public landing HTML is reachable but its body/current group intake is not extractable. Indexed official text provides a bounded route description; full form and submission availability remain Not Verified.",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
       "benefit_amount_or_capacity": "Approved IDE/tool subscriptions; products and seat count subject to confirmation",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Unknown pending an evidenced otherwise necessary purchase or measured time benefit, current currency/quote and actual use, minus setup, switching, renewal and maintenance cost. No retail bundle price is recorded as realized support.",
       "restrictions_and_obligations": [
         "No commercial use; no concurrent sharing of one user's subscription; some team tools are governed separately.",
-        "Brand/name acknowledgement permissions appear in the agreement; annual renewal not guaranteed."
+        "Brand/name acknowledgement permissions appear in the agreement; annual renewal not guaranteed.",
+        "AI Pro is excluded from free OSS bundles. Personal noncommercial and free-core alternatives have separate licensing and data conditions; see the canonical note rather than importing their rules into this group program."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Only request tools needed by actual contributors beyond free alternatives.",
+      "program_objectives": "Support noncommercial open-source development; indexed official program text distinguishes personal IDE use from individually reviewed support for established projects.",
+      "fit_with_pick_your_ai": "Consider only a named maintainer/product feature gap beyond the existing CLI toolchains and applicable free IDE core features. No incremental seat need is currently evidenced.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Named maintainer, actual product and accepted feature gap beyond existing tools",
+        "Actual group customer, commercial-use and compensation facts, jurisdiction and acceptance authority",
+        "Seat custodian, current subscriptions, data-sharing decision and renewal owner",
+        "Current group intake and any actual offer/individual agreement needed to resolve renewal or data-control conflicts"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Primary-source provenance is recorded, including version dates, failed direct extraction and an unresolved alternative-route renewal conflict. Applicant qualification, incremental need, account settings and complete intake remain unverified.",
       "sources": [
         {
           "url": "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
@@ -3399,6 +3402,42 @@
           "source_kind": "official",
           "last_verified": "2026-10-19",
           "review_scope": "Published program facts, not applicant qualification"
+        },
+        {
+          "url": "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Official-domain indexed landing text describes distinct individual and established-project routes; direct page body and live group form remain Not Verified."
+        },
+        {
+          "url": "https://sales.jetbrains.com/hc/en-gb/articles/360021922640-Can-I-use-free-versions-of-IntelliJ-IDEA-and-PyCharm-for-developing-commercial-proprietary-software",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "August 13, 2026 FAQ: free core IDE functionality is a separate alternative; premium/plugin rights and actual feature needs are not established."
+        },
+        {
+          "url": "https://sales.jetbrains.com/hc/en-gb/articles/18950890312210-The-free-non-commercial-licensing-FAQ",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "August 13, 2026 individual-product FAQ; compared with its separate agreement for eligibility, activation, renewal and telemetry distinctions."
+        },
+        {
+          "url": "https://www.jetbrains.com/legal/docs/toolbox/license_non-commercial/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Individual agreement v3.0 effective December 16, 2025; distinct customer/use and data rules; renewal wording conflict retained in the canonical note."
+        },
+        {
+          "url": "https://www.jetbrains.com/legal/docs/terms/product_data_collection/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Data notice v1.6 dated July 7, 2026; documented categories and license-specific controls, not actual installation or account readback."
+        },
+        {
+          "url": "https://www.jetbrains.com/legal/docs/privacy/privacy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Privacy Notice v3.2 dated June 12, 2026; older .html URL redirects here; account/service processing, not a project legal conclusion."
         }
       ],
       "scoring": {
@@ -3415,8 +3454,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Verify project/application eligibility, minimal products/seats and noncommercial-use boundaries.",
+      "independent_reviewer": "ChatGPT (independent in-session Research reviewer, session 07afe94cc113)",
+      "next_action": "Obtain named user/product/feature and existing-license evidence; verify current group intake and actual renewal/data terms before any request.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3432,33 +3471,47 @@
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "JetBrains",
-          "Licenses for Open Source Development"
+          "Licenses for Open Source Development",
+          "JETBRAINS-OSS"
         ],
         "canonical_match": "JETBRAINS-OSS",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Existing register, issue #58, parent #8 and open sustainability PRs inspected. Complete organization-scoped JetBrains issue search returned canonical #58, parent #8 and broader support-stack #61; separate PR search returned no matches. Canonical identity and earlier seed evidence retained; no new record."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT (independent in-session Research reviewer, session 07afe94cc113)",
+        "reviewed_revision": "fab559fbb60acfc7a943b1d73266c059bbb1bcda",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/84#pullrequestreview-5570770906",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted minimal-license recommendation: defer new requested seats pending evidenced need, actual applicant qualification and current intake/terms.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Independent in-session factual review through the shared connected account; not a distinct-account GitHub approval, a legal opinion or an organizational commitment.",
+          "The accepted review covers the complete canonical note, source-access limitations, alternative-route renewal conflict, license-specific privacy conditions and structured consistency at the linked exact revision.",
+          "Actual required capacity, current licenses, applicant eligibility, full current group intake, private terms, data settings and usable value remain Unknown or Not Verified as recorded. No application, award or activation is established."
         ]
       },
       "owning_research_key": "E07-03",
       "source_urls": [
         "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
         "https://www.jetbrains.com/legal/docs/toolbox/license_opensource/",
-        "https://sales.jetbrains.com/hc/en-gb/articles/16544922728466-Is-JetBrains-AI-subscription-included-in-All-Products-Pack-or-dotUltimate"
+        "https://sales.jetbrains.com/hc/en-gb/articles/16544922728466-Is-JetBrains-AI-subscription-included-in-All-Products-Pack-or-dotUltimate",
+        "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+        "https://sales.jetbrains.com/hc/en-gb/articles/360021922640-Can-I-use-free-versions-of-IntelliJ-IDEA-and-PyCharm-for-developing-commercial-proprietary-software",
+        "https://sales.jetbrains.com/hc/en-gb/articles/18950890312210-The-free-non-commercial-licensing-FAQ",
+        "https://www.jetbrains.com/legal/docs/toolbox/license_non-commercial/",
+        "https://www.jetbrains.com/legal/docs/terms/product_data_collection/",
+        "https://www.jetbrains.com/legal/docs/privacy/privacy/"
       ],
       "source_evidence": [
         "Current legal agreement v5 effective 1 September 2026 grants one-year per-user use solely for noncommercial OSS development and permits discretionary renewal.",
-        "AI Pro is explicitly excluded from free OSS licenses. Main program landing page did not expose readable eligibility details."
+        "AI Pro is explicitly excluded from free OSS licenses. Main program landing page did not expose readable eligibility details.",
+        "2026-10-19: direct canonical landing GET returned HTTP 200 but no readable program body; indexed official referral-page text was recovered, with live group form and thresholds still Not Verified.",
+        "The current personal noncommercial FAQ and its agreement give different renewal descriptions; this conflict is retained and does not change the group OSS renewal procedure.",
+        "The canonical assessment distinguishes anonymous telemetry, detailed code-related data, account state and license-specific published controls; no installed setting or consent was verified.",
+        "Canonical deliverable: research/tooling/jetbrains-oss.md. Recommended current request is zero new seats pending an evidenced incremental need; required capacity and usable value remain Unknown."
       ],
       "benefit": "Approved IDE/tool subscriptions; products and seat count subject to confirmation",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "estimated_usable_value_method": "Unknown pending an evidenced otherwise necessary purchase or measured time benefit, current currency/quote and actual use, minus setup, switching, renewal and maintenance cost. No retail bundle price is recorded as realized support.",
+      "source_freshness": "Readable official terms/FAQs and bounded indexed evidence inspected 2026-10-19; direct group-intake body remains unavailable. Recheck actual terms and account state before action.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
@@ -3466,7 +3519,13 @@
       "source_refs": [
         "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
         "https://www.jetbrains.com/legal/docs/toolbox/license_opensource/",
-        "https://sales.jetbrains.com/hc/en-gb/articles/16544922728466-Is-JetBrains-AI-subscription-included-in-All-Products-Pack-or-dotUltimate"
+        "https://sales.jetbrains.com/hc/en-gb/articles/16544922728466-Is-JetBrains-AI-subscription-included-in-All-Products-Pack-or-dotUltimate",
+        "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+        "https://sales.jetbrains.com/hc/en-gb/articles/360021922640-Can-I-use-free-versions-of-IntelliJ-IDEA-and-PyCharm-for-developing-commercial-proprietary-software",
+        "https://sales.jetbrains.com/hc/en-gb/articles/18950890312210-The-free-non-commercial-licensing-FAQ",
+        "https://www.jetbrains.com/legal/docs/toolbox/license_non-commercial/",
+        "https://www.jetbrains.com/legal/docs/terms/product_data_collection/",
+        "https://www.jetbrains.com/legal/docs/privacy/privacy/"
       ],
       "application_url": "https://www.jetbrains.com/community/opensource/",
       "internal_application_review_controls": [
@@ -3476,29 +3535,29 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "Incomplete: live group intake fields and attachments remain Not Verified. The existing published use/user requirements are retained; the proposed user/feature inventory is an internal readiness control, not a claimed provider form.",
       "published_qualification_requirements": [
         "Use solely for noncommercial open-source development",
         "Subscriptions assigned to individual authorized users under the applicable one-year agreement"
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "currency_status": "No monetary offer or valuation is asserted in this assessment; currency remains null until a relevant actual quote or agreement establishes it.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Complete canonical findings and structured consistency at fab559fbb60acfc7a943b1d73266c059bbb1bcda, accepted in the linked PR review; not applicant qualification, empirical productivity measurement, legal advice, GitHub APPROVE or agreement acceptance."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical findings accepted; actual applicant eligibility remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Canonical group OSS program entry remains the official landing page. Personal noncommercial subscriptions and free core IDE features are distinct alternatives, not organization license pools or new funded opportunities.",
+      "current_disposition": "Defer a new license request: no named-user/product gap or accepted applicant and seat plan is evidenced.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Defer a new license request: no named-user/product gap or accepted applicant and seat plan is evidenced.",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -8206,7 +8265,7 @@
   "important_limitations": [
     "Published source facts and explicit access/history limitations are recorded for all 41 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "14 nonprofit/funding records and 27 compute/tool/hardware/service records share the same schema and stable owning research keys. E06-04 adds two distinct physical-equipment program identities under the existing comparative issue; those records are not duplicate issues.",
-    "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion does not accept the other program assessments. Published external deadlines are recorded separately with exact source/timezone.",
+    "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",

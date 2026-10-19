@@ -4,11 +4,13 @@ Canonical issue: [E05-01G / #45](https://github.com/Pick-Your-AI/pick-your-ai-su
 Opportunity: **TOGETHER-RESEARCH** in [the register](../../data/opportunities.json)
 Source inspection: **19 October 2026**
 Researcher: ChatGPT, project session fb6378fc6b16
-Status: complete assessment proposed for independent review; no application or award
+Status: independently accepted bounded assessment; no application or award
+
+Independent findings acceptance: [review 5570818136](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136), on published source 9442547017fdfbcdb38915d40ee3cf490aa53157.
 
 ## Decision
 
-**Do not pursue these credits for the proposed public comparison study under the currently published terms.** The program's invitation and applicant ambiguity remains unresolved. A separate, material restriction in the current Terms of Service also prevents treating a research-credit invitation as permission for the intended benchmarking. Reopen only when a documented program-specific permission covers the actual study and an eligible applicant and invitation route are established.
+**Do not pursue these credits for the proposed public comparison study under the currently published terms.** The program's invitation and applicant ambiguity remains unresolved. A separate, material restriction in the current Terms of Service also prevents treating a research-credit invitation as permission for the intended benchmarking. Reopen only when changed official terms or documented program-specific permission covers the actual study and an eligible applicant and invitation route are established.
 
 This is a bounded research disposition, not a finding that every conceivable Together research project is ineligible. It preserves **Unknown** applicant eligibility, **P3** priority and the historical **Discovered** stage. No score, usable monetary value, provider commitment or organizational legal status is inferred.
 
@@ -93,4 +95,6 @@ A future authorized inquiry would need to resolve these exact questions:
 
 This question set is preparation, not an unsent message approved for delivery. The project's repository-work authorization does not invent a provider response or organizational applicant facts.
 
-Independent acceptance must identify the actual reviewed revision and sources, confirm the narrower Not Pursuing recommendation and unresolved eligibility, and verify the canonical record, pipeline projection and freshness membership. Until that review is recorded, the document and record do not claim accepted research or issue completion. The eventual research acceptance can close this bounded qualification question while keeping applications, awards and activation separate.
+The linked independent review read all six current official sources, the complete memo and all three JSON changes, and accepted the actual findings against all thirteen issue criteria on the identified source. It verified preservation of the other 38 program records and projections and the exact five-source addition. It did not claim execution of the author's tests, another-account approval, applicant qualification or a legal opinion.
+
+The follow-up aligns the reopening alternatives and records that acceptance without changing the research disposition. Main delivery, current hosted checks and the final issue readback are recorded in [PR #85](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85). Closing the bounded research question does not change its separate application, award or activation gates.

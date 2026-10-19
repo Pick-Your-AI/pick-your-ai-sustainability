@@ -4963,7 +4963,7 @@
       "application_gate": "No application or activation: applicant/invitation unresolved and the proposed benchmarking needs explicit written permission under the current use restriction.",
       "application_status": "Invitation-only public description; invitation acquisition and complete intake remain Unknown",
       "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -5038,7 +5038,7 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT independent Research reviewer, project session fb6378fc6b16",
       "next_action": "Retain the scoped Not Pursuing finding; revisit only on changed official terms or a documented program-specific permission and applicant route.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -5063,14 +5063,15 @@
         "scope": "Local register and owning issue/comments; organization Together-in-title issue search returned #45 only. Broader 30-result issue search retained technical references, not additional grant identities."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Complete canonical assessment proposed for independent review",
+        "reviewer": "ChatGPT independent Research reviewer, project session fb6378fc6b16",
+        "reviewed_revision": "9442547017fdfbcdb38915d40ee3cf490aa53157",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136",
+        "decision": "Accepted bounded findings: Not Pursuing for the specified public comparison study; applicant eligibility Unknown",
         "limitations": [
           "Applicant eligibility, invitation, award terms and actual account state remain Unknown.",
           "The scoped Not Pursuing recommendation is not a finding that all Together research is ineligible.",
-          "No outreach, application, provider execution, purchase or activation performed."
+          "No outreach, application, provider execution, purchase or activation performed.",
+          "Delegated independent findings review is not a separate-account GitHub APPROVED vote or a legal opinion."
         ]
       },
       "owning_research_key": "E05-01G",

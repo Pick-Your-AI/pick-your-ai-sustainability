@@ -1368,7 +1368,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "state": "Source retrieved; scoped research findings independently accepted; applicant/award facts remain Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -1388,7 +1388,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "state": "Source retrieved; scoped research findings independently accepted; applicant/award facts remain Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1406,7 +1406,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "state": "Source retrieved; scoped research findings independently accepted; applicant/award facts remain Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1424,7 +1424,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "state": "Source retrieved; scoped research findings independently accepted; applicant/award facts remain Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1442,7 +1442,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "state": "Source retrieved; scoped research findings independently accepted; applicant/award facts remain Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1460,7 +1460,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source retrieved; canonical assessment awaiting independent acceptance; applicant/award facts remain Unknown",
+      "state": "Source retrieved; scoped research findings independently accepted; applicant/award facts remain Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]

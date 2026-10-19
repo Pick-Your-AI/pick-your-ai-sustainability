@@ -779,10 +779,10 @@
     {
       "opportunity_id": "GSOC-MENTOR-ORG",
       "program_name": "Summer of Code mentoring organization",
-      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "source_review_status": "Complete public-source program/intake findings independently accepted at 7ed05f306e4e7461052407f10e928da5a960d34e; canonical publication pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
       "research_status": "Blocked",
-      "opportunity_stage": "Discovered",
+      "opportunity_stage": "Verified",
       "disposition": "Prepare capacity; defer application/enrollment and recruitment.",
       "eligibility": "Unknown actual applicant; historical 2026 organization intake closed and next cycle unverified.",
       "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
@@ -794,7 +794,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application."
+      "next_action": "Preserve the accepted findings and reviewed metadata through the permitted repository route, then complete canonical publication when its gate is resolved. Verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application."
     },
     {
       "opportunity_id": "TECHSOUP-REFURBISHED-HARDWARE",
@@ -839,10 +839,10 @@
     {
       "opportunity_id": "LFX-MENTORSHIP-HOST",
       "program_name": "LFX Mentorship project enrollment",
-      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "source_review_status": "Complete public-source program/intake findings independently accepted at 7ed05f306e4e7461052407f10e928da5a960d34e; canonical publication pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
       "research_status": "Blocked",
-      "opportunity_stage": "Discovered",
+      "opportunity_stage": "Verified",
       "disposition": "Prepare capacity; defer application/enrollment and recruitment.",
       "eligibility": "Unknown actual project/participant eligibility; no selected term or approved program.",
       "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
@@ -854,7 +854,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application."
+      "next_action": "Preserve the accepted findings and reviewed metadata through the permitted repository route, then complete canonical publication when its gate is resolved. Verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application."
     }
   ]
 }

@@ -8034,7 +8034,7 @@
       ],
       "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
       "application_status": "Organization registration closed. Dated2026 deadline passed; no later cycle or form verified.",
-      "opportunity_stage": "Discovered",
+      "opportunity_stage": "Verified",
       "work_status": "Blocked",
       "verified_deadline": null,
       "deadline_timezone": null,
@@ -8180,7 +8180,7 @@
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application.",
+      "next_action": "Preserve the accepted findings and reviewed metadata through the permitted repository route, then complete canonical publication when its gate is resolved. Verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -8207,11 +8207,13 @@
       },
       "review": {
         "reviewer": "/root/apple; in-session shared project account",
-        "reviewed_revision": "98418492424f37b3a3afe0c90dc51de7b2f89bf4",
-        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6274369249",
-        "decision": "Initial note changes requested: platform rights/survival and U.S. Activities. Author corrections await successor review; full records were outside the initial scope.",
+        "reviewed_revision": "7ed05f306e4e7461052407f10e928da5a960d34e",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6275073298",
+        "decision": "Accepted complete bounded research findings on 2026-10-19 at 19:07:34 UTC; both initial note findings resolved. Canonical publication under criterion12 remains pending.",
         "limitations": [
-          "No full findings acceptance, separate-account approval, actual applicant determination, participant, application, award or activation."
+          "Shared-account engineering review is not a separate-account APPROVED vote, legal advice, provider acceptance or a human mentorship commitment.",
+          "All actual applicant, current intake, participant, mentor capacity, application, award, activation, value and outcome gates retain their recorded Unknowns or explicit absence.",
+          "Verified describes the independently accepted assessment, not a Qualified applicant. Work status remains Blocked for pending canonical publication; the standing PR/readiness cost gate is unchanged."
         ]
       },
       "owning_research_key": "E08-05",
@@ -8272,7 +8274,7 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "source_review_status": "Complete public-source program/intake findings independently accepted at 7ed05f306e4e7461052407f10e928da5a960d34e; canonical publication pending",
       "applicant_qualification_status": "Unknown actual applicant; no project, community, mentor or agreement acceptance.",
       "score_reason": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
       "award_status": "Unknown; no award evidence established",
@@ -8291,7 +8293,7 @@
         "issue_number": 66,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
       },
-      "research_assessment_status": "Complete source prepared for successor review; two initial note findings now addressed by the author. Full findings acceptance and canonical delivery remain pending.",
+      "research_assessment_status": "Complete bounded findings accepted in actual shared-account review6275073298 on 2026-10-19 at 19:07:34 UTC. Canonical publication remains pending under criterion12 and the standing cost gate; research work stays Blocked until delivery.",
       "native_dependency_status": "Issue22 was directly read closed; this does not establish program or participant readiness.",
       "canonical_deliverable": "research/partnerships/mentorship-volunteers.md",
       "review_history": [
@@ -8302,6 +8304,15 @@
           "decision": "Source consistency reviewed; full research deliverable not accepted",
           "limitations": [
             "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          ]
+        },
+        {
+          "reviewer": "/root/apple; in-session shared project account",
+          "reviewed_revision": "98418492424f37b3a3afe0c90dc51de7b2f89bf4",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6274369249",
+          "decision": "Initial note changes requested: platform rights/survival and U.S. Activities. Author corrections await successor review; full records were outside the initial scope.",
+          "limitations": [
+            "No full findings acceptance, separate-account approval, actual applicant determination, participant, application, award or activation."
           ]
         }
       ],
@@ -9020,7 +9031,7 @@
       ],
       "application_gate": "Defer application/enrollment and recruitment; actual authority, applicant qualification, mentor commitments, accepted program and operating package are unverified.",
       "application_status": "Documented project-submission and review process; portal contents, current listing, form and term dates unverified.",
-      "opportunity_stage": "Discovered",
+      "opportunity_stage": "Verified",
       "work_status": "Blocked",
       "verified_deadline": null,
       "deadline_timezone": null,
@@ -9217,7 +9228,7 @@
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Obtain exact-source successor findings review; then verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application.",
+      "next_action": "Preserve the accepted findings and reviewed metadata through the permitted repository route, then complete canonical publication when its gate is resolved. Verify actual intake, project rights, human mentor capacity and operating safeguards before considering an application.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -9244,11 +9255,13 @@
       },
       "review": {
         "reviewer": "/root/apple; in-session shared project account",
-        "reviewed_revision": "98418492424f37b3a3afe0c90dc51de7b2f89bf4",
-        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6274369249",
-        "decision": "Initial note changes requested: platform rights/survival and U.S. Activities. Author corrections await successor review; full records were outside the initial scope.",
+        "reviewed_revision": "7ed05f306e4e7461052407f10e928da5a960d34e",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6275073298",
+        "decision": "Accepted complete bounded research findings on 2026-10-19 at 19:07:34 UTC; both initial note findings resolved. Canonical publication under criterion12 remains pending.",
         "limitations": [
-          "No full findings acceptance, separate-account approval, actual applicant determination, participant, application, award or activation."
+          "Shared-account engineering review is not a separate-account APPROVED vote, legal advice, provider acceptance or a human mentorship commitment.",
+          "All actual applicant, current intake, participant, mentor capacity, application, award, activation, value and outcome gates retain their recorded Unknowns or explicit absence.",
+          "Verified describes the independently accepted assessment, not a Qualified applicant. Work status remains Blocked for pending canonical publication; the standing PR/readiness cost gate is unchanged."
         ]
       },
       "owning_research_key": "E08-05",
@@ -9286,13 +9299,13 @@
         "https://www.linuxfoundation.org/legal/privacy-policy",
         "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct"
       ],
-      "source_review_status": "Public-source assessment prepared; complete findings acceptance pending",
+      "source_review_status": "Complete public-source program/intake findings independently accepted at 7ed05f306e4e7461052407f10e928da5a960d34e; canonical publication pending",
       "priority_recommendation": "P2",
       "score": null,
       "score_reason": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
       "scoring_justification": "P2: promising but incompletely qualified. Actual applicant, mentor capacity, current program intake, net usable value and effort are Unknown; all eight components and total remain null.",
       "priority_scope_note": "Qualitative research priority; no applicant or numeric opportunity score.",
-      "research_assessment_status": "Complete source prepared for successor review; two initial note findings now addressed by the author. Full findings acceptance and canonical delivery remain pending.",
+      "research_assessment_status": "Complete bounded findings accepted in actual shared-account review6275073298 on 2026-10-19 at 19:07:34 UTC. Canonical publication remains pending under criterion12 and the standing cost gate; research work stays Blocked until delivery.",
       "native_dependency_status": "Issue22 was directly read closed; this does not establish program or participant readiness.",
       "award_status": "Unknown; no award evidence established",
       "currency_status": "No actual offer, award or intended currency established.",
@@ -9314,7 +9327,18 @@
       ],
       "source_freshness": "Dated public observations2026-10-19; portal/form successful verification remains null.",
       "application_route_description": "Prepare project and actual mentor capacity, then inspect current enrollment and selected-program terms before considering submission.",
-      "gate": "No accepted project, inspected form/term, actual mentor commitments or complete operating package."
+      "gate": "No accepted project, inspected form/term, actual mentor commitments or complete operating package.",
+      "review_history": [
+        {
+          "reviewer": "/root/apple; in-session shared project account",
+          "reviewed_revision": "98418492424f37b3a3afe0c90dc51de7b2f89bf4",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66#issuecomment-6274369249",
+          "decision": "Initial note changes requested: platform rights/survival and U.S. Activities. Author corrections await successor review; full records were outside the initial scope.",
+          "limitations": [
+            "No full findings acceptance, separate-account approval, actual applicant determination, participant, application, award or activation."
+          ]
+        }
+      ]
     }
   ],
   "important_limitations": [

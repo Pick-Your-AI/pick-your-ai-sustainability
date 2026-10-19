@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 267,
-  "records_count": 43,
+  "source_count": 312,
+  "records_count": 47,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -5606,6 +5606,1499 @@
           "successful_complete_form_or_contract_review": false
         }
       ]
+    },
+    {
+      "url": "https://www.eclipse.org/projects/bring-your-project/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive admission/services overview; no actual project proposal or service entitlement.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence",
+        "program_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "E1",
+          "url": "https://www.eclipse.org/projects/bring-your-project/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current public overview; no page-wide effective date observed",
+          "scope": "Complete substantive admission/services overview; no actual project proposal or service entitlement.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/projects/handbook/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Bounded starting/vendor-neutrality, ownership, resources, AI/disclosure and termination sections; not the entire handbook.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E2",
+          "url": "https://www.eclipse.org/projects/handbook/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current handbook; AI guideline v1.0 April 2024",
+          "scope": "Bounded starting/vendor-neutrality, ownership, resources, AI/disclosure and termination sections; not the entire handbook.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/projects/dev_process/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Principles, project roles/resources/plans, lifecycle/reviews/releases and change history; no specific project charter.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E3",
+          "url": "https://www.eclipse.org/projects/dev_process/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current Development Process; July 1, 2026 change history",
+          "scope": "Principles, project roles/resources/plans, lifecycle/reviews/releases and change history; no specific project charter.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/org/documents/eclipse-ip-policy.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete 12 pages / 412 extracted lines: definitions and sections I–X. Initial display ended at line 376; final 365–411 read separately.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E4",
+          "url": "https://www.eclipse.org/org/documents/eclipse-ip-policy.pdf",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "8.0.1 — 2026.03.18",
+          "scope": "Complete 12 pages / 412 extracted lines: definitions and sections I–X. Initial display ended at line 376; final 365–411 read separately.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/legal/eca/eca.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete 53-line public reference text, including all DCO 1.1 clauses. The account acceptance form was not opened or submitted.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E5",
+          "url": "https://www.eclipse.org/legal/eca/eca.html",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "3.2.0 — March 3, 2026",
+          "scope": "Complete 53-line public reference text, including all DCO 1.1 clauses. The account acceptance form was not opened or submitted.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/membership/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public membership classification, enrollment and fee/FAQ description; no selected applicant class or hosting quote.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E6",
+          "url": "https://www.eclipse.org/membership/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current public membership page; actual agreement unexecuted",
+          "scope": "Public membership classification, enrollment and fee/FAQ description; no selected applicant class or hosting quote.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/legal/logo-guidelines/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete 315-line page, all substantive sections 1–6.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E7",
+          "url": "https://www.eclipse.org/legal/logo-guidelines/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "1.1.1",
+          "scope": "Complete 315-line page, all substantive sections 1–6.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://eclipse.org/legal/Trademark_Transfer_Agreement.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete seven pages / 176 extracted lines, all clauses 1–10, signature page and Exhibit A.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E8",
+          "url": "https://eclipse.org/legal/Trademark_Transfer_Agreement.pdf",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2.7",
+          "scope": "Complete seven pages / 176 extracted lines, all clauses 1–10, signature page and Exhibit A.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/legal/privacy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete 351-line page, all substantive sections 214–309; followed actual trademark-policy privacy link.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "E9",
+          "url": "https://www.eclipse.org/legal/privacy/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Last updated 15 February 2024",
+          "scope": "Complete 351-line page, all substantive sections 214–309; followed actual trademark-policy privacy link.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://projects.eclipse.org/create/project-proposal",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Exact proposal entry redirected to sign-in; live form, account and application contents not inspected.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Not Verified — protected form contents uninspected",
+      "source_roles": [
+        "source_evidence",
+        "application_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "E10",
+          "url": "https://projects.eclipse.org/create/project-proposal",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Observed October 19, 2026",
+          "scope": "Exact proposal entry redirected to sign-in; live form, account and application contents not inspected.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": null,
+          "access_result": "Authentication required; private form contents Not Verified",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/policy/incubation.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 121-line web extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A1",
+          "url": "https://incubator.apache.org/policy/incubation.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "No document-wide revision date observed; live current policy, copyright footer is not an effective date.",
+          "scope": "Full 121-line web extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/cookbook/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 219-line extraction; exact mentor paragraph rechecked from saved response.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence",
+        "program_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "A2",
+          "url": "https://incubator.apache.org/cookbook/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated live guide; old proposal examples and 2018 vision are historical, not current intake rounds.",
+          "scope": "Full 219-line extraction; exact mentor paragraph rechecked from saved response.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/guides/proposal.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 78-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence",
+        "application_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "A3",
+          "url": "https://incubator.apache.org/guides/proposal.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated guidance; explicitly subordinate to policy and warns documentation/older examples may be outdated.",
+          "scope": "Full 78-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/how-it-works/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 257-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A4",
+          "url": "https://www.apache.org/foundation/how-it-works/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current overview; redirect observed.",
+          "scope": "Full 257-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/contributor-agreements.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 99-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A5",
+          "url": "https://www.apache.org/licenses/contributor-agreements.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current process page.",
+          "scope": "Full 99-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://apache.org/licenses/icla.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All two pages, 117 extracted text lines; no visual/signature verification.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A6",
+          "url": "https://apache.org/licenses/icla.pdf",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Blank ICLA V2.2; no project execution date.",
+          "scope": "All two pages, 117 extracted text lines; no visual/signature verification.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/cla-corporate.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All three pages, 129 extracted text lines; text-only.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A7",
+          "url": "https://www.apache.org/licenses/cla-corporate.pdf",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Blank form identifier v r190612; not converted into an inferred calendar date.",
+          "scope": "All three pages, 129 extracted text lines; text-only.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/software-grant-template.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Both pages, 57 extracted text lines; text-only.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A8",
+          "url": "https://www.apache.org/licenses/software-grant-template.pdf",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Blank undated template; no effective date or project Exhibit A.",
+          "scope": "Both pages, 57 extracted text lines; text-only.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 104-line extraction, all sections 1–9 and application appendix.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A9",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Version 2.0, January 2004; authoritative English text.",
+          "scope": "Full 104-line extraction, all sections 1–9 and application appendix.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/legal/resolved",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 338-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A10",
+          "url": "https://www.apache.org/legal/resolved",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live policy; one criteria footnote dated 2019-02-16 is not the revision date of the entire current page.",
+          "scope": "Full 338-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/legal/generative-tooling.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 94-line extraction, including code, documentation, image, tool-chain and public-publication sections.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A11",
+          "url": "https://www.apache.org/legal/generative-tooling.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Guidance describes its position as August 2026; no numbered version observed.",
+          "scope": "Full 94-line extraction, including code, documentation, image, tool-chain and public-publication sections.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/marks/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 157-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A12",
+          "url": "https://www.apache.org/foundation/marks/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Explicit version 1.2, published March 2021; current live page inspected.",
+          "scope": "Full 157-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://infra.apache.org/infra-incubator.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 80-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A13",
+          "url": "https://infra.apache.org/infra-incubator.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current operational guide.",
+          "scope": "Full 80-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/legal/release-policy.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 340-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A14",
+          "url": "https://www.apache.org/legal/release-policy.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live current policy; historic NOTICE correction and beta tooling references are not a document-wide effective date.",
+          "scope": "Full 340-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/security/committers.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 113-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A15",
+          "url": "https://www.apache.org/security/committers.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current guidance.",
+          "scope": "Full 113-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/sponsorship.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 153-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A16",
+          "url": "https://www.apache.org/foundation/sponsorship.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live schedule inspected; annual sponsorship begins at payment. Dated initiative announcements are separate from admission.",
+          "scope": "Full 153-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/individual-supporters",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 63-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A17",
+          "url": "https://www.apache.org/foundation/individual-supporters",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live undated page; legacy URL redirects.",
+          "scope": "Full 63-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://attic.apache.org/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 194-line extraction including navigation.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A18",
+          "url": "https://attic.apache.org/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current retirement overview; creation in 2008 is historical.",
+          "scope": "Full 194-line extraction including navigation.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/guides/retirement.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 74-line extraction.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "A19",
+          "url": "https://incubator.apache.org/guides/retirement.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live guide with legacy operational references; no document-wide revision date.",
+          "scope": "Full 74-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/accelerator",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Full 299-line public program page; substantive program/criteria/dates sections",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence",
+        "program_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "F1",
+          "url": "https://www.ffwd.org/accelerator",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2027 cohort described; page inspected 2026-10-19",
+          "scope": "Full 299-line public program page; substantive program/criteria/dates sections",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/faq",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All public FAQ sections read, accelerator section primary to this slice",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "F2",
+          "url": "https://www.ffwd.org/faq",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2027 accelerator; undated current FAQ",
+          "scope": "All public FAQ sections read, accelerator section primary to this slice",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://apply.ffwd.org/2027-accelerator",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Exact public Apply link; entire9-line response",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Not Verified — protected form contents uninspected",
+      "source_roles": [
+        "source_evidence",
+        "application_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "F3",
+          "url": "https://apply.ffwd.org/2027-accelerator",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Observed 2026-10-19",
+          "scope": "Exact public Apply link; entire9-line response",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": null,
+          "access_result": "Authentication required; private form contents Not Verified",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/terms-of-service",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire180-line text read across two retrievals",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "F4",
+          "url": "https://www.ffwd.org/terms-of-service",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Effective2021-02-01; still linked on inspected site",
+          "scope": "Entire180-line text read across two retrievals",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/privacy-policy",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire170-line text read",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "F5",
+          "url": "https://www.ffwd.org/privacy-policy",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Effective2021-02-01",
+          "scope": "Entire170-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/events-conduct-policy",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire153-line text read",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "F6",
+          "url": "https://www.ffwd.org/events-conduct-policy",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated linked policy, inspected2026-10-19",
+          "scope": "Entire153-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/fellowship/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire94-line program page",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence",
+        "program_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "G1",
+          "url": "https://echoinggreen.org/fellowship/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current undated page, inspected2026-10-19",
+          "scope": "Entire94-line program page",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/fellowship/apply/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire191-line public application/rules page",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence",
+        "application_endpoint"
+      ],
+      "observations": [
+        {
+          "source_id": "G2",
+          "url": "https://echoinggreen.org/fellowship/apply/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Explicit2026 cycle; now CLOSED",
+          "scope": "Entire191-line public application/rules page",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/wp-content/uploads/2025/09/FY26-Echoing-Green-Recoverable-Grants-FAQ.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All3PDF pages/74text lines read; no visual inspection claim",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G3",
+          "url": "https://echoinggreen.org/wp-content/uploads/2025/09/FY26-Echoing-Green-Recoverable-Grants-FAQ.pdf",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "FY26 linked PDF; URL2025-09",
+          "scope": "All3PDF pages/74text lines read; no visual inspection claim",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/wp-content/uploads/2025/07/Echoing-Green-Offline-Fellowship-Worksheet-2026.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All4PDF pages/82text lines read; no visual inspection claim",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G4",
+          "url": "https://echoinggreen.org/wp-content/uploads/2025/07/Echoing-Green-Offline-Fellowship-Worksheet-2026.pdf",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2026 worksheet; URL2025-07",
+          "scope": "All4PDF pages/82text lines read; no visual inspection claim",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire130-line text read",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G5",
+          "url": "https://echoinggreen.org/policies/privacy-policy/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Updated2025-08-05",
+          "scope": "Entire130-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/terms-of-use/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire88-line text read",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G6",
+          "url": "https://echoinggreen.org/policies/terms-of-use/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current linked terms",
+          "scope": "Entire88-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/content-rights-and-license/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire56-line text read",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G7",
+          "url": "https://echoinggreen.org/policies/content-rights-and-license/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current linked policy",
+          "scope": "Entire56-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/code-of-conduct/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire50-line text read",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G8",
+          "url": "https://echoinggreen.org/policies/code-of-conduct/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current linked policy",
+          "scope": "Entire50-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/follow-on-funding-2/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire208-line public page read",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G9",
+          "url": "https://echoinggreen.org/follow-on-funding-2/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Cycle10, Sept29–Oct14 window without explicit year; exclusions name2025/2026 priorcycles",
+          "scope": "Entire208-line public page read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Only Notes10 and14 substantive scope; no full22-page financial audit or visual inspection claim",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any proposal, application, agreement, transfer or activation",
+        "On changed provider terms, source access, applicant evidence, closure or reopening"
+      ],
+      "state": "Verified only for the specified public documentary observation",
+      "source_roles": [
+        "source_evidence"
+      ],
+      "observations": [
+        {
+          "source_id": "G10",
+          "url": "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "FYended2025-06-30; audit dated2025-12-11",
+          "scope": "Only Notes10 and14 substantive scope; no full22-page financial audit or visual inspection claim",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ]
     }
   ],
   "rules": [
@@ -5614,6 +7107,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 239,
+  "source_evidence_url_count": 284,
   "additional_unverified_endpoint_count": 28
 }

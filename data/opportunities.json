@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 43,
+  "records_count": 47,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -9784,6 +9784,1194 @@
           "scope": "Original published research state before actual findings review5575474352."
         }
       ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "ECLIPSE-PROJECT-HOSTING",
+      "provider": "Eclipse Foundation",
+      "program_name": "Eclipse Foundation project hosting",
+      "program_aliases": [
+        "Eclipse project admission"
+      ],
+      "round": "Continuing public project-proposal process; no dated admission round verified",
+      "category": "partnership",
+      "support_type": "institutional_governance_and_shared_infrastructure",
+      "official_program_url": "https://www.eclipse.org/projects/bring-your-project/",
+      "official_application_url": "https://projects.eclipse.org/create/project-proposal",
+      "eligibility_jurisdiction": "International software-community process; actual parties, jurisdiction and authority Unknown.",
+      "legal_entity_requirements": "Actual contributors/committer and asset authority required; organizational recognition alone is insufficient.",
+      "available_before_incorporation": "Unknown — no admitted scope, actual community consent, complete rights or maintenance capacity established.",
+      "available_through_fiscal_sponsorship": "Unknown — actual host agreement, asset mandate and outside-project obligations unverified.",
+      "available_after_501c3_recognition": "Unknown — no actual recognized entity; recognition would not establish admission or contribution/brand rights.",
+      "eligibility_status": "Unknown — actual applicant qualification not established",
+      "eligibility_conditions": [
+        "Unknown — no admitted scope, actual community consent, complete rights or maintenance capacity established.",
+        "Unknown — actual host agreement, asset mandate and outside-project obligations unverified.",
+        "Unknown — no actual recognized entity; recognition would not establish admission or contribution/brand rights."
+      ],
+      "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
+      "application_status": "Public process documented; exact proposal endpoint requires sign-in, live form not inspected.",
+      "opportunity_stage": "Discovered",
+      "work_status": "Blocked",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Noncash project stewardship/services described; actual allocation and cash Unknown.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "No actual award/usage/otherwise-purchased service. Separate conditional cash from documented avoided costs; see canonical memo.",
+      "restrictions_and_obligations": [
+        "Community governance/resource/brand custody differs from retained contributor copyright; see memo section 1.",
+        "Current IP and ECA instruments distinguish project content, distribution and specification grants; actual authority unresolved.",
+        "Trademark/domain template has no automatic exit reversion; actual signed schedule absent.",
+        "Public contribution records and privacy exceptions differ from routine log retention; no private-storage assurance.",
+        "Release/security/community work continues; precise allocation, fees, overage and export support Unknown."
+      ],
+      "program_objectives": "Institutional or nonprofit capacity support as specifically documented in the canonical comparison.",
+      "fit_with_pick_your_ai": "Conditional fit for a bounded authorized public source-provenance software/education component; actual beneficiaries, scope and capacity unverified.",
+      "required_application_evidence": [
+        "Defined proposed scope and initial people",
+        "Complete contributor and material-rights docket",
+        "Actual community/brand/migration mandate"
+      ],
+      "required_contacts_or_decisions": [
+        "Eight unexecuted decision gates in the canonical memo; no contact or person appointed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17"
+      ],
+      "confidence": "Dated official documentary scopes checked; applicant, executed agreement and independent findings acceptance remain separate.",
+      "sources": [
+        {
+          "source_id": "E1",
+          "url": "https://www.eclipse.org/projects/bring-your-project/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current public overview; no page-wide effective date observed",
+          "scope": "Complete substantive admission/services overview; no actual project proposal or service entitlement.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E2",
+          "url": "https://www.eclipse.org/projects/handbook/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current handbook; AI guideline v1.0 April 2024",
+          "scope": "Bounded starting/vendor-neutrality, ownership, resources, AI/disclosure and termination sections; not the entire handbook.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E3",
+          "url": "https://www.eclipse.org/projects/dev_process/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current Development Process; July 1, 2026 change history",
+          "scope": "Principles, project roles/resources/plans, lifecycle/reviews/releases and change history; no specific project charter.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E4",
+          "url": "https://www.eclipse.org/org/documents/eclipse-ip-policy.pdf",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "8.0.1 — 2026.03.18",
+          "scope": "Complete 12 pages / 412 extracted lines: definitions and sections I–X. Initial display ended at line 376; final 365–411 read separately.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E5",
+          "url": "https://www.eclipse.org/legal/eca/eca.html",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "3.2.0 — March 3, 2026",
+          "scope": "Complete 53-line public reference text, including all DCO 1.1 clauses. The account acceptance form was not opened or submitted.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E6",
+          "url": "https://www.eclipse.org/membership/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current public membership page; actual agreement unexecuted",
+          "scope": "Public membership classification, enrollment and fee/FAQ description; no selected applicant class or hosting quote.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E7",
+          "url": "https://www.eclipse.org/legal/logo-guidelines/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "1.1.1",
+          "scope": "Complete 315-line page, all substantive sections 1–6.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E8",
+          "url": "https://eclipse.org/legal/Trademark_Transfer_Agreement.pdf",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2.7",
+          "scope": "Complete seven pages / 176 extracted lines, all clauses 1–10, signature page and Exhibit A.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E9",
+          "url": "https://www.eclipse.org/legal/privacy/",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Last updated 15 February 2024",
+          "scope": "Complete 351-line page, all substantive sections 214–309; followed actual trademark-policy privacy link.",
+          "attribution": "In-session Apple second-source lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "E10",
+          "url": "https://projects.eclipse.org/create/project-proposal",
+          "publisher": "Eclipse Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Observed October 19, 2026",
+          "scope": "Exact proposal entry redirected to sign-in; live form, account and application contents not inspected.",
+          "attribution": "In-session root source research",
+          "last_successful_scope_review": null,
+          "access_result": "Authentication required; private form contents Not Verified",
+          "http_status": null
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under20/20/15/10/10/10/10/5 weights; actual eligibility, usable value, people/capacity and defensible factor ratings are absent. Priority follows the memo, not an invented total."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Resolve selected scope, rights, people, governance and resource/exit docket; recheck actual terms before any proposal.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any proposal/application/agreement; on changed provider terms, source access, applicant facts or project scope.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+      "application_outcome": "No submission in this research; prior state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this research; prior state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual binding obligations Unknown; published program duties screened in the canonical memo",
+      "reporting_obligations": [
+        "No accepted provider schedule. Recheck actual terms and sustainable responsible people before commitment."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Eclipse project admission",
+          "Eclipse Foundation",
+          "https://www.eclipse.org/projects/bring-your-project/"
+        ],
+        "canonical_match": "New unique program under existing E08-01/#62; absent from all43 dated base records.",
+        "scope": "Twelve complete organization issue/PR query result sets plus full43-record string/identity audit; broad Git fast-forward matches excluded.",
+        "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Not reviewed",
+        "limitations": [
+          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+        ]
+      },
+      "owning_research_key": "E08-01",
+      "source_urls": [
+        "https://www.eclipse.org/projects/bring-your-project/",
+        "https://www.eclipse.org/projects/handbook/",
+        "https://www.eclipse.org/projects/dev_process/",
+        "https://www.eclipse.org/org/documents/eclipse-ip-policy.pdf",
+        "https://www.eclipse.org/legal/eca/eca.html",
+        "https://www.eclipse.org/membership/",
+        "https://www.eclipse.org/legal/logo-guidelines/",
+        "https://eclipse.org/legal/Trademark_Transfer_Agreement.pdf",
+        "https://www.eclipse.org/legal/privacy/",
+        "https://projects.eclipse.org/create/project-proposal"
+      ],
+      "source_refs": [
+        "https://www.eclipse.org/projects/bring-your-project/",
+        "https://www.eclipse.org/projects/handbook/",
+        "https://www.eclipse.org/projects/dev_process/",
+        "https://www.eclipse.org/org/documents/eclipse-ip-policy.pdf",
+        "https://www.eclipse.org/legal/eca/eca.html",
+        "https://www.eclipse.org/membership/",
+        "https://www.eclipse.org/legal/logo-guidelines/",
+        "https://eclipse.org/legal/Trademark_Transfer_Agreement.pdf",
+        "https://www.eclipse.org/legal/privacy/",
+        "https://projects.eclipse.org/create/project-proposal"
+      ],
+      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "current_disposition": "Defer proposal; P2 conditional institutional-fit research only",
+      "award_status": "Unknown — no award evidence established",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "canonical_deliverable": "research/partnerships/institutional-homes.md",
+      "accepted_dependency_inputs": [
+        {
+          "issue": 13,
+          "commit": "00ee81db4f418b778e597f0a0da3bdc16199353a",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/00ee81db4f418b778e597f0a0da3bdc16199353a/docs/nonprofit/structure-decision-brief.md",
+          "scope": "Accepted dated contributor findings; canonical-main delivery pending; actual entity/authority Unknown."
+        },
+        {
+          "issue": 17,
+          "commit": "c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89/docs/nonprofit/ip-stewardship-register.md",
+          "scope": "Accepted dated rights/provenance exceptions; no fresh all-repository license or transfer-authority claim."
+        }
+      ],
+      "evidence_limitations": [
+        "Source date is not applicant approval or current private-form verification.",
+        "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
+        "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "ASF-INCUBATOR",
+      "provider": "Apache Software Foundation",
+      "program_name": "Apache Incubator project admission",
+      "program_aliases": [
+        "Apache Incubator",
+        "ASF software incubation"
+      ],
+      "round": "Public proposal and incubation process; no fixed current admission deadline established",
+      "category": "partnership",
+      "support_type": "institutional_governance_and_shared_infrastructure",
+      "official_program_url": "https://incubator.apache.org/cookbook/",
+      "official_application_url": "https://incubator.apache.org/guides/proposal.html",
+      "eligibility_jurisdiction": "International software community; actual contributor/asset jurisdiction and authority Unknown.",
+      "legal_entity_requirements": "Software/community admission and actual contribution rights; elected individual membership is distinct.",
+      "available_before_incorporation": "Unknown — champion/mentors, actual maintainers, consent, rights and release capacity not established.",
+      "available_through_fiscal_sponsorship": "Unknown — a fiscal host would not itself supply ASF fit or contributor/asset authority.",
+      "available_after_501c3_recognition": "Unknown — actual entity/recognition unverified and would not establish ASF roles, rights or admission.",
+      "eligibility_status": "Unknown — actual applicant qualification not established",
+      "eligibility_conditions": [
+        "Unknown — champion/mentors, actual maintainers, consent, rights and release capacity not established.",
+        "Unknown — a fiscal host would not itself supply ASF fit or contributor/asset authority.",
+        "Unknown — actual entity/recognition unverified and would not establish ASF roles, rights or admission."
+      ],
+      "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
+      "application_status": "Public proposal guide available; separate linked template unreadable; no actual proposal or available mentor verified.",
+      "opportunity_stage": "Discovered",
+      "work_status": "Blocked",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Noncash software-community stewardship/services; no project cash award or capacity quote verified.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "No actual award/usage/otherwise-purchased service. Separate conditional cash from documented avoided costs; see canonical memo.",
+      "restrictions_and_obligations": [
+        "ASF governance replaces unilateral donor control; software grants and trademark rights require distinct authority.",
+        "Controlling incubation/reporting and release-vote requirements require real ongoing contributors.",
+        "Contributor and third-party licensing, notices and current generative-tooling conditions remain material-specific.",
+        "Names/marks and independent publications need exact-use review; no endorsement or blanket criticism ban inferred.",
+        "Project security and release work persists; retirement/resources/archives have distinct conditions. Fees and capacity Unknown."
+      ],
+      "program_objectives": "Institutional or nonprofit capacity support as specifically documented in the canonical comparison.",
+      "fit_with_pick_your_ai": "Conditional fit for a bounded authorized public source-provenance software/education component; actual beneficiaries, scope and capacity unverified.",
+      "required_application_evidence": [
+        "Existing cooperating software community",
+        "Champion and suitable IPMC mentors",
+        "Proposed scope/rights and sustainable release/governance plan"
+      ],
+      "required_contacts_or_decisions": [
+        "Eight unexecuted decision gates in the canonical memo; no contact or person appointed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17"
+      ],
+      "confidence": "Dated official documentary scopes checked; applicant, executed agreement and independent findings acceptance remain separate.",
+      "sources": [
+        {
+          "source_id": "A1",
+          "url": "https://incubator.apache.org/policy/incubation.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "No document-wide revision date observed; live current policy, copyright footer is not an effective date.",
+          "scope": "Full 121-line web extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A2",
+          "url": "https://incubator.apache.org/cookbook/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated live guide; old proposal examples and 2018 vision are historical, not current intake rounds.",
+          "scope": "Full 219-line extraction; exact mentor paragraph rechecked from saved response.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A3",
+          "url": "https://incubator.apache.org/guides/proposal.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated guidance; explicitly subordinate to policy and warns documentation/older examples may be outdated.",
+          "scope": "Full 78-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A4",
+          "url": "https://www.apache.org/foundation/how-it-works/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current overview; redirect observed.",
+          "scope": "Full 257-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A5",
+          "url": "https://www.apache.org/licenses/contributor-agreements.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current process page.",
+          "scope": "Full 99-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A6",
+          "url": "https://apache.org/licenses/icla.pdf",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Blank ICLA V2.2; no project execution date.",
+          "scope": "All two pages, 117 extracted text lines; no visual/signature verification.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A7",
+          "url": "https://www.apache.org/licenses/cla-corporate.pdf",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Blank form identifier v r190612; not converted into an inferred calendar date.",
+          "scope": "All three pages, 129 extracted text lines; text-only.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A8",
+          "url": "https://www.apache.org/licenses/software-grant-template.pdf",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Blank undated template; no effective date or project Exhibit A.",
+          "scope": "Both pages, 57 extracted text lines; text-only.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A9",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Version 2.0, January 2004; authoritative English text.",
+          "scope": "Full 104-line extraction, all sections 1–9 and application appendix.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A10",
+          "url": "https://www.apache.org/legal/resolved",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live policy; one criteria footnote dated 2019-02-16 is not the revision date of the entire current page.",
+          "scope": "Full 338-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A11",
+          "url": "https://www.apache.org/legal/generative-tooling.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Guidance describes its position as August 2026; no numbered version observed.",
+          "scope": "Full 94-line extraction, including code, documentation, image, tool-chain and public-publication sections.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A12",
+          "url": "https://www.apache.org/foundation/marks/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Explicit version 1.2, published March 2021; current live page inspected.",
+          "scope": "Full 157-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A13",
+          "url": "https://infra.apache.org/infra-incubator.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current operational guide.",
+          "scope": "Full 80-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A14",
+          "url": "https://www.apache.org/legal/release-policy.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live current policy; historic NOTICE correction and beta tooling references are not a document-wide effective date.",
+          "scope": "Full 340-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A15",
+          "url": "https://www.apache.org/security/committers.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current guidance.",
+          "scope": "Full 113-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A16",
+          "url": "https://www.apache.org/foundation/sponsorship.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live schedule inspected; annual sponsorship begins at payment. Dated initiative announcements are separate from admission.",
+          "scope": "Full 153-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A17",
+          "url": "https://www.apache.org/foundation/individual-supporters",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live undated page; legacy URL redirects.",
+          "scope": "Full 63-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A18",
+          "url": "https://attic.apache.org/",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current retirement overview; creation in 2008 is historical.",
+          "scope": "Full 194-line extraction including navigation.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "A19",
+          "url": "https://incubator.apache.org/guides/retirement.html",
+          "publisher": "Apache Software Foundation",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Live guide with legacy operational references; no document-wide revision date.",
+          "scope": "Full 74-line extraction.",
+          "attribution": "In-session Apple source-research lane; source input, not canonical acceptance",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under20/20/15/10/10/10/10/5 weights; actual eligibility, usable value, people/capacity and defensible factor ratings are absent. Priority follows the memo, not an invented total."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Resolve community scope, rights, governance consent and real champion/maintainer capacity; defer proposal.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any proposal/application/agreement; on changed provider terms, source access, applicant facts or project scope.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+      "application_outcome": "No submission in this research; prior state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this research; prior state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual binding obligations Unknown; published program duties screened in the canonical memo",
+      "reporting_obligations": [
+        "No accepted provider schedule. Recheck actual terms and sustainable responsible people before commitment."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Apache Incubator",
+          "ASF software incubation",
+          "Apache Software Foundation",
+          "https://incubator.apache.org/cookbook/"
+        ],
+        "canonical_match": "New unique program under existing E08-01/#62; absent from all43 dated base records.",
+        "scope": "Twelve complete organization issue/PR query result sets plus full43-record string/identity audit; broad Git fast-forward matches excluded.",
+        "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Not reviewed",
+        "limitations": [
+          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+        ]
+      },
+      "owning_research_key": "E08-01",
+      "source_urls": [
+        "https://incubator.apache.org/policy/incubation.html",
+        "https://incubator.apache.org/cookbook/",
+        "https://incubator.apache.org/guides/proposal.html",
+        "https://www.apache.org/foundation/how-it-works/",
+        "https://www.apache.org/licenses/contributor-agreements.html",
+        "https://apache.org/licenses/icla.pdf",
+        "https://www.apache.org/licenses/cla-corporate.pdf",
+        "https://www.apache.org/licenses/software-grant-template.pdf",
+        "https://www.apache.org/licenses/LICENSE-2.0",
+        "https://www.apache.org/legal/resolved",
+        "https://www.apache.org/legal/generative-tooling.html",
+        "https://www.apache.org/foundation/marks/",
+        "https://infra.apache.org/infra-incubator.html",
+        "https://www.apache.org/legal/release-policy.html",
+        "https://www.apache.org/security/committers.html",
+        "https://www.apache.org/foundation/sponsorship.html",
+        "https://www.apache.org/foundation/individual-supporters",
+        "https://attic.apache.org/",
+        "https://incubator.apache.org/guides/retirement.html"
+      ],
+      "source_refs": [
+        "https://incubator.apache.org/policy/incubation.html",
+        "https://incubator.apache.org/cookbook/",
+        "https://incubator.apache.org/guides/proposal.html",
+        "https://www.apache.org/foundation/how-it-works/",
+        "https://www.apache.org/licenses/contributor-agreements.html",
+        "https://apache.org/licenses/icla.pdf",
+        "https://www.apache.org/licenses/cla-corporate.pdf",
+        "https://www.apache.org/licenses/software-grant-template.pdf",
+        "https://www.apache.org/licenses/LICENSE-2.0",
+        "https://www.apache.org/legal/resolved",
+        "https://www.apache.org/legal/generative-tooling.html",
+        "https://www.apache.org/foundation/marks/",
+        "https://infra.apache.org/infra-incubator.html",
+        "https://www.apache.org/legal/release-policy.html",
+        "https://www.apache.org/security/committers.html",
+        "https://www.apache.org/foundation/sponsorship.html",
+        "https://www.apache.org/foundation/individual-supporters",
+        "https://attic.apache.org/",
+        "https://incubator.apache.org/guides/retirement.html"
+      ],
+      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "current_disposition": "Defer proposal; P2 conditional institutional-fit research only",
+      "award_status": "Unknown — no award evidence established",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "canonical_deliverable": "research/partnerships/institutional-homes.md",
+      "accepted_dependency_inputs": [
+        {
+          "issue": 13,
+          "commit": "00ee81db4f418b778e597f0a0da3bdc16199353a",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/00ee81db4f418b778e597f0a0da3bdc16199353a/docs/nonprofit/structure-decision-brief.md",
+          "scope": "Accepted dated contributor findings; canonical-main delivery pending; actual entity/authority Unknown."
+        },
+        {
+          "issue": 17,
+          "commit": "c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89/docs/nonprofit/ip-stewardship-register.md",
+          "scope": "Accepted dated rights/provenance exceptions; no fresh all-repository license or transfer-authority claim."
+        }
+      ],
+      "evidence_limitations": [
+        "Source date is not applicant approval or current private-form verification.",
+        "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
+        "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "FFWD-NONPROFIT-ACCELERATOR",
+      "provider": "Fast Forward",
+      "program_name": "Fast Forward nonprofit technology accelerator",
+      "program_aliases": [
+        "Fast Forward Accelerator",
+        "ffwd.org Accelerator"
+      ],
+      "round": "2027 cohort description; displayed September window elapsed in its stated cycle; live intake unverified",
+      "category": "partnership",
+      "support_type": "accelerator_capacity_building_and_conditional_cash",
+      "official_program_url": "https://www.ffwd.org/accelerator",
+      "official_application_url": "https://apply.ffwd.org/2027-accelerator",
+      "eligibility_jurisdiction": "Global route described; separate non-US local-registration condition and San Francisco participation need actual assessment.",
+      "legal_entity_requirements": "Nonprofit business model and MVP; pre-registration/sponsored routes described with separate geography and leader conditions.",
+      "available_before_incorporation": "Unknown — actual nonprofit intent, MVP, mission/leader evidence and time/travel capacity unverified.",
+      "available_through_fiscal_sponsorship": "Unknown — sponsored teams generally permitted; no actual host/agreement, product or attendee established.",
+      "available_after_501c3_recognition": "Unknown — recognition alone would not establish product, beneficiary/leader fit, capacity, intake or admission.",
+      "eligibility_status": "Unknown — actual applicant qualification not established",
+      "eligibility_conditions": [
+        "Unknown — actual nonprofit intent, MVP, mission/leader evidence and time/travel capacity unverified.",
+        "Unknown — sponsored teams generally permitted; no actual host/agreement, product or attendee established.",
+        "Unknown — recognition alone would not establish product, beneficiary/leader fit, capacity, intake or admission."
+      ],
+      "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
+      "application_status": "Published 2027 schedule and indexed date conflict retained; actual Apply link is password-protected with a 2026 title.",
+      "opportunity_stage": "Discovered",
+      "work_status": "Blocked",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Literal advertised $25K+ seed capital and separate $25K unrestricted grant wording; denomination not explicitly established.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "No actual award/usage/otherwise-purchased service. Separate conditional cash from documented avoided costs; see canonical memo.",
+      "restrictions_and_obligations": [
+        "Published weekly sessions/meetings, preparation, travel and public pitch require an actual sustainable attendee.",
+        "General 2021 service terms contain enduring submission licenses and potential later fees; actual cohort contract uninspected.",
+        "Privacy and event conditions do not establish fixed deletion, confidentiality, grant repayment or project-control terms.",
+        "Portfolio support does not establish institutional custody, a fiscal host or guaranteed follow-on funding."
+      ],
+      "program_objectives": "Institutional or nonprofit capacity support as specifically documented in the canonical comparison.",
+      "fit_with_pick_your_ai": "Conditional fit for a bounded authorized public source-provenance software/education component; actual beneficiaries, scope and capacity unverified.",
+      "required_application_evidence": [
+        "Nonprofit business model",
+        "Existing minimum viable product",
+        "Actual leadership/mission evidence and required participant availability"
+      ],
+      "required_contacts_or_decisions": [
+        "Eight unexecuted decision gates in the canonical memo; no contact or person appointed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17"
+      ],
+      "confidence": "Dated official documentary scopes checked; applicant, executed agreement and independent findings acceptance remain separate.",
+      "sources": [
+        {
+          "source_id": "F1",
+          "url": "https://www.ffwd.org/accelerator",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2027 cohort described; page inspected 2026-10-19",
+          "scope": "Full 299-line public program page; substantive program/criteria/dates sections",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "F2",
+          "url": "https://www.ffwd.org/faq",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2027 accelerator; undated current FAQ",
+          "scope": "All public FAQ sections read, accelerator section primary to this slice",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "F3",
+          "url": "https://apply.ffwd.org/2027-accelerator",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Observed 2026-10-19",
+          "scope": "Exact public Apply link; entire9-line response",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": null,
+          "access_result": "Authentication required; private form contents Not Verified",
+          "http_status": null
+        },
+        {
+          "source_id": "F4",
+          "url": "https://www.ffwd.org/terms-of-service",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Effective2021-02-01; still linked on inspected site",
+          "scope": "Entire180-line text read across two retrievals",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "F5",
+          "url": "https://www.ffwd.org/privacy-policy",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Effective2021-02-01",
+          "scope": "Entire170-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "F6",
+          "url": "https://www.ffwd.org/events-conduct-policy",
+          "publisher": "Fast Forward",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated linked policy, inspected2026-10-19",
+          "scope": "Entire153-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under20/20/15/10/10/10/10/5 weights; actual eligibility, usable value, people/capacity and defensible factor ratings are absent. Priority follows the memo, not an invented total."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Establish actual MVP/mission/leader/time evidence; reconcile geography/attendance and current intake/contract before applying.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any proposal/application/agreement; on changed provider terms, source access, applicant facts or project scope.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+      "application_outcome": "No submission in this research; prior state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this research; prior state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual binding obligations Unknown; published program duties screened in the canonical memo",
+      "reporting_obligations": [
+        "No accepted provider schedule. Recheck actual terms and sustainable responsible people before commitment."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Fast Forward Accelerator",
+          "ffwd.org Accelerator",
+          "Fast Forward",
+          "https://www.ffwd.org/accelerator"
+        ],
+        "canonical_match": "New unique program under existing E08-01/#62; absent from all43 dated base records.",
+        "scope": "Twelve complete organization issue/PR query result sets plus full43-record string/identity audit; broad Git fast-forward matches excluded.",
+        "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Not reviewed",
+        "limitations": [
+          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+        ]
+      },
+      "owning_research_key": "E08-01",
+      "source_urls": [
+        "https://www.ffwd.org/accelerator",
+        "https://www.ffwd.org/faq",
+        "https://apply.ffwd.org/2027-accelerator",
+        "https://www.ffwd.org/terms-of-service",
+        "https://www.ffwd.org/privacy-policy",
+        "https://www.ffwd.org/events-conduct-policy"
+      ],
+      "source_refs": [
+        "https://www.ffwd.org/accelerator",
+        "https://www.ffwd.org/faq",
+        "https://apply.ffwd.org/2027-accelerator",
+        "https://www.ffwd.org/terms-of-service",
+        "https://www.ffwd.org/privacy-policy",
+        "https://www.ffwd.org/events-conduct-policy"
+      ],
+      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "current_disposition": "Defer application; P2 conditional nonprofit-capacity route",
+      "award_status": "Unknown — no award evidence established",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "canonical_deliverable": "research/partnerships/institutional-homes.md",
+      "accepted_dependency_inputs": [
+        {
+          "issue": 13,
+          "commit": "00ee81db4f418b778e597f0a0da3bdc16199353a",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/00ee81db4f418b778e597f0a0da3bdc16199353a/docs/nonprofit/structure-decision-brief.md",
+          "scope": "Accepted dated contributor findings; canonical-main delivery pending; actual entity/authority Unknown."
+        },
+        {
+          "issue": 17,
+          "commit": "c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89/docs/nonprofit/ip-stewardship-register.md",
+          "scope": "Accepted dated rights/provenance exceptions; no fresh all-repository license or transfer-authority claim."
+        }
+      ],
+      "evidence_limitations": [
+        "Source date is not applicant approval or current private-form verification.",
+        "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
+        "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "ECHOING-GREEN-FELLOWSHIP",
+      "provider": "Echoing Green",
+      "program_name": "Echoing Green Fellowship",
+      "program_aliases": [
+        "Echoing Green founder fellowship"
+      ],
+      "round": "2026 Fellowship explicitly closed; next cycle and deadline not established",
+      "category": "partnership",
+      "support_type": "fellowship_capacity_building_and_conditional_cash",
+      "official_program_url": "https://echoinggreen.org/fellowship/",
+      "official_application_url": "https://echoinggreen.org/fellowship/apply/",
+      "eligibility_jurisdiction": "Worldwide public applicant route; actual founder age/language/location and capacity conditions unverified.",
+      "legal_entity_requirements": "Original/leading founder with primary authority and full-time priority; organization or independently obtained sponsor needed for payment.",
+      "available_before_incorporation": "Unknown — early ideas generally allowed; real original-founder authority, community evidence and full-time capacity absent.",
+      "available_through_fiscal_sponsorship": "Unknown — sponsor autonomy conditions need the actual agreement and mandate; no compatible sponsor established.",
+      "available_after_501c3_recognition": "Unknown — actual entity/recognition absent; recognition alone would not establish founder, mission or capacity eligibility.",
+      "eligibility_status": "Unknown — actual applicant qualification not established",
+      "eligibility_conditions": [
+        "Unknown — early ideas generally allowed; real original-founder authority, community evidence and full-time capacity absent.",
+        "Unknown — sponsor autonomy conditions need the actual agreement and mandate; no compatible sponsor established.",
+        "Unknown — actual entity/recognition absent; recognition alone would not establish founder, mission or capacity eligibility."
+      ],
+      "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
+      "application_status": "2026 applications explicitly closed; no next-cycle application or deadline verified.",
+      "opportunity_stage": "Discovered",
+      "work_status": "Blocked",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Official main Fellowship stipend explicitly 100,000 USD over 18 months; no actual award or usable value.",
+      "currency": "USD",
+      "estimated_usable_value": null,
+      "valuation_method": "No actual award/usage/otherwise-purchased service. Separate conditional cash from documented avoided costs; see canonical memo.",
+      "restrictions_and_obligations": [
+        "Actual original-founder leadership, authentic evidence and 40-hour weekly commitment are material conditions.",
+        "FY26 recoverable-grant rules cover for-profits and specified conversions; actual agreement and project treatment Unknown.",
+        "Application privacy differs from website public-comments licensing; publication/contract terms require specific review.",
+        "Follow-on funding and dated post-Fellowship fiscal sponsorship are separate conditional services, not automatic renewal/admission."
+      ],
+      "program_objectives": "Institutional or nonprofit capacity support as specifically documented in the canonical comparison.",
+      "fit_with_pick_your_ai": "Conditional fit for a bounded authorized public source-provenance software/education component; actual beneficiaries, scope and capacity unverified.",
+      "required_application_evidence": [
+        "Actual founder and decision authority",
+        "Authentic community/mission and financial information",
+        "Resume/video and full-time availability under the actual current form"
+      ],
+      "required_contacts_or_decisions": [
+        "Eight unexecuted decision gates in the canonical memo; no contact or person appointed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17"
+      ],
+      "confidence": "Dated official documentary scopes checked; applicant, executed agreement and independent findings acceptance remain separate.",
+      "sources": [
+        {
+          "source_id": "G1",
+          "url": "https://echoinggreen.org/fellowship/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Current undated page, inspected2026-10-19",
+          "scope": "Entire94-line program page",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G2",
+          "url": "https://echoinggreen.org/fellowship/apply/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Explicit2026 cycle; now CLOSED",
+          "scope": "Entire191-line public application/rules page",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G3",
+          "url": "https://echoinggreen.org/wp-content/uploads/2025/09/FY26-Echoing-Green-Recoverable-Grants-FAQ.pdf",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "FY26 linked PDF; URL2025-09",
+          "scope": "All3PDF pages/74text lines read; no visual inspection claim",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G4",
+          "url": "https://echoinggreen.org/wp-content/uploads/2025/07/Echoing-Green-Offline-Fellowship-Worksheet-2026.pdf",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "2026 worksheet; URL2025-07",
+          "scope": "All4PDF pages/82text lines read; no visual inspection claim",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G5",
+          "url": "https://echoinggreen.org/policies/privacy-policy/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Updated2025-08-05",
+          "scope": "Entire130-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G6",
+          "url": "https://echoinggreen.org/policies/terms-of-use/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current linked terms",
+          "scope": "Entire88-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G7",
+          "url": "https://echoinggreen.org/policies/content-rights-and-license/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current linked policy",
+          "scope": "Entire56-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G8",
+          "url": "https://echoinggreen.org/policies/code-of-conduct/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Undated current linked policy",
+          "scope": "Entire50-line text read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G9",
+          "url": "https://echoinggreen.org/follow-on-funding-2/",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "Cycle10, Sept29–Oct14 window without explicit year; exclusions name2025/2026 priorcycles",
+          "scope": "Entire208-line public page read",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        },
+        {
+          "source_id": "G10",
+          "url": "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf",
+          "publisher": "Echoing Green",
+          "reviewed_on": "2026-10-19",
+          "source_version_or_date": "FYended2025-06-30; audit dated2025-12-11",
+          "scope": "Only Notes10 and14 substantive scope; no full22-page financial audit or visual inspection claim",
+          "attribution": "In-session Research source-research lane; currency-corrected source input",
+          "last_successful_scope_review": "2026-10-19",
+          "access_result": "Specified public documentary scope read",
+          "http_status": null
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under20/20/15/10/10/10/10/5 weights; actual eligibility, usable value, people/capacity and defensible factor ratings are absent. Priority follows the memo, not an invented total."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Resolve founder/community/capacity and actual payment route; recheck a future verified intake and complete grant agreement.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any proposal/application/agreement; on changed provider terms, source access, applicant facts or project scope.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+      "application_outcome": "No submission in this research; prior state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this research; prior state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual binding obligations Unknown; published program duties screened in the canonical memo",
+      "reporting_obligations": [
+        "No accepted provider schedule. Recheck actual terms and sustainable responsible people before commitment."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Echoing Green founder fellowship",
+          "Echoing Green",
+          "https://echoinggreen.org/fellowship/"
+        ],
+        "canonical_match": "New unique program under existing E08-01/#62; absent from all43 dated base records.",
+        "scope": "Twelve complete organization issue/PR query result sets plus full43-record string/identity audit; broad Git fast-forward matches excluded.",
+        "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Not reviewed",
+        "limitations": [
+          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+        ]
+      },
+      "owning_research_key": "E08-01",
+      "source_urls": [
+        "https://echoinggreen.org/fellowship/",
+        "https://echoinggreen.org/fellowship/apply/",
+        "https://echoinggreen.org/wp-content/uploads/2025/09/FY26-Echoing-Green-Recoverable-Grants-FAQ.pdf",
+        "https://echoinggreen.org/wp-content/uploads/2025/07/Echoing-Green-Offline-Fellowship-Worksheet-2026.pdf",
+        "https://echoinggreen.org/policies/privacy-policy/",
+        "https://echoinggreen.org/policies/terms-of-use/",
+        "https://echoinggreen.org/policies/content-rights-and-license/",
+        "https://echoinggreen.org/policies/code-of-conduct/",
+        "https://echoinggreen.org/follow-on-funding-2/",
+        "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf"
+      ],
+      "source_refs": [
+        "https://echoinggreen.org/fellowship/",
+        "https://echoinggreen.org/fellowship/apply/",
+        "https://echoinggreen.org/wp-content/uploads/2025/09/FY26-Echoing-Green-Recoverable-Grants-FAQ.pdf",
+        "https://echoinggreen.org/wp-content/uploads/2025/07/Echoing-Green-Offline-Fellowship-Worksheet-2026.pdf",
+        "https://echoinggreen.org/policies/privacy-policy/",
+        "https://echoinggreen.org/policies/terms-of-use/",
+        "https://echoinggreen.org/policies/content-rights-and-license/",
+        "https://echoinggreen.org/policies/code-of-conduct/",
+        "https://echoinggreen.org/follow-on-funding-2/",
+        "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf"
+      ],
+      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "current_disposition": "Defer; P3 founder-capacity discovery with current 2026 intake closed",
+      "award_status": "Unknown — no award evidence established",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "canonical_deliverable": "research/partnerships/institutional-homes.md",
+      "accepted_dependency_inputs": [
+        {
+          "issue": 13,
+          "commit": "00ee81db4f418b778e597f0a0da3bdc16199353a",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/00ee81db4f418b778e597f0a0da3bdc16199353a/docs/nonprofit/structure-decision-brief.md",
+          "scope": "Accepted dated contributor findings; canonical-main delivery pending; actual entity/authority Unknown."
+        },
+        {
+          "issue": 17,
+          "commit": "c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89",
+          "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89/docs/nonprofit/ip-stewardship-register.md",
+          "scope": "Accepted dated rights/provenance exceptions; no fresh all-repository license or transfer-authority claim."
+        }
+      ],
+      "evidence_limitations": [
+        "Source date is not applicant approval or current private-form verification.",
+        "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
+        "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ]
     }
   ],
   "important_limitations": [
@@ -9794,7 +10982,8 @@
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",
     "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan is one program record reused across relevant research scopes.",
-    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware program records reuse the actual #54 issue read on 2026-10-19; they do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification."
+    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware program records reuse the actual #54 issue read on 2026-10-19; they do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification.",
+    "E08-01 adds four distinct programs to dated bfa43-record/267-source input without changing any prior program object. Earlier counts/audits retain their original scope. Current47 records do not establish new issue/Project audits, actual applicants or provider outcomes; full institutional findings acceptance and canonical-main publication are pending."
   ],
   "github_link_readback": {
     "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",

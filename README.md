@@ -32,7 +32,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 
 Read the owning issue and existing record; search before opening new work. Use the [provider research template](templates/provider-research.md), retain unknowns, and link applicable technical work. Propose findings by pull request under the [organization contribution rules](https://github.com/Pick-Your-AI/.github/blob/main/CONTRIBUTING.md). Independent research acceptance, externally authorized action and achieved support are separate records.
 
-Navigation: [roadmap](docs/roadmap.md), [scoring](docs/scoring-and-qualification.md), [needs](docs/needs-assessment.md), [budget assumptions](docs/budget-assumptions.md), [authorization](docs/workflow-and-authorization.md), [activation and reporting](docs/operations-and-reporting.md), [freshness](docs/research-freshness.md), [risk indicators](docs/risk-indicators.md), [grant narrative draft](docs/grant-narrative-draft.md), [sponsor ethics draft](docs/sponsorship-ethics-draft.md).
+Navigation: [roadmap](docs/roadmap.md), [scoring](docs/scoring-and-qualification.md), [needs](docs/funding/needs-assessment.md), [budget assumptions](docs/budget-assumptions.md), [authorization](docs/workflow-and-authorization.md), [activation and reporting](docs/operations-and-reporting.md), [freshness](docs/research-freshness.md), [risk indicators](docs/risk-indicators.md), [grant narrative draft](docs/grant-narrative-draft.md), [sponsor ethics draft](docs/sponsorship-ethics-draft.md).
 
 These initial documents are reviewable program drafts. Publishing them does not complete their owning research issues, verify a legal status, approve an application, or establish an award.
 
@@ -48,6 +48,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Budget assumption data](data/budget-assumptions.json)
 - [Research freshness register](docs/research-freshness-register.md)
 - [GitHub developer and security baseline](research/tooling/github-baseline.md)
+- [OpenAI Researcher Access qualification and proposed study](research/compute/openai-researcher-access.md)
 - [Groq conditional evaluation and support discovery](research/compute/groq-support.md)
 
 ## Execution and audit evidence

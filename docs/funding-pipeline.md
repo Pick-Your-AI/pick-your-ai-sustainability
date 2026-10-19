@@ -4,18 +4,24 @@
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
-The [Groq assessment](../research/compute/groq-support.md) proposes a conditional small evaluation and records a separate historical NAIRR discovery lead. Its source assessment is in independent review; activation, publication, actual account eligibility and any application remain separate. The proposed request budget has not been executed or counted as an award or avoided cost.
+The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md) is Done / Verified for program research after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90#pullrequestreview-5571140493). It adds a proposed explanation-faithfulness study and an explicit applicant/intake evidence checklist. All applicant routes remain Unknown and score/value null; qualification, application and activation remain separate decisions.
+
+The [Groq assessment](../research/compute/groq-support.md) proposes a conditional small evaluation and records a separate historical NAIRR discovery lead. Its program research is Done / Verified after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/92#pullrequestreview-5571236854); activation, comparison-results publication, actual account eligibility and any application remain separate. The proposed request budget has not been executed or counted as an award or avoided cost.
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 39 seed records |
-| Verified | Independently accepted canonical program/intake assessment under the transition procedure | No accepted program assessment recorded |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 36 records, including the completed Together Not Pursuing assessment retained at its historical stage |
+| Verified | Independently accepted canonical program/intake assessment under the transition procedure | 3: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md) and [Groq assessment](../research/compute/groq-support.md), each with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
 | Submitted | Receipt from actual application | None in this execution |
 | Awarded | Written provider decision and accepted terms | Unknown; no award evidence established |
 | Activated | Account/benefit activation readback | None in this execution; prior state Unknown |
 | Reporting | Obligations and dates from actual terms | No binding schedule established |
+
+The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done / Verified for program research after [independent findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597). Its applicant/account and monetization gates remain separate; no qualification, application or activation is inferred.
+
+The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
 ## Known calendar facts
 

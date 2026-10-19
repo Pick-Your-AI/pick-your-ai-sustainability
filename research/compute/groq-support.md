@@ -6,7 +6,7 @@ Canonical record: `GROQ-FREE-PLAN` in the [opportunity register](../../data/oppo
 
 Sources inspected: **2026-10-19**
 
-Status: **Source-backed assessment; independent findings acceptance pending**
+Status: **Independently accepted research findings; applicant and use gates unresolved**
 
 Groq is a trademark of Groq LLC and/or its affiliates. This independently prepared
 assessment is not affiliated with or endorsed by Groq, and no sponsorship is
@@ -214,10 +214,11 @@ workload, under the [budget rules](../../docs/budget-assumptions.md). Do not pri
 the proposed token budget at paid rates and call the result funding acquired.
 
 **P2** is a qualitative research priority, not an application rank or urgency
-created by a guessed deadline. Current stage stays **Discovered** and applicant
-qualification **Unknown** until actual independent assessment acceptance and
-the separate lifecycle conditions are recorded. No Qualified, Approved to apply,
-Submitted, Awarded or Activated transition is made by this draft.
+created by a guessed deadline. The accepted assessment is **Done / Verified**
+under the [transition rules](../../docs/operations-and-reporting.md); actual
+applicant qualification remains **Unknown**. The independent findings receipt
+below establishes the research transition only. No Qualified, Approved to apply,
+Submitted, Awarded or Activated transition is recorded.
 
 ## Source ledger and recheck rules
 
@@ -260,10 +261,15 @@ restrictions, null-value/scoring rationale and disposition required by #43.
 The corresponding opportunity/pipeline/freshness changes belong to this same
 record. All other programs, owners and actual applicant facts remain separate.
 
-An independent reviewer must accept the **actual findings at an exact source
-revision**, including the documented unknowns and conditional disposition,
-before the research acceptance criteria are checked. Record that real review
-and its scope in the canonical issue/record; a passing link/schema check alone
-does not satisfy it. This draft does not claim that acceptance has occurred.
-Research acceptance may complete #43 while account eligibility, any experiment,
+The [independent findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/92#pullrequestreview-5571236854)
+on 2026-10-19 accepted all thirteen original research criteria at source
+`5df0b8a517098a6f22cc457e97f85682d70264f6`, including the documented
+Unknowns and conditional disposition. The reviewer was the separate in-session
+`/root` peer; the actual COMMENT used the shared CompleteDotTech account and is
+not a separate-account APPROVED vote. Both source-fidelity corrections were
+incorporated before that acceptance. The canonical record preserves the exact
+reviewed revision, scope and limitations.
+
+The research assessment is Done / Verified; actual main delivery and issue
+reconciliation require their own readback. Account eligibility, any experiment,
 application, award and activation remain unperformed and unestablished.

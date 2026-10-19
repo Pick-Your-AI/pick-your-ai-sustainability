@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 41,
+  "records_count": 42,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -2448,7 +2448,10 @@
       "opportunity_id": "SPENCER-SMALL-EDUCATION",
       "provider": "Spencer Foundation",
       "program_name": "Small Research Grants on Education",
-      "program_aliases": [],
+      "program_aliases": [
+        "Spencer Small Research Grants",
+        "Small Research Grants on Education"
+      ],
       "round": null,
       "category": "funding",
       "support_type": "cash_grant",
@@ -2456,43 +2459,99 @@
       "official_application_url": "https://spencer.smartsimple.us/",
       "eligibility_jurisdiction": "US and international applicants; proposals in English and budgets in USD",
       "legal_entity_requirements": "PI affiliation with qualifying nonprofit or public institution; no direct individual grants.",
-      "available_before_incorporation": "Unavailable while intake is closed; informal direct applicant does not establish institutional eligibility",
-      "available_through_fiscal_sponsorship": "Unknown; intake closed and a qualifying research/admin arrangement must be established",
-      "available_after_501c3_recognition": "Conditionally Eligible future route only with doctoral PI, research fit and reopened intake",
-      "eligibility_status": "Unknown; current intake closed and institutional/research gates unresolved",
-      "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Closed; no next deadline verified",
+      "available_before_incorporation": "Unavailable now: intake closed. Actual community legal identity and administering affiliation remain Unknown; direct individual grants excluded.",
+      "available_through_fiscal_sponsorship": "Unavailable now: intake closed. Future actual host/admin eligibility, doctoral PI affiliation and research method remain Unknown.",
+      "available_after_501c3_recognition": "Unavailable now: intake closed. Actual recognition, doctoral PI/admin route, research fit and future intake remain Unknown.",
+      "eligibility_status": "Unknown actual applicant; current intake closed and ordinary software scope excluded",
+      "eligibility_conditions": [
+        "Actual earned doctorate for every PI/co-PI and eligible administering affiliation",
+        "Substantive education-research scope, actual accepted method and appropriate protection decisions",
+        "Verified future open round and actual institutional submission authority"
+      ],
+      "application_gate": "Not authorized. Closed intake; no actual investigator, administering agreement, study approval, budget or application decision established.",
+      "application_status": "Closed; no verified reopening or next deadline",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "In Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Base budget cap $50,000 excluding indirect costs; no current award availability.",
+      "benefit_amount_or_capacity": "Published base maximum USD 50,000 over one to five years; separate conditional course-release supplement up to USD 10,000. No current availability or actual amount established.",
       "currency": "USD",
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Section 6 of the canonical screen: actual scope × evidenced cost, permitted indirect costs and uncovered obligations; all actual study cost/value inputs Unknown.",
       "restrictions_and_obligations": [
-        "Review the complete next-cycle RFP before reuse; no assumption that an AI-literacy software build is research."
+        "See canonical screen sections 2, 3 and 5 for source-specific use, administration, AI, ethics, rights, reporting, budget, return and extension gates. No actual award letter inspected."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+      "program_objectives": "Rigorous education research; ordinary software development without a substantial research component is excluded.",
+      "fit_with_pick_your_ai": "Proposed E1 evidence-literacy question only; no investigator, study, measured outcome or grant qualification exists. E2 exhibit construction alone is not sufficient.",
       "required_application_evidence": [
-        "Research questions and project summary",
-        "Personnel details plus budget and justification"
+        "Actual PI/co-PI credentials and administering organization",
+        "Research question, literature and defensible method; applicable ethical/institutional decisions before protected activity",
+        "Future current-round narrative, budget/justifications, timeline and team documents; conditional course-release evidence where applicable",
+        "Actual institutional signatures and accurate disclosed AI assistance under current policy"
       ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Identify actual qualified investigator and administering route if a real future call opens",
+        "Resolve method, authority, ethics, rights and cost before any protected or external action"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Current public findings documented for independent acceptance; actual applicant, future intake, private form and award remain Unknown.",
       "sources": [
         {
+          "id": "S1",
           "url": "https://www.spencer.org/grant_types/small-research-grant",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete substantive program, closed intake and eligibility page"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.spencer.org/grant_types/small-research-grant.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "All seven public overview pages; authenticated application fields not inspected"
+        },
+        {
+          "id": "S3",
+          "url": "https://www.spencer.org/resources/Applicant-Information-and-Policies",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete substantive applicant and institutional policies; actual administering route Unknown"
+        },
+        {
+          "id": "S4",
+          "url": "https://www.spencer.org/resources/policy-on-the-use-of-generative-ai-at-the-spencer-foundation",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete applicant/grantee and reviewer AI policy; this is repository research, not grant-proposal review"
+        },
+        {
+          "id": "S5",
+          "url": "https://www.spencer.org/resources/grantee-information-and-policies",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete substantive public reporting, changes, rights and dissemination policy; no actual award letter"
+        },
+        {
+          "id": "S6",
+          "url": "https://www.spencer.org/resources/spencer-foundation-statement-on-research-integrity-and-professional-ethics",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Complete public integrity/ethics statement; no actual study approval"
+        },
+        {
+          "id": "S7",
+          "url": "https://spencer.smartsimple.us/",
+          "source_kind": "official",
+          "last_verified": null,
+          "last_attempted": "2026-10-19",
+          "review_scope": "Attempt returned tool Internal Error, no readable form and no observed HTTP status"
         }
       ],
       "scoring": {
@@ -2510,7 +2569,7 @@
       "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Retain the closed record and specify the independent education-research question and investigator requirements for any future review.",
+      "next_action": "Keep closed/P3 watch. Independently review this screen; reconsider only on verified reopening and actual investigator/admin/research evidence.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -2520,37 +2579,49 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
-      "reporting_obligations": [],
+      "reporting_status": "Published general reporting rules recorded; no actual agreement or binding reporting calendar established.",
+      "reporting_obligations": [
+        "Apply actual agreement dates and public narrative/financial, amendment/return and dissemination conditions; see canonical section 5."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
-          "Spencer Foundation",
-          "Small Research Grants on Education"
+          "Spencer Small Research Grants",
+          "Small Research Grants on Education",
+          "Spencer Foundation"
         ],
         "canonical_match": "SPENCER-SMALL-EDUCATION",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "All 41 base program identities and actual GitHub Spencer issues/PRs searched; reuse owning #29, retain #32 mechanism scope."
       },
       "review": {
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Actual findings acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "This screen is not Spencer grant-proposal review, applicant qualification or operational authorization."
         ]
       },
       "owning_research_key": "E03-05",
       "source_urls": [
-        "https://www.spencer.org/grant_types/small-research-grant"
+        "https://www.spencer.org/grant_types/small-research-grant",
+        "https://www.spencer.org/grant_types/small-research-grant.pdf",
+        "https://www.spencer.org/resources/Applicant-Information-and-Policies",
+        "https://www.spencer.org/resources/policy-on-the-use-of-generative-ai-at-the-spencer-foundation",
+        "https://www.spencer.org/resources/grantee-information-and-policies",
+        "https://www.spencer.org/resources/spencer-foundation-statement-on-research-integrity-and-professional-ethics"
       ],
       "application_url": "https://spencer.smartsimple.us/",
       "source_evidence": [
-        "The current page says applications are closed. The program funds education research, excludes ordinary software development, and requires doctoral PIs/Co-PIs with a qualifying administering organization."
+        "Source-specific findings and read limits are in canonical sections 2, 5 and 7. Closed status and actual unknowns are preserved."
       ],
-      "benefit": "Base budget cap $50,000 excluding indirect costs; no current award availability.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
-      "published_qualification_requirements": [],
+      "benefit": "Published base maximum USD 50,000 over one to five years; separate conditional course-release supplement up to USD 10,000. No current availability or actual amount established.",
+      "required_application_evidence_status": "Public overview and policies read; authenticated form access failed. Complete future-round and agreement requirements remain unverified.",
+      "published_qualification_requirements": [
+        "Actual earned doctorate for every PI/co-PI and eligible administering affiliation",
+        "Substantive education-research scope, actual accepted method and appropriate protection decisions",
+        "Verified future open round and actual institutional submission authority"
+      ],
       "internal_application_review_controls": [
         "Verify applicant facts and authority",
         "Evidence a scoped need and realistic delivery capacity",
@@ -2560,38 +2631,203 @@
       "priority_recommendation": "P3",
       "score": null,
       "scoring_justification": "Closed intake and substantive institutional/research gates; wider education-funder research may remain P2.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+      "source_freshness": "Dated scoped reads on 2026-10-19; SmartSimple failed access retains null successful form verification. No automatic reopening.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
         "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
       },
-      "current_disposition": "Watch for a verified reopening; do not apply",
+      "current_disposition": "Watch for verified reopening; do not apply or treat ordinary software construction as research",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
-      "applicant_qualification_status": "Unknown; current intake closed and institutional/research gates unresolved",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+      "applicant_qualification_status": "Unknown actual applicant; closed intake and institutional/research gates unresolved",
+      "estimated_usable_value_method": "Section 6 of the canonical screen: actual scope × evidenced cost, permitted indirect costs and uncovered obligations; all actual study cost/value inputs Unknown.",
       "score_reason": "Closed intake and substantive institutional/research gates; wider education-funder research may remain P2.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "currency_status": null,
+      "application_route_description": "Public SmartSimple route identified; actual access attempt failed without readable form. No registration or submission.",
+      "currency_status": "USD specified for proposal budget; no actual award or currency receipt",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "P3 closed-program watch within P2 comparative education/accessibility research; no numerical score.",
+      "recommended_disposition": "Watch; no application",
       "source_refs": [
-        "https://www.spencer.org/grant_types/small-research-grant"
+        "https://www.spencer.org/grant_types/small-research-grant",
+        "https://www.spencer.org/grant_types/small-research-grant.pdf",
+        "https://www.spencer.org/resources/Applicant-Information-and-Policies",
+        "https://www.spencer.org/resources/policy-on-the-use-of-generative-ai-at-the-spencer-foundation",
+        "https://www.spencer.org/resources/grantee-information-and-policies",
+        "https://www.spencer.org/resources/spencer-foundation-statement-on-research-integrity-and-professional-ethics"
       ],
-      "related_research_issue_urls": [],
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 29,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_assessment": "docs/research/education-accessibility-funding-screen.md",
+      "education_screen_prior_observation": {
+        "revision": "db07d78cc075295122fb59654339e0a5eeeb6283",
+        "path": "data/opportunities.json",
+        "opportunity_id": "SPENCER-SMALL-EDUCATION",
+        "observation": {
+          "schema_version": "sustainability-opportunity/v1",
+          "opportunity_id": "SPENCER-SMALL-EDUCATION",
+          "provider": "Spencer Foundation",
+          "program_name": "Small Research Grants on Education",
+          "program_aliases": [],
+          "round": null,
+          "category": "funding",
+          "support_type": "cash_grant",
+          "official_program_url": "https://www.spencer.org/grant_types/small-research-grant",
+          "official_application_url": "https://spencer.smartsimple.us/",
+          "eligibility_jurisdiction": "US and international applicants; proposals in English and budgets in USD",
+          "legal_entity_requirements": "PI affiliation with qualifying nonprofit or public institution; no direct individual grants.",
+          "available_before_incorporation": "Unavailable while intake is closed; informal direct applicant does not establish institutional eligibility",
+          "available_through_fiscal_sponsorship": "Unknown; intake closed and a qualifying research/admin arrangement must be established",
+          "available_after_501c3_recognition": "Conditionally Eligible future route only with doctoral PI, research fit and reopened intake",
+          "eligibility_status": "Unknown; current intake closed and institutional/research gates unresolved",
+          "eligibility_conditions": [],
+          "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+          "application_status": "Closed; no next deadline verified",
+          "opportunity_stage": "Discovered",
+          "work_status": "Ready",
+          "verified_deadline": null,
+          "deadline_timezone": null,
+          "deadline_source_url": null,
+          "benefit_amount_or_capacity": "Base budget cap $50,000 excluding indirect costs; no current award availability.",
+          "currency": "USD",
+          "estimated_usable_value": null,
+          "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+          "restrictions_and_obligations": [
+            "Review the complete next-cycle RFP before reuse; no assumption that an AI-literacy software build is research."
+          ],
+          "program_objectives": "See sourced program scope",
+          "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+          "required_application_evidence": [
+            "Research questions and project summary",
+            "Personnel details plus budget and justification"
+          ],
+          "required_contacts_or_decisions": [
+            "Verify authorized applicant and decision authority",
+            "Resolve the specific eligibility and cost gates before requesting approval"
+          ],
+          "native_dependency_issue_urls": [],
+          "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+          "sources": [
+            {
+              "url": "https://www.spencer.org/grant_types/small-research-grant",
+              "source_kind": "official",
+              "last_verified": "2026-10-19",
+              "review_scope": "Published program facts, not applicant qualification"
+            }
+          ],
+          "scoring": {
+            "mission_fit": null,
+            "eligibility": null,
+            "net_usable_value": null,
+            "likelihood_evidence": null,
+            "timing": null,
+            "effort": null,
+            "independence_risk": null,
+            "strategic_value": null,
+            "total": null,
+            "justification": "Closed intake and substantive institutional/research gates; wider education-funder research may remain P2. Numeric score remains null until eligibility and usable-value evidence exist."
+          },
+          "priority": "P3",
+          "assigned_owner": null,
+          "independent_reviewer": null,
+          "next_action": "Retain the closed record and specify the independent education-research question and investigator requirements for any future review.",
+          "next_action_date": null,
+          "last_verified": "2026-10-19",
+          "next_verification_date": null,
+          "next_verification_trigger": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+          "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "application_outcome": "No submission in this execution; historical state Unknown",
+          "award_evidence": null,
+          "activation_status": "No activation in this execution; prior account state Unknown",
+          "activation_evidence": null,
+          "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+          "reporting_obligations": [],
+          "duplicate_search": {
+            "searched_at": "2026-10-19",
+            "aliases_checked": [
+              "Spencer Foundation",
+              "Small Research Grants on Education"
+            ],
+            "canonical_match": "SPENCER-SMALL-EDUCATION",
+            "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+          },
+          "review": {
+            "reviewer": null,
+            "reviewed_revision": null,
+            "review_url": null,
+            "decision": "Source consistency reviewed; full research deliverable not accepted",
+            "limitations": [
+              "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+            ]
+          },
+          "owning_research_key": "E03-05",
+          "source_urls": [
+            "https://www.spencer.org/grant_types/small-research-grant"
+          ],
+          "application_url": "https://spencer.smartsimple.us/",
+          "source_evidence": [
+            "The current page says applications are closed. The program funds education research, excludes ordinary software development, and requires doctoral PIs/Co-PIs with a qualifying administering organization."
+          ],
+          "benefit": "Base budget cap $50,000 excluding indirect costs; no current award availability.",
+          "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+          "published_qualification_requirements": [],
+          "internal_application_review_controls": [
+            "Verify applicant facts and authority",
+            "Evidence a scoped need and realistic delivery capacity",
+            "Review data rights, vendor independence and proposed agreement terms"
+          ],
+          "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
+          "priority_recommendation": "P3",
+          "score": null,
+          "scoring_justification": "Closed intake and substantive institutional/research gates; wider education-funder research may remain P2.",
+          "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
+          "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+          "independent_source_review": {
+            "reviewed_on": "2026-10-19",
+            "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+          },
+          "current_disposition": "Watch for a verified reopening; do not apply",
+          "related_research_keys": [],
+          "source_review_status": "Source facts checked",
+          "applicant_qualification_status": "Unknown; current intake closed and institutional/research gates unresolved",
+          "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+          "score_reason": "Closed intake and substantive institutional/research gates; wider education-funder research may remain P2.",
+          "award_status": "Unknown; no award evidence established",
+          "application_route_description": null,
+          "currency_status": null,
+          "deadline_local_time": null,
+          "deadline_utc": null,
+          "gate": null,
+          "jurisdiction": null,
+          "priority_scope_note": null,
+          "recommended_disposition": null,
+          "source_refs": [
+            "https://www.spencer.org/grant_types/small-research-grant"
+          ],
+          "related_research_issue_urls": [],
+          "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
+          "github_link_verification": {
+            "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
+            "read_at": "2026-10-19T04:59:39.870Z",
+            "issue_number": 29,
+            "method": "Key/number/title/URL matched against independent GitHub issue readback"
+          }
+        }
+      },
+      "research_execution_attribution": "In-session Research lane, bounded #29 source work; no organizational appointment or external action"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -8659,6 +8895,180 @@
           "scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished."
         }
       ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "SLOAN-NEW-MEDIA",
+      "provider": "Alfred P. Sloan Foundation",
+      "program_name": "New Media",
+      "program_aliases": [
+        "Sloan New Media",
+        "Public Understanding — New Media"
+      ],
+      "round": null,
+      "category": "funding",
+      "support_type": "cash_grant",
+      "official_program_url": "https://sloan.org/programs/public-understanding/new-media",
+      "official_application_url": "https://sloan.org/grants/apply",
+      "eligibility_jurisdiction": "Actual applicant jurisdiction/route Unknown; public form distinguishes US, Canadian and other non-US documentation.",
+      "legal_entity_requirements": "Actual eligible grantee and authorized officials required. General exclusions and public form apply; sponsor relationship documentation is not blanket admission.",
+      "available_before_incorporation": "Unknown actual legal applicant. Individual/for-profit exclusions apply to evidenced facts; no eligible grantee or authority established.",
+      "available_through_fiscal_sponsorship": "Unknown. Public form asks for fiscal-agent/sponsor relationship; actual host agreement, grantee and project admission unverified.",
+      "available_after_501c3_recognition": "Unknown actual recognition and program admission; tax status alone does not establish content fit, invitation or accepted terms.",
+      "eligibility_status": "Unknown; conditional public-engagement fit only, no actual grantee or invitation",
+      "eligibility_conditions": [
+        "Actual eligible legal grantee and authorized leadership/financial documents",
+        "Public-understanding content fit and appropriate adult-audience proposal",
+        "Actual program invitation before formal proposal; correct research/non-research route",
+        "Rights, conflicts, accessible engagement, budget and agreement review"
+      ],
+      "application_gate": "Not authorized. No actual applicant, inquiry, invitation, study, award agreement or financial authority established.",
+      "application_status": "Specific one-page inquiry route documented; formal proposal invitation-only; no contact or submission",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Restricted cash grant opportunity; program-specific amount and actual available value Unknown.",
+      "currency": "USD",
+      "currency_status": "USD public reporting context; no actual award or currency receipt established",
+      "estimated_usable_value": null,
+      "valuation_method": "Section 6 of the canonical screen: actual scope × evidenced cost, permitted indirect costs and uncovered obligations; all actual study cost/value inputs Unknown.",
+      "restrictions_and_obligations": [
+        "Canonical sections 2, 3 and 5 distinguish program exclusions, invitation, project classification, conflicts, information products, reporting, return/transfer, overhead and unknown actual agreement terms."
+      ],
+      "program_objectives": "Public understanding of science through media including interactive formats.",
+      "fit_with_pick_your_ai": "Inference: E2 rights-cleared accessible evidence-literacy exhibit may fit. No provider acceptance, measured learning effect or ordinary builder funding entitlement claimed.",
+      "required_application_evidence": [
+        "Specific one-page inquiry if separately authorized; no formal proposal without invitation",
+        "Actual project lead/grantee, truthful credentials, cost and authorized signatures",
+        "Correct invited project packet; for non-research, engagement, conflict and information-product appendices and actual institutional documentation",
+        "Fiscal sponsor relationship explanation when applicable; no fabricated host or eligibility"
+      ],
+      "required_contacts_or_decisions": [
+        "Actual eligible grantee and lead",
+        "Scope-specific program fit and invitation decision",
+        "Independent terms/rights, budget/custody and applicable study/ethics decisions"
+      ],
+      "native_dependency_issue_urls": [],
+      "confidence": "Public source findings documented for independent acceptance; actual applicant, invitation, agreement, value and outcome remain Unknown.",
+      "sources": [
+        {
+          "id": "S8",
+          "url": "https://sloan.org/programs/public-understanding/new-media",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete substantive New Media page and one-page inquiry route; no message sent"
+        },
+        {
+          "id": "S9",
+          "url": "https://sloan.org/grants/apply",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete substantive exclusions, inquiry/invitation and submission guidance; separate anchor attempt failed"
+        },
+        {
+          "id": "S10",
+          "url": "https://sloan.org/storage/app/media/files/application_documents/Sloan-Grant-Proposal-Guidelines-Non-Research-Projects.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "All 13 pages, modified 2025-10-27; non-research packet only, mixed projects directed to research guidelines"
+        },
+        {
+          "id": "S11",
+          "url": "https://sloan.org/grants/grantees",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete substantive reporting, unused funds, transfer and no-cost-extension sections; portal/agreement uninspected"
+        },
+        {
+          "id": "S12",
+          "url": "https://sloan.org/storage/app/media/files/application_documents/Proposal-Administration-Form.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Both blank-form pages, version 9.7.2023; actual organization, sponsor relationship and signatures Unknown"
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Actual applicant, appropriate scope, cost/value, effort and award likelihood are Unknown; no invented numerical score."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Independently review the screen. Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant and appropriate authorization exist.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before external use/action and on program, applicant, scope, rights or agreement changes; no automatic deadline inferred",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Public general requirements recorded; no actual award or binding reporting calendar established.",
+      "reporting_obligations": [
+        "Actual agreement sets substantive and financial reporting; public return/transfer/extension conditions remain conditional."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Sloan New Media",
+          "Public Understanding — New Media",
+          "SLOAN-NEW-MEDIA",
+          "Open Source in Science"
+        ],
+        "canonical_match": null,
+        "scope": "All 41 base IDs plus actual GitHub New Media issues/PR search. Distinct from SLOAN-OSS-IN-SCIENCE owner #27; related #31 screen preserved."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Actual findings acceptance pending",
+        "limitations": [
+          "Not a provider invitation, applicant/host acceptance or organizational approval."
+        ]
+      },
+      "owning_research_key": "E03-05",
+      "source_urls": [
+        "https://sloan.org/programs/public-understanding/new-media",
+        "https://sloan.org/grants/apply",
+        "https://sloan.org/storage/app/media/files/application_documents/Sloan-Grant-Proposal-Guidelines-Non-Research-Projects.pdf",
+        "https://sloan.org/grants/grantees",
+        "https://sloan.org/storage/app/media/files/application_documents/Proposal-Administration-Form.pdf"
+      ],
+      "source_refs": [
+        "https://sloan.org/programs/public-understanding/new-media",
+        "https://sloan.org/grants/apply",
+        "https://sloan.org/storage/app/media/files/application_documents/Sloan-Grant-Proposal-Guidelines-Non-Research-Projects.pdf",
+        "https://sloan.org/grants/grantees",
+        "https://sloan.org/storage/app/media/files/application_documents/Proposal-Administration-Form.pdf"
+      ],
+      "source_review_status": "Current public findings inspected; independent findings acceptance pending",
+      "award_status": "Unknown; no award evidence established",
+      "current_disposition": "Investigate bounded public-engagement fit; defer inquiry/application pending actual grantee and scope",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "canonical_assessment": "docs/research/education-accessibility-funding-screen.md",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/27",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31"
+      ],
+      "application_route_description": "Program-specific one-page email inquiry, no telephone inquiry; general formal invitation-only route. No message sent.",
+      "required_application_evidence_status": "Public guidelines and blank administration form read at stated versions; no invitation-specific or signed agreement reviewed.",
+      "priority_scope_note": "P2 comparative research lead, not a score, qualified opportunity or application approval.",
+      "research_execution_attribution": "In-session Research lane, bounded #29 source work; no organizational appointment or external action"
     }
   ],
   "important_limitations": [

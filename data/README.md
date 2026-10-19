@@ -1,6 +1,6 @@
 # Opportunity evidence register
 
-This register contains **41 distinct program/channel records**: 14 nonprofit and funding records and 27 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
+This register contains **42 distinct program/channel records**: 15 nonprofit and funding records and 27 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
 
 The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
@@ -23,6 +23,7 @@ A shared owning key means one comparative research package evaluates different p
 | Open Source in Science | E03-03 | Program LOI route documented; no current special open call |
 | PESOSE (NSF 26-506) | E03-06 | Active solicitation; PYA applicant route not qualified |
 | Small Research Grants on Education | E03-05 | Watch for a verified reopening; do not apply |
+| [New Media](../docs/research/education-accessibility-funding-screen.md) | E03-05 | In Review / Discovered; conditional public-engagement fit, actual grantee and invitation Unknown |
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
 
 ## How to interpret fields
@@ -45,3 +46,7 @@ Source facts checked does not mean the canonical program/intake assessment has r
 ## Hardware partner comparison
 
 The [E06-04 assessment](../research/hardware/partner-shortlist.md) adds two distinct TechSoup RHW and Computer Aid Get Computers records under existing [#54](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54). They are Done / Verified for program research after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399) at `25eb4b8e047e2adb736d6540b4588b1f3a462697`. Both retain actual overall applicant, inventory, custody, offer, value and effort Unknowns; the documented U.S. fiscal-sponsored TechSoup route is explicitly ineligible. Their shared owning issue was separately read; the original 39-record native setup audit does not extend to a new snapshot or Project item. Existing NVIDIA, AMD, Samsung and all other program rows remain unchanged. The memo distinguishes fee-based access, gifts, loans, accounting and donor-tax valuation, and includes an unsent single-station request with care and exit requirements.
+
+## Education and accessibility screen
+
+The [#29 screen](../docs/research/education-accessibility-funding-screen.md) updates only the existing Spencer program and adds distinct Sloan New Media. Both findings await independent acceptance; Spencer remains closed/P3 and New Media P2 with no actual applicant, invitation, study, award or value. The complete earlier Spencer observation is retained in its dated namespace. All 40 other base opportunity objects remain exact, including the separately owned Sloan Open Source in Science and NSF records. The original native issue/Project audits above remain historical; the new program shares #29 and creates no new issue or Project field.

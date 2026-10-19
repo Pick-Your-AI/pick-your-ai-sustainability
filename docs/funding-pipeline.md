@@ -8,8 +8,8 @@ The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 35 records, including the completed Together Not Pursuing assessment retained at its historical stage |
-| Verified | Independently accepted canonical program/intake assessment under the transition procedure | 4: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), [Anthropic researcher access](../research/compute/anthropic-researcher-access.md) and [Gemini academic support](../research/compute/google-gemini-research.md), each with independent findings acceptance |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 34 records, including the completed Together Not Pursuing assessment retained at its historical stage |
+| Verified | Independently accepted canonical program/intake assessment under the transition procedure | 5: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), [Anthropic researcher access](../research/compute/anthropic-researcher-access.md), [Gemini academic support](../research/compute/google-gemini-research.md) and [Azure nonprofit AI coverage](../research/compute/azure-nonprofit-ai.md), each with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
 | Submitted | Receipt from actual application | None in this execution |
@@ -22,6 +22,8 @@ The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
 The [Anthropic researcher assessment](../research/compute/anthropic-researcher-access.md) and [Gemini academic assessment](../research/compute/google-gemini-research.md) are Done / Verified for program/intake research after [independent findings review 5571407286](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286). Both retain P2 and Unknown actual applicant/account qualification. Their finite research designs are proposals; neither entry establishes an academic affiliation, provider agreement, application, awarded credits, usable value or executed model study.
+
+The [Azure nonprofit AI assessment](../research/compute/azure-nonprofit-ai.md) is Done / Verified after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/99#pullrequestreview-5571849343) of efcefd379cc34315ab74664371edcce11525f618. It retains P2 as a conditional route and incorporates the probe within the same unexecuted 24-attempt allowance. Actual applicant/host, offer/model terms, grant/meter admission and operating controls remain unqualified; no application, award, activation or empirical delivery is established.
 
 ## Known calendar facts
 

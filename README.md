@@ -47,6 +47,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Dependency register](docs/dependency-register.md)
 - [Budget assumption data](data/budget-assumptions.json)
 - [Research freshness register](docs/research-freshness-register.md)
+- [GitHub developer and security baseline](research/tooling/github-baseline.md)
 
 ## Execution and audit evidence
 

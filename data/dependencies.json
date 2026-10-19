@@ -833,10 +833,18 @@
       "blocking_issue_id": 5918046004,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.20"
+        "observation_cutoff": "2026-10-19T23:48Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T20:36:56Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.20",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.20"
+        }
       }
     },
     {
@@ -993,10 +1001,18 @@
       "blocking_issue_id": 5918054673,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.47"
+        "observation_cutoff": "2026-10-19T23:48Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T18:20:00Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.47",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.47"
+        }
       }
     },
     {
@@ -1173,10 +1189,18 @@
       "blocking_issue_id": 5918057900,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
+        "observation_cutoff": "2026-10-19T23:48Z",
         "prerequisite_state": "CLOSED",
         "prerequisite_closed_at": "2026-10-19T10:48:54Z",
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "CLOSED",
+          "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        }
       }
     },
     {
@@ -1253,10 +1277,18 @@
       "blocking_issue_id": 5918057900,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
+        "observation_cutoff": "2026-10-19T23:48Z",
         "prerequisite_state": "CLOSED",
         "prerequisite_closed_at": "2026-10-19T10:48:54Z",
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "CLOSED",
+          "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        }
       }
     },
     {
@@ -1273,10 +1305,18 @@
       "blocking_issue_id": 5918057900,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
+        "observation_cutoff": "2026-10-19T23:48Z",
         "prerequisite_state": "CLOSED",
         "prerequisite_closed_at": "2026-10-19T10:48:54Z",
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "CLOSED",
+          "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        }
       }
     },
     {
@@ -1313,10 +1353,18 @@
       "blocking_issue_id": 5918057900,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
+        "observation_cutoff": "2026-10-19T23:48Z",
         "prerequisite_state": "CLOSED",
         "prerequisite_closed_at": "2026-10-19T10:48:54Z",
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "CLOSED",
+          "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        }
       }
     },
     {
@@ -1413,10 +1461,18 @@
       "blocking_issue_id": 5918057900,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
+        "observation_cutoff": "2026-10-19T23:48Z",
         "prerequisite_state": "CLOSED",
         "prerequisite_closed_at": "2026-10-19T10:48:54Z",
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.57",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "CLOSED",
+          "prerequisite_closed_at": "2026-10-19T10:48:54Z",
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.57"
+        }
       }
     },
     {
@@ -1593,10 +1649,18 @@
       "blocking_issue_id": 5918046004,
       "acceptance_reconciliation": {
         "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.20"
+        "observation_cutoff": "2026-10-19T23:48Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-19T20:36:56Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.20",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.20"
+        }
       }
     },
     {
@@ -4314,8 +4378,22 @@
         "closed_at": null,
         "checked_on": "2026-10-19",
         "disposition": "not_satisfied",
-        "missing": "Issue open; formation output and acceptance not evidenced.",
-        "latest_comment_urls": []
+        "missing": "Issue open. The full structure findings (public commit c83377678c5e59a8602b22edae6f6c9c03d59575, tree 7b993dbdb71a7590a267db56ad3b9c570ed0003b) are independently accepted, and the accepted-findings metadata commit 00ee81db4f418b778e597f0a0da3bdc16199353a is published on contributor branch contrib/CompleteDotTech/structure-decision-098fea; canonical-main delivery is still pending.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275724543",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275892803",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6276041137"
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Issue open; formation output and acceptance not evidenced.",
+          "latest_comment_urls": []
+        },
+        "observation_cutoff": "2026-10-19T23:48Z"
       },
       "17": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
@@ -4375,15 +4453,43 @@
       },
       "20": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
-        "state": "OPEN",
-        "closed_at": null,
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T20:36:56Z",
         "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Issue open; published budget candidate explicitly awaits independent acceptance and delivery.",
+        "observation_cutoff": "2026-10-19T23:48Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Bounded operating-budget deliverable only; budget adoption, spending and the still-unset #21 compute inputs remain separate.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/102#pullrequestreview-5577268553",
+        "acceptance_review_node_id": "PRR_kwDOVO8t2M8AAAABTG5dSQ",
+        "accepted_source_sha": "01597374a070c443d0e3593b7321d068e81aab11",
+        "acceptance_submitted_at": "2026-10-19T20:21:45Z",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "0157e379b6bf48cb40f6e3ffbce771d821e31d21"
+          },
+          "mergedAt": "2026-10-19T20:29:13Z",
+          "number": 102,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/102"
+        },
         "latest_comment_urls": [
           "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6266988438",
           "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6268053696"
-        ]
+        ],
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Issue open; published budget candidate explicitly awaits independent acceptance and delivery.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6266988438",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20#issuecomment-6268053696"
+          ]
+        },
+        "findings_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/102#pullrequestreview-5572495606"
       },
       "21": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
@@ -4477,15 +4583,44 @@
       },
       "47": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
-        "state": "OPEN",
-        "closed_at": null,
+        "state": "CLOSED",
+        "closed_at": "2026-10-19T18:20:00Z",
         "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Findings accepted on PR #88, but final receiving/delivery reconciliation explicitly pending.",
+        "observation_cutoff": "2026-10-19T23:48Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Hugging Face community GPU research with a deferred application only; actual applicant qualification, Space or GPU allocation and activation remain Unknown.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88#pullrequestreview-5575694393",
+        "acceptance_review_node_id": "PRR_kwDOVO8t2M8AAAABTFZYOQ",
+        "accepted_source_sha": "cc8f73a337debee0e063f8d15702e0d597309850",
+        "acceptance_submitted_at": "2026-10-19T18:06:38Z",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e"
+          },
+          "mergedAt": "2026-10-19T18:08:14Z",
+          "number": 88,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88"
+        },
         "latest_comment_urls": [
           "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6265818809",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6271684343"
-        ]
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6271684343",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6274152592"
+        ],
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Findings accepted on PR #88, but final receiving/delivery reconciliation explicitly pending.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6265818809",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47#issuecomment-6271684343"
+          ]
+        },
+        "findings_review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88#pullrequestreview-5571037132"
       },
       "48": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
@@ -4493,8 +4628,20 @@
         "closed_at": null,
         "checked_on": "2026-10-19",
         "disposition": "not_satisfied",
-        "missing": "Issue open; no comments or accepted output in the inspected evidence.",
-        "latest_comment_urls": []
+        "missing": "Issue open. Owned preparation is under way (an active source claim at 22:26 UTC with a 23:05 checkpoint); there is no accepted output.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48#issuecomment-6278731482"
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Issue open; no comments or accepted output in the inspected evidence.",
+          "latest_comment_urls": []
+        },
+        "observation_cutoff": "2026-10-19T23:48Z"
       },
       "49": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
@@ -4502,8 +4649,21 @@
         "closed_at": null,
         "checked_on": "2026-10-19",
         "disposition": "not_satisfied",
-        "missing": "Issue open; no comments or accepted output in the inspected evidence.",
-        "latest_comment_urls": []
+        "missing": "Issue open. The bounded partial protocol findings (criteria 5 and 13) are accepted and a source is published (37dfe7465e4a1b251d0759d14e94de6ca2b50760, tree 3d08eab401fd22fe3db6c6f743052f8e167f7cad), but the demand-sized request and canonical-delivery criteria remain incomplete and the acceptance-metadata continuation is pending.",
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6278189775",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6278873078"
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Issue open; no comments or accepted output in the inspected evidence.",
+          "latest_comment_urls": []
+        },
+        "observation_cutoff": "2026-10-19T23:48Z"
       },
       "54": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
@@ -4532,12 +4692,13 @@
         "state": "CLOSED",
         "closed_at": "2026-10-19T10:48:54Z",
         "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Closed, but latest issue comment and canonical acceptance record retain pending acceptance; PR #79 supplies bounded source clearance, not an explicit final receiving acceptance receipt. Confirm exact final scope before satisfaction.",
-        "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57#issuecomment-6265024760"
-        ],
-        "source_clearance_pr_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79",
+        "observation_cutoff": "2026-10-19T23:48Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Bounded dated GitHub developer and security baseline only (all thirteen #57 criteria in the completed issue body); actual account agreements and settings remain Unknown.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79#pullrequestreview-5570410486",
+        "acceptance_review_node_id": "PRR_kwDOVO8t2M8AAAABTAW39g",
+        "accepted_source_sha": "b5822ba331adf8d4fec75742031db5fc602c4dce",
+        "acceptance_submitted_at": "2026-10-19T10:45:20Z",
         "delivery": {
           "mergeCommit": {
             "oid": "a648627e9df846995b1275f2f19c8cb9fec90861"
@@ -4546,7 +4707,33 @@
           "number": 79,
           "state": "MERGED",
           "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79"
-        }
+        },
+        "latest_comment_urls": [
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57#issuecomment-6265024760"
+        ],
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
+          "state": "CLOSED",
+          "closed_at": "2026-10-19T10:48:54Z",
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Closed, but latest issue comment and canonical acceptance record retain pending acceptance; PR #79 supplies bounded source clearance, not an explicit final receiving acceptance receipt. Confirm exact final scope before satisfaction.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57#issuecomment-6265024760"
+          ],
+          "source_clearance_pr_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79",
+          "delivery": {
+            "mergeCommit": {
+              "oid": "a648627e9df846995b1275f2f19c8cb9fec90861"
+            },
+            "mergedAt": "2026-10-19T10:48:52Z",
+            "number": 79,
+            "state": "MERGED",
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79"
+          }
+        },
+        "source_clearance_pr_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79"
       },
       "67": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
@@ -4598,11 +4785,25 @@
         "closed_at": null,
         "checked_on": "2026-10-19",
         "disposition": "not_satisfied",
-        "missing": "Issue open; candidate undergoing independent full-source/manual-case review; no accepted delivery evidenced.",
+        "missing": "Issue open. A completed independent source and manual-case review of 52001d46 / 5241bb07 and a prepared current-main join 523feb89 are recorded at the 22:30 UTC checkpoint; publication and canonical delivery are still outstanding.",
         "latest_comment_urls": [
           "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267033046",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038"
-        ]
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6278167762"
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Issue open; candidate undergoing independent full-source/manual-case review; no accepted delivery evidenced.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267033046",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038"
+          ]
+        },
+        "observation_cutoff": "2026-10-19T23:48Z"
       },
       "70": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
@@ -4956,6 +5157,22 @@
         "PRR_kwDOVO8t2M8AAAABTEaKwA"
       ]
     },
-    "proposed_edges": []
+    "proposed_edges": [],
+    "correction_observation": {
+      "observation_cutoff": "2026-10-19T23:48Z",
+      "satisfied_hard_edges": 33,
+      "pending_hard_edges": 10,
+      "pending_prerequisites": [
+        13,
+        17,
+        21,
+        38,
+        48,
+        49,
+        69
+      ],
+      "reason": "Applied the corrections requested in the PR #119 changes-requested review: #57, #20 and #47 have final receiving records, #13 has an accepted but undelivered output, and the #48, #49 and #69 pending reasons carry newer evidence. Every earlier observation is retained in prior_observation.",
+      "edge_count_unit": "one hard dependency edge is one prerequisite-to-consumer pair"
+    }
   }
 }

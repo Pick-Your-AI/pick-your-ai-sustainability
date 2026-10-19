@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 202,
+  "source_count": 208,
   "records_count": 41,
   "sources": [
     {
@@ -838,6 +838,23 @@
       ]
     },
     {
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/18950890312210-The-free-non-commercial-licensing-FAQ",
+      "last_verified": "2026-10-19",
+      "verification_scope": "August 13, 2026 individual-product FAQ; compared with its separate agreement for eligibility, activation, renewal and telemetry distinctions.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://sales.jetbrains.com/hc/en-gb/articles/360016581839-Does-JetBrains-offer-free-licenses-for-open-source-development",
       "last_verified": "2026-10-19",
       "verification_scope": "Published facts recorded for linked opportunities",
@@ -854,6 +871,23 @@
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/360021922640-Can-I-use-free-versions-of-IntelliJ-IDEA-and-PyCharm-for-developing-commercial-proprietary-software",
+      "last_verified": "2026-10-19",
+      "verification_scope": "August 13, 2026 FAQ: free core IDE functionality is a separate alternative; premium/plugin rights and actual feature needs are not established.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
       ]
     },
     {
@@ -1166,8 +1200,8 @@
     {
       "url": "https://www.jetbrains.com/community/opensource/",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Direct public HTTP 200 and search-tool requests on 2026-10-19 returned a page shell without the program body; exact current group form/fields and submission availability remain Not Verified.",
       "opportunity_ids": [
         "JETBRAINS-OSS"
       ],
@@ -1177,9 +1211,79 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Not Verified — direct body unavailable; actual access attempt recorded",
       "source_roles": [
         "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+      "last_verified": null,
+      "verification_scope": "Official-domain indexed landing text describes distinct individual and established-project routes; direct page body and live group form remain Not Verified.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Indexed official text read; direct body and current form Not Verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19",
+      "indexed_text_accessed": "2026-10-19"
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/privacy/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Privacy Notice v3.2 dated June 12, 2026; older .html URL redirects here; account/service processing, not a project legal conclusion.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/terms/product_data_collection/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Data notice v1.6 dated July 7, 2026; documented categories and license-specific controls, not actual installation or account readback.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/legal/docs/toolbox/license_non-commercial/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Individual agreement v3.0 effective December 16, 2025; distinct customer/use and data rules; renewal wording conflict retained in the canonical note.",
+      "opportunity_ids": [
+        "JETBRAINS-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or qualification claim",
+        "Upon changed terms, redirect, source conflict or a relevant operating need"
+      ],
+      "state": "Source inspected for the stated scope; applicant and account conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
       ]
     },
     {
@@ -3827,6 +3931,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 179,
+  "source_evidence_url_count": 185,
   "additional_unverified_endpoint_count": 23
 }

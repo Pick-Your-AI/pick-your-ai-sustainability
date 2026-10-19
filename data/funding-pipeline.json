@@ -299,13 +299,13 @@
     {
       "opportunity_id": "AWS-OSS-CREDITS",
       "program_name": "Cloud Credits for Open Source",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program and application-readiness findings independently accepted; actual applicant qualification remains Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
-      "research_status": "Blocked",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Research Done / Verified; retain P2 and hold application. Accepted #11/#19 baselines and all 13 research findings are consumed; actual applicant and action-specific evidence remains unresolved.",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Hold application: unread current workbook, unresolved applicant/community/independence/account authority, exact incremental workload quantities and publication/operating terms. The accepted #19 needs baseline is consumed; research and GitHub review authority remain separate.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -314,7 +314,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Verify current workbook and record project independence and workload evidence."
+      "next_action": "Resolve the current workbook, project independence, account authority, exact incremental quantities and publication/operating conditions before any application; research findings are independently accepted."
     },
     {
       "opportunity_id": "CLOUDFLARE-ALEXANDRIA",

@@ -2909,7 +2909,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Program documented; public landing HTML is reachable but its body/current group intake is not extractable. Indexed official text provides a bounded route description; full form and submission availability remain Not Verified.",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -3003,7 +3003,7 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT (independent in-session Research reviewer, session 07afe94cc113)",
       "next_action": "Obtain named user/product/feature and existing-license evidence; verify current group intake and actual renewal/data terms before any request.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -3027,13 +3027,15 @@
         "scope": "Existing register, issue #58, parent #8 and open sustainability PRs inspected. Complete organization-scoped JetBrains issue search returned canonical #58, parent #8 and broader support-stack #61; separate PR search returned no matches. Canonical identity and earlier seed evidence retained; no new record."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Canonical findings prepared; independent acceptance pending",
+        "reviewer": "ChatGPT (independent in-session Research reviewer, session 07afe94cc113)",
+        "reviewed_revision": "fab559fbb60acfc7a943b1d73266c059bbb1bcda",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/84#pullrequestreview-5570770906",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted minimal-license recommendation: defer new requested seats pending evidenced need, actual applicant qualification and current intake/terms.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification.",
-          "The complete findings, current source/access distinctions and remaining questions are in research/tooling/jetbrains-oss.md; publish and independently review the exact revision before completing issue #58."
+          "Independent in-session factual review through the shared connected account; not a distinct-account GitHub approval, a legal opinion or an organizational commitment.",
+          "The accepted review covers the complete canonical note, source-access limitations, alternative-route renewal conflict, license-specific privacy conditions and structured consistency at the linked exact revision.",
+          "Actual required capacity, current licenses, applicant eligibility, full current group intake, private terms, data settings and usable value remain Unknown or Not Verified as recorded. No application, award or activation is established."
         ]
       },
       "owning_research_key": "E07-03",
@@ -3090,10 +3092,10 @@
       "currency_status": "No monetary offer or valuation is asserted in this assessment; currency remains null until a relevant actual quote or agreement establishes it.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Earlier source-fact review retains its original scope. This extended canonical note and structured update have not yet received independent findings acceptance."
+        "scope": "Complete canonical findings and structured consistency at fab559fbb60acfc7a943b1d73266c059bbb1bcda, accepted in the linked PR review; not applicant qualification, empirical productivity measurement, legal advice, GitHub APPROVE or agreement acceptance."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked; canonical findings await independent acceptance",
+      "source_review_status": "Canonical findings accepted; actual applicant eligibility remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
@@ -6254,7 +6256,7 @@
   "important_limitations": [
     "Published source facts were checked for all 39 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "14 nonprofit/funding records and 25 compute/tool/service records share the same schema and stable owning research keys. A research package can own several distinct program records; those records are not duplicate issues.",
-    "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion does not accept the other program assessments. Published external deadlines are recorded separately with exact source/timezone.",
+    "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",

@@ -1,6 +1,6 @@
 # JetBrains OSS licenses and the minimum justified request
 
-Canonical record: `JETBRAINS-OSS`. Owning issue: [E07-03 / #58](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58), under [E07 / #8](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8). Sources inspected **2026-10-19**; the register preserves their individual access results. Status: findings prepared for independent review. Operating owner and applicant remain **Unassigned**; no contributor or legal representative is appointed here.
+Canonical record: `JETBRAINS-OSS`. Owning issue: [E07-03 / #58](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58), under [E07 / #8](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8). Sources inspected **2026-10-19**; the register preserves their individual access results. Status: findings independently accepted at [revision `fab559f`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/fab559fbb60acfc7a943b1d73266c059bbb1bcda) in [review `5570770906`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/84#pullrequestreview-5570770906). Operating owner and applicant remain **Unassigned**; no contributor or legal representative is appointed here.
 
 ## Recommendation
 
@@ -78,7 +78,7 @@ The canonical structured record and its pipeline/freshness projections accompany
 
 The next concrete work is a named-user/feature inventory and verified group intake, followed by qualification of the actual applicant and terms. A future accepted request must identify its products, users, authority, privacy choices, obligations and renewal date. Any provider clarification can first be drafted for review; this contribution sends none and makes no commitment.
 
-Independent review must assess the actual note and structured changes at an exact revision, including the failed direct extraction, indexed evidence limitation, renewal conflict, privacy distinctions and zero-request recommendation. Record the review URL, scope, conflicts, decision and limitations on the PR and issue. Validation establishes local consistency; it does not qualify an applicant or accept terms. Issue #58 is complete only after publication and independent acceptance of these findings under the repository process.
+The independent in-session Research reviewer accepted the complete findings and structured changes at revision `fab559f` in the linked review, including the failed direct extraction, indexed evidence limitation, renewal conflict, privacy distinctions and zero-request recommendation. That review also verified the other 38 opportunity records, their pipeline rows and all unaffected source entries. The structured record retains the actual reviewer, revision, date, URL, accepted scope and limitations. This is substantive independent analysis through the shared connected account; it does not claim a distinct-account GitHub APPROVE or an organizational decision. Final delivery and issue #58 acceptance links belong in the PR and issue. Validation establishes local consistency; it does not qualify an applicant or accept terms.
 
 ## Primary-source register
 

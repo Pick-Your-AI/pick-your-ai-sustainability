@@ -379,9 +379,9 @@
     {
       "opportunity_id": "JETBRAINS-OSS",
       "program_name": "Licenses for Open Source Development",
-      "source_review_status": "Source facts checked; canonical findings await independent acceptance",
+      "source_review_status": "Canonical findings accepted; actual applicant eligibility remains Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58",
-      "research_status": "Ready",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
       "disposition": "Defer a new license request: no named-user/product gap or accepted applicant and seat plan is evidenced.",
       "eligibility": "Unknown",

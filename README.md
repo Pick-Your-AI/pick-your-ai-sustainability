@@ -49,6 +49,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Research freshness register](docs/research-freshness-register.md)
 - [GitHub developer and security baseline](research/tooling/github-baseline.md)
 - [OpenAI Researcher Access qualification and proposed study](research/compute/openai-researcher-access.md)
+- [Groq conditional evaluation and support discovery](research/compute/groq-support.md)
 
 ## Execution and audit evidence
 

@@ -41,6 +41,7 @@ These initial documents are reviewable program drafts. Publishing them does not 
 These artifacts are drafts for review. Their existence does not close the owning research issues.
 
 - [Organizational structure decision brief](docs/nonprofit/structure-decision-brief.md)
+- [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)
 - [39-record opportunity evidence register](data/README.md)
 - [Funding pipeline](docs/funding-pipeline.md)

@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 155,
+  "source_count": 170,
   "records_count": 39,
   "sources": [
     {
@@ -162,8 +162,8 @@
     {
       "url": "https://cloud.cerebras.ai",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public endpoint retrieval returned no form content; exact current form, account, payment-method choices and account-specific agreements remain unverified",
       "opportunity_ids": [
         "CEREBRAS-TRIAL"
       ],
@@ -173,7 +173,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Not Verified — content-empty public retrieval; form/account review required",
       "source_roles": [
         "application_endpoint"
       ]
@@ -506,7 +506,7 @@
     {
       "url": "https://inference-docs.cerebras.ai/support/rate-limits",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current trial and rate table; not an actual account quota or applicable exception",
       "opportunity_ids": [
         "CEREBRAS-TRIAL"
       ],
@@ -520,7 +520,8 @@
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "last_attempted": "2026-10-19"
     },
     {
       "url": "https://learn.microsoft.com/en-us/industry/nonprofit/microsoft-for-nonprofits/eligibility",
@@ -2572,6 +2573,288 @@
       ]
     },
     {
+      "url": "https://www.cerebras.ai/pricing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Advertised trial terms and separate paid continuation; numerical price table was not exposed. Pricing says expiry from activation whereas rate/billing pages say grant; actual start/expiry remains Unknown.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/console/account-billing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public account, credit, auto-recharge and deletion procedures; no account inspected",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/models/openai-oss.md",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Advertised public Markdown retrieved after HTML/navigation and web-fetch limitations; conflicting prose/component and displayed Developer rates read",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/terms-of-service",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current linked API-scoped terms, effective 2024-08-27; proposed use gate assessed without an unseen account agreement",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/privacy-policy",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant public data, retention and transfer provisions, updated 2024-08-27; no private DPA or account verification",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/capabilities/reasoning",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "gpt-oss-120b reasoning controls and completion-token budgeting",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/policies",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current destination of inference documentation policy link; distinguishes linked API terms from separate older product terms",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/llms.txt",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All 133 returned index lines inspected for a distinct research/OSS intake lead; not every linked page reviewed",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/blog/grantfrp",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Closed historical call; no current intake or project agreement established; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/early-access",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Documented builder lead; independent-research fit, selection, value and applicable agreement Unknown; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/r/zUw2W8LEiY",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any related-program intake/eligibility claim or application",
+        "Upon changed official program or endpoint evidence"
+      ],
+      "state": "Not Verified — content-empty public retrieval; no form submitted",
+      "source_roles": [
+        "related_program_application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/sponsorships",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Documented event lead; no actual event, award or benchmark permission established; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://form.typeform.com/to/TUK3flkj",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any related-program intake/eligibility claim or application",
+        "Upon changed official program or endpoint evidence"
+      ],
+      "state": "Not Verified — content-empty public retrieval; no form submitted",
+      "source_roles": [
+        "related_program_application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/ambassadors",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Documented advocacy/event lead; Not Pursuing for this independent-evaluation use; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/r/fXi2GLpDGQ",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any related-program intake/eligibility claim or application",
+        "Upon changed official program or endpoint evidence"
+      ],
+      "state": "Not Verified — content-empty public retrieval; no form submitted",
+      "source_roles": [
+        "related_program_application_endpoint"
+      ]
+    },
+    {
       "url": "https://console.groq.com/docs/billing-faqs",
       "last_verified": "2026-10-19",
       "verification_scope": "Public free/developer upgrade and billing boundary",
@@ -2920,6 +3203,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 137,
-  "additional_unverified_endpoint_count": 18
+  "source_evidence_url_count": 149,
+  "additional_unverified_endpoint_count": 21
 }

@@ -1,0 +1,485 @@
+{
+  "schema_version": "sustainability-github-sponsors-readiness/v1",
+  "research_key": "E04-01",
+  "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
+  "opportunity_id": "GITHUB-SPONSORS-ORG",
+  "prepared_on": "2026-10-19",
+  "status": "Draft findings for independent acceptance; no application or activation",
+  "authorship": "Project engineering assistant. Public-source research and repository-local preparation; no outreach, enrollment, financial form, account setup or payment.",
+  "decision": {
+    "recommendation": "Continue P1 channel-readiness research. Hold application, publication of an active funding profile and payment setup until the actual recipient, authority, payout route, current agreements and operating controls are qualified.",
+    "priority": "P1",
+    "priority_reason": "A reusable route for voluntary support can serve several existing public work packages; closing foundational custody and independence gaps is useful without deadline urgency. No assumed donor, grant probability or numeric score.",
+    "numeric_score": null,
+    "opportunity_stage": "Discovered",
+    "research_status": "In Review",
+    "eligibility_status": "Unknown",
+    "activation_status": "No activation in this execution; historical state Unknown",
+    "completion_boundary": "Independent acceptance can complete this desk assessment. It does not incorporate an entity, establish recognition or host admission, select a bank account, authorize signup, promise tax treatment or establish receipt of support."
+  },
+  "program": {
+    "provider": "GitHub",
+    "name": "Sponsors for organizations",
+    "support_type": "donation_channel",
+    "benefit": "A mechanism for voluntary cash support, not a grant, credit entitlement, matching award or fixed expected revenue.",
+    "currency": "USD for published tiers; actual settlement currency and conversion costs Unknown",
+    "official_program_url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
+    "official_application_url": "https://github.com/sponsors",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S6"
+    ]
+  },
+  "current_intake": {
+    "observed_process": "The current public organization guidance documents onboarding and approval; see S1. The public entry-point observation is S8.",
+    "application_form_status": "Unknown: the authenticated PYA organization application, invitation, profile and prior enrollment state were not inspected.",
+    "verified_deadline": null,
+    "deadline_timezone": null,
+    "deadline_status": "Not applicable to the general channel in the inspected guidance: no universal closing date is stated. This is not proof of an invitation or a deadline-free private offer.",
+    "matching_fund_disposition": "Not Pursuing — historical, unavailable; see S3. Do not carry its old deadline or amount into current forecasts.",
+    "publication_gate": "Draft profile text is retained in docs/sponsorship/github-sponsors-readiness.md. Approval/publication is an external step and remains unperformed.",
+    "source_ids": [
+      "S1",
+      "S3",
+      "S8"
+    ]
+  },
+  "eligibility_routes": [
+    {
+      "route": "Present community before verified incorporation",
+      "project_eligibility": "Unknown",
+      "published_mechanism": "S1 does not impose a universal independent 501(c)(3) requirement. A GitHub organization account is not evidence of its legal recipient.",
+      "missing_evidence": [
+        "Actual legal operating party and supported jurisdiction",
+        "Authorized organization owner and contracting mandate",
+        "Recipient identity, lawful purpose, bank/host custody, tax and 2FA facts"
+      ],
+      "conclusion": "Do not substitute a contributor's personal bank account or assume project ownership of personal receipts."
+    },
+    {
+      "route": "Project through a fiscal sponsor or host",
+      "project_eligibility": "Unknown",
+      "published_mechanism": "S2 confirms a supported-host setup path, contingent on an actual host relationship.",
+      "missing_evidence": [
+        "Accepted host agreement and exact project profile",
+        "Host's legal and tax classification for this transaction",
+        "Authorized host contact, supported route, fees, payout/expense rules, privacy and exit terms"
+      ],
+      "conclusion": "Hosted setup does not confer the host's own legal status on the project or universal deductibility. No host is selected."
+    },
+    {
+      "route": "Independently recognized 501(c)(3)",
+      "project_eligibility": "Unknown",
+      "published_mechanism": "A future recognized organization still needs program admission and its own verified recipient/payout facts.",
+      "missing_evidence": [
+        "Actual recognition, entity and jurisdiction evidence",
+        "Governing approval, signatory and account custody",
+        "Current program/processor terms and transaction-specific donor statements"
+      ],
+      "conclusion": "Recognition alone would not approve a tier, bank setup, payable or donor deduction; actual recognition remains unverified."
+    }
+  ],
+  "host_or_direct_choice": {
+    "recommendation": "Evaluate actual direct-account custody and an already accepted supported-host route before signup. Preserve the unaccepted #14 comparison as an input, not a completed selection.",
+    "rows": [
+      {
+        "route": "Direct payout",
+        "integration": "Documented in S1",
+        "project_readiness": "Unknown",
+        "deciding_evidence": "Verified recipient, signer, supported region/residence, bank custody, applicable Stripe agreement, fees/taxes and independent reconciliation."
+      },
+      {
+        "route": "SPI",
+        "integration": "Listed by GitHub in S2",
+        "project_readiness": "Unknown; no association established",
+        "deciding_evidence": "Actual host acceptance, project URL, contracting and expense authority, current SPI-specific fee and exit terms. Do not copy another host's percentage."
+      },
+      {
+        "route": "Open Source Collective",
+        "integration": "Listed by GitHub in S2",
+        "project_readiness": "Unknown; no hosted project established",
+        "deciding_evidence": "Actual host acceptance and project URL, classification, full incoming/processing fee basis, contract and expense scope, public ledger/privacy and exit rules. Retain its distinction from charitable hosting in #14/#24."
+      },
+      {
+        "route": "Software Freedom Conservancy",
+        "integration": "Not present in S2's inspected list",
+        "project_readiness": "Unknown",
+        "deciding_evidence": "A real compatible payout route would require confirmation. Absence from this list is not proof of permanent incompatibility or host rejection."
+      }
+    ],
+    "research_input": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+    "not_selected": "The other five listed supported hosts are not evaluated for project fit here; integration is not an endorsement or admission."
+  },
+  "project_inputs": [
+    {
+      "id": "P1",
+      "path": "docs/nonprofit/entity-baseline.md",
+      "revision": "b7504597265146ba47d6c3ea99a9ce243a2b797b",
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+      "use": "Accepted administrative baseline preserves unknown legal recipient, custody and mandates; research closure is not verification of those facts."
+    },
+    {
+      "id": "P2",
+      "path": "docs/nonprofit/fiscal-sponsorship-comparison.md",
+      "revision": "b7504597265146ba47d6c3ea99a9ce243a2b797b",
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+      "use": "Draft input, still awaiting its own full independent acceptance. No host decision is borrowed."
+    },
+    {
+      "id": "P3",
+      "path": "docs/operations/financial-controls-draft.md",
+      "revision": "b7504597265146ba47d6c3ea99a9ce243a2b797b",
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
+      "use": "Accepted proposed control design supplies distinct authority, custody, restriction and reconciliation roles; no appointments or transactions inferred."
+    },
+    {
+      "id": "P4",
+      "path": "docs/policies/vendor-neutrality-and-sponsorship-ethics-draft.md",
+      "revision": "b7504597265146ba47d6c3ea99a9ce243a2b797b",
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
+      "use": "Accepted proposed policy supplies recusal, independent review, disclosure and no-influence conditions. Acceptance does not adopt a binding sponsor offer."
+    },
+    {
+      "id": "P5",
+      "path": "docs/funding/needs-assessment.md",
+      "revision": "b7504597265146ba47d6c3ea99a9ce243a2b797b",
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+      "use": "Use canonical needs N03, N07 and N08 for measured evidence retention, lawful public artifacts and uncovered independent/accessibility review. Do not fund a duplicate of an already completed check."
+    }
+  ],
+  "use_case": {
+    "working_title": "Maintain independently reviewable, accessible AI-planning evidence",
+    "proposal": "Use any separately authorized, actually received support for a finite existing work package: retaining reproducible validation artifacts under N03, reviewing publishable source/contract evidence under N07, or a specifically uncovered accessibility/independent review under N08.",
+    "public_benefit": "Publish the accepted method, source references, limitations and resulting fixes where the existing repository's disclosure policy permits. Public artifacts remain available regardless of who funded the work.",
+    "ownership": "The research repository owns shared contracts and research admission; website, Apple, Android and leaderboard owners retain implementation and release acceptance. This record owns a funding-channel assessment only.",
+    "measurement": "Select a named issue and exact baseline; record the uncovered deliverable, required units, owner capacity, current no-cost coverage, original receipt, independent review and permitted public artifact. A passing CI job is not a funding shortage, paid service or human accessibility observation.",
+    "not_established": [
+      "A production benchmark service",
+      "New empirical model results or source permissions",
+      "Paid runner need or owned device inventory",
+      "A donor commitment, staffing commitment or product-delivery promise"
+    ]
+  },
+  "value_and_effort": {
+    "expected_gross_donations_usd": null,
+    "expected_net_usable_cash": null,
+    "expected_avoided_cost": null,
+    "setup_hours": null,
+    "ongoing_administration_hours": null,
+    "method": "Before forecasting, obtain observed donor intent and an authorized need/capacity budget; separate pledges, cleared receipts and restricted funds. Reconcile gross receipts to actual fee/refund/chargeback/host/bank/FX deductions and settlement, then deduct required reserves or restrictions from spendable cash. A deduction already reflected in settlement is never subtracted twice.",
+    "payer_vs_recipient": "S3's payer charges do not by themselves establish the recipient's net proceeds. Confirm the transaction's actual fee bearer and base; do not promise 100% of gross donations.",
+    "avoided_cost_rule": "This is a cash channel. Avoided cost is a separate measured counterfactual for necessary expenditure displaced by usable support, never an additional copy of the same receipt.",
+    "effort_method": "Measure the approved profile/terms/identity work, monthly transaction and reconciliation volume, acknowledgment/report effort, exceptions and exit work. Unknown demand or hours stay null; no arbitrary conversion to money or award probability.",
+    "current_conclusion": "No defensible amount or numeric score yet. A useful channel design is not a budget, an award or income."
+  },
+  "operating_assessment": [
+    {
+      "topic": "Restrictions and independence",
+      "sources": [
+        "S6",
+        "P4"
+      ],
+      "project_control": "Review the exact proposed use and counterparty under the accepted neutrality proposal before any commitment. No ranking, evaluator, source-admission, roadmap, release, security exception or exclusive data right is exchanged for support. Apply actual conflict/recusal and replacement-funding controls; repository access creates no signing authority."
+    },
+    {
+      "topic": "Fees, currency, taxes and refunds",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6",
+        "P3"
+      ],
+      "project_control": "Prepare an account-specific gross-to-net worksheet, fee bearer/base, settlement currency, reserves, refund procedure and private tax review. Keep the observed withholding conflict open. No deduction, tax form, tax threshold, universal payout day or net receipt is promised."
+    },
+    {
+      "topic": "Reporting and renewal",
+      "sources": [
+        "S1",
+        "S5",
+        "S6",
+        "P3"
+      ],
+      "project_control": "No actual binding sponsor report or renewal date is known. Proposed monthly control: reconcile obligations, sponsor transactions, bank/host statements, refunds and restrictions; publish only an approved aggregate progress account. Do not assume a retired tier cancels existing obligations. Recheck current agreements on renewal/change and before adding benefits."
+    },
+    {
+      "topic": "Branding and publication rights",
+      "sources": [
+        "S1",
+        "S6",
+        "P4"
+      ],
+      "project_control": "Use neutral, separately consented acknowledgment of actual support. Review profile assets and the actual publicity/content permissions. Do not imply endorsement, GitHub partnership or charitable qualification. Publish reproducible project results under their existing rights; unpublished terms and private donor data require their own authorized handling."
+    },
+    {
+      "topic": "Privacy and custody",
+      "sources": [
+        "S4",
+        "S6",
+        "S7",
+        "P3"
+      ],
+      "project_control": "Keep identity, addresses, tax forms, bank details, authentication material, private agreements and nonpublic donor data out of Git/issues. Verify actual platform/processor/host roles, access, retention and consent before collection. A public profile or ledger must be reviewed for intended visibility; generic privacy rights are not a guaranteed complete erasure or migration."
+    },
+    {
+      "topic": "Portability and exit",
+      "sources": [
+        "S2",
+        "S6",
+        "S7",
+        "P3"
+      ],
+      "project_control": "Prepare the actual host/processor exit and remaining-balance plan, permissible export, retention, restricted-fund disposition and sponsor communication. Do not assume recurring payment instructions or donor consent can be transferred. Preserve project source and evaluation independence if support stops."
+    },
+    {
+      "topic": "Overage and ongoing exposure",
+      "sources": [
+        "P3",
+        "P5"
+      ],
+      "project_control": "A donation channel has no compute-credit overage allowance. Downstream service bills, benefit fulfillment, refunds and professional work remain separately bounded commitments. If support falls short, pause proposed spending under the actual controls; there is no automatic paid fallback or personal reimbursement."
+    }
+  ],
+  "activation_prerequisites": [
+    {
+      "id": "G1",
+      "status": "Unknown",
+      "evidence": "Actual legal recipient, operating region and classification, with private custody of supporting records."
+    },
+    {
+      "id": "G2",
+      "status": "Unknown",
+      "evidence": "Authorized organization owner, actual financial/contract signers, 2FA and independent reviewer/reconciler."
+    },
+    {
+      "id": "G3",
+      "status": "Unknown",
+      "evidence": "Accepted direct-versus-host decision, supported route, valid host relationship/profile if used, and permitted account custody."
+    },
+    {
+      "id": "G4",
+      "status": "Unknown",
+      "evidence": "Current account-specific program, Stripe and any host agreement; applicable country, fees, tax reporting/withholding, payout, refund and exit terms resolved."
+    },
+    {
+      "id": "G5",
+      "status": "Unknown",
+      "evidence": "Finite eligible need, capacity, gross-to-net calculation, expense/reserve limits and restricted-fund treatment under #19/#20/#24."
+    },
+    {
+      "id": "G6",
+      "status": "Draft only",
+      "evidence": "Truthful profile text and any acknowledgment/benefits reviewed under #18/#35/#37; donor privacy, public visibility and record retention approved."
+    },
+    {
+      "id": "G7",
+      "status": "Not performed",
+      "evidence": "Separate authorization of the concrete setup, followed by actual invitation/application/approval and correct live profile readback; no checklist tick substitutes for it."
+    },
+    {
+      "id": "G8",
+      "status": "Not performed",
+      "evidence": "Actual first settlement and ongoing reconciliation before recording cash received; dashboards, pledges and marketing amounts are not receipts."
+    }
+  ],
+  "profile_draft_path": "docs/sponsorship/github-sponsors-readiness.md",
+  "remaining_questions": [
+    "Who is the actual recipient and which jurisdiction and country-specific payment agreement applies?",
+    "Who holds an accepted mandate to sign, configure, receive, reconcile and approve related expenditures?",
+    "Is there an existing Sponsors account, invitation or accepted host relationship, and what are its actual terms?",
+    "Which finite uncovered public work package has a supported budget and contributor capacity?",
+    "What fee bearer/base, tax, refund, reserve and restriction treatment applies to each real transaction?",
+    "Which donor disclosures, acknowledgment choices and data-retention/exit procedure are approved?"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Organization setup",
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Complete public organization setup guidance; no authenticated organization form or account inspected.",
+      "finding": "An organization owner applies for an open-source contributor legally operating in a supported region. The guide describes a waitlist/invitation, contact/profile, payout/tax information, 2FA and approval. Choose a bank account or supported fiscal host during signup; later host changes go through Support. The setter's residence must match the supported bank region. Optional tiers: ten monthly and ten one-time, USD, up to USD 12,000 per month. Published tier prices cannot be edited for existing subscribers. Approval publishes the profile. These platform capabilities are not a verified mandate, account, invitation or safe tier design for PYA.",
+      "version_limit": "Undated live guide; its organization tax-form shortcut must not replace the dedicated tax guidance or the actual recipient's requirements."
+    },
+    {
+      "id": "S2",
+      "title": "Fiscal-host payout compatibility",
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Complete public supported-host page.",
+      "finding": "The published supported list names Hack Club, NumFOCUS, Open Collective Europe, Open Source Collective, Python Software Foundation, Radiant Earth and Software in the Public Interest. Signup requests the selected host and the project's profile URL to confirm its existing relationship. SPI and OSC therefore have a documented integration. SFC is not listed in this inspected version; its specific route needs provider confirmation. Listing establishes neither host admission nor a PYA relationship."
+    },
+    {
+      "id": "S3",
+      "title": "Program scope, payer fees and historical matching",
+      "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Complete public program overview, supported-region list and matching section.",
+      "finding": "The program supports financial contributions to eligible open-source work. Personal-account sponsorships have no GitHub fee. Organization-funded sponsorships can incur up to 6%: 3% service and 3% card processing; invoiced billing can remove the card portion. This distinction concerns the payer, not whether the recipient is an organization. The old Matching Fund application cutoff was January 1, 2020. Organizations cannot receive matching and organization-funded payments are not match eligible. No matching amount is available to this assessment.",
+      "historical_event_date": "2020-01-01"
+    },
+    {
+      "id": "S4",
+      "title": "Tax information",
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed.",
+      "finding": "The dedicated guide distinguishes US W-9 from non-US W-8 routes and individual from company recipients, using Stripe collection. Tax responsibility and treatment are recipient specific. The guide's categorical no-withholding statement differs from S6's reservation of required withholding. Its stated reporting threshold is not adopted as a verified 2026 legal threshold. No form, tax classification, deduction or zero-withholding conclusion is selected for PYA."
+    },
+    {
+      "id": "S5",
+      "title": "Payout management",
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected.",
+      "finding": "The dashboard distinguishes past from estimated payouts; Stripe payout records can be exported as PDFs. Host changes use Support. Timing is referred to the Additional Terms."
+    },
+    {
+      "id": "S6",
+      "title": "Sponsors Additional Terms",
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+      "finding": "Truthful identity, lawful activity, content rights and signing authority are required; fraud and self-dealing are restricted. Stripe controls custody and payment processing. Recipient payments can be reduced or held for fees, taxes, refunds, chargebacks or breaches. Timing differs by route, first payment, threshold, country and termination; no universal payout date is promised. Recipients specify refund terms. Stripe agreements and information sharing depend on account country. Recipient termination can occur with or without cause or notice; payer invoicing has separate renewal rules. Publicity, confidentiality, assignment restrictions and change notices also apply. Actual payment, privacy, liability and exit terms require review before commitment."
+    },
+    {
+      "id": "S7",
+      "title": "General Privacy Statement",
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "reviewed_on": "2026-10-19",
+      "publication_date": "2026-04-27",
+      "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
+      "finding": "The statement covers account, payment, transaction and profile information, with processing and sharing for the stated purposes. Public visibility depends on settings and collaborative context. Privacy rights are jurisdiction dependent; deletion does not override all legal retention needs. Third-party services have their own policies. This is not a guarantee that donor data or payment records can be fully deleted or migrated."
+    },
+    {
+      "id": "S8",
+      "title": "Public Sponsors entry point",
+      "url": "https://github.com/sponsors",
+      "observed_url": "https://github.com/open-source/sponsors",
+      "reviewed_on": "2026-10-19",
+      "publication_date": null,
+      "scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
+      "finding": "The existing record's application URL redirects to a public overview with a Get sponsored entry. Marketing examples and launch-in-minutes language do not establish PYA approval, intake completion, donor demand or guaranteed proceeds.",
+      "application_form_verified": false
+    }
+  ],
+  "freshness": {
+    "source_inspection_date": "2026-10-19",
+    "access_failures": [],
+    "access_limits": "Only public source content was inspected. The S8 redirect was observed; authenticated forms, account state and private agreements remain Unknown. No browser session or login was used.",
+    "conflicts": [
+      {
+        "source_ids": [
+          "S4",
+          "S6"
+        ],
+        "finding": "The tax guide's no-withholding statement and Additional Terms 3.2.2's reservation of required withholding differ.",
+        "disposition": "Keep actual withholding Unknown and obtain the applicable account/processor/tax determination before relying on net proceeds; do not silently choose the favorable sentence."
+      },
+      {
+        "source_ids": [
+          "S1",
+          "S4"
+        ],
+        "finding": "The organization setup guide's tax-form shortcut is narrower than the dedicated guide's recipient/jurisdiction split.",
+        "disposition": "Do not select or complete a form without actual recipient facts."
+      },
+      {
+        "source_ids": [
+          "S1",
+          "S8"
+        ],
+        "finding": "Public landing-page marketing describes rapid launch; detailed guidance has invitation and approval steps.",
+        "disposition": "The public landing is not proof of current PYA intake access or an approval-time guarantee."
+      },
+      {
+        "source_ids": [
+          "S3",
+          "S6"
+        ],
+        "finding": "Matching references remain in historical sections and payment terms.",
+        "disposition": "Preserve the historical cutoff and exclusion; current matching value is unavailable."
+      }
+    ],
+    "next_verification_date": null,
+    "triggers": [
+      "Before application, account setup, publication of a funding claim, agreement or payment activation",
+      "When recipient, host, bank jurisdiction, benefits or tax facts change",
+      "On redirect, invitation, changed terms/fees, source conflict or renewal notice",
+      "At the existing monthly research review; this record creates no new schedule"
+    ]
+  },
+  "acceptance_map": [
+    {
+      "criterion": 1,
+      "text": "Organization eligibility, supported region and owner authority are verified or Unknown.",
+      "evidence": "eligibility_routes; activation_prerequisites G1-G2; project_inputs P1"
+    },
+    {
+      "criterion": 2,
+      "text": "Fiscal-host choice is evaluated before signup and supported-host compatibility is confirmed.",
+      "evidence": "host_or_direct_choice; S1-S2; G3; #14 remains a distinct unaccepted comparison"
+    },
+    {
+      "criterion": 3,
+      "text": "Expired GitHub Sponsors Matching Fund is not represented as available.",
+      "evidence": "current_intake.matching_fund_disposition; S3 historical date"
+    },
+    {
+      "criterion": 4,
+      "text": "No banking/tax forms, enrollment or payment setup is performed; gross donations are not promised.",
+      "evidence": "authorship; value_and_effort; G7-G8; unsent profile draft"
+    },
+    {
+      "criterion": 5,
+      "text": "Identify current primary official sources and record the review date; label historical announcements, access failures and conflicting terms.",
+      "evidence": "sources; freshness; actual public access and conflict limits"
+    },
+    {
+      "criterion": 6,
+      "text": "Verify the program, current intake/application process and deadline, or explicitly record Unknown / Not applicable with a reason.",
+      "evidence": "current_intake; S1 and observed S8 redirect; no invented deadline"
+    },
+    {
+      "criterion": 7,
+      "text": "Document the benefit type and separately assess the present community, a fiscal-sponsored project and an independently recognized 501(c)(3).",
+      "evidence": "program.support_type; three independently Unknown eligibility_routes"
+    },
+    {
+      "criterion": 8,
+      "text": "Evaluate restrictions, reporting, branding, publication rights, privacy, portability, renewal, overage and organizational independence as applicable.",
+      "evidence": "operating_assessment; S1-S7; actual agreements still unqualified"
+    },
+    {
+      "criterion": 9,
+      "text": "Establish a concrete repository/public-benefit use case; estimate value and effort only with a defensible method and distinguish cash from avoided cost.",
+      "evidence": "use_case; P5 canonical needs; value_and_effort with null quantities"
+    },
+    {
+      "criterion": 10,
+      "text": "Publish the canonical deliverable, structured program record where relevant, source references, remaining questions, priority rationale and recommended disposition.",
+      "evidence": "this canonical record; unique GITHUB-SPONSORS-ORG projection; profile draft; recommendation and questions"
+    },
+    {
+      "criterion": 11,
+      "text": "Obtain and link independent acceptance of the actual findings. A schema check or initial source lead alone does not meet this criterion.",
+      "evidence": "independent_review: pending actual findings review; schema checks alone cannot complete this row"
+    }
+  ],
+  "independent_review": {
+    "reviewer": null,
+    "reviewed_revision": null,
+    "review_url": null,
+    "decision": "Pending independent findings acceptance",
+    "reviewed_on": null,
+    "scope": "All eleven literal #33 criteria, eight primary observations, source conflicts, three applicant routes, profile draft, value method and unchanged unrelated register records."
+  }
+}

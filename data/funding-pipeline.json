@@ -99,22 +99,22 @@
     {
       "opportunity_id": "GITHUB-SPONSORS-ORG",
       "program_name": "Sponsors for organizations",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; complete findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
-      "research_status": "Ready",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Continue P1 channel readiness; hold setup pending actual recipient, authority, payout and terms.",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Not authorized for setup by this research; actual recipient, authority, payout, terms and operating controls remain unqualified.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "No binding schedule established; proposed reconciliation and actual-agreement review are documented, without an activated account or award.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P1",
       "score": null,
-      "next_action": "Establish entity/owner/payout facts and compare direct versus hosted routing before drafting setup decisions."
+      "next_action": "Obtain independent review of the canonical assessment and profile draft; then resolve G1-G6 using actual private administrative evidence before proposing any setup."
     },
     {
       "opportunity_id": "SFC-MEMBERSHIP",

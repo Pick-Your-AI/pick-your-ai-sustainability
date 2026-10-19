@@ -44,3 +44,5 @@ Closed programs, invitations and recognition-only routes remain visible in the r
 ## Operating procedure
 
 Use the monthly review in [operations and reporting](operations-and-reporting.md) to reconcile evidence and changes. Before moving any opportunity forward, recheck official intake terms, verify the intended applicant and exact use, confirm needs and capacity, quantify net value and record the authorized decision. After a real provider decision, record award restrictions, account owner, expiration, paid fallback and reporting obligations.
+
+The [GitHub Sponsors readiness assessment](../data/opportunities/github-sponsors.json) and [unpublished profile draft](sponsorship/github-sponsors-readiness.md) are In Review, retaining the historical Discovered stage until actual independent acceptance. P1 reflects foundational channel work, not eligibility or donor demand. Recipient, authority, payout and current agreement gates remain Unknown; no account, submission, matching award or received donation is claimed.

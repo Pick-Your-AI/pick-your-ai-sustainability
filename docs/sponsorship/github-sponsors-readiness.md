@@ -53,9 +53,9 @@ These are internal readiness controls; they are not a claim to reproduce every f
 1. Establish the actual recipient, legal operating region and private evidence custodian.
 2. Verify the owner and the distinct financial/signing/reconciliation mandates, including conflicts and 2FA.
 3. Record the direct-versus-host choice and evidence of any supported host relationship.
-4. Review the current account-specific agreements, fee basis, country-specific processor terms, tax questions, payout, refund and exit rules. Resolve the observed withholding inconsistency in the applicable context.
+4. Review the current account-specific agreements and payment role, including the S6/S10/S11 instrument, contact and scope differences; establish the applicable country and any incorporated or portal agreement. Resolve fee, withholding, payout, refund and exit questions in that actual context.
 5. Select a finite existing need and a feasible budget/capacity plan; retain reserves and restricted-fund treatment.
-6. Review this actual profile text, any benefits and public visibility under the applicable policy and privacy controls.
+6. Review this exact proposed public Content and any benefits under S7/S9 and the applicable policy, consent and privacy controls. Record actual account/contract settings; an individual AI Input/Output opt-out is not a universal restriction on public-content use. Keep private administration separately assessed.
 7. Record authorization of the concrete external action before any setup. Actual submission, approval and live-profile readback are later evidence events.
 8. Record a received settlement only after reconciling the actual bank or host evidence; a pledge or estimated dashboard amount is not cash.
 
@@ -73,8 +73,14 @@ On exit or a route change, resolve the real remaining balance, restrictions, req
 
 ## Review and source boundaries
 
-The dated findings and durable URLs are **S1–S8** in [the canonical JSON](../../data/opportunities/github-sponsors.json). The inspection covered public documentation and the public landing page; the authenticated organization application and country-specific private terms were not qualified. The landing redirected to GitHub's open-source Sponsors page. An observed public entry point does not verify its downstream form.
+The dated findings and durable URLs are **S1–S11** in [the canonical JSON](../../data/opportunities/github-sponsors.json). The inspection covered public documentation, the public landing page and both currently linked Stripe instruments. The authenticated organization application, actual account-country agreement and any private host/portal terms were not qualified. The landing redirected to GitHub's open-source Sponsors page. An observed public entry point does not verify its downstream form.
 
-The historical matching offer, payer-versus-recipient fee distinction, source withholding conflict and form-selection ambiguity remain explicit in the assessment. No legal or accounting determination is manufactured from a generic help page.
+The historical matching offer, payer-versus-recipient fee distinction, source withholding conflict, form-selection ambiguity and payment-instrument scope differences remain explicit in the assessment. No legal or accounting determination is manufactured from a generic help page.
 
 Independent review must accept the actual interpretation and all eleven issue criteria, including this profile, before the record advances beyond its historical Discovered stage. Local schema/link checks only establish repository consistency. The findings review, exact revision and resulting delivery will be linked in #33; this draft currently makes no acceptance claim.
+
+## Correction review history
+
+The [supplemental source contribution](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500) and [complete original-source review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889) identified two finite public-source gaps at `6920cb41`. The assessment now records S9–S11 and the corresponding G4/G6 controls. Acceptance of that corrected interpretation remains pending; the original review and output retain their own revision.
+
+The supplemental reviewer also reported a robots.txt denial for the Get sponsored target and varying country presentations for the recipient link. Those reports are preserved with their provenance in the canonical freshness section; they are not this author's access failures, an HTTP-status finding, an observed sign-in wall, a verified form or evidence of the project's country. Keeping private records outside Git does not by itself establish their treatment by a provider.

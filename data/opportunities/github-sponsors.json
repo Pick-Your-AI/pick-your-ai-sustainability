@@ -190,9 +190,11 @@
         "S3",
         "S4",
         "S6",
+        "S10",
+        "S11",
         "P3"
       ],
-      "project_control": "Prepare an account-specific gross-to-net worksheet, fee bearer/base, settlement currency, reserves, refund procedure and private tax review. Keep the observed withholding conflict open. No deduction, tax form, tax threshold, universal payout day or net receipt is promised."
+      "project_control": "Prepare an account-specific gross-to-net worksheet, fee bearer/base, settlement currency, reserves, refund procedure and private tax review. Keep the observed withholding conflict open. No deduction, tax form, tax threshold, universal payout day or net receipt is promised. Use the actual selected payment role to resolve the S6/S10/S11 instrument and support-contact differences; do not apply Connected Account fees or obligations universally."
     },
     {
       "topic": "Reporting and renewal",
@@ -209,9 +211,10 @@
       "sources": [
         "S1",
         "S6",
+        "S9",
         "P4"
       ],
-      "project_control": "Use neutral, separately consented acknowledgment of actual support. Review profile assets and the actual publicity/content permissions. Do not imply endorsement, GitHub partnership or charitable qualification. Publish reproducible project results under their existing rights; unpublished terms and private donor data require their own authorized handling."
+      "project_control": "Use neutral, separately consented acknowledgment of actual support. Review profile assets and the actual publicity/content permissions. Do not imply endorsement, GitHub partnership or charitable qualification. Publish reproducible project results under their existing rights; unpublished terms and private donor data require their own authorized handling. Record the exact proposed public Content and its rights under S9; the individual AI Input/Output control is not a substitute for that publication decision."
     },
     {
       "topic": "Privacy and custody",
@@ -219,9 +222,12 @@
         "S4",
         "S6",
         "S7",
+        "S9",
+        "S10",
+        "S11",
         "P3"
       ],
-      "project_control": "Keep identity, addresses, tax forms, bank details, authentication material, private agreements and nonpublic donor data out of Git/issues. Verify actual platform/processor/host roles, access, retention and consent before collection. A public profile or ledger must be reviewed for intended visibility; generic privacy rights are not a guaranteed complete erasure or migration."
+      "project_control": "Keep identity, addresses, tax forms, bank details, authentication material, private agreements and nonpublic donor data out of Git/issues. Verify actual platform/processor/host roles, access, retention and consent before collection. A public profile or ledger must be reviewed for intended visibility; generic privacy rights are not a guaranteed complete erasure or migration. Separate proposed public Content, AI Inputs/Outputs and private administration. Record applicable controller/processor roles, agreement and settings without inferring that every private datum is used for training or that repository exclusion prevents all processing."
     },
     {
       "topic": "Portability and exit",
@@ -229,9 +235,11 @@
         "S2",
         "S6",
         "S7",
+        "S10",
+        "S11",
         "P3"
       ],
-      "project_control": "Prepare the actual host/processor exit and remaining-balance plan, permissible export, retention, restricted-fund disposition and sponsor communication. Do not assume recurring payment instructions or donor consent can be transferred. Preserve project source and evaluation independence if support stops."
+      "project_control": "Prepare the actual host/processor exit and remaining-balance plan, permissible export, retention, restricted-fund disposition and sponsor communication. Do not assume recurring payment instructions or donor consent can be transferred. Preserve project source and evaluation independence if support stops. Identify which actual payment/portal/host contract governs access, support and termination before promising an export or account disconnection."
     },
     {
       "topic": "Overage and ongoing exposure",
@@ -261,7 +269,7 @@
     {
       "id": "G4",
       "status": "Unknown",
-      "evidence": "Current account-specific program, Stripe and any host agreement; applicable country, fees, tax reporting/withholding, payout, refund and exit terms resolved."
+      "evidence": "Current account-specific program, actual payment role and any host/portal agreement; record the applicable country and incorporated agreement, resolve the S6/S10/S11 naming/contact and scope differences, then assess fees, tax reporting/withholding, payout, refund and exit rules. Public instrument inspection does not select a country or qualify an account."
     },
     {
       "id": "G5",
@@ -271,7 +279,7 @@
     {
       "id": "G6",
       "status": "Draft only",
-      "evidence": "Truthful profile text and any acknowledgment/benefits reviewed under #18/#35/#37; donor privacy, public visibility and record retention approved."
+      "evidence": "Truthful profile text and any acknowledgment/benefits reviewed under #18/#35/#37; approve the exact public Content, its S7/S9 data-use and content-rights implications, and separate private administrative handling. Record applicable account/contract controls, consent, visibility and retention without treating an individual Input/Output opt-out as a universal publication restriction."
     },
     {
       "id": "G7",
@@ -291,7 +299,8 @@
     "Is there an existing Sponsors account, invitation or accepted host relationship, and what are its actual terms?",
     "Which finite uncovered public work package has a supported budget and contributor capacity?",
     "What fee bearer/base, tax, refund, reserve and restriction treatment applies to each real transaction?",
-    "Which donor disclosures, acknowledgment choices and data-retention/exit procedure are approved?"
+    "Which donor disclosures, acknowledgment choices and data-retention/exit procedure are approved?",
+    "Which actual account/contract and settings govern the proposed public Content, any AI Inputs/Outputs and private administration, and which payment-role agreement and support route apply?"
   ],
   "sources": [
     {
@@ -347,7 +356,7 @@
       "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
       "reviewed_on": "2026-10-19",
       "publication_date": null,
-      "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+      "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
       "finding": "Truthful identity, lawful activity, content rights and signing authority are required; fraud and self-dealing are restricted. Stripe controls custody and payment processing. Recipient payments can be reduced or held for fees, taxes, refunds, chargebacks or breaches. Timing differs by route, first payment, threshold, country and termination; no universal payout date is promised. Recipients specify refund terms. Stripe agreements and information sharing depend on account country. Recipient termination can occur with or without cause or notice; payer invoicing has separate renewal rules. Publicity, confidentiality, assignment restrictions and change notices also apply. Actual payment, privacy, liability and exit terms require review before commitment."
     },
     {
@@ -356,8 +365,8 @@
       "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
       "reviewed_on": "2026-10-19",
       "publication_date": "2026-04-27",
-      "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
-      "finding": "The statement covers account, payment, transaction and profile information, with processing and sharing for the stated purposes. Public visibility depends on settings and collaborative context. Privacy rights are jurisdiction dependent; deletion does not override all legal retention needs. Third-party services have their own policies. This is not a guarantee that donor data or payment records can be fully deleted or migrated."
+      "scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+      "finding": "GitHub describes personal-data processing for service improvement, including model training, and affiliate sharing including Microsoft. Organization-provided accounts and contractual controller/processor arrangements have different stated scope. Public visibility, jurisdiction-dependent rights and legal retention limits remain relevant. This does not establish training on every private donor/payment datum or complete erasure/portability. S9 separately assesses submitted Content and AI Input/Output rights."
     },
     {
       "id": "S8",
@@ -369,12 +378,41 @@
       "scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
       "finding": "The existing record's application URL redirects to a public overview with a Get sponsored entry. Marketing examples and launch-in-minutes language do not establish PYA approval, intake completion, donor demand or guaranteed proceeds.",
       "application_form_verified": false
+    },
+    {
+      "id": "S9",
+      "title": "GitHub Terms of Service: content and AI data-use scope",
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "reviewed_on": "2026-10-19",
+      "publication_date": "2026-04-27",
+      "scope": "Direct public read of definitions; D.3-D.8, E and J.1-J.3, with surrounding terms context. Actual Customer/volume agreements and account settings remain unverified.",
+      "finding": "D.4-D.8 license GitHub/affiliate use of submitted Content, expressly including AI training, and describe public access, repository licenses and attribution limits. J.3 separately addresses individual AI Inputs/Outputs: its prospective opt-out does not override D.4-D.8. Customer/volume arrangements have their own stated scope. E distinguishes private-repository access and content supplied as AI Input. Publishing a profile or repository record therefore needs a content-rights review; withholding a private record from Git does not disable other provider processing."
+    },
+    {
+      "id": "S10",
+      "title": "Stripe Recipient Notice",
+      "url": "https://stripe.com/legal/connect-account/recipient",
+      "observed_url": "https://stripe.com/legal/connect-account/recipient",
+      "reviewed_on": "2026-10-19",
+      "publication_date": "2026-10-02",
+      "scope": "Complete public Recipient Info text, its displayed update date and default English entry. The author's page displayed United States (English); that presentation does not establish PYA's country or actual payout route.",
+      "finding": "The current target of Sponsors 3.8's recipient link is titled Recipient Notice. It describes transfers on a Payouts User's instructions, possible separate information-portal terms and payment-status questions directed to that user unless instructed otherwise. In this recipient role it offers no Stripe services and says the Services Agreement does not apply. A possible separate agreement with the Payouts User remains distinct; support alone creates no Stripe contract."
+    },
+    {
+      "id": "S11",
+      "title": "Stripe Connected Account Agreement",
+      "url": "https://stripe.com/legal/connect-account",
+      "observed_url": "https://stripe.com/legal/connect-account",
+      "reviewed_on": "2026-10-19",
+      "publication_date": "2025-11-18",
+      "scope": "Complete public agreement text, sections 1-8 and displayed modified date. The default English page does not identify PYA's Stripe Account Country or applicable Services Agreement.",
+      "finding": "For an enrolled Connected Account, this agreement incorporates its account-country Services Agreement. It addresses platform-directed activity and access, data/consent responsibilities, fees and termination; ending it need not end the Services Agreement. Section 7 excludes specified transfers outside Stripe Payments Services and directs those status questions to the platform. These provisions cannot be assumed to govern every Sponsors recipient payout."
     }
   ],
   "freshness": {
     "source_inspection_date": "2026-10-19",
     "access_failures": [],
-    "access_limits": "Only public source content was inspected. The S8 redirect was observed; authenticated forms, account state and private agreements remain Unknown. No browser session or login was used.",
+    "access_limits": "Only public source content was inspected. The S8 redirect was observed; authenticated forms, account state and private agreements remain Unknown. No browser session or login was used. S10-S11 are public incorporated-instrument reads; their actual account-specific applicability remains Unknown. Separately reported supplemental access/locale observations are attributed below and do not become author requests, HTTP results or form verification.",
     "conflicts": [
       {
         "source_ids": [
@@ -407,6 +445,15 @@
         ],
         "finding": "Matching references remain in historical sections and payment terms.",
         "disposition": "Preserve the historical cutoff and exclusion; current matching value is unavailable."
+      },
+      {
+        "source_ids": [
+          "S6",
+          "S10",
+          "S11"
+        ],
+        "finding": "Sponsors 3.8 names a Recipient Agreement at a URL now titled Recipient Notice; 3.9's Stripe responsibility/contact language differs from the recipient notice and Connected Account section 7's stated role and payment-status contact. The two Stripe texts have different applicability.",
+        "disposition": "Preserve all public wording and dates. Determine the actual payout role, account country, incorporated agreement and support route before setup; no displayed locale, redirect or generic country list selects PYA's governing terms."
       }
     ],
     "next_verification_date": null,
@@ -415,6 +462,25 @@
       "When recipient, host, bank jurisdiction, benefits or tax facts change",
       "On redirect, invitation, changed terms/fees, source conflict or renewal notice",
       "At the existing monthly research review; this record creates no new schedule"
+    ],
+    "reported_access_observations": [
+      {
+        "reported_on": "2026-10-19",
+        "reported_by": "Separate supplemental source-review lane; this is not an access attempt by the canonical author",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500",
+        "url": "https://github.com/sponsors/accounts?locale=en-US",
+        "outcome": "Reported robots.txt denial; no HTTP status or application-form contents established",
+        "http_status": null,
+        "application_form_verified": false,
+        "author_attempt": false
+      }
+    ],
+    "reported_locale_observations": [
+      {
+        "reported_on": "2026-10-19",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500",
+        "scope": "The supplemental reviewer separately reported Brazil, Sweden and default English presentations for the recipient link. Those reported observations are not the canonical author's redirects, an applicant-country finding or an account agreement."
+      }
     ]
   },
   "acceptance_map": [
@@ -456,7 +522,7 @@
     {
       "criterion": 8,
       "text": "Evaluate restrictions, reporting, branding, publication rights, privacy, portability, renewal, overage and organizational independence as applicable.",
-      "evidence": "operating_assessment; S1-S7; actual agreements still unqualified"
+      "evidence": "operating_assessment; S1-S11; G4/G6; distinct public Content, AI Input/Output and private-administration scope; actual agreements still unqualified"
     },
     {
       "criterion": 9,
@@ -478,8 +544,50 @@
     "reviewer": null,
     "reviewed_revision": null,
     "review_url": null,
-    "decision": "Pending independent findings acceptance",
+    "decision": "Pending independent acceptance of corrected criterion-8 findings and final receiving composition",
     "reviewed_on": null,
-    "scope": "All eleven literal #33 criteria, eight primary observations, source conflicts, three applicant routes, profile draft, value method and unchanged unrelated register records."
-  }
+    "scope": "All eleven literal #33 criteria, eleven public source observations, separately attributed access reports, source conflicts, three applicant routes, profile draft, value method and unchanged unrelated register records."
+  },
+  "source_history": [
+    {
+      "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+      "scope": "The original S6/S7 observations before the two public-source corrections; other original observations remain unchanged and the complete original file remains in Git history.",
+      "sources": [
+        {
+          "id": "S6",
+          "title": "Sponsors Additional Terms",
+          "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+          "reviewed_on": "2026-10-19",
+          "publication_date": null,
+          "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+          "finding": "Truthful identity, lawful activity, content rights and signing authority are required; fraud and self-dealing are restricted. Stripe controls custody and payment processing. Recipient payments can be reduced or held for fees, taxes, refunds, chargebacks or breaches. Timing differs by route, first payment, threshold, country and termination; no universal payout date is promised. Recipients specify refund terms. Stripe agreements and information sharing depend on account country. Recipient termination can occur with or without cause or notice; payer invoicing has separate renewal rules. Publicity, confidentiality, assignment restrictions and change notices also apply. Actual payment, privacy, liability and exit terms require review before commitment."
+        },
+        {
+          "id": "S7",
+          "title": "General Privacy Statement",
+          "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+          "reviewed_on": "2026-10-19",
+          "publication_date": "2026-04-27",
+          "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
+          "finding": "The statement covers account, payment, transaction and profile information, with processing and sharing for the stated purposes. Public visibility depends on settings and collaborative context. Privacy rights are jurisdiction dependent; deletion does not override all legal retention needs. Third-party services have their own policies. This is not a guarantee that donor data or payment records can be fully deleted or migrated."
+        }
+      ]
+    }
+  ],
+  "review_history": [
+    {
+      "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+      "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500",
+      "reviewed_on": "2026-10-19",
+      "scope": "Separate supplemental canonical-JSON/profile source contribution; two finite criterion-8 corrections and independently attributed access/locale observations.",
+      "decision": "Two public-source gaps identified before final acceptance."
+    },
+    {
+      "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+      "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573650889",
+      "reviewed_on": "2026-10-19",
+      "scope": "Research engineering review of the complete original eight-file source, eleven criteria, source/map/raw-history proof and original local output.",
+      "decision": "Existing findings and preservation clear; final criterion-8 acceptance withheld pending the two public-source corrections."
+    }
+  ]
 }

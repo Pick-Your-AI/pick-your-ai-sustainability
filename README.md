@@ -41,14 +41,16 @@ These initial documents are reviewable program drafts. Publishing them does not 
 These artifacts are drafts for review. Their existence does not close the owning research issues.
 
 - [Organizational structure decision brief](docs/nonprofit/structure-decision-brief.md)
+- [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)
-- [39-record opportunity evidence register](data/README.md)
+- [Opportunity evidence register](data/README.md)
 - [Funding pipeline](docs/funding-pipeline.md)
 - [Dependency register](docs/dependency-register.md)
 - [Budget assumption data](data/budget-assumptions.json)
 - [Research freshness register](docs/research-freshness-register.md)
 - [GitHub developer and security baseline](research/tooling/github-baseline.md)
 - [OpenAI Researcher Access qualification and proposed study](research/compute/openai-researcher-access.md)
+- [Groq conditional evaluation and support discovery](research/compute/groq-support.md)
 
 ## Execution and audit evidence
 

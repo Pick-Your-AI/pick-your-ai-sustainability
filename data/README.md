@@ -1,6 +1,6 @@
 # Opportunity evidence register
 
-This register contains **39 distinct program/channel records**: 14 nonprofit and funding records and 25 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
+This register contains **41 distinct program/channel records**: 14 nonprofit and funding records and 27 compute, software, hardware and professional-service records. The records distinguish seed evidence from individually accepted research findings. Published source facts have been checked; no record is asserted to be a qualified or authorized application.
 
 The canonical data is [opportunities.json](opportunities.json), with [schema](opportunities.schema.json). Stable `owning_research_key` values connect records to GitHub research work; the 39 owning issue URLs have been matched to the independent live 72-issue snapshot. The native workflow has read back the declared 71 parent and 43 blocker relationships, and the persisted Project field audit has passed for all 72 issues. Independent relationship verification and saved view checks are reported in the [execution report](../docs/execution-report.md).
 
@@ -14,7 +14,7 @@ A shared owning key means one comparative research package evaluates different p
 | CodeSupply | E03-01 | Defer application; P2 qualification research only |
 | NGI Zero Commons Fund | E03-01 | Not Pursuing — closed |
 | Secure Open Source Fund | E03-02 | Rolling applications documented; no application submitted in this execution |
-| [Sponsors for organizations](opportunities/github-sponsors.json) | E04-01 | Readiness findings in review; actual recipient, authority and payout route Unknown; setup remains on hold |
+| [Sponsors for organizations](opportunities/github-sponsors.json) | E04-01 | Corrected readiness findings in review; actual recipient, authority and payout route Unknown; setup remains on hold |
 | Member-project fiscal sponsorship | E01-04 | Rolling inquiry/application process; acceptance may take months |
 | Associated project fiscal hosting | E01-04 | Application process documented; PYA acceptance/relationship Unknown |
 | Fiscal hosting for open-source projects | E01-04 | Application/validation route documented; no acceptance claimed |
@@ -41,3 +41,7 @@ Use [the fill-in record template](../templates/opportunity-record.json). It inte
 `source_refs` contains durable official URLs, not browser-session identifiers or positional claim indices. Distinct application and registration endpoints are tracked by the freshness register, including unresolved access attempts. Identifying a link does not verify its current form contents.
 
 Source facts checked does not mean the canonical program/intake assessment has received independent acceptance. Records awaiting findings acceptance retain Discovered under the clarified [transition rules](../docs/operations-and-reporting.md). The [Fireworks startup exclusion](../research/compute/fireworks-support.md) has independently accepted bounded findings and completed research, while preserving its historical stage after the failed applicant gate and its Not Pursuing disposition. Each record retains its own research/review state and applicant gates. Verified, Qualified and externally authorized actions have separate evidence requirements.
+
+## Hardware partner comparison
+
+The [E06-04 assessment](../research/hardware/partner-shortlist.md) adds two distinct TechSoup RHW and Computer Aid Get Computers records under existing [#54](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54). They are Done / Verified for program research after [complete independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399) at `25eb4b8e047e2adb736d6540b4588b1f3a462697`. Both retain actual overall applicant, inventory, custody, offer, value and effort Unknowns; the documented U.S. fiscal-sponsored TechSoup route is explicitly ineligible. Their shared owning issue was separately read; the original 39-record native setup audit does not extend to a new snapshot or Project item. Existing NVIDIA, AMD, Samsung and all other program rows remain unchanged. The memo distinguishes fee-based access, gifts, loans, accounting and donor-tax valuation, and includes an unsent single-station request with care and exit requirements.

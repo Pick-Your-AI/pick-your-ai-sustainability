@@ -9811,8 +9811,8 @@
       ],
       "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
       "application_status": "Public process documented; exact proposal endpoint requires sign-in, live form not inspected.",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -9978,7 +9978,7 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
       "next_action": "Resolve selected scope, rights, people, governance and resource/exit docket; recheck actual terms before any proposal.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -10005,12 +10005,19 @@
         "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Not reviewed",
+        "reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
+        "reviewed_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+        "reviewed_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T21:17:36Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025",
+        "decision": "Accepted for bounded institutional-home and nonprofit accelerator research findings",
+        "scope": "Complete eight-path source, four program records and comparison, all fifteen issue criteria at findings scope, exact accepted #13/#17 inputs, source provenance and original validation; canonical publication remains pending.",
         "limitations": [
-          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+          "Shared-account in-session technical findings acceptance is not a separate-account APPROVED vote, human or legal opinion, organizational mandate or actual applicant qualification.",
+          "The reviewed commit is an unsigned local native source; this metadata does not claim remote source or canonical-main publication.",
+          "Original source observations, access limits and dates are unchanged. Source-input packets alone did not establish this later full findings acceptance.",
+          "No proposal, enrollment, membership, transfer, agreement, application, account, model execution, award or spending is established."
         ]
       },
       "owning_research_key": "E08-01",
@@ -10038,7 +10045,7 @@
         "https://www.eclipse.org/legal/privacy/",
         "https://projects.eclipse.org/create/project-proposal"
       ],
-      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "source_review_status": "Complete institutional-home and nonprofit accelerator findings independently accepted; actual applicant and operating outcomes remain Unknown",
       "current_disposition": "Defer proposal; P2 conditional institutional-fit research only",
       "award_status": "Unknown — no award evidence established",
       "score": null,
@@ -10062,6 +10069,28 @@
         "Source date is not applicant approval or current private-form verification.",
         "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
         "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ],
+      "research_acceptance_history": [
+        {
+          "source_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+          "source_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+          "scope": "Original draft metadata before the actual independent findings receipt; retained as history, not the current decision.",
+          "previous_state": {
+            "opportunity_stage": "Discovered",
+            "work_status": "Blocked",
+            "independent_reviewer": null,
+            "review": {
+              "reviewer": null,
+              "reviewed_revision": null,
+              "review_url": null,
+              "decision": "Not reviewed",
+              "limitations": [
+                "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+              ]
+            },
+            "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending"
+          }
+        }
       ]
     },
     {
@@ -10091,8 +10120,8 @@
       ],
       "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
       "application_status": "Public proposal guide available; separate linked template unreadable; no actual proposal or available mentor verified.",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -10366,7 +10395,7 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
       "next_action": "Resolve community scope, rights, governance consent and real champion/maintainer capacity; defer proposal.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -10394,12 +10423,19 @@
         "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Not reviewed",
+        "reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
+        "reviewed_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+        "reviewed_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T21:17:36Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025",
+        "decision": "Accepted for bounded institutional-home and nonprofit accelerator research findings",
+        "scope": "Complete eight-path source, four program records and comparison, all fifteen issue criteria at findings scope, exact accepted #13/#17 inputs, source provenance and original validation; canonical publication remains pending.",
         "limitations": [
-          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+          "Shared-account in-session technical findings acceptance is not a separate-account APPROVED vote, human or legal opinion, organizational mandate or actual applicant qualification.",
+          "The reviewed commit is an unsigned local native source; this metadata does not claim remote source or canonical-main publication.",
+          "Original source observations, access limits and dates are unchanged. Source-input packets alone did not establish this later full findings acceptance.",
+          "No proposal, enrollment, membership, transfer, agreement, application, account, model execution, award or spending is established."
         ]
       },
       "owning_research_key": "E08-01",
@@ -10445,7 +10481,7 @@
         "https://attic.apache.org/",
         "https://incubator.apache.org/guides/retirement.html"
       ],
-      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "source_review_status": "Complete institutional-home and nonprofit accelerator findings independently accepted; actual applicant and operating outcomes remain Unknown",
       "current_disposition": "Defer proposal; P2 conditional institutional-fit research only",
       "award_status": "Unknown — no award evidence established",
       "score": null,
@@ -10469,6 +10505,28 @@
         "Source date is not applicant approval or current private-form verification.",
         "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
         "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ],
+      "research_acceptance_history": [
+        {
+          "source_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+          "source_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+          "scope": "Original draft metadata before the actual independent findings receipt; retained as history, not the current decision.",
+          "previous_state": {
+            "opportunity_stage": "Discovered",
+            "work_status": "Blocked",
+            "independent_reviewer": null,
+            "review": {
+              "reviewer": null,
+              "reviewed_revision": null,
+              "review_url": null,
+              "decision": "Not reviewed",
+              "limitations": [
+                "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+              ]
+            },
+            "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending"
+          }
+        }
       ]
     },
     {
@@ -10498,8 +10556,8 @@
       ],
       "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
       "application_status": "Published 2027 schedule and indexed date conflict retained; actual Apply link is password-protected with a 2026 title.",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -10616,7 +10674,7 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
       "next_action": "Establish actual MVP/mission/leader/time evidence; reconcile geography/attendance and current intake/contract before applying.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -10644,12 +10702,19 @@
         "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Not reviewed",
+        "reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
+        "reviewed_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+        "reviewed_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T21:17:36Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025",
+        "decision": "Accepted for bounded institutional-home and nonprofit accelerator research findings",
+        "scope": "Complete eight-path source, four program records and comparison, all fifteen issue criteria at findings scope, exact accepted #13/#17 inputs, source provenance and original validation; canonical publication remains pending.",
         "limitations": [
-          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+          "Shared-account in-session technical findings acceptance is not a separate-account APPROVED vote, human or legal opinion, organizational mandate or actual applicant qualification.",
+          "The reviewed commit is an unsigned local native source; this metadata does not claim remote source or canonical-main publication.",
+          "Original source observations, access limits and dates are unchanged. Source-input packets alone did not establish this later full findings acceptance.",
+          "No proposal, enrollment, membership, transfer, agreement, application, account, model execution, award or spending is established."
         ]
       },
       "owning_research_key": "E08-01",
@@ -10669,7 +10734,7 @@
         "https://www.ffwd.org/privacy-policy",
         "https://www.ffwd.org/events-conduct-policy"
       ],
-      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "source_review_status": "Complete institutional-home and nonprofit accelerator findings independently accepted; actual applicant and operating outcomes remain Unknown",
       "current_disposition": "Defer application; P2 conditional nonprofit-capacity route",
       "award_status": "Unknown — no award evidence established",
       "score": null,
@@ -10693,6 +10758,28 @@
         "Source date is not applicant approval or current private-form verification.",
         "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
         "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ],
+      "research_acceptance_history": [
+        {
+          "source_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+          "source_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+          "scope": "Original draft metadata before the actual independent findings receipt; retained as history, not the current decision.",
+          "previous_state": {
+            "opportunity_stage": "Discovered",
+            "work_status": "Blocked",
+            "independent_reviewer": null,
+            "review": {
+              "reviewer": null,
+              "reviewed_revision": null,
+              "review_url": null,
+              "decision": "Not reviewed",
+              "limitations": [
+                "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+              ]
+            },
+            "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending"
+          }
+        }
       ]
     },
     {
@@ -10721,8 +10808,8 @@
       ],
       "application_gate": "Not authorized. No proposal, enrollment, membership, transfer, agreement or application before actual scope/authority/terms review.",
       "application_status": "2026 applications explicitly closed; no next-cycle application or deadline verified.",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -10887,7 +10974,7 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
       "next_action": "Resolve founder/community/capacity and actual payment route; recheck a future verified intake and complete grant agreement.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -10914,12 +11001,19 @@
         "preserved_owners": "#14 fiscal hosts; #32 instrument screens; #53 FASTLY-FAST-FORWARD remains a distinct provider/program."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Not reviewed",
+        "reviewer": "ChatGPT in-session Android reviewer, with separate Research-agent ASF source corroboration; public issue comment through the shared CompleteDotTech identity",
+        "reviewed_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+        "reviewed_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T21:17:36Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025",
+        "decision": "Accepted for bounded institutional-home and nonprofit accelerator research findings",
+        "scope": "Complete eight-path source, four program records and comparison, all fifteen issue criteria at findings scope, exact accepted #13/#17 inputs, source provenance and original validation; canonical publication remains pending.",
         "limitations": [
-          "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+          "Shared-account in-session technical findings acceptance is not a separate-account APPROVED vote, human or legal opinion, organizational mandate or actual applicant qualification.",
+          "The reviewed commit is an unsigned local native source; this metadata does not claim remote source or canonical-main publication.",
+          "Original source observations, access limits and dates are unchanged. Source-input packets alone did not establish this later full findings acceptance.",
+          "No proposal, enrollment, membership, transfer, agreement, application, account, model execution, award or spending is established."
         ]
       },
       "owning_research_key": "E08-01",
@@ -10947,7 +11041,7 @@
         "https://echoinggreen.org/follow-on-funding-2/",
         "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf"
       ],
-      "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending",
+      "source_review_status": "Complete institutional-home and nonprofit accelerator findings independently accepted; actual applicant and operating outcomes remain Unknown",
       "current_disposition": "Defer; P3 founder-capacity discovery with current 2026 intake closed",
       "award_status": "Unknown — no award evidence established",
       "score": null,
@@ -10971,6 +11065,28 @@
         "Source date is not applicant approval or current private-form verification.",
         "No paid provider/model run, account, participant, filing, transfer or organizational commitment.",
         "Canonical-main publication remains pending under the existing no-new-PR/readiness hold."
+      ],
+      "research_acceptance_history": [
+        {
+          "source_revision": "df5c6e5ac19e719c0883f4c750c81f325e3316ce",
+          "source_tree": "fd0b7ffab77e1ee7f255606368b84fccd4b2255b",
+          "scope": "Original draft metadata before the actual independent findings receipt; retained as history, not the current decision.",
+          "previous_state": {
+            "opportunity_stage": "Discovered",
+            "work_status": "Blocked",
+            "independent_reviewer": null,
+            "review": {
+              "reviewer": null,
+              "reviewed_revision": null,
+              "review_url": null,
+              "decision": "Not reviewed",
+              "limitations": [
+                "Source-input packets and local consistency checks are not independent acceptance of this complete comparison."
+              ]
+            },
+            "source_review_status": "Dated primary-source scopes checked; complete independent findings acceptance pending"
+          }
+        }
       ]
     }
   ],

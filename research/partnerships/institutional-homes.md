@@ -1,6 +1,6 @@
 # Institutional homes and nonprofit capacity programs
 
-**Research issue:** [#62 / E08-01](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62), under [E08 / #9](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9). **Source inspection date:** 2026-10-19. **Status:** draft findings; independent acceptance and canonical publication pending. Actual applicant qualification remains **Unknown** for all four programs. No proposal, enrollment, membership, transfer, agreement or provider application is authorized by this comparison.
+**Research issue:** [#62 / E08-01](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62), under [E08 / #9](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9). **Source inspection date:** 2026-10-19. **Status:** findings accepted by [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025) at `df5c6e5ac19e719c0883f4c750c81f325e3316ce`, tree `fd0b7ffab77e1ee7f255606368b84fccd4b2255b`, on 2026-10-19 at 21:17:36 UTC; canonical publication remains pending. Actual applicant qualification remains **Unknown** for all four programs. No proposal, enrollment, membership, transfer, agreement or provider application is authorized by this comparison.
 
 ## Recommendation
 
@@ -122,7 +122,7 @@ All entries assess this project's **actual evidence**, not whether a provider ge
 | Fast Forward | **Unknown.** Published pre-registration access still requires nonprofit intent, MVP and actual leadership/time. International-registration and attendee wording need applicant-specific resolution. | **Unknown.** Sponsored teams are permitted generally; the actual sponsor, agreement, product and attendee are not verified. | **Unknown.** Recognition alone does not prove an MVP, mission/beneficiary fit, leader capacity, open intake or selection. |
 | Echoing Green | **Unknown.** Early ideas may qualify generally, but actual original-founder authority, personal/community evidence and full-time capacity are unverified. A payment entity/host is required separately. | **Unknown.** Provider autonomy conditions must be assessed against the actual host's authority; no compatible agreement exists from this research. | **Unknown.** Recognition alone does not establish original-founder eligibility, community evidence, 40-hour commitment or admission to a future cycle. |
 
-Each route remains at **Discovered** while independent findings review is pending. Later program-research acceptance can support **Verified** without making the applicant Qualified, Approved to apply, Submitted, Awarded or Activated. Original review/source dates must remain attributable. [D1][D2][Q1]
+Each route is now **Done / Verified for program research** following [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025). Its original **Blocked / Discovered** and Not reviewed state remains in `research_acceptance_history`. This transition does not make the applicant Qualified, Approved to apply, Submitted, Awarded or Activated; all original source observations and dates remain attributable. [D1][D2][Q1]
 
 ## Public-benefit use, value, effort and scoring
 
@@ -213,25 +213,29 @@ Source versions differ for legitimate reasons and remain explicit: Eclipse's Mar
 
 ## Acceptance record
 
+The complete findings were independently accepted at unsigned local native `df5c6e5ac19e719c0883f4c750c81f325e3316ce`, tree `fd0b7ffab77e1ee7f255606368b84fccd4b2255b`, sole dated parent `bfa30ca5754e2068b06f7ff5fbf846cb39c6972b`, by [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025) at 21:17:36 UTC on 2026-10-19. The Android in-session reviewer completed the full source/criteria review and directly read the governing Eclipse and accelerator/Fellowship scopes; the separate Research reviewer's complete nineteen-source ASF corroboration is expressly attributed in that receipt. This successor records that actual decision without changing the findings, performing a new provider read or repeating the tests. It does not claim remote source or canonical-main publication, a separate-account approval, human/legal acceptance or organizational authority.
+
+The original draft recorded criteria 5 and 13 as Pending and all four records as Blocked / Discovered with null reviewers and Not reviewed objects. Those values remain bound to the reviewed revision and retained in each record's `research_acceptance_history`; the later decision is not backdated into the source observations.
+
 | Issue #62 criterion (summary) | Evidence / actual state |
 | --- | --- |
 | 1. Primary official sources and review date; historical versus current terms. | Dated source index, program sections and scope/version/access reconciliation. |
 | 2. Application status, benefit, restrictions, obligations and deadline verified or Unknown. | Each of the four program sections; blocked forms, closed cycle and unspecified deadlines explicit. |
 | 3. Current, fiscal-sponsored and independent 501(c)(3) eligibility separated. | Three-route matrix and distinct structured fields; all actual applicant outcomes Unknown. |
 | 4. One canonical deliverable, disposition, scoring justification and questions. | This file; four dispositions, null-score rationale and eight decision gates. |
-| 5. Independent acceptance; research is separate from application/award/activation. | **Pending** full findings review of a frozen revision. No later outcome claimed. |
+| 5. Independent acceptance; research is separate from application/award/activation. | Accepted by the [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025) at the exact source above. No application, award or activation inferred. |
 | 6. Canonical path and institutional comparison linked to legal/fiscal analysis. | `research/partnerships/institutional-homes.md`, exact accepted D1/D2 and existing #14 ownership. |
 | 7. Current sources/date, history, access failures and conflicts. | Source index and explicit direct/indexed Fast Forward conflict, template failures and versions. |
 | 8. Program/current intake/deadline, or reasoned Unknown/Not applicable. | Four separate process findings; no cadence-derived future deadline. |
 | 9. Benefit and all three organizational situations. | Program sections and complete three-route matrix; forms do not substitute for actual qualification. |
 | 10. Restrictions, reporting, branding, publication, privacy, portability, renewal, overage and independence. | Program-specific operational/contract/exit findings and unresolved actual agreement/capacity terms. |
 | 11. Concrete public-benefit use; defensible value/effort and cash versus avoided cost. | Proposed bounded provenance component, actual-evidence limits and explicit planning method. |
-| 12. Publish canonical deliverable, relevant records, sources, questions, priority and disposition. | Draft canonical source and four unique record changes prepared for review; **canonical-main publication remains pending**. |
-| 13. Linked independent acceptance of actual findings. | **Pending.** Structural validation or the three source-input packets do not meet this criterion. |
+| 12. Publish canonical deliverable, relevant records, sources, questions, priority and disposition. | Complete findings and the four relevant records are locally accepted; **canonical-main publication remains pending** and is not completed by this acceptance-metadata successor. |
+| 13. Linked independent acceptance of actual findings. | The [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277521025) accepts the actual complete findings. Structural validation and source-input packets remain distinct evidence. |
 | 14. Sourced nonprofit accelerator/incubator routes across all three paths. | Fast Forward and Echoing Green sections/matrix; software incubation alone is not substituted. |
 | 15. Distinguish accelerator, membership, hosting and fiscal sponsorship; preserve dependencies and nonbinding recommendation. | Relationship table, accepted-source custody, ownership and unexecuted decisions. |
 
-No issue criterion, dependency relationship, Project field or provider outcome is closed by this draft. The existing repository-scoped no-new-PR/readiness hold remains in force. Source validation and eventual engineering acceptance must be tied to the exact revision and cannot be relabeled as applicant, legal, organizational or human approval.
+This acceptance records the completed research criteria at their bounded scope; it does not close issue #62, its canonical-publication criterion, a dependency relationship, Project field or provider outcome. The existing repository-scoped no-new-PR/readiness hold remains in force. Original validation and this actual engineering acceptance retain their exact revision and execution identities and cannot be relabeled as applicant, legal, organizational or human approval.
 
 [D1]: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/00ee81db4f418b778e597f0a0da3bdc16199353a/docs/nonprofit/structure-decision-brief.md
 [D2]: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c2a7c5bdf4c3188cea980d8240cfd8e1d2e2ab89/docs/nonprofit/ip-stewardship-register.md

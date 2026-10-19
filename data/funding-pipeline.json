@@ -359,22 +359,22 @@
     {
       "opportunity_id": "CODERABBIT-OSS-PRODUCT",
       "program_name": "Free product access for public repositories",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; canonical assessment awaiting independent acceptance",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
-      "research_status": "Ready",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Defer new activation; retain an optional bounded internal pilot decision after account, authority and unmet-need evidence.",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "No activation in this research. A later optional pilot requires explicit scope, actual account/rights authority, an uncovered review need and operating/exit controls; no paid commitment or outreach is authorized by this assessment.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "No project-specific offer or reporting agreement inspected; no submission, award, activation or reporting obligation is established by this research.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Audit existing installation and configuration before recommending any new integration."
+      "next_action": "Independently accept the canonical dated assessment; any later operator must verify actual installation/account scope and an unmet review need before deciding on a pilot."
     },
     {
       "opportunity_id": "JETBRAINS-OSS",

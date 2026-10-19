@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 83,
+  "source_count": 97,
   "records_count": 39,
   "sources": [
     {
@@ -46,8 +46,8 @@
     {
       "url": "https://app.coderabbit.ai",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Attempted public text retrieval exposed no readable intake fields. Current signed-in consent, account and installation state remain unverified.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -57,7 +57,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Not Verified — public intake content unavailable",
       "source_roles": [
         "application_endpoint"
       ]
@@ -1094,7 +1094,7 @@
     {
       "url": "https://www.coderabbit.ai/oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current public-product intake and separate sponsorship disposition",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1104,7 +1104,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Current source checked; canonical research acceptance and actual applicant/account qualification remain separate",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -1572,6 +1572,258 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/getting-started/quickstart",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published setup process; no account action",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/platforms/github-com",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published GitHub authority, scopes and repository selection",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/plans",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current OSS feature tier, allowance bands and manual-review threshold",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/rate-limits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current review-event behavior and incomplete-review signals",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/configuration/configuration-inheritance",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective configuration sources and central repository convention",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/reference/caching",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current repository-cache behavior and separate control",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/knowledge-base",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current context retention and opt-out control",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current published governing terms; actual account agreement Unknown",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/privacy-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current published privacy policy; no infrastructure audit",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/legal/dpa",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published processing roles, transfer and deletion terms; recipient-list access unresolved",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.coderabbit.ai/pricing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public product versus optional paid usage; no paid subscription",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/management/subscription-management",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published paid activation/cancellation controls; actual account state Unknown",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.coderabbit.ai/guides/data-export",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published export scope and limits; no actual export",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before activation, paid use, sponsorship or public benchmark decisions",
+        "Upon changed terms, permissions, limits, redirects or contradictory evidence"
+      ],
+      "state": "Current source checked; actual account/application conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://trust.coderabbit.ai/subprocessors",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "DPA-linked public page returned no readable subprocessor list; recipient details remain unverified.",
+      "opportunity_ids": [
+        "CODERABBIT-OSS-PRODUCT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before accepting data-processing terms or activating a service",
+        "Upon a changed DPA, recipient-list access or transfer requirement"
+      ],
+      "state": "Not Verified — linked governing endpoint content unavailable",
+      "source_roles": [
+        "related_governing_endpoint"
+      ]
     }
   ],
   "rules": [
@@ -1580,6 +1832,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 66,
-  "additional_unverified_endpoint_count": 17
+  "source_evidence_url_count": 79,
+  "additional_unverified_endpoint_count": 18
 }

@@ -2,7 +2,9 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks 83 distinct source and endpoint URLs for the 39 opportunity records: 66 governing-source URLs, including the Apple and Together decision reviews, plus 17 additional program/application endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
+The [source register](../data/research-freshness.json) tracks 97 distinct source and endpoint URLs for the 39 opportunity records: 79 governing-source URLs, including the Apple, Together and CodeRabbit assessments, plus 18 additional program/application or related governing endpoints. Newly identified endpoints keep `last_verified` null until their actual contents are checked. Each row records supported programs, its role, known access results and event-based recheck triggers. Next internal review dates and people assignments remain null.
+
+The CodeRabbit app intake and DPA-linked subprocessor endpoint retain null successful-verification dates after actual public retrieval attempts exposed no readable contents. The dated public repository observations in its canonical assessment do not establish account installation or later source state.
 
 ## Review triggers
 

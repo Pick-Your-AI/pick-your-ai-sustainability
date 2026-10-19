@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 43,
+  "record_count": 45,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -279,22 +279,22 @@
     {
       "opportunity_id": "BENEVITY-CAUSES",
       "program_name": "Causes Portal / workplace giving channel",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
-      "research_status": "Ready",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_outcome": "No submission in this execution; historical state Unknown",
+      "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
+      "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "Potential provider/recipient obligations documented; actual grant and host duties and dates remain unestablished.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Verify charity/host access, payment requirements and employer-specific terms without assuming any donor relationship."
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action."
     },
     {
       "opportunity_id": "AWS-OSS-CREDITS",
@@ -875,6 +875,47 @@
       "priority": "P3",
       "score": null,
       "next_action": "Retain the exclusion. Reconsider only against an independently authorized actual issuer proposal and complete proposed instruments."
+    }
+  ,
+    {
+      "opportunity_id": "FIDELITY-CHARITABLE-DAF",
+      "program_name": "Donor-advised charitable grant recipient route",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
+      "eligibility": "Unknown",
+      "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
+      "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "reporting_status": "Potential provider/recipient obligations documented; actual grant and host duties and dates remain unestablished.",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P2",
+      "score": null,
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action."
+    },
+    {
+      "opportunity_id": "DAFGIVING360-RECIPIENT",
+      "program_name": "Donor-advised charitable grant recipient route",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
+      "eligibility": "Unknown",
+      "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
+      "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "reporting_status": "Potential provider/recipient obligations documented; actual grant and host duties and dates remain unestablished.",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P2",
+      "score": null,
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action."
     }
   ]
 }

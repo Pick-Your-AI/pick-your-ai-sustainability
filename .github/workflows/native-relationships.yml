@@ -1,0 +1,122 @@
+name: Apply and verify declared sustainability relationships
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches: [main]
+    paths:
+      - .github/workflows/native-relationships.yml
+      - scripts/apply_native_relationships.py
+      - data/dependencies.json
+
+permissions: {}
+
+concurrency:
+  group: sustainability-native-relationships-pr73
+  cancel-in-progress: false
+
+jobs:
+  apply-declared-relationships:
+    if: >-
+      github.repository == 'Pick-Your-AI/pick-your-ai-sustainability' &&
+      github.event_name == 'pull_request' &&
+      github.event.number == 73 &&
+      github.actor == 'CompleteDotTech' &&
+      github.actor_id == '5861166' &&
+      github.triggering_actor == 'CompleteDotTech' &&
+      github.event.sender.login == 'CompleteDotTech' &&
+      github.event.sender.id == 5861166 &&
+      github.event.pull_request.user.login == 'CompleteDotTech' &&
+      github.event.pull_request.user.id == 5861166 &&
+      github.event.pull_request.state == 'open' &&
+      github.event.pull_request.head.repo.full_name == 'Pick-Your-AI/pick-your-ai-sustainability' &&
+      github.event.pull_request.head.repo.fork == false &&
+      github.event.pull_request.head.ref == 'sustainability/program-foundation' &&
+      github.event.pull_request.base.repo.full_name == 'Pick-Your-AI/pick-your-ai-sustainability' &&
+      github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      NATIVE_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Verify head author and download only the pinned program files
+        id: prepare
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import json
+          import os
+          import re
+          import urllib.request
+          from pathlib import Path
+
+          repository = 'Pick-Your-AI/pick-your-ai-sustainability'
+          sha = os.environ['NATIVE_HEAD_SHA']
+          assert os.environ['GITHUB_REPOSITORY'] == repository
+          assert re.fullmatch(r'[0-9a-f]{40}', sha)
+          prefix = f'https://api.github.com/repos/{repository}'
+
+          class NoRedirects(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  return None
+
+          opener = urllib.request.build_opener(NoRedirects())
+
+          def get(suffix):
+              request = urllib.request.Request(prefix + suffix, headers={
+                  'Accept': 'application/vnd.github+json',
+                  'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'],
+                  'X-GitHub-Api-Version': '2026-03-10',
+                  'User-Agent': 'Pick-Your-AI-native-relationship-bootstrap',
+              })
+              with opener.open(request, timeout=30) as response:
+                  return json.load(response)
+
+          branch = get('/git/ref/heads/sustainability/program-foundation')
+          assert branch['object']['sha'] == sha, 'Foundation head changed; use the current PR run'
+          commit = get('/commits/' + sha)
+          assert commit['sha'] == sha
+          assert (commit.get('author') or {}).get('login') == 'CompleteDotTech'
+          assert (commit.get('author') or {}).get('id') == 5861166
+
+          if '[native-relationships]' not in commit.get('commit', {}).get('message', ''):
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+                  stream.write('apply_relationships=false\n')
+              message = 'Native relationship application skipped: verified head commit lacks [native-relationships].'
+              print(message)
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as stream:
+                  stream.write('## Native sustainability relationships\n\n' + message + '\n')
+              raise SystemExit(0)
+
+          pinned_files = {
+              'scripts/apply_native_relationships.py': '21f36247c353343de5facc3b380bf4d4b11dcf76d4b6ffebb74c2c01282678f4',
+              'data/dependencies.json': '8bfd7519b9f43746f87a17cb1640073e406dda64bffbbd2b7097fe2f0ad8d3ca',
+          }
+          for path, expected_sha256 in pinned_files.items():
+              item = get('/contents/' + path + '?ref=' + sha)
+              assert item['type'] == 'file' and item['encoding'] == 'base64'
+              assert item['size'] < 1_000_000
+              content = base64.b64decode(''.join(item['content'].split()), validate=True)
+              assert hashlib.sha256(content).hexdigest() == expected_sha256, 'Pinned file differs: ' + path
+              target = Path(path)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(content)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+              stream.write('apply_relationships=true\n')
+          print('Verified exact head author and both pinned program files; no issue writes in this step.')
+          PY
+
+      - name: Apply missing declared relationships and verify the complete native graph
+        if: steps.prepare.outputs.apply_relationships == 'true'
+        shell: bash
+        run: >-
+          python3 scripts/apply_native_relationships.py
+          --registry data/dependencies.json
+          --report native-relationships-report.json
+          --apply

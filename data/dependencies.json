@@ -20,497 +20,781 @@
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 2,
+      "child_issue_id": 5918030557
     },
     {
       "child_key": "E02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 3,
+      "child_issue_id": 5918030703
     },
     {
       "child_key": "E03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 4,
+      "child_issue_id": 5918030840
     },
     {
       "child_key": "E04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 5,
+      "child_issue_id": 5918034992
     },
     {
       "child_key": "E05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 6,
+      "child_issue_id": 5918035306
     },
     {
       "child_key": "E06",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 7,
+      "child_issue_id": 5918035633
     },
     {
       "child_key": "E07",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 8,
+      "child_issue_id": 5918035946
     },
     {
       "child_key": "E08",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 9,
+      "child_issue_id": 5918036259
     },
     {
       "child_key": "E09",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
       "parent_key": "PROGRAM",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 1,
+      "parent_issue_id": 5918014257,
+      "child_issue_number": 10,
+      "child_issue_id": 5918036563
     },
     {
       "child_key": "E01-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 11,
+      "child_issue_id": 5918043201
     },
     {
       "child_key": "E01-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 12,
+      "child_issue_id": 5918043484
     },
     {
       "child_key": "E01-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 13,
+      "child_issue_id": 5918043791
     },
     {
       "child_key": "E01-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 14,
+      "child_issue_id": 5918044060
     },
     {
       "child_key": "E01-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/15",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 15,
+      "child_issue_id": 5918044406
     },
     {
       "child_key": "E01-06",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/16",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 16,
+      "child_issue_id": 5918044719
     },
     {
       "child_key": "E01-07",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 17,
+      "child_issue_id": 5918045061
     },
     {
       "child_key": "E01-08",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "parent_key": "E01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 2,
+      "parent_issue_id": 5918030557,
+      "child_issue_number": 18,
+      "child_issue_id": 5918045368
     },
     {
       "child_key": "E02-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "parent_key": "E02",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 3,
+      "parent_issue_id": 5918030703,
+      "child_issue_number": 19,
+      "child_issue_id": 5918045714
     },
     {
       "child_key": "E02-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
       "parent_key": "E02",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 3,
+      "parent_issue_id": 5918030703,
+      "child_issue_number": 20,
+      "child_issue_id": 5918046004
     },
     {
       "child_key": "E02-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "parent_key": "E02",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 3,
+      "parent_issue_id": 5918030703,
+      "child_issue_number": 21,
+      "child_issue_id": 5918046298
     },
     {
       "child_key": "E02-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "parent_key": "E02",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 3,
+      "parent_issue_id": 5918030703,
+      "child_issue_number": 22,
+      "child_issue_id": 5918046578
     },
     {
       "child_key": "E02-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
       "parent_key": "E02",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 3,
+      "parent_issue_id": 5918030703,
+      "child_issue_number": 23,
+      "child_issue_id": 5918046875
     },
     {
       "child_key": "E02-06",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "parent_key": "E02",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 3,
+      "parent_issue_id": 5918030703,
+      "child_issue_number": 24,
+      "child_issue_id": 5918047257
     },
     {
       "child_key": "E03-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 25,
+      "child_issue_id": 5918047588
     },
     {
       "child_key": "E03-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/26",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 26,
+      "child_issue_id": 5918047859
     },
     {
       "child_key": "E03-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/27",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 27,
+      "child_issue_id": 5918048150
     },
     {
       "child_key": "E03-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/28",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 28,
+      "child_issue_id": 5918048496
     },
     {
       "child_key": "E03-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 29,
+      "child_issue_id": 5918048887
     },
     {
       "child_key": "E03-06",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 30,
+      "child_issue_id": 5918049208
     },
     {
       "child_key": "E03-07",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 31,
+      "child_issue_id": 5918049494
     },
     {
       "child_key": "E03-08",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
       "parent_key": "E03",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 4,
+      "parent_issue_id": 5918030840,
+      "child_issue_number": 32,
+      "child_issue_id": 5918049814
     },
     {
       "child_key": "E04-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
       "parent_key": "E04",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 5,
+      "parent_issue_id": 5918034992,
+      "child_issue_number": 33,
+      "child_issue_id": 5918050123
     },
     {
       "child_key": "E04-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
       "parent_key": "E04",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 5,
+      "parent_issue_id": 5918034992,
+      "child_issue_number": 34,
+      "child_issue_id": 5918050457
     },
     {
       "child_key": "E04-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
       "parent_key": "E04",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 5,
+      "parent_issue_id": 5918034992,
+      "child_issue_number": 35,
+      "child_issue_id": 5918050866
     },
     {
       "child_key": "E04-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
       "parent_key": "E04",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 5,
+      "parent_issue_id": 5918034992,
+      "child_issue_number": 36,
+      "child_issue_id": 5918051164
     },
     {
       "child_key": "E04-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/37",
       "parent_key": "E04",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 5,
+      "parent_issue_id": 5918034992,
+      "child_issue_number": 37,
+      "child_issue_id": 5918051519
     },
     {
       "child_key": "E05-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
       "parent_key": "E05",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 6,
+      "parent_issue_id": 5918035306,
+      "child_issue_number": 38,
+      "child_issue_id": 5918051858
     },
     {
       "child_key": "E05-01A",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 39,
+      "child_issue_id": 5918052171
     },
     {
       "child_key": "E05-01B",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 40,
+      "child_issue_id": 5918052463
     },
     {
       "child_key": "E05-01C",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 41,
+      "child_issue_id": 5918052830
     },
     {
       "child_key": "E05-01D",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 42,
+      "child_issue_id": 5918053117
     },
     {
       "child_key": "E05-01E",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 43,
+      "child_issue_id": 5918053414
     },
     {
       "child_key": "E05-01F",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 44,
+      "child_issue_id": 5918053702
     },
     {
       "child_key": "E05-01G",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 45,
+      "child_issue_id": 5918054032
     },
     {
       "child_key": "E05-01H",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46",
       "parent_key": "E05-01",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 38,
+      "parent_issue_id": 5918051858,
+      "child_issue_number": 46,
+      "child_issue_id": 5918054329
     },
     {
       "child_key": "E05-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
       "parent_key": "E05",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 6,
+      "parent_issue_id": 5918035306,
+      "child_issue_number": 47,
+      "child_issue_id": 5918054673
     },
     {
       "child_key": "E05-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
       "parent_key": "E05",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 6,
+      "parent_issue_id": 5918035306,
+      "child_issue_number": 48,
+      "child_issue_id": 5918054982
     },
     {
       "child_key": "E05-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
       "parent_key": "E05",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 6,
+      "parent_issue_id": 5918035306,
+      "child_issue_number": 49,
+      "child_issue_id": 5918055324
     },
     {
       "child_key": "E05-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50",
       "parent_key": "E05",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 6,
+      "parent_issue_id": 5918035306,
+      "child_issue_number": 50,
+      "child_issue_id": 5918055619
     },
     {
       "child_key": "E06-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
       "parent_key": "E06",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 7,
+      "parent_issue_id": 5918035633,
+      "child_issue_number": 51,
+      "child_issue_id": 5918055946
     },
     {
       "child_key": "E06-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
       "parent_key": "E06",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 7,
+      "parent_issue_id": 5918035633,
+      "child_issue_number": 52,
+      "child_issue_id": 5918056302
     },
     {
       "child_key": "E06-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
       "parent_key": "E06",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 7,
+      "parent_issue_id": 5918035633,
+      "child_issue_number": 53,
+      "child_issue_id": 5918056622
     },
     {
       "child_key": "E06-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
       "parent_key": "E06",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 7,
+      "parent_issue_id": 5918035633,
+      "child_issue_number": 54,
+      "child_issue_id": 5918056953
     },
     {
       "child_key": "E06-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55",
       "parent_key": "E06",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 7,
+      "parent_issue_id": 5918035633,
+      "child_issue_number": 55,
+      "child_issue_id": 5918057238
     },
     {
       "child_key": "E07-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
       "parent_key": "E07",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 8,
+      "parent_issue_id": 5918035946,
+      "child_issue_number": 56,
+      "child_issue_id": 5918057588
     },
     {
       "child_key": "E07-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
       "parent_key": "E07",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 8,
+      "parent_issue_id": 5918035946,
+      "child_issue_number": 57,
+      "child_issue_id": 5918057900
     },
     {
       "child_key": "E07-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58",
       "parent_key": "E07",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 8,
+      "parent_issue_id": 5918035946,
+      "child_issue_number": 58,
+      "child_issue_id": 5918058231
     },
     {
       "child_key": "E07-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
       "parent_key": "E07",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 8,
+      "parent_issue_id": 5918035946,
+      "child_issue_number": 59,
+      "child_issue_id": 5918058554
     },
     {
       "child_key": "E07-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
       "parent_key": "E07",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 8,
+      "parent_issue_id": 5918035946,
+      "child_issue_number": 60,
+      "child_issue_id": 5918058839
     },
     {
       "child_key": "E07-06",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
       "parent_key": "E07",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 8,
+      "parent_issue_id": 5918035946,
+      "child_issue_number": 61,
+      "child_issue_id": 5918059149
     },
     {
       "child_key": "E08-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
       "parent_key": "E08",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 9,
+      "parent_issue_id": 5918036259,
+      "child_issue_number": 62,
+      "child_issue_id": 5918059455
     },
     {
       "child_key": "E08-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
       "parent_key": "E08",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 9,
+      "parent_issue_id": 5918036259,
+      "child_issue_number": 63,
+      "child_issue_id": 5918059717
     },
     {
       "child_key": "E08-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64",
       "parent_key": "E08",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 9,
+      "parent_issue_id": 5918036259,
+      "child_issue_number": 64,
+      "child_issue_id": 5918060043
     },
     {
       "child_key": "E08-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
       "parent_key": "E08",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 9,
+      "parent_issue_id": 5918036259,
+      "child_issue_number": 65,
+      "child_issue_id": 5918060366
     },
     {
       "child_key": "E08-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
       "parent_key": "E08",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 9,
+      "parent_issue_id": 5918036259,
+      "child_issue_number": 66,
+      "child_issue_id": 5918060647
     },
     {
       "child_key": "E09-01",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
       "parent_key": "E09",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 10,
+      "parent_issue_id": 5918036563,
+      "child_issue_number": 67,
+      "child_issue_id": 5918060967
     },
     {
       "child_key": "E09-02",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
       "parent_key": "E09",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 10,
+      "parent_issue_id": 5918036563,
+      "child_issue_number": 68,
+      "child_issue_id": 5918061290
     },
     {
       "child_key": "E09-03",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
       "parent_key": "E09",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 10,
+      "parent_issue_id": 5918036563,
+      "child_issue_number": 69,
+      "child_issue_id": 5918061616
     },
     {
       "child_key": "E09-04",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
       "parent_key": "E09",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 10,
+      "parent_issue_id": 5918036563,
+      "child_issue_number": 70,
+      "child_issue_id": 5918061956
     },
     {
       "child_key": "E09-05",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
       "parent_key": "E09",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 10,
+      "parent_issue_id": 5918036563,
+      "child_issue_number": 71,
+      "child_issue_id": 5918062386
     },
     {
       "child_key": "E09-06",
       "child_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72",
       "parent_key": "E09",
       "parent_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "parent_issue_number": 10,
+      "parent_issue_id": 5918036563,
+      "child_issue_number": 72,
+      "child_issue_id": 5918062707
     }
   ],
   "hard_dependencies": [
@@ -521,7 +805,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "A sourced cost inventory is required before a defensible budget can be accepted.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 20,
+      "blocked_issue_id": 5918046004,
+      "blocking_issue_number": 19,
+      "blocking_issue_id": 5918045714
     },
     {
       "blocked_key": "E02-05",
@@ -530,7 +818,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
       "reason": "Budget-dependent narrative cannot be accepted without budget evidence.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 23,
+      "blocked_issue_id": 5918046875,
+      "blocking_issue_number": 20,
+      "blocking_issue_id": 5918046004
     },
     {
       "blocked_key": "E02-05",
@@ -539,7 +831,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "Outcome claims require an accepted measurement/evidence plan.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 23,
+      "blocked_issue_id": 5918046875,
+      "blocking_issue_number": 22,
+      "blocking_issue_id": 5918046578
     },
     {
       "blocked_key": "E04-03",
@@ -548,7 +844,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "reason": "Accepted draft neutrality policy defines permissible model constraints.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 35,
+      "blocked_issue_id": 5918050866,
+      "blocking_issue_number": 18,
+      "blocking_issue_id": 5918045368
     },
     {
       "blocked_key": "E04-05",
@@ -557,7 +857,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
       "reason": "Ethical support models determine benefits.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 37,
+      "blocked_issue_id": 5918051519,
+      "blocking_issue_number": 35,
+      "blocking_issue_id": 5918050866
     },
     {
       "blocked_key": "E05-01D",
@@ -566,7 +870,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 42,
+      "blocked_issue_id": 5918053117,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E05-03",
@@ -575,7 +883,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 48,
+      "blocked_issue_id": 5918054982,
+      "blocking_issue_number": 21,
+      "blocking_issue_id": 5918046298
     },
     {
       "blocked_key": "E05-04",
@@ -584,7 +896,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 49,
+      "blocked_issue_id": 5918055324,
+      "blocking_issue_number": 21,
+      "blocking_issue_id": 5918046298
     },
     {
       "blocked_key": "E05-05",
@@ -593,7 +909,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 50,
+      "blocked_issue_id": 5918055619,
+      "blocking_issue_number": 21,
+      "blocking_issue_id": 5918046298
     },
     {
       "blocked_key": "E05-05",
@@ -602,7 +922,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 50,
+      "blocked_issue_id": 5918055619,
+      "blocking_issue_number": 47,
+      "blocking_issue_id": 5918054673
     },
     {
       "blocked_key": "E05-05",
@@ -611,7 +935,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 50,
+      "blocked_issue_id": 5918055619,
+      "blocking_issue_number": 48,
+      "blocking_issue_id": 5918054982
     },
     {
       "blocked_key": "E05-05",
@@ -620,7 +948,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 50,
+      "blocked_issue_id": 5918055619,
+      "blocking_issue_number": 49,
+      "blocking_issue_id": 5918055324
     },
     {
       "blocked_key": "E05-05",
@@ -629,7 +961,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 50,
+      "blocked_issue_id": 5918055619,
+      "blocking_issue_number": 38,
+      "blocking_issue_id": 5918051858
     },
     {
       "blocked_key": "E06-01",
@@ -638,7 +974,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 51,
+      "blocked_issue_id": 5918055946,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E06-01",
@@ -647,7 +987,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 51,
+      "blocked_issue_id": 5918055946,
+      "blocking_issue_number": 19,
+      "blocking_issue_id": 5918045714
     },
     {
       "blocked_key": "E06-02",
@@ -656,7 +1000,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 52,
+      "blocked_issue_id": 5918056302,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E06-02",
@@ -665,7 +1013,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 52,
+      "blocked_issue_id": 5918056302,
+      "blocking_issue_number": 19,
+      "blocking_issue_id": 5918045714
     },
     {
       "blocked_key": "E06-03",
@@ -674,7 +1026,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 53,
+      "blocked_issue_id": 5918056622,
+      "blocking_issue_number": 19,
+      "blocking_issue_id": 5918045714
     },
     {
       "blocked_key": "E06-03",
@@ -683,7 +1039,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 53,
+      "blocked_issue_id": 5918056622,
+      "blocking_issue_number": 57,
+      "blocking_issue_id": 5918057900
     },
     {
       "blocked_key": "E06-04",
@@ -692,7 +1052,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 54,
+      "blocked_issue_id": 5918056953,
+      "blocking_issue_number": 19,
+      "blocking_issue_id": 5918045714
     },
     {
       "blocked_key": "E06-04",
@@ -701,7 +1065,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 54,
+      "blocked_issue_id": 5918056953,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E06-05",
@@ -710,7 +1078,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 55,
+      "blocked_issue_id": 5918057238,
+      "blocking_issue_number": 19,
+      "blocking_issue_id": 5918045714
     },
     {
       "blocked_key": "E06-05",
@@ -719,7 +1091,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 55,
+      "blocked_issue_id": 5918057238,
+      "blocking_issue_number": 57,
+      "blocking_issue_id": 5918057900
     },
     {
       "blocked_key": "E07-04",
@@ -728,7 +1104,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 59,
+      "blocked_issue_id": 5918058554,
+      "blocking_issue_number": 57,
+      "blocking_issue_id": 5918057900
     },
     {
       "blocked_key": "E07-05",
@@ -737,7 +1117,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 60,
+      "blocked_issue_id": 5918058839,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E07-06",
@@ -746,7 +1130,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 61,
+      "blocked_issue_id": 5918059149,
+      "blocking_issue_number": 57,
+      "blocking_issue_id": 5918057900
     },
     {
       "blocked_key": "E08-01",
@@ -755,7 +1143,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 62,
+      "blocked_issue_id": 5918059455,
+      "blocking_issue_number": 13,
+      "blocking_issue_id": 5918043791
     },
     {
       "blocked_key": "E08-01",
@@ -764,7 +1156,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 62,
+      "blocked_issue_id": 5918059455,
+      "blocking_issue_number": 17,
+      "blocking_issue_id": 5918045061
     },
     {
       "blocked_key": "E08-02",
@@ -773,7 +1169,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 63,
+      "blocked_issue_id": 5918059717,
+      "blocking_issue_number": 49,
+      "blocking_issue_id": 5918055324
     },
     {
       "blocked_key": "E08-03",
@@ -782,7 +1182,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 64,
+      "blocked_issue_id": 5918060043,
+      "blocking_issue_number": 18,
+      "blocking_issue_id": 5918045368
     },
     {
       "blocked_key": "E08-03",
@@ -791,7 +1195,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 64,
+      "blocked_issue_id": 5918060043,
+      "blocking_issue_number": 57,
+      "blocking_issue_id": 5918057900
     },
     {
       "blocked_key": "E08-04",
@@ -800,7 +1208,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 65,
+      "blocked_issue_id": 5918060366,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E08-05",
@@ -809,7 +1221,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
       "reason": "The accepted input is required to finish the stated comparison, qualification or evidence-based request; public-source reading may proceed in parallel.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 66,
+      "blocked_issue_id": 5918060647,
+      "blocking_issue_number": 22,
+      "blocking_issue_id": 5918046578
     },
     {
       "blocked_key": "E09-02",
@@ -818,7 +1234,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 68,
+      "blocked_issue_id": 5918061290,
+      "blocking_issue_number": 11,
+      "blocking_issue_id": 5918043201
     },
     {
       "blocked_key": "E09-02",
@@ -827,7 +1247,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 68,
+      "blocked_issue_id": 5918061290,
+      "blocking_issue_number": 24,
+      "blocking_issue_id": 5918047257
     },
     {
       "blocked_key": "E09-03",
@@ -836,7 +1260,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 69,
+      "blocked_issue_id": 5918061616,
+      "blocking_issue_number": 68,
+      "blocking_issue_id": 5918061290
     },
     {
       "blocked_key": "E09-03",
@@ -845,7 +1273,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 69,
+      "blocked_issue_id": 5918061616,
+      "blocking_issue_number": 24,
+      "blocking_issue_id": 5918047257
     },
     {
       "blocked_key": "E09-04",
@@ -854,7 +1286,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 70,
+      "blocked_issue_id": 5918061956,
+      "blocking_issue_number": 67,
+      "blocking_issue_id": 5918060967
     },
     {
       "blocked_key": "E09-05",
@@ -863,7 +1299,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 71,
+      "blocked_issue_id": 5918062386,
+      "blocking_issue_number": 18,
+      "blocking_issue_id": 5918045368
     },
     {
       "blocked_key": "E09-05",
@@ -872,7 +1312,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 71,
+      "blocked_issue_id": 5918062386,
+      "blocking_issue_number": 20,
+      "blocking_issue_id": 5918046004
     },
     {
       "blocked_key": "E09-06",
@@ -881,7 +1325,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 72,
+      "blocked_issue_id": 5918062707,
+      "blocking_issue_number": 69,
+      "blocking_issue_id": 5918061616
     },
     {
       "blocked_key": "E09-06",
@@ -890,7 +1338,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 72,
+      "blocked_issue_id": 5918062707,
+      "blocking_issue_number": 70,
+      "blocking_issue_id": 5918061956
     },
     {
       "blocked_key": "E09-06",
@@ -899,7 +1351,11 @@
       "blocking_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
       "reason": "Named accepted program input required for the operating procedure or dashboard.",
       "relationship_type": "native_blocked_by_required",
-      "native_relationship_verified": false
+      "native_relationship_verified": false,
+      "blocked_issue_number": 72,
+      "blocked_issue_id": 5918062707,
+      "blocking_issue_number": 71,
+      "blocking_issue_id": 5918062386
     }
   ],
   "related_inputs": [
@@ -2724,5 +3180,527 @@
     "A planned edge is not evidence of a completed native GitHub relationship; final audit must update verification fields only after actual readback.",
     "Related inputs and existing cross-repository coverage do not become hard blockers automatically.",
     "No dependency cycles or duplicate hard edges were found in this intended graph."
-  ]
+  ],
+  "native_issue_id_verification": {
+    "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
+    "read_at": "2026-10-19T04:59:39.870Z",
+    "mapped_issues": 72,
+    "note": "Numeric issue IDs were read from GitHub; native relationships are not yet verified. The application script revalidates identities at runtime.",
+    "issues": [
+      {
+        "key": "PROGRAM",
+        "number": 1,
+        "id": 5918014257,
+        "node_id": "I_kwDOVO8t2M8AAAABYL27MQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1"
+      },
+      {
+        "key": "E01",
+        "number": 2,
+        "id": 5918030557,
+        "node_id": "I_kwDOVO8t2M8AAAABYL363Q",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2"
+      },
+      {
+        "key": "E02",
+        "number": 3,
+        "id": 5918030703,
+        "node_id": "I_kwDOVO8t2M8AAAABYL37bw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3"
+      },
+      {
+        "key": "E03",
+        "number": 4,
+        "id": 5918030840,
+        "node_id": "I_kwDOVO8t2M8AAAABYL37-A",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4"
+      },
+      {
+        "key": "E04",
+        "number": 5,
+        "id": 5918034992,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4MMA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5"
+      },
+      {
+        "key": "E05",
+        "number": 6,
+        "id": 5918035306,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4Nag",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6"
+      },
+      {
+        "key": "E06",
+        "number": 7,
+        "id": 5918035633,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4OsQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7"
+      },
+      {
+        "key": "E07",
+        "number": 8,
+        "id": 5918035946,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4P6g",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8"
+      },
+      {
+        "key": "E08",
+        "number": 9,
+        "id": 5918036259,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4RIw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9"
+      },
+      {
+        "key": "E09",
+        "number": 10,
+        "id": 5918036563,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4SUw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10"
+      },
+      {
+        "key": "E01-01",
+        "number": 11,
+        "id": 5918043201,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4sQQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      },
+      {
+        "key": "E01-02",
+        "number": 12,
+        "id": 5918043484,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4tXA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12"
+      },
+      {
+        "key": "E01-03",
+        "number": 13,
+        "id": 5918043791,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4ujw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13"
+      },
+      {
+        "key": "E01-04",
+        "number": 14,
+        "id": 5918044060,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4vnA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14"
+      },
+      {
+        "key": "E01-05",
+        "number": 15,
+        "id": 5918044406,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4w9g",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/15"
+      },
+      {
+        "key": "E01-06",
+        "number": 16,
+        "id": 5918044719,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4yLw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/16"
+      },
+      {
+        "key": "E01-07",
+        "number": 17,
+        "id": 5918045061,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4zhQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17"
+      },
+      {
+        "key": "E01-08",
+        "number": 18,
+        "id": 5918045368,
+        "node_id": "I_kwDOVO8t2M8AAAABYL40uA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18"
+      },
+      {
+        "key": "E02-01",
+        "number": 19,
+        "id": 5918045714,
+        "node_id": "I_kwDOVO8t2M8AAAABYL42Eg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19"
+      },
+      {
+        "key": "E02-02",
+        "number": 20,
+        "id": 5918046004,
+        "node_id": "I_kwDOVO8t2M8AAAABYL43NA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20"
+      },
+      {
+        "key": "E02-03",
+        "number": 21,
+        "id": 5918046298,
+        "node_id": "I_kwDOVO8t2M8AAAABYL44Wg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21"
+      },
+      {
+        "key": "E02-04",
+        "number": 22,
+        "id": 5918046578,
+        "node_id": "I_kwDOVO8t2M8AAAABYL45cg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22"
+      },
+      {
+        "key": "E02-05",
+        "number": 23,
+        "id": 5918046875,
+        "node_id": "I_kwDOVO8t2M8AAAABYL46mw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23"
+      },
+      {
+        "key": "E02-06",
+        "number": 24,
+        "id": 5918047257,
+        "node_id": "I_kwDOVO8t2M8AAAABYL48GQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24"
+      },
+      {
+        "key": "E03-01",
+        "number": 25,
+        "id": 5918047588,
+        "node_id": "I_kwDOVO8t2M8AAAABYL49ZA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25"
+      },
+      {
+        "key": "E03-02",
+        "number": 26,
+        "id": 5918047859,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4-cw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/26"
+      },
+      {
+        "key": "E03-03",
+        "number": 27,
+        "id": 5918048150,
+        "node_id": "I_kwDOVO8t2M8AAAABYL4_lg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/27"
+      },
+      {
+        "key": "E03-04",
+        "number": 28,
+        "id": 5918048496,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5A8A",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/28"
+      },
+      {
+        "key": "E03-05",
+        "number": 29,
+        "id": 5918048887,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5Cdw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29"
+      },
+      {
+        "key": "E03-06",
+        "number": 30,
+        "id": 5918049208,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5DuA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30"
+      },
+      {
+        "key": "E03-07",
+        "number": 31,
+        "id": 5918049494,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5E1g",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31"
+      },
+      {
+        "key": "E03-08",
+        "number": 32,
+        "id": 5918049814,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5GFg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32"
+      },
+      {
+        "key": "E04-01",
+        "number": 33,
+        "id": 5918050123,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5HSw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33"
+      },
+      {
+        "key": "E04-02",
+        "number": 34,
+        "id": 5918050457,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5ImQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34"
+      },
+      {
+        "key": "E04-03",
+        "number": 35,
+        "id": 5918050866,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5KMg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35"
+      },
+      {
+        "key": "E04-04",
+        "number": 36,
+        "id": 5918051164,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5LXA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36"
+      },
+      {
+        "key": "E04-05",
+        "number": 37,
+        "id": 5918051519,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5Mvw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/37"
+      },
+      {
+        "key": "E05-01",
+        "number": 38,
+        "id": 5918051858,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5OEg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38"
+      },
+      {
+        "key": "E05-01A",
+        "number": 39,
+        "id": 5918052171,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5PSw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39"
+      },
+      {
+        "key": "E05-01B",
+        "number": 40,
+        "id": 5918052463,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5Qbw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40"
+      },
+      {
+        "key": "E05-01C",
+        "number": 41,
+        "id": 5918052830,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5R3g",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41"
+      },
+      {
+        "key": "E05-01D",
+        "number": 42,
+        "id": 5918053117,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5S_Q",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42"
+      },
+      {
+        "key": "E05-01E",
+        "number": 43,
+        "id": 5918053414,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5UJg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43"
+      },
+      {
+        "key": "E05-01F",
+        "number": 44,
+        "id": 5918053702,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5VRg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44"
+      },
+      {
+        "key": "E05-01G",
+        "number": 45,
+        "id": 5918054032,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5WkA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45"
+      },
+      {
+        "key": "E05-01H",
+        "number": 46,
+        "id": 5918054329,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5XuQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46"
+      },
+      {
+        "key": "E05-02",
+        "number": 47,
+        "id": 5918054673,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5ZEQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47"
+      },
+      {
+        "key": "E05-03",
+        "number": 48,
+        "id": 5918054982,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5aRg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48"
+      },
+      {
+        "key": "E05-04",
+        "number": 49,
+        "id": 5918055324,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5bnA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49"
+      },
+      {
+        "key": "E05-05",
+        "number": 50,
+        "id": 5918055619,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5cww",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50"
+      },
+      {
+        "key": "E06-01",
+        "number": 51,
+        "id": 5918055946,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5eCg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51"
+      },
+      {
+        "key": "E06-02",
+        "number": 52,
+        "id": 5918056302,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5fbg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52"
+      },
+      {
+        "key": "E06-03",
+        "number": 53,
+        "id": 5918056622,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5grg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53"
+      },
+      {
+        "key": "E06-04",
+        "number": 54,
+        "id": 5918056953,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5h-Q",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54"
+      },
+      {
+        "key": "E06-05",
+        "number": 55,
+        "id": 5918057238,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5jFg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55"
+      },
+      {
+        "key": "E07-01",
+        "number": 56,
+        "id": 5918057588,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5kdA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56"
+      },
+      {
+        "key": "E07-02",
+        "number": 57,
+        "id": 5918057900,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5lrA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      },
+      {
+        "key": "E07-03",
+        "number": 58,
+        "id": 5918058231,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5m9w",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58"
+      },
+      {
+        "key": "E07-04",
+        "number": 59,
+        "id": 5918058554,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5oOg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59"
+      },
+      {
+        "key": "E07-05",
+        "number": 60,
+        "id": 5918058839,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5pVw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60"
+      },
+      {
+        "key": "E07-06",
+        "number": 61,
+        "id": 5918059149,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5qjQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61"
+      },
+      {
+        "key": "E08-01",
+        "number": 62,
+        "id": 5918059455,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5rvw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62"
+      },
+      {
+        "key": "E08-02",
+        "number": 63,
+        "id": 5918059717,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5sxQ",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63"
+      },
+      {
+        "key": "E08-03",
+        "number": 64,
+        "id": 5918060043,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5uCw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64"
+      },
+      {
+        "key": "E08-04",
+        "number": 65,
+        "id": 5918060366,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5vTg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65"
+      },
+      {
+        "key": "E08-05",
+        "number": 66,
+        "id": 5918060647,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5wZw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66"
+      },
+      {
+        "key": "E09-01",
+        "number": 67,
+        "id": 5918060967,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5xpw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67"
+      },
+      {
+        "key": "E09-02",
+        "number": 68,
+        "id": 5918061290,
+        "node_id": "I_kwDOVO8t2M8AAAABYL5y6g",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68"
+      },
+      {
+        "key": "E09-03",
+        "number": 69,
+        "id": 5918061616,
+        "node_id": "I_kwDOVO8t2M8AAAABYL50MA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69"
+      },
+      {
+        "key": "E09-04",
+        "number": 70,
+        "id": 5918061956,
+        "node_id": "I_kwDOVO8t2M8AAAABYL51hA",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70"
+      },
+      {
+        "key": "E09-05",
+        "number": 71,
+        "id": 5918062386,
+        "node_id": "I_kwDOVO8t2M8AAAABYL53Mg",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71"
+      },
+      {
+        "key": "E09-06",
+        "number": 72,
+        "id": 5918062707,
+        "node_id": "I_kwDOVO8t2M8AAAABYL54cw",
+        "html_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72"
+      }
+    ]
+  },
+  "native_apply_contract": {
+    "repository": "Pick-Your-AI/pick-your-ai-sustainability",
+    "head_branch": "sustainability/program-foundation",
+    "allowed_actor": "CompleteDotTech",
+    "issue_count": 72,
+    "parent_child_count": 71,
+    "blocked_by_count": 43,
+    "plan_sha256": "87f40e822422cefc52f92c55acd419b1bc5a438055f6b2399273e479ceebbaec",
+    "status": "Local proposal only; not published or executed"
+  }
 }

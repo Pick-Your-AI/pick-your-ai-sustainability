@@ -319,13 +319,13 @@
     {
       "opportunity_id": "CLOUDFLARE-ALEXANDRIA",
       "program_name": "Project Alexandria (formerly OSS Sponsorship)",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical assessment prepared; independent full-findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
-      "research_status": "Blocked",
+      "research_status": "In Review",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "P2 / Discovered: prepare a bounded public-artifact proposal; defer application and activation until actual applicant, incremental need, intake and cost obligations are established.",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "No external action authorized by this assessment. Require an actual applicant/operator, qualifying project evidence, current intake/offer, covered workload and payment/exit responsibility under the accepted commitment procedure.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -334,7 +334,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Reconcile historical aliases, verify nonprofit operation, and map actual covered-service requirements."
+      "next_action": "Independently review the complete canonical assessment. Then reconcile actual applicant, public-artifact manifest, current form/offer, incremental usage, payment and exit responsibilities before any application or activation."
     },
     {
       "opportunity_id": "HF-COMMUNITY-GPU",

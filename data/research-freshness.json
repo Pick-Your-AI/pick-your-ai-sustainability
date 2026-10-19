@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 125,
+  "source_count": 134,
   "records_count": 39,
   "sources": [
     {
@@ -1057,7 +1057,7 @@
     {
       "url": "https://www.cloudflare.com/lp/oss-sponsorship/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Actual redirect to Project Alexandria; no second program.",
       "opportunity_ids": [
         "CLOUDFLARE-ALEXANDRIA"
       ],
@@ -1067,7 +1067,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1075,7 +1075,7 @@
     {
       "url": "https://www.cloudflare.com/lp/project-alexandria/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current program conditions, benefit examples and published invitation; complete rendered form unverified.",
       "opportunity_ids": [
         "CLOUDFLARE-ALEXANDRIA"
       ],
@@ -1085,7 +1085,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -2330,6 +2330,168 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://www.cloudflare.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Self-serve authority, content, benchmarking, billing and renewal; actual agreement acceptance unverified.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/privacypolicy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published information and retention scopes; actual account/data settings unverified.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/pages/functions/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Separate static and Functions billing scopes; no deployment.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published free/paid request and CPU models; no funded or activated workload.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published build, file and asset limits; no actual manifest qualification.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/service-specific-terms-overview/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current product-term routing; product coverage is not sponsorship eligibility.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/service-specific-terms-developer-platform/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Responsibilities, limits, termination and non-guaranteed retention; no recovery execution.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/r2/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Standard units, conditional free allowances, rounding and storage-class differences; no invoice or activation.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/page-data/lp/project-alexandria/page-data.json",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Independent Apple lane public retrieval: HTTP 200, 153643 bytes, SHA256 d740ad1396c4a137338d43ef0015b63527044c3c24098deba09395dc7a2cd250. Marketo 3080 configuration, not complete rendered fields.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare assessment prepared; independent full-findings acceptance pending. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -2338,6 +2500,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 106,
+  "source_evidence_url_count": 115,
   "additional_unverified_endpoint_count": 19
 }

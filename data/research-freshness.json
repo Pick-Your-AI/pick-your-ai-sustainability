@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 240,
+  "source_count": 249,
   "records_count": 41,
   "sources": [
     {
@@ -321,7 +321,8 @@
       "last_verified": "2026-10-19",
       "verification_scope": "Published facts recorded for linked opportunities",
       "opportunity_ids": [
-        "GITHUB-SPONSORS-ORG"
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -332,7 +333,15 @@
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
         "governing_source_evidence"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "Supported-region criteria and separation from the expired matching fund.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
@@ -358,7 +367,8 @@
       "last_verified": "2026-10-19",
       "verification_scope": "Published facts recorded for linked opportunities",
       "opportunity_ids": [
-        "GITHUB-SPONSORS-ORG"
+        "GITHUB-SPONSORS-ORG",
+        "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -369,7 +379,15 @@
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
         "governing_source_evidence"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "General Sponsors payout-host mechanics only; not fund-specific host approval.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
@@ -461,10 +479,17 @@
       ],
       "state": "Source checked; application and applicant conditions may remain Unknown",
       "source_roles": [
-        "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "opportunity_specific_observations": {
+        "GITHUB-SECURE-OSS-FUND": {
+          "observed_on": "2026-10-19",
+          "scope": "Current fund intake, selection, benefits and participation.",
+          "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+          "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+        }
+      }
     },
     {
       "url": "https://github.com/sponsors",
@@ -4240,6 +4265,178 @@
       ]
     },
     {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public conduct context; actual Fund Code of Conduct identity remains unverified.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Sponsored-developer clauses, SOSS pooled payments, USD, confidentiality/publicity and assignment; sponsor-only renewal kept separate.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "General personal-data processing, training, sharing, third parties, retention and jurisdictional rights; no private form consent reviewed.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR72dY7PBsFZJkFTETCg9J0xUNDdPUUU2S1pXTjFUOFMwNExEMzk5T1IxQi4u&route=shorturl",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Not Verified — no readable form fields / failed public-reader access",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "access_observation": "The FAQ application link resolved to a Microsoft Forms page with zero readable lines. No fields, declarations, attachment requirements or successful form admission were inspected."
+    },
+    {
+      "url": "https://forms.office.com/r/YN3MWEKQ5m",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Not Verified — no readable form fields / failed public-reader access",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "access_observation": "The Apply now link failed in the public reader with a timeout and a wrapper (400) message. The origin server HTTP status was not established. No form bytes or successful admission were obtained."
+    },
+    {
+      "url": "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Historical launch and its different weekly time wording; not current intake or capacity.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/startups/benefits/azure-credits/azure-usage-and-billing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Conditional cloud-billing risk context; no exact SOSS credit offer mapping.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/program-graduation",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Startup graduation/credit expiry and continued billing context; not a PYA account observation.",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or a public qualification claim",
+        "Upon changed terms, redirect, access failure or a contradictory source"
+      ],
+      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual complete COMMENT readback accepts all eleven findings criteria at published revision c5ef1e9857536f4a4db35c5b23c2e97a301d5719; applicant, participant and execution states remain separate",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed reviewed findings or canonical source",
+        "Before relying on research acceptance or qualification"
+      ],
+      "state": "Independent findings acceptance read back",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://huggingface.co/docs/hub/en/spaces-overview",
       "last_verified": "2026-10-19",
       "verification_scope": "Current ordinary compute-Space paid-plan creation requirement and explicit free-personal ZeroGPU exception; public visibility.",
@@ -4540,6 +4737,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 216,
-  "additional_unverified_endpoint_count": 24
+  "source_evidence_url_count": 223,
+  "additional_unverified_endpoint_count": 26
 }

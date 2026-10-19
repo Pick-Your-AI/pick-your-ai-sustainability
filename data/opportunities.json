@@ -3451,43 +3451,47 @@
       "opportunity_id": "OPENAI-RESEARCHER",
       "provider": "OpenAI",
       "program_name": "Researcher Access Program",
-      "program_aliases": [],
+      "program_aliases": [
+        "OpenAI Researcher Access"
+      ],
       "round": null,
       "category": "inference",
       "support_type": "api_credit",
       "official_program_url": "https://openai.com/form/researcher-access-program/",
       "official_application_url": "https://openai.smapply.org",
       "eligibility_jurisdiction": "OpenAI API supported countries",
-      "legal_entity_requirements": "Researcher/project in supported API jurisdiction; affiliation details must be checked in application",
-      "available_before_incorporation": "Conditionally Eligible for qualifying research",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "legal_entity_requirements": "See the current FAQ and canonical assessment section 3: actual qualifying affiliation/research organization or nonprofit research activity must be evidenced; GitHub presence and intended recognition do not establish eligibility.",
+      "available_before_incorporation": "Unknown; actual research affiliation, applicant, jurisdiction and authority are not established.",
+      "available_through_fiscal_sponsorship": "Unknown; no actual host relationship, applicant arrangement, account custody or provider treatment is established.",
+      "available_after_501c3_recognition": "Unknown; recognition is an intention, and research fit, applicant, jurisdiction and account conditions remain separate.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "A research proposal fitting responsible AI deployment, risks or societal impacts",
-        "Applicant and service access consistent with supported countries and applicable policies"
+        "Research question and planned use aligned with the program; see canonical assessment section 2/A1",
+        "FAQ affiliation/nonprofit-research and supported-country conditions; actual applicant evidence remains Unknown (section 3/A2,A6)"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Official page invites applications via SurveyMonkey Apply; exact cutoff Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "application_gate": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
+      "application_status": "Published intake guidance is recorded in section 2. Public portal homepage was read on 2026-10-19; program-specific form, current fields and exact cutoff remain Unknown.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
       "benefit_amount_or_capacity": "Up to $1,000 API credits; nonrenewable one-year period",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Use the section 6 method: evidenced eligible workload and actual model rates/award/expiry, displaced expenditure and separately evidenced setup, maintenance and exit cost. No usable value, currency calculation or effort estimate is established.",
       "restrictions_and_obligations": [
-        "Public models; usage policies and sharing/publication policy still apply.",
-        "Funding is scoped research support, not unrestricted production hosting."
+        "Canonical assessment section 5 covers publication, content rights, publicity, privacy/retention, credit custody, charges, reporting, renewal and independence, with governing sources.",
+        "Actual award-specific terms, account settings and obligations remain Unknown; no legal clearance or account action is established."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "A defensible study of accessibility, transparent evaluations or responsible deployment may fit.",
-      "required_application_evidence": [],
+      "program_objectives": "Program purpose and proposed fit are sourced in canonical assessment sections 2 and 4.",
+      "fit_with_pick_your_ai": "Proposed explanation-faithfulness pilot: twelve synthetic case dossiers, two meaning-preserving variants and three invocations per variant/model, or 72 requests per model before separately bounded retries. Design only; no model, corpus or execution accepted.",
+      "required_application_evidence": [
+        "Published research question and planned product use; current form and attachments have not been fully obtained."
+      ],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Verified applicant/affiliation, location, durable account and actual representative",
+        "Reviewed demand/study, requested resources, current form/offer and rights/data/independence terms"
       ],
       "native_dependency_issue_urls": [],
       "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
@@ -3496,7 +3500,49 @@
           "url": "https://openai.com/form/researcher-access-program/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Current program content; published purpose, benefit, schedule and entry route, not an applicant decision"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred"
+        },
+        {
+          "url": "https://openai.com/policies/sharing-publication-policy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2022-11-14; publication conditions and historical intake wording distinguished from current FAQ"
+        },
+        {
+          "url": "https://openai.com/policies/services-agreement/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2025-12-01, effective 2026-01-01; relevant API, content, payment, publicity and policy clauses; actual applicant agreement/offer unknown"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/supported-countries",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current supported-country list after the program-linked platform URL redirect; applicant location not inferred"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current training-default, monitoring and endpoint-retention sections; account settings not inspected"
+        },
+        {
+          "url": "https://openai.com/policies/service-credit-terms/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2026-01-01; full credit terms read, no balance or award established"
+        },
+        {
+          "url": "https://openai.com/policies/usage-policies/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Effective 2025-10-29; current policy text read, no exception or approval established"
         }
       ],
       "scoring": {
@@ -3513,18 +3559,18 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Map a concrete study to program priorities and verify submission terms.",
+      "independent_reviewer": "ChatGPT, independent in-session Research engineering reviewer; public COMMENT posted through shared GitHub identity CompleteDotTech",
+      "next_action": "Use the accepted assessment to refine #21/#49 demand and study evidence; verify actual applicant, account, current form/offer and authority before any application or activation.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "next_verification_trigger": "Monthly review and before reliance, submission, agreement or activation; also upon changed source, affiliation, jurisdiction, model or policy.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Unknown; actual form/award-specific reporting, branding, publication and operating requirements must be inspected before commitments.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
@@ -3533,34 +3579,54 @@
           "Researcher Access Program"
         ],
         "canonical_match": "OPENAI-RESEARCHER",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "2026-10-19 repository and organization Researcher Access issue/PR search; owning #39 retained, distinct Anthropic #40 and OPENAI-CODEX-OSS not merged or modified."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT, independent in-session Research engineering reviewer; public COMMENT posted through shared GitHub identity CompleteDotTech",
+        "reviewed_revision": "4b331430c577cd414f816d09eba1ec190eff69f3",
+        "reviewed_tree": "9a59b66e02fe5dbf7cae6e1ca1955ff3db967533",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T11:55:04Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/90#pullrequestreview-5571140493",
+        "decision": "Accepted the complete research findings and all 13 original #39 criteria, including explicit Unknowns",
+        "scope": "All seven source files, original criteria, accepted entity evidence boundary and all ten official source scopes; exact source preservation and original validation receipts independently checked.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research acceptance establishes no applicant qualification, legal clearance, experiment, application, account, award or activation.",
+          "This substantive peer COMMENT uses the shared GitHub account and is not a separate-account APPROVED event.",
+          "Current-main composition, hosted checks and delivery retain their own review and execution identities in PR #90."
         ]
       },
       "owning_research_key": "E05-01A",
       "source_urls": [
-        "https://openai.com/form/researcher-access-program/"
+        "https://openai.com/form/researcher-access-program/",
+        "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+        "https://openai.com/policies/sharing-publication-policy/",
+        "https://openai.com/policies/services-agreement/",
+        "https://developers.openai.com/api/docs/supported-countries",
+        "https://developers.openai.com/api/docs/guides/your-data",
+        "https://openai.com/policies/service-credit-terms/",
+        "https://openai.com/policies/usage-policies/"
       ],
       "source_evidence": [
-        "Current page supports research on responsible AI deployment, associated risks and societal impacts, including early-stage researchers with limited resources.",
-        "Up to $1,000 API credits, valid 12 months; reviews in March, June, September and December; allocation may take 4–6 weeks after decision."
+        "Canonical assessment sections 2 and 7 record claim-level primary references, versions and actual access scope.",
+        "The current FAQ corrects the seed affiliation and intake generalizations; public portal extraction does not establish the form, closure or applicant admission."
       ],
       "benefit": "Up to $1,000 API credits; nonrenewable one-year period",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "estimated_usable_value_method": "Use the section 6 method: evidenced eligible workload and actual model rates/award/expiry, displaced expenditure and separately evidenced setup, maintenance and exit cost. No usable value, currency calculation or effort estimate is established.",
+      "source_freshness": "Eight governing sources read 2026-10-19 with their distinct versions/scopes; public portal homepage observed, program-specific form still Not Verified. Recheck before reliance or action.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
-      "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "next_verification_rule": "Monthly review and before reliance, submission, agreement or activation; also upon changed source, affiliation, jurisdiction, model or policy.",
       "source_refs": [
-        "https://openai.com/form/researcher-access-program/"
+        "https://openai.com/form/researcher-access-program/",
+        "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+        "https://openai.com/policies/sharing-publication-policy/",
+        "https://openai.com/policies/services-agreement/",
+        "https://developers.openai.com/api/docs/supported-countries",
+        "https://developers.openai.com/api/docs/guides/your-data",
+        "https://openai.com/policies/service-credit-terms/",
+        "https://openai.com/policies/usage-policies/"
       ],
       "application_url": "https://openai.smapply.org",
       "jurisdiction": "OpenAI API supported countries",
@@ -3573,8 +3639,8 @@
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
       "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
       "published_qualification_requirements": [
-        "A research proposal fitting responsible AI deployment, risks or societal impacts",
-        "Applicant and service access consistent with supported countries and applicable policies"
+        "Research question and planned use aligned with the program; see canonical assessment section 2/A1",
+        "FAQ affiliation/nonprofit-research and supported-country conditions; actual applicant evidence remains Unknown (section 3/A2,A6)"
       ],
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
       "independent_source_review": {
@@ -3582,24 +3648,36 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Independently accepted canonical program and intake assessment; applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Official program to SurveyMonkey Apply. Public homepage read; current program-specific form not obtained. See section 2 for observed scope and remaining intake questions.",
+      "current_disposition": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
-      "related_research_issue_urls": [],
+      "gate": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
+      "priority_scope_note": "P2 research priority for a plausible unresolved study; all rubric ratings, score and usable value remain null. No deadline-derived urgency.",
+      "recommended_disposition": "Continue preparing the section 4 explanation-faithfulness study; hold application and activation pending verified applicant, study, current form/offer, account and commitment authority.",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 39,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "canonical_deliverable_path": "research/compute/openai-researcher-access.md",
+      "historical_seed_reference": {
+        "revision": "cad980ecc8e43a472ebe63c4360f94846d175a96",
+        "record": "OPENAI-RESEARCHER",
+        "scope": "Original seed source and consistency-review history remain available at this immutable revision; the current full assessment is a separate review event."
       }
     },
     {

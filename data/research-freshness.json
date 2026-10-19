@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 169,
-  "records_count": 39,
+  "source_count": 211,
+  "records_count": 41,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -199,9 +199,9 @@
     },
     {
       "url": "https://console.groq.com",
-      "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public endpoint redirected to /home; no authenticated account or complete registration inspected",
       "opportunity_ids": [
         "GROQ-FREE-PLAN"
       ],
@@ -211,15 +211,16 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Public redirect/entry observed; authenticated account and full registration Not Verified",
       "source_roles": [
-        "application_endpoint"
+        "application_endpoint",
+        "governing_source_evidence"
       ]
     },
     {
       "url": "https://console.groq.com/docs/rate-limits",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Displayed quota table and plan-label conflict; exact account limits unverified",
       "opportunity_ids": [
         "GROQ-FREE-PLAN"
       ],
@@ -229,11 +230,12 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "last_attempted": "2026-10-19"
     },
     {
       "url": "https://developer.amd.com",
@@ -3060,6 +3062,790 @@
       ]
     },
     {
+      "url": "https://console.groq.com/docs/billing-faqs",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public free/developer upgrade and billing boundary",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/legal/contractual-framework-overview",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current public framework; actual offline/account agreement applicability unverified",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/legal/services-agreement",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current published customer/use/model/data restrictions, including section 6.3(e); no actual customer qualification",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/legal",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current legal index and service-specific link",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://groq.com/groq-service-specific-terms",
+      "last_verified": null,
+      "verification_scope": "Redirected to website Terms of Use; distinct current service-specific terms not obtained",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Redirect observed; intended service-specific terms Not Verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://groq.com/terms-of-use",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Redirect target is website terms, not accepted as missing service-specific terms",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/legal/ai-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published acceptable-use and quota protections",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/your-data",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published retention/ZDR/storage policy; actual account settings unverified",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/models",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current Production/Preview catalog; account entitlement and empirical performance unverified",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Provider-hosted model description; no license acceptance or measured identity",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Provider-hosted model description; no license acceptance or measured identity",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/deprecations",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current lifecycle and dated historical model access changes",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://groq.com/trademark-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published word-mark, logo and endorsement conditions",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://console.groq.com/docs/api-reference",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Chat request/response fields; no API invocation; reasoning-token cap accounting remains a preflight gate",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://groq.com/newsroom/groq-is-selected-to-provide-access-to-worlds-fastest-ai-inference-engine-for-the-national-ai-research-resource-nairr-pilot",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Historical 2024-05-06 NAIRR contribution announcement; no current intake claim",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://www.nsf.gov/focus-areas/si/nairr",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current page retains Groq pilot contribution for up to ten teams; current allocation/intake unverified",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://nairrpilot.org/",
+      "last_verified": null,
+      "verification_scope": "Robots access block; no current form, deadline, account or successful source verification",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Not Verified — robots access block; no current intake claim",
+      "source_roles": [
+        "formal_support_discovery_endpoint"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://groq.com/community/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Redirected to homepage; no program application route established",
+      "opportunity_ids": [
+        "GROQ-FREE-PLAN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Existing monthly research review",
+        "Before reliance, registration, agreement, evaluation, publication, application or activation",
+        "Upon redirect, access failure, changed terms/quotas/catalog/billing or current NAIRR intake evidence"
+      ],
+      "state": "Published source/redirect checked; account, applicant and complete intake conditions may remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19"
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47347480610203-Overview-of-the-Refurbished-Hardware-Program-RHW",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current RHW overview; updated 2026-03-07; fee-based nonprofit hardware access.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://page.techsoup.org/refurbished-hardware-nonprofits",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current marketing/request path; product and environmental statements remain provider claims.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/360030995673-Providers-Policies-Nonprofit-Eligibility-Requirements-and-Restrictions",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-09-22; validation versus individual offer admission, geography and restrictions.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/360055217673-Terms-of-Use-Nonprofit-Offers-Acquired-Through-TechSoup",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-31; usual requesting-organization and nontransfer rules, including explicit exceptions.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47348125260443-Refurbished-Hardware-RHW-Shipping-Support",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-05; shipping/receiving and time-sensitive reporting guidance.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47348479344155-Refurbished-Hardware-RHW-Warranty-Support",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-05; public support summary read; linked full warranty separately inaccessible.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47357148148635-Refurbished-Hardware-RHW-Returns-and-Refunds",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-05; return/refund process, not an actual approved return.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/47357282663195-End-of-Life-TakeBack-Program-for-Refurbished-Hardware-RHW",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated 2026-03-03; takeback summary read, complete linked scope separately inaccessible.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/refurbished-computers",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403; current catalog, SKU inventory, price, product eligibility and order fields not inspected.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403 on linked standard warranty; successful verification date remains null.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403 on linked takeback detail; covered products, geography, shipping and data handling unverified.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://page.techsoup.org/privacy?hsLang=en",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP404 on marketing landing privacy link; no policy contents recovered.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "related_policy_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.techsoup.org/privacypolicy",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual HTTP403 on canonical privacy URL; search excerpts not promoted to a full privacy review.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/get-computers/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current organizational equipment application lead; no actual recipient or award readback.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/faqs/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current fee/shipping and provider stock descriptions; actual unit condition/value unverified.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/terms-conditions/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Separate Website Standard Terms and July2026 beneficiary-distribution terms read; legal scopes retained.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.computeraid.org/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual visible repeated Suggested text website sections; hardware application-data policy remains unverified.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://computeraid.typeform.com/to/c7BT9gwY",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Official linked form produced no readable content; no entries, progression or submission.",
+      "opportunity_ids": [
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
+      "source_roles": [
+        "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Final September2025 SP800-88 Revision2 publication/abstract; media-sanitization program reference only.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE",
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://storage.fasb.org/ASU_2020-07.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Issued September2020 official PDF, authority notice and summary pages1-2; conditional accounting reference, not applicant recognition.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE",
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.irs.gov/publications/p561",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "December2025 revision; introduction and general valuation/condition sections; donor/appraiser scope distinguished.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE",
+        "COMPUTER-AID-GET-COMPUTERS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any applicant, offer, acquisition, asset-value, operation, return or disposal claim",
+        "Upon changed provider terms, inventory, support window, redirect, access result or source conflict"
+      ],
+      "state": "Public scope inspected; complete findings acceptance and actual applicant/asset remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated2026-09-22; explicit U.S. fiscal-sponsored applicant and sponsor-account exclusion.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before applicant, offer, acquisition or permitted-use claim",
+        "Upon changed eligibility, ownership/operation evidence or product terms"
+      ],
+      "state": "Public eligibility scope inspected; actual project structure/qualification and complete findings acceptance remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Updated2026-09-22; actual redirected canonical page distinguishes owned-and-operated nonprofit programs from fiscal sponsorship.",
+      "opportunity_ids": [
+        "TECHSOUP-REFURBISHED-HARDWARE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before applicant, offer, acquisition or permitted-use claim",
+        "Upon changed eligibility, ownership/operation evidence or product terms"
+      ],
+      "state": "Public eligibility scope inspected; actual project structure/qualification and complete findings acceptance remain unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
@@ -3212,6 +3998,24 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual complete COMMENT readback accepts all eleven findings criteria at published revision c5ef1e9857536f4a4db35c5b23c2e97a301d5719; applicant, participant and execution states remain separate",
+      "opportunity_ids": [
+        "GITHUB-SECURE-OSS-FUND"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed reviewed findings or canonical source",
+        "Before relying on research acceptance or qualification"
+      ],
+      "state": "Independent findings acceptance read back",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -3220,6 +4024,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 146,
-  "additional_unverified_endpoint_count": 23
+  "source_evidence_url_count": 186,
+  "additional_unverified_endpoint_count": 25
 }

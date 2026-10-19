@@ -9,16 +9,16 @@
     "tree": "91fd51b9642c25f6273555cca19ee12fb70e94fb",
     "scope": "Exact accepted Sustainability source; later receiving changes must preserve other keyed records."
   },
-  "research_state": "In Review",
-  "opportunity_stage": "Discovered",
+  "research_state": "Done",
+  "opportunity_stage": "Verified",
   "researcher": "Session c3fa0109d6ff / apple_completion; AI-assisted repository research",
   "independent_review": {
-    "reviewer": null,
-    "reviewed_revision": null,
-    "review_url": null,
-    "decision": "Pending independent acceptance of the actual findings",
+    "reviewer": "Leaderboard independent review lane, session c3fa0109d6ff",
+    "reviewed_revision": "c5ef1e9857536f4a4db35c5b23c2e97a301d5719",
+    "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/111#pullrequestreview-5573634228",
+    "decision": "Accepted all eleven issue #26 research criteria with the documented defer-application recommendation",
     "limitations": [
-      "Public-source research is not a legal opinion, participant commitment or applicant qualification. The connected GitHub identity does not establish a separate-account approval."
+      "Independent in-session findings review recorded as COMMENT through a shared GitHub identity; no separate-account APPROVED vote, applicant qualification, participant commitment, legal opinion or provider commitment is implied."
     ]
   },
   "decision": {
@@ -335,7 +335,7 @@
       },
       {
         "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
-        "status": "PR #103 independently reviewed, awaiting its own actual delivery at the inspected checkpoint",
+        "status": "The original inspected checkpoint recorded independent review awaiting delivery. PR #103 subsequently delivered accepted research on 2026-10-19 at 14:15:40 UTC as signed main 16a0f2c9dea0e502d6a092e3b25dfdf7c4d0846c. Its proposed measurement plan supplies no executed security outcome or participant commitment.",
         "scope": "Use its measurement design only with the actual accepted receiving record; no empirical results imported."
       },
       {
@@ -508,8 +508,7 @@
     "What evidence of meaningful outside adoption and a genuine incremental security need would support this young project?",
     "What is the current full form and selected-session agreement, including conduct, privacy, publicity, reports and any award clawback terms?",
     "How is one project award allocated among two participants, and is a particular host/payee arrangement allowed?",
-    "Which exact Azure offer, account, coverage, expiry and stop conditions would apply, if optional credits were separately accepted?",
-    "Which actual reviewer and revision accept this research? Source checking and schema success do not answer that."
+    "Which exact Azure offer, account, coverage, expiry and stop conditions would apply, if optional credits were separately accepted?"
   ],
   "acceptance_map": [
     {
@@ -520,7 +519,7 @@
         "S1"
       ],
       "limit": "Form content/admission unreadable; no deadline invented.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 2,
@@ -532,7 +531,7 @@
         "S3"
       ],
       "limit": "No actual award, receipt, net value or cloud entitlement.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 3,
@@ -543,7 +542,7 @@
         "evidence_checklist"
       ],
       "limit": "Observed documents and counts do not qualify the applicant.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 4,
@@ -554,7 +553,7 @@
         "proposed_security_impact"
       ],
       "limit": "Concept and checklist only; no native implementation or contact.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 5,
@@ -565,7 +564,7 @@
         "source_reconciliation"
       ],
       "limit": "Historical sources and missing form terms remain labeled.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 6,
@@ -574,7 +573,7 @@
         "intake"
       ],
       "limit": "Rolling page finding is separate from applicant form admission.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 7,
@@ -584,7 +583,7 @@
         "eligibility_by_route"
       ],
       "limit": "Every actual route remains Unknown.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 8,
@@ -593,7 +592,7 @@
         "restrictions_and_obligations"
       ],
       "limit": "Applicable offer/agreement and private applicant facts still required.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 9,
@@ -603,7 +602,7 @@
         "value_and_effort"
       ],
       "limit": "Unexecuted concept, no quantified net benefit or total labor claim.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 10,
@@ -614,7 +613,7 @@
         "remaining_questions"
       ],
       "limit": "Receiving source and required projections must be reviewed together.",
-      "review": "Pending independent acceptance"
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     },
     {
       "criterion": 11,
@@ -622,8 +621,8 @@
       "evidence": [
         "independent_review"
       ],
-      "limit": "Explicitly pending; all issue criteria remain unchecked until actual acceptance and delivery.",
-      "review": "Pending independent acceptance"
+      "limit": "Actual findings acceptance is linked; applicant qualification, applications, benefits and current-main delivery remain separate evidence states.",
+      "review": "Accepted in the linked independent findings review of c5ef1e9857536f4a4db35c5b23c2e97a301d5719"
     }
   ],
   "validation_scope": "Repository consistency gates will be recorded on the exact frozen source. They do not verify provider availability, actual applicant facts or legal/financial authority."

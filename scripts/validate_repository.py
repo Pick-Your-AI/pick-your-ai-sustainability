@@ -88,9 +88,9 @@ def finite_float(value):
     return number
 
 
-def repository_files(root):
-    """Walk source files, never following directory symlinks or dependency trees."""
-    for directory, dirs, files in os.walk(root, followlinks=False):
+def repository_files(root, *, onerror=None):
+    """Walk source files without following symlinks or hiding scan failures."""
+    for directory, dirs, files in os.walk(root, followlinks=False, onerror=onerror):
         dirs[:] = sorted(d for d in dirs if d not in EXCLUDED_DIRS)
         for name in sorted(files):
             path = Path(directory) / name
@@ -280,7 +280,18 @@ def validate_repository(root):
     root = Path(root).resolve()
     errors, documents = [], {}
     json_count = markdown_count = 0
-    for path in repository_files(root):
+
+    def scan_error(error):
+        # os.walk otherwise silently omits directories it cannot enumerate.
+        # Keep the path repository-relative and make incomplete scans fail.
+        try:
+            location = Path(error.filename).relative_to(root).as_posix()
+        except (TypeError, ValueError):
+            location = "."
+        errors.append(f"{location}: cannot enumerate directory: "
+                      f"{error.strerror or type(error).__name__}")
+
+    for path in repository_files(root, onerror=scan_error):
         relative = path.relative_to(root).as_posix()
         try:
             if not path.resolve().is_relative_to(root):

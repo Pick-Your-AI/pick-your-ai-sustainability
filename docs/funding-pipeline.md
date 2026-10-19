@@ -6,7 +6,7 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 39 seed records |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 38 seed records and the Apple fee-waiver assessment in independent review |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | No accepted program assessment recorded |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -14,6 +14,8 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 | Awarded | Written provider decision and accepted terms | Unknown; no award evidence established |
 | Activated | Account/benefit activation readback | None in this execution; prior state Unknown |
 | Reporting | Obligations and dates from actual terms | No binding schedule established |
+
+The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is In Review. Its applicant/account and monetization gates remain separate; source checks and local validation do not promote it to Verified.
 
 ## Known calendar facts
 

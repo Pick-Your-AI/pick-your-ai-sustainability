@@ -1,6 +1,6 @@
 # Fiscal sponsorship and hosting comparison
 
-Issue [#14 / E01-04](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14) · Primary sources inspected **2026-10-19** · **Findings awaiting independent acceptance**.
+Issue [#14 / E01-04](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14) · Primary sources inspected **2026-10-19** · **Findings independently accepted** ([actual review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14#issuecomment-6269526052)).
 
 ## Recommendation and decision boundary
 
@@ -100,7 +100,7 @@ All links below were actually inspected on **2026-10-19**. They are current publ
 
 The three canonical records keep applicant, application, award, activation, value and actual decision fields separate. The freshness register records these inspected sources and pre-action/change-event recheck triggers. Unrelated provider evidence retains its existing observations.
 
-**Independent acceptance:** pending an exact-revision review of the actual findings, applicant-fit assessment, source qualifications and structured-record preservation. Local validation establishes consistency only. All eleven issue criteria map respectively to: SFC criteria/fee; SPI process/expenses/transfer/fee; OSC legal route/fees; actual-state boundaries; this dated source history; intake table; three-route table; operating conditions; public-benefit/value method; canonical records/recommendation/questions; and the actual independent review to be linked here. Research completion will not select a host or authorize an application.
+**Independent acceptance:** the [actual independent Apple engineering review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14#issuecomment-6269526052) accepted all eleven criteria at source revision `9e4e8b602b0c25b9f77b528a436644732bb6a448` on **2026-10-19 at 14:23:13 UTC**. The reviewer read the complete five-file contribution, three program records, matching projections, all eleven literal criteria, 21 official sources and six immutable project snapshots. This substantive in-session review used the existing connected GitHub account; no separate-account GitHub approval is claimed. Local validation establishes consistency only. All eleven issue criteria map respectively to: SFC criteria/fee; SPI process/expenses/transfer/fee; OSC legal route/fees; actual-state boundaries; this dated source history; intake table; three-route table; operating conditions; public-benefit/value method; canonical records/recommendation/questions; and the linked actual independent review. Subsequent receiving composition and main delivery are separate events. Research completion does not select a host or authorize an application.
 
 ### Official source index
 

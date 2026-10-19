@@ -8,8 +8,8 @@ The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 37 records, including the completed Together Not Pursuing assessment and CodeRabbit's supplemental findings awaiting exact-revision acceptance |
-| Verified | Independently accepted canonical program/intake assessment under the transition procedure | 2: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) and [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), each with independent findings acceptance |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 36 records, including the completed Together Not Pursuing assessment retained at its historical stage |
+| Verified | Independently accepted canonical program/intake assessment under the transition procedure | 3: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md) and [CodeRabbit investigation](../research/tooling/coderabbit-oss.md), each with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
 | Submitted | Receipt from actual application | None in this execution |
@@ -21,7 +21,7 @@ The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done
 
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
 
-The [CodeRabbit investigation](../research/tooling/coderabbit-oss.md) is In Review / Discovered for combined supplemental findings. Its [prior independent acceptance at `9b68cd50`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571078442) remains recorded for that earlier revision; it does not accept the added source and attributed contribution. After exact-revision acceptance, the next step remains administrator account/configuration/billing and agreement/input-rights readback. Applicant/account eligibility and actual installation/coverage remain Unknown; any adoption or pilot retains its operating gates.
+The [CodeRabbit investigation](../research/tooling/coderabbit-oss.md) is Done / Verified for combined research findings after [independent acceptance at `6b0f6be6`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571665518). Its [prior acceptance at `9b68cd50`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/89#pullrequestreview-5571078442) remains recorded for the earlier revision. The next step remains administrator account/configuration/billing and agreement/input-rights readback. Applicant/account eligibility and actual installation/coverage remain Unknown; any adoption or pilot retains its operating gates.
 
 ## Known calendar facts
 

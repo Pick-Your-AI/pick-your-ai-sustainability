@@ -1866,7 +1866,7 @@
       "url": "https://www.coderabbit.ai/legal/dpa",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Processing roles, transfer and deletion boundaries; actual agreement and recipients Unknown; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Processing roles, transfer and deletion boundaries; actual agreement and recipients Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1885,7 +1885,7 @@
       "url": "https://docs.coderabbit.ai/knowledge-base",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Scoped context deletion; general training statement compared with OSS privacy exception; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Scoped context deletion; general training statement compared with OSS privacy exception; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1904,7 +1904,7 @@
       "url": "https://docs.coderabbit.ai/guides/data-export",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Published CSV/API access boundaries; no actual export or measured savings; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Published CSV/API access boundaries; no actual export or measured savings; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1923,7 +1923,7 @@
       "url": "https://docs.coderabbit.ai/management/subscription-management",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Published scheduled billing and cancellation lifecycle; actual account Unknown; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Published scheduled billing and cancellation lifecycle; actual account Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1942,7 +1942,7 @@
       "url": "https://www.coderabbit.ai/pricing",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Optional paid usage controls; no service use or monetary valuation; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Optional paid usage controls; no service use or monetary valuation; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1961,7 +1961,7 @@
       "url": "https://docs.coderabbit.ai/getting-started/quickstart",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Published account and repository-selection route; no activation; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Published account and repository-selection route; no activation; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],
@@ -1980,7 +1980,7 @@
       "url": "https://docs.coderabbit.ai/configuration/configuration-inheritance",
       "last_verified": "2026-10-19",
       "last_attempted": "2026-10-19",
-      "verification_scope": "Explicit inheritance and override rules; effective settings Unknown; independent acceptance of the combined findings is pending.",
+      "verification_scope": "Explicit inheritance and override rules; effective settings Unknown; combined findings independently accepted at 6b0f6be6 in review 5571665518; account qualification remains separate.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
       ],

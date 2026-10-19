@@ -359,10 +359,10 @@
     {
       "opportunity_id": "CODERABBIT-OSS-PRODUCT",
       "program_name": "Free product access for public repositories",
-      "source_review_status": "Prior canonical findings accepted; supplemental source findings await exact-revision independent acceptance",
+      "source_review_status": "Combined canonical research findings independently accepted",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
       "disposition": "Conditional product option; administrator inventory and contract/use-case review precede a bounded pilot. Cash sponsorship not established.",
       "eligibility": "Unknown",
       "application_gate": "No installation, account change, paid use or outreach in this research. Actual administrator/account inventory and reviewed rights/use-case decision are required before considering a bounded pilot.",
@@ -374,7 +374,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Independently review the combined source findings and attributed contribution; then obtain actual administrator account/configuration/billing readback and resolve agreement, OSS-training/input, transfer/export and publication rights before considering a bounded manual pilot."
+      "next_action": "Obtain actual administrator account/configuration/billing readback and resolve agreement, OSS-training/input, transfer/export and publication rights before considering a bounded manual pilot."
     },
     {
       "opportunity_id": "JETBRAINS-OSS",

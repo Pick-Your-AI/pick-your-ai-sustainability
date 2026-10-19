@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 348,
-  "records_count": 50,
+  "source_count": 371,
+  "records_count": 53,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -7343,6 +7343,673 @@
           "independent_findings_acceptance": "Pending"
         }
       ]
+    },
+    {
+      "url": "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete visible client-commitment text through ordinary public HTTP after web extraction timeout; includes costs, IP, client duties and selection limits.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Public text read at stated scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "G1",
+        "url": "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "Complete visible client-commitment text through ordinary public HTTP after web extraction timeout; includes costs, IP, client duties and selection limits.",
+        "result": "Public text read at stated scope",
+        "displayed_version_or_date": "Undated; no current cohort cutoff",
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://sites.gatech.edu/csjuniordesigncapstone/student-experience/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete visible two-semester student-experience text through ordinary public HTTP.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Public text read at stated scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "G2",
+        "url": "https://sites.gatech.edu/csjuniordesigncapstone/student-experience/",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "Complete visible two-semester student-experience text through ordinary public HTTP.",
+        "result": "Public text read at stated scope",
+        "displayed_version_or_date": "Undated",
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://sites.gatech.edu/csjuniordesigncapstone/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete home page/navigation; empty posts list is not a closure finding.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Public text read at stated scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "G3",
+        "url": "https://sites.gatech.edu/csjuniordesigncapstone/",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "Complete home page/navigation; empty posts list is not a closure finding.",
+        "result": "Public text read at stated scope",
+        "displayed_version_or_date": "Undated",
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Ijwda_iE42MXyO4mWecbvAuTwQuvzWDI8MMq4IWgsTA/edit?usp=sharing",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked Google client charter inaccessible; full body and terms unread.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Access-limited; body or complete form unverified",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "G4",
+        "url": "https://docs.google.com/document/d/1Ijwda_iE42MXyO4mWecbvAuTwQuvzWDI8MMq4IWgsTA/edit?usp=sharing",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "Linked Google client charter inaccessible; full body and terms unread.",
+        "result": "Access-limited; body or complete form unverified",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://gatechcscapstone.edusourcedapp.com/submit",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "HTTP entry redirected to HTTPS embedded/JavaScript shell; full form fields and submission availability unread.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Access-limited; body or complete form unverified",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "G5",
+        "url": "https://gatechcscapstone.edusourcedapp.com/submit",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "HTTP entry redirected to HTTPS embedded/JavaScript shell; full form fields and submission availability unread.",
+        "result": "Access-limited; body or complete form unverified",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L79–137, including complete fee, expenses, proposal and timeline sections",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "substantive_text_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U1",
+        "url": "https://ischool.uw.edu/capstone/",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L79–137, including complete fee, expenses, proposal and timeline sections",
+        "result": "substantive_text_read",
+        "displayed_version_or_date": "Fee explicitly effective fall 2026; no article update date established",
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/sponsorship/sponsor-faq",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L85–118",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_substantive_faq_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U2",
+        "url": "https://ischool.uw.edu/capstone/sponsorship/sponsor-faq",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L85–118",
+        "result": "complete_substantive_faq_read",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students/msim",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L81–147",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_substantive_text_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U3",
+        "url": "https://ischool.uw.edu/capstone/students/msim",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L81–147",
+        "result": "complete_substantive_text_read",
+        "displayed_version_or_date": "Page includes explicit historical 2013/2014 resources and a Mid-Career entry-year rule",
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/networking-night",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L78–136",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_substantive_text_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U4",
+        "url": "https://ischool.uw.edu/capstone/networking-night",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L78–136",
+        "result": "complete_substantive_text_read",
+        "displayed_version_or_date": "Late October/mid-November are undated recurring milestones; no exact 2026 event date established",
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L80–99",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_substantive_text_read",
+      "source_roles": [
+        "related_scope_or_access_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U5",
+        "url": "https://ischool.uw.edu/capstone/students",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L80–99",
+        "result": "complete_substantive_text_read",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students/informatics",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L81–105",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_substantive_text_read",
+      "source_roles": [
+        "related_scope_or_access_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U6",
+        "url": "https://ischool.uw.edu/capstone/students/informatics",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L81–105",
+        "result": "complete_substantive_text_read",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students/mlis",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L81–128",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_substantive_text_read",
+      "source_roles": [
+        "related_scope_or_access_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U7",
+        "url": "https://ischool.uw.edu/capstone/students/mlis",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L81–128",
+        "result": "complete_substantive_text_read",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://www.washington.edu/online/privacy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "L26–90",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_statement_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U8",
+        "url": "https://www.washington.edu/online/privacy/",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "L26–90",
+        "result": "complete_statement_read",
+        "displayed_version_or_date": "March 22 and 25, 2024 contact updates; 2019 and 2018 prior entries",
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/sites/default/files/PDFs/HumanSubjectsCapstone.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All 3 pages, L0–109",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_extracted_pdf_text_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U9",
+        "url": "https://ischool.uw.edu/sites/default/files/PDFs/HumanSubjectsCapstone.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "All 3 pages, L0–109",
+        "result": "complete_extracted_pdf_text_read",
+        "displayed_version_or_date": "October 9, 2013",
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/sites/default/files/PDFs/CapstoneInfoSession2013.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All 16 pages, L0–112",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "complete_extracted_pdf_text_read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U10",
+        "url": "https://ischool.uw.edu/sites/default/files/PDFs/CapstoneInfoSession2013.pdf",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "All 16 pages, L0–112",
+        "result": "complete_extracted_pdf_text_read",
+        "displayed_version_or_date": "Filename 2013; page 12 explicitly names June 5, 2014",
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/sponsorship",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Only tool failure and destination observed",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "redirect_target_unread",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U11",
+        "url": "https://ischool.uw.edu/capstone/sponsorship",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "Only tool failure and destination observed",
+        "result": "redirect_target_unread",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://forms.gle/QFDgnDN9UQ8PxwD88",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Only tool failure and destination observed",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "redirect_target_unread",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U12",
+        "url": "https://forms.gle/QFDgnDN9UQ8PxwD88",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "Only tool failure and destination observed",
+        "result": "redirect_target_unread",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSccMrwymjw_wKsyI4EYIisvtXnCTncqDS047aGzz6dQCIxJ9w/viewform?usp=send_form",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Resolved public destination only; no browser/account access or form interaction",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "not_read",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U13",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSccMrwymjw_wKsyI4EYIisvtXnCTncqDS047aGzz6dQCIxJ9w/viewform?usp=send_form",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "Resolved public destination only; no browser/account access or form interaction",
+        "result": "not_read",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://canvas.uw.edu/courses/1701962",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Direct linked MLIS handbook request failed; no login attempted",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "404_unread",
+      "source_roles": [
+        "related_scope_or_access_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "U14",
+        "url": "https://canvas.uw.edu/courses/1701962",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "Direct linked MLIS handbook request failed; no login attempted",
+        "result": "404_unread",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+      }
+    },
+    {
+      "url": "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive S3D program comparison; specifically SS/ES fall practicum, fee and nonprofit amount.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Public text read at stated scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "C1",
+        "url": "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "Complete substantive S3D program comparison; specifically SS/ES fall practicum, fee and nonprofit amount.",
+        "result": "Public text read at stated scope",
+        "displayed_version_or_date": "Undated; currency denomination and next exact cutoff unverified",
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://www.cs.cmu.edu/education/capstones/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive central sponsor/output/agreement sections; actual EPA/license unread.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Public text read at stated scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "C2",
+        "url": "https://www.cs.cmu.edu/education/capstones/",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "Complete substantive central sponsor/output/agreement sections; actual EPA/license unread.",
+        "result": "Public text read at stated scope",
+        "displayed_version_or_date": "Undated",
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://mse.s3d.cmu.edu/companies/sponsorship.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive MSE sponsor/contact/calendar sections.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Public text read at stated scope",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "academic_partner_observation": {
+        "source_id": "C3",
+        "url": "https://mse.s3d.cmu.edu/companies/sponsorship.html",
+        "last_attempted": "2026-10-19",
+        "last_verified": "2026-10-19",
+        "scope": "Complete substantive MSE sponsor/contact/calendar sections.",
+        "result": "Public text read at stated scope",
+        "displayed_version_or_date": "Undated recurring August kickoff and December presentation",
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfOSqhAkwAsDE8z5jO7EPdSCzBN-PLphJz4KqkK3-Uoi4go3Q/viewform?embedded=true",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Visible first page only: organization name, description, website and mailing address; Next not advanced; no consent or later pages read.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review procedure",
+        "Before externally authorized proposal, agreement, spending or participant/model action",
+        "Upon source, intake, fee, rights or applicant change"
+      ],
+      "state": "Partial first-page guidance read; complete form unverified",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "academic_partner_observation": {
+        "source_id": "C4",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfOSqhAkwAsDE8z5jO7EPdSCzBN-PLphJz4KqkK3-Uoi4go3Q/viewform?embedded=true",
+        "last_attempted": "2026-10-19",
+        "last_verified": null,
+        "scope": "Visible first page only: organization name, description, website and mailing address; Next not advanced; no consent or later pages read.",
+        "result": "Partial first-page guidance read; complete form unverified",
+        "displayed_version_or_date": null,
+        "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+      }
     }
   ],
   "rules": [
@@ -7351,6 +8018,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 314,
-  "additional_unverified_endpoint_count": 34
+  "source_evidence_url_count": 328,
+  "additional_unverified_endpoint_count": 43
 }

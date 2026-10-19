@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 50,
+  "records_count": 53,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -11818,19 +11818,668 @@
       }
         }
       }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "GATECH-CS-JUNIOR-DESIGN",
+      "provider": "Georgia Institute of Technology",
+      "program_name": "CS Junior Design external-client capstone",
+      "program_aliases": [
+        "Georgia Tech CS Junior Design",
+        "GT CS Junior Design",
+        "Georgia Tech CS capstone"
+      ],
+      "round": null,
+      "category": "Academic partnership",
+      "support_type": "Course-based design, prototype and documentation services; no cash or compute award",
+      "official_program_url": "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+      "official_application_url": "https://gatechcscapstone.edusourcedapp.com/submit",
+      "eligibility_jurisdiction": "Unknown actual applicant/location; institution-specific public course route only.",
+      "legal_entity_requirements": "Actual legal sponsor, authority and signed course agreement remain Unknown; see the three separate applicant routes.",
+      "available_before_incorporation": "Unknown actual client; public program includes community members, but authority, course selection and resource/rights arrangements are unestablished.",
+      "available_through_fiscal_sponsorship": "Unknown; an actual willing host could propose client participation, subject to its authority and course acceptance. No stipend, IP or cost exemption follows from hosting.",
+      "available_after_501c3_recognition": "Unknown actual applicant; nonprofit client projects are contemplated, without guaranteed selection, free resources or an established organization.",
+      "eligibility_status": "Unknown; source-backed course fit does not qualify an actual applicant or partnership.",
+      "eligibility_conditions": [
+        "Public client route includes community members/companies and nonprofit projects; actual client authority and selection remain Unknown.",
+        "Client must provide a finite proposal, a primary contact, ongoing feedback and project resources; no real person or resources are committed."
+      ],
+      "application_gate": "Not authorized; actual applicant/mentor, rights, current intake and affordable scope must be established before any externally approved proposal or agreement.",
+      "application_status": "Public intake guidance only; complete actual application status Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Conditional method in canonical section 6: actual fee/expenses and review hours separate; avoided cost requires accepted displaced work. No advertised engineering hours or academic credits are valued as money.",
+      "restrictions_and_obligations": [
+        "G1: students retain new software IP and select its open-source license; existing client material retains its ownership. Receiving-repository license compatibility is unresolved.",
+        "G1/G2: two-semester course, client meetings and final presentations; no guaranteed selection, warranty or continuing maintenance.",
+        "G4/G5: full charter and submission form unread. Specific privacy, public-release, exit and cancellation terms remain Unknown."
+      ],
+      "program_objectives": "Educational course project for a bounded external information/software problem; no production-service guarantee.",
+      "fit_with_pick_your_ai": "Proposed brief G: one offline evidence-status viewer and input-adapter handoff, with explicit unavailable inputs; actual technical packet, rights and mentor are prerequisites.",
+      "required_application_evidence": [
+        "G1: short project description, specialized initial skills where needed, and primary contact name/email; no actual values supplied."
+      ],
+      "required_contacts_or_decisions": [
+        "Actual authorized sponsor and university intake decision; no contact made.",
+        "Actual willing mentor, finite need, resource/expense ceiling and receiving maintainer.",
+        "Artifact-specific IP/publication/privacy/portability agreement and ordinary repository acceptance."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49"
+      ],
+      "confidence": "Current public source findings are recorded at bounded scopes; independent #63 acceptance is pending. Actual entity, host, authority, fees/rights agreement, staff and intake remain Unknown.",
+      "sources": [
+        {
+          "source_id": "G1",
+          "url": "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete visible client-commitment text through ordinary public HTTP after web extraction timeout; includes costs, IP, client duties and selection limits.",
+          "result": "Public text read at stated scope",
+          "displayed_version_or_date": "Undated; no current cohort cutoff",
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "G2",
+          "url": "https://sites.gatech.edu/csjuniordesigncapstone/student-experience/",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete visible two-semester student-experience text through ordinary public HTTP.",
+          "result": "Public text read at stated scope",
+          "displayed_version_or_date": "Undated",
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "G3",
+          "url": "https://sites.gatech.edu/csjuniordesigncapstone/",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete home page/navigation; empty posts list is not a closure finding.",
+          "result": "Public text read at stated scope",
+          "displayed_version_or_date": "Undated",
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "G4",
+          "url": "https://docs.google.com/document/d/1Ijwda_iE42MXyO4mWecbvAuTwQuvzWDI8MMq4IWgsTA/edit?usp=sharing",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Linked Google client charter inaccessible; full body and terms unread.",
+          "result": "Access-limited; body or complete form unverified",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "G5",
+          "url": "https://gatechcscapstone.edusourcedapp.com/submit",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "HTTP entry redirected to HTTPS embedded/JavaScript shell; full form fields and submission availability unread.",
+          "result": "Access-limited; body or complete form unverified",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant eligibility, useful accepted output, costs, likelihood and effort are Unknown. P2/P3 is a qualitative conditional research disposition, not a probability or monetary ranking."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain independent acceptance of the bounded course findings and receive missing applicant, rights, need and mentoring inputs; preserve #49/#21 ownership and no-contact state.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before external representation/action; on source, course, fee, deadline, rights or applicant change; monthly procedure only.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Course obligations documented at public scope; no actual signed project or binding reporting dates established.",
+      "reporting_obligations": [
+        "Future actual course agreement and accepted public-benefit method govern reporting; no actual operation or reporting due date."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Georgia Tech CS Junior Design",
+          "GT CS Junior Design",
+          "Georgia Tech CS capstone"
+        ],
+        "canonical_match": null,
+        "scope": "All 50 accepted-base records plus public organization issue/PR title-and-body searches; no claim about unpublished work or all comments."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Independent actual findings review pending",
+        "limitations": [
+          "Desk-research preparation only; no applicant or institutional authority accepted.",
+          "#49 partial review is attributed; full unpublished protocol and #21 sized request are not accepted here."
+        ]
+      },
+      "owning_research_key": "E08-02",
+      "source_urls": [
+        "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+        "https://sites.gatech.edu/csjuniordesigncapstone/student-experience/",
+        "https://sites.gatech.edu/csjuniordesigncapstone/",
+        "https://docs.google.com/document/d/1Ijwda_iE42MXyO4mWecbvAuTwQuvzWDI8MMq4IWgsTA/edit?usp=sharing"
+      ],
+      "source_refs": [
+        "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+        "https://sites.gatech.edu/csjuniordesigncapstone/student-experience/",
+        "https://sites.gatech.edu/csjuniordesigncapstone/",
+        "https://docs.google.com/document/d/1Ijwda_iE42MXyO4mWecbvAuTwQuvzWDI8MMq4IWgsTA/edit?usp=sharing"
+      ],
+      "source_review_status": "Public source findings prepared at stated scopes; independent actual #63 findings acceptance pending.",
+      "award_status": "Unknown; no grant, sponsorship award or cash evidence established",
+      "current_disposition": "P2 conditional preparation; defer proposal until actual client, mentoring, intake, expense and license/charter gates are met.",
+      "recommended_disposition": "P2 conditional preparation; defer proposal until actual client, mentoring, intake, expense and license/charter gates are met.",
+      "canonical_deliverable": "research/partnerships/academic-partners.md",
+      "advertised_course_fee": {
+        "program_fee": 0,
+        "currency": null,
+        "currency_reason": "No participation charge is stated; no monetary benefit or currency-denominated award is claimed.",
+        "scope": "Only the client participation charge. Client materials, equipment, hosting and other project expenses remain separate Unknown amounts.",
+        "source_url": "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/"
+      },
+      "calendar_and_intake_limit": "Two semesters; recurring selection-week language only. Next current cohort deadline Unknown.",
+      "internal_readiness_controls": [
+        "Unsent brief only; no proposal, contact, enrollment, agreement, spend, model or participant operation.",
+        "Public/synthetic permitted materials only; no existing private data or organizational appointments inferred.",
+        "Missing workload, rate, currency, capacity and agreement fields remain Unknown rather than zero; do not claim academic affiliation."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "UW-ISCHOOL-MSIM-CAPSTONE",
+      "provider": "University of Washington Information School",
+      "program_name": "MSIM Capstone organization-sponsored project",
+      "program_aliases": [
+        "UW iSchool MSIM Capstone",
+        "University of Washington MSIM Capstone"
+      ],
+      "round": null,
+      "category": "Academic partnership",
+      "support_type": "Course-based design, prototype and documentation services; no cash or compute award",
+      "official_program_url": "https://ischool.uw.edu/capstone/students/msim",
+      "official_application_url": "https://forms.gle/QFDgnDN9UQ8PxwD88",
+      "eligibility_jurisdiction": "Unknown actual applicant/location; institution-specific public course route only.",
+      "legal_entity_requirements": "Actual legal sponsor, authority and signed course agreement remain Unknown; see the three separate applicant routes.",
+      "available_before_incorporation": "Unknown admissible organization; FAQ excludes outside personal projects. The actual community's organization, capacity and authority are unverified.",
+      "available_through_fiscal_sponsorship": "Unknown; a real host may qualify as an organization in principle, but must actually sponsor, fund and mentor. Fee treatment and admission are unestablished.",
+      "available_after_501c3_recognition": "Unknown; nonprofit organization sponsorship is contemplated, but the explicit for-profit fee does not establish a zero nonprofit fee or admission.",
+      "eligibility_status": "Unknown; source-backed course fit does not qualify an actual applicant or partnership.",
+      "eligibility_conditions": [
+        "U2 requires an organization and sustained capacity; actual sponsor, people, resources and admission remain Unknown.",
+        "U3 is specifically MSIM; other iSchool course rules and historical 2013/2014 materials are not substituted."
+      ],
+      "application_gate": "Not authorized; actual applicant/mentor, rights, current intake and affordable scope must be established before any externally approved proposal or agreement.",
+      "application_status": "Public intake guidance only; complete actual application status Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Conditional method in canonical section 6: actual fee/expenses and review hours separate; avoided cost requires accepted displaced work. No advertised engineering hours or academic credits are valued as money.",
+      "restrictions_and_obligations": [
+        "U2/U3: regular sponsor contact, documented party IP uses and charter/agreement; no actual license, assignment or confidentiality promise is established.",
+        "U3: course calendar and at-most-four team description are not guaranteed staffing; simultaneous same-sponsor internship is excluded.",
+        "U8 is website privacy only. U9/U10 are historical; U11-U14 do not establish a readable current form, handbook, agreement or IRB authority."
+      ],
+      "program_objectives": "Educational course project for a bounded external information/software problem; no production-service guarantee.",
+      "fit_with_pick_your_ai": "Proposed brief U: one offline synthetic evidence-traceability model/prototype and observation instrument; no recruited study or measured literacy/accessibility effect.",
+      "required_application_evidence": [
+        "U1 public proposal guidance asks goals/challenges, desired deliverables and special IP, public-display, team-size or work-authorization considerations; actual form requirements are unread."
+      ],
+      "required_contacts_or_decisions": [
+        "Actual authorized sponsor and university intake decision; no contact made.",
+        "Actual willing mentor, finite need, resource/expense ceiling and receiving maintainer.",
+        "Artifact-specific IP/publication/privacy/portability agreement and ordinary repository acceptance."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49"
+      ],
+      "confidence": "Current public source findings are recorded at bounded scopes; independent #63 acceptance is pending. Actual entity, host, authority, fees/rights agreement, staff and intake remain Unknown.",
+      "sources": [
+        {
+          "source_id": "U1",
+          "url": "https://ischool.uw.edu/capstone/",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L79–137, including complete fee, expenses, proposal and timeline sections",
+          "result": "substantive_text_read",
+          "displayed_version_or_date": "Fee explicitly effective fall 2026; no article update date established",
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U2",
+          "url": "https://ischool.uw.edu/capstone/sponsorship/sponsor-faq",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L85–118",
+          "result": "complete_substantive_faq_read",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U3",
+          "url": "https://ischool.uw.edu/capstone/students/msim",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L81–147",
+          "result": "complete_substantive_text_read",
+          "displayed_version_or_date": "Page includes explicit historical 2013/2014 resources and a Mid-Career entry-year rule",
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U4",
+          "url": "https://ischool.uw.edu/capstone/networking-night",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L78–136",
+          "result": "complete_substantive_text_read",
+          "displayed_version_or_date": "Late October/mid-November are undated recurring milestones; no exact 2026 event date established",
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U5",
+          "url": "https://ischool.uw.edu/capstone/students",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L80–99",
+          "result": "complete_substantive_text_read",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U6",
+          "url": "https://ischool.uw.edu/capstone/students/informatics",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L81–105",
+          "result": "complete_substantive_text_read",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U7",
+          "url": "https://ischool.uw.edu/capstone/students/mlis",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L81–128",
+          "result": "complete_substantive_text_read",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U8",
+          "url": "https://www.washington.edu/online/privacy/",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "L26–90",
+          "result": "complete_statement_read",
+          "displayed_version_or_date": "March 22 and 25, 2024 contact updates; 2019 and 2018 prior entries",
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U9",
+          "url": "https://ischool.uw.edu/sites/default/files/PDFs/HumanSubjectsCapstone.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "All 3 pages, L0–109",
+          "result": "complete_extracted_pdf_text_read",
+          "displayed_version_or_date": "October 9, 2013",
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U10",
+          "url": "https://ischool.uw.edu/sites/default/files/PDFs/CapstoneInfoSession2013.pdf",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "All 16 pages, L0–112",
+          "result": "complete_extracted_pdf_text_read",
+          "displayed_version_or_date": "Filename 2013; page 12 explicitly names June 5, 2014",
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U11",
+          "url": "https://ischool.uw.edu/capstone/sponsorship",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Only tool failure and destination observed",
+          "result": "redirect_target_unread",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U12",
+          "url": "https://forms.gle/QFDgnDN9UQ8PxwD88",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Only tool failure and destination observed",
+          "result": "redirect_target_unread",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U13",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSccMrwymjw_wKsyI4EYIisvtXnCTncqDS047aGzz6dQCIxJ9w/viewform?usp=send_form",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Resolved public destination only; no browser/account access or form interaction",
+          "result": "not_read",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        },
+        {
+          "source_id": "U14",
+          "url": "https://canvas.uw.edu/courses/1701962",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Direct linked MLIS handbook request failed; no login attempted",
+          "result": "404_unread",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Android primary-source assistance; Research directly reread U1/U2/U3 and the complete manifest. No independent #63 findings acceptance implied."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant eligibility, useful accepted output, costs, likelihood and effort are Unknown. P2/P3 is a qualitative conditional research disposition, not a probability or monetary ranking."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain independent acceptance of the bounded course findings and receive missing applicant, rights, need and mentoring inputs; preserve #49/#21 ownership and no-contact state.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before external representation/action; on source, course, fee, deadline, rights or applicant change; monthly procedure only.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Course obligations documented at public scope; no actual signed project or binding reporting dates established.",
+      "reporting_obligations": [
+        "Future actual course agreement and accepted public-benefit method govern reporting; no actual operation or reporting due date."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "UW iSchool MSIM Capstone",
+          "University of Washington MSIM Capstone"
+        ],
+        "canonical_match": null,
+        "scope": "All 50 accepted-base records plus public organization issue/PR title-and-body searches; no claim about unpublished work or all comments."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Independent actual findings review pending",
+        "limitations": [
+          "Desk-research preparation only; no applicant or institutional authority accepted.",
+          "#49 partial review is attributed; full unpublished protocol and #21 sized request are not accepted here."
+        ]
+      },
+      "owning_research_key": "E08-02",
+      "source_urls": [
+        "https://ischool.uw.edu/capstone/",
+        "https://ischool.uw.edu/capstone/sponsorship/sponsor-faq",
+        "https://ischool.uw.edu/capstone/students/msim",
+        "https://ischool.uw.edu/capstone/networking-night",
+        "https://www.washington.edu/online/privacy/",
+        "https://ischool.uw.edu/sites/default/files/PDFs/HumanSubjectsCapstone.pdf",
+        "https://ischool.uw.edu/sites/default/files/PDFs/CapstoneInfoSession2013.pdf"
+      ],
+      "source_refs": [
+        "https://ischool.uw.edu/capstone/",
+        "https://ischool.uw.edu/capstone/sponsorship/sponsor-faq",
+        "https://ischool.uw.edu/capstone/students/msim",
+        "https://ischool.uw.edu/capstone/networking-night",
+        "https://www.washington.edu/online/privacy/",
+        "https://ischool.uw.edu/sites/default/files/PDFs/HumanSubjectsCapstone.pdf",
+        "https://ischool.uw.edu/sites/default/files/PDFs/CapstoneInfoSession2013.pdf"
+      ],
+      "source_review_status": "Public source findings prepared at stated scopes; independent actual #63 findings acceptance pending.",
+      "award_status": "Unknown; no grant, sponsorship award or cash evidence established",
+      "current_disposition": "P2 conditional design route; defer intake until actual organization, mentor, fee/expense treatment, current form and rights agreement are established.",
+      "recommended_disposition": "P2 conditional design route; defer intake until actual organization, mentor, fee/expense treatment, current form and rights agreement are established.",
+      "canonical_deliverable": "research/partnerships/academic-partners.md",
+      "advertised_course_fee": {
+        "for_profit_program_fee": 12000,
+        "currency": "USD",
+        "effective": "fall 2026",
+        "nonprofit_program_fee": null,
+        "scope": "U1 program charge only; mutually agreed project expenses, optional compensation, special-resource charges and actual fee exceptions/refund terms are separate.",
+        "source_url": "https://ischool.uw.edu/capstone/"
+      },
+      "calendar_and_intake_limit": "Ideas accepted year-round under U1; representative and MSIM-specific autumn/winter/spring cadence is not a verified current cohort cutoff.",
+      "internal_readiness_controls": [
+        "Unsent brief only; no proposal, contact, enrollment, agreement, spend, model or participant operation.",
+        "Public/synthetic permitted materials only; no existing private data or organizational appointments inferred.",
+        "Missing workload, rate, currency, capacity and agreement fields remain Unknown rather than zero; do not claim academic affiliation."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "CMU-MSE-SS-PRACTICUM",
+      "provider": "Carnegie Mellon University School of Computer Science",
+      "program_name": "MSE Scalable Systems practicum sponsorship",
+      "program_aliases": [
+        "CMU MSE-SS practicum",
+        "CMU Scalable Systems capstone",
+        "MSE SS ES practicum"
+      ],
+      "round": null,
+      "category": "Academic partnership",
+      "support_type": "Course-based design, prototype and documentation services; no cash or compute award",
+      "official_program_url": "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+      "official_application_url": "https://docs.google.com/forms/d/e/1FAIpQLSfOSqhAkwAsDE8z5jO7EPdSCzBN-PLphJz4KqkK3-Uoi4go3Q/viewform?embedded=true",
+      "eligibility_jurisdiction": "Unknown actual applicant/location; institution-specific public course route only.",
+      "legal_entity_requirements": "Actual legal sponsor, authority and signed course agreement remain Unknown; see the three separate applicant routes.",
+      "available_before_incorporation": "Unknown; the public sponsor/form material does not establish an unincorporated individual's eligibility or contracting authority.",
+      "available_through_fiscal_sponsorship": "Unknown; an actual nonprofit host could request program and discount assessment; fiscal sponsorship itself is not admission, a quote or a benefit grant.",
+      "available_after_501c3_recognition": "Unknown actual applicant; an advertised nonprofit amount exists, subject to real verification, quote, project admission, contract and affordability.",
+      "eligibility_status": "Unknown; source-backed course fit does not qualify an actual applicant or partnership.",
+      "eligibility_conditions": [
+        "C1 selects Scalable Systems, not another CMU capstone or its agreement terms.",
+        "C2/C3 require a real sponsor/mentor, educational agreement and fee; actual payer, currency, contact, resources and licensing remain Unknown."
+      ],
+      "application_gate": "Not authorized; actual applicant/mentor, rights, current intake and affordable scope must be established before any externally approved proposal or agreement.",
+      "application_status": "Public intake guidance only; complete actual application status Unknown",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Review",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": null,
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Conditional method in canonical section 6: actual fee/expenses and review hours separate; avoided cost requires accepted displaced work. No advertised engineering hours or academic credits are valued as money.",
+      "restrictions_and_obligations": [
+        "C2: educational agreement, sponsor participation, licensing options and nonconfidential case-study output; no actual assignment or EPA accepted.",
+        "C3: technical-contact time and recurring in-person kickoff/presentation expectations; advertised engineering hours are not guaranteed or monetized.",
+        "C4: organization-information first page only; later requirements, consent and current deadline remain unread. No other CMU program terms are imported."
+      ],
+      "program_objectives": "Educational course project for a bounded external information/software problem; no production-service guarantee.",
+      "fit_with_pick_your_ai": "Proposed brief C: one offline reproducibility-package validator/specification. A live #49 adapter requires the actual accepted protocol and #21 field/unit contract.",
+      "required_application_evidence": [
+        "C4 visible first page: organization name, description, website and mailing address. Later pages and final application requirements unverified; no values entered."
+      ],
+      "required_contacts_or_decisions": [
+        "Actual authorized sponsor and university intake decision; no contact made.",
+        "Actual willing mentor, finite need, resource/expense ceiling and receiving maintainer.",
+        "Artifact-specific IP/publication/privacy/portability agreement and ordinary repository acceptance."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49"
+      ],
+      "confidence": "Current public source findings are recorded at bounded scopes; independent #63 acceptance is pending. Actual entity, host, authority, fees/rights agreement, staff and intake remain Unknown.",
+      "sources": [
+        {
+          "source_id": "C1",
+          "url": "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive S3D program comparison; specifically SS/ES fall practicum, fee and nonprofit amount.",
+          "result": "Public text read at stated scope",
+          "displayed_version_or_date": "Undated; currency denomination and next exact cutoff unverified",
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "C2",
+          "url": "https://www.cs.cmu.edu/education/capstones/",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive central sponsor/output/agreement sections; actual EPA/license unread.",
+          "result": "Public text read at stated scope",
+          "displayed_version_or_date": "Undated",
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "C3",
+          "url": "https://mse.s3d.cmu.edu/companies/sponsorship.html",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive MSE sponsor/contact/calendar sections.",
+          "result": "Public text read at stated scope",
+          "displayed_version_or_date": "Undated recurring August kickoff and December presentation",
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        },
+        {
+          "source_id": "C4",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfOSqhAkwAsDE8z5jO7EPdSCzBN-PLphJz4KqkK3-Uoi4go3Q/viewform?embedded=true",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Visible first page only: organization name, description, website and mailing address; Next not advanced; no consent or later pages read.",
+          "result": "Partial first-page guidance read; complete form unverified",
+          "displayed_version_or_date": null,
+          "attribution": "Actual Research source read; no provider/application action or independent findings acceptance."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant eligibility, useful accepted output, costs, likelihood and effort are Unknown. P2/P3 is a qualitative conditional research disposition, not a probability or monetary ranking."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Obtain independent acceptance of the bounded course findings and receive missing applicant, rights, need and mentoring inputs; preserve #49/#21 ownership and no-contact state.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before external representation/action; on source, course, fee, deadline, rights or applicant change; monthly procedure only.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Course obligations documented at public scope; no actual signed project or binding reporting dates established.",
+      "reporting_obligations": [
+        "Future actual course agreement and accepted public-benefit method govern reporting; no actual operation or reporting due date."
+      ],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "CMU MSE-SS practicum",
+          "CMU Scalable Systems capstone",
+          "MSE SS ES practicum"
+        ],
+        "canonical_match": null,
+        "scope": "All 50 accepted-base records plus public organization issue/PR title-and-body searches; no claim about unpublished work or all comments."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Independent actual findings review pending",
+        "limitations": [
+          "Desk-research preparation only; no applicant or institutional authority accepted.",
+          "#49 partial review is attributed; full unpublished protocol and #21 sized request are not accepted here."
+        ]
+      },
+      "owning_research_key": "E08-02",
+      "source_urls": [
+        "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+        "https://www.cs.cmu.edu/education/capstones/",
+        "https://mse.s3d.cmu.edu/companies/sponsorship.html"
+      ],
+      "source_refs": [
+        "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+        "https://www.cs.cmu.edu/education/capstones/",
+        "https://mse.s3d.cmu.edu/companies/sponsorship.html"
+      ],
+      "source_review_status": "Public source findings prepared at stated scopes; independent actual #63 findings acceptance pending.",
+      "award_status": "Unknown; no grant, sponsorship award or cash evidence established",
+      "current_disposition": "P3 defer paid engagement until accepted need, comparison, mentor capacity, quote/currency and rights/exit agreement justify it.",
+      "recommended_disposition": "P3 defer paid engagement until accepted need, comparison, mentor capacity, quote/currency and rights/exit agreement justify it.",
+      "canonical_deliverable": "research/partnerships/academic-partners.md",
+      "advertised_course_fee": {
+        "advertised_standard_amount": 13000,
+        "advertised_nonprofit_amount": 10000,
+        "currency": null,
+        "currency_reason": "C1 prints a dollar sign; denomination has not been independently established from the read source.",
+        "scope": "Advertised program amounts only; actual quote, taxes, travel/expenses, discount eligibility and cancellation/refund schedule remain Unknown.",
+        "source_url": "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d"
+      },
+      "calendar_and_intake_limit": "Fall practicum and recurring August kickoff/December presentations; next exact intake cutoff Unknown.",
+      "internal_readiness_controls": [
+        "Unsent brief only; no proposal, contact, enrollment, agreement, spend, model or participant operation.",
+        "Public/synthetic permitted materials only; no existing private data or organizational appointments inferred.",
+        "Missing workload, rate, currency, capacity and agreement fields remain Unknown rather than zero; do not claim academic affiliation."
+      ]
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 50 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
-    "The 47 existing program/channel identities, including the distinct E03-05 Sloan New Media identity, and three distinct crowdfunding identities share the same schema and stable owning research keys. E06-04 retains two physical-equipment program identities under its existing comparative issue. E04-02 distinguishes crowdfunding intake and fund control; all accepted current infrastructure, mechanism-screen, host, Sponsors and other program records remain unchanged by this addition.",
-    "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
-    "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
-    "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
-    "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",
-    "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan Open Source in Science remains one program record reused across its research scopes; Sloan New Media is a distinct program record.",
-    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware records reuse actual #54 and three E06-03 infrastructure records reuse actual #53, each separately read on 2026-10-19; the later E03-08 mechanism records retain their existing #32 mapping. These additions do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification.",
-    "The three E04-02 crowdfunding records reuse the actual issue34 read on2026-10-19. They do not extend the historical39-record GitHub-link audit or create Project items; complete donor/applicant/campaign/contract facts remain Unknown."
-  ],
+  "Published source facts and explicit access/history limitations are recorded for 53 distinct programs/channels, including three E08-02 course assessments pending independent findings acceptance. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+  "The 47 existing program/channel identities, including the distinct E03-05 Sloan New Media identity, and three distinct crowdfunding identities share the same schema and stable owning research keys. E06-04 retains two physical-equipment program identities under its existing comparative issue. E04-02 distinguishes crowdfunding intake and fund control; all accepted current infrastructure, mechanism-screen, host, Sponsors and other program records remain unchanged by this addition.",
+  "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
+  "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
+  "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
+  "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",
+  "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan Open Source in Science remains one program record reused across its research scopes; Sloan New Media is a distinct program record.",
+  "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware records reuse actual #54 and three E06-03 infrastructure records reuse actual #53, each separately read on 2026-10-19; the later E03-08 mechanism records retain their existing #32 mapping. These additions do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification.",
+  "The three E04-02 crowdfunding records reuse the actual issue34 read on2026-10-19. They do not extend the historical39-record GitHub-link audit or create Project items; complete donor/applicant/campaign/contract facts remain Unknown.",
+  "Three E08-02 course records reuse actual issue63 read on2026-10-19. All50 prior objects, owning issues, program findings and histories remain exact; this does not extend the historical GitHub/Project audit. Actual institutions, applicant routes, mentors and agreements remain Unknown; no academic-compute affiliation is created."
+],
   "github_link_readback": {
     "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
     "read_at": "2026-10-19T04:59:39.870Z",

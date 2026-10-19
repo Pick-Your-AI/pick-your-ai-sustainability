@@ -57,3 +57,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 ## Execution and audit evidence
 
 Read the [initial execution report](docs/execution-report.md), [Project configuration/readback](docs/project-configuration.md) and [later setup acceptance](docs/program-setup-acceptance.md) for verified issue counts, native relationships, actual field values, saved-view configuration and review status. The [audit evidence](docs/execution-report.md#evidence-index) preserves each historical observation at its recorded cutoff; the later acceptance does not rewrite those snapshots or complete the unfinished research they describe.
+
+## Academic collaboration research
+
+The [E08-02 academic-partner screen](research/partnerships/academic-partners.md) prepares three named course routes and one finite unsent brief per prospect. Public-program fit, actual organization/mentor, fees, rights, workload and institutional admission remain separate; independent findings acceptance is pending.

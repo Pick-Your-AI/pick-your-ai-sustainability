@@ -3781,48 +3781,175 @@
       "program_aliases": [],
       "round": null,
       "category": "inference",
-      "support_type": "gpu_credit",
+      "support_type": "in_kind_compute",
       "official_program_url": "https://huggingface.co/docs/hub/en/spaces-gpus",
       "official_application_url": null,
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Existing Space/project; no legal-entity requirement stated in reviewed documentation",
-      "available_before_incorporation": "Conditionally Eligible; provider selection and an existing suitable Space required",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "eligibility_jurisdiction": "Unknown actual applicant/region; general export/sanctions conditions apply, and grant-specific country coverage remains unverified",
+      "legal_entity_requirements": "No 501(c)(3) prerequisite or fiscal-sponsor exception stated in the public grant paragraphs; general account Terms and actual representative/applicant facts require a separate match",
+      "available_before_incorporation": "Unknown for the actual community; no qualifying account, existing Space, GPU need or provider decision established",
+      "available_through_fiscal_sponsorship": "Unknown; actual sponsor agreement, applicant/account authority and provider acceptance not established",
+      "available_after_501c3_recognition": "Unknown; intended recognition is not actual status, account eligibility or grant entitlement",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "A Space requiring a GPU upgrade and an innovative use case; requests are made through that Space’s hardware settings"
+        "The public grant route concerns an innovative existing Space needing hardware-upgrade support and provider selection.",
+        "Actual account/applicant authority, geographic eligibility, current form and any plan requirement or waiver remain unverified."
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Application documented in Space hardware settings; actual applicant form not accessed",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "application_gate": "Not authorized; defer until an actual Space, incremental GPU need, current governing terms, eligible applicant and exact external-action scope are established.",
+      "application_status": "Public settings route documented; actual applicant-specific form, intake and selection not verified",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Space-specific GPU upgrade support; allocation, duration and selected hardware Unknown",
+      "benefit_amount_or_capacity": "Space-specific hardware-upgrade support; actual hardware, capacity, duration, cap and covered charges Unknown",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "No workload, covered award, applicable rate/currency or purchase counterfactual is established. A later estimate requires eligible hardware/meter usage, award window, existing free access, uncovered plan/storage/overage costs and actual setup/maintenance/reporting/exit effort. In-kind support is separate from cash and realized avoided cost.",
       "restrictions_and_obligations": [
-        "Not a general inference API or Inference Endpoint credit promise.",
-        "Paid upgraded Spaces can bill while running unused; confirm awarded scope, sleep settings, expiry and fallback before activation."
+        "Community GPU Grants, ZeroGPU and paid Inference Endpoints have distinct scopes; no general API subsidy or grant allocation is established.",
+        "New ordinary Gradio/Docker compute Spaces currently require a paid plan; Static Spaces do not. ZeroGPU has a separate eligible-free-personal exception. A grant waiver of plan costs is Unknown.",
+        "Grant duration, renewal, reporting, acknowledgement, publication restrictions, exclusivity and post-award billing remain Unknown pending actual terms.",
+        "Public hosting, content rights, data processing and resource conduct require the inspected Terms, Privacy, Content Policy and applicable supplemental conditions. Hub Premium expressly includes Spaces hardware/storage/PRO and incorporates the DPA for Spaces hardware upgrades; actual grant/private agreement terms remain Unknown.",
+        "The DPA retains customer lawful-basis/security duties, restricts specified sensitive data without prior written consent, and states conditional subprocessor, deletion and transfer rules. Enterprise order-form overrides and Endpoint-specific personal-data/analytics clauses are not transferred to a Spaces grant or static demo; actual deployment data configuration is Unknown.",
+        "General Terms restrict assignment without prior written consent and require applicable export/sanctions compliance. Signed documents and Supplemental Terms can take precedence; account or award transfer is not established by code portability.",
+        "Keep source/output portable and public-safe; runtime disk is ephemeral. No subscription, storage or upgrade charge is authorized by this research."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "A scoped educational evaluation/demo Space could support public accessibility; not a general product-hosting guarantee.",
+      "program_objectives": "Support innovative Spaces needing help with GPU hardware-upgrade costs, subject to provider selection",
+      "fit_with_pick_your_ai": "Proposed static public walkthrough of synthetic source/evidence/uncertainty cards using Research #41's actual policy context. A GPU extension requires separately evidenced need; the demo does not replace Leaderboard #25's production hosting decision.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Use the accepted exact-revision qualification and record its separately reviewed current-main delivery; the findings acceptance is review 5571037132 at ccec8d108171b95e4536ec42b7fe79dbdfe77024",
+        "Only if a later GPU request is warranted: actual account/operator authority, existing Space, workload evidence, full form and governing award/supplemental terms",
+        "Specific external-action authority before any application, paid account, deployment or activation; no request has been sent"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Current public pages and six linked PDFs checked on 2026-10-19 with product and DPA scope retained; actual applicant/account/Space, complete intake, private/award agreement and grant benefits remain unverified. The bounded public qualification finding is independently accepted; actual applicant and operating outcomes remain unresolved.",
       "sources": [
         {
           "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Community GPU Grant settings route and selection description; upgrade billing. No award, full form or applicant qualification established."
+        },
+        {
+          "url": "https://huggingface.co/docs/hub/en/spaces-overview",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current ordinary compute-Space paid-plan creation requirement and explicit free-personal ZeroGPU exception; public visibility."
+        },
+        {
+          "url": "https://huggingface.co/docs/hub/en/spaces-sdks-static",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Static hosting without compute or a paid-plan creation requirement; frontend build configuration."
+        },
+        {
+          "url": "https://huggingface.co/docs/hub/en/spaces-zerogpu",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Separate ZeroGPU account/hosting, quota, hardware, SDK and duration conditions; not grant allocation or tested capacity."
+        },
+        {
+          "url": "https://huggingface.co/docs/inference-endpoints/en/pricing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Dedicated paid product and metering; the pricing page's standard subscription/card route is qualified by Hub billing's approved organizational marketplace alternative. No numerical award valuation."
+        },
+        {
+          "url": "https://huggingface.co/docs/hub/en/billing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Separate subscription/compute charges, renewal/storage exposure and approved organizational AWS/Google Cloud marketplace billing instead of a card; actual settings remain Unknown."
+        },
+        {
+          "url": "https://huggingface.co/terms-of-service",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2022-09-15; account, content/publication, marks, termination, assignment/export and agreement precedence. Not a legal opinion or actual applicant agreement."
+        },
+        {
+          "url": "https://huggingface.co/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2023-03-28; data collection/use/sharing, retention and processing scope. No zero-retention or actual hosting observation."
+        },
+        {
+          "url": "https://huggingface.co/content-policy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2025-04-10; privacy/IP and resource-abuse restrictions."
+        },
+        {
+          "url": "https://huggingface.co/docs/hub/en/spaces-storage",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Ephemeral runtime disk and attached-volume distinction; no storage award or measured persistence."
+        },
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "One-page preamble, displayed effective date 2025-04-28; agreement incorporation, precedence and four product links. Earlier web-content HTTP 403 superseded by a successful exact-URL GET; no Community GPU award clause on the preamble.",
+          "retrieved_at": "2026-10-19T11:24:38.302331+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "content_bytes": 123984,
+          "content_sha256": "4b3b636fb004df4c92d1eca775239db3f77ce683f3d96c3ef8fe8d32be0834df"
+        },
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Hub+Premium+Features.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2025-04-28; p. 1 Sections 1-3 include Spaces hardware upgrades, storage fees and PRO, monthly pay-as-you-go fees and a DPA reference specifically for Spaces hardware upgrades. No award conditions established.",
+          "retrieved_at": "2026-10-19T11:26:28.910234+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "content_bytes": 92581,
+          "content_sha256": "1d6e684e2c4615e74e51a9b193fbedf46e123fad1aea89676e7bb3af8f29fc98"
+        },
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Hub.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2025-04-28; enterprise product scope, Sections 2-3 order-form term/annual renewal/60-day notice/fees, and p. 3 Section 5 overrides excluding self-serve purchases. No actual enterprise agreement or Spaces grant inferred.",
+          "retrieved_at": "2026-10-19T11:26:28.911905+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "content_bytes": 154887,
+          "content_sha256": "b6d118370976182f35a70099fcda1f65b43cbd35648a0963f2e97d048234b3d4"
+        },
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Plus.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2025-04-28; enterprise product scope, Sections 2-3 order-form term/annual renewal/60-day notice/fees, and p. 3 Section 5 overrides excluding self-serve purchases. No enterprise purchase or grant entitlement inferred.",
+          "retrieved_at": "2026-10-19T11:26:28.914170+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "content_bytes": 155837,
+          "content_sha256": "fa2c047ed4524ce61da7f451c6782bb45ac9ac4c197065636c3de9378284255c"
+        },
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Inference+Services.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Displayed effective date 2025-04-28; Serverless Providers and Dedicated Endpoints, p. 2 Endpoint-specific personal-data restriction and PostHog/EU analytics, fees and DPA reference. Those clauses are not transferred to Spaces.",
+          "retrieved_at": "2026-10-19T11:26:28.915631+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "content_bytes": 117231,
+          "content_sha256": "c9cc43fdac59f2b0931e3c01b84211543fbb8df3f556463dfc684c2b8366dbae"
+        },
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Data+Processing+Agreement.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "15-page conditional agreement for personal data processed for a customer; no standalone calendar effective date, effectiveness tied to the underlying Agreement on p. 1. Pages 4-10 cover customer duties, sensitive-data consent, subprocessors/30-day objection, request/end-of-service deletion no later than 180 days after expiry/termination subject to legal retention, charged copy request at least 30 days beforehand, and international transfers. No actual project agreement/configuration established.",
+          "retrieved_at": "2026-10-19T11:30:54.920097+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "content_bytes": 272361,
+          "content_sha256": "b32c02a2dfa393019b3f189791f0b57d9225e3ddb11708f8585749b35133558c"
         }
       ],
       "scoring": {
@@ -3835,12 +3962,12 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2 research route fits a possible public educational demo, but actual eligibility, GPU need, covered capacity, effort and usable value are Unknown. All eight factors and totals remain null; no success probability or avoided cost is inferred."
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Build a defensible Space proposal and verify grant terms without activating paid hardware.",
+      "independent_reviewer": "ChatGPT in-session root reviewer, with independent Apple-agent source review; public COMMENT through shared GitHub identity CompleteDotTech",
+      "next_action": "Supply the accepted bounded findings to existing E05-05 (#50); keep the application deferred until actual Space/GPU need, current governing terms, applicant facts and exact external-action authority are established.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3850,81 +3977,138 @@
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Unknown actual grant obligations and cadence; no award, agreement or reporting receipt established",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Hugging Face",
-          "Community GPU Grants for Spaces"
+          "Community GPU",
+          "ZeroGPU",
+          "HF-COMMUNITY-GPU"
         ],
         "canonical_match": "HF-COMMUNITY-GPU",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Local repository/register search and three organization-wide GitHub issue queries returned 9, 3 and 1 matches. #47 is the canonical grant package; other matches are parent/adjacent compute or existing technical research. No competing canonical file or open sustainability PR was found at preparation; root coordination claim is issuecomment-6265818809."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session root reviewer, with independent Apple-agent source review; public COMMENT through shared GitHub identity CompleteDotTech",
+        "reviewed_revision": "ccec8d108171b95e4536ec42b7fe79dbdfe77024",
+        "reviewed_tree": "38a916c562eee24aa56b77bd9e952ba4c4caecb0",
+        "reviewed_on": "2026-10-19",
+        "reviewed_at": "2026-10-19T11:45:48Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/88#pullrequestreview-5571037132",
+        "decision": "Accepted for the bounded deferred-application research outcome",
+        "scope": "The actual review accepts the canonical memo, complete HF record/projection and scoped product, account, billing, supplemental-terms and DPA findings. Its primary-source and six-PDF review retain their original reviewers and retrieval dates; this follow-up records that acceptance without a new provider inspection.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "This continuation records checked public facts and a proposed static Space; no account, deployment, workload measurement, application or award is claimed.",
+          "Actual applicant eligibility, form/award/private agreement conditions and deployment data configuration remain Unknown despite the checked public supplemental/DPA sources. Research review is separate from a GitHub approval or legal/organizational acceptance.",
+          "This substantive in-session COMMENT uses the shared GitHub account; it is not a separate-account APPROVED vote, legal opinion, applicant eligibility decision or organizational commitment.",
+          "Current-main composition, acceptance-metadata review, hosted checks and actual delivery retain their own source and execution identities in PR #88."
         ]
       },
       "owning_research_key": "E05-02",
       "source_urls": [
-        "https://huggingface.co/docs/hub/en/spaces-gpus"
+        "https://huggingface.co/docs/hub/en/spaces-gpus",
+        "https://huggingface.co/docs/hub/en/spaces-overview",
+        "https://huggingface.co/docs/hub/en/spaces-sdks-static",
+        "https://huggingface.co/docs/hub/en/spaces-zerogpu",
+        "https://huggingface.co/docs/inference-endpoints/en/pricing",
+        "https://huggingface.co/docs/hub/en/billing",
+        "https://huggingface.co/terms-of-service",
+        "https://huggingface.co/privacy",
+        "https://huggingface.co/content-policy",
+        "https://huggingface.co/docs/hub/en/spaces-storage",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Hub+Premium+Features.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Hub.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Plus.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Inference+Services.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Data+Processing+Agreement.pdf"
       ],
       "source_evidence": [
-        "GPU Spaces documentation explicitly invites applications for innovative Spaces needing GPU upgrade support through Space hardware settings."
+        "GPU Spaces documentation explicitly invites applications for innovative Spaces needing GPU upgrade support through Space hardware settings.",
+        "A static educational walkthrough is proposed; actual Space/account, GPU demand and grant limits remain Unknown.",
+        "Current docs distinguish paid-plan creation for ordinary compute Spaces, free Static Spaces and a separate eligible-personal ZeroGPU route.",
+        "Public policies, billing/storage boundaries, the supplemental preamble and four product PDFs plus the linked DPA were inspected with their exact scope. The preamble's earlier web-content HTTP 403 is retained as history and superseded by the later verified HTTP 200; no project award or data configuration is inferred."
       ],
-      "benefit": "Space-specific GPU upgrade support; allocation, duration and selected hardware Unknown",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "benefit": "Space-specific hardware-upgrade support; actual hardware, capacity, duration, cap and covered charges Unknown",
+      "estimated_usable_value_method": "No workload, covered award, applicable rate/currency or purchase counterfactual is established. A later estimate requires eligible hardware/meter usage, award window, existing free access, uncovered plan/storage/overage costs and actual setup/maintenance/reporting/exit effort. In-kind support is separate from cash and realized avoided cost.",
+      "source_freshness": "Official pages and six linked PDFs checked on 2026-10-19. Exact successful PDF timestamps/hashes and the earlier resolved Supplemental Terms web-content HTTP 403 are retained; recheck applicable current terms before any later action.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "scoring_justification": "P2 research route fits a possible public educational demo, but actual eligibility, GPU need, covered capacity, effort and usable value are Unknown. All eight factors and totals remain null; no success probability or avoided cost is inferred.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://huggingface.co/docs/hub/en/spaces-gpus"
+        "https://huggingface.co/docs/hub/en/spaces-gpus",
+        "https://huggingface.co/docs/hub/en/spaces-overview",
+        "https://huggingface.co/docs/hub/en/spaces-sdks-static",
+        "https://huggingface.co/docs/hub/en/spaces-zerogpu",
+        "https://huggingface.co/docs/inference-endpoints/en/pricing",
+        "https://huggingface.co/docs/hub/en/billing",
+        "https://huggingface.co/terms-of-service",
+        "https://huggingface.co/privacy",
+        "https://huggingface.co/content-policy",
+        "https://huggingface.co/docs/hub/en/spaces-storage",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Hub+Premium+Features.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Hub.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Plus.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Inference+Services.pdf",
+        "https://cdn-media.huggingface.co/landing/assets/Data+Processing+Agreement.pdf"
       ],
       "application_url": null,
       "internal_application_review_controls": [
-        "Applicant eligibility and authority",
-        "Concrete workload or scoped support need",
-        "Maintainer/community evidence",
-        "No-influence publication and sponsor disclosure terms"
+        "Actual applicant and account/operator authority",
+        "Working Space, incremental GPU need and minimum bounded workload evidence",
+        "Current form, supplemental/award terms, covered charges and billing/exit control",
+        "Rights-compatible publication, privacy, truthful support disclosure and sponsor-neutral findings"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "The public route is known, but complete current fields, attachments, deadline and applicant-specific form were not accessed; no complete application checklist is claimed.",
       "published_qualification_requirements": [
-        "A Space requiring a GPU upgrade and an innovative use case; requests are made through that Space’s hardware settings"
+        "The public grant description invites innovative Spaces needing support for a GPU hardware upgrade; selection occurs through the Space hardware settings route."
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
-      "application_route_description": "Space repository hardware settings (authenticated, applicant-specific); destination and applicant access require verification before use.",
+      "currency_status": "No monetary grant offer or applicable valuation currency established; no published rate is copied into a usable-value estimate",
+      "application_route_description": "An existing Space's hardware settings below sleep settings, as documented publicly. Actual Pick Your AI Space/account and form URL are Unknown; no account or form was accessed.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical Community GPU program/intake qualification independently accepted; actual applicant and award conditions remain Unknown",
       "applicant_qualification_status": "Unknown",
-      "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "score_reason": "P2 research route fits a possible public educational demo, but actual eligibility, GPU need, covered capacity, effort and usable value are Unknown. All eight factors and totals remain null; no success probability or avoided cost is inferred.",
       "award_status": "Unknown; no award evidence established",
-      "current_disposition": null,
+      "current_disposition": "Defer application pending an evidenced Space, incremental GPU need and current terms",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
-      "related_research_issue_urls": [],
+      "priority_scope_note": "P2 research priority reflects a documented relevant educational route with unresolved actual need and eligibility, not a qualified application or expected monetary value.",
+      "recommended_disposition": "Defer application pending an evidenced Space, incremental GPU need and current terms",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41",
+        "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 47,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable_path": "research/compute/hugging-face-community-gpu.md",
+      "source_access_failures": [
+        {
+          "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms.pdf",
+          "last_attempted": "2026-10-19",
+          "access_result": "Exact PDF link identified in the Terms page; content retrieval returned HTTP 403",
+          "status": "Historical web-content access failure; later exact-URL GET succeeded and content was inspected",
+          "resolved_at": "2026-10-19T11:24:38.302331+00:00",
+          "resolution": "HTTP 200 application/pdf, 123984 bytes; one-page preamble displayed effective date 2025-04-28; linked product PDFs and DPA inspected separately",
+          "resolved_content_sha256": "4b3b636fb004df4c92d1eca775239db3f77ce683f3d96c3ef8fe8d32be0834df"
+        }
+      ]
     },
     {
       "schema_version": "sustainability-opportunity/v1",

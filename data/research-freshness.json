@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 83,
+  "source_count": 152,
   "records_count": 39,
   "sources": [
     {
@@ -27,7 +27,7 @@
     {
       "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Updated 2026-09-23; full academic-program section and intake link inspected",
       "opportunity_ids": [
         "GOOGLE-GEMINI-ACADEMIC"
       ],
@@ -37,7 +37,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -84,7 +84,7 @@
     {
       "url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published 2025-03-31; official program statement read, not a new 2026 announcement or applicant decision",
       "opportunity_ids": [
         "AWS-OSS-CREDITS"
       ],
@@ -141,9 +141,10 @@
     {
       "url": "https://claude.com/contact-sales/claude-for-oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published facts recorded for linked opportunities; ANTHROPIC-RESEARCHER: Researcher assessment checked only the separate subscription-versus-API-credit boundary",
       "opportunity_ids": [
-        "ANTHROPIC-CLAUDE-OSS"
+        "ANTHROPIC-CLAUDE-OSS",
+        "ANTHROPIC-RESEARCHER"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -161,8 +162,8 @@
     {
       "url": "https://cloud.cerebras.ai",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public endpoint retrieval returned no form content; exact current form, account, payment-method choices and account-specific agreements remain unverified",
       "opportunity_ids": [
         "CEREBRAS-TRIAL"
       ],
@@ -172,7 +173,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Not Verified — content-empty public retrieval; form/account review required",
       "source_roles": [
         "application_endpoint"
       ]
@@ -503,7 +504,7 @@
     {
       "url": "https://inference-docs.cerebras.ai/support/rate-limits",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current trial and rate table; not an actual account quota or applicable exception",
       "opportunity_ids": [
         "CEREBRAS-TRIAL"
       ],
@@ -517,12 +518,13 @@
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "last_attempted": "2026-10-19"
     },
     {
       "url": "https://learn.microsoft.com/en-us/industry/nonprofit/microsoft-for-nonprofits/eligibility",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Recognized status, exclusions, tenant, attestation and validation.",
       "opportunity_ids": [
         "AZURE-NONPROFIT"
       ],
@@ -532,7 +534,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -672,7 +674,7 @@
     {
       "url": "https://openai.com/form/researcher-access-program/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current program content; published purpose, benefit, schedule and entry route, not an applicant decision",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -682,7 +684,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -691,8 +693,8 @@
     {
       "url": "https://openai.smapply.org",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Direct linked public homepage at https://openai.smapply.org/ showed Programs, search and signup. No program-specific listing or current form fields were returned; no technical cause, closure or account result inferred.",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -702,7 +704,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Homepage observed; program-specific form Not Verified",
       "source_roles": [
         "application_endpoint"
       ]
@@ -730,7 +732,7 @@
       "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
       "last_verified": null,
       "last_attempted": "2026-10-19",
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "verification_scope": "Linked workbook contents, version, fields and declarations still Not Verified; successful program-page access does not verify the form.",
       "opportunity_ids": [
         "AWS-OSS-CREDITS"
       ],
@@ -741,9 +743,31 @@
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
       "state": "Not Verified — endpoint review required",
-      "last_access_result": "HTTP 403 recorded during initial source research; workbook contents remain unverified",
+      "last_access_result": "Independent Apple reviewer: explicit HTTP403 Forbidden at approximately12:30UTC with no workbook bytes; actual public review5571815080. The author's prior status-less internal access error and historical seed403 remain separately recorded.",
       "source_roles": [
         "application_endpoint"
+      ],
+      "access_history": [
+        {
+          "date": "2026-10-19",
+          "scope": "Seed research before this session",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "HTTP 403 recorded; no workbook contents verified"
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Session c3fa0109d6ff link-follow and direct web open",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Tool internal access error; no workbook bytes or visible HTTP status; not a new observed 403"
+        },
+        {
+          "date": "2026-10-19",
+          "time_utc": "12:30 (approximately)",
+          "scope": "Independent Apple review lane, session c3fa0109d6ff",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Explicit HTTP 403 Forbidden; no workbook bytes or verified fields.",
+          "evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
+        }
       ]
     },
     {
@@ -978,7 +1002,7 @@
     {
       "url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Program/process/FAQ dated 2026-03-16; applicant qualification not established",
       "opportunity_ids": [
         "ANTHROPIC-RESEARCHER"
       ],
@@ -988,7 +1012,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -1169,7 +1193,7 @@
     {
       "url": "https://www.microsoft.com/en-us/nonprofits/azure",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Annual USD credit offer and public referral.",
       "opportunity_ids": [
         "AZURE-NONPROFIT"
       ],
@@ -1179,9 +1203,8 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
       "source_roles": [
-        "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
       ]
@@ -1572,6 +1595,1262 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/sharing-publication-policy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2022-11-14; publication conditions and historical intake wording distinguished from current FAQ",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/services-agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2025-12-01, effective 2026-01-01; relevant API, content, payment, publicity and policy clauses; actual applicant agreement/offer unknown",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/supported-countries",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current supported-country list after the program-linked platform URL redirect; applicant location not inferred",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/your-data",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current training-default, monitoring and endpoint-retention sections; account settings not inspected",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/service-credit-terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-01-01; full credit terms read, no balance or award established",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/usage-policies/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2025-10-29; current policy text read, no exception or approval established",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://forms.gle/pZYC8f6qYqSKvRWn9",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Official intake redirect; direct public retrieval succeeded after search-reader failure",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdmq-KFTREKw9SXqDqj9kACfhd_5DYZSrifWR7Q3z0ZqAZZog/viewform?usp=send_form",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public form content and terms links inspected; interactive submission not tested",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2025-06-17; API agreement reviewed in canonical assessment",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/credit-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2024-03-04; credit categories and actual-award exceptions kept separate",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Dated 2026-07-01; commercial retention and exceptions, not observed account behavior",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2026-09-10; proposal/contact scope distinct from API customer content",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/aup",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published next policy effective 2026-11-12; future to the review date",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/archive/22742366-2ef0-4c7a-a833-6523f10d3944",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Prior usage policy effective 2025-09-15; retained alongside announced transition",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Announcement dated 2026-10-08 confirms 2026-11-12 effective date",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/supported-countries",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Observed official redirect; actual account/location not inspected",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/supported-regions",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published policy effective 2026-11-12; applicable October account policy remains to verify",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://forms.gle/HMviQstU8PxC5iCt5",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Official intake redirect; direct public retrieval succeeded after search-reader failure",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSd5QWrIjXf5Pupmsl_zzWZeGvHtXSpVbcvOlxdkbUIuj6AWEA/viewform?usp=send_form",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public form fields and proposal-data statement inspected; no submission",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2026-03-23; published API terms, not actual award/account classification",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.google.com/terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Modified 2021-11-09; general API terms and scope precedence reviewed",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/billing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-09-28; billing mechanics and conflicting switch/refund wording retained",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-10-15; general quota scope, not account-specific capacity",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/available-regions",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-04-28; service availability distinguished from form country choices",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://aka.ms/eligibility-requirements",
+      "last_verified": "2026-10-19",
+      "verification_scope": "United States row only, PDF page 46; not a global eligibility survey.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Delayed cost records and budget alerts that do not stop consumption.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/foundry-models-overview",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Managed compute and billing; inconsistent category wording retained in canonical memo.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/manage-costs",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Resource/meter cost separation; Azure Prepayment is not equated with nonprofit Sponsorship.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Marketplace and Claude-specific sponsorship/card restrictions; no universal publisher exclusion.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Category designation and Azure OpenAI inclusion; no exhaustive model/SKU survey.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/abuse-monitoring",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Automated/human review and separately qualified modification; no account-specific approval.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Provider/training, storage, geography and preview boundaries for sold-by-Azure models.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/industry/nonprofit/microsoft-for-nonprofits/claim-activate-nonprofit-azure-grant",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Primary contact, activation clock, billing scope and exclusions.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/industry/nonprofit/microsoft-for-nonprofits/renew-azure-grant",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Modern/legacy renewal, expiry and paid overage.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nonprofit.microsoft.com/getting-started",
+      "last_verified": null,
+      "last_access_attempt": "2026-10-19",
+      "verification_scope": "JavaScript-required shell only; actual form and attachments not verified.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Not Verified — endpoint contents unavailable",
+      "source_roles": [
+        "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://regale.cloud/Microsoft/play/198/azure-credits-en-us",
+      "last_verified": null,
+      "last_access_attempt": "2026-10-19",
+      "verification_scope": "Official tutorial referral; no readable body.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Not Verified — endpoint contents unavailable",
+      "source_roles": [
+        "setup_tutorial_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/nonprofits/faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Validation estimate, recipient/transfer restrictions, annual grant and agreement compatibility.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.microsoft.com/licensing/terms/en-US/productoffering/MicrosoftAzure/allprograms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Applicable Foundry categories and restrictions; linked model-specific terms failed retrieval.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.microsoft.com/licensing/terms/product/ForOnlineServices",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Generative-AI/output restrictions, DPA relationship and competitive benchmarking.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.microsoft.com/licensing/terms/product/Glossary/all",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Sold-by-Azure and First-Party Consumption Services are separately defined.",
+      "opportunity_ids": [
+        "AZURE-NONPROFIT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+      ],
+      "state": "Source checked within the stated scope; applicant/offer admission remains Unknown.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/awscredits/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Promotional Credit Terms dated 2026-09-24; current general credit conditions, not an actual OSS award",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Customer Agreement dated 2026-08-14; account, authority, content and exit terms at the stated scope",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Privacy Notice dated 2026-05-18; account/application information, not unread workbook-specific notices",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Credit details and sharing documentation; no account or console observation",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Documented budget notifications and delay; no configured account controls",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Estimation method and limitations; no configured estimate, service quote or bill",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://opensource.org/license/mit",
+      "last_verified": "2026-10-19",
+      "verification_scope": "OSI approval of MIT only, not a complete project rights audit",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2bba83484de3e70453cd9886e69e06f4fcec9120/docs/nonprofit/entity-baseline.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Accepted #11 ledger read at unchanged blob bc94842d227e3924f364d6832c383c396eefbd7b; no new private-evidence/legal audit",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/73715b4850fc0df4a2afbdd877ad2b2644f1d769/docs/hosting-architecture.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Exact accepted engineering plan and recovery need; no refresh of vendor price quotations or deployed-host claim",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Live issue: reviewed planning and still-open actual-host/operator acceptance",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Native prerequisite independently accepted in review5571462106, acceptance-link review5571568995 and signed delivery2c06977b on2026-10-19; its factual Unknowns remain explicit.",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete accepted operating-needs ledger44398ab2 at signed2c06977b; N01/N03 and five deduplication rules consumed, actual amounts and demand remain Unknown.",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/pricing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Advertised trial terms and separate paid continuation; numerical price table was not exposed. Pricing says expiry from activation whereas rate/billing pages say grant; actual start/expiry remains Unknown.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/console/account-billing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public account, credit, auto-recharge and deletion procedures; no account inspected",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/models/openai-oss.md",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Advertised public Markdown retrieved after HTML/navigation and web-fetch limitations; conflicting prose/component and displayed Developer rates read",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/terms-of-service",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current linked API-scoped terms, effective 2024-08-27; proposed use gate assessed without an unseen account agreement",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/privacy-policy",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Relevant public data, retention and transfer provisions, updated 2024-08-27; no private DPA or account verification",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/capabilities/reasoning",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "gpt-oss-120b reasoning controls and completion-token budgeting",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/policies",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current destination of inference documentation policy link; distinguishes linked API terms from separate older product terms",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://inference-docs.cerebras.ai/llms.txt",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All 133 returned index lines inspected for a distinct research/OSS intake lead; not every linked page reviewed",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source maintenance",
+        "Before relying on governing terms, price, quota or permitted use",
+        "Upon redirect, access failure or changed/conflicting program evidence"
+      ],
+      "state": "Source checked within stated scope; actual applicant/account and program exception remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/blog/grantfrp",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Closed historical call; no current intake or project agreement established; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/early-access",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Documented builder lead; independent-research fit, selection, value and applicable agreement Unknown; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/r/zUw2W8LEiY",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any related-program intake/eligibility claim or application",
+        "Upon changed official program or endpoint evidence"
+      ],
+      "state": "Not Verified — content-empty public retrieval; no form submitted",
+      "source_roles": [
+        "related_program_application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/sponsorships",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Documented event lead; no actual event, award or benchmark permission established; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://form.typeform.com/to/TUK3flkj",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any related-program intake/eligibility claim or application",
+        "Upon changed official program or endpoint evidence"
+      ],
+      "state": "Not Verified — content-empty public retrieval; no form submitted",
+      "source_roles": [
+        "related_program_application_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/ambassadors",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Documented advocacy/event lead; Not Pursuing for this independent-evaluation use; public program discovery only",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Material changed or reopened applicable program",
+        "Before a current qualification or external action"
+      ],
+      "state": "Source checked within related-program scope; no trial entitlement or current applicant qualification",
+      "source_roles": [
+        "governing_source_evidence",
+        "related_program_endpoint"
+      ]
+    },
+    {
+      "url": "https://forms.cloud.microsoft/r/fXi2GLpDGQ",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+      "opportunity_ids": [
+        "CEREBRAS-TRIAL"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any related-program intake/eligibility claim or application",
+        "Upon changed official program or endpoint evidence"
+      ],
+      "state": "Not Verified — content-empty public retrieval; no form submitted",
+      "source_roles": [
+        "related_program_application_endpoint"
+      ]
     }
   ],
   "rules": [
@@ -1580,6 +2859,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 66,
-  "additional_unverified_endpoint_count": 17
+  "source_evidence_url_count": 130,
+  "additional_unverified_endpoint_count": 22
 }

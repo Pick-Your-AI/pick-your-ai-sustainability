@@ -352,3 +352,98 @@ revision, scope and unresolved conditions. Reconcile issue and Project metadata
 only against that actual delivered outcome. Do not close E01.08/E02.02, fill real
 exposures with synthetic values or turn a method decision into authority to
 apply, accept funds, activate resources or change a provider agreement.
+## 2026-10-19 receiving update: accepted method and later project inputs
+
+### Actual methodology acceptance
+
+The independent in-session source review
+[5572024427](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/101#pullrequestreview-5572024427),
+submitted at **13:10:10 UTC**, accepts the bounded methodology at
+`9cc648f41a5fe4353d93663432d794a3cba19778`, tree
+`cb7f2820c83ab619d1ea445ea249af7ba6a1829a`. It covers the complete method,
+register and synthetic examples, all thirteen criteria and the declared source
+scope, including criterion 6's explicit unresolved-policy/valuation branch.
+It records no source or arithmetic finding.
+
+The complete 31,595-byte method above and both reviewed template/example files
+are preserved. Their original pending language describes that prepared revision;
+the actual review supplies the later acceptance event. This new append and its
+accepted-main composition require their own bounded review. The reviewer used
+the existing connected account; the COMMENT is not a separate-account GitHub
+APPROVED vote, an organizational appointment or binding legal/financial approval.
+
+### Received project inputs at the later signed revision
+
+The following seven complete project inputs were read at signed main
+[`b1c99fad2352d6d9e4cc2a47b12348ec77af1793`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/b1c99fad2352d6d9e4cc2a47b12348ec77af1793),
+tree `328060470ad8a5dac2bbfca3663fba7cf9cbed48`, on **2026-10-19**.
+The source bytes in this table are unchanged from the separately accepted
+needs, authorization and financial-control deliveries. These are receiving
+reads of their project methods and evidence limits, with no new provider/legal
+source audit or private administrative inspection.
+
+| Received input | Exact Git blob / bytes | Consequence for this method |
+| --- | --- | --- |
+| [#19 needs baseline](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/docs/funding/needs-assessment.md) | `44398ab243102510af5b58bc5fe760ef5497b397` / 28,602 | Consume N01–N09, their actual/proposed distinction, native units, finite-output handoffs and unresolved actual financial/asset inventory. |
+| [#68 authorization procedure](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/docs/workflow-and-authorization.md) | `935fb8ef24d9f583612f4ab7640f2b758ffe6c5c` / 20,537 | Bind any real risk response to the actual action, artifact, parties, terms, limits, mandate and continuing validity. |
+| [#68 approval record](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/templates/application-approval.md) | `998a46fa80db27c34a52c3a74e74cbb482882c4a` / 6,805 | Reuse a concrete existing authorization when it covers the action; an unfilled record creates none. |
+| [#68 synthetic unapproved walkthrough](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/templates/examples/application-approval-unapproved.md) | `4200c765952b3a67de1a60aae0e4b78157b12aec` / 6,322 | Preserve blocked unapproved outreach, material-amendment review and reconciliation of an uncertain attempt. |
+| [#24 financial-control procedure](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/docs/operations/financial-controls-draft.md) | `e18d4ea2a0063deed0e2eba87db4c78c9e4add75` / 25,088 | Keep cash, in-kind, commitments, custody, restrictions, fees, refunds and actual settlement separate; use the actual eligible-fund and independent-approval controls. |
+| [#24 financial-control record](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/templates/financial-control-record.md) | `f36c4349c4b92449811138e3c763e12063e4f476` / 7,785 | Retain semantic duplicate checks, prior allocations and uncertain-payment reconciliation; no new record ID or hash supplies a second entitlement. |
+| [#24 synthetic financial examples](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/b1c99fad2352d6d9e4cc2a47b12348ec77af1793/templates/examples/financial-controls-worked-example.md) | `0e5dd5d419a9aea5faf9855ed0260cc1ec3e9c6e` / 7,455 | Their fictional balances, refund and acknowledgment branches remain separate from any actual risk population, payment or statement. |
+
+The needs baseline was delivered at `2c06977bdb59ec1fdf687e3e177c12dcc8a62cce`
+through [#96](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/96),
+authorization at `6cae434061892d8b3378f4abe21d0226e9e93d95` through
+[#97](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/97), and
+financial controls at `82deb8c6944154f85d09590bd036f11f04e8679a` through
+[#94](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/94).
+Their original source reviews, examples and executions retain their own authors,
+dates and scopes.
+
+The accepted needs ledger replaces reliance on the initial needs map for future
+need intake. It is not a complete observed essential-workload population,
+activated-benefit inventory or actual expenditure ledger. Its planning amount,
+alternative ceiling, successful technical jobs and unknown future volumes do not
+become a cash-concentration denominator, usable donation, physical inventory or
+measured resource requirement. Actual budget, demand and resource qualification
+remain the existing owners' outputs.
+
+The financial procedure's net balances and restricted funds do not change this
+method's declared gross-receipt flow or as-of stock definitions. A real observation
+must identify which it uses and reconcile the applicable actual source entries;
+fees, refunds, commitments, currencies and custodians cannot be silently moved
+between those scopes. The accepted process does not fill missing funds, role
+holders, mandates or agreement-specific facts.
+
+A reference to an input version or hash in the method/register identifies an
+admissible public or independently cleared source. It is not permission to expose
+private donor, banking, mandate or agreement information, including hashes of
+sensitive values. Use an independently cleared opaque reference for protected
+evidence, with actual custody and access established outside public GitHub.
+Research acceptance leaves both disclosure permission and action authority at
+their actual separate boundaries.
+
+### Current disposition and preserved limits
+
+At this receiving read, #18 and #20 remain open. Their native relationships and
+existing ownership stay intact; the historical 015 missing-input account remains
+exact. The independent review has accepted the method's explicit unresolved-input
+branch, so those still-missing threshold/valuation decisions are not an invented
+barrier to completing this bounded methodology. No numerical threshold, risk
+appetite, real exposure or whole prerequisite outcome is adopted.
+
+The later accepted provider investigations and their register entries keep their
+own exact source, intake, applicant and operation qualifications. Carrying them
+into the same repository revision supplies no actual cash receipt, activated
+capacity, permission, usable value or risk observation. No provider source date
+is refreshed by this append.
+
+Criterion 13 now has the actual source/method acceptance above, and criterion 6
+has its accepted unresolved-input disposition. Criterion 12 still requires
+normal reviewed canonical delivery. Final issue/Project reconciliation must use
+the delivered revision, this append's actual bounded review and fresh configured
+receiving/main evidence. The original local 12:43 validation remains attributed
+to its earlier source and observation; the reviewer did not claim to read its
+currently unexposed logs. Source recovery, current checks and final delivery are
+separate events, and this document performs no external action.

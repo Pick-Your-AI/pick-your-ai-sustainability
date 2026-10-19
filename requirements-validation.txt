@@ -1,0 +1,7 @@
+# Direct validation dependencies, pinned to reviewed official PyPI releases.
+jsonschema==4.26.0
+markdown-it-py==4.0.0
+# Keep URI format checking active even without jsonschema's optional format extras.
+rfc3986-validator==0.1.1
+# Used by the workflow safety regression tests.
+PyYAML==6.0.3

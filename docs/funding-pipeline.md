@@ -8,7 +8,7 @@ The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 33 records, including the completed Together Not Pursuing assessment retained at its historical stage |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 33 records, including the completed Together and Cerebras Not Pursuing assessments retained at their historical stage |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | 6: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), [Anthropic researcher access](../research/compute/anthropic-researcher-access.md), [Gemini academic support](../research/compute/google-gemini-research.md), [Azure nonprofit AI coverage](../research/compute/azure-nonprofit-ai.md) and [AWS open-source credits](../research/infrastructure/aws-open-source-credits.md), each with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -26,6 +26,8 @@ The [Anthropic researcher assessment](../research/compute/anthropic-researcher-a
 The [Azure nonprofit AI assessment](../research/compute/azure-nonprofit-ai.md) is Done / Verified after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/99#pullrequestreview-5571849343) of efcefd379cc34315ab74664371edcce11525f618. It retains P2 as a conditional route and incorporates the probe within the same unexecuted 24-attempt allowance. Actual applicant/host, offer/model terms, grant/meter admission and operating controls remain unqualified; no application, award, activation or empirical delivery is established.
 
 The [AWS assessment](../research/infrastructure/aws-open-source-credits.md) is Done / Verified for all 13 research criteria after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080) at `280ca8f`. It consumes the accepted #11/#19 baselines and maps an independent export/recovery need to a proposed request method. It retains P2 and an application hold: all three applicant routes, exact quantities, amount and usable value remain Unknown. No application, award or operating decision is inferred.
+
+The [Cerebras assessment](../research/compute/cerebras-support.md) is Done / Not Pursuing for the proposed independent benchmark after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/95#pullrequestreview-5571431369) at `d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53`. Its stage remains Discovered, priority P3, all three applicant routes Unknown and actual value unverified. The closed research RFP and distinct current builder/event/ambassador leads do not establish admitted use, received support or activation.
 
 ## Known calendar facts
 

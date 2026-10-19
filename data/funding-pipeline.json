@@ -299,11 +299,11 @@
     {
       "opportunity_id": "AWS-OSS-CREDITS",
       "program_name": "Cloud Credits for Open Source",
-      "source_review_status": "Source facts checked; canonical assessment awaiting independent review",
+      "source_review_status": "Canonical program and application-readiness findings independently accepted; actual applicant qualification remains Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
-      "disposition": "Hold application; accepted #11/#19 baselines consumed, canonical findings awaiting independent review",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Research Done / Verified; retain P2 and hold application. Accepted #11/#19 baselines and all 13 research findings are consumed; actual applicant and action-specific evidence remains unresolved.",
       "eligibility": "Unknown",
       "application_gate": "Hold application: unread current workbook, unresolved applicant/community/independence/account authority, exact incremental workload quantities and publication/operating terms. The accepted #19 needs baseline is consumed; research and GitHub review authority remain separate.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -314,7 +314,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Complete exact-revision independent findings review; resolve workbook, project independence, account authority, exact quantities and publication conditions before any application."
+      "next_action": "Resolve the current workbook, project independence, account authority, exact incremental quantities and publication/operating conditions before any application; research findings are independently accepted."
     },
     {
       "opportunity_id": "CLOUDFLARE-ALEXANDRIA",
@@ -479,13 +479,13 @@
     {
       "opportunity_id": "ANTHROPIC-RESEARCHER",
       "program_name": "External Researcher Access Program",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted; actual applicant qualification remains Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40",
-      "research_status": "Ready",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Retain P2; actual investigator, safety scope and account/terms gates unresolved",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Actual qualifying investigator, proposed study, account authority and applicable terms must be established before submission.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -494,7 +494,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Determine thematic fit and verify credit expiry and publication restrictions."
+      "next_action": "Establish the real investigator and research fit; resolve the scoped account, allocation, policy, expiry and publication questions in the canonical memo."
     },
     {
       "opportunity_id": "ANTHROPIC-CLAUDE-OSS",
@@ -519,13 +519,13 @@
     {
       "opportunity_id": "GOOGLE-GEMINI-ACADEMIC",
       "program_name": "Gemini Academic Program",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted; actual applicant qualification remains Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41",
-      "research_status": "Ready",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Retain P2 for a real academic-partner route; actual affiliation and award/account facts unresolved",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Actual eligible affiliated applicant, institutional/project authority and reviewed study/account terms must be established before submission.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -534,7 +534,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Locate authoritative application terms or document a bounded unknown result."
+      "next_action": "Identify a real qualified academic lead and resolve actual project, allocation, data, expiry, publication and cost-control questions in the canonical memo."
     },
     {
       "opportunity_id": "AZURE-NONPROFIT",

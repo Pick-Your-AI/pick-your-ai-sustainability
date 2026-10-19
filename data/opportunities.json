@@ -2269,8 +2269,8 @@
       ],
       "application_gate": "Hold application: unread current workbook, unresolved applicant/community/independence/account authority, exact incremental workload quantities and publication/operating terms. The accepted #19 needs baseline is consumed; research and GitHub review authority remain separate.",
       "application_status": "Requests invited in the official 2025 statement; current workbook contents and end-to-end submission unverified",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -2392,8 +2392,8 @@
       },
       "priority": "P2",
       "assigned_owner": "Session c3fa0109d6ff / leaderboard_soak (bounded research only)",
-      "independent_reviewer": null,
-      "next_action": "Complete exact-revision independent findings review; resolve workbook, project independence, account authority, exact quantities and publication conditions before any application.",
+      "independent_reviewer": "ChatGPT in-session /root/apple_completion, independent from the authoring Leaderboard lane; findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Resolve the current workbook, project independence, account authority, exact incremental quantities and publication/operating conditions before any application; research findings are independently accepted.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -2416,14 +2416,17 @@
         "scope": "Unique current register plus org-wide issue searches (12 broad matches; four per exact program alias) and open AWS PR search (zero); #7/#9 are epics and #64 is distinct OSPO work. No hidden-work absence inferred."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Prepared canonical source assessment; exact-revision independent findings review pending",
+        "reviewer": "ChatGPT in-session /root/apple_completion, independent from the authoring Leaderboard lane; findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "280ca8fbe8d1faac09c61e38064c0323b82f86c1",
+        "reviewed_tree": "56d353cb0cb03c836b994a954c84e9b358f03a87",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080",
+        "reviewed_at": "2026-10-19T12:53:17Z",
+        "decision": "Accepted all 13 literal research criteria; retain P2 and hold application pending actual applicant, workbook, workload, account and offer evidence.",
         "limitations": [
           "Source reading and local consistency do not establish applicant qualification or organizational/legal authority.",
           "Accepted #19 baseline is delivered; its actual expenditure, resource quantities and administrative Unknowns remain preserved rather than treated as new research-completion gates.",
-          "Current workbook contents and actual AWS account, demand, quote and public-output permissions remain unverified."
+          "Current workbook contents and actual AWS account, demand, quote and public-output permissions remain unverified.",
+          "Technical COMMENT records an independently performed project-session findings review, not a separate-account GitHub APPROVED vote or legal, financial or provider authorization."
         ]
       },
       "owning_research_key": "E06-01",
@@ -2446,11 +2449,12 @@
         "Official 31 March 2025 update invites applications. Requires OSI-approved license, active maintenance/community, and no single-vendor dominance or VC funding.",
         "Reviews and issues credits monthly; December issuance paused. Linked XLSX failed with 403 on retrieval.",
         "Session c3fa0109d6ff rechecked current governing sources and prepared the canonical note; unread workbook and required #19 input remain explicit. Original seed observations above are preserved as historical evidence.",
-        "Later 2026-10-19 carry consumed accepted #19 at signed2c06977b, complete ledger44398ab2 and independent reviews5571462106/5571568995. Earlier preparation above remains historical; no actual quantity, AWS charge or applicant authority was created."
+        "Later 2026-10-19 carry consumed accepted #19 at signed2c06977b, complete ledger44398ab2 and independent reviews5571462106/5571568995. Earlier preparation above remains historical; no actual quantity, AWS charge or applicant authority was created.",
+        "Independent findings review5571815080 on2026-10-19 accepted all13 research criteria at280ca8f/56d353cb; actual applicant, quantity, value, application and award states remain unchanged."
       ],
       "benefit": "Discretionary AWS promotional credits; amount and term Unknown",
       "estimated_usable_value_method": "Canonical AWS note maps independent exports and a recovery rehearsal to accepted hosting requirements. Price accepted quantities by service/unit/region/term, subtract exclusions and include full operating/exit costs; actual AWS spend, requested amount and avoided cost remain null. Do not reuse the DigitalOcean allocation as an AWS quote.",
-      "source_freshness": "Program and governing/readiness sources inspected 2026-10-19. Workbook had a current internal access error without bytes/status; historical HTTP 403 retained separately.",
+      "source_freshness": "Program and governing/readiness sources inspected 2026-10-19. Author attempts returned an internal access error without bytes/status; the independent reviewer later observed explicit HTTP403 without bytes at approximately12:30UTC. Historical seed403 remains separately recorded.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "P2: concrete recovery need but applicant, workbook, exact incremental quantities, value and publication/operating conditions remain unresolved. All eight ratings and total stay null; the program cadence is not an urgent deadline.",
@@ -2488,14 +2492,16 @@
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Historical seed-source consistency review only; this new canonical assessment has not yet received independent findings acceptance."
+        "scope": "Historical seed-source review remains separate. The complete canonical assessment and accepted #11/#19 carry received independent exact-source findings acceptance for all 13 research criteria; no applicant, account, award or provider action is inferred.",
+        "reviewed_revision": "280ca8fbe8d1faac09c61e38064c0323b82f86c1",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked; canonical assessment awaiting independent review",
+      "source_review_status": "Canonical program and application-readiness findings independently accepted; actual applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": "Official page describes emailing its workbook to the program address. No message sent; actual form fields, submitter mandate and processing unverified.",
-      "current_disposition": "Hold application; accepted #11/#19 baselines consumed, canonical findings awaiting independent review",
+      "current_disposition": "Research Done / Verified; retain P2 and hold application. Accepted #11/#19 baselines and all 13 research findings are consumed; actual applicant and action-specific evidence remains unresolved.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
@@ -2515,7 +2521,7 @@
       },
       "research_note_path": "research/infrastructure/aws-open-source-credits.md",
       "research_prepared_from": "015300e6834940d537c933de3490bb5d3a707cd8",
-      "research_scope": "Available-source assessment and proposed workload-request method using the accepted #11/#19 evidence-and-Unknown baselines. Whole issue completion awaits independent findings acceptance and normal reviewed delivery.",
+      "research_scope": "Accepted available-source assessment and proposed workload-request method using the accepted #11/#19 evidence-and-Unknown baselines. All 13 literal research criteria are accepted in review5571815080 at280ca8f; normal reviewed delivery remains separate.",
       "source_access_history": [
         {
           "date": "2026-10-19",
@@ -2528,6 +2534,14 @@
           "scope": "Session c3fa0109d6ff link-follow and direct web open",
           "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
           "result": "Tool internal access error; no workbook bytes or visible HTTP status; not a new observed 403"
+        },
+        {
+          "date": "2026-10-19",
+          "time_utc": "12:30 (approximately)",
+          "scope": "Independent Apple review lane, session c3fa0109d6ff",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Explicit HTTP 403 Forbidden; no workbook bytes or verified fields.",
+          "evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
         }
       ],
       "workload_request": {
@@ -2553,7 +2567,7 @@
           "N03"
         ]
       },
-      "research_carried_to": "2c06977bdb59ec1fdf687e3e177c12dcc8a62cce"
+      "research_carried_to": "405f25178a2ef27396b284089114131f7b25d9f0"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -3997,48 +4011,123 @@
       "category": "inference",
       "support_type": "api_credit",
       "official_program_url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
-      "official_application_url": null,
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Researchers in supported countries with qualifying safety/alignment proposal",
-      "available_before_incorporation": "Conditionally Eligible if study actually fits",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "official_application_url": "https://forms.gle/pZYC8f6qYqSKvRWn9",
+      "eligibility_jurisdiction": "Actual applicant jurisdiction Unknown; published November policy transition retained in canonical memo.",
+      "legal_entity_requirements": "Individual or team route observed; actual investigator, account authority and qualifying research remain unverified.",
+      "available_before_incorporation": "Unknown for actual applicant; no incorporation-only exclusion established.",
+      "available_through_fiscal_sponsorship": "Unknown; sponsor status alone does not qualify the researcher, account or study.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish investigator, account, research or region fit.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "Research that addresses high-priority AI safety or alignment questions",
-        "For a multi-researcher program, use the same Anthropic Console organization for program members"
+        "Qualifying safety/alignment proposal",
+        "Real investigator and account authority",
+        "Applicable supported-region and usage requirements"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Official application linked; monthly evaluation documented",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "application_gate": "Actual qualifying investigator, proposed study, account authority and applicable terms must be established before submission.",
+      "application_status": "Public application content inspected; actual submission/selection Unknown",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Typically $1,000 API credits; expiry not stated in reviewed page",
+      "benefit_amount_or_capacity": "Typically $1,000 API credit; actual allocation, credit classification and issue-specific expiry unverified.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Canonical memo defines needed covered usage before expiry, actual rates and eligible credit, less onboarding, fallback and maintenance; no actual value assigned.",
       "restrictions_and_obligations": [
-        "No usage-policy exemption; no fine-tuning/nonpublic model entitlement.",
-        "Generic architecture comparison does not by itself establish safety/alignment fit.",
-        "For researchers in one approved program, the official guidance requires one shared Console organization."
+        "Canonical assessment maps API/credit/privacy/publication and service-priority conditions.",
+        "Research access differs from the separate Claude subscription program.",
+        "Retain the dated November policy transition and actual-award Unknowns."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Potential only for an actual safety/alignment evaluation protocol.",
-      "required_application_evidence": [],
+      "program_objectives": "Support selected safety and alignment research through API credit.",
+      "fit_with_pick_your_ai": "Proposed original uncertainty-evaluation corpus; provider priority and actual investigator fit remain Unknown.",
+      "required_application_evidence": [
+        "Complete the inspected form requirements mapped in the canonical memo using real investigator, account and research evidence."
+      ],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Actual responsible investigator and account/institutional authority",
+        "Scoped unresolved offer, rights, data and operating questions in canonical memo"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "High confidence in the bounded inspected-source observations; actual eligibility, terms applicability and useful awarded value remain unverified.",
       "sources": [
         {
           "url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Program/process/FAQ dated 2026-03-16; applicant qualification not established"
+        },
+        {
+          "url": "https://forms.gle/pZYC8f6qYqSKvRWn9",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Official intake redirect; direct public retrieval succeeded after search-reader failure"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdmq-KFTREKw9SXqDqj9kACfhd_5DYZSrifWR7Q3z0ZqAZZog/viewform?usp=send_form",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Actual public form content and terms links inspected; interactive submission not tested"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/commercial-terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Effective 2025-06-17; API agreement reviewed in canonical assessment"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/credit-terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Effective 2024-03-04; credit categories and actual-award exceptions kept separate"
+        },
+        {
+          "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Dated 2026-07-01; commercial retention and exceptions, not observed account behavior"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Effective 2026-09-10; proposal/contact scope distinct from API customer content"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/aup",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published next policy effective 2026-11-12; future to the review date"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/archive/22742366-2ef0-4c7a-a833-6523f10d3944",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Prior usage policy effective 2025-09-15; retained alongside announced transition"
+        },
+        {
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Announcement dated 2026-10-08 confirms 2026-11-12 effective date"
+        },
+        {
+          "url": "https://www.anthropic.com/supported-countries",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Observed official redirect; actual account/location not inspected"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/supported-regions",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published policy effective 2026-11-12; applicable October account policy remains to verify"
+        },
+        {
+          "url": "https://claude.com/contact-sales/claude-for-oss",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Researcher assessment checked only the separate subscription-versus-API-credit boundary"
         }
       ],
       "scoring": {
@@ -4055,8 +4144,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Determine thematic fit and verify credit expiry and publication restrictions.",
+      "independent_reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Establish the real investigator and research fit; resolve the scoped account, allocation, policy, expiry and publication questions in the canonical memo.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -4072,39 +4161,67 @@
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Anthropic",
-          "External Researcher Access Program"
+          "External Researcher Access Program",
+          "ANTHROPIC-RESEARCHER",
+          "Claude for Open Source"
         ],
         "canonical_match": "ANTHROPIC-RESEARCHER",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "39-record register, owning issue/comments and organization Anthropic-in-title search; #40 is canonical, separate subscription remains #61."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286",
+        "decision": "Accepted all 13 canonical program/intake research criteria; retain P2 and separate applicant, account, application, award and activation gates.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Actual applicant, account and provider decision remain Unknown.",
+          "Proposed workload is not executed research, awarded support or a spending commitment.",
+          "Technical COMMENT records an independently performed project-session findings review, not a separate-account GitHub APPROVED vote or institutional acceptance."
         ]
       },
       "owning_research_key": "E05-01B",
       "source_urls": [
-        "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program"
+        "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+        "https://forms.gle/pZYC8f6qYqSKvRWn9",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdmq-KFTREKw9SXqDqj9kACfhd_5DYZSrifWR7Q3z0ZqAZZog/viewform?usp=send_form",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/credit-terms",
+        "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+        "https://www.anthropic.com/legal/privacy",
+        "https://www.anthropic.com/legal/aup",
+        "https://www.anthropic.com/legal/archive/22742366-2ef0-4c7a-a833-6523f10d3944",
+        "https://www.anthropic.com/news/2026-usage-policy-update",
+        "https://www.anthropic.com/supported-countries",
+        "https://www.anthropic.com/legal/supported-regions",
+        "https://claude.com/contact-sales/claude-for-oss"
       ],
       "source_evidence": [
-        "Current guidance targets high-priority AI safety/alignment research and evaluates on the first Monday each month.",
-        "Typical successful allocation is $1,000 API credits; standard public suite only, not web subscriptions or nonpublic models."
+        "Public intake content and linked governing sources were inspected.",
+        "The canonical assessment distinguishes the proposed safety question, actual applicant Unknowns and program-specific award questions."
       ],
-      "benefit": "Typically $1,000 API credits; expiry not stated in reviewed page",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "benefit": "Typically $1,000 API credit; actual allocation, credit classification and issue-specific expiry unverified.",
+      "estimated_usable_value_method": "Use the canonical memo method only after actual demand, eligible allocation and applicable account terms are evidenced.",
+      "source_freshness": "Actual public source retrievals on 2026-10-19; version/effective dates, prior observations and access limitations are preserved in the canonical memo.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program"
+        "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+        "https://forms.gle/pZYC8f6qYqSKvRWn9",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdmq-KFTREKw9SXqDqj9kACfhd_5DYZSrifWR7Q3z0ZqAZZog/viewform?usp=send_form",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/credit-terms",
+        "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+        "https://www.anthropic.com/legal/privacy",
+        "https://www.anthropic.com/legal/aup",
+        "https://www.anthropic.com/legal/archive/22742366-2ef0-4c7a-a833-6523f10d3944",
+        "https://www.anthropic.com/news/2026-usage-policy-update",
+        "https://www.anthropic.com/supported-countries",
+        "https://www.anthropic.com/legal/supported-regions",
+        "https://claude.com/contact-sales/claude-for-oss"
       ],
-      "application_url": null,
+      "application_url": "https://forms.gle/pZYC8f6qYqSKvRWn9",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -4112,29 +4229,32 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "Visible public fields inspected; interactive submission and actual applicant answers not tested or supplied.",
       "published_qualification_requirements": [
-        "Research that addresses high-priority AI safety or alignment questions",
-        "For a multi-researcher program, use the same Anthropic Console organization for program members"
+        "Qualifying safety/alignment proposal",
+        "Real investigator and account authority",
+        "Applicable supported-region and usage requirements"
       ],
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
-      "application_route_description": "Official help page links forms.gle application; destination and applicant access require verification before use.",
+      "application_route_description": "Canonical memo records the observed public form, redirect, requirements, retrieval limits and contact-link mismatch.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the complete canonical findings and primary sources with the complementary Google form/general-terms review explicitly attributed in the review; research acceptance only, not applicant qualification, legal acceptance or empirical execution.",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted; actual applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
-      "current_disposition": null,
+      "current_disposition": "Retain P2; actual investigator, safety scope and account/terms gates unresolved",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Retain P2; actual investigator, safety scope and account/terms gates unresolved",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -4142,7 +4262,8 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 40,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable": "research/compute/anthropic-researcher-access.md"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -4310,44 +4431,99 @@
       "category": "inference",
       "support_type": "api_credit",
       "official_program_url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
-      "official_application_url": null,
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Academic/research eligibility insufficiently specified in reviewed overview",
-      "available_before_incorporation": "Unknown",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Unknown; recognition does not resolve unverified applicant, intake or representation requirements.",
+      "official_application_url": "https://forms.gle/HMviQstU8PxC5iCt5",
+      "eligibility_jurisdiction": "Actual applicant location Unknown; verify applicable service-region and account requirements.",
+      "legal_entity_requirements": "Affiliated academic researcher required; actual affiliation and institutional authority not established.",
+      "available_before_incorporation": "Unknown for actual applicant; independent nonacademic project alone does not establish the required affiliation.",
+      "available_through_fiscal_sponsorship": "Unknown; fiscal sponsorship does not supply academic affiliation.",
+      "available_after_501c3_recognition": "Unknown; recognition alone does not establish an eligible academic organization and affiliated applicant.",
       "eligibility_status": "Unknown",
-      "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Program named; actual intake and route not verified",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "eligibility_conditions": [
+        "Qualifying academic affiliation",
+        "Real applicant and project authority",
+        "Supported service region and applicable API terms"
+      ],
+      "application_gate": "Actual eligible affiliated applicant, institutional/project authority and reviewed study/account terms must be established before submission.",
+      "application_status": "Official academic section and public application content inspected; actual selection Unknown",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "API credits; amount, duration and quotas Unknown",
+      "benefit_amount_or_capacity": "Gemini API credit and potential quota support; amount, duration and actual capacity Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Canonical memo defines needed covered usage before expiry, actual rates and eligible credit, less onboarding, fallback and maintenance; no actual value assigned.",
       "restrictions_and_obligations": [
-        "Do not infer independent-project or fiscal-sponsor eligibility.",
-        "No existing academic partnership confirmed."
+        "Canonical assessment maps program, API, publication, data, billing and quota conditions.",
+        "No grant-specific data classification, spend guarantee, expiry, publication or renewal entitlement established.",
+        "General Cloud and consumer support are separate."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Conditional research-partner route for reproducible evaluation.",
-      "required_application_evidence": [],
+      "program_objectives": "Academic research support; canonical memo records the published evaluation interests.",
+      "fit_with_pick_your_ai": "Proposed reproducible uncertainty evaluation with a real eligible academic lead; no partnership established.",
+      "required_application_evidence": [
+        "Complete the inspected form requirements mapped in the canonical memo using real investigator, account and research evidence."
+      ],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Actual responsible investigator and account/institutional authority",
+        "Scoped unresolved offer, rights, data and operating questions in canonical memo"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "High confidence in the bounded inspected-source observations; actual eligibility, terms applicability and useful awarded value remain unverified.",
       "sources": [
         {
           "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Updated 2026-09-23; full academic-program section and intake link inspected"
+        },
+        {
+          "url": "https://forms.gle/HMviQstU8PxC5iCt5",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Official intake redirect; direct public retrieval succeeded after search-reader failure"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSd5QWrIjXf5Pupmsl_zzWZeGvHtXSpVbcvOlxdkbUIuj6AWEA/viewform?usp=send_form",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Actual public form fields and proposal-data statement inspected; no submission"
+        },
+        {
+          "url": "https://ai.google.dev/gemini-api/terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Effective 2026-03-23; published API terms, not actual award/account classification"
+        },
+        {
+          "url": "https://developers.google.com/terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Modified 2021-11-09; general API terms and scope precedence reviewed"
+        },
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/billing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2026-09-28; billing mechanics and conflicting switch/refund wording retained"
+        },
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2026-10-15; general quota scope, not account-specific capacity"
+        },
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/available-regions",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Updated 2026-04-28; service availability distinguished from form country choices"
+        },
+        {
+          "url": "https://policies.google.com/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Effective 2026-10-16; general policy does not establish program-specific retention"
         }
       ],
       "scoring": {
@@ -4364,8 +4540,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Locate authoritative application terms or document a bounded unknown result.",
+      "independent_reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Identify a real qualified academic lead and resolve actual project, allocation, data, expiry, publication and cost-control questions in the canonical memo.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -4381,37 +4557,57 @@
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Google",
-          "Gemini Academic Program"
+          "Gemini",
+          "Gemini Academic Program",
+          "GOOGLE-GEMINI-ACADEMIC"
         ],
         "canonical_match": "GOOGLE-GEMINI-ACADEMIC",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "39-record register, owning issue/comments and organization Gemini-in-title search returned #41; reuse existing identity."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286",
+        "decision": "Accepted all 13 canonical program/intake research criteria; retain P2 and separate applicant, account, application, award and activation gates.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Actual applicant, account and provider decision remain Unknown.",
+          "Proposed workload is not executed research, awarded support or a spending commitment.",
+          "Technical COMMENT records an independently performed project-session findings review, not a separate-account GitHub APPROVED vote or institutional acceptance."
         ]
       },
       "owning_research_key": "E05-01C",
       "source_urls": [
-        "https://ai.google.dev/gemini-api/docs/gemini-for-research"
+        "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+        "https://forms.gle/HMviQstU8PxC5iCt5",
+        "https://docs.google.com/forms/d/e/1FAIpQLSd5QWrIjXf5Pupmsl_zzWZeGvHtXSpVbcvOlxdkbUIuj6AWEA/viewform?usp=send_form",
+        "https://ai.google.dev/gemini-api/terms",
+        "https://developers.google.com/terms",
+        "https://ai.google.dev/gemini-api/docs/billing",
+        "https://ai.google.dev/gemini-api/docs/rate-limits",
+        "https://ai.google.dev/gemini-api/docs/available-regions",
+        "https://policies.google.com/privacy"
       ],
       "source_evidence": [
-        "Current official research page states Gemini API credits are available to scientists/academic researchers through a Gemini Academic Program.",
-        "Linked anchor returned the same overview; no complete application/eligibility terms were established."
+        "The full current program section and public intake were inspected; the prior limited overview observation is retained at its immutable revision.",
+        "Actual applicant eligibility, grant terms and account treatment remain separate Unknowns."
       ],
-      "benefit": "API credits; amount, duration and quotas Unknown",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "benefit": "Gemini API credit and potential quota support; amount, duration and actual capacity Unknown.",
+      "estimated_usable_value_method": "Use the canonical memo method only after actual demand, eligible allocation and applicable account terms are evidenced.",
+      "source_freshness": "Actual public source retrievals on 2026-10-19; version/effective dates, prior observations and access limitations are preserved in the canonical memo.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://ai.google.dev/gemini-api/docs/gemini-for-research"
+        "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+        "https://forms.gle/HMviQstU8PxC5iCt5",
+        "https://docs.google.com/forms/d/e/1FAIpQLSd5QWrIjXf5Pupmsl_zzWZeGvHtXSpVbcvOlxdkbUIuj6AWEA/viewform?usp=send_form",
+        "https://ai.google.dev/gemini-api/terms",
+        "https://developers.google.com/terms",
+        "https://ai.google.dev/gemini-api/docs/billing",
+        "https://ai.google.dev/gemini-api/docs/rate-limits",
+        "https://ai.google.dev/gemini-api/docs/available-regions",
+        "https://policies.google.com/privacy"
       ],
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
@@ -4420,27 +4616,33 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
-      "published_qualification_requirements": [],
+      "required_application_evidence_status": "Visible public fields inspected; interactive submission and actual applicant answers not tested or supplied.",
+      "published_qualification_requirements": [
+        "Qualifying academic affiliation",
+        "Real applicant and project authority",
+        "Supported service region and applicable API terms"
+      ],
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
-      "application_url": null,
+      "application_url": "https://forms.gle/HMviQstU8PxC5iCt5",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the complete canonical findings and primary sources with the complementary Google form/general-terms review explicitly attributed in the review; research acceptance only, not applicant qualification, legal acceptance or empirical execution.",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted; actual applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Canonical memo maps the observed public form and distinguishes applicant affiliation, project/tier evidence and unknown award conditions.",
+      "current_disposition": "Retain P2 for a real academic-partner route; actual affiliation and award/account facts unresolved",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Retain P2 for a real academic-partner route; actual affiliation and award/account facts unresolved",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -4448,7 +4650,8 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 41,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable": "research/compute/google-gemini-research.md"
     },
     {
       "schema_version": "sustainability-opportunity/v1",

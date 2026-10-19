@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 102,
+  "source_count": 121,
   "records_count": 39,
   "sources": [
     {
@@ -27,7 +27,7 @@
     {
       "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Updated 2026-09-23; full academic-program section and intake link inspected",
       "opportunity_ids": [
         "GOOGLE-GEMINI-ACADEMIC"
       ],
@@ -37,7 +37,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -141,9 +141,10 @@
     {
       "url": "https://claude.com/contact-sales/claude-for-oss",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published facts recorded for linked opportunities; ANTHROPIC-RESEARCHER: Researcher assessment checked only the separate subscription-versus-API-credit boundary",
       "opportunity_ids": [
-        "ANTHROPIC-CLAUDE-OSS"
+        "ANTHROPIC-CLAUDE-OSS",
+        "ANTHROPIC-RESEARCHER"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -741,7 +742,7 @@
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
       "state": "Not Verified — endpoint review required",
-      "last_access_result": "Session c3fa0109d6ff: tool internal access error without workbook bytes or visible HTTP status. Earlier seed HTTP 403 remains historical, not a newly observed status.",
+      "last_access_result": "Independent Apple reviewer: explicit HTTP403 Forbidden at approximately12:30UTC with no workbook bytes; actual public review5571815080. The author's prior status-less internal access error and historical seed403 remain separately recorded.",
       "source_roles": [
         "application_endpoint"
       ],
@@ -757,6 +758,14 @@
           "scope": "Session c3fa0109d6ff link-follow and direct web open",
           "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
           "result": "Tool internal access error; no workbook bytes or visible HTTP status; not a new observed 403"
+        },
+        {
+          "date": "2026-10-19",
+          "time_utc": "12:30 (approximately)",
+          "scope": "Independent Apple review lane, session c3fa0109d6ff",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Explicit HTTP 403 Forbidden; no workbook bytes or verified fields.",
+          "evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
         }
       ]
     },
@@ -992,7 +1001,7 @@
     {
       "url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Program/process/FAQ dated 2026-03-16; applicant qualification not established",
       "opportunity_ids": [
         "ANTHROPIC-RESEARCHER"
       ],
@@ -1002,7 +1011,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -1714,6 +1723,348 @@
       ]
     },
     {
+      "url": "https://forms.gle/pZYC8f6qYqSKvRWn9",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Official intake redirect; direct public retrieval succeeded after search-reader failure",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdmq-KFTREKw9SXqDqj9kACfhd_5DYZSrifWR7Q3z0ZqAZZog/viewform?usp=send_form",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public form content and terms links inspected; interactive submission not tested",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2025-06-17; API agreement reviewed in canonical assessment",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/credit-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2024-03-04; credit categories and actual-award exceptions kept separate",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Dated 2026-07-01; commercial retention and exceptions, not observed account behavior",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2026-09-10; proposal/contact scope distinct from API customer content",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/aup",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published next policy effective 2026-11-12; future to the review date",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/archive/22742366-2ef0-4c7a-a833-6523f10d3944",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Prior usage policy effective 2025-09-15; retained alongside announced transition",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Announcement dated 2026-10-08 confirms 2026-11-12 effective date",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/supported-countries",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Observed official redirect; actual account/location not inspected",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/legal/supported-regions",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published policy effective 2026-11-12; applicable October account policy remains to verify",
+      "opportunity_ids": [
+        "ANTHROPIC-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://forms.gle/HMviQstU8PxC5iCt5",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Official intake redirect; direct public retrieval succeeded after search-reader failure",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSd5QWrIjXf5Pupmsl_zzWZeGvHtXSpVbcvOlxdkbUIuj6AWEA/viewform?usp=send_form",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public form fields and proposal-data statement inspected; no submission",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2026-03-23; published API terms, not actual award/account classification",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.google.com/terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Modified 2021-11-09; general API terms and scope precedence reviewed",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/billing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-09-28; billing mechanics and conflicting switch/refund wording retained",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-10-15; general quota scope, not account-specific capacity",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/available-regions",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-04-28; service availability distinguished from form country choices",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
+      "opportunity_ids": [
+        "GOOGLE-GEMINI-ACADEMIC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+      ],
+      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://aws.amazon.com/awscredits/",
       "last_verified": "2026-10-19",
       "verification_scope": "Promotional Credit Terms dated 2026-09-24; current general credit conditions, not an actual OSS award",
@@ -1936,6 +2287,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 85,
+  "source_evidence_url_count": 104,
   "additional_unverified_endpoint_count": 17
 }

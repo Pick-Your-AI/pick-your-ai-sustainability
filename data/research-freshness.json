@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 72,
+  "source_count": 79,
   "records_count": 39,
   "sources": [
     {
@@ -672,7 +672,7 @@
     {
       "url": "https://openai.com/form/researcher-access-program/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current program content; published purpose, benefit, schedule and entry route, not an applicant decision",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -682,7 +682,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -691,8 +691,8 @@
     {
       "url": "https://openai.smapply.org",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Direct linked public homepage at https://openai.smapply.org/ showed Programs, search and signup. No program-specific listing or current form fields were returned; no technical cause, closure or account result inferred.",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -702,7 +702,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Homepage observed; program-specific form Not Verified",
       "source_roles": [
         "application_endpoint"
       ]
@@ -1374,6 +1374,132 @@
         "governing_source_evidence",
         "program_endpoint"
       ]
+    },
+    {
+      "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/sharing-publication-policy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2022-11-14; publication conditions and historical intake wording distinguished from current FAQ",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/services-agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2025-12-01, effective 2026-01-01; relevant API, content, payment, publicity and policy clauses; actual applicant agreement/offer unknown",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/supported-countries",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current supported-country list after the program-linked platform URL redirect; applicant location not inferred",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/your-data",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current training-default, monitoring and endpoint-retention sections; account settings not inspected",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/service-credit-terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Updated 2026-01-01; full credit terms read, no balance or award established",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://openai.com/policies/usage-policies/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Effective 2025-10-29; current policy text read, no exception or approval established",
+      "opportunity_ids": [
+        "OPENAI-RESEARCHER"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly source review",
+        "Before reliance, application, agreement, activation or public qualification claim",
+        "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
+      ],
+      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -1382,6 +1508,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 55,
+  "source_evidence_url_count": 62,
   "additional_unverified_endpoint_count": 17
 }

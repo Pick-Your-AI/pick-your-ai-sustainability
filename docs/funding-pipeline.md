@@ -4,6 +4,8 @@
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
+The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md) adds a proposed explanation-faithfulness study and an explicit applicant/intake evidence checklist. Its source findings are In Review; the opportunity remains Discovered, all applicant routes Unknown, and score/value null. Application and activation remain separate decisions.
+
 | Stage | Required evidence | Current evidence |
 |---|---|---|
 | Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 39 seed records |

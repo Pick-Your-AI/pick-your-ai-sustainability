@@ -5471,43 +5471,188 @@
       "support_type": "api_free_tier",
       "official_program_url": "https://console.groq.com/docs/rate-limits",
       "official_application_url": "https://console.groq.com",
-      "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
-      "legal_entity_requirements": "Eligible service account; nonprofit incorporation not stated as a condition",
-      "available_before_incorporation": "Conditionally Eligible subject to service terms",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "eligibility_jurisdiction": "Unknown; verify actual customer country and applicable service/model/export requirements",
+      "legal_entity_requirements": "An actual adult individual or entity customer and authorized use; no nonprofit-specific free-plan entitlement established",
+      "available_before_incorporation": "Unknown / conditional: actual customer, applicable agreement and competing-use scope must be established",
+      "available_through_fiscal_sponsorship": "Unknown; verify actual contracting/account party and sponsor arrangement; no automatic transferred entitlement",
+      "available_after_501c3_recognition": "Unknown / conditional; recognition does not remove customer, scope, jurisdiction or model requirements",
       "eligibility_status": "Unknown",
-      "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Public service allowance; no research grant application verified",
-      "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "eligibility_conditions": [
+        "Identify the actual customer, adult account holder, country and authority; the accepted entity baseline does not establish them.",
+        "Resolve Services Agreement section 6.3(e) for the intended AI planning/evaluation use and obtain the applicable service/model terms.",
+        "Verify current free-account model entitlement and exact organization/day/minute/input/output allowances; the public table has a plan-label ambiguity.",
+        "Settle input/model/publication rights and actual data handling before any evaluation or public comparison."
+      ],
+      "application_gate": "Hold for actual customer/authority, applicable terms and competing-use scope, model/data/publication rights and exact account entitlement. This research authorizes no account, application, agreement, paid upgrade or experiment.",
+      "application_status": "Public service entry point inspected without authentication; no complete direct research-grant intake verified. NAIRR is a separate historical support lead with current intake Unknown.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Rate-limited inference, not cash or an awarded credit grant",
+      "benefit_amount_or_capacity": "Provisional displayed limits for each GPT-OSS 20B/120B alias: 30 RPM, 1,000 RPD, 8,000 TPM, 200,000 TPD; plan-label conflict and actual account entitlement unresolved. Rate-limited service, not cash or an award.",
       "currency": null,
       "estimated_usable_value": null,
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "restrictions_and_obligations": [
-        "Use organization-level limits; no quota multiplication through accounts.",
-        "Verify current model catalog, data terms and benchmark rights."
+        "Actual service/model terms and section 6.3(e) scope need resolution; the service-specific link redirected to website terms.",
+        "Respect organization-wide limits and all stricter actual account limits; no quota multiplication or paid fallback.",
+        "Use wholly authored benign synthetic inputs only under the proposed plan; rights/publication/account-data gates remain unresolved.",
+        "Published retention/ZDR statements are not actual account settings or an independent audit.",
+        "Attribute nominative word use and include a clear nearby nonaffiliation disclaimer for truthful comparisons; logos require permission. Do not imply sponsorship or endorsement, and preserve independent negative findings.",
+        "Review actual reporting, renewal, deletion/export and any private order before acceptance; no fixed grant obligations were established."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Small compatibility smoke tests, potentially insufficient for statistically robust benchmarks.",
+      "program_objectives": "Public developer inference access; separate historical NAIRR research contribution is retained as a discovery lead",
+      "fit_with_pick_your_ai": "Conditional 120-attempt, two-model interface/evidence-capture smoke plan using wholly authored benign synthetic prompts; not a quality ranking, capacity benchmark or empirical issue acceptance",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Authorized account holder and commitment approver",
-        "Relevant legal, data or monetization questions as identified"
+        "Actual customer/account and commitment authority; no person appointed by this assessment",
+        "Qualified applicable-terms and section 6.3(e) scope determination before activation/publication",
+        "Actual free-account/model limits and complete generated-token accounting before any bounded evaluation",
+        "Current NAIRR intake/resource/applicant evidence only if the separate formal-support lead is pursued"
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "Current official public facts and documented conflicts/access results are source-checked. Account applicability, applicant eligibility, precise free entitlement, current NAIRR intake and usable value remain Unknown.",
       "sources": [
         {
           "url": "https://console.groq.com/docs/rate-limits",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "last_attempted": "2026-10-19",
+          "review_scope": "Displayed quota table and plan-label conflict; exact account limits unverified"
+        },
+        {
+          "url": "https://console.groq.com/docs/billing-faqs",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Public free/developer upgrade and billing boundary"
+        },
+        {
+          "url": "https://console.groq.com",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Public endpoint redirected to /home; no authenticated account or complete registration inspected"
+        },
+        {
+          "url": "https://console.groq.com/docs/legal/contractual-framework-overview",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Current public framework; actual offline/account agreement applicability unverified"
+        },
+        {
+          "url": "https://console.groq.com/docs/legal/services-agreement",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Current published customer/use/model/data restrictions, including section 6.3(e); no actual customer qualification"
+        },
+        {
+          "url": "https://console.groq.com/docs/legal",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Current legal index and service-specific link"
+        },
+        {
+          "url": "https://groq.com/groq-service-specific-terms",
+          "source_kind": "official",
+          "last_verified": null,
+          "last_attempted": "2026-10-19",
+          "review_scope": "Redirected to website Terms of Use; distinct current service-specific terms not obtained"
+        },
+        {
+          "url": "https://groq.com/terms-of-use",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Redirect target is website terms, not accepted as missing service-specific terms"
+        },
+        {
+          "url": "https://console.groq.com/docs/legal/ai-policy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Published acceptable-use and quota protections"
+        },
+        {
+          "url": "https://console.groq.com/docs/your-data",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Published retention/ZDR/storage policy; actual account settings unverified"
+        },
+        {
+          "url": "https://console.groq.com/docs/models",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Current Production/Preview catalog; account entitlement and empirical performance unverified"
+        },
+        {
+          "url": "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Provider-hosted model description; no license acceptance or measured identity"
+        },
+        {
+          "url": "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Provider-hosted model description; no license acceptance or measured identity"
+        },
+        {
+          "url": "https://console.groq.com/docs/deprecations",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Current lifecycle and dated historical model access changes"
+        },
+        {
+          "url": "https://groq.com/trademark-policy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Published word-mark, logo and endorsement conditions"
+        },
+        {
+          "url": "https://console.groq.com/docs/api-reference",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Chat request/response fields; no API invocation; reasoning-token cap accounting remains a preflight gate"
+        },
+        {
+          "url": "https://groq.com/newsroom/groq-is-selected-to-provide-access-to-worlds-fastest-ai-inference-engine-for-the-national-ai-research-resource-nairr-pilot",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Historical 2024-05-06 NAIRR contribution announcement; no current intake claim"
+        },
+        {
+          "url": "https://www.nsf.gov/focus-areas/si/nairr",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Current page retains Groq pilot contribution for up to ten teams; current allocation/intake unverified"
+        },
+        {
+          "url": "https://nairrpilot.org/",
+          "source_kind": "official",
+          "last_verified": null,
+          "last_attempted": "2026-10-19",
+          "review_scope": "Robots access block; no current form, deadline, account or successful source verification"
+        },
+        {
+          "url": "https://groq.com/community/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Redirected to homepage; no program application route established"
         }
       ],
       "scoring": {
@@ -5520,57 +5665,101 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P2 is a qualitative research priority for a bounded integration smoke check. The actual customer, applicable terms/competing-use scope, free-account entitlement and usable value are unresolved. All eight factor ratings and the weighted total remain null; the canonical note explains each factor. No purchase displacement, award, measured effort or realized savings is established."
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Map demand to exact quotas and investigate a separate formal-support route only if necessary.",
+      "independent_reviewer": "ChatGPT in-session /root; independent findings review through the shared CompleteDotTech account",
+      "next_action": "Resolve the actual customer/agreement scope, rights and account entitlement before any service use or comparison-results publication; revisit the separate formal-support lead only on applicable current evidence.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "next_verification_trigger": "Existing monthly research review and before reliance, account registration, agreement, activation, evaluation, publication or application; also changed terms, redirects, quotas, catalog, billing or NAIRR intake",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "No grant reporting calendar or binding offer established; inspect actual terms/offer before acceptance. No application or activation in this execution.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
           "Groq",
-          "Public free-plan inference allowance"
+          "GroqCloud",
+          "GROQ-FREE-PLAN",
+          "NAIRR Groq"
         ],
         "canonical_match": "GROQ-FREE-PLAN",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "Full 39-record register and live organization issue/PR search before the 11:11 UTC #43 claim: #43 with parent #38 and epic #6, no Groq PR duplicate; NAIRR retained as a discovery lead, not a duplicate award record."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "ChatGPT in-session /root; independent findings review through the shared CompleteDotTech account",
+        "reviewed_revision": "5df0b8a517098a6f22cc457e97f85682d70264f6",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/92#pullrequestreview-5571236854",
+        "decision": "Accepted all thirteen original #43 research criteria and the complete canonical assessment, including explicit Unknowns and the conditional P2 disposition.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Substantive in-session COMMENT through the shared account is not a separate-account GitHub APPROVED vote.",
+          "Verified records independent acceptance of the program assessment; actual applicant qualification, contract applicability, account limits, model/data rights, financial value and external actions remain unestablished.",
+          "No account, application, agreement, paid action, experiment, award or activation was performed; actual main delivery and issue reconciliation remain separate."
         ]
       },
       "owning_research_key": "E05-01E",
       "source_urls": [
-        "https://console.groq.com/docs/rate-limits"
+        "https://console.groq.com/docs/rate-limits",
+        "https://console.groq.com/docs/billing-faqs",
+        "https://console.groq.com",
+        "https://console.groq.com/docs/legal/contractual-framework-overview",
+        "https://console.groq.com/docs/legal/services-agreement",
+        "https://console.groq.com/docs/legal",
+        "https://groq.com/groq-service-specific-terms",
+        "https://groq.com/terms-of-use",
+        "https://console.groq.com/docs/legal/ai-policy",
+        "https://console.groq.com/docs/your-data",
+        "https://console.groq.com/docs/models",
+        "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+        "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+        "https://console.groq.com/docs/deprecations",
+        "https://groq.com/trademark-policy",
+        "https://console.groq.com/docs/api-reference",
+        "https://groq.com/newsroom/groq-is-selected-to-provide-access-to-worlds-fastest-ai-inference-engine-for-the-national-ai-research-resource-nairr-pilot",
+        "https://www.nsf.gov/focus-areas/si/nairr",
+        "https://nairrpilot.org/",
+        "https://groq.com/community/"
       ],
       "source_evidence": [
-        "Official docs expose model-specific Free Plan limits and organization-level quotas; exact account limits may differ."
+        "Public quota table and model catalog support a provisional small evaluation plan, with a plan-label conflict and exact account entitlement left unresolved.",
+        "Current service terms require actual customer/applicable-agreement and competing-use review; the service-specific link redirected to a different document.",
+        "Historical Groq/NSF NAIRR pilot contribution is distinct from the public allowance; current intake was not verified and the portal access block is retained."
       ],
-      "benefit": "Rate-limited inference, not cash or an awarded credit grant",
+      "benefit": "Conditional public API allowance; no cash, awarded credits, reserved capacity or demonstrated avoided cost",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "source_freshness": "Official sources inspected 2026-10-19; redirect and robots-block limits are explicit in research/compute/groq-support.md and the freshness register.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "scoring_justification": "P2 is a qualitative research priority for a bounded integration smoke check. The actual customer, applicable terms/competing-use scope, free-account entitlement and usable value are unresolved. All eight factor ratings and the weighted total remain null; the canonical note explains each factor. No purchase displacement, award, measured effort or realized savings is established.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://console.groq.com/docs/rate-limits"
+        "https://console.groq.com/docs/rate-limits",
+        "https://console.groq.com/docs/billing-faqs",
+        "https://console.groq.com",
+        "https://console.groq.com/docs/legal/contractual-framework-overview",
+        "https://console.groq.com/docs/legal/services-agreement",
+        "https://console.groq.com/docs/legal",
+        "https://groq.com/groq-service-specific-terms",
+        "https://groq.com/terms-of-use",
+        "https://console.groq.com/docs/legal/ai-policy",
+        "https://console.groq.com/docs/your-data",
+        "https://console.groq.com/docs/models",
+        "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+        "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+        "https://console.groq.com/docs/deprecations",
+        "https://groq.com/trademark-policy",
+        "https://console.groq.com/docs/api-reference",
+        "https://groq.com/newsroom/groq-is-selected-to-provide-access-to-worlds-fastest-ai-inference-engine-for-the-national-ai-research-resource-nairr-pilot",
+        "https://www.nsf.gov/focus-areas/si/nairr",
+        "https://nairrpilot.org/",
+        "https://groq.com/community/"
       ],
       "application_url": "https://console.groq.com",
       "internal_application_review_controls": [
@@ -5580,34 +5769,45 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
-      "published_qualification_requirements": [],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
+      "required_application_evidence_status": "Public console entry only; complete current registration/private terms and any formal-support intake remain unverified. No application fields or attachments are invented.",
+      "published_qualification_requirements": [
+        "Current Services Agreement contemplates adult individual/entity customers and authorized developer/business use; actual agreement applicability must be established.",
+        "Service/model/use restrictions apply independently of nonprofit recognition or fiscal sponsorship."
+      ],
+      "currency_status": "Not applicable to a stated cash award: none is established. Currency and usable value remain null; no paid-rate estimate is counted as realized support.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the complete canonical findings, eighteen official source scopes and record projections; all thirteen research criteria accepted, with actual source access limits retained.",
+        "reviewed_revision": "5df0b8a517098a6f22cc457e97f85682d70264f6",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/92#pullrequestreview-5571236854"
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical program/intake findings independently accepted",
       "applicant_qualification_status": "Unknown",
-      "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
+      "score_reason": "P2 is a qualitative research priority for a bounded integration smoke check. The actual customer, applicable terms/competing-use scope, free-account entitlement and usable value are unresolved. All eight factor ratings and the weighted total remain null; the canonical note explains each factor. No purchase displacement, award, measured effort or realized savings is established.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
-      "current_disposition": null,
+      "application_route_description": "Public Groq console entry for the service allowance; distinct NAIRR lead requires current intake evidence. No registration, form, application or contact performed.",
+      "current_disposition": "Conditional small evaluation option; activation and comparison-results publication deferred",
       "deadline_local_time": null,
       "deadline_utc": null,
-      "gate": null,
-      "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
-      "related_research_issue_urls": [],
+      "gate": "Actual customer/terms/model/data/publication and free-account entitlement unresolved; canonical research findings independently accepted",
+      "jurisdiction": "Unknown for the actual intended customer",
+      "priority_scope_note": "P2 is a qualitative research priority, not an application rank, funding probability or deadline-driven commitment",
+      "recommended_disposition": "Retain P2 conditional research option; no paid upgrade or formal application now",
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/36",
+        "https://github.com/Pick-Your-AI/pick-your-ai-research/issues/41"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 43,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "research_assessment_path": "research/compute/groq-support.md",
+      "research_assessment_status": "Canonical program/intake findings independently accepted at source 5df0b8a517098a6f22cc457e97f85682d70264f6 in review 5571236854; actual applicant/account/use qualification and delivery remain separate evidence boundaries."
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -7233,8 +7433,8 @@
       ],
       "application_gate": "No application or acquisition authorized by this assessment. Establish the finite receiving need, actual recipient, specific offer/terms, custody and financial/exit review before external representation or commitment.",
       "application_status": "No application in this execution; historical state Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -7406,8 +7606,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Accept or correct the complete findings through independent review, then resolve the finite receiving need and actual recipient before any provider-specific request.",
+      "independent_reviewer": "Independent in-session Android/source-review lane, using the existing connected project account.",
+      "next_action": "Resolve the finite receiving need, actual recipient and custody authority, specific equipment offer and complete cost/exit terms before any provider-specific request or acquisition.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -7439,13 +7639,15 @@
         ]
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Not reviewed; complete independent findings acceptance pending",
+        "reviewer": "Independent in-session Android/source-review lane, using the existing connected project account. This is a substantive COMMENT, not a separate-account GitHub approval.",
+        "reviewed_revision": "25eb4b8e047e2adb736d6540b4588b1f3a462697",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted the complete hardware findings against all fourteen literal #54 criteria, including the lifecycle criterion and supported conditional/deferred disposition. The acceptance amendment clarifies initial asset basis and sanitization verification and validation.",
         "limitations": [
-          "No actual applicant, provider offer, physical inventory, unit condition, account/form or financial evidence established.",
-          "Bounded primary-source observations do not establish acceptance of the complete package."
+          "No actual applicant, provider offer, physical inventory, unit condition, account/form, financial entry, received asset or sanitization result is established.",
+          "The separately attributed TechSoup source and eligibility review is https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573318362.",
+          "Research acceptance, exact receiving composition, hosted qualification and actual main delivery have separate receipts; no application, acquisition or external authority is inferred."
         ]
       },
       "owning_research_key": "E06-04",
@@ -7487,7 +7689,7 @@
         "https://support.techsoup.org/hc/en-us/articles/360030646474-Ineligible-Fiscally-Sponsored-Organizations-Projects-and-Initiatives",
         "https://support.techsoup.org/hc/en-us/articles/29504729858587-Eligiibility-Programs-Departments-and-Projects-of-Nonprofit-Organizations"
       ],
-      "source_review_status": "Primary program sources checked; U.S. fiscal-sponsored route excluded; recorded access/policy limits and full findings acceptance pending",
+      "source_review_status": "Canonical hardware program findings independently accepted; documented U.S. fiscal-sponsored route exclusion and access/qualification limits retained.",
       "award_status": "Unknown; no award evidence established",
       "current_disposition": "Conditional lead for an actually eligible recipient; do not pursue the excluded U.S. fiscal-sponsored project route. Defer any order until the single uncovered need, product terms and full ownership costs are evidenced.",
       "score": null,
@@ -7650,8 +7852,8 @@
       ],
       "application_gate": "No application or acquisition authorized by this assessment. Establish the finite receiving need, actual recipient, specific offer/terms, custody and financial/exit review before external representation or commitment.",
       "application_status": "No application in this execution; historical state Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -7753,8 +7955,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Accept or correct the complete findings through independent review, then resolve the finite receiving need and actual recipient before any provider-specific request.",
+      "independent_reviewer": "Independent in-session Android/source-review lane, using the existing connected project account.",
+      "next_action": "Resolve the finite receiving need, actual recipient and custody authority, specific equipment offer and complete cost/exit terms before any provider-specific request or acquisition.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -7785,13 +7987,15 @@
         ]
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Not reviewed; complete independent findings acceptance pending",
+        "reviewer": "Independent in-session Android/source-review lane, using the existing connected project account. This is a substantive COMMENT, not a separate-account GitHub approval.",
+        "reviewed_revision": "25eb4b8e047e2adb736d6540b4588b1f3a462697",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573387399",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted the complete hardware findings against all fourteen literal #54 criteria, including the lifecycle criterion and supported conditional/deferred disposition. The acceptance amendment clarifies initial asset basis and sanitization verification and validation.",
         "limitations": [
-          "No actual applicant, provider offer, physical inventory, unit condition, account/form or financial evidence established.",
-          "Bounded primary-source observations do not establish acceptance of the complete package."
+          "No actual applicant, provider offer, physical inventory, unit condition, account/form, financial entry, received asset or sanitization result is established.",
+          "The separately attributed TechSoup source and eligibility review is https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/108#pullrequestreview-5573318362.",
+          "Research acceptance, exact receiving composition, hosted qualification and actual main delivery have separate receipts; no application, acquisition or external authority is inferred."
         ]
       },
       "owning_research_key": "E06-04",
@@ -7814,7 +8018,7 @@
         "https://storage.fasb.org/ASU_2020-07.pdf",
         "https://www.irs.gov/publications/p561"
       ],
-      "source_review_status": "Primary program sources checked with recorded access and policy limitations; complete findings acceptance pending",
+      "source_review_status": "Canonical hardware program findings independently accepted with explicit applicant, access and offer Unknowns.",
       "award_status": "Unknown; no award evidence established",
       "current_disposition": "Conditional lead; defer any application or payment until beneficiary fit, logistics, concrete unit terms and useful value are evidenced",
       "score": null,

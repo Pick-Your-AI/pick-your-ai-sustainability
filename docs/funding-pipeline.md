@@ -1,6 +1,6 @@
 # Funding and support pipeline
 
-**Draft evidence snapshot, 2026-10-19.** 39 program/channel records have current source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
+**Draft evidence snapshot, 2026-10-19.** 42 program/channel records have current source evidence. Qualification, application, award, activation and reporting remain separate evidence states. This execution submitted no provider applications, sent no outreach and activated no provider accounts. Historical account, award and submission facts are Unknown.
 
 The canonical [opportunity register](../data/opportunities.json) contains program facts and three eligibility phases. The [pipeline data](../data/funding-pipeline.json) exposes research status alongside application and benefit states. Research completed or source facts checked never means funding acquired.
 
@@ -8,7 +8,7 @@ The [OpenAI Researcher Access assessment](../research/compute/openai-researcher-
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 34 records, including the completed Together Not Pursuing assessment retained at its historical stage |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 37 records, including the completed Together Not Pursuing assessment retained at its historical stage |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | 5: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), [OpenAI Researcher Access assessment](../research/compute/openai-researcher-access.md), [Anthropic researcher access](../research/compute/anthropic-researcher-access.md), [Gemini academic support](../research/compute/google-gemini-research.md) and [Azure nonprofit AI coverage](../research/compute/azure-nonprofit-ai.md), each with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -38,3 +38,5 @@ Closed programs, invitations and recognition-only routes remain visible in the r
 ## Operating procedure
 
 Use the monthly review in [operations and reporting](operations-and-reporting.md) to reconcile evidence and changes. Before moving any opportunity forward, recheck official intake terms, verify the intended applicant and exact use, confirm needs and capacity, quantify net value and record the authorized decision. After a real provider decision, record award restrictions, account owner, expiration, paid fallback and reporting obligations.
+
+The [additional infrastructure comparison](../research/infrastructure/additional-programs.md) is In Review for the updated Fastly record and three distinct Netlify, Buildkite and historical DigitalOcean records under #53. Their stages remain Discovered pending actual findings acceptance. Existing Azure research is consumed unchanged. Recommendations retain current hosting/CI while actual incremental need, applicant, offer, costs and maintenance remain Unknown; the comparison creates no application, migration or award.

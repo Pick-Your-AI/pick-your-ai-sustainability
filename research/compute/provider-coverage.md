@@ -1,6 +1,8 @@
 # API support coverage and canonical ownership
 
-Issue [#38 / E05-01](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38) · Research priority **P1** · Findings **In Review** · Source review **2026-10-19**.
+Issue [#38 / E05-01](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38) · Research priority **P1** · Findings **Accepted; main delivery pending** · Source review **2026-10-19**.
+
+Independent findings acceptance [6270802650](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6270802650) was submitted on 2026-10-19 at 15:23:16 UTC by the delegated Apple/source-review lane through the shared project account, bound to published source `3d3f4f2765ce082962844f9adb344b40bf2128b6` and tree `df3d44489aa1daf06c35ea43b97f7192b588160a`. It accepts this complete index's findings; it is not a separate-account vote, applicant qualification or accepting-main delivery.
 
 The eight required providers are accounted for below. This index owns coverage and deduplication; the linked provider issues own their eligibility decisions, proposed studies and eventual applications. It creates no additional opportunity record. Foundational applicant eligibility, opportunity stage, monetary value and numerical score are **Not applicable** for this index. Individual programs retain their actual Unknowns, null valuations and independently reviewed dispositions.
 
@@ -92,7 +94,7 @@ All eight main-branch memo identities below were read from the accepted snapshot
 | #45 | `177e6311f3f4c0b61df89c3bac02f064468274c5` | [Review 5570818136](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136), reviewed source `9442547017fdfbcdb38915d40ee3cf490aa53157` |
 | #46 | `ce778e1e525e161d9eca6648764899012072fb89` | [Acceptance 6264268148](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46#issuecomment-6264268148), reviewed source `1e3983d093d30a93a882013306b25cc89e809c3e` |
 
-Remaining actions are explicit: obtain independent acceptance of this complete coverage index; publish and verify its canonical delivery; and use the child owners for any actual applicant, current form, permitted study, account or award decisions. No funding application or scheduled outreach is assigned. The index's next action date remains unassigned.
+Remaining actions are explicit: complete and verify normal accepting-main delivery of this independently accepted, published source checkpoint; and use the child owners for any actual applicant, current form, permitted study, account or award decisions. No funding application or scheduled outreach is assigned. The index's next action date remains unassigned.
 
 ## Literal #38 criterion reconciliation
 
@@ -106,7 +108,7 @@ The original issue text is unchanged. Numbering below follows its 13 acceptance 
 | C4, C6 | One canonical eight-provider index, unique IDs/owners, negative findings, dispositions, P1/Not-applicable scoring and exact remaining questions. |
 | C10 | Material restrictions and full child sources are linked; no aggregate rights, portability, renewal or spending-cap assumption replaces them. |
 | C11 | Each owner has a concrete unexecuted public-benefit workload and a value/effort method boundary; no duplicated cash or avoided-cost total is invented. |
-| C12 | This file is the reviewable canonical candidate. Existing unique program records are preserved; actual publication and main-delivery readback remain pending. |
-| C5, C13 | Existing child findings reviews are linked above. Independent acceptance of this new cross-provider index itself is still pending and must identify its actual reviewed revision. |
+| C12 | The canonical source checkpoint is published at `3d3f4f2765ce082962844f9adb344b40bf2128b6`. Existing unique program records are preserved; normal accepting-main delivery and its readback remain pending. |
+| C5, C13 | Actual independent acceptance [6270802650](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6270802650) accepts this complete index at the exact published source and tree above, separately from the retained child findings reviews. |
 
 No account, application form, model endpoint or paid review integration was operated for this index. Public-page inspection, record consistency and independent document review remain distinct from empirical research, applicant qualification and acquired support.

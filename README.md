@@ -32,7 +32,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 
 Read the owning issue and existing record; search before opening new work. Use the [provider research template](templates/provider-research.md), retain unknowns, and link applicable technical work. Propose findings by pull request under the [organization contribution rules](https://github.com/Pick-Your-AI/.github/blob/main/CONTRIBUTING.md). Independent research acceptance, externally authorized action and achieved support are separate records.
 
-Navigation: [roadmap](docs/roadmap.md), [scoring](docs/scoring-and-qualification.md), [needs](docs/funding/needs-assessment.md), [public-benefit measurement](docs/funding/public-benefit-measurement-plan.md), [budget assumptions](docs/budget-assumptions.md), [authorization](docs/workflow-and-authorization.md), [activation and reporting](docs/operations-and-reporting.md), [freshness](docs/research-freshness.md), [risk indicators](docs/risk-indicators.md), [grant narrative draft](docs/grant-narrative-draft.md), [sponsor ethics draft](docs/sponsorship-ethics-draft.md).
+Navigation: [roadmap](docs/roadmap.md), [scoring](docs/scoring-and-qualification.md), [needs](docs/funding/needs-assessment.md), [public-benefit measurement](docs/funding/public-benefit-measurement-plan.md), [budget assumptions](docs/budget-assumptions.md), [authorization](docs/workflow-and-authorization.md), [activation and reporting](docs/operations-and-reporting.md), [freshness](docs/research-freshness.md), [risk indicators](docs/risk-indicators.md), [grant narrative draft](docs/grant-narrative-draft.md), [grant application kit](docs/funding/grant-application-kit.md), [sponsor ethics draft](docs/sponsorship-ethics-draft.md).
 
 These initial documents are reviewable program drafts. Publishing them does not complete their owning research issues, verify a legal status, approve an application, or establish an award.
 
@@ -42,12 +42,13 @@ These artifacts are drafts for review. Their existence does not close the owning
 
 - [Organizational structure decision brief](docs/nonprofit/structure-decision-brief.md)
 - [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
-- [Education/accessibility funding screen](docs/research/education-accessibility-funding-screen.md) — independently accepted public findings; ordinary source delivery remains pending
+- [Education/accessibility funding screen](docs/research/education-accessibility-funding-screen.md) — independently accepted public findings; applicant, PI, host, invitation and action limits remain unresolved
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)
 - [Opportunity evidence register](data/README.md)
 - [Funding pipeline](docs/funding-pipeline.md)
 - [Dependency register](docs/dependency-register.md)
 - [Budget assumption data](data/budget-assumptions.json)
+- [Twelve-month operating budget](docs/funding/operating-budget.md) and [scenario data](data/budget/operating-budget.json)
 - [Research freshness register](docs/research-freshness-register.md)
 - [GitHub developer and security baseline](research/tooling/github-baseline.md)
 - [OpenAI Researcher Access qualification and proposed study](research/compute/openai-researcher-access.md)

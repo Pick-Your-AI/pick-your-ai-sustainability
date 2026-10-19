@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 44,
+  "records_count": 47,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -5181,36 +5181,39 @@
       "category": "partnership",
       "support_type": "cloud_service",
       "official_program_url": "https://www.fastly.com/fast-forward",
-      "official_application_url": null,
+      "official_application_url": "https://docs.google.com/forms/d/e/1FAIpQLSd4HeH_zJZd6vNyX1wvd05vqEcTXz_llytfthgqYCnGOzYCPw/viewform?embedded=true&pli=1",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
       "legal_entity_requirements": "Qualifying OSS project or supporting nonprofit",
-      "available_before_incorporation": "Conditionally Eligible after project-fit review",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Unknown for the actual applicant; OSS projects are invited, subject to licensing, collaboration, inclusive community, security and provider review.",
+      "available_through_fiscal_sponsorship": "Unknown; supporting nonprofits may fit, but actual host relationship, authority, project scope and provider acceptance are unestablished.",
+      "available_after_501c3_recognition": "Unknown for the actual applicant; recognition alone does not establish a supporting-OSS purpose or waive other criteria.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "Explain open licensing and collaboration",
         "Explain contributor-friendly community practices",
         "Explain secure and trustworthy project practices; technical needs are reviewed after inquiry"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Application link is present; no deadline published",
-      "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "application_gate": "First evidence a residual public-content need and actual qualifying project/account authority; complete the current intake and obtain capped service/fee, data, publication and exit terms before any application or migration.",
+      "application_status": "Current public application is linked; only page 1 of 6 was read. Full intake, actual processing and any deadline remain Unknown.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Discretionary edge/CDN services and support; exact allocation Unknown",
+      "benefit_amount_or_capacity": "Free or discounted services for selected OSS projects/supporting nonprofits; exact current products, quota, term and support allocation Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
+      "valuation_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
       "restrictions_and_obligations": [
-        "Provider confirms technical needs and benefits after application; do not assume unlimited paid products.",
-        "Evaluate overlapping CDN coverage and migration burden."
+        "The canonical memo distinguishes current selection from the 2022 relaunch and historical knowledge-sharing commitment.",
+        "Generic service terms cover abuse handling, renewal, commitments, confidentiality, customer data and feedback; actual sponsorship fee/cap/support/publicity/reporting terms remain Unknown.",
+        "Data-processing export/deletion limits and contradictory visitor-policy DPF statements require scoped review before traffic migration."
       ],
-      "program_objectives": "See official program evidence",
-      "fit_with_pick_your_ai": "Alternative public-content or artifact-delivery support if a real gap remains after no-cost services.",
-      "required_application_evidence": [],
+      "program_objectives": "Support eligible open-source projects and nonprofits that sustain open collaboration, inclusive communities and trustworthy practice.",
+      "fit_with_pick_your_ai": "Conditional public static-asset/artifact delivery gap under accepted N01/N02; does not replace application databases, independent backups or native device evidence.",
+      "required_application_evidence": [
+        "Required email and name/pronouns on observed page 1 of 6 only."
+      ],
       "required_contacts_or_decisions": [
         "Authorized account holder and commitment approver",
         "Relevant legal, data or monetization questions as identified"
@@ -5219,13 +5222,37 @@
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
       ],
-      "confidence": "High confidence in the explicitly cited published facts; intake completeness, applicant qualification and usable value remain separately unverified.",
+      "confidence": "High confidence in the scoped current public facts and observed access/history limits. Actual applicant, private offer, complete intake, usable value and effort remain Unknown.",
       "sources": [
         {
           "url": "https://www.fastly.com/fast-forward",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.fastly.com/press/press-releases/fastly-launches-fast-forward-initiative-to-support-open-source-and-internet",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.fastly.com/terms",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.fastly.com/data-processing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.fastly.com/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
         }
       ],
       "scoring": {
@@ -5238,22 +5265,22 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "Not scored under the 20/20/15/10/10/10/10/5 rubric: actual applicant eligibility, incremental usage, net value, likelihood, timing, effort and independence evidence remain insufficient. Qualitative priority is separate."
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Document one incremental infrastructure need and selection evidence.",
+      "independent_reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account.",
+      "next_action": "Retain current hosting; reconsider only on a measured residual public-content need, actual applicant and confirmed service/offer terms.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
+      "next_verification_trigger": "Recheck before reliance, applicant qualification or service migration, and upon changed intake, terms, limits, redirects or demonstrated unmet demand; no internal date assigned.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
-      "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
+      "reporting_status": "Actual offer obligations Unknown; inspect terms before any acceptance because obligations may precede activation.",
       "reporting_obligations": [],
       "duplicate_search": {
         "searched_at": "2026-10-19",
@@ -5262,36 +5289,48 @@
           "Fast Forward"
         ],
         "canonical_match": "FASTLY-FAST-FORWARD",
-        "scope": "Distinct program records reconciled across both evidence sets; issue reuse is by owning_research_key."
+        "scope": "All 39 existing records plus complete bounded organization issue/PR searches; existing E06-03 owns the program. Related epic/OSPO references are distinct scope."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account. This substantive COMMENT is not a separate-account GitHub approval.",
+        "reviewed_revision": "638c14596dac123cd6c785da091b680c724d1907",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted the complete seven-path, five-candidate comparison and all thirteen literal #53 criteria, including supported conditional and deferred outcomes. Current hosting/CI and the separately accepted Azure assessment remain the baseline.",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "The reviewer earlier supplied bounded Fastly/DigitalOcean source observations but did not author or edit the complete assessment; this later review accepts the full canonical findings.",
+          "Actual applicant qualification, current private offer/complete intake, account authority, workload execution, useful value and financial/operating decisions remain unestablished.",
+          "DigitalOcean retains its historical Discovered stage and Not Pursuing disposition for the unverified current request route; no provider-wide discontinuation, application, award or activation is inferred.",
+          "Exact receiving composition, original hosted qualification and actual main delivery retain their separate receipts; review does not refresh provider observations."
         ]
       },
       "owning_research_key": "E06-03",
       "source_urls": [
-        "https://www.fastly.com/fast-forward"
+        "https://www.fastly.com/fast-forward",
+        "https://www.fastly.com/press/press-releases/fastly-launches-fast-forward-initiative-to-support-open-source-and-internet",
+        "https://www.fastly.com/terms",
+        "https://www.fastly.com/data-processing",
+        "https://www.fastly.com/privacy"
       ],
       "source_evidence": [
-        "Current program invites eligible OSS projects and supportive nonprofits to apply for free/discounted services.",
-        "Selection considers open licensing/collaboration, contributor-friendly community and trustworthy practices."
+        "Current free/discounted OSS and supporting-nonprofit route; complete allocation/intake unverified.",
+        "Historical relaunch and current generic data/service terms are recorded separately; see the canonical memo for access/conflict limits."
       ],
-      "benefit": "Discretionary edge/CDN services and support; exact allocation Unknown",
-      "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
+      "benefit": "Conditional service access or discounts; no cash, actual allocation or realized savings established.",
+      "estimated_usable_value_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "source_freshness": "Public sources and first intake page checked 2026-10-19; later pages and private award terms not verified.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://www.fastly.com/fast-forward"
+        "https://www.fastly.com/fast-forward",
+        "https://www.fastly.com/press/press-releases/fastly-launches-fast-forward-initiative-to-support-open-source-and-internet",
+        "https://www.fastly.com/terms",
+        "https://www.fastly.com/data-processing",
+        "https://www.fastly.com/privacy"
       ],
-      "application_url": null,
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSd4HeH_zJZd6vNyX1wvd05vqEcTXz_llytfthgqYCnGOzYCPw/viewform?embedded=true&pli=1",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -5299,38 +5338,39 @@
         "No-influence publication and sponsor disclosure terms"
       ],
       "internal_application_review_controls_note": "Internal Pick Your AI readiness controls. These are not represented as universal provider application requirements.",
-      "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
+      "required_application_evidence_status": "Partial first-page read only; additional fields and current award-specific requirements remain Unknown.",
       "published_qualification_requirements": [
         "Explain open licensing and collaboration",
         "Explain contributor-friendly community practices",
         "Explain secure and trustworthy project practices; technical needs are reviewed after inquiry"
       ],
-      "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
-      "application_route_description": "Official program page links a Google application form; destination and applicant access require verification before use.",
+      "currency_status": "Service or discount capacity is not cash; actual award currency and net usable value remain unestablished.",
+      "application_route_description": "Official Google Form page 1 of 6 requires email and name/pronouns. Sign-in is offered to save progress. No entry/Next/submission; pages 2-6 remain uninspected.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Canonical comparative program findings independently accepted with explicit intake, applicant and offer Unknowns.",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
-      "current_disposition": null,
+      "current_disposition": "Retain conditionally for an evidenced residual public-content gap; no request or migration now.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "P2 reflects a conditional research option, not an eligible or selected service.",
+      "recommended_disposition": "Retain conditionally; actual applicant, incremental need and award terms remain Unknown.",
       "related_research_issue_urls": [],
-      "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
+      "dependency_relationship_verification": "Accepted prerequisite outcomes #19 and #57 were read on 2026-10-19; this comparison does not mutate native relationships.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 53,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
-      }
+      },
+      "canonical_deliverable": "research/infrastructure/additional-programs.md"
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -10048,6 +10088,553 @@
     },
     {
       "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "DIGITALOCEAN-OSS-CREDITS",
+      "provider": "DigitalOcean",
+      "program_name": "Credits for Open Source — historical route; current intake unverified",
+      "program_aliases": [
+        "Credits for Open Source",
+        "Open Source Credits"
+      ],
+      "round": null,
+      "category": "software",
+      "support_type": "cloud_service",
+      "official_program_url": "https://www.digitalocean.com/open-source",
+      "official_application_url": null,
+      "eligibility_jurisdiction": "Unknown; no current official OSS credits rules verified.",
+      "legal_entity_requirements": "Unknown for the current historical-program successor or intake.",
+      "available_before_incorporation": "Unknown; current OSS credit intake and community-applicant requirements unverified.",
+      "available_through_fiscal_sponsorship": "Unknown; neither current program rules nor actual host qualification are established.",
+      "available_after_501c3_recognition": "Unknown; current program rules and recognized-applicant route unverified.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [],
+      "application_gate": "Do not treat the historical route as current: establish current official intake/terms and an actual residual hosting need before reconsidering an application.",
+      "application_status": "Current intake Unknown. The historical program URL redirects to the general homepage; this does not prove all sponsorships discontinued.",
+      "opportunity_stage": "Discovered",
+      "work_status": "Done",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Historical OSS credits are evidenced; current amount, coverage, quota, duration and renewal Unknown.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "restrictions_and_obligations": [
+        "Current eligibility, deadline, fees, reporting, branding, privacy, publication, retention and migration/exit terms remain Unknown.",
+        "Preserve dated evidence and the actual redirect; do not infer universal closure or substitute startup, student or trial promotions."
+      ],
+      "program_objectives": "Historical support for open-source projects; no current credit-program objectives or admission inferred from the general OSS page.",
+      "fit_with_pick_your_ai": "A potential N01 hosting proposal remains separate from an unverified current sponsorship; no migration or credit request justified.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Actual workload/account owner and authorized applicant are not established by this research; any later provider contact remains unperformed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ],
+      "confidence": "High confidence in the scoped current public facts and observed access/history limits. Actual applicant, private offer, complete intake, usable value and effort remain Unknown.",
+      "sources": [
+        {
+          "url": "https://www.digitalocean.com/open-source",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.digitalocean.com/blog/10th-anniversary-hacktoberfest-recap",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.digitalocean.com/open-source/credits-for-projects",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under the 20/20/15/10/10/10/10/5 rubric: actual applicant eligibility, incremental usage, net value, likelihood, timing, effort and independence evidence remain insufficient. Qualitative priority is separate."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account.",
+      "next_action": "Reconsider the deferred historical route only on current official intake/terms and a demonstrated hosting gap; do not infer provider-wide discontinuation.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Recheck before reliance, applicant qualification or service migration, and upon changed intake, terms, limits, redirects or demonstrated unmet demand; no internal date assigned.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual offer obligations Unknown; inspect terms before any acceptance because obligations may precede activation.",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "DigitalOcean",
+          "Credits for Open Source — historical route; current intake unverified"
+        ],
+        "canonical_match": "DIGITALOCEAN-OSS-CREDITS",
+        "scope": "All 39 existing records and complete bounded organization issue/PR searches found no distinct existing program record/task; retain the existing comparative owner E06-03 / #53."
+      },
+      "review": {
+        "reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account. This substantive COMMENT is not a separate-account GitHub approval.",
+        "reviewed_revision": "638c14596dac123cd6c785da091b680c724d1907",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted the complete seven-path, five-candidate comparison and all thirteen literal #53 criteria, including supported conditional and deferred outcomes. Current hosting/CI and the separately accepted Azure assessment remain the baseline.",
+        "limitations": [
+          "The reviewer earlier supplied bounded Fastly/DigitalOcean source observations but did not author or edit the complete assessment; this later review accepts the full canonical findings.",
+          "Actual applicant qualification, current private offer/complete intake, account authority, workload execution, useful value and financial/operating decisions remain unestablished.",
+          "DigitalOcean retains its historical Discovered stage and Not Pursuing disposition for the unverified current request route; no provider-wide discontinuation, application, award or activation is inferred.",
+          "Exact receiving composition, original hosted qualification and actual main delivery retain their separate receipts; review does not refresh provider observations."
+        ]
+      },
+      "owning_research_key": "E06-03",
+      "source_urls": [
+        "https://www.digitalocean.com/open-source",
+        "https://www.digitalocean.com/blog/10th-anniversary-hacktoberfest-recap",
+        "https://www.digitalocean.com/open-source/credits-for-projects"
+      ],
+      "source_refs": [
+        "https://www.digitalocean.com/open-source",
+        "https://www.digitalocean.com/blog/10th-anniversary-hacktoberfest-recap",
+        "https://www.digitalocean.com/open-source/credits-for-projects"
+      ],
+      "source_review_status": "Historical-route and current-access findings independently accepted; current sponsorship offer and terms remain unverified.",
+      "dependency_relationship_verification": "Accepted prerequisite outcomes #19 and #57 were read on 2026-10-19; this comparison does not mutate native relationships.",
+      "canonical_deliverable": "research/infrastructure/additional-programs.md",
+      "applicant_qualification_status": "Unknown",
+      "score": null,
+      "estimated_usable_value_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "award_status": "Unknown; no award evidence established",
+      "application_url": null,
+      "priority_recommendation": "P3",
+      "github_link_verification": {
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+        "read_at": "2026-10-19",
+        "issue_number": 53,
+        "method": "Actual native issue key/title/canonical path and all 13 criteria read before adding this distinct program under existing E06-03; no new issue or Project item."
+      },
+      "internal_application_review_controls": [
+        "Measure an incremental uncovered need against accepted #19/#57.",
+        "Verify actual applicant and account authority and current terms.",
+        "Review capped costs, data, publication/branding independence and a portable exit."
+      ],
+      "internal_application_review_controls_note": "Internal engineering readiness, not invented universal provider application fields.",
+      "currency_status": "Published service capacity/discounts are not cash or current realized support; actual offer currency and usable value remain unverified.",
+      "historical_application_url": "https://www.digitalocean.com/open-source/credits-for-projects",
+      "application_route_description": "Current OSS landing has no credit intake; the 2023 official retrospective links a former path that now redirects.",
+      "benefit": "Historical noncash credit support; no current offer or actual benefit established.",
+      "required_application_evidence_status": "Unknown; no current OSS credits application form or complete requirements were verified.",
+      "current_disposition": "Not Pursuing the historical route as a current request; defer pending current official terms and a measured residual need.",
+      "recommended_disposition": "Not Pursuing / deferred research outcome; retain historical evidence without a provider-wide closure claim.",
+      "source_evidence": [
+        "Official 2023-11-15 retrospective records past Credits for Open Source support.",
+        "Former intake path now redirects to general homepage; current OSS page does not establish a credit offer."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "NETLIFY-OPEN-SOURCE-PLAN",
+      "provider": "Netlify",
+      "program_name": "Open Source plan",
+      "program_aliases": [
+        "Netlify for open source",
+        "Open Source plan"
+      ],
+      "round": null,
+      "category": "software",
+      "support_type": "cloud_service",
+      "official_program_url": "https://www.netlify.com/open-source/",
+      "official_application_url": "https://opensource-form.netlify.com/",
+      "eligibility_jurisdiction": "Unknown for the actual applicant; confirm applicable service/account and country terms.",
+      "legal_entity_requirements": "Software-community and noncommercial site criteria apply; a universal 501(c)(3) prerequisite is not stated in the reviewed policy.",
+      "available_before_incorporation": "Unknown for the actual project; a qualifying noncommercial software-community site may fit without incorporation, subject to all policy criteria.",
+      "available_through_fiscal_sponsorship": "Unknown; site criteria and actual host/account authority remain to be established.",
+      "available_after_501c3_recognition": "Unknown; recognition does not waive licensing, community-site, conduct, linking or noncommercial conditions.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Software-community site under qualifying OSI or attribution/public-domain Creative Commons licensing.",
+        "Prominent code of conduct and the required Netlify link.",
+        "Noncommercial operation, including no commercial support or hosting."
+      ],
+      "application_gate": "Establish an uncovered public-docs/preview need and actual site/applicant eligibility; obtain complete current intake and account fee/data/publicity/exit terms before any request or migration.",
+      "application_status": "Official application link is current; public GET returned a JavaScript shell without fields. Complete current intake, processing and deadline Unknown.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Published Open Source plan: 10,000 platform credits/month, free production deploys and unlimited team members; additional credits at Pro rates. No actual allocation established.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "restrictions_and_obligations": [
+        "Sites remain active on credit exhaustion; policy-mismatch downgrade is a separate event. Extra credits and other account fees are not a hard spending cap.",
+        "Generic free-service termination, post-termination retrieval and distinct publicity permissions remain separate from OSS eligibility; see canonical memo.",
+        "Website content terms do not replace subscription-service terms; privacy promises do not prove actual account settings or a universal retention period."
+      ],
+      "program_objectives": "Support noncommercial open-source software-community sites.",
+      "fit_with_pick_your_ai": "Conditional independent public-docs/preview gap under N02; preserve existing static cPanel delivery until an incremental benefit and portable migration are evidenced.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Actual workload/account owner and authorized applicant are not established by this research; any later provider contact remains unperformed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ],
+      "confidence": "High confidence in the scoped current public facts and observed access/history limits. Actual applicant, private offer, complete intake, usable value and effort remain Unknown.",
+      "sources": [
+        {
+          "url": "https://www.netlify.com/open-source/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.netlify.com/legal/open-source-policy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.netlify.com/legal/self-serve-subscription-agreement/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.netlify.com/legal/terms-of-use/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://www.netlify.com/privacy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under the 20/20/15/10/10/10/10/5 rubric: actual applicant eligibility, incremental usage, net value, likelihood, timing, effort and independence evidence remain insufficient. Qualitative priority is separate."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account.",
+      "next_action": "Reconsider only for an evidenced incremental public-docs/preview need, an admissible actual site/applicant and current offer/account terms.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Recheck before reliance, applicant qualification or service migration, and upon changed intake, terms, limits, redirects or demonstrated unmet demand; no internal date assigned.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual offer obligations Unknown; inspect terms before any acceptance because obligations may precede activation.",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Netlify",
+          "Open Source plan"
+        ],
+        "canonical_match": "NETLIFY-OPEN-SOURCE-PLAN",
+        "scope": "All 39 existing records and complete bounded organization issue/PR searches found no distinct existing program record/task; retain the existing comparative owner E06-03 / #53."
+      },
+      "review": {
+        "reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account. This substantive COMMENT is not a separate-account GitHub approval.",
+        "reviewed_revision": "638c14596dac123cd6c785da091b680c724d1907",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted the complete seven-path, five-candidate comparison and all thirteen literal #53 criteria, including supported conditional and deferred outcomes. Current hosting/CI and the separately accepted Azure assessment remain the baseline.",
+        "limitations": [
+          "The reviewer earlier supplied bounded Fastly/DigitalOcean source observations but did not author or edit the complete assessment; this later review accepts the full canonical findings.",
+          "Actual applicant qualification, current private offer/complete intake, account authority, workload execution, useful value and financial/operating decisions remain unestablished.",
+          "DigitalOcean retains its historical Discovered stage and Not Pursuing disposition for the unverified current request route; no provider-wide discontinuation, application, award or activation is inferred.",
+          "Exact receiving composition, original hosted qualification and actual main delivery retain their separate receipts; review does not refresh provider observations."
+        ]
+      },
+      "owning_research_key": "E06-03",
+      "source_urls": [
+        "https://www.netlify.com/open-source/",
+        "https://www.netlify.com/legal/open-source-policy/",
+        "https://www.netlify.com/legal/self-serve-subscription-agreement/",
+        "https://www.netlify.com/legal/terms-of-use/",
+        "https://www.netlify.com/privacy/"
+      ],
+      "source_refs": [
+        "https://www.netlify.com/open-source/",
+        "https://www.netlify.com/legal/open-source-policy/",
+        "https://www.netlify.com/legal/self-serve-subscription-agreement/",
+        "https://www.netlify.com/legal/terms-of-use/",
+        "https://www.netlify.com/privacy/"
+      ],
+      "source_review_status": "Canonical comparative program findings independently accepted with explicit intake, applicant and offer Unknowns.",
+      "dependency_relationship_verification": "Accepted prerequisite outcomes #19 and #57 were read on 2026-10-19; this comparison does not mutate native relationships.",
+      "canonical_deliverable": "research/infrastructure/additional-programs.md",
+      "applicant_qualification_status": "Unknown",
+      "score": null,
+      "estimated_usable_value_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "award_status": "Unknown; no award evidence established",
+      "application_url": "https://opensource-form.netlify.com/",
+      "priority_recommendation": "P2",
+      "github_link_verification": {
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+        "read_at": "2026-10-19",
+        "issue_number": 53,
+        "method": "Actual native issue key/title/canonical path and all 13 criteria read before adding this distinct program under existing E06-03; no new issue or Project item."
+      },
+      "internal_application_review_controls": [
+        "Measure an incremental uncovered need against accepted #19/#57.",
+        "Verify actual applicant and account authority and current terms.",
+        "Review capped costs, data, publication/branding independence and a portable exit."
+      ],
+      "internal_application_review_controls_note": "Internal engineering readiness, not invented universal provider application fields.",
+      "currency_status": "Published service capacity/discounts are not cash or current realized support; actual offer currency and usable value remain unverified.",
+      "application_route_description": "https://opensource-form.netlify.com/ returned HTTP 200 with a 387-byte JavaScript shell on 2026-10-19 at 13:19:56 UTC; no form fields or application action.",
+      "benefit": "Conditional hosting/preview capacity, not cash or proven incremental avoided cost.",
+      "required_application_evidence_status": "Policy criteria are observed; complete current form fields and attachments unverified because only a JavaScript shell was returned.",
+      "published_qualification_requirements": [
+        "Qualifying software-community site and licensing.",
+        "Visible code of conduct, Netlify link and noncommercial operation."
+      ],
+      "current_disposition": "Retain conditionally for a distinct public-docs/preview gap; no request or migration now.",
+      "recommended_disposition": "Conditional alternative; current hosting is retained while applicant/need/intake/offer facts remain Unknown.",
+      "source_evidence": [
+        "Current Open Source plan benefits and policy conditions are recorded separately from generic service and Website terms.",
+        "The official application endpoint returned a shell only; the complete intake remains unverified."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "BUILDKITE-OSS-PRICING",
+      "provider": "Buildkite",
+      "program_name": "Open-source special pricing",
+      "program_aliases": [
+        "Buildkite open source",
+        "OSS special pricing"
+      ],
+      "round": null,
+      "category": "software",
+      "support_type": "cloud_service",
+      "official_program_url": "https://buildkite.com/pricing/",
+      "official_application_url": "https://buildkite.com/about/contact/",
+      "eligibility_jurisdiction": "Unknown for the actual applicant and negotiated offer.",
+      "legal_entity_requirements": "OSS project confirmation is invited; no universal 501(c)(3) eligibility or actual applicant acceptance established.",
+      "available_before_incorporation": "Unknown; OSS project qualification and special pricing require provider confirmation.",
+      "available_through_fiscal_sponsorship": "Unknown; actual host/account relationship and negotiated project qualification unestablished.",
+      "available_after_501c3_recognition": "Unknown; recognition is not the advertised pricing test and does not establish project/offer acceptance.",
+      "eligibility_status": "Unknown",
+      "eligibility_conditions": [
+        "Provider confirmation of the actual OSS project and negotiated special pricing is required."
+      ],
+      "application_gate": "Measure a real shortfall after existing public CI; verify actual OSS qualification, negotiated quota/retention/overages and account/data/exit terms before any provider request or workflow migration.",
+      "application_status": "Current pricing invites OSS contact; the observed contact endpoint exposes a verification challenge rather than complete intake. Negotiated terms and deadline Unknown.",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Special OSS pricing is negotiated and Unknown. Ordinary Free separately lists five users, ten concurrent jobs and 2,000 Linux vCPU-minutes/month; it includes no hosted Mac allocation.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "restrictions_and_obligations": [
+        "Actual organization limits and negotiated OSS fees/retention/support are Unknown; documentation defaults are not account readback.",
+        "Generic terms distinguish trial export, customer rights, prohibited sensitive personal information, paid metered artifacts and announcement/customer-listing provisions; see canonical memo.",
+        "Storage/transfer inclusions in worked examples are not OSS award facts. Spend alerts do not cap usage or prevent charges."
+      ],
+      "program_objectives": "Support open-source projects through provider-confirmed special pricing and public pipelines.",
+      "fit_with_pick_your_ai": "An additional CI option only after a demonstrated N03 shortfall; ordinary Free adds no hosted Mac or physical-device acceptance and must not duplicate existing standard public runners.",
+      "required_application_evidence": [],
+      "required_contacts_or_decisions": [
+        "Actual workload/account owner and authorized applicant are not established by this research; any later provider contact remains unperformed."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ],
+      "confidence": "High confidence in the scoped current public facts and observed access/history limits. Actual applicant, private offer, complete intake, usable value and effort remain Unknown.",
+      "sources": [
+        {
+          "url": "https://buildkite.com/pricing/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/platform/pipelines/public/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/docs/platform/pricing-and-plans",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/docs/platform/limits",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/about/legal/terms-of-service/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/about/legal/privacy-policy/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/docs/platform/artifact-storage-and-transfer-billing",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        },
+        {
+          "url": "https://buildkite.com/docs/platform/spend-alerts",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Scoped current facts or explicitly dated history/access limits in research/infrastructure/additional-programs.md; not actual applicant or award acceptance."
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored under the 20/20/15/10/10/10/10/5 rubric: actual applicant eligibility, incremental usage, net value, likelihood, timing, effort and independence evidence remain insufficient. Qualitative priority is separate."
+      },
+      "priority": "P2",
+      "assigned_owner": null,
+      "independent_reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account.",
+      "next_action": "Measure baseline runner/storage demand and a nonduplicative shortfall before reconsidering a confirmed OSS allocation, retention and fee proposal.",
+      "next_action_date": null,
+      "last_verified": "2026-10-19",
+      "next_verification_date": null,
+      "next_verification_trigger": "Recheck before reliance, applicant qualification or service migration, and upon changed intake, terms, limits, redirects or demonstrated unmet demand; no internal date assigned.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+      "application_outcome": "No submission in this execution; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation in this execution; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "Actual offer obligations Unknown; inspect terms before any acceptance because obligations may precede activation.",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-10-19",
+        "aliases_checked": [
+          "Buildkite",
+          "Open-source special pricing"
+        ],
+        "canonical_match": "BUILDKITE-OSS-PRICING",
+        "scope": "All 39 existing records and complete bounded organization issue/PR searches found no distinct existing program record/task; retain the existing comparative owner E06-03 / #53."
+      },
+      "review": {
+        "reviewer": "Independent in-session Apple/source-review lane, using the existing connected project account. This substantive COMMENT is not a separate-account GitHub approval.",
+        "reviewed_revision": "638c14596dac123cd6c785da091b680c724d1907",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/105#pullrequestreview-5573556595",
+        "reviewed_on": "2026-10-19",
+        "decision": "Accepted the complete seven-path, five-candidate comparison and all thirteen literal #53 criteria, including supported conditional and deferred outcomes. Current hosting/CI and the separately accepted Azure assessment remain the baseline.",
+        "limitations": [
+          "The reviewer earlier supplied bounded Fastly/DigitalOcean source observations but did not author or edit the complete assessment; this later review accepts the full canonical findings.",
+          "Actual applicant qualification, current private offer/complete intake, account authority, workload execution, useful value and financial/operating decisions remain unestablished.",
+          "DigitalOcean retains its historical Discovered stage and Not Pursuing disposition for the unverified current request route; no provider-wide discontinuation, application, award or activation is inferred.",
+          "Exact receiving composition, original hosted qualification and actual main delivery retain their separate receipts; review does not refresh provider observations."
+        ]
+      },
+      "owning_research_key": "E06-03",
+      "source_urls": [
+        "https://buildkite.com/pricing/",
+        "https://buildkite.com/platform/pipelines/public/",
+        "https://buildkite.com/docs/platform/pricing-and-plans",
+        "https://buildkite.com/docs/platform/limits",
+        "https://buildkite.com/about/legal/terms-of-service/",
+        "https://buildkite.com/about/legal/privacy-policy/",
+        "https://buildkite.com/docs/platform/artifact-storage-and-transfer-billing",
+        "https://buildkite.com/docs/platform/spend-alerts"
+      ],
+      "source_refs": [
+        "https://buildkite.com/pricing/",
+        "https://buildkite.com/platform/pipelines/public/",
+        "https://buildkite.com/docs/platform/pricing-and-plans",
+        "https://buildkite.com/docs/platform/limits",
+        "https://buildkite.com/about/legal/terms-of-service/",
+        "https://buildkite.com/about/legal/privacy-policy/",
+        "https://buildkite.com/docs/platform/artifact-storage-and-transfer-billing",
+        "https://buildkite.com/docs/platform/spend-alerts"
+      ],
+      "source_review_status": "Canonical comparative program findings independently accepted with explicit intake, applicant and offer Unknowns.",
+      "dependency_relationship_verification": "Accepted prerequisite outcomes #19 and #57 were read on 2026-10-19; this comparison does not mutate native relationships.",
+      "canonical_deliverable": "research/infrastructure/additional-programs.md",
+      "applicant_qualification_status": "Unknown",
+      "score": null,
+      "estimated_usable_value_method": "Net avoided cost of evidenced eligible uncovered usage, less uncovered services, migration, recurring operations, taxes and exit cost; do not add credits to cash or count already-free public CI. Actual usage, applicant terms and effort are Unknown; value remains null.",
+      "award_status": "Unknown; no award evidence established",
+      "application_url": "https://buildkite.com/about/contact/",
+      "priority_recommendation": "P2",
+      "github_link_verification": {
+        "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+        "read_at": "2026-10-19",
+        "issue_number": 53,
+        "method": "Actual native issue key/title/canonical path and all 13 criteria read before adding this distinct program under existing E06-03; no new issue or Project item."
+      },
+      "internal_application_review_controls": [
+        "Measure an incremental uncovered need against accepted #19/#57.",
+        "Verify actual applicant and account authority and current terms.",
+        "Review capped costs, data, publication/branding independence and a portable exit."
+      ],
+      "internal_application_review_controls_note": "Internal engineering readiness, not invented universal provider application fields.",
+      "currency_status": "Published service capacity/discounts are not cash or current realized support; actual offer currency and usable value remain unverified.",
+      "application_route_description": "Official contact page read without completing its challenge or sending data; no complete OSS-specific form inspected.",
+      "benefit": "Potential negotiated CI discount; ordinary Free and a 30-day trial are separate, not an ongoing OSS award.",
+      "required_application_evidence_status": "Complete special-pricing intake and requirements Unknown; only pricing invitation and bounded contact-page access verified.",
+      "current_disposition": "Defer additional general CI until an evidenced baseline shortage and confirmed OSS offer justify it.",
+      "recommended_disposition": "Defer; negotiated value and incremental runner/retention fit remain Unknown.",
+      "source_evidence": [
+        "Current pricing distinguishes negotiated OSS special pricing, ordinary Free and a separate trial.",
+        "Plans/limits retain Personal versus Free naming and default-versus-account distinctions.",
+        "Official billing/alert material does not establish a sponsor allocation or hard cap."
+      ]
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
       "opportunity_id": "SLOAN-NEW-MEDIA",
       "provider": "Alfred P. Sloan Foundation",
       "program_name": "New Media",
@@ -10248,14 +10835,14 @@
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 41 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
-    "14 nonprofit/funding records and 27 compute/tool/hardware/service records share the same schema and stable owning research keys. E06-04 adds two distinct physical-equipment program identities under the existing comparative issue; those records are not duplicate issues.",
+    "Published source facts and explicit access/history limitations are recorded for all 47 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "All 47 records share the same schema and stable owning research keys. The original 39 identities are retained alongside two E06-04 physical-equipment identities, two E03-08 loan/equity screenings, three E06-03 infrastructure identities and the distinct E03-05 Sloan New Media identity under their existing owning issues; those records are not duplicate issues.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",
     "Complete current application evidence remains unverified except for explicitly listed source-backed items; published requirements and internal readiness controls are separate.",
-    "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan is one program record reused across relevant research scopes.",
-    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware program records reuse the actual #54 issue read on 2026-10-19; they do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification."
+    "One Cloudflare canonical record covers both the historical OSS name and Project Alexandria. NLnet programs are separate; historical Commons is closed. Sloan Open Source in Science remains one program record reused across its research scopes; Sloan New Media is a distinct program record.",
+    "The original 39 owning issue URLs were matched to the independent live 72-issue readback. Two later E06-04 hardware records reuse actual #54 and three E06-03 infrastructure records reuse actual #53, each separately read on 2026-10-19; the later E03-08 mechanism records retain their existing #32 mapping. These additions do not extend that historical snapshot or create Project items. Native parent/blocker relationships and Project fields require separate live verification."
   ],
   "github_link_readback": {
     "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",

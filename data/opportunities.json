@@ -977,53 +977,76 @@
       "official_program_url": "https://sfconservancy.org/projects/apply/",
       "official_application_url": "https://sfconservancy.org/projects/apply/",
       "eligibility_jurisdiction": "Unknown; verify applicant location and program country requirements",
-      "legal_entity_requirements": "Member projects become part of Conservancy; existing independent incorporation is not the universal entry gate.",
-      "available_before_incorporation": "Conditionally Eligible hosting route; PYA maturity and fit remain Unknown",
-      "available_through_fiscal_sponsorship": "Unknown; any move between hosts requires specific agreement",
-      "available_after_501c3_recognition": "Unknown; independent entity does not establish membership fit or transfer terms",
+      "legal_entity_requirements": "If accepted, the member project becomes organizationally part of SFC. Actual agreement, signers, rights and PYA relationship Unknown.",
+      "available_before_incorporation": "Conditional route in principle; actual maturity, community, licensing and representation unverified.",
+      "available_through_fiscal_sponsorship": "Unknown for PYA; existing agreement and charitable successor/transfer restrictions must be qualified.",
+      "available_after_501c3_recognition": "Unknown for PYA; independent recognition alone does not establish membership or suitability.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "OSI-approved and DFSG-free software licensing",
-        "Public not-for-profit FOSS development with an established community"
+        "Full rights inventory and actual community/history remain missing qualification inputs; recent repository creation does not establish original project age."
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Rolling inquiry/application process; acceptance may take months",
+      "application_gate": "Not authorized; public research does not establish applicant authority, qualification or permission to apply or accept terms.",
+      "application_status": "Public intake/process inspected; actual application and acceptance Unknown",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Potential nonprofit administration and fundraising infrastructure after acceptance; no direct funding guarantee.",
+      "benefit_amount_or_capacity": "Potential agreed administration; actual scope, monetary value and capacity Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Unknown net value. Compare equivalent qualified fee bases, processor/FX costs, exceptional service quotes and scoped administration/migration effort. Hosting provides no award. Keep cash, contingent awards, credit face value and evidenced avoided cost separate; no arbitrary hours or score.",
       "restrictions_and_obligations": [
-        "10% of processed project revenue supports SFC.",
-        "Assets and contracts remain governed by sponsorship terms; exit must respect charitable-transfer restrictions."
+        "Published fee-basis difference between FAQ and example agreement requires actual negotiated scope.",
+        "Mission/financial oversight, written contract authority and charitable asset/exit restrictions; complete actual terms Unknown."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+      "program_objectives": "Administration supporting eligible free/open-source public-benefit work; hosting is distinct from a grant or project legal recognition.",
+      "fit_with_pick_your_ai": "Proposed publicly inspectable AI-selection software and reusable evidence/compatibility contracts across six repositories. Immutable project snapshots and root licenses are documented in docs/nonprofit/fiscal-sponsorship-comparison.md. Actual maturity, authority, full rights, usage and delivery capacity remain unverified.",
       "required_application_evidence": [
-        "Initial inquiry: brief project description and project website URL; obtain full application materials after initial questions."
+        "Initial project description and website, followed by requested community, mission, licensing, leadership and services evidence; actual full application/version Unknown."
       ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Complete the actual authority, full licensing, community and service-needs evidence before considering the unsent inquiry checklist.",
+        "Obtain and compare actual applicable fee bases, agreement version, expense/contract authority, reporting, privacy and restricted exit terms before any decision."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Current public sources inspected with explicit conflicts and template/history limits; actual applicant, host relationship, value and independent findings acceptance remain unverified.",
       "sources": [
         {
           "url": "https://sfconservancy.org/projects/apply/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Published software/community criteria, rolling process and processed-revenue fee; actual PYA qualification Unknown"
         },
         {
           "url": "https://sfconservancy.org/projects/services/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Member services and organizational relationship"
+          "review_scope": "Published member services and organizational/technical boundary; actual scope Unknown"
+        },
+        {
+          "url": "https://sfconservancy.org/docs/sponsorship-agreement-template.pdf",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Complete six-page example agreement: gross-revenue fee, authority, custody and restricted exit; actual negotiated terms Unknown"
+        },
+        {
+          "url": "https://sfconservancy.org/projects/policies/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published policy index and links; no claim of complete underlying policy or PYA acceptance review"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "GitHub fiscal-host list includes SPI/OSC; SFC absence is not proof of every possible arrangement"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Personal versus organizational sponsorship fees; historical matching-fund closure is not current support"
         }
       ],
       "scoring": {
@@ -1036,23 +1059,25 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P1 foundational research. Applicant eligibility, complete usable value and effort are not established; numeric scoring remains null."
       },
       "priority": "P1",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Compare documented project age/maturity, licenses and governance against SFC criteria; prepare a factual inquiry only if authorized.",
+      "next_action": "Obtain independent acceptance of the canonical comparison; assemble actual history/community, authority and full rights evidence before considering the unsent host inquiry checklist.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "next_verification_trigger": "Monthly review; before reliance or action; changed fees, agreement, eligibility, intake or access results",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
       "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
-      "reporting_obligations": [],
+      "reporting_obligations": [
+        "Actual agreement and approved activity determine reports, receipts, financial oversight and donor restrictions; no PYA reporting commitment established."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
@@ -1066,25 +1091,29 @@
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Actual host comparison published for independent findings review; acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research completion is separate from applicant qualification, legal determination, a host decision, application, award, receipt and activation."
         ]
       },
       "owning_research_key": "E01-04",
       "source_urls": [
         "https://sfconservancy.org/projects/apply/",
-        "https://sfconservancy.org/projects/services/"
+        "https://sfconservancy.org/projects/services/",
+        "https://sfconservancy.org/docs/sponsorship-agreement-template.pdf",
+        "https://sfconservancy.org/projects/policies/",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
       ],
       "application_url": "https://sfconservancy.org/projects/apply/",
       "source_evidence": [
-        "SFC considers projects on a rolling basis. It generally excludes projects under one year old and proofs of concept, and requires a public software-freedom mission and eligible licensing."
+        "S1/S2 establish the published membership criteria, process and services; S3 is a negotiable template. The canonical comparison preserves the 10% fee-base qualification and restricted authority/exit."
       ],
-      "benefit": "Potential nonprofit administration and fundraising infrastructure after acceptance; no direct funding guarantee.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+      "benefit": "Potential organizational, fundraising, legal/accounting, contract and asset administration after acceptance; no guaranteed cash.",
+      "required_application_evidence_status": "Published initial process/form evidence inspected; actual applicant evidence, follow-up requirements and applicable agreement remain Unknown.",
       "published_qualification_requirements": [
-        "OSI-approved and DFSG-free software licensing",
-        "Public not-for-profit FOSS development with an established community"
+        "Software-freedom public mission and eligible software/documentation licensing.",
+        "Diverse active community; projects under one year or proofs of concept are generally excluded."
       ],
       "internal_application_review_controls": [
         "Verify applicant facts and authority",
@@ -1094,33 +1123,42 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P1",
       "score": null,
-      "scoring_justification": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
-      "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "scoring_justification": "P1 foundational research. Applicant eligibility, complete usable value and effort are not established; numeric scoring remains null.",
+      "source_freshness": "Official sources actually inspected 2026-10-19; agreement/fee conflicts and source history preserved in the canonical comparison. Recheck before reliance or a changed term.",
+      "next_verification_rule": "Monthly review and before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim; immediate recheck for changed terms, conflicting evidence or access failure.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "scope": "Current source inspection and structured consistency by the research author; exact-revision independent acceptance of actual findings is pending."
       },
-      "application_route_description": "The official page specifies an initial email inquiry; full application materials follow provider questions. No email has been sent.",
+      "application_route_description": "Rolling initial email inquiry, follow-up questions and formal plain-text application; no fixed deadline or actual decision date. Nothing sent.",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; independent findings review pending",
       "applicant_qualification_status": "Unknown",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
+      "estimated_usable_value_method": "Unknown net value. Compare equivalent qualified fee bases, processor/FX costs, exceptional service quotes and scoped administration/migration effort. Hosting provides no award. Keep cash, contingent awards, credit face value and evidenced avoided cost separate; no arbitrary hours or score.",
+      "score_reason": "Foundational method and conditional host suitability; no supported numeric probability, complete value or score.",
       "award_status": "Unknown; no award evidence established",
       "currency_status": null,
-      "current_disposition": null,
+      "current_disposition": "Investigated; no host selection or application decision",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "Foundational comparison supporting entity, channel and budget decisions; no urgency inferred from an unpublished deadline.",
+      "recommended_disposition": "Conditional longer-term candidate; do not claim the currently evidenced project meets the maturity expectation.",
       "source_refs": [
         "https://sfconservancy.org/projects/apply/",
-        "https://sfconservancy.org/projects/services/"
+        "https://sfconservancy.org/projects/services/",
+        "https://sfconservancy.org/docs/sponsorship-agreement-template.pdf",
+        "https://sfconservancy.org/projects/policies/",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
       ],
-      "related_research_issue_urls": [],
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
@@ -1141,58 +1179,76 @@
       "official_program_url": "https://www.spi-inc.org/projects/associated-project-howto/",
       "official_application_url": "https://www.spi-inc.org/projects/associated-project-howto/",
       "eligibility_jurisdiction": "Unknown; verify applicant location and program country requirements",
-      "legal_entity_requirements": "Association does not change the project’s legal identity or make it part of SPI. Many associated projects are unincorporated; SPI status applies when acting through SPI.",
-      "available_before_incorporation": "Conditionally Eligible association route; project significance unverified",
-      "available_through_fiscal_sponsorship": "Unknown; transition and asset terms need explicit host agreement",
-      "available_after_501c3_recognition": "Unknown; own recognition does not establish association or transfer eligibility",
+      "legal_entity_requirements": "Association preserves independent project identity; SPI status applies to activity through SPI. Actual PYA association Unknown.",
+      "available_before_incorporation": "Conditional route for unincorporated projects; actual significance, representation and board acceptance unverified.",
+      "available_through_fiscal_sponsorship": "Unknown for PYA; concurrent arrangements and incoming/outgoing assets need the existing agreement and charitable compatibility review.",
+      "available_after_501c3_recognition": "Unknown for PYA; own recognition does not confer association or settle service/transfer terms.",
       "eligibility_status": "Unknown",
-      "eligibility_conditions": [],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Application process documented; PYA acceptance/relationship Unknown",
+      "eligibility_conditions": [
+        "Actual significance and authorized liaison/succession are unverified; public code does not prove board acceptance."
+      ],
+      "application_gate": "Not authorized; public research does not establish applicant authority, qualification or permission to apply or accept terms.",
+      "application_status": "Public intake/process inspected; actual application and acceptance Unknown",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Potential donation, expense and contract administration after association; no guaranteed funds.",
+      "benefit_amount_or_capacity": "Potential agreed administration; actual scope, monetary value and capacity Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Unknown net value. Compare equivalent qualified fee bases, processor/FX costs, exceptional service quotes and scoped administration/migration effort. Hosting provides no award. Keep cash, contingent awards, credit face value and evidenced avoided cost separate; no arbitrary hours or score.",
       "restrictions_and_obligations": [
-        "Only authorized SPI officers may bind SPI unless its board expressly authorizes otherwise.",
-        "Held funds can move only to a compatible US 501(c)(3). Current administrative percentage remains unverified from SPI."
+        "Direct current SPI HOWTO verifies 5% of donated amounts plus attributable transactions; outgoing/exceptional costs separate.",
+        "SPI expense/contract authority and charitable restrictions apply to hosted funds/assets."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
+      "program_objectives": "Administration supporting eligible free/open-source public-benefit work; hosting is distinct from a grant or project legal recognition.",
+      "fit_with_pick_your_ai": "Proposed publicly inspectable AI-selection software and reusable evidence/compatibility contracts across six repositories. Immutable project snapshots and root licenses are documented in docs/nonprofit/fiscal-sponsorship-comparison.md. Actual maturity, authority, full rights, usage and delivery capacity remain unverified.",
       "required_application_evidence": [
-        "Project name/details and requested SPI services",
-        "Project liaison and succession-selection process",
-        "Disclosure of existing contracts, liabilities and pending litigation"
+        "Project and services description, liaison/succession, existing contracts/liabilities and board-sponsored application."
       ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Complete the actual authority, full licensing, community and service-needs evidence before considering the unsent inquiry checklist.",
+        "Obtain and compare actual applicable fee bases, agreement version, expense/contract authority, reporting, privacy and restricted exit terms before any decision."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Current public sources inspected with explicit conflicts and template/history limits; actual applicant, host relationship, value and independent findings acceptance remain unverified.",
       "sources": [
         {
           "url": "https://www.spi-inc.org/projects/associated-project-howto/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "SPI-specific 5% donation fee and transaction costs, board process and example resolution timing"
         },
         {
           "url": "https://www.spi-inc.org/projects/services/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Expense approval, signature authority, exceptional costs and substantial-asset restrictions"
         },
         {
           "url": "https://www.spi-inc.org/projects/relationship/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Project independence and fiscal relationship"
+          "review_scope": "Independent project identity and restrictions on held funds/assets upon exit"
+        },
+        {
+          "url": "https://www.spi-inc.org/donations/",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Donation/earmarking and donor-data policy; dated operational anecdotes do not establish current PYA access or fees"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "GitHub fiscal-host list includes SPI/OSC; SFC absence is not proof of every possible arrangement"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Personal versus organizational sponsorship fees; historical matching-fund closure is not current support"
         }
       ],
       "scoring": {
@@ -1205,23 +1261,25 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P1 foundational research. Applicant eligibility, complete usable value and effort are not established; numeric scoring remains null."
       },
       "priority": "P1",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Prepare a host comparison with verified governance and needed services; obtain SPI-specific fee evidence.",
+      "next_action": "Obtain independent acceptance of the comparison; qualify significance, liaison, actual service/fee scope and asset restrictions before considering the unsent inquiry checklist.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "next_verification_trigger": "Monthly review; before reliance or action; changed fees, agreement, eligibility, intake or access results",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
       "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
-      "reporting_obligations": [],
+      "reporting_obligations": [
+        "Actual agreement and approved activity determine reports, receipts, financial oversight and donor restrictions; no PYA reporting commitment established."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
@@ -1235,24 +1293,30 @@
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Actual host comparison published for independent findings review; acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research completion is separate from applicant qualification, legal determination, a host decision, application, award, receipt and activation."
         ]
       },
       "owning_research_key": "E01-04",
       "source_urls": [
         "https://www.spi-inc.org/projects/associated-project-howto/",
         "https://www.spi-inc.org/projects/services/",
-        "https://www.spi-inc.org/projects/relationship/"
+        "https://www.spi-inc.org/projects/relationship/",
+        "https://www.spi-inc.org/donations/",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
       ],
       "application_url": "https://www.spi-inc.org/projects/associated-project-howto/",
       "source_evidence": [
-        "Association requires a genuine, substantial FOSS project and board approval. SPI holds donations and reimburses documented approved expenses; it does not perform fundraising."
+        "I1 directly resolves the former fee Unknown. I2/I3 qualify expense approval, custody, signature authority and restricted exit; I4 donor/operational history does not establish actual PYA access."
       ],
-      "benefit": "Potential donation, expense and contract administration after association; no guaranteed funds.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
-      "published_qualification_requirements": [],
+      "benefit": "Potential donation custody, approved expense and eligible contract administration after association; no guaranteed funds or solicitation service.",
+      "required_application_evidence_status": "Published initial process/form evidence inspected; actual applicant evidence, follow-up requirements and applicable agreement remain Unknown.",
+      "published_qualification_requirements": [
+        "Genuine, substantial/significant FOSS project; board assessment.",
+        "Authorized liaison and succession process, requested services and disclosure of existing contracts/liabilities."
+      ],
       "internal_application_review_controls": [
         "Verify applicant facts and authority",
         "Evidence a scoped need and realistic delivery capacity",
@@ -1261,34 +1325,42 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P1",
       "score": null,
-      "scoring_justification": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
-      "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "scoring_justification": "P1 foundational research. Applicant eligibility, complete usable value and effort are not established; numeric scoring remains null.",
+      "source_freshness": "Official sources actually inspected 2026-10-19; agreement/fee conflicts and source history preserved in the canonical comparison. Recheck before reliance or a changed term.",
+      "next_verification_rule": "Monthly review and before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim; immediate recheck for changed terms, conflicting evidence or access failure.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "scope": "Current source inspection and structured consistency by the research author; exact-revision independent acceptance of actual findings is pending."
       },
-      "application_route_description": "Informal board discussion precedes a sponsored formal application and board resolution; no contact initiated.",
+      "application_route_description": "Informal board inquiry precedes sponsored application and board resolution. Actual meeting/date Unknown; example 60-day invitation period is not a current deadline. Nothing sent.",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; independent findings review pending",
       "applicant_qualification_status": "Unknown",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
+      "estimated_usable_value_method": "Unknown net value. Compare equivalent qualified fee bases, processor/FX costs, exceptional service quotes and scoped administration/migration effort. Hosting provides no award. Keep cash, contingent awards, credit face value and evidenced avoided cost separate; no arbitrary hours or score.",
+      "score_reason": "Foundational method and conditional host suitability; no supported numeric probability, complete value or score.",
       "award_status": "Unknown; no award evidence established",
       "currency_status": null,
-      "current_disposition": null,
+      "current_disposition": "Investigated; no host selection or application decision",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "Foundational comparison supporting entity, channel and budget decisions; no urgency inferred from an unpublished deadline.",
+      "recommended_disposition": "Conditional candidate; qualify actual project and applicable terms before an inquiry or selection",
       "source_refs": [
         "https://www.spi-inc.org/projects/associated-project-howto/",
         "https://www.spi-inc.org/projects/services/",
-        "https://www.spi-inc.org/projects/relationship/"
+        "https://www.spi-inc.org/projects/relationship/",
+        "https://www.spi-inc.org/donations/",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
       ],
-      "related_research_issue_urls": [],
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",
@@ -1307,66 +1379,120 @@
       "category": "nonprofit",
       "support_type": "fiscal_hosting",
       "official_program_url": "https://oscollective.org/about/",
-      "official_application_url": "https://opencollective.com/opensource/apply/intro",
+      "official_application_url": "https://opencollective.com/opensource/apply/form",
       "eligibility_jurisdiction": "Projects welcomed worldwide, subject to acceptance and actual payment/contract restrictions",
-      "legal_entity_requirements": "Hosting can avoid a separate project entity/bank account; it does not create project 501(c)(3) recognition.",
-      "available_before_incorporation": "Conditionally Eligible fiscal-hosting route; actual project fit unverified",
-      "available_through_fiscal_sponsorship": "Unknown; separate charitable sponsorship and transfer terms cannot be assumed",
-      "available_after_501c3_recognition": "Unknown; independently recognized entities require host-specific fit and routing review",
+      "legal_entity_requirements": "OSC identifies as a 501(c)(6) host. Hosting can supply a financial home without a separate project entity, subject to actual acceptance; no PYA charitable recognition established.",
+      "available_before_incorporation": "Conditional code/community route; organization repository observed, but full licensing, legitimate representation and actual acceptance unverified.",
+      "available_through_fiscal_sponsorship": "Unknown for PYA; old host terms and donor/charitable transfer restrictions govern a possible move to this 501(c)(6) host.",
+      "available_after_501c3_recognition": "Unknown for PYA; own recognition does not change OSC status or settle restricted-fund and contracting-party questions.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "Original project or substantial fork with recent activity or usage",
-        "Authorized representative and clear OSS license",
-        "Organizational repository rather than personal account"
+        "Six organization-owned repositories are observed. Complete rights, representative authority, selected route and host acceptance remain unverified."
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Application/validation route documented; no acceptance claimed",
+      "application_gate": "Not authorized; public research does not establish applicant authority, qualification or permission to apply or accept terms.",
+      "application_status": "Public intake/process inspected; actual application and acceptance Unknown",
       "opportunity_stage": "Discovered",
-      "work_status": "Ready",
+      "work_status": "Review",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Potential hosted fundraising, payments and administration; not a grant or automatic charitable status.",
+      "benefit_amount_or_capacity": "Potential agreed administration; actual scope, monetary value and capacity Unknown.",
       "currency": null,
       "estimated_usable_value": null,
-      "valuation_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
+      "valuation_method": "Unknown net value. Compare equivalent qualified fee bases, processor/FX costs, exceptional service quotes and scoped administration/migration effort. Hosting provides no award. Keep cash, contingent awards, credit face value and evidenced avoided cost separate; no arbitrary hours or score.",
       "restrictions_and_obligations": [
-        "10% incoming-funds host fee plus variable payment-processor charges.",
-        "501(c)(6) hosting is distinct from charitable sponsorship and donor deductibility."
+        "10% operational external-inflow fee and separate variable processors; broader public-agreement deposit base requires written reconciliation.",
+        "Public ledger/code, approved evidenced expenses, controlled contract/fund authority, project responsibilities and restricted closing process; actual executed terms Unknown."
       ],
-      "program_objectives": "See sourced program scope",
-      "fit_with_pick_your_ai": "Requires a concrete public-benefit deliverable and evidence of actual capacity; proposed fit is not qualification.",
-      "required_application_evidence": [],
+      "program_objectives": "Administration supporting eligible free/open-source public-benefit work; hosting is distinct from a grant or project legal recognition.",
+      "fit_with_pick_your_ai": "Proposed publicly inspectable AI-selection software and reusable evidence/compatibility contracts across six repositories. Immutable project snapshots and root licenses are documented in docs/nonprofit/fiscal-sponsorship-comparison.md. Actual maturity, authority, full rights, usage and delivery capacity remain unverified.",
+      "required_application_evidence": [
+        "Visible manual form requests contact, collective name/description/type, repository/license and project/community context. Actual private follow-up and executed terms Unknown."
+      ],
       "required_contacts_or_decisions": [
-        "Verify authorized applicant and decision authority",
-        "Resolve the specific eligibility and cost gates before requesting approval"
+        "Complete the actual authority, full licensing, community and service-needs evidence before considering the unsent inquiry checklist.",
+        "Obtain and compare actual applicable fee bases, agreement version, expense/contract authority, reporting, privacy and restricted exit terms before any decision."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Published facts source-checked; complete intake requirements and actual applicant qualification remain unverified.",
+      "confidence": "Current public sources inspected with explicit conflicts and template/history limits; actual applicant, host relationship, value and independent findings acceptance remain unverified.",
       "sources": [
         {
           "url": "https://oscollective.org/about/",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "OSC self-identification as a 501(c)(6) nonprofit fiscal host"
         },
         {
           "url": "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Distinct code/community criteria; organization requirement and qualified administrator preference"
         },
         {
           "url": "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Operational 10% external-inflow basis, internal-transfer exemption and separate variable processing costs"
         },
         {
           "url": "https://opencollective.com/opensource/apply/intro",
           "source_kind": "official",
           "last_verified": "2026-10-19",
-          "review_scope": "Published program facts, not applicant qualification"
+          "review_scope": "Visible public introduction, agreement link and GitHub/manual routes; no account or submission"
+        },
+        {
+          "url": "https://opencollective.com/opensource/apply/form",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Visible manual form fields only; no entry, account, submission or actual acceptance"
+        },
+        {
+          "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Actual application-linked public agreement, authority/custody/exit and broader deposit fee base; actual executed terms Unknown"
+        },
+        {
+          "url": "https://docs.oscollective.org/welcome-and-introduction-to-osc/what-is-fiscal-hosting",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Hosting services, public/private information boundary and legal distinction"
+        },
+        {
+          "url": "https://docs.oscollective.org/for-hosted-member-projects/spending-money-and-getting-paid/expense-policies-and-limitations",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Current expense policies including pre-hosting exclusion and substantiation; no account/expense operation"
+        },
+        {
+          "url": "https://docs.oscollective.org/for-hosted-member-projects/closing-a-collective",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published closing/transfer process and outstanding-obligation controls"
+        },
+        {
+          "url": "https://docs.oscollective.org/interested-in-joining-osc/moving-to-osc-from-another-fiscal-sponsor",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Existing host restrictions and charitable/noncharitable transfer distinction"
+        },
+        {
+          "url": "https://docs.oscollective.org/campaigns-and-partnerships/github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Published GitHub integration and payout process; no-fee assertion qualified by current GitHub source"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "GitHub fiscal-host list includes SPI/OSC; SFC absence is not proof of every possible arrangement"
+        },
+        {
+          "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Personal versus organizational sponsorship fees; historical matching-fund closure is not current support"
         }
       ],
       "scoring": {
@@ -1379,23 +1505,25 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability. Numeric score remains null until eligibility and usable-value evidence exist."
+        "justification": "P1 foundational research. Applicant eligibility, complete usable value and effort are not established; numeric scoring remains null."
       },
       "priority": "P1",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Verify project representative/governance evidence and compare host terms and payment costs.",
+      "next_action": "Obtain independent acceptance; qualify code-route/authority/rights, reconcile fee and applicable agreement terms, and inspect transfer restrictions before considering the unsent checklist.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "next_verification_trigger": "Monthly review; before reliance or action; changed fees, agreement, eligibility, intake or access results",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
       "activation_status": "No activation in this execution; prior account state Unknown",
       "activation_evidence": null,
       "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
-      "reporting_obligations": [],
+      "reporting_obligations": [
+        "Actual agreement and approved activity determine reports, receipts, financial oversight and donor restrictions; no PYA reporting commitment established."
+      ],
       "duplicate_search": {
         "searched_at": "2026-10-19",
         "aliases_checked": [
@@ -1409,9 +1537,9 @@
         "reviewer": null,
         "reviewed_revision": null,
         "review_url": null,
-        "decision": "Source consistency reviewed; full research deliverable not accepted",
+        "decision": "Actual host comparison published for independent findings review; acceptance pending",
         "limitations": [
-          "This record is seed evidence for the owning research issue. Independent source review is not a GitHub approval or applicant qualification."
+          "Research completion is separate from applicant qualification, legal determination, a host decision, application, award, receipt and activation."
         ]
       },
       "owning_research_key": "E01-04",
@@ -1419,18 +1547,26 @@
         "https://oscollective.org/about/",
         "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
         "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
-        "https://opencollective.com/opensource/apply/intro"
+        "https://opencollective.com/opensource/apply/intro",
+        "https://opencollective.com/opensource/apply/form",
+        "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
+        "https://docs.oscollective.org/welcome-and-introduction-to-osc/what-is-fiscal-hosting",
+        "https://docs.oscollective.org/for-hosted-member-projects/spending-money-and-getting-paid/expense-policies-and-limitations",
+        "https://docs.oscollective.org/for-hosted-member-projects/closing-a-collective",
+        "https://docs.oscollective.org/interested-in-joining-osc/moving-to-osc-from-another-fiscal-sponsor",
+        "https://docs.oscollective.org/campaigns-and-partnerships/github-sponsors",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
       ],
-      "application_url": "https://opencollective.com/opensource/apply/intro",
+      "application_url": "https://opencollective.com/opensource/apply/form",
       "source_evidence": [
-        "OSC is a US 501(c)(6) nonprofit fiscal host. Its software-project criteria address originality, activity/usage, representative authority, open licensing and an organization-owned repository."
+        "O1/O2 qualify legal status and distinct admission routes. O3/O6 disagree on the internal-transfer fee scope; G2 qualifies O11 generic no-GitHub-fee wording. O4/O5 public intake inspected without entry."
       ],
-      "benefit": "Potential hosted fundraising, payments and administration; not a grant or automatic charitable status.",
-      "required_application_evidence_status": "Complete current application fields and attachments not yet verified; the list records only explicitly documented items where present.",
+      "benefit": "Potential hosted fundraising, payment, accounting and contract administration after acceptance; no guaranteed funds or project charitable status.",
+      "required_application_evidence_status": "Published initial process/form evidence inspected; actual applicant evidence, follow-up requirements and applicable agreement remain Unknown.",
       "published_qualification_requirements": [
-        "Original project or substantial fork with recent activity or usage",
-        "Authorized representative and clear OSS license",
-        "Organizational repository rather than personal account"
+        "Code route: original/substantially developed OSS, license, activity/use, legitimate representative and organization repository; two administrators where possible.",
+        "Separate non-code community criteria apply only if that route is selected; no PYA threshold claim."
       ],
       "internal_application_review_controls": [
         "Verify applicant facts and authority",
@@ -1440,35 +1576,49 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P1",
       "score": null,
-      "scoring_justification": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
-      "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or acceptance",
-      "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "scoring_justification": "P1 foundational research. Applicant eligibility, complete usable value and effort are not established; numeric scoring remains null.",
+      "source_freshness": "Official sources actually inspected 2026-10-19; agreement/fee conflicts and source history preserved in the canonical comparison. Recheck before reliance or a changed term.",
+      "next_verification_rule": "Monthly review and before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim; immediate recheck for changed terms, conflicting evidence or access failure.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
+        "scope": "Current source inspection and structured consistency by the research author; exact-revision independent acceptance of actual findings is pending."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; independent findings review pending",
       "applicant_qualification_status": "Unknown",
-      "estimated_usable_value_method": "Pending verified need, coverage, restrictions, fees, delivery/maintenance burden and accepted scope. Headline support is not realized value.",
-      "score_reason": "Foundational evidence or operating work supports the program and is prioritized under the supplied P1 definition. Foundational readiness or high-value security/channel qualification work under the prompt's P1 definition; no arbitrary deadline or numeric award probability.",
+      "estimated_usable_value_method": "Unknown net value. Compare equivalent qualified fee bases, processor/FX costs, exceptional service quotes and scoped administration/migration effort. Hosting provides no award. Keep cash, contingent awards, credit face value and evidenced avoided cost separate; no arbitrary hours or score.",
+      "score_reason": "Foundational method and conditional host suitability; no supported numeric probability, complete value or score.",
       "award_status": "Unknown; no award evidence established",
-      "application_route_description": null,
+      "application_route_description": "Visible introduction and public agreement, then GitHub verification or manual form. No fixed deadline; actual decision/date Unknown. No account or submission.",
       "currency_status": null,
-      "current_disposition": null,
+      "current_disposition": "Investigated; no host selection or application decision",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "Foundational comparison supporting entity, channel and budget decisions; no urgency inferred from an unpublished deadline.",
+      "recommended_disposition": "Conditional candidate; qualify actual project and applicable terms before an inquiry or selection",
       "source_refs": [
         "https://oscollective.org/about/",
         "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
         "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
-        "https://opencollective.com/opensource/apply/intro"
+        "https://opencollective.com/opensource/apply/intro",
+        "https://opencollective.com/opensource/apply/form",
+        "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
+        "https://docs.oscollective.org/welcome-and-introduction-to-osc/what-is-fiscal-hosting",
+        "https://docs.oscollective.org/for-hosted-member-projects/spending-money-and-getting-paid/expense-policies-and-limitations",
+        "https://docs.oscollective.org/for-hosted-member-projects/closing-a-collective",
+        "https://docs.oscollective.org/interested-in-joining-osc/moving-to-osc-from-another-fiscal-sponsor",
+        "https://docs.oscollective.org/campaigns-and-partnerships/github-sponsors",
+        "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+        "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors"
       ],
-      "related_research_issue_urls": [],
+      "related_research_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20"
+      ],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
         "source": "https://api.github.com/repos/Pick-Your-AI/pick-your-ai-sustainability/issues?state=all&per_page=100",

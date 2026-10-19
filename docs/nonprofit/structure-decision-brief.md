@@ -2,7 +2,7 @@
 
 Owning issue: [E01-03 / #13](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13) · Parent: [E01 / #2](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2).
 
-**Prepared and primary sources inspected 2026-10-19 UTC. Status: complete draft findings awaiting independent review. Priority: P1 foundational. Recommended disposition: continue authorized community engineering and evidence preparation; keep both charitable sponsorship and noncharitable hosting available for a demonstrated administrative need; decide independent formation only from the actual purpose, authority, obligations and resource case. No organizational path is adopted by this brief.**
+**Prepared and primary sources inspected 2026-10-19 UTC. Status: findings independently accepted; canonical-main publication pending. Priority: P1 foundational. Recommended disposition: continue authorized community engineering and evidence preparation; keep both charitable sponsorship and noncharitable hosting available for a demonstrated administrative need; decide independent formation only from the actual purpose, authority, obligations and resource case. No organizational path is adopted by this brief.**
 
 The frozen research base is [e31a1cc458c6605748c1d103ae2f048ba4985612](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/tree/e31a1cc458c6605748c1d103ae2f048ba4985612). This document replaces its initial structure draft. It does not update another issue's opportunity records, claim that this dated base is current main, or implement a filing, agreement, application, appointment, payment or account change.
 
@@ -194,6 +194,8 @@ The SFC fee-base discrepancy, OSC fee/change/effectiveness discrepancies, histor
 
 ## 9. Literal #13 acceptance map
 
+The [actual independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275724543), published on **2026-10-19 at 19:41:04 UTC** and subsequently read back exactly, accepts local unsigned source `b3325ecd31507b70ba85fa9961f5c12a1d76353b`, tree `7b993dbdb71a7590a267db56ad3b9c570ed0003b`, sole dated parent `e31a1cc458c6605748c1d103ae2f048ba4985612`. It covers the full findings, all ten criteria, the 26 official source scopes and the complete 98-leaf preservation map. This acceptance-metadata successor is separate from that reviewed source and requires its own preservation review. The Research engineering lane reviewed within the same project session and shared GitHub account; its acceptance is not a separate-account PR approval, legal opinion or organizational mandate.
+
 | Criterion | Evidence and remaining boundary |
 | --- | --- |
 | Incorporation, EIN, federal exemption, fiscal sponsorship and platform registration distinct | §2 and separate applicant/activation gates. |
@@ -205,6 +207,6 @@ The SFC fee-base discrepancy, OSC fee/change/effectiveness discrepancies, histor
 | Restrictions, reporting, branding, publication, privacy, portability, renewal, overage and independence | §5 and route-specific contract/source limits. |
 | Concrete repository/public-benefit use, defensible value/effort and cash versus avoided cost | §7 and pinned accepted purpose/needs inputs; no achieved impact or unsupported money estimate. |
 | Canonical deliverable, program record where relevant, references, questions, priority and disposition | This canonical file, P1 rationale, existing-record ownership in §4 and the decision packet. Main publication remains pending until actual delivery; no duplicate program record is appropriate. |
-| Independent acceptance of actual findings | **Pending an exact-revision independent substantive review.** A source slice, validation result or initial lead alone is insufficient. Link the actual acceptance and separately review any resulting metadata successor. |
+| Independent acceptance of actual findings | **Accepted at exact source `b3325ecd` by the [actual full findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275724543).** This acceptance does not cover a later metadata successor or receiving composition; each needs its own exact preservation review. |
 
-Completion of this research requires the actual review and publication receipts. It remains separate from a binding structural decision, counsel engagement, filing, recognition, host/program admission, award, receipt, account activation and ongoing reporting.
+The findings-review receipt is now actual; completion still requires the actual canonical-main publication receipt. Both remain separate from a binding structural decision, counsel engagement, filing, recognition, host/program admission, award, receipt, account activation and ongoing reporting. The existing no-new-PR/readiness hold remains in force.

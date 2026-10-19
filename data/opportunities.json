@@ -3110,8 +3110,8 @@
       ],
       "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
       "application_status": "Public registration/claim route documented; actual profile ownership, eligibility, employer admission and private fields remain unverified.",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -3136,7 +3136,7 @@
         "Retain donor privacy, independent findings, permitted-use records, reconciliation and exit/refund controls."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+      "confidence": "Public source findings independently accepted within the bounded E04-04 research scope; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
       "sources": [
         {
           "source_id": "B1",
@@ -3247,6 +3247,12 @@
           "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
           "access_result": "Public source read at the expressly recorded scope",
           "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+          "source_kind": "independent_findings_review",
+          "last_verified": "2026-10-19",
+          "review_scope": "Actual full issue-comment acceptance read back against public source 730ec4865528a9b16f9324cf5fa606b9157a375e; not a new provider-source retrieval or formal PR approval."
         }
       ],
       "scoring": {
@@ -3263,8 +3269,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action.",
+      "independent_reviewer": "Independent Research/engineering reviewer in the current project session; issue COMMENT through the shared account",
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -3294,12 +3300,18 @@
         ]
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "reviewer": "Independent Research/engineering reviewer in the current project session; issue COMMENT through the shared account",
+        "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T19:13:38Z",
+        "decision": "Accepted against all eleven literal E04-04 criteria within the stated public-research scope",
         "limitations": [
-          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+          "Actual independent in-session findings acceptance; not a separate-account formal PR approval or legal appointment.",
+          "Source-only delivery; ordinary PR, main validation, merge and literal issue completion remain pending.",
+          "No actual recipient qualification, donor/employer relationship, account, application, award, payment or operational adoption is established.",
+          "The review has its own source scopes and timestamp; it does not refresh prior provider or private-form observations."
         ]
       },
       "owning_research_key": "E04-04",
@@ -3314,7 +3326,8 @@
         "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
         "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
         "https://benevity.com/legal/privacy-notice",
-        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672"
       ],
       "application_url": "https://causes.benevity.org",
       "source_evidence": [
@@ -3341,20 +3354,20 @@
         "scope": "Published primary-source facts and record consistency only; not applicant qualification, legal advice or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "applicant_qualification_status": "Unknown",
       "estimated_usable_value_method": "Use only actual settled permitted funds less supported fees, restrictions and unavoidable delivery/administration costs; avoid duplicate gross/net and match accounting. No defensible project amount or avoided-cost counterfactual exists yet. See the canonical method.",
       "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": "Public registration/claim route documented; actual profile ownership, eligibility, employer admission and private fields remain unverified.",
       "currency_status": null,
-      "current_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "current_disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "recommended_disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "source_refs": [
         "https://benevity.com/nonprofits",
         "https://causeshelp.benevity.org/hc/en-us/articles/30836041402260-How-does-Benevity-assess-eligibility-of-my-organization",
@@ -3366,7 +3379,8 @@
         "https://info.benevity.com/rs/970-BMO-559/images/Benevity_Platform_Guidelines.pdf",
         "https://cdn.bfldr.com/ZZ11QL2O/as/56fx794hxkcz6p92v6p5b3/Benevity_Platform_Guidelines",
         "https://benevity.com/legal/privacy-notice",
-        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672"
       ],
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
@@ -3423,8 +3437,9 @@
         "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
         "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
         "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
-        "independent_findings_acceptance": "Pending",
-        "source_observation_count": 11
+        "independent_findings_acceptance": "Accepted; see the active exact-source review and preserved initial metadata",
+        "source_observation_count": 12,
+        "provider_source_observation_count": 11
       },
       "workplace_giving_input_history": {
         "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
@@ -3622,6 +3637,38 @@
         ]
       }
     }
+      },
+      "workplace_giving_review_history": {
+        "initial_confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+        "source_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "scope": "Initial review and research metadata, retained as historical source states; the active review records the later actual acceptance.",
+        "initial_review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "limitations": [
+          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+        ]
+      },
+        "initial_research_metadata": {
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "prepared_on": "2026-10-19",
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
+        "independent_findings_acceptance": "Pending",
+        "source_observation_count": 11
+      }
+      },
+      "workplace_giving_findings_acceptance": {
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+        "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+        "submitted_at": "2026-10-19T19:13:38Z",
+        "independent_source_proof_bytes": 45174,
+        "independent_source_proof_sha256": "c4a422483c05b5cc28209af87d26ed6c02122ab5fffc849ffd1f1ddf1687f13c",
+        "scope": "Full canonical/provider/record findings, finite correction and preservation review; no hosted or provider operation claimed."
       }
     },
     {
@@ -10157,8 +10204,8 @@
       ],
       "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
       "application_status": "Donors recommend grants; the recipient FAQ states that funding applications are not accepted. Recipient EFT enrollment is a separate payment step, not a grant application.",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -10180,7 +10227,7 @@
         "Retain donor privacy, independent findings, permitted-use records, reconciliation and exit/refund controls."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+      "confidence": "Public source findings independently accepted within the bounded E04-04 research scope; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
       "sources": [
         {
           "source_id": "F1",
@@ -10231,6 +10278,12 @@
           "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
           "access_result": "Public source read at the expressly recorded scope",
           "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+          "source_kind": "independent_findings_review",
+          "last_verified": "2026-10-19",
+          "review_scope": "Actual full issue-comment acceptance read back against public source 730ec4865528a9b16f9324cf5fa606b9157a375e; not a new provider-source retrieval or formal PR approval."
         }
       ],
       "scoring": {
@@ -10247,8 +10300,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action.",
+      "independent_reviewer": "Independent Research/engineering reviewer in the current project session; issue COMMENT through the shared account",
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -10277,12 +10330,18 @@
         ]
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "reviewer": "Independent Research/engineering reviewer in the current project session; issue COMMENT through the shared account",
+        "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T19:13:38Z",
+        "decision": "Accepted against all eleven literal E04-04 criteria within the stated public-research scope",
         "limitations": [
-          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+          "Actual independent in-session findings acceptance; not a separate-account formal PR approval or legal appointment.",
+          "Source-only delivery; ordinary PR, main validation, merge and literal issue completion remain pending.",
+          "No actual recipient qualification, donor/employer relationship, account, application, award, payment or operational adoption is established.",
+          "The review has its own source scopes and timestamp; it does not refresh prior provider or private-form observations."
         ]
       },
       "owning_research_key": "E04-04",
@@ -10291,20 +10350,22 @@
         "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
         "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
         "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
-        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672"
       ],
       "source_refs": [
         "https://www.fidelitycharitable.org/nonprofits/faqs.html",
         "https://www.fidelitycharitable.org/faqs/all/grant-eligible-organizations.html",
         "https://www.fidelitycharitable.org/giving-account-guide/recommending-a-grant.html",
         "https://www.fidelitycharitable.org/content/dam/fc-public/docs/programs/fidelity-charitable-program-guidelines.pdf",
-        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672"
       ],
-      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "application_route_description": "Donors recommend grants; the recipient FAQ states that funding applications are not accepted. Recipient EFT enrollment is a separate payment step, not a grant application.",
       "award_status": "Unknown; no award evidence established",
       "score": null,
-      "current_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "current_disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
       "workplace_giving_research": {
         "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
@@ -10312,8 +10373,9 @@
         "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
         "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
         "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
-        "independent_findings_acceptance": "Pending",
-        "source_observation_count": 5
+        "independent_findings_acceptance": "Accepted; see the active exact-source review and preserved initial metadata",
+        "source_observation_count": 6,
+        "provider_source_observation_count": 5
       },
       "required_application_evidence_status": "No competitive funding-application checklist applies to the bounded donor-recommendation screen; actual recipient verification and payment form contents remain unverified. Public requirements are scoped in the canonical source map.",
       "internal_application_review_controls": [
@@ -10321,7 +10383,39 @@
         "Establish actual decision and banking authority, permitted use, documented costs, reconciliation, privacy and exit/refund controls.",
         "Preserve the accepted neutrality proposal and independent evaluation; these are project review controls, not universal provider requirements."
       ],
-      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions."
+      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions.",
+      "workplace_giving_review_history": {
+        "initial_confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+        "source_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "scope": "Initial review and research metadata, retained as historical source states; the active review records the later actual acceptance.",
+        "initial_review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "limitations": [
+          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+        ]
+      },
+        "initial_research_metadata": {
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "prepared_on": "2026-10-19",
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
+        "independent_findings_acceptance": "Pending",
+        "source_observation_count": 5
+      }
+      },
+      "workplace_giving_findings_acceptance": {
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+        "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+        "submitted_at": "2026-10-19T19:13:38Z",
+        "independent_source_proof_bytes": 45174,
+        "independent_source_proof_sha256": "c4a422483c05b5cc28209af87d26ed6c02122ab5fffc849ffd1f1ddf1687f13c",
+        "scope": "Full canonical/provider/record findings, finite correction and preservation review; no hosted or provider operation claimed."
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -10348,8 +10442,8 @@
       ],
       "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
       "application_status": "Donor-initiated recommendations and sponsor review; no competitive recipient application round or fixed nonprofit deadline was identified in the bounded public source set.",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -10371,7 +10465,7 @@
         "Retain donor privacy, independent findings, permitted-use records, reconciliation and exit/refund controls."
       ],
       "native_dependency_issue_urls": [],
-      "confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+      "confidence": "Public source findings independently accepted within the bounded E04-04 research scope; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
       "sources": [
         {
           "source_id": "D1",
@@ -10482,6 +10576,12 @@
           "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
           "access_result": "Public source read at the expressly recorded scope",
           "provider_version_is_distinct_from_access_date": true
+        },
+        {
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+          "source_kind": "independent_findings_review",
+          "last_verified": "2026-10-19",
+          "review_scope": "Actual full issue-comment acceptance read back against public source 730ec4865528a9b16f9324cf5fa606b9157a375e; not a new provider-source retrieval or formal PR approval."
         }
       ],
       "scoring": {
@@ -10498,8 +10598,8 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action.",
+      "independent_reviewer": "Independent Research/engineering reviewer in the current project session; issue COMMENT through the shared account",
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -10529,12 +10629,18 @@
         ]
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "reviewer": "Independent Research/engineering reviewer in the current project session; issue COMMENT through the shared account",
+        "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+        "reviewed_on": "2026-10-19",
+        "submitted_at": "2026-10-19T19:13:38Z",
+        "decision": "Accepted against all eleven literal E04-04 criteria within the stated public-research scope",
         "limitations": [
-          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+          "Actual independent in-session findings acceptance; not a separate-account formal PR approval or legal appointment.",
+          "Source-only delivery; ordinary PR, main validation, merge and literal issue completion remain pending.",
+          "No actual recipient qualification, donor/employer relationship, account, application, award, payment or operational adoption is established.",
+          "The review has its own source scopes and timestamp; it does not refresh prior provider or private-form observations."
         ]
       },
       "owning_research_key": "E04-04",
@@ -10549,7 +10655,8 @@
         "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
         "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
         "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
-        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672"
       ],
       "source_refs": [
         "https://www.dafgiving360.org/resource/dafgiving360-program-policies",
@@ -10562,13 +10669,14 @@
         "https://bynder.schwab.com/asset/6013c25f-e1b9-4da4-a67e-f744d54d5d68/DAFgiving360-2026-Year-end-Deadline-PDF.pdf",
         "https://bynder.schwab.com/m/29e7a63ca6841199/original/DAFgiving360-Grant-Award-Letter-Sample.pdf",
         "https://bynder.schwab.com/m/427e1307d9bdce7a/original/Schwab-Charitable-How-to-effectively-engage-donors-with-donor-advised-funds.pdf",
-        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3"
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/organizational-test-internal-revenue-code-section-501c3",
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672"
       ],
-      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "application_route_description": "Donor-initiated recommendations and sponsor review; no competitive recipient application round or fixed nonprofit deadline was identified in the bounded public source set.",
       "award_status": "Unknown; no award evidence established",
       "score": null,
-      "current_disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "current_disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
       "workplace_giving_research": {
         "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
@@ -10576,8 +10684,9 @@
         "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
         "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
         "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
-        "independent_findings_acceptance": "Pending",
-        "source_observation_count": 11
+        "independent_findings_acceptance": "Accepted; see the active exact-source review and preserved initial metadata",
+        "source_observation_count": 12,
+        "provider_source_observation_count": 11
       },
       "required_application_evidence_status": "No competitive funding-application checklist applies to the bounded donor-recommendation screen; actual recipient verification and payment form contents remain unverified. Public requirements are scoped in the canonical source map.",
       "internal_application_review_controls": [
@@ -10585,7 +10694,39 @@
         "Establish actual decision and banking authority, permitted use, documented costs, reconciliation, privacy and exit/refund controls.",
         "Preserve the accepted neutrality proposal and independent evaluation; these are project review controls, not universal provider requirements."
       ],
-      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions."
+      "internal_application_review_controls_note": "Proposed internal readiness controls; not provider requirements and not adopted operating decisions.",
+      "workplace_giving_review_history": {
+        "initial_confidence": "Public source findings drafted for independent review; actual applicant, private forms, agreement, donor and receipt facts remain unverified.",
+        "source_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "scope": "Initial review and research metadata, retained as historical source states; the active review records the later actual acceptance.",
+        "initial_review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent acceptance of the actual E04-04 findings",
+        "limitations": [
+          "Source assistance and schema consistency do not supply independent findings acceptance or applicant qualification."
+        ]
+      },
+        "initial_research_metadata": {
+        "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+        "prepared_on": "2026-10-19",
+        "input_revision": "bfa30ca5754e2068b06f7ff5fbf846cb39c6972b",
+        "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md",
+        "scope": "Provider-specific recipient access and obligations research; no account, application, grant, donor, matching or settlement fact established.",
+        "independent_findings_acceptance": "Pending",
+        "source_observation_count": 11
+      }
+      },
+      "workplace_giving_findings_acceptance": {
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+        "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+        "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+        "submitted_at": "2026-10-19T19:13:38Z",
+        "independent_source_proof_bytes": 45174,
+        "independent_source_proof_sha256": "c4a422483c05b5cc28209af87d26ed6c02122ab5fffc849ffd1f1ddf1687f13c",
+        "scope": "Full canonical/provider/record findings, finite correction and preservation review; no hosted or provider operation claimed."
+      }
     }
   ],
   "important_limitations": [

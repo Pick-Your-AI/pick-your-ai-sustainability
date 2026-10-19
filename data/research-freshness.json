@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 291,
+  "source_count": 292,
   "records_count": 45,
   "sources": [
     {
@@ -6116,6 +6116,29 @@
       "workplace_giving_source_id": "G1",
       "canonical_deliverable": "docs/research/workplace-giving-and-daf-routes.md"
     }
+  ,
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual independent findings acceptance of public source 730ec4865528a9b16f9324cf5fa606b9157a375e; original provider and private-form observations retain their dates and scopes.",
+      "opportunity_ids": [
+        "BENEVITY-CAUSES",
+        "FIDELITY-CHARITABLE-DAF",
+        "DAFGIVING360-RECIPIENT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed reviewed source or material findings",
+        "Before relying on the accepted scope for a concrete action"
+      ],
+      "state": "Actual independent issue-comment findings acceptance read back; normal main delivery pending",
+      "source_roles": [
+        "governing_review_source"
+      ],
+      "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+      "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+      "submitted_at": "2026-10-19T19:13:38Z"
+    }
   ],
   "rules": [
     "Preserve source event, publication, access and analysis dates separately.",
@@ -6123,7 +6146,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 263,
+  "source_evidence_url_count": 264,
   "additional_unverified_endpoint_count": 28,
   "workplace_giving_observations": {
     "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
@@ -6487,5 +6510,12 @@
       "DAFgiving360_actual_donor_recommendation": null
     },
     "independent_findings_acceptance": "Pending"
+  },
+  "workplace_giving_findings_acceptance": {
+    "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672",
+    "reviewed_revision": "730ec4865528a9b16f9324cf5fa606b9157a375e",
+    "reviewed_tree": "87882bb0926e50f144742cead3d5bc30573bc89b",
+    "submitted_at": "2026-10-19T19:13:38Z",
+    "scope": "Later actual independent research acceptance. Earlier workplace_giving_observations, including its initial Pending state, remain the complete historical source snapshot; no provider observation is refreshed."
   }
 }

@@ -48,7 +48,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Dependency register](docs/dependency-register.md)
 - [Budget assumption data](data/budget-assumptions.json)
 - [Research freshness register](docs/research-freshness-register.md)
-- [Workplace giving and DAF recipient routes](docs/research/workplace-giving-and-daf-routes.md) — provider comparison in independent review; actual recipient and funding facts remain Unknown
+- [Workplace giving and DAF recipient routes](docs/research/workplace-giving-and-daf-routes.md) — independently accepted public research; actual recipient and funding facts remain Unknown
 - [GitHub developer and security baseline](research/tooling/github-baseline.md)
 - [OpenAI Researcher Access qualification and proposed study](research/compute/openai-researcher-access.md)
 - [Groq conditional evaluation and support discovery](research/compute/groq-support.md)

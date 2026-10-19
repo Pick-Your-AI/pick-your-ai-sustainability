@@ -279,11 +279,11 @@
     {
       "opportunity_id": "BENEVITY-CAUSES",
       "program_name": "Causes Portal / workplace giving channel",
-      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
-      "disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "eligibility": "Unknown",
       "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
       "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
@@ -294,7 +294,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action."
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action."
     },
     {
       "opportunity_id": "AWS-OSS-CREDITS",
@@ -880,11 +880,11 @@
     {
       "opportunity_id": "FIDELITY-CHARITABLE-DAF",
       "program_name": "Donor-advised charitable grant recipient route",
-      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
-      "disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "eligibility": "Unknown",
       "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
       "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
@@ -895,16 +895,16 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action."
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action."
     },
     {
       "opportunity_id": "DAFGIVING360-RECIPIENT",
       "program_name": "Donor-advised charitable grant recipient route",
-      "source_review_status": "Public provider comparison prepared; independent E04-04 findings acceptance pending",
+      "source_review_status": "Independently accepted bounded E04-04 provider research; actual applicant and private terms remain unqualified",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
-      "research_status": "In Review",
-      "opportunity_stage": "Discovered",
-      "disposition": "Defer registration or solicitation pending actual recipient, authority, need and agreement evidence; public research in review.",
+      "research_status": "Done",
+      "opportunity_stage": "Verified",
+      "disposition": "Public recipient-route research accepted; defer registration or solicitation pending actual recipient, authority, need and applicable agreement evidence.",
       "eligibility": "Unknown",
       "application_gate": "Actual recipient qualification, authority, need and applicable agreements are unestablished; this research performs no registration, solicitation or fund acceptance.",
       "application_outcome": "No submission or donor recommendation made in this execution; historical state Unknown",
@@ -915,7 +915,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Obtain independent findings acceptance of the canonical comparison and these records; retain actual recipient, need and agreement gates before later action."
+      "next_action": "Preserve accepted findings; complete ordinary reviewed main delivery when the automatic-review cost hold is resolved, and retain actual recipient, need and agreement gates before later provider action."
     }
   ]
 }

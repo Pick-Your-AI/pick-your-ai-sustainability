@@ -1,3 +1,9 @@
+**Current research decision — independently accepted on 2026-10-19.** The [actual findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672) accepts all eleven E04-04 criteria at public source `730ec4865528a9b16f9324cf5fa606b9157a375e`, tree `87882bb0926e50f144742cead3d5bc30573bc89b`. This is independent in-session review recorded as an issue COMMENT through the shared account, not a formal PR approval. The three program records are now Done / Verified for public research; actual recipient, authority, private terms, funding and operating facts remain Unknown. Ordinary reviewed main delivery and issue completion remain pending the documented automatic-review cost hold.
+
+The complete original reviewed source is preserved below, including its historical In Review / Pending wording and original 45-record/291-URL source snapshot. The later acceptance appendix records the current metadata without refreshing any provider observation.
+
+---
+
 # Workplace giving and donor-advised fund recipient routes
 
 Owning research: [E04-04 / issue #36](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36). Parent: [E04 / #5](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5).
@@ -162,3 +168,19 @@ The [freshness register](../../data/research-freshness.json) retains all 267 pri
 | 11. Independent actual findings acceptance | **Pending.** A source-assistance read, schema check or author validation is insufficient. |
 
 No application, registration, account activation, donation, match, award, payment, legal opinion, fiscal-host appointment, provider/donor outreach or operational adoption occurs in this research. Completion will require actual independent findings acceptance and reviewed delivery; actual main checks and exact issue readback remain subsequent evidence.
+
+## Actual independent acceptance and current research state
+
+The [independent Research/engineering reviewer](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36#issuecomment-6275194672) read the complete canonical and three provider records, the current governing source scopes, every affected guide delta and the exact preservation boundaries. The manual-check scope and account-holder anonymity findings were corrected, and earlier pinned guide counts were explicitly labeled historical. Published provider requirements and proposed internal controls are separate. The actual comment was submitted **2026-10-19 19:13:38 UTC** against the source retained above. It supplies criterion 11; it does not represent a separate-account formal approval, a legal appointment or a provider decision.
+
+The reviewer independently reconstructed all 104 source leaves (eight authored and 96 unchanged input paths), 42 unrelated raw program records/projections, all 28 active award-mechanism values, and all 267 prior freshness rows with their ordering. The original provider findings, successful dates, failed attempts and unverified private forms remain unchanged. The independent proof is 45,174 bytes, SHA-256 `c4a422483c05b5cc28209af87d26ed6c02122ab5fffc849ffd1f1ddf1687f13c`. This describes the actual source review; the reviewer ran no project suite, provider or account operation.
+
+| Program research | Current accepted state | Actual action/eligibility state |
+| --- | --- | --- |
+| BENEVITY-CAUSES | Done / Verified, P2 | Recipient, employer, agreement, value and receipt Unknown; registration/solicitation deferred |
+| FIDELITY-CHARITABLE-DAF | Done / Verified, P2 | Recipient, donor, grant decision, payment and project use Unknown |
+| DAFGIVING360-RECIPIENT | Done / Verified, P2 | Recipient, donor, grant decision, payment and project use Unknown |
+
+The current register contains **45 records: 28 Discovered and 17 Verified**. Adding the actual acceptance URL as a separate review source yields **292 URLs: 263 canonical source URLs, one retained SBA discovery URL and 28 other endpoints**. All 291 original source rows remain raw-exact. These counts describe source membership and research states; they do not establish 292 successful provider checks or any qualified applicant, awarded funding or activated account.
+
+The original source body, initial review objects and research metadata remain preserved. The later receipt has its own reviewer, time, exact revision and scope. Final PR review/delivery, actual receiving and main checks, local main synchronization and literal issue closure must retain their own actual evidence; this acceptance alone does not complete those steps.

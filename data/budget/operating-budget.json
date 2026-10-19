@@ -424,10 +424,11 @@
       "federal_application_fee_cents": 0,
       "source_refs": [
         "SFC",
-        "ENTITY"
+        "ENTITY",
+        "SFC-FSA"
       ],
       "qualification_and_cost_boundary": "SFC candidate only; maturity/licensing/community and negotiated agreement are separate gates. Revenue processed by the host is the fee base. No received grant or acceptance is assumed.",
-      "host_fee_basis": "Revenue that Conservancy processes for the project"
+      "host_fee_basis": "Revenue that Conservancy processes for the project This is the application FAQ hypothesis; SFC-FSA template section3 describes project gross revenue more broadly. The actual negotiated basis remains Unknown."
     },
     {
       "id": "spi",
@@ -599,7 +600,8 @@
     "Which legal route and actual sponsor agreement/form eligibility are selected, and when would any one-time filing occur?",
     "What costs are already included in a selected host service or quoted gross amount, and what incremental processor, tax, overage, maintenance and exit costs remain?",
     "Which named authorized financial decision accepts the sensitivity factors, reserve/contingency policy, use restrictions and funding narrative?",
-    "Which OSC agreement and written fee-base interpretation applies, given the all-deposits agreement versus operational-page internal-transfer exclusion?"
+    "Which OSC agreement and written fee-base interpretation applies, given the all-deposits agreement versus operational-page internal-transfer exclusion?",
+    "Does the negotiated SFC fee base follow processed revenue in the application FAQ or the broader project-gross-revenue language in its public template?"
   ],
   "sources": [
     {
@@ -727,6 +729,15 @@
       "source_revision": null,
       "evidence_class": "current public agreement linked by the application; material source discrepancy",
       "finding": "ExhibitA specifies10% of all funds deposited regardless of source, while OSC-FEES excludes internal hosted transfers. Published documents differ in fee-base scope. The operational-page base is a conditional planning hypothesis only; obtain the applicable written agreement and reconcile this distinction before adoption."
+    },
+    {
+      "id": "SFC-FSA",
+      "publisher": "Software Freedom Conservancy",
+      "url": "https://sfconservancy.org/docs/sponsorship-agreement-template.pdf",
+      "inspected_on": "2026-10-19",
+      "source_revision": "Six-page public template linked from the current application page; actual negotiated version Unknown",
+      "evidence_class": "current primary agreement template, not executed terms",
+      "finding": "Section3 describes10% of project gross revenue including income and donations, while the application FAQ describes revenue Conservancy processes. The application page requires a negotiated project-specific agreement and explicitly treats this PDF as a template. Confirm the actual fee scope; the FAQ-based calculator value remains a conditional planning hypothesis."
     }
   ],
   "calculated": {
@@ -2677,7 +2688,8 @@
       "OSC-FEES",
       "SFC",
       "SPI-HOWTO",
-      "OSC-AGREEMENT"
+      "OSC-AGREEMENT",
+      "SFC-FSA"
     ],
     "scope_mapping": null,
     "interpretation": "An explicit selected-host fee base, not new income. The reviewer must identify the qualifying donated/incoming/processed-revenue amounts and exclusions under that host's current terms. Never infer it from total cash, credits, contingent awards, internal transfers or account balances. Do not add this base to funding totals."

@@ -169,6 +169,13 @@ external-incoming base is a conditional planning hypothesis; neither source is
 silently declared controlling for an actual PYA agreement. Written reconciliation
 belongs in the host inquiry before adopting that fee base.
 
+SFC's current application page also links a six-page [agreement template](https://sfconservancy.org/docs/sponsorship-agreement-template.pdf).
+Section 3 uses project gross revenue, including income and donations, whereas
+the FAQ describes revenue SFC processes. The page expressly requires a negotiated
+project agreement. The calculator's FAQ basis remains a conditional hypothesis;
+the template is neither an executed agreement nor a reason to assume the broader
+scope cannot apply. Confirm the applicable basis before adopting a SFC scenario.
+
 Contingency and liquidity reserves are separate optional policies, both unset.
 Contingency is a proposed allowance on a complete monthly expense total, excluding
 the all-in N01 ceiling when selected because that ceiling already includes its

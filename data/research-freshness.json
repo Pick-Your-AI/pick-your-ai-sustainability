@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 240,
+  "source_count": 255,
   "records_count": 41,
   "sources": [
     {
@@ -4999,6 +4999,300 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-overview",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current ordinary compute-Space paid-plan creation requirement and explicit free-personal ZeroGPU exception; public visibility.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-sdks-static",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Static hosting without compute or a paid-plan creation requirement; frontend build configuration.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-zerogpu",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Separate ZeroGPU account/hosting, quota, hardware, SDK and duration conditions; not grant allocation or tested capacity.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/inference-endpoints/en/pricing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Dedicated paid product and metering; the pricing page's standard subscription/card route is qualified by Hub billing's approved organizational marketplace alternative. No numerical award valuation.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/billing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Separate subscription/compute charges, renewal/storage exposure and approved organizational AWS/Google Cloud marketplace billing instead of a card; actual settings remain Unknown.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2022-09-15; account, content/publication, marks, termination, assignment/export and agreement precedence. Not a legal opinion or actual applicant agreement.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2023-03-28; data collection/use/sharing, retention and processing scope. No zero-retention or actual hosting observation.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/content-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-10; privacy/IP and resource-abuse restrictions.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-storage",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Ephemeral runtime disk and attached-volume distinction; no storage award or measured persistence.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "One-page preamble, displayed effective date 2025-04-28; agreement incorporation, precedence and four product links. Earlier web-content HTTP 403 superseded by a successful exact-URL GET; no Community GPU award clause on the preamble.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon access restoration, redirect or changed governing terms"
+      ],
+      "state": "Source checked; earlier web-content access failure resolved by later exact-URL retrieval",
+      "last_access_result": "HTTP 200 application/pdf; contents inspected, including displayed effective date 2025-04-28",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_history": [
+        {
+          "attempted_on": "2026-10-19",
+          "access_result": "Content retrieval returned HTTP 403 on 2026-10-19; no clauses inferred"
+        },
+        {
+          "retrieved_at": "2026-10-19T11:24:38.302331+00:00",
+          "http_status": 200,
+          "content_sha256": "4b3b636fb004df4c92d1eca775239db3f77ce683f3d96c3ef8fe8d32be0834df"
+        }
+      ],
+      "retrieved_at": "2026-10-19T11:24:38.302331+00:00",
+      "content_sha256": "4b3b636fb004df4c92d1eca775239db3f77ce683f3d96c3ef8fe8d32be0834df"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Hub+Premium+Features.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; p. 1 Sections 1-3 include Spaces hardware upgrades, storage fees and PRO, monthly pay-as-you-go fees and a DPA reference specifically for Spaces hardware upgrades. No award conditions established.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.910234+00:00",
+      "content_sha256": "1d6e684e2c4615e74e51a9b193fbedf46e123fad1aea89676e7bb3af8f29fc98"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Hub.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; enterprise product scope, Sections 2-3 order-form term/annual renewal/60-day notice/fees, and p. 3 Section 5 overrides excluding self-serve purchases. No actual enterprise agreement or Spaces grant inferred.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.911905+00:00",
+      "content_sha256": "b6d118370976182f35a70099fcda1f65b43cbd35648a0963f2e97d048234b3d4"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Plus.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; enterprise product scope, Sections 2-3 order-form term/annual renewal/60-day notice/fees, and p. 3 Section 5 overrides excluding self-serve purchases. No enterprise purchase or grant entitlement inferred.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.914170+00:00",
+      "content_sha256": "fa2c047ed4524ce61da7f451c6782bb45ac9ac4c197065636c3de9378284255c"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Inference+Services.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; Serverless Providers and Dedicated Endpoints, p. 2 Endpoint-specific personal-data restriction and PostHog/EU analytics, fees and DPA reference. Those clauses are not transferred to Spaces.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.915631+00:00",
+      "content_sha256": "c9cc43fdac59f2b0931e3c01b84211543fbb8df3f556463dfc684c2b8366dbae"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Data+Processing+Agreement.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "15-page conditional agreement for personal data processed for a customer; no standalone calendar effective date, effectiveness tied to the underlying Agreement on p. 1. Pages 4-10 cover customer duties, sensitive-data consent, subprocessors/30-day objection, request/end-of-service deletion no later than 180 days after expiry/termination subject to legal retention, charged copy request at least 30 days beforehand, and international transfers. No actual project agreement/configuration established.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:30:54.920097+00:00",
+      "content_sha256": "b32c02a2dfa393019b3f189791f0b57d9225e3ddb11708f8585749b35133558c"
     }
   ],
   "rules": [
@@ -5007,6 +5301,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 214,
+  "source_evidence_url_count": 229,
   "additional_unverified_endpoint_count": 26
 }

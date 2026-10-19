@@ -158,8 +158,9 @@ def validate(document):
             require(isinstance(handoff["source_revision"], str) and
                     re.fullmatch(r"[0-9a-f]{40}", handoff["source_revision"]),
                     "research_compute: an exact #21 source revision is required")
-            require(bool(handoff["field_and_scope_mapping"]),
-                    "research_compute: #21 units and scope mapping required")
+            mapping = handoff["field_and_scope_mapping"]
+            require(isinstance(mapping, str) and bool(mapping.strip()),
+                    "research_compute: #21 units and scope mapping must be nonblank text")
 
     paths = document["legal_paths"]
     require(len(paths) == len(PATH_IDS) and {path["id"] for path in paths} == PATH_IDS,

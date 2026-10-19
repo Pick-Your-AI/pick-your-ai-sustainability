@@ -206,6 +206,15 @@ class OperatingBudgetTests(unittest.TestCase):
         self.document["compute_handoff"]["field_and_scope_mapping"] = "Synthetic test-only USD-cent field; research scope only"
         self.assertEqual(self.scenario()["monthly"][0]["cash_costs_cents"]["research_compute"], 100)
 
+    def test_compute_mapping_requires_nonblank_text_not_truthiness(self):
+        self.cost("research_compute").update(evidence_class="engineering_estimate", monthly_cents=[100] * 12)
+        self.document["compute_handoff"]["source_revision"] = "a" * 40
+        for invalid in (True, 17, ["field"], {"field": "cost"}, "", " \t\n"):
+            with self.subTest(mapping=invalid):
+                self.document["compute_handoff"]["field_and_scope_mapping"] = invalid
+                with self.assertRaisesRegex(ValueError, "mapping"):
+                    BUDGET.calculate(self.document)
+
     def test_json_duplicate_and_nonfinite_values_fail_before_calculation(self):
         for source in ('{"amount":1,"amount":2}', '{"amount":NaN}', '{"amount":Infinity}'):
             with self.subTest(source=source), tempfile.TemporaryDirectory() as directory:

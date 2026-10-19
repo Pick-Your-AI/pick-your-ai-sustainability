@@ -79,6 +79,11 @@ controls are synthetic tests, not statements about the project's expenses.
 The [integration handoff](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6267557657)
 requests its exact revision and field/unit/scope mapping. This calculator does
 not duplicate token, throughput, GPU-hour, rate or credit-coverage conversion.
+Admission requires a forty-character hexadecimal source revision and nonblank
+mapping text; booleans, numbers, containers and whitespace are rejected. This
+checks the record's shape. A reviewer must inspect the pinned source to confirm
+the named fields, units, time horizon, currency and scope actually support the
+estimate; a string alone cannot establish that evidence.
 Its compute cells stay unset until that output is qualified. The accepted
 ledger is sufficient to review a model with explicit missing inputs; missing
 usage evidence prevents a complete budget, not publication of the planning tool.

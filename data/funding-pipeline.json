@@ -179,22 +179,36 @@
     {
       "opportunity_id": "GOOGLE-NONPROFITS-US",
       "program_name": "Google for Nonprofits — United States",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Bounded matrix and Google Nonprofits US program findings independently accepted; repository delivery pending and actual applicant/product/account qualification Unknown",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
-      "research_status": "Ready",
-      "opportunity_stage": "Discovered",
-      "disposition": null,
-      "eligibility": "Not Verified; blocked by recognition and validation evidence",
+      "research_status": "In Progress",
+      "opportunity_stage": "Verified",
+      "disposition": "Defer application and product activation pending actual applicant, authority and selected need; retain P2 research prospect",
+      "eligibility": "Unknown actual applicant; published US routes assessed, required entity/association and authority evidence not established",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_outcome": "No submission in this execution; historical state Unknown",
+      "application_outcome": "No submission or contact in this investigation; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
-      "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "activation_status": "No product selected or activated in this investigation; historical account state Unknown",
+      "reporting_status": "Maintain accurate program information and applicable product conditions if admitted; actual grant/product reporting schedule remains Unknown without the selected agreement.",
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Preserve the fiscal-sponsor exclusion and collect actual entity/status evidence before product-specific qualification."
+      "next_action": "Complete reviewed repository delivery of the accepted matrix and Google findings; retain P2 and defer any application or product activation pending actual applicant/authority, selected need and product terms. Preserve documented group coverage separately from fiscal sponsorship.",
+      "research_status_history": [
+        {
+          "source_revision": "d88e6c2064bdd393cac75f5831c193a140ad2283",
+          "research_status": "In Review",
+          "opportunity_stage": "Discovered",
+          "source_review_status": "Program findings prepared; exact-source independent acceptance pending"
+        }
+      ],
+      "findings_acceptance": {
+        "reviewer": "ChatGPT in-session Leaderboard lane, independently reviewing the Research lane; actual comment through shared GitHub identity CompleteDotTech",
+        "reviewed_revision": "d88e6c2064bdd393cac75f5831c193a140ad2283",
+        "reviewed_at": "2026-10-19T19:18:32Z",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31#issuecomment-6275295882"
+      }
     },
     {
       "opportunity_id": "SOVEREIGN-TECH-FUND",

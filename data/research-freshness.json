@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 267,
+  "source_count": 276,
   "records_count": 43,
   "sources": [
     {
@@ -2415,9 +2415,10 @@
     {
       "url": "https://policies.google.com/privacy",
       "last_verified": "2026-10-19",
-      "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
+      "verification_scope": "Shared URL membership; complete original Gemini observation and new bounded Google Nonprofits observation remain separate below. No cross-program refresh or product/DPA acceptance.",
       "opportunity_ids": [
-        "GOOGLE-GEMINI-ACADEMIC"
+        "GOOGLE-GEMINI-ACADEMIC",
+        "GOOGLE-NONPROFITS-US"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -2425,9 +2426,45 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
       ],
-      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "state": "Scope-specific public source observations; actual applicant, account and agreement remain Unknown",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "receiving_observations": [
+        {
+          "source_revision": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e",
+          "original_source_row_index": 114,
+          "original_source_row_sha256": "639f87fcaf8688a5245ccb642cb7946fe65ae148e2159e1614eb19e7652ec0f9",
+          "observation": {
+            "url": "https://policies.google.com/privacy",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
+            "opportunity_ids": [
+              "GOOGLE-GEMINI-ACADEMIC"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
+            ],
+            "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
+        },
+        {
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
+          "observation": {
+            "id": "G8",
+            "url": "https://policies.google.com/privacy",
+            "accessed_on": "2026-10-19",
+            "result": "Readable official public text at the stated scope",
+            "scope": "Effective 2026-10-16; scoped organization-administrator, export/deletion and retention text, not an exhaustive product/DPA audit.",
+            "full_authenticated_form_reviewed": false
+          }
+        }
       ]
     },
     {
@@ -5606,6 +5643,177 @@
           "successful_complete_form_or_contract_review": false
         }
       ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/1699858?hl=en&ref_topic=16049175",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "US group/chapter documentation and qualified fiscal-sponsor exclusion; sponsorship is not evidence of group coverage.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.google.com/nonprofits/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Product portfolio and public request/verification sequence; no authenticated form or account read.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/9004493?hl=en",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Program Additional Terms, displayed modification 2021-02-17; actual applicant/account agreement remains Unknown.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/12016036",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Goodstack organization/association verification guidance and its published timing estimate; no verification performed.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://help.goodstack.org/what-documents-does-goodstack-require-to-confirm-my-nonprofit-association",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public association-document guidance only; complete application and linked DPA not inspected, no documents collected.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://policies.google.com/terms",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Subsequent displayed United States version, Google LLC, effective 2026-07-30; earlier Netherlands response retained separately.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/10162421?hl=en&ref_topic=9334112",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Program participation-publicity and logo restrictions; no participation or endorsement established.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/9016350?hl=en&ref_topic=9334112",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Continuing eligibility, suspension and stated re-verification cases; no actual account status or renewal date.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.google.com/nonprofits/find-solutions/ad-grants/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Advertising benefit and separate activation; no campaign, product-policy acceptance or usable value established.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before an application, representation, agreement or activation",
+        "Upon country, applicant, product, policy, intake or account-scope change",
+        "At the existing monthly research review; no automatic source-date renewal"
+      ],
+      "state": "Public text inspected at stated scope; full form/account and applicant not verified",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -5614,6 +5822,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 239,
+  "source_evidence_url_count": 248,
   "additional_unverified_endpoint_count": 28
 }

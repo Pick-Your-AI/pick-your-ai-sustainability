@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 234,
+  "source_count": 255,
   "records_count": 41,
   "sources": [
     {
@@ -319,7 +319,7 @@
     {
       "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG",
         "GITHUB-SECURE-OSS-FUND"
@@ -330,9 +330,26 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "state": "Source checked; application and applicant conditions may remain Unknown"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S3",
+          "read_on": "2026-10-19",
+          "scope": "Complete public program overview, supported-region list and matching section.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
       ],
       "opportunity_specific_observations": {
         "GITHUB-SECURE-OSS-FUND": {
@@ -341,12 +358,88 @@
           "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
           "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
         }
-      }
+      },
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 16,
+          "raw_row_sha256": "b84ea73a70e9a59b0eaf60ec20a453383ae4d128a454d36b0626216645b5a91c",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Complete public program overview, supported-region list and matching section.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "history": [
+              {
+                "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+                "last_verified": "2026-10-19",
+                "verification_scope": "Published facts recorded for linked opportunities",
+                "state": "Source checked; application and applicant conditions may remain Unknown"
+              }
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S3",
+                "read_on": "2026-10-19",
+                "scope": "Complete public program overview, supported-region list and matching section.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 16,
+          "raw_row_sha256": "45bd6f0c07011cd9796081c926c777a6e67ae7c64e41c194ba9a30e0a04c36d6",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Published facts recorded for linked opportunities",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG",
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Source checked; application and applicant conditions may remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_specific_observations": {
+              "GITHUB-SECURE-OSS-FUND": {
+                "observed_on": "2026-10-19",
+                "scope": "Supported-region criteria and separation from the expired matching fund.",
+                "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+                "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+              }
+            }
+          }
+        }
+      ]
     },
     {
       "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-organization",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Complete public organization setup guidance; no authenticated organization form or account inspected.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG"
       ],
@@ -356,16 +449,33 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "state": "Source checked; application and applicant conditions may remain Unknown"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S1",
+          "read_on": "2026-10-19",
+          "scope": "Complete public organization setup guidance; no authenticated organization form or account inspected.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
       ]
     },
     {
       "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG",
         "GITHUB-SECURE-OSS-FUND"
@@ -376,9 +486,26 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "state": "Source checked; application and applicant conditions may remain Unknown"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S2",
+          "read_on": "2026-10-19",
+          "scope": "Complete public supported-host page.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
       ],
       "opportunity_specific_observations": {
         "GITHUB-SECURE-OSS-FUND": {
@@ -387,7 +514,83 @@
           "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
           "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
         }
-      }
+      },
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 18,
+          "raw_row_sha256": "d922a58357c24afd5d4b50a3960b05ce0b82b6a10138958c2795cab4ae07a019",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Complete public supported-host page.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "history": [
+              {
+                "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+                "last_verified": "2026-10-19",
+                "verification_scope": "Published facts recorded for linked opportunities",
+                "state": "Source checked; application and applicant conditions may remain Unknown"
+              }
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S2",
+                "read_on": "2026-10-19",
+                "scope": "Complete public supported-host page.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 18,
+          "raw_row_sha256": "058b036cd857bc70435c9e213e190e211ab9805883196d5ee30fccc2721d3fe6",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Published facts recorded for linked opportunities",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG",
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Source checked; application and applicant conditions may remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_specific_observations": {
+              "GITHUB-SECURE-OSS-FUND": {
+                "observed_on": "2026-10-19",
+                "scope": "General Sponsors payout-host mechanics only; not fund-specific host approval.",
+                "canonical_note": "data/opportunities/github-secure-open-source-fund.json",
+                "limit": "This observation does not refresh another program's source scope or prove applicant eligibility."
+              }
+            }
+          }
+        }
+      ]
     },
     {
       "url": "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
@@ -494,8 +697,8 @@
     {
       "url": "https://github.com/sponsors",
       "last_verified": null,
-      "last_attempted": null,
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG"
       ],
@@ -505,10 +708,33 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Public landing inspected; authenticated application form and account not verified",
       "source_roles": [
-        "application_endpoint"
-      ]
+        "application_endpoint",
+        "governing_source_evidence"
+      ],
+      "history": [
+        {
+          "scope": "Previous observation before the E04-01 2026-10-19 assessment",
+          "last_verified": null,
+          "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "state": "Not Verified — endpoint review required"
+        }
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S8",
+          "read_on": "2026-10-19",
+          "scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "observed_public_page": {
+        "url": "https://github.com/open-source/sponsors",
+        "last_verified": "2026-10-19",
+        "scope": "Public marketing/entry page only; no form access or submission"
+      }
     },
     {
       "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
@@ -3951,6 +4177,170 @@
       ]
     },
     {
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S4",
+          "read_on": "2026-10-19",
+          "scope": "Complete public tax guide; no tax form, identity data or actual tax position reviewed.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/managing-your-payouts-from-github-sponsors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S5",
+          "read_on": "2026-10-19",
+          "scope": "Complete public payout guide; no dashboard, payout statement or bank receipt inspected.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Direct public read of definitions; D.3-D.8, E and J.1-J.3, with surrounding terms context. Actual Customer/volume agreements and account settings remain unverified.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; actual account and governing agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S9",
+          "read_on": "2026-10-19",
+          "scope": "Direct public read of definitions; D.3-D.8, E and J.1-J.3, with surrounding terms context. Actual Customer/volume agreements and account settings remain unverified.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/legal/connect-account/recipient",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public Recipient Info text, its displayed update date and default English entry. The author's page displayed United States (English); that presentation does not establish PYA's country or actual payout route.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; actual account and governing agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S10",
+          "read_on": "2026-10-19",
+          "scope": "Complete public Recipient Info text, its displayed update date and default English entry. The author's page displayed United States (English); that presentation does not establish PYA's country or actual payout route.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/legal/connect-account",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete public agreement text, sections 1-8 and displayed modified date. The default English page does not identify PYA's Stripe Account Country or applicable Services Agreement.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review"
+      ],
+      "state": "Published source checked; actual account and governing agreement remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S11",
+          "read_on": "2026-10-19",
+          "scope": "Complete public agreement text, sections 1-8 and displayed modified date. The default English page does not identify PYA's Stripe Account Country or applicable Services Agreement.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/sponsors/accounts?locale=en-US",
+      "last_verified": null,
+      "verification_scope": "Separate supplemental review reports a robots denial; this author did not inspect a form or establish an HTTP status at this target.",
+      "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any concrete account setup or application",
+        "On changed entry target or access result"
+      ],
+      "state": "Unverified application endpoint; reported access limitation preserves its separate provenance",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "reported_access_observations": [
+        {
+          "reported_on": "2026-10-19",
+          "reported_by": "Separate supplemental source-review lane; this is not an access attempt by the canonical author",
+          "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/110#pullrequestreview-5573615500",
+          "url": "https://github.com/sponsors/accounts?locale=en-US",
+          "outcome": "Reported robots.txt denial; no HTTP status or application-form contents established",
+          "http_status": null,
+          "application_form_verified": false,
+          "author_attempt": false
+        }
+      ]
+    },
+    {
       "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
       "last_verified": "2026-10-19",
       "verification_scope": "Future review scoping controls; no configuration changed; independent canonical research acceptance and account qualification are separate.",
@@ -4286,39 +4676,213 @@
     {
       "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
       "last_verified": "2026-10-19",
-      "last_attempted": "2026-10-19",
-      "verification_scope": "Sponsored-developer clauses, SOSS pooled payments, USD, confidentiality/publicity and assignment; sponsor-only renewal kept separate.",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG",
         "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
-        "Monthly program review",
         "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review",
+        "Monthly program review",
         "Upon changed terms, redirect, access failure or a contradictory source"
       ],
-      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S6",
+          "read_on": "2026-10-19",
+          "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "observation_history": [
+        {
+          "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+          "last_verified": "2026-10-19",
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "note": "Original public observation before this correction; no account/form qualification."
+        }
+      ],
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 210,
+          "raw_row_sha256": "5ce65d14cc9363af229e64d5b7d74b083c2dc8ed0607efa6d4eec079ddbbef70",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Before application, agreement, activation or a public qualification claim",
+              "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+              "At the existing monthly research review"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S6",
+                "read_on": "2026-10-19",
+                "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H. The two public instruments linked by 3.8 were separately read as S10-S11; the actual account, route, country-specific Services Agreement and any host/portal agreement remain unverified.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ],
+            "observation_history": [
+              {
+                "scope": "Public recipient, sponsor and general terms, including sections 3-5 and general A-H; the actual effective account agreement and country-specific incorporated Stripe agreements remain unverified.",
+                "last_verified": "2026-10-19",
+                "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+                "note": "Original public observation before this correction; no account/form qualification."
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 226,
+          "raw_row_sha256": "4dcbea1ad6687ea1a1ca958538add6d90d512779eb13aad93855aa887cb8171a",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+            "last_verified": "2026-10-19",
+            "last_attempted": "2026-10-19",
+            "verification_scope": "Sponsored-developer clauses, SOSS pooled payments, USD, confidentiality/publicity and assignment; sponsor-only renewal kept separate.",
+            "opportunity_ids": [
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Monthly program review",
+              "Before application, agreement, activation or a public qualification claim",
+              "Upon changed terms, redirect, access failure or a contradictory source"
+            ],
+            "state": "Source checked; independent findings and applicant qualification remain separate",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
+        }
       ]
     },
     {
       "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
       "last_verified": "2026-10-19",
-      "last_attempted": "2026-10-19",
-      "verification_scope": "General personal-data processing, training, sharing, third parties, retention and jurisdictional rights; no private form consent reviewed.",
+      "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
+        "GITHUB-SPONSORS-ORG",
         "GITHUB-SECURE-OSS-FUND"
       ],
       "next_verification_date": null,
       "triggers": [
-        "Monthly program review",
         "Before application, agreement, activation or a public qualification claim",
+        "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+        "At the existing monthly research review",
+        "Monthly program review",
         "Upon changed terms, redirect, access failure or a contradictory source"
       ],
-      "state": "Source checked; independent findings and applicant qualification remain separate",
+      "state": "Prior program observations retained; no new source access, applicant qualification or agreement authority from this merge",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "opportunity_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_id": "S7",
+          "read_on": "2026-10-19",
+          "scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+          "canonical_assessment": "data/opportunities/github-sponsors.json"
+        }
+      ],
+      "observation_history": [
+        {
+          "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
+          "last_verified": "2026-10-19",
+          "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+          "note": "Original public observation before this correction; no account/form qualification."
+        }
+      ],
+      "receiving_observations": [
+        {
+          "opportunity_id": "GITHUB-SPONSORS-ORG",
+          "source_revision": "dc9c1ddea4cffd1c6ed8df410dd843a9b8240e90",
+          "source_position": 211,
+          "raw_row_sha256": "03d0d221aab1d2f6d052cbd633bf36a0cffb9c07ce8b1fb986bafe6a72d97423",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Before application, agreement, activation or a public qualification claim",
+              "On changed terms, route, jurisdiction, fees, redirect or conflicting evidence",
+              "At the existing monthly research review"
+            ],
+            "state": "Published source checked; applicant, account and agreement qualification remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ],
+            "opportunity_observations": [
+              {
+                "opportunity_id": "GITHUB-SPONSORS-ORG",
+                "source_id": "S7",
+                "read_on": "2026-10-19",
+                "scope": "Scoped read: applicability and controller/processor limits; account/payment/profile data; purposes including model development, affiliate sharing, privacy rights, international transfers and retention. Actual account settings, organization contracts and other processors' policies were not qualified.",
+                "canonical_assessment": "data/opportunities/github-sponsors.json"
+              }
+            ],
+            "observation_history": [
+              {
+                "scope": "Scoped read: applicability, account/payment/profile data, purposes and sharing, privacy rights, international transfers and retention. Third-party processor policies and the account's actual settings were not qualified.",
+                "last_verified": "2026-10-19",
+                "reviewed_revision": "6920cb41a6d4593e6cd13150e292c15dce40a212",
+                "note": "Original public observation before this correction; no account/form qualification."
+              }
+            ]
+          }
+        },
+        {
+          "opportunity_id": "GITHUB-SECURE-OSS-FUND",
+          "source_revision": "e31a1cc458c6605748c1d103ae2f048ba4985612",
+          "source_position": 227,
+          "raw_row_sha256": "07b32aa334e340c531b7194ccfe788206e79fb20b19254730859b2775fb81ed3",
+          "row": {
+            "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+            "last_verified": "2026-10-19",
+            "last_attempted": "2026-10-19",
+            "verification_scope": "General personal-data processing, training, sharing, third parties, retention and jurisdictional rights; no private form consent reviewed.",
+            "opportunity_ids": [
+              "GITHUB-SECURE-OSS-FUND"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Monthly program review",
+              "Before application, agreement, activation or a public qualification claim",
+              "Upon changed terms, redirect, access failure or a contradictory source"
+            ],
+            "state": "Source checked; independent findings and applicant qualification remain separate",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
+        }
       ]
     },
     {
@@ -4435,6 +4999,300 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-overview",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current ordinary compute-Space paid-plan creation requirement and explicit free-personal ZeroGPU exception; public visibility.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-sdks-static",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Static hosting without compute or a paid-plan creation requirement; frontend build configuration.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-zerogpu",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Separate ZeroGPU account/hosting, quota, hardware, SDK and duration conditions; not grant allocation or tested capacity.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/inference-endpoints/en/pricing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Dedicated paid product and metering; the pricing page's standard subscription/card route is qualified by Hub billing's approved organizational marketplace alternative. No numerical award valuation.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/billing",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Separate subscription/compute charges, renewal/storage exposure and approved organizational AWS/Google Cloud marketplace billing instead of a card; actual settings remain Unknown.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/terms-of-service",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2022-09-15; account, content/publication, marks, termination, assignment/export and agreement precedence. Not a legal opinion or actual applicant agreement.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2023-03-28; data collection/use/sharing, retention and processing scope. No zero-retention or actual hosting observation.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/content-policy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-10; privacy/IP and resource-abuse restrictions.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/en/spaces-storage",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Ephemeral runtime disk and attached-volume distinction; no storage award or measured persistence.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, account/plan, quota or contradictory evidence"
+      ],
+      "state": "Source checked; complete qualification and applicant conditions remain pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "One-page preamble, displayed effective date 2025-04-28; agreement incorporation, precedence and four product links. Earlier web-content HTTP 403 superseded by a successful exact-URL GET; no Community GPU award clause on the preamble.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon access restoration, redirect or changed governing terms"
+      ],
+      "state": "Source checked; earlier web-content access failure resolved by later exact-URL retrieval",
+      "last_access_result": "HTTP 200 application/pdf; contents inspected, including displayed effective date 2025-04-28",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_history": [
+        {
+          "attempted_on": "2026-10-19",
+          "access_result": "Content retrieval returned HTTP 403 on 2026-10-19; no clauses inferred"
+        },
+        {
+          "retrieved_at": "2026-10-19T11:24:38.302331+00:00",
+          "http_status": 200,
+          "content_sha256": "4b3b636fb004df4c92d1eca775239db3f77ce683f3d96c3ef8fe8d32be0834df"
+        }
+      ],
+      "retrieved_at": "2026-10-19T11:24:38.302331+00:00",
+      "content_sha256": "4b3b636fb004df4c92d1eca775239db3f77ce683f3d96c3ef8fe8d32be0834df"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Hub+Premium+Features.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; p. 1 Sections 1-3 include Spaces hardware upgrades, storage fees and PRO, monthly pay-as-you-go fees and a DPA reference specifically for Spaces hardware upgrades. No award conditions established.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.910234+00:00",
+      "content_sha256": "1d6e684e2c4615e74e51a9b193fbedf46e123fad1aea89676e7bb3af8f29fc98"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Hub.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; enterprise product scope, Sections 2-3 order-form term/annual renewal/60-day notice/fees, and p. 3 Section 5 overrides excluding self-serve purchases. No actual enterprise agreement or Spaces grant inferred.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.911905+00:00",
+      "content_sha256": "b6d118370976182f35a70099fcda1f65b43cbd35648a0963f2e97d048234b3d4"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Enterprise+Plus.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; enterprise product scope, Sections 2-3 order-form term/annual renewal/60-day notice/fees, and p. 3 Section 5 overrides excluding self-serve purchases. No enterprise purchase or grant entitlement inferred.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.914170+00:00",
+      "content_sha256": "fa2c047ed4524ce61da7f451c6782bb45ac9ac4c197065636c3de9378284255c"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Supplemental+Terms+-+Inference+Services.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Displayed effective date 2025-04-28; Serverless Providers and Dedicated Endpoints, p. 2 Endpoint-specific personal-data restriction and PostHog/EU analytics, fees and DPA reference. Those clauses are not transferred to Spaces.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:26:28.915631+00:00",
+      "content_sha256": "c9cc43fdac59f2b0931e3c01b84211543fbb8df3f556463dfc684c2b8366dbae"
+    },
+    {
+      "url": "https://cdn-media.huggingface.co/landing/assets/Data+Processing+Agreement.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "15-page conditional agreement for personal data processed for a customer; no standalone calendar effective date, effectiveness tied to the underlying Agreement on p. 1. Pages 4-10 cover customer duties, sensitive-data consent, subprocessors/30-day objection, request/end-of-service deletion no later than 180 days after expiry/termination subject to legal retention, charged copy request at least 30 days beforehand, and international transfers. No actual project agreement/configuration established.",
+      "opportunity_ids": [
+        "HF-COMMUNITY-GPU"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed governing terms, access result or contradictory evidence"
+      ],
+      "state": "Source checked; actual agreement, award and applicant conditions remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "retrieved_at": "2026-10-19T11:30:54.920097+00:00",
+      "content_sha256": "b32c02a2dfa393019b3f189791f0b57d9225e3ddb11708f8585749b35133558c"
     }
   ],
   "rules": [
@@ -4443,6 +5301,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 208,
+  "source_evidence_url_count": 229,
   "additional_unverified_endpoint_count": 26
 }

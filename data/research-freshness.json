@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 143,
+  "source_count": 155,
   "records_count": 39,
   "sources": [
     {
@@ -84,7 +84,7 @@
     {
       "url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published 2025-03-31; official program statement read, not a new 2026 announcement or applicant decision",
       "opportunity_ids": [
         "AWS-OSS-CREDITS"
       ],
@@ -733,7 +733,7 @@
       "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
       "last_verified": null,
       "last_attempted": "2026-10-19",
-      "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+      "verification_scope": "Linked workbook contents, version, fields and declarations still Not Verified; successful program-page access does not verify the form.",
       "opportunity_ids": [
         "AWS-OSS-CREDITS"
       ],
@@ -744,9 +744,31 @@
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
       "state": "Not Verified — endpoint review required",
-      "last_access_result": "HTTP 403 recorded during initial source research; workbook contents remain unverified",
+      "last_access_result": "Independent Apple reviewer: explicit HTTP403 Forbidden at approximately12:30UTC with no workbook bytes; actual public review5571815080. The author's prior status-less internal access error and historical seed403 remain separately recorded.",
       "source_roles": [
         "application_endpoint"
+      ],
+      "access_history": [
+        {
+          "date": "2026-10-19",
+          "scope": "Seed research before this session",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "HTTP 403 recorded; no workbook contents verified"
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Session c3fa0109d6ff link-follow and direct web open",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Tool internal access error; no workbook bytes or visible HTTP status; not a new observed 403"
+        },
+        {
+          "date": "2026-10-19",
+          "time_utc": "12:30 (approximately)",
+          "scope": "Independent Apple review lane, session c3fa0109d6ff",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "result": "Explicit HTTP 403 Forbidden; no workbook bytes or verified fields.",
+          "evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
+        }
       ]
     },
     {
@@ -2334,6 +2356,222 @@
       ]
     },
     {
+      "url": "https://aws.amazon.com/awscredits/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Promotional Credit Terms dated 2026-09-24; current general credit conditions, not an actual OSS award",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/agreement/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Customer Agreement dated 2026-08-14; account, authority, content and exit terms at the stated scope",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/privacy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Privacy Notice dated 2026-05-18; account/application information, not unread workbook-specific notices",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Credit details and sharing documentation; no account or console observation",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Documented budget notifications and delay; no configured account controls",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Estimation method and limitations; no configured estimate, service quote or bill",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://opensource.org/license/mit",
+      "last_verified": "2026-10-19",
+      "verification_scope": "OSI approval of MIT only, not a complete project rights audit",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2bba83484de3e70453cd9886e69e06f4fcec9120/docs/nonprofit/entity-baseline.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Accepted #11 ledger read at unchanged blob bc94842d227e3924f364d6832c383c396eefbd7b; no new private-evidence/legal audit",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/73715b4850fc0df4a2afbdd877ad2b2644f1d769/docs/hosting-architecture.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Exact accepted engineering plan and recovery need; no refresh of vendor price quotations or deployed-host claim",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/issues/25",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Live issue: reviewed planning and still-open actual-host/operator acceptance",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Native prerequisite independently accepted in review5571462106, acceptance-link review5571568995 and signed delivery2c06977b on2026-10-19; its factual Unknowns remain explicit.",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete accepted operating-needs ledger44398ab2 at signed2c06977b; N01/N03 and five deduplication rules consumed, actual amounts and demand remain Unknown.",
+      "opportunity_ids": [
+        "AWS-OSS-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before application, agreement, activation or public qualification claim",
+        "Upon changed terms, source conflict or applicant/workload change"
+      ],
+      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://console.groq.com/docs/billing-faqs",
       "last_verified": "2026-10-19",
       "verification_scope": "Public free/developer upgrade and billing boundary",
@@ -2682,6 +2920,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 125,
+  "source_evidence_url_count": 137,
   "additional_unverified_endpoint_count": 18
 }

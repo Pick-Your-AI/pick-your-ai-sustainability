@@ -1,6 +1,6 @@
 # Anthropic external-researcher API access assessment
 
-Opportunity **ANTHROPIC-RESEARCHER / E05-01B**. Canonical issue: [#40](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40). Research state: **In Review**; opportunity stage: **Discovered**; actual applicant eligibility: **Unknown**. Research author: current CompleteDotTech-delegated project session (fb637); independent acceptance is pending.
+Opportunity **ANTHROPIC-RESEARCHER / E05-01B**. Canonical issue: [#40](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40). Research state: **Done**; opportunity stage: **Verified**; actual applicant eligibility: **Unknown**. Research author: current CompleteDotTech-delegated project session (fb637); independent program/intake findings were accepted in [review 5571407286](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286).
 
 ## Decision and concrete project fit
 
@@ -67,4 +67,4 @@ Before considering an application, establish a responsible investigator, documen
 
 ## Review and acceptance
 
-This is the canonical program/intake assessment for #40, with its unique structured record, pipeline and source memberships. Its research conclusion can be accepted while actual eligibility, selection, financial value and account behavior remain Unknown. Independent review must read the cited sources, check the three routes, scoped question, expiry/policy distinctions and issue criteria, and link the exact reviewed revision. Until that occurs, this file is **In Review** and no accepted qualification or Verified transition is claimed.
+This is the canonical program/intake assessment for #40, with its unique structured record, pipeline and source memberships. [Independent findings review 5571407286](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286), submitted on 2026-10-19 at 12:17:48 UTC, accepts all thirteen literal criteria at exact source `1fab45ebe2051b599d823f5e2d1e1fc00b476d74` / tree `8aa9cda4e001d12829c1c3a0d549f28075ed99c4`. The independently performed Research review and complementary Apple source/form review are explicitly attributed in that public COMMENT. This establishes **Done / Verified** for the canonical program/intake research under the pipeline definition. Actual applicant eligibility, institutional/provider agreement, financial value and account behavior remain Unknown; research acceptance does not establish application, award, spending, activation or empirical results. Final metadata/integration review, normal merge and distinct accepted-main validation remain delivery steps in the PR; the findings receipt is not relabeled as a review or execution of a later revision.

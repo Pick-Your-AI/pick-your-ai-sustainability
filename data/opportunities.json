@@ -3784,8 +3784,8 @@
       ],
       "application_gate": "Actual qualifying investigator, proposed study, account authority and applicable terms must be established before submission.",
       "application_status": "Public application content inspected; actual submission/selection Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -3903,7 +3903,7 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
       "next_action": "Establish the real investigator and research fit; resolve the scoped account, allocation, policy, expiry and publication questions in the canonical memo.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -3928,13 +3928,14 @@
         "scope": "39-record register, owning issue/comments and organization Anthropic-in-title search; #40 is canonical, separate subscription remains #61."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Full canonical findings submitted for independent review",
+        "reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286",
+        "decision": "Accepted all 13 canonical program/intake research criteria; retain P2 and separate applicant, account, application, award and activation gates.",
         "limitations": [
           "Actual applicant, account and provider decision remain Unknown.",
-          "Proposed workload is not executed research, awarded support or a spending commitment."
+          "Proposed workload is not executed research, awarded support or a spending commitment.",
+          "Technical COMMENT records an independently performed project-session findings review, not a separate-account GitHub APPROVED vote or institutional acceptance."
         ]
       },
       "owning_research_key": "E05-01B",
@@ -3997,10 +3998,12 @@
       "application_route_description": "Canonical memo records the observed public form, redirect, requirements, retrieval limits and contact-link mismatch.",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the complete canonical findings and primary sources with the complementary Google form/general-terms review explicitly attributed in the review; research acceptance only, not applicant qualification, legal acceptance or empirical execution.",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286"
       },
       "related_research_keys": [],
-      "source_review_status": "Program, public intake and governing sources inspected; independent findings acceptance pending",
+      "source_review_status": "Canonical program/intake findings independently accepted; actual applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
@@ -4201,8 +4204,8 @@
       ],
       "application_gate": "Actual eligible affiliated applicant, institutional/project authority and reviewed study/account terms must be established before submission.",
       "application_status": "Official academic section and public application content inspected; actual selection Unknown",
-      "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "opportunity_stage": "Verified",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -4296,7 +4299,7 @@
       },
       "priority": "P2",
       "assigned_owner": null,
-      "independent_reviewer": null,
+      "independent_reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
       "next_action": "Identify a real qualified academic lead and resolve actual project, allocation, data, expiry, publication and cost-control questions in the canonical memo.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
@@ -4321,13 +4324,14 @@
         "scope": "39-record register, owning issue/comments and organization Gemini-in-title search returned #41; reuse existing identity."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Full canonical findings submitted for independent review",
+        "reviewer": "ChatGPT in-session /root/research with complementary /root/apple_review source review; findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286",
+        "decision": "Accepted all 13 canonical program/intake research criteria; retain P2 and separate applicant, account, application, award and activation gates.",
         "limitations": [
           "Actual applicant, account and provider decision remain Unknown.",
-          "Proposed workload is not executed research, awarded support or a spending commitment."
+          "Proposed workload is not executed research, awarded support or a spending commitment.",
+          "Technical COMMENT records an independently performed project-session findings review, not a separate-account GitHub APPROVED vote or institutional acceptance."
         ]
       },
       "owning_research_key": "E05-01C",
@@ -4381,10 +4385,12 @@
       "application_url": "https://forms.gle/HMviQstU8PxC5iCt5",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
-        "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
+        "scope": "Independent reading of the complete canonical findings and primary sources with the complementary Google form/general-terms review explicitly attributed in the review; research acceptance only, not applicant qualification, legal acceptance or empirical execution.",
+        "reviewed_revision": "1fab45ebe2051b599d823f5e2d1e1fc00b476d74",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/93#pullrequestreview-5571407286"
       },
       "related_research_keys": [],
-      "source_review_status": "Program, public intake and governing sources inspected; independent findings acceptance pending",
+      "source_review_status": "Canonical program/intake findings independently accepted; actual applicant qualification remains Unknown",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",

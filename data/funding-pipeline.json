@@ -379,11 +379,11 @@
     {
       "opportunity_id": "JETBRAINS-OSS",
       "program_name": "Licenses for Open Source Development",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Source facts checked; canonical findings await independent acceptance",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58",
       "research_status": "Ready",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Defer a new license request: no named-user/product gap or accepted applicant and seat plan is evidenced.",
       "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -394,7 +394,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Verify project/application eligibility, minimal products/seats and noncommercial-use boundaries."
+      "next_action": "Obtain named user/product/feature and existing-license evidence; verify current group intake and actual renewal/data terms before any request."
     },
     {
       "opportunity_id": "APPLE-FEE-WAIVER",

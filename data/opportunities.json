@@ -4878,7 +4878,7 @@
       "application_gate": "Closed for the proposed independent benchmark under the inspected terms; this research creates no application or activation.",
       "application_status": "Advertised trial; exact account/form contents remain Not Verified. Historical research RFP closed; related builder/event/advocacy leads do not establish current independent-research admission.",
       "opportunity_stage": "Discovered",
-      "work_status": "In Review",
+      "work_status": "Done",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -4898,7 +4898,7 @@
       "fit_with_pick_your_ai": "Proposed research #41 source-handling/numerical-response evaluation has a concrete synthetic plan, but the inspected terms do not admit the intended independent benchmark. Not Pursuing; no execution or ranking claim.",
       "required_application_evidence": [],
       "required_contacts_or_decisions": [
-        "Independent findings review of this canonical assessment",
+        "Independent findings acceptance completed at d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53; retain https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/95#pullrequestreview-5571431369 with the canonical assessment.",
         "On reconsideration: evidence of permitted use, actual applicant/account/payer authority, current terms and model/data rights",
         "On a new grant lead: official active program and complete intake evidence; no outreach sent"
       ],
@@ -4998,8 +4998,8 @@
       },
       "priority": "P3",
       "assigned_owner": null,
-      "independent_reviewer": null,
-      "next_action": "Independently review the canonical Not Pursuing assessment; reconsider only on material new program/terms evidence or a separately reviewed permitted use.",
+      "independent_reviewer": "ChatGPT in-session /root/research_local_review; independent findings review posted through the delegated CompleteDotTech account",
+      "next_action": "Retain the accepted Not Pursuing findings; reconsider only on material new governing/program evidence or a separately reviewed permitted use with an established applicant route.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -5021,13 +5021,14 @@
         "scope": "Existing CEREBRAS-TRIAL and #44 reused. Organization issue/PR Cerebras search before the public work claim identified the existing issue/parent/related references and no Cerebras PR; no new program record is invented."
       },
       "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Prepared canonical Not Pursuing findings; exact-revision independent acceptance pending",
+        "reviewer": "ChatGPT in-session /root/research_local_review; independent findings review posted through the delegated CompleteDotTech account",
+        "reviewed_revision": "d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53",
+        "review_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/95#pullrequestreview-5571431369",
+        "decision": "Accepted bounded Not Pursuing findings for the proposed independent benchmark; all three actual applicant routes remain Unknown.",
         "limitations": [
-          "Research acceptance is separate from applicant qualification, an external legal opinion, an organization commitment and a GitHub approval vote.",
-          "Actual account/form/agreement, distinct funding intake, currency and usable value remain unverified; original source-fact review remains historical."
+          "Technical COMMENT records an in-session independent findings review, not a separate-account GitHub APPROVED vote, legal opinion or provider permission.",
+          "Actual account/form/agreement, current independent-research admission, trial currency and usable value remain unverified; original source-fact review remains historical.",
+          "No provider/model request, account action, application, outreach, purchase or activation was performed in this research."
         ]
       },
       "owning_research_key": "E05-01F",
@@ -5093,7 +5094,7 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked; canonical assessment prepared for independent review",
+      "source_review_status": "Canonical Cerebras findings independently accepted; applicant qualification and permitted execution remain separate",
       "applicant_qualification_status": "Unknown",
       "score_reason": "P3 reflects the failed proposed-use gate and temporary trial. Actual applicant, usable value, paid counterfactual and effort remain unverified; all weighted ratings and totals stay null.",
       "award_status": "Unknown; no award evidence established",

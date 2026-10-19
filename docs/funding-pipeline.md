@@ -6,7 +6,7 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 
 | Stage | Required evidence | Current evidence |
 |---|---|---|
-| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 38 records, including the completed Together Not Pursuing assessment retained at its historical stage |
+| Discovered | Distinct program and source; source facts can be checked while complete assessment remains unaccepted | 38 records, including the completed Together and Cerebras Not Pursuing assessments retained at their historical stage |
 | Verified | Independently accepted canonical program/intake assessment under the transition procedure | 1: [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md), with independent findings acceptance |
 | Qualified | Actual eligibility, mission fit, value and capacity accepted | No accepted qualification decision recorded |
 | Approved to apply | Authorized review of concrete application | None in this execution |
@@ -18,6 +18,8 @@ The canonical [opportunity register](../data/opportunities.json) contains progra
 The [Apple fee-waiver decision](../research/tooling/apple-fee-waiver.md) is Done / Verified for program research after [independent findings review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/83#pullrequestreview-5570778597). Its applicant/account and monetization gates remain separate; no qualification, application or activation is inferred.
 
 The [Together research-credit assessment](../research/compute/together-research-credits.md) is Done / Not Pursuing for the specified public comparison study under the published use restrictions, after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/85#pullrequestreview-5570818136). Its historical stage remains Discovered, priority P3 and all applicant routes Unknown. Research acceptance establishes neither permission for the study nor an invitation, award or activation.
+
+The [Cerebras assessment](../research/compute/cerebras-support.md) is Done / Not Pursuing for the proposed independent benchmark after [independent findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/95#pullrequestreview-5571431369) at `d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53`. Its stage remains Discovered, priority P3, all three applicant routes Unknown and actual value unverified. The closed research RFP and distinct current builder/event/ambassador leads do not establish admitted use, received support or activation.
 
 ## Known calendar facts
 

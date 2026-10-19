@@ -2,9 +2,9 @@
 
 Owning issue: [E05-01F / #44](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44) · Parent: [E05-01 / #38](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38) · Canonical opportunity: `CEREBRAS-TRIAL`.
 
-Prepared **2026-10-19 UTC** against accepted sustainability revision `cad980ecc8e43a472ebe63c4360f94846d175a96`. **Research status: prepared for independent findings review. Priority: P3. Recommended disposition: Not Pursuing for the proposed independent evaluation under the inspected terms.** The applicant remains **Unknown**, and the historical opportunity stage remains **Discovered** under the [failed-gate rule](../../docs/operations-and-reporting.md#evidence-for-transitions). No provider account, payment method, application, outreach, inference request, purchase, award or activation was created by this research.
+Prepared **2026-10-19 UTC** against accepted sustainability revision `cad980ecc8e43a472ebe63c4360f94846d175a96`. **Research findings: independently accepted on 2026-10-19. Priority: P3. Disposition: Not Pursuing for the proposed independent evaluation under the inspected terms.** Reviewed main delivery and literal issue/Project reconciliation remain pending until actually completed. The applicant remains **Unknown**, and the historical opportunity stage remains **Discovered** under the [failed-gate rule](../../docs/operations-and-reporting.md#evidence-for-transitions). No provider account, payment method, application, outreach, inference request, purchase, award or activation was created by this research.
 
-The receiving composition also preserves accepted revision `52c439c056beed504ee1d0ec2e904213f507e456`, including the Apple/Together assessments and freshness procedure. Their source/review dates and the original 39-program/72-source audit retain their own scope.
+The receiving composition preserves accepted revision `82deb8c6944154f85d09590bd036f11f04e8679a`: the earlier Apple/Together assessments and freshness procedure, accepted provider-intake workflow and financial-control procedure. Their source/review dates and the original 39-program/72-source audit retain their own scope. Those accepted carries do not create provider, account, legal-signatory or financial authority.
 
 ## Decision and public-benefit use
 
@@ -115,7 +115,7 @@ The existing unique `CEREBRAS-TRIAL` opportunity is retained, with the four dist
 4. What currency, model revision, trial debit rates, reasoning/token accounting, quota, remaining balance and expiry apply to that account?
 5. What publication, model/output rights, branding, reporting, data handling, exit and continuing-cost obligations would apply?
 
-These are prepared evidence questions, not messages to a provider or requests for a commitment. The next action is independent acceptance of this assessment. Reopen the opportunity only on material new governing/program evidence or a separately reviewed permitted use. Monthly source maintenance and pre-action checks retain the [freshness procedure](../../docs/research-freshness.md); no artificial application date or operating owner is assigned.
+These are prepared evidence questions, not messages to a provider or requests for a commitment. The findings have actual independent acceptance, linked below. Retain the Not Pursuing disposition; reopen the opportunity only on material new governing/program evidence or a separately reviewed permitted use with an established applicant route. Monthly source maintenance and pre-action checks retain the [freshness procedure](../../docs/research-freshness.md); no artificial application date or operating owner is assigned.
 
 ## Sources, access and confidence
 
@@ -145,7 +145,7 @@ The register preserves the original trial facts, adds these dated sources and th
 
 ## Acceptance map
 
-Criterion numbers follow the thirteen literal checkboxes in #44. This document prepares their evidence; the actual independent review and accepted revision must be linked in the issue before research completion.
+Criterion numbers follow the thirteen literal checkboxes in #44. The complete findings and records were accepted in [independent review5571431369](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/95#pullrequestreview-5571431369) at published revision [`d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/d534fe2e11a486f1afe0f2cc8bb54d0a65e67f53), tree `0e4cd07dae7275f70dfca8216783c09996360774`. The separate in-session reviewer read the complete actual findings, all thirteen primary-source scopes, linked form attempts and record-preservation checks. This COMMENT is not a separate-account approving vote, legal opinion or provider permission. Final metadata/current-main review and ordinary delivery remain separately recorded; link the actual accepted main revision and this receipt in the issue before closing it.
 
 | Criteria | Evidence / remaining boundary |
 | --- | --- |
@@ -155,6 +155,6 @@ Criterion numbers follow the thirteen literal checkboxes in #44. This document p
 | C4, C6 and C12: canonical assessment, disposition, budget, discovery, records, priority and questions | This file, the unique opportunity and matching pipeline/freshness records, exact conditional arithmetic and original cases, bounded discovery and evidence questions. |
 | C10: obligations, reporting, branding, publication, privacy, portability, renewal, overage and independence | Obligations table and decisive use gate; no award-specific obligation or legal exception fabricated. |
 | C11: concrete public use, defensible value/effort, cash versus avoided cost | Proposed research #41 use; original synthetic plan; actual value and effort remain Unknown without a counterfactual or commitment. |
-| C5 and C13: independent acceptance of actual findings | **Pending exact-revision independent findings review and publication.** Schema/tests alone do not satisfy this. Review must address the use gate, conflict, conditional budget, bounded funding search and applicant Unknowns. |
+| C5 and C13: independent acceptance of actual findings | **Accepted at d534fe2e in review5571431369**, linked above. The actual review addresses the use gate, quota/expiry conflict, conditional budget, corrected distinct-program discovery and applicant Unknowns. Schema/tests are separate checks and are not substituted for findings acceptance. |
 
 Research acceptance can complete this investigated **Not Pursuing** outcome without creating an application, award, account, operating arrangement or broader parent completion. Existing technical, legal, financial and administrative issues retain their own scope.

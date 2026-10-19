@@ -71,3 +71,12 @@ Start with the [JSON template](opportunity-record.json), following the [register
 Use the [outreach draft](outreach-draft.md) only to prepare an unsent request. Keep recipient, representation, evidence, commitments and exact-text approval unresolved until established under the [authorization workflow](../docs/workflow-and-authorization.md). An empty obligations list does not establish that an offer has no obligations.
 
 The [synthetic worked example](examples/provider-research-worked-example.md) and its [JSON fixture](examples/opportunity-record.synthetic.json) demonstrate this mapping without provider research or outreach. Never copy their synthetic identity, priority or URLs into the live registers. For a real record, remove `template_only` only after completing the required fields with justified facts; update the pipeline projection and freshness URL membership together. Run the [local checks](../CONTRIBUTING.md#local-validation) before requesting review. Use partial issue references until the owning issue's complete acceptance criteria and required handoffs have actually been met.
+
+## Current workflow review
+
+The [dated intake workflow review](../docs/provider-intake-review.md) maps this
+canonical template and its worked example to all 13 original E09-01 criteria.
+It records the exact reviewed source and current canonical requirement basis,
+including the unavailable separate original brief. Final independent acceptance
+and delivery remain linked through the owning issue; this navigation link grants
+no provider eligibility, source-use permission or authority to send a request.

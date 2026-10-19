@@ -619,9 +619,9 @@
     {
       "opportunity_id": "CEREBRAS-TRIAL",
       "program_name": "Shared Inference Free Trial",
-      "source_review_status": "Source facts checked; canonical assessment prepared for independent review",
+      "source_review_status": "Canonical Cerebras findings independently accepted; applicant qualification and permitted execution remain separate",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44",
-      "research_status": "In Review",
+      "research_status": "Done",
       "opportunity_stage": "Discovered",
       "disposition": "Not Pursuing",
       "eligibility": "Unknown",
@@ -634,7 +634,7 @@
       "deadline_timezone": null,
       "priority": "P3",
       "score": null,
-      "next_action": "Independently review the canonical Not Pursuing assessment; reconsider only on material new program/terms evidence or a separately reviewed permitted use."
+      "next_action": "Retain the accepted Not Pursuing findings; reconsider only on material new governing/program evidence or a separately reviewed permitted use with an established applicant route."
     },
     {
       "opportunity_id": "TOGETHER-RESEARCH",

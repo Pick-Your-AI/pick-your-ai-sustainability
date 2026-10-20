@@ -44,6 +44,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Repository licenses, IP and asset stewardship](docs/nonprofit/ip-stewardship-register.md)
 - [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
 - [Formation and governance prerequisites](docs/nonprofit/formation-governance-checklist.md)
+- [Exemption filing and recurring compliance assessment](docs/nonprofit/exemption-compliance-assessment.md)
 - [Education/accessibility funding screen](docs/research/education-accessibility-funding-screen.md) — independently accepted public findings; applicant, PI, host, invitation and action limits remain unresolved
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)
 - [Opportunity evidence register](data/README.md)

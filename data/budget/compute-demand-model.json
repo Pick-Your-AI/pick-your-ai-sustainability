@@ -1,0 +1,3042 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-10-20T06:24:18.196835+00:00",
+  "research": {
+    "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+    "priority": "P1",
+    "status": "Source prepared for independent findings review; no project demand measured.",
+    "canonical_path": "data/budget/compute-demand-model.json",
+    "guide_path": "docs/funding/compute-demand-model.md",
+    "benefit": "Internal reproducible resource planning and explicit downstream input contract; no cash or service award.",
+    "provider_intake_and_deadline": {
+      "status": "Not applicable",
+      "reason": "This is an internal model, not a provider program or application. Actual account, proposal dates and expiry are separately Unknown."
+    },
+    "applicant_routes": {
+      "present_community": "Actual applicant, account authority and billing eligibility Unknown; no status inferred.",
+      "fiscal_sponsored_project": "Actual host agreement, recipient, fee, account and credit permissions Unknown.",
+      "independent_501c3": "Actual recognition, entity, account and program eligibility Unknown."
+    },
+    "operating_roles": "Unassigned; implementation authorship does not appoint resource, billing or finance custodians.",
+    "restrictions": [
+      "Provider-specific quotas, tokenization, batching/cache eligibility, region, rates, expiry and overage must be supplied with evidence.",
+      "No reporting deadline, branding/publication right, data permission, private payload or redistribution grant is inferred.",
+      "Price portability and replacement capacity separately; a nominal substitute may change model semantics, tokenizer, throughput, quality and minimum memory.",
+      "Renewal and post-credit continuity remain Unknown. A planning limit or alert is not a hard account spending cap.",
+      "Keep evaluation findings sponsor-neutral; do not exchange editorial control for nominal credits."
+    ],
+    "input_pins": [
+      {
+        "revision": "7cae962c58c02e7f28b45f38193668897adbc1e4",
+        "path": "docs/funding/needs-assessment.md",
+        "bytes": 28602,
+        "sha256": "a1a3d433cf5270a3b84977c33e727336e3dcac79d2ede8e4834ae468aaa31e6e",
+        "git_blob": "44398ab243102510af5b58bc5fe760ef5497b397"
+      },
+      {
+        "revision": "7cae962c58c02e7f28b45f38193668897adbc1e4",
+        "path": "data/budget/operating-budget.json",
+        "bytes": 105191,
+        "sha256": "906c6dae0fc4812440fd04fe863686ebeca054023d594f51fbaa6a0c41a8c6ed",
+        "git_blob": "c8dd5cd0b6d4397812256125ed2e357f612ab8a0"
+      },
+      {
+        "revision": "7cae962c58c02e7f28b45f38193668897adbc1e4",
+        "path": "scripts/operating_budget.py",
+        "bytes": 16412,
+        "sha256": "a5fe2d87b44a59068b96aa537a99cd7db84f481171452bb57e94e6b1c4388f39",
+        "git_blob": "2288935e10a22d720de8f9964038bdb0c236b8bb"
+      }
+    ],
+    "remaining_questions": [
+      "Admitted workload/model/runtime and exact dataset/use rights?",
+      "Actual tokenization, cached-token eligibility, throughput, repetitions and failure/retry policy?",
+      "Complete resource inventory, concurrency/burst limits, expiry and account-specific prices?",
+      "Supported payable quotes including discounts, credits, taxes, fees and excluded fixed costs?",
+      "Exact independently accepted monthly cash mapping into #20, without double-scaling or shared-scope duplication?"
+    ],
+    "disposition": "Review and accept the method and bounded proposal arithmetic; populate qualified inputs before resource requests or a complete cash budget. Research completion does not authorize provider actions."
+  },
+  "sources": [
+    {
+      "id": "S19",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/2c06977bdb59ec1fdf687e3e177c12dcc8a62cce/docs/funding/needs-assessment.md",
+      "reviewed_on": "2026-10-20",
+      "classification": "Accepted project requirement; historical accepted revision",
+      "finding": "N01 hosting, N03 CI and N06 empirical research are different scopes. Actual usage, accounts and complete costs remain Unknown."
+    },
+    {
+      "id": "S20",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/7cae962c58c02e7f28b45f38193668897adbc1e4/data/budget/operating-budget.json",
+      "reviewed_on": "2026-10-20",
+      "classification": "Current accepted project interface, pinned immutable source",
+      "finding": "#20 requires an exact #21 revision and nonblank field/unit/scope mapping before non-synthetic research_compute monthly USD-cent estimates; current cells and handoff are null."
+    },
+    {
+      "id": "S49",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6277987585",
+      "reviewed_on": "2026-10-20",
+      "classification": "Dated 2026-10-19 author handoff; unaccepted and unexecuted proposal",
+      "finding": "Reported frozen source b6450a387e8f6d5c1c598aa3e2e7f8c362efa773:12 families ×2 wordings ×2 instruction packages ×3 repetitions=144 logical slots per route, at most2 routes and1 transport-only retry per slot. No runtime/model/token/rate or permission inferred."
+    },
+    {
+      "id": "SYN",
+      "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6284719379",
+      "reviewed_on": "2026-10-20",
+      "classification": "Author-selected synthetic controls only",
+      "finding": "All numeric control workloads, prices, quotes, limits and support caps are invented for independent arithmetic and counterexample validation; not provider offers, real usage or expected values."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "unmeasured-current",
+      "name": "Unmeasured project requirements",
+      "evidence": {
+        "kind": "unknown",
+        "source_refs": [
+          "S19",
+          "S20"
+        ],
+        "note": "Relative one-month input contract, not a measured or adopted forecast. The finite represented classes do not establish a complete resource inventory."
+      },
+      "period": {
+        "unit": "month",
+        "count": 1,
+        "start": null,
+        "end": null
+      },
+      "traffic_multiplier": "1",
+      "resource_inventory_complete": false,
+      "workloads": [
+        {
+          "id": "research",
+          "class": "research",
+          "need_id": "N06",
+          "scope_note": "N06 empirical research only; exclude demonstrations, N01 service hosting and N03 CI.",
+          "components": [
+            {
+              "id": "research-api",
+              "kind": "api",
+              "scope_key": "research-api",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "requests_per_period": null
+                },
+                "max_attempts_per_request": null,
+                "input_tokens_per_attempt": null,
+                "cached_input_tokens_per_attempt": null,
+                "output_tokens_per_attempt": null,
+                "cache_eligible": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "uncached_input_tokens": null,
+                  "cached_input_tokens": null,
+                  "output_tokens": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "research-embedding",
+              "kind": "embedding",
+              "scope_key": "research-embedding",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "items": null,
+                "tokens_per_item": null,
+                "max_attempts_per_item": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "embedding_tokens": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "research-accelerator",
+              "kind": "accelerator",
+              "scope_key": "research-accelerator",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "jobs": null,
+                "accelerators_per_job": null,
+                "timing_mode": "throughput",
+                "seconds_per_job": null,
+                "work_units_per_job": null,
+                "units_per_second": null,
+                "work_unit": "admitted model tokens per complete timed job",
+                "minimum_memory_gib": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "accelerator_hours": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "hosting",
+          "class": "product_hosting",
+          "need_id": "N01",
+          "scope_note": "N01 service resources only; quantitative planning does not add another charge to the accepted hosting envelope.",
+          "components": [
+            {
+              "id": "hosting-storage",
+              "kind": "storage",
+              "scope_key": "hosting-storage",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "gib": null,
+                "months": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "gib_months": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "hosting-egress",
+              "kind": "egress",
+              "scope_key": "hosting-egress",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "gib": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "egress_gib": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "ci",
+          "class": "ci_testing",
+          "need_id": "N03",
+          "scope_note": "N03 CI/test resources only; existing entitlement and incremental account charges are Unknown.",
+          "components": [
+            {
+              "id": "ci-runs",
+              "kind": "ci",
+              "scope_key": "ci-runs",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "jobs": null,
+                "minutes_per_job": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "ci_minutes": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "ci-artifact-storage",
+              "kind": "storage",
+              "scope_key": "ci-artifact-storage",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "gib": null,
+                "months": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "gib_months": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "demonstration",
+          "class": "public_demonstration",
+          "need_id": "N06",
+          "scope_note": "A separate public demonstration scope related to N06; never included in the research-only #20 handoff.",
+          "components": [
+            {
+              "id": "demo-api",
+              "kind": "api",
+              "scope_key": "demo-api",
+              "evidence": {
+                "kind": "unknown",
+                "source_refs": [
+                  "S19"
+                ],
+                "note": "Missing actual usage, account-specific rates, billing and resource evidence remain Unknown."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "requests_per_period": null
+                },
+                "max_attempts_per_request": null,
+                "input_tokens_per_attempt": null,
+                "cached_input_tokens_per_attempt": null,
+                "output_tokens_per_attempt": null,
+                "cache_eligible": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "uncached_input_tokens": null,
+                  "cached_input_tokens": null,
+                  "output_tokens": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluation-proposal-49",
+      "name": "Two-route #49 unexecuted upper-bound proposal",
+      "evidence": {
+        "kind": "proposal",
+        "source_refs": [
+          "S49"
+        ],
+        "note": "At most two routes; each 12 × 2 × 2 × 3 logical slots with up to two total attempts. This is a study, never a month or measured use."
+      },
+      "period": {
+        "unit": "study",
+        "count": 1,
+        "start": null,
+        "end": null
+      },
+      "traffic_multiplier": "1",
+      "resource_inventory_complete": false,
+      "workloads": [
+        {
+          "id": "evaluation-study",
+          "class": "research",
+          "need_id": "N06",
+          "scope_note": "N06 empirical research only; exclude demonstrations, N01 service hosting and N03 CI.",
+          "components": [
+            {
+              "id": "evaluation-route-a",
+              "kind": "api",
+              "scope_key": "evaluation-route-a",
+              "evidence": {
+                "kind": "proposal",
+                "source_refs": [
+                  "S49"
+                ],
+                "note": "Unaccepted/unexecuted #49 source handoff: 144 scored logical slots per admitted route, at most one transport-only retry per slot. Token maxima, selected model/account, throughput, rates and route admission are Unknown. Two route rows express the proposal ceiling, not selected providers or authority to run."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "synthetic_families": 12,
+                  "wordings": 2,
+                  "instruction_packages": 2,
+                  "repetitions": 3
+                },
+                "max_attempts_per_request": 2,
+                "input_tokens_per_attempt": null,
+                "cached_input_tokens_per_attempt": null,
+                "output_tokens_per_attempt": null,
+                "cache_eligible": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "uncached_input_tokens": null,
+                  "cached_input_tokens": null,
+                  "output_tokens": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "evaluation-route-b",
+              "kind": "api",
+              "scope_key": "evaluation-route-b",
+              "evidence": {
+                "kind": "proposal",
+                "source_refs": [
+                  "S49"
+                ],
+                "note": "Unaccepted/unexecuted #49 source handoff: 144 scored logical slots per admitted route, at most one transport-only retry per slot. Token maxima, selected model/account, throughput, rates and route admission are Unknown. Two route rows express the proposal ceiling, not selected providers or authority to run."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "synthetic_families": 12,
+                  "wordings": 2,
+                  "instruction_packages": 2,
+                  "repetitions": 3
+                },
+                "max_attempts_per_request": 2,
+                "input_tokens_per_attempt": null,
+                "cached_input_tokens_per_attempt": null,
+                "output_tokens_per_attempt": null,
+                "cache_eligible": null
+              },
+              "pricing": {
+                "currency": null,
+                "billing_mode": "unknown",
+                "mode_eligible": null,
+                "rates": {
+                  "uncached_input_tokens": null,
+                  "cached_input_tokens": null,
+                  "output_tokens": null
+                },
+                "source_refs": []
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic-low",
+      "name": "Synthetic arithmetic control — low",
+      "evidence": {
+        "kind": "synthetic",
+        "source_refs": [
+          "SYN"
+        ],
+        "note": "Author-selected arithmetic only; no provider offer, observed demand, probability, award or adopted spending. All rates, limits and quotes are invented controls."
+      },
+      "period": {
+        "unit": "month",
+        "count": 1,
+        "start": null,
+        "end": null
+      },
+      "traffic_multiplier": "0.5",
+      "resource_inventory_complete": true,
+      "workloads": [
+        {
+          "id": "synthetic-research",
+          "class": "research",
+          "need_id": "N06",
+          "scope_note": "N06 empirical research only; exclude demonstrations, N01 service hosting and N03 CI.",
+          "components": [
+            {
+              "id": "synthetic-api",
+              "kind": "api",
+              "scope_key": "synthetic-api",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "requests_per_period": 1000
+                },
+                "max_attempts_per_request": 2,
+                "input_tokens_per_attempt": 1000,
+                "cached_input_tokens_per_attempt": 400,
+                "output_tokens_per_attempt": 200,
+                "cache_eligible": true
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "uncached_input_tokens": "2.00",
+                  "cached_input_tokens": "0.50",
+                  "output_tokens": "4.00"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": true,
+                "values": {
+                  "requests": "1500",
+                  "tokens": "3000000",
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": {
+                "currency": "USD",
+                "face_value": "10",
+                "eligible": true,
+                "activated": false,
+                "eligible_spend_limit": "3",
+                "before_expiry_spend_limit": "2",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Invented control: these are exact eligible and pre-expiry spend caps in the same period/currency; not a provider offer. Activation is false and no actual avoided cash follows."
+              },
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "synthetic-accelerator",
+              "kind": "accelerator",
+              "scope_key": "synthetic-accelerator",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "jobs": 4,
+                "accelerators_per_job": 2,
+                "timing_mode": "throughput",
+                "seconds_per_job": null,
+                "work_units_per_job": "1800",
+                "units_per_second": "2",
+                "work_unit": "admitted model tokens per complete timed job",
+                "minimum_memory_gib": "16"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "accelerator_hours": "2.50"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": true,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": "3",
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": "24"
+                },
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-ci",
+          "class": "ci_testing",
+          "need_id": "N03",
+          "scope_note": "N03 CI/test resources only; existing entitlement and incremental account charges are Unknown.",
+          "components": [
+            {
+              "id": "synthetic-ci",
+              "kind": "ci",
+              "scope_key": "synthetic-ci",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "jobs": 10,
+                "minutes_per_job": "5"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "ci_minutes": "0.10"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-hosting",
+          "class": "product_hosting",
+          "need_id": "N01",
+          "scope_note": "N01 service resources only; quantitative planning does not add another charge to the accepted hosting envelope.",
+          "components": [
+            {
+              "id": "synthetic-hosting-storage",
+              "kind": "storage",
+              "scope_key": "synthetic-hosting-storage",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "gib": "50",
+                "months": "1"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "gib_months": "0.02"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "synthetic-hosting-egress",
+              "kind": "egress",
+              "scope_key": "synthetic-hosting-egress",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "gib": "10"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "egress_gib": "0.05"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-demonstration",
+          "class": "public_demonstration",
+          "need_id": "N06",
+          "scope_note": "A separate public demonstration scope related to N06; never included in the research-only #20 handoff.",
+          "components": [
+            {
+              "id": "synthetic-demo-embedding",
+              "kind": "embedding",
+              "scope_key": "synthetic-demo-embedding",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "items": 10,
+                "tokens_per_item": 100,
+                "max_attempts_per_item": 1
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "embedding_tokens": "0.10"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic-base",
+      "name": "Synthetic arithmetic control — base",
+      "evidence": {
+        "kind": "synthetic",
+        "source_refs": [
+          "SYN"
+        ],
+        "note": "Author-selected arithmetic only; no provider offer, observed demand, probability, award or adopted spending. All rates, limits and quotes are invented controls."
+      },
+      "period": {
+        "unit": "month",
+        "count": 1,
+        "start": null,
+        "end": null
+      },
+      "traffic_multiplier": "1",
+      "resource_inventory_complete": true,
+      "workloads": [
+        {
+          "id": "synthetic-research",
+          "class": "research",
+          "need_id": "N06",
+          "scope_note": "N06 empirical research only; exclude demonstrations, N01 service hosting and N03 CI.",
+          "components": [
+            {
+              "id": "synthetic-api",
+              "kind": "api",
+              "scope_key": "synthetic-api",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "requests_per_period": 1000
+                },
+                "max_attempts_per_request": 2,
+                "input_tokens_per_attempt": 1000,
+                "cached_input_tokens_per_attempt": 400,
+                "output_tokens_per_attempt": 200,
+                "cache_eligible": true
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "uncached_input_tokens": "2.00",
+                  "cached_input_tokens": "0.50",
+                  "output_tokens": "4.00"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": true,
+                "values": {
+                  "requests": "1500",
+                  "tokens": "3000000",
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": {
+                "currency": "USD",
+                "face_value": "10",
+                "eligible": true,
+                "activated": false,
+                "eligible_spend_limit": "3",
+                "before_expiry_spend_limit": "2",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Invented control: these are exact eligible and pre-expiry spend caps in the same period/currency; not a provider offer. Activation is false and no actual avoided cash follows."
+              },
+              "realization": null,
+              "cash_quote": {
+                "currency": "USD",
+                "amount": "3",
+                "complete_for_period": true,
+                "evidence_kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Synthetic complete payable quote, independently supplied for contrast with USD4.40 list value; not the project cost or automatic credit subtraction."
+              }
+            },
+            {
+              "id": "synthetic-accelerator",
+              "kind": "accelerator",
+              "scope_key": "synthetic-accelerator",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "jobs": 4,
+                "accelerators_per_job": 2,
+                "timing_mode": "throughput",
+                "seconds_per_job": null,
+                "work_units_per_job": "1800",
+                "units_per_second": "2",
+                "work_unit": "admitted model tokens per complete timed job",
+                "minimum_memory_gib": "16"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "accelerator_hours": "2.50"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": true,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": "3",
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": "24"
+                },
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": {
+                "currency": "USD",
+                "amount": "4.50",
+                "complete_for_period": true,
+                "evidence_kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Independent synthetic payable quote, not observed spending."
+              }
+            }
+          ]
+        },
+        {
+          "id": "synthetic-ci",
+          "class": "ci_testing",
+          "need_id": "N03",
+          "scope_note": "N03 CI/test resources only; existing entitlement and incremental account charges are Unknown.",
+          "components": [
+            {
+              "id": "synthetic-ci",
+              "kind": "ci",
+              "scope_key": "synthetic-ci",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "jobs": 10,
+                "minutes_per_job": "5"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "ci_minutes": "0.10"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-hosting",
+          "class": "product_hosting",
+          "need_id": "N01",
+          "scope_note": "N01 service resources only; quantitative planning does not add another charge to the accepted hosting envelope.",
+          "components": [
+            {
+              "id": "synthetic-hosting-storage",
+              "kind": "storage",
+              "scope_key": "synthetic-hosting-storage",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "gib": "50",
+                "months": "1"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "gib_months": "0.02"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "synthetic-hosting-egress",
+              "kind": "egress",
+              "scope_key": "synthetic-hosting-egress",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "gib": "10"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "egress_gib": "0.05"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-demonstration",
+          "class": "public_demonstration",
+          "need_id": "N06",
+          "scope_note": "A separate public demonstration scope related to N06; never included in the research-only #20 handoff.",
+          "components": [
+            {
+              "id": "synthetic-demo-embedding",
+              "kind": "embedding",
+              "scope_key": "synthetic-demo-embedding",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "items": 10,
+                "tokens_per_item": 100,
+                "max_attempts_per_item": 1
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "embedding_tokens": "0.10"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthetic-high",
+      "name": "Synthetic arithmetic control — high",
+      "evidence": {
+        "kind": "synthetic",
+        "source_refs": [
+          "SYN"
+        ],
+        "note": "Author-selected arithmetic only; no provider offer, observed demand, probability, award or adopted spending. All rates, limits and quotes are invented controls."
+      },
+      "period": {
+        "unit": "month",
+        "count": 1,
+        "start": null,
+        "end": null
+      },
+      "traffic_multiplier": "2",
+      "resource_inventory_complete": true,
+      "workloads": [
+        {
+          "id": "synthetic-research",
+          "class": "research",
+          "need_id": "N06",
+          "scope_note": "N06 empirical research only; exclude demonstrations, N01 service hosting and N03 CI.",
+          "components": [
+            {
+              "id": "synthetic-api",
+              "kind": "api",
+              "scope_key": "synthetic-api",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "request_dimensions": {
+                  "requests_per_period": 1000
+                },
+                "max_attempts_per_request": 2,
+                "input_tokens_per_attempt": 1000,
+                "cached_input_tokens_per_attempt": 400,
+                "output_tokens_per_attempt": 200,
+                "cache_eligible": true
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "uncached_input_tokens": "2.00",
+                  "cached_input_tokens": "0.50",
+                  "output_tokens": "4.00"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": true,
+                "values": {
+                  "requests": "1500",
+                  "tokens": "3000000",
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": {
+                "currency": "USD",
+                "face_value": "10",
+                "eligible": true,
+                "activated": false,
+                "eligible_spend_limit": "3",
+                "before_expiry_spend_limit": "2",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Invented control: these are exact eligible and pre-expiry spend caps in the same period/currency; not a provider offer. Activation is false and no actual avoided cash follows."
+              },
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "synthetic-accelerator",
+              "kind": "accelerator",
+              "scope_key": "synthetic-accelerator",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "jobs": 4,
+                "accelerators_per_job": 2,
+                "timing_mode": "throughput",
+                "seconds_per_job": null,
+                "work_units_per_job": "1800",
+                "units_per_second": "2",
+                "work_unit": "admitted model tokens per complete timed job",
+                "minimum_memory_gib": "16"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "accelerator_hours": "2.50"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": true,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": "3",
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": "24"
+                },
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-ci",
+          "class": "ci_testing",
+          "need_id": "N03",
+          "scope_note": "N03 CI/test resources only; existing entitlement and incremental account charges are Unknown.",
+          "components": [
+            {
+              "id": "synthetic-ci",
+              "kind": "ci",
+              "scope_key": "synthetic-ci",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "jobs": 10,
+                "minutes_per_job": "5"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "ci_minutes": "0.10"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-hosting",
+          "class": "product_hosting",
+          "need_id": "N01",
+          "scope_note": "N01 service resources only; quantitative planning does not add another charge to the accepted hosting envelope.",
+          "components": [
+            {
+              "id": "synthetic-hosting-storage",
+              "kind": "storage",
+              "scope_key": "synthetic-hosting-storage",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "gib": "50",
+                "months": "1"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "gib_months": "0.02"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            },
+            {
+              "id": "synthetic-hosting-egress",
+              "kind": "egress",
+              "scope_key": "synthetic-hosting-egress",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "gib": "10"
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "egress_gib": "0.05"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        },
+        {
+          "id": "synthetic-demonstration",
+          "class": "public_demonstration",
+          "need_id": "N06",
+          "scope_note": "A separate public demonstration scope related to N06; never included in the research-only #20 handoff.",
+          "components": [
+            {
+              "id": "synthetic-demo-embedding",
+              "kind": "embedding",
+              "scope_key": "synthetic-demo-embedding",
+              "evidence": {
+                "kind": "synthetic",
+                "source_refs": [
+                  "SYN"
+                ],
+                "note": "Explicitly attributed unexecuted proposal or synthetic control; no actual consumption is asserted."
+              },
+              "inputs": {
+                "items": 10,
+                "tokens_per_item": 100,
+                "max_attempts_per_item": 1
+              },
+              "pricing": {
+                "currency": "USD",
+                "billing_mode": "standard",
+                "mode_eligible": true,
+                "rates": {
+                  "embedding_tokens": "0.10"
+                },
+                "source_refs": [
+                  "SYN"
+                ]
+              },
+              "limits": {
+                "period_matches": null,
+                "values": {
+                  "requests": null,
+                  "tokens": null,
+                  "accelerator_hours": null,
+                  "ci_minutes": null,
+                  "storage_gib": null,
+                  "egress_gib": null,
+                  "available_memory_gib": null
+                },
+                "source_refs": [],
+                "note": "Account limits, burst windows, concurrency and expiry need exact workload-period mapping; no limit is inferred from an advertised credit."
+              },
+              "support": null,
+              "realization": null,
+              "cash_quote": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "calculated": {
+    "arithmetic": "Exact nonnegative decimal inputs; rational-string outputs, no FX conversion.",
+    "actual_project_spending": null,
+    "actual_project_support_received": null,
+    "scenarios": [
+      {
+        "id": "unmeasured-current",
+        "evidence_kind": "unknown",
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "start": null,
+          "end": null
+        },
+        "traffic_multiplier": "1",
+        "resource_inventory_complete": false,
+        "components": [
+          {
+            "workload_id": "research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "research-api",
+            "scope_key": "research-api",
+            "kind": "api",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "logical_requests": null,
+              "max_attempts": null,
+              "input_tokens_total": null,
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "limits": {
+              "requests": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "research-embedding",
+            "scope_key": "research-embedding",
+            "kind": "embedding",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "max_attempts": null,
+              "embedding_tokens": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "embedding_tokens": null
+            },
+            "limits": {
+              "requests": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "research-accelerator",
+            "scope_key": "research-accelerator",
+            "kind": "accelerator",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "jobs": null,
+              "seconds_per_job": null,
+              "accelerator_hours": null,
+              "minimum_memory_gib": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "accelerator_hours": null
+            },
+            "limits": {
+              "accelerator_hours": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              },
+              "available_memory_gib": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "hosting-storage",
+            "scope_key": "hosting-storage",
+            "kind": "storage",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "storage_gib": null,
+              "gib_months": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "gib_months": null
+            },
+            "limits": {
+              "storage_gib": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "hosting-egress",
+            "scope_key": "hosting-egress",
+            "kind": "egress",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "egress_gib": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "egress_gib": null
+            },
+            "limits": {
+              "egress_gib": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "ci",
+            "class": "ci_testing",
+            "need_id": "N03",
+            "component_id": "ci-runs",
+            "scope_key": "ci-runs",
+            "kind": "ci",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "jobs": null,
+              "ci_minutes": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "ci_minutes": null
+            },
+            "limits": {
+              "ci_minutes": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "ci",
+            "class": "ci_testing",
+            "need_id": "N03",
+            "component_id": "ci-artifact-storage",
+            "scope_key": "ci-artifact-storage",
+            "kind": "storage",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "storage_gib": null,
+              "gib_months": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "gib_months": null
+            },
+            "limits": {
+              "storage_gib": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "demonstration",
+            "class": "public_demonstration",
+            "need_id": "N06",
+            "component_id": "demo-api",
+            "scope_key": "demo-api",
+            "kind": "api",
+            "evidence_kind": "unknown",
+            "quantities": {
+              "logical_requests": null,
+              "max_attempts": null,
+              "input_tokens_total": null,
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "limits": {
+              "requests": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          }
+        ],
+        "by_class": {
+          "ci_testing": {
+            "known_metered_subtotals": {},
+            "complete_metered_totals": null,
+            "component_count": 2
+          },
+          "product_hosting": {
+            "known_metered_subtotals": {},
+            "complete_metered_totals": null,
+            "component_count": 2
+          },
+          "public_demonstration": {
+            "known_metered_subtotals": {},
+            "complete_metered_totals": null,
+            "component_count": 1
+          },
+          "research": {
+            "known_metered_subtotals": {},
+            "complete_metered_totals": null,
+            "component_count": 3
+          }
+        },
+        "budget_handoff": {
+          "research_monthly_metered_cost_cents": null,
+          "research_monthly_cash_cost_cents": null,
+          "unit": "USD cents per one relative month, per-component half-up rounding",
+          "scope": "N06 research only; excludes N01 hosting, N03 CI and public demonstrations",
+          "limitation": "Metered list cost and separately sourced complete payable cash quotes are distinct. The exact source, period, billing scope and quote need independent admission before #20 use. No actual cash or funding inferred."
+        }
+      },
+      {
+        "id": "evaluation-proposal-49",
+        "evidence_kind": "proposal",
+        "period": {
+          "unit": "study",
+          "count": 1,
+          "start": null,
+          "end": null
+        },
+        "traffic_multiplier": "1",
+        "resource_inventory_complete": false,
+        "components": [
+          {
+            "workload_id": "evaluation-study",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "evaluation-route-a",
+            "scope_key": "evaluation-route-a",
+            "kind": "api",
+            "evidence_kind": "proposal",
+            "quantities": {
+              "logical_requests": "144",
+              "max_attempts": "288",
+              "input_tokens_total": null,
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "limits": {
+              "requests": {
+                "demand": "288",
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "evaluation-study",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "evaluation-route-b",
+            "scope_key": "evaluation-route-b",
+            "kind": "api",
+            "evidence_kind": "proposal",
+            "quantities": {
+              "logical_requests": "144",
+              "max_attempts": "288",
+              "input_tokens_total": null,
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "currency": null,
+            "metered_list_cost": null,
+            "price_terms": {
+              "uncached_input_tokens": null,
+              "cached_input_tokens": null,
+              "output_tokens": null
+            },
+            "limits": {
+              "requests": {
+                "demand": "288",
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": null,
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          }
+        ],
+        "by_class": {
+          "research": {
+            "known_metered_subtotals": {},
+            "complete_metered_totals": null,
+            "component_count": 2
+          }
+        },
+        "budget_handoff": {
+          "research_monthly_metered_cost_cents": null,
+          "research_monthly_cash_cost_cents": null,
+          "unit": "USD cents per one relative month, per-component half-up rounding",
+          "scope": "N06 research only; excludes N01 hosting, N03 CI and public demonstrations",
+          "limitation": "Metered list cost and separately sourced complete payable cash quotes are distinct. The exact source, period, billing scope and quote need independent admission before #20 use. No actual cash or funding inferred."
+        }
+      },
+      {
+        "id": "synthetic-low",
+        "evidence_kind": "synthetic",
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "start": null,
+          "end": null
+        },
+        "traffic_multiplier": "1/2",
+        "resource_inventory_complete": true,
+        "components": [
+          {
+            "workload_id": "synthetic-research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "synthetic-api",
+            "scope_key": "synthetic-api",
+            "kind": "api",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "logical_requests": "500",
+              "max_attempts": "1000",
+              "input_tokens_total": "1000000",
+              "uncached_input_tokens": "600000",
+              "cached_input_tokens": "400000",
+              "output_tokens": "200000"
+            },
+            "currency": "USD",
+            "metered_list_cost": "11/5",
+            "price_terms": {
+              "uncached_input_tokens": "6/5",
+              "cached_input_tokens": "1/5",
+              "output_tokens": "4/5"
+            },
+            "limits": {
+              "requests": {
+                "demand": "1000",
+                "limit": "1500",
+                "status": "within"
+              },
+              "tokens": {
+                "demand": "1200000",
+                "limit": "3000000",
+                "status": "within"
+              }
+            },
+            "support": {
+              "face_value": {
+                "currency": "USD",
+                "amount": "10"
+              },
+              "potential_useful_coverage": "2",
+              "uncovered_list_exposure": "1/5",
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "synthetic-accelerator",
+            "scope_key": "synthetic-accelerator",
+            "kind": "accelerator",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "jobs": "2",
+              "seconds_per_job": "900",
+              "accelerator_hours": "1",
+              "minimum_memory_gib": "16"
+            },
+            "currency": "USD",
+            "metered_list_cost": "5/2",
+            "price_terms": {
+              "accelerator_hours": "5/2"
+            },
+            "limits": {
+              "accelerator_hours": {
+                "demand": "1",
+                "limit": "3",
+                "status": "within"
+              },
+              "available_memory_gib": {
+                "demand": "16",
+                "limit": "24",
+                "status": "within"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-ci",
+            "class": "ci_testing",
+            "need_id": "N03",
+            "component_id": "synthetic-ci",
+            "scope_key": "synthetic-ci",
+            "kind": "ci",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "jobs": "5",
+              "ci_minutes": "25"
+            },
+            "currency": "USD",
+            "metered_list_cost": "5/2",
+            "price_terms": {
+              "ci_minutes": "5/2"
+            },
+            "limits": {
+              "ci_minutes": {
+                "demand": "25",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "synthetic-hosting-storage",
+            "scope_key": "synthetic-hosting-storage",
+            "kind": "storage",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "storage_gib": "50",
+              "gib_months": "50"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1",
+            "price_terms": {
+              "gib_months": "1"
+            },
+            "limits": {
+              "storage_gib": {
+                "demand": "50",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "synthetic-hosting-egress",
+            "scope_key": "synthetic-hosting-egress",
+            "kind": "egress",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "egress_gib": "5"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1/4",
+            "price_terms": {
+              "egress_gib": "1/4"
+            },
+            "limits": {
+              "egress_gib": {
+                "demand": "5",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-demonstration",
+            "class": "public_demonstration",
+            "need_id": "N06",
+            "component_id": "synthetic-demo-embedding",
+            "scope_key": "synthetic-demo-embedding",
+            "kind": "embedding",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "max_attempts": "5",
+              "embedding_tokens": "500"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1/20000",
+            "price_terms": {
+              "embedding_tokens": "1/20000"
+            },
+            "limits": {
+              "requests": {
+                "demand": "5",
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": "500",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          }
+        ],
+        "by_class": {
+          "ci_testing": {
+            "known_metered_subtotals": {
+              "USD": "5/2"
+            },
+            "complete_metered_totals": {
+              "USD": "5/2"
+            },
+            "component_count": 1
+          },
+          "product_hosting": {
+            "known_metered_subtotals": {
+              "USD": "5/4"
+            },
+            "complete_metered_totals": {
+              "USD": "5/4"
+            },
+            "component_count": 2
+          },
+          "public_demonstration": {
+            "known_metered_subtotals": {
+              "USD": "1/20000"
+            },
+            "complete_metered_totals": {
+              "USD": "1/20000"
+            },
+            "component_count": 1
+          },
+          "research": {
+            "known_metered_subtotals": {
+              "USD": "47/10"
+            },
+            "complete_metered_totals": {
+              "USD": "47/10"
+            },
+            "component_count": 2
+          }
+        },
+        "budget_handoff": {
+          "research_monthly_metered_cost_cents": null,
+          "research_monthly_cash_cost_cents": null,
+          "unit": "USD cents per one relative month, per-component half-up rounding",
+          "scope": "N06 research only; excludes N01 hosting, N03 CI and public demonstrations",
+          "limitation": "Metered list cost and separately sourced complete payable cash quotes are distinct. The exact source, period, billing scope and quote need independent admission before #20 use. No actual cash or funding inferred."
+        }
+      },
+      {
+        "id": "synthetic-base",
+        "evidence_kind": "synthetic",
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "start": null,
+          "end": null
+        },
+        "traffic_multiplier": "1",
+        "resource_inventory_complete": true,
+        "components": [
+          {
+            "workload_id": "synthetic-research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "synthetic-api",
+            "scope_key": "synthetic-api",
+            "kind": "api",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "logical_requests": "1000",
+              "max_attempts": "2000",
+              "input_tokens_total": "2000000",
+              "uncached_input_tokens": "1200000",
+              "cached_input_tokens": "800000",
+              "output_tokens": "400000"
+            },
+            "currency": "USD",
+            "metered_list_cost": "22/5",
+            "price_terms": {
+              "uncached_input_tokens": "12/5",
+              "cached_input_tokens": "2/5",
+              "output_tokens": "8/5"
+            },
+            "limits": {
+              "requests": {
+                "demand": "2000",
+                "limit": "1500",
+                "status": "exceeds"
+              },
+              "tokens": {
+                "demand": "2400000",
+                "limit": "3000000",
+                "status": "within"
+              }
+            },
+            "support": {
+              "face_value": {
+                "currency": "USD",
+                "amount": "10"
+              },
+              "potential_useful_coverage": "2",
+              "uncovered_list_exposure": "12/5",
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": {
+              "currency": "USD",
+              "amount": "3",
+              "complete_for_period": true,
+              "evidence_kind": "synthetic"
+            }
+          },
+          {
+            "workload_id": "synthetic-research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "synthetic-accelerator",
+            "scope_key": "synthetic-accelerator",
+            "kind": "accelerator",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "jobs": "4",
+              "seconds_per_job": "900",
+              "accelerator_hours": "2",
+              "minimum_memory_gib": "16"
+            },
+            "currency": "USD",
+            "metered_list_cost": "5",
+            "price_terms": {
+              "accelerator_hours": "5"
+            },
+            "limits": {
+              "accelerator_hours": {
+                "demand": "2",
+                "limit": "3",
+                "status": "within"
+              },
+              "available_memory_gib": {
+                "demand": "16",
+                "limit": "24",
+                "status": "within"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": {
+              "currency": "USD",
+              "amount": "9/2",
+              "complete_for_period": true,
+              "evidence_kind": "synthetic"
+            }
+          },
+          {
+            "workload_id": "synthetic-ci",
+            "class": "ci_testing",
+            "need_id": "N03",
+            "component_id": "synthetic-ci",
+            "scope_key": "synthetic-ci",
+            "kind": "ci",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "jobs": "10",
+              "ci_minutes": "50"
+            },
+            "currency": "USD",
+            "metered_list_cost": "5",
+            "price_terms": {
+              "ci_minutes": "5"
+            },
+            "limits": {
+              "ci_minutes": {
+                "demand": "50",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "synthetic-hosting-storage",
+            "scope_key": "synthetic-hosting-storage",
+            "kind": "storage",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "storage_gib": "50",
+              "gib_months": "50"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1",
+            "price_terms": {
+              "gib_months": "1"
+            },
+            "limits": {
+              "storage_gib": {
+                "demand": "50",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "synthetic-hosting-egress",
+            "scope_key": "synthetic-hosting-egress",
+            "kind": "egress",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "egress_gib": "10"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1/2",
+            "price_terms": {
+              "egress_gib": "1/2"
+            },
+            "limits": {
+              "egress_gib": {
+                "demand": "10",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-demonstration",
+            "class": "public_demonstration",
+            "need_id": "N06",
+            "component_id": "synthetic-demo-embedding",
+            "scope_key": "synthetic-demo-embedding",
+            "kind": "embedding",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "max_attempts": "10",
+              "embedding_tokens": "1000"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1/10000",
+            "price_terms": {
+              "embedding_tokens": "1/10000"
+            },
+            "limits": {
+              "requests": {
+                "demand": "10",
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": "1000",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          }
+        ],
+        "by_class": {
+          "ci_testing": {
+            "known_metered_subtotals": {
+              "USD": "5"
+            },
+            "complete_metered_totals": {
+              "USD": "5"
+            },
+            "component_count": 1
+          },
+          "product_hosting": {
+            "known_metered_subtotals": {
+              "USD": "3/2"
+            },
+            "complete_metered_totals": {
+              "USD": "3/2"
+            },
+            "component_count": 2
+          },
+          "public_demonstration": {
+            "known_metered_subtotals": {
+              "USD": "1/10000"
+            },
+            "complete_metered_totals": {
+              "USD": "1/10000"
+            },
+            "component_count": 1
+          },
+          "research": {
+            "known_metered_subtotals": {
+              "USD": "47/5"
+            },
+            "complete_metered_totals": {
+              "USD": "47/5"
+            },
+            "component_count": 2
+          }
+        },
+        "budget_handoff": {
+          "research_monthly_metered_cost_cents": null,
+          "research_monthly_cash_cost_cents": null,
+          "unit": "USD cents per one relative month, per-component half-up rounding",
+          "scope": "N06 research only; excludes N01 hosting, N03 CI and public demonstrations",
+          "limitation": "Metered list cost and separately sourced complete payable cash quotes are distinct. The exact source, period, billing scope and quote need independent admission before #20 use. No actual cash or funding inferred."
+        }
+      },
+      {
+        "id": "synthetic-high",
+        "evidence_kind": "synthetic",
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "start": null,
+          "end": null
+        },
+        "traffic_multiplier": "2",
+        "resource_inventory_complete": true,
+        "components": [
+          {
+            "workload_id": "synthetic-research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "synthetic-api",
+            "scope_key": "synthetic-api",
+            "kind": "api",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "logical_requests": "2000",
+              "max_attempts": "4000",
+              "input_tokens_total": "4000000",
+              "uncached_input_tokens": "2400000",
+              "cached_input_tokens": "1600000",
+              "output_tokens": "800000"
+            },
+            "currency": "USD",
+            "metered_list_cost": "44/5",
+            "price_terms": {
+              "uncached_input_tokens": "24/5",
+              "cached_input_tokens": "4/5",
+              "output_tokens": "16/5"
+            },
+            "limits": {
+              "requests": {
+                "demand": "4000",
+                "limit": "1500",
+                "status": "exceeds"
+              },
+              "tokens": {
+                "demand": "4800000",
+                "limit": "3000000",
+                "status": "exceeds"
+              }
+            },
+            "support": {
+              "face_value": {
+                "currency": "USD",
+                "amount": "10"
+              },
+              "potential_useful_coverage": "2",
+              "uncovered_list_exposure": "34/5",
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-research",
+            "class": "research",
+            "need_id": "N06",
+            "component_id": "synthetic-accelerator",
+            "scope_key": "synthetic-accelerator",
+            "kind": "accelerator",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "jobs": "8",
+              "seconds_per_job": "900",
+              "accelerator_hours": "4",
+              "minimum_memory_gib": "16"
+            },
+            "currency": "USD",
+            "metered_list_cost": "10",
+            "price_terms": {
+              "accelerator_hours": "10"
+            },
+            "limits": {
+              "accelerator_hours": {
+                "demand": "4",
+                "limit": "3",
+                "status": "exceeds"
+              },
+              "available_memory_gib": {
+                "demand": "16",
+                "limit": "24",
+                "status": "within"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-ci",
+            "class": "ci_testing",
+            "need_id": "N03",
+            "component_id": "synthetic-ci",
+            "scope_key": "synthetic-ci",
+            "kind": "ci",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "jobs": "20",
+              "ci_minutes": "100"
+            },
+            "currency": "USD",
+            "metered_list_cost": "10",
+            "price_terms": {
+              "ci_minutes": "10"
+            },
+            "limits": {
+              "ci_minutes": {
+                "demand": "100",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "synthetic-hosting-storage",
+            "scope_key": "synthetic-hosting-storage",
+            "kind": "storage",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "storage_gib": "50",
+              "gib_months": "50"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1",
+            "price_terms": {
+              "gib_months": "1"
+            },
+            "limits": {
+              "storage_gib": {
+                "demand": "50",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-hosting",
+            "class": "product_hosting",
+            "need_id": "N01",
+            "component_id": "synthetic-hosting-egress",
+            "scope_key": "synthetic-hosting-egress",
+            "kind": "egress",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "egress_gib": "20"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1",
+            "price_terms": {
+              "egress_gib": "1"
+            },
+            "limits": {
+              "egress_gib": {
+                "demand": "20",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          },
+          {
+            "workload_id": "synthetic-demonstration",
+            "class": "public_demonstration",
+            "need_id": "N06",
+            "component_id": "synthetic-demo-embedding",
+            "scope_key": "synthetic-demo-embedding",
+            "kind": "embedding",
+            "evidence_kind": "synthetic",
+            "quantities": {
+              "max_attempts": "20",
+              "embedding_tokens": "2000"
+            },
+            "currency": "USD",
+            "metered_list_cost": "1/5000",
+            "price_terms": {
+              "embedding_tokens": "1/5000"
+            },
+            "limits": {
+              "requests": {
+                "demand": "20",
+                "limit": null,
+                "status": "unknown"
+              },
+              "tokens": {
+                "demand": "2000",
+                "limit": null,
+                "status": "unknown"
+              }
+            },
+            "support": {
+              "face_value": null,
+              "potential_useful_coverage": null,
+              "uncovered_list_exposure": null,
+              "gross_avoided_cash": null,
+              "incremental_cash": null,
+              "net_avoided_cash": null
+            },
+            "payable_cash_quote": null
+          }
+        ],
+        "by_class": {
+          "ci_testing": {
+            "known_metered_subtotals": {
+              "USD": "10"
+            },
+            "complete_metered_totals": {
+              "USD": "10"
+            },
+            "component_count": 1
+          },
+          "product_hosting": {
+            "known_metered_subtotals": {
+              "USD": "2"
+            },
+            "complete_metered_totals": {
+              "USD": "2"
+            },
+            "component_count": 2
+          },
+          "public_demonstration": {
+            "known_metered_subtotals": {
+              "USD": "1/5000"
+            },
+            "complete_metered_totals": {
+              "USD": "1/5000"
+            },
+            "component_count": 1
+          },
+          "research": {
+            "known_metered_subtotals": {
+              "USD": "94/5"
+            },
+            "complete_metered_totals": {
+              "USD": "94/5"
+            },
+            "component_count": 2
+          }
+        },
+        "budget_handoff": {
+          "research_monthly_metered_cost_cents": null,
+          "research_monthly_cash_cost_cents": null,
+          "unit": "USD cents per one relative month, per-component half-up rounding",
+          "scope": "N06 research only; excludes N01 hosting, N03 CI and public demonstrations",
+          "limitation": "Metered list cost and separately sourced complete payable cash quotes are distinct. The exact source, period, billing scope and quote need independent admission before #20 use. No actual cash or funding inferred."
+        }
+      }
+    ]
+  }
+}

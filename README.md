@@ -19,7 +19,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 | Epic | Outcome |
 | --- | --- |
 | E01 — Nonprofit formation and legal readiness | Evidence and decisions for a responsible organizational path |
-| E02 — Funding readiness and public benefit | Needs, budget, evidence and an application kit |
+| E02 — Funding readiness and public benefit | [Accepted needs, planning methods, evidence and application preparation](docs/workstreams/e02-summary.md) |
 | E03 — Grants and public-interest funding | Qualified, source-linked cash prospects |
 | E04 — Donations and recurring sponsorship | Ethical and operationally workable funding channels |
 | E05 — Inference, GPU and model research support | Compute support matched to real evaluation needs |
@@ -43,6 +43,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Organizational structure decision brief](docs/nonprofit/structure-decision-brief.md)
 - [Repository licenses, IP and asset stewardship](docs/nonprofit/ip-stewardship-register.md)
 - [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
+- [Formation and governance prerequisites](docs/nonprofit/formation-governance-checklist.md)
 - [Exemption filing and recurring compliance assessment](docs/nonprofit/exemption-compliance-assessment.md)
 - [Education/accessibility funding screen](docs/research/education-accessibility-funding-screen.md) — independently accepted public findings; applicant, PI, host, invitation and action limits remain unresolved
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)

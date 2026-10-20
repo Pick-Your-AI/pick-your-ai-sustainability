@@ -19,7 +19,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 | Epic | Outcome |
 | --- | --- |
 | E01 — Nonprofit formation and legal readiness | Evidence and decisions for a responsible organizational path |
-| E02 — Funding readiness and public benefit | Needs, budget, evidence and an application kit |
+| E02 — Funding readiness and public benefit | [Accepted needs, planning methods, evidence and application preparation](docs/workstreams/e02-summary.md) |
 | E03 — Grants and public-interest funding | Qualified, source-linked cash prospects |
 | E04 — Donations and recurring sponsorship | Ethical and operationally workable funding channels |
 | E05 — Inference, GPU and model research support | Compute support matched to real evaluation needs |

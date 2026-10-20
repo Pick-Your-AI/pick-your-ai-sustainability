@@ -96,7 +96,7 @@ jobs:
 
           pinned_files = {
               'scripts/apply_native_relationships.py': '21f36247c353343de5facc3b380bf4d4b11dcf76d4b6ffebb74c2c01282678f4',
-              'data/dependencies.json': 'b4022a944210954e536ca9a841ea13fe5d1b41f12bb651ec4b02419441035cd2',
+              'data/dependencies.json': '31ded2664cf81375d8cbe0c540bf8b84b5039ab639446fbbb5706144f2955229',
           }
           for path, expected_sha256 in pinned_files.items():
               item = get('/contents/' + path + '?ref=' + sha)

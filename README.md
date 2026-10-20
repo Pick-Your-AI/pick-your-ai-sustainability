@@ -23,7 +23,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 | E03 — Grants and public-interest funding | Qualified, source-linked cash prospects |
 | E04 — Donations and recurring sponsorship | Ethical and operationally workable funding channels |
 | E05 — Inference, GPU and model research support | Compute support matched to real evaluation needs |
-| E06 — Cloud and hardware | Infrastructure support and device/resource gaps |
+| E06 — Cloud and hardware | [Infrastructure support and device/resource gaps](docs/workstreams/e06-summary.md) |
 | E07 — Code quality, security and development tools | Useful support after existing no-cost capabilities are audited |
 | E08 — Institutional and pro bono partners | Concrete assistance and reciprocal public benefit |
 | E09 — Pipeline operations | Review, authorization, activation, reporting and sustainability |

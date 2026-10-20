@@ -2,9 +2,9 @@
 
 Owning issue: [E07-02 / #57](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57). Parent: [E07 / #8](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8).
 
-**Status:** source-checked research draft; independent acceptance of this deliverable is pending. **Official sources reviewed:** 2026-10-19. **Repository/settings refresh:** 2026-10-19, 10:08–10:09 UTC. This refresh extends the earlier 08:09–08:14 UTC inventory. Each observation is bounded to its revision or read time, not a continuing assertion about a moving branch.
+**Status:** Done — dated foundational baseline independently accepted and delivered through [PR #79](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79); see the [accepted delivery record](#accepted-delivery--2026-10-19) below. **Official sources reviewed:** 2026-10-19. **Repository/settings refresh:** 2026-10-19, 10:08–10:09 UTC. This refresh extends the earlier 08:09–08:14 UTC inventory. Each observation is bounded to its revision or read time, not a continuing assertion about a moving branch.
 
-**Recommended disposition:** P1 foundational work: verify and use existing public-repository capabilities before requesting overlapping donated tooling. The [scoring rubric](../../docs/scoring-and-qualification.md) makes a numeric opportunity score **Not applicable** to this baseline. There is no grant, award probability or cash amount to score. Realized avoided cost and implementation effort remain **Unknown**. Implementation owner and independent reviewer are **Unassigned** throughout this document; existing issue ownership is unchanged.
+**Recommended disposition:** P1 foundational work: verify and use existing public-repository capabilities before requesting overlapping donated tooling. The [scoring rubric](../../docs/scoring-and-qualification.md) makes a numeric opportunity score **Not applicable** to this baseline. There is no grant, award probability or cash amount to score. Realized avoided cost and implementation effort remain **Unknown**. Future implementation/security-response ownership remains **Unassigned**; the actual independent research review is recorded below. Existing technical issue ownership is unchanged.
 
 ## Scope and evidence boundaries
 
@@ -166,16 +166,22 @@ The source date applies to the linked official product documentation and histori
 2. What plan, seats, integrations, actual usage, budget and paid-license inventory does the organization have? Which proposed donated tools add an accepted capability rather than overlap existing coverage?
 3. Who will accept implementation/security-response ownership, evaluate source/configuration gaps and verify negative/recovery behavior in the existing technical issues? No person or deadline is assigned here.
 4. If a nonprofit-plan comparison becomes an actual opportunity, what applicant/account, authority, recognition or sponsor relationship and incremental need are accepted? Full intake, renewal and private terms remain unverified.
-5. Who independently accepts this exact baseline revision and its explicit Unknowns? Record the reviewer, reviewed revision, scope, conflicts, decision, limitations and review link in #57. Local validation or an automated source check alone does not satisfy acceptance.
+5. The actual independent findings review and delivered revision are linked below and in #57. Any later source or implementation change needs its own appropriate review; the accepted research does not resolve the remaining settings, applicant or operational questions.
 
 | Acceptance item | Current record |
 | --- | --- |
-| Canonical deliverable | This file is the proposed baseline. Publication and a revision link must be verified separately. |
+| Canonical deliverable | Delivered baseline at signed commit [`a648627e9df846995b1275f2f19c8cb9fec90861`](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/a648627e9df846995b1275f2f19c8cb9fec90861/research/tooling/github-baseline.md), original blob `cb72d09aba3db5e0267830cddafba9a3ce75e61b`. |
 | Evidence and three routes | Source-linked product facts, dated repository matrix, route distinctions, costs, restrictions, conflicts and Unknowns are recorded above. |
 | Program record | Not applicable to standard service capabilities; existing Secure OSS/Sponsors records are preserved. No new nonprofit-plan opportunity is promoted. |
 | Priority and numeric score | P1 foundational; numeric score Not applicable. Cash award Not applicable; realized avoided cost and effort Unknown. |
-| Independent reviewer / acceptance | Unassigned / Pending; no acceptance URL or reviewed revision is fabricated. |
+| Independent reviewer / acceptance | Accepted in [independent in-session source review 5570410486](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79#pullrequestreview-5570410486) at `b5822ba331adf8d4fec75742031db5fc602c4dce`; same connected account, with no different-account approval claimed. |
 | Application, award, activation or operational qualification | None established by this research. Prior account/program enrollment is Unknown. |
-| Deadline / next-action date | No application deadline for this standard baseline; implementation and review dates Unassigned. |
+| Deadline / next-action date | No application deadline for this standard baseline; future implementation and follow-up dates remain Unassigned. The completed research review date is recorded below. |
 
-Issue #57 remains open until the actual findings revision is published and independently accepted under the repository process. Unknown settings or applicant facts must not silently become qualified operation, eligibility, funding or activation claims when that review occurs.
+## Accepted delivery — 2026-10-19
+
+[Issue #57](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57) is closed as completed for its thirteen literal dated-baseline criteria. [PR #79](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79) delivered signed commit `a648627e9df846995b1275f2f19c8cb9fec90861`, tree `f1175f9cb28f8aa1c19a8e34bbe271ffce596d70`, with sole accepted parent `2bba83484de3e70453cd9886e69e06f4fcec9120`. The original delivered baseline blob is `cb72d09aba3db5e0267830cddafba9a3ce75e61b`.
+
+[Review 5570410486](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/79#pullrequestreview-5570410486), submitted at 10:45:20 UTC on 2026-10-19, records the complete independent in-session source review at `b5822ba331adf8d4fec75742031db5fc602c4dce`. It accepts the corrected public-content AI-rights analysis after primary-source reinspection and the bounded capability, configuration, execution, cost and applicant-route findings. The review uses the same connected account; it does not represent a second-account GitHub approval. The issue's accepted-delivery receipt separately identifies original hosted qualification and the final preserving composition; those executions retain their own revisions and counts.
+
+This metadata reconciliation records that completed acceptance and delivery. It does not refresh any 08:09–08:14 or 10:08–10:09 repository/settings observation, official-source date, historical execution receipt or technical-issue status in the dated inventory above. Unknown settings, costs, applicant facts, future ownership and device/security-response outcomes remain separate from the accepted research. No account setting, paid service, organizational commitment, application, award or activation is created.

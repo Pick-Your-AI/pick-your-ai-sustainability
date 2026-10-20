@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 348,
-  "records_count": 49,
+  "source_count": 386,
+  "records_count": 50,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -280,7 +280,7 @@
     {
       "url": "https://developer.samsung.com/remote-test-lab",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published facts recorded for linked opportunities Mobile lab #55 scope on 2026-10-19: Current public real-Galaxy service and signup lead; no account or reservation inspection.",
       "opportunity_ids": [
         "SAMSUNG-REMOTE-LAB"
       ],
@@ -290,7 +290,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; actual account/eligibility/execution remains Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -699,7 +699,7 @@
     {
       "url": "https://firebase.google.com/docs/test-lab/usage-quotas-pricing",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published facts recorded for linked opportunities Mobile lab #55 scope on 2026-10-19: Current project-level Spark/Blaze/streaming allowances, USD execution rates, rounding and alerts that do not cap charges.",
       "opportunity_ids": [
         "FIREBASE-TEST-LAB"
       ],
@@ -709,7 +709,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked; application and applicant conditions may remain Unknown; mobile lab #55 complete findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; actual account/eligibility/execution remains Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -1327,7 +1327,7 @@
     {
       "url": "https://spencer.smartsimple.us/",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-19",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "SPENCER-SMALL-EDUCATION"
@@ -1341,7 +1341,42 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
-      ]
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S7",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": null,
+          "scope": "Attempt returned tool Internal Error, no readable form and no observed HTTP status",
+          "result": "Internal Error; no readable form or observed HTTP status",
+          "independent_findings_acceptance": "Pending"
+        }
+      ],
+      "access_result": "Internal Error; no readable form or observed HTTP status",
+      "education_screen_prior_observation": {
+        "revision": "db07d78cc075295122fb59654339e0a5eeeb6283",
+        "observation": {
+          "url": "https://spencer.smartsimple.us/",
+          "last_verified": null,
+          "last_attempted": null,
+          "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "opportunity_ids": [
+            "SPENCER-SMALL-EDUCATION"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Monthly research review",
+            "Before an application, registration, agreement, activation or intake-status claim",
+            "Upon redirect, access error, closure, reopening or changed provider terms"
+          ],
+          "state": "Not Verified — endpoint review required",
+          "source_roles": [
+            "application_endpoint"
+          ]
+        }
+      }
     },
     {
       "url": "https://summerofcode.withgoogle.com/how-it-works",
@@ -1444,7 +1479,7 @@
     {
       "url": "https://www.cloudflare.com/lp/oss-sponsorship/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Actual redirect to Project Alexandria; no second program.",
       "opportunity_ids": [
         "CLOUDFLARE-ALEXANDRIA"
       ],
@@ -1454,7 +1489,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1462,7 +1497,7 @@
     {
       "url": "https://www.cloudflare.com/lp/project-alexandria/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current program conditions, benefit examples and published invitation; complete rendered form unverified.",
       "opportunity_ids": [
         "CLOUDFLARE-ALEXANDRIA"
       ],
@@ -1472,7 +1507,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -1754,7 +1789,41 @@
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S1",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive program, closed intake and eligibility page",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ],
+      "education_screen_prior_observation": {
+        "revision": "db07d78cc075295122fb59654339e0a5eeeb6283",
+        "observation": {
+          "url": "https://www.spencer.org/grant_types/small-research-grant",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "SPENCER-SMALL-EDUCATION"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ]
+        }
+      }
     },
     {
       "url": "https://www.spi-inc.org/projects/associated-project-howto/",
@@ -7032,6 +7101,803 @@
       ]
     },
     {
+      "url": "https://www.spencer.org/grant_types/small-research-grant.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All seven public overview pages; authenticated application fields not inspected",
+      "opportunity_ids": [
+        "SPENCER-SMALL-EDUCATION"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S2",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "All seven public overview pages; authenticated application fields not inspected",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://www.spencer.org/resources/Applicant-Information-and-Policies",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive applicant and institutional policies; actual administering route Unknown",
+      "opportunity_ids": [
+        "SPENCER-SMALL-EDUCATION"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S3",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive applicant and institutional policies; actual administering route Unknown",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://www.spencer.org/resources/policy-on-the-use-of-generative-ai-at-the-spencer-foundation",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete applicant/grantee and reviewer AI policy; this is repository research, not grant-proposal review",
+      "opportunity_ids": [
+        "SPENCER-SMALL-EDUCATION"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S4",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete applicant/grantee and reviewer AI policy; this is repository research, not grant-proposal review",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://www.spencer.org/resources/grantee-information-and-policies",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive public reporting, changes, rights and dissemination policy; no actual award letter",
+      "opportunity_ids": [
+        "SPENCER-SMALL-EDUCATION"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S5",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive public reporting, changes, rights and dissemination policy; no actual award letter",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://www.spencer.org/resources/spencer-foundation-statement-on-research-integrity-and-professional-ethics",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public integrity/ethics statement; no actual study approval",
+      "opportunity_ids": [
+        "SPENCER-SMALL-EDUCATION"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S6",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SPENCER-SMALL-EDUCATION",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete public integrity/ethics statement; no actual study approval",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://sloan.org/programs/public-understanding/new-media",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive New Media page and one-page inquiry route; no message sent",
+      "opportunity_ids": [
+        "SLOAN-NEW-MEDIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence",
+        "program_endpoint"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S8",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SLOAN-NEW-MEDIA",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive New Media page and one-page inquiry route; no message sent",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://sloan.org/grants/apply",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive exclusions, inquiry/invitation and submission guidance; separate anchor attempt failed",
+      "opportunity_ids": [
+        "SLOAN-NEW-MEDIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence",
+        "application_endpoint"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S9",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SLOAN-NEW-MEDIA",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive exclusions, inquiry/invitation and submission guidance; separate anchor attempt failed",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://sloan.org/storage/app/media/files/application_documents/Sloan-Grant-Proposal-Guidelines-Non-Research-Projects.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All 13 pages, modified 2025-10-27; non-research packet only, mixed projects directed to research guidelines",
+      "opportunity_ids": [
+        "SLOAN-NEW-MEDIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S10",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SLOAN-NEW-MEDIA",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "All 13 pages, modified 2025-10-27; non-research packet only, mixed projects directed to research guidelines",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://sloan.org/grants/grantees",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete substantive reporting, unused funds, transfer and no-cost-extension sections; portal/agreement uninspected",
+      "opportunity_ids": [
+        "SLOAN-NEW-MEDIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S11",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SLOAN-NEW-MEDIA",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Complete substantive reporting, unused funds, transfer and no-cost-extension sections; portal/agreement uninspected",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://sloan.org/storage/app/media/files/application_documents/Proposal-Administration-Form.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Both blank-form pages, version 9.7.2023; actual organization, sponsor relationship and signatures Unknown",
+      "opportunity_ids": [
+        "SLOAN-NEW-MEDIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before external representation, inquiry, application, agreement or participant action",
+        "Upon program, applicant, scope, rights, intake or access change"
+      ],
+      "state": "Public source inspected; independent findings acceptance pending; actual applicant Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "education_accessibility_screen_observations": [
+        {
+          "source_id": "S12",
+          "owning_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+          "program_id": "SLOAN-NEW-MEDIA",
+          "last_attempted": "2026-10-19",
+          "last_verified": "2026-10-19",
+          "scope": "Both blank-form pages, version 9.7.2023; actual organization, sponsor relationship and signatures Unknown",
+          "result": "Public text read at the stated scope",
+          "independent_findings_acceptance": "Pending"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Self-serve authority, content, benchmarking, billing and renewal; actual agreement acceptance unverified.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/privacypolicy/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published information and retention scopes; actual account/data settings unverified.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/pages/functions/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Separate static and Functions billing scopes; no deployment.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published free/paid request and CPU models; no funded or activated workload.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published build, file and asset limits; no actual manifest qualification.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/service-specific-terms-overview/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current product-term routing; product coverage is not sponsorship eligibility.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/service-specific-terms-developer-platform/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Responsibilities, limits, termination and non-guaranteed retention; no recovery execution.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developers.cloudflare.com/r2/pricing/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Standard units, conditional free allowances, rounding and storage-class differences; no invoice or activation.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/page-data/lp/project-alexandria/page-data.json",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Independent Apple lane public retrieval: HTTP 200, 153643 bytes, SHA256 d740ad1396c4a137338d43ef0015b63527044c3c24098deba09395dc7a2cd250. Marketo 3080 configuration, not complete rendered fields.",
+      "opportunity_ids": [
+        "CLOUDFLARE-ALEXANDRIA"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Scheduled monthly program review",
+        "Before any application, agreement, activation or public qualification claim",
+        "Upon changed program, terms, form, offer, price/limit, redirect or contradictory evidence"
+      ],
+      "state": "Canonical Cloudflare findings independently accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/104#pullrequestreview-5572334688. Actual applicant/account/award remain Unknown; no rendered-form or provider execution.",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/products/developer-device-platform",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published Preview and future price-table rates and distinct per-second/minimum and slot units; future April label versus FAQ date retained.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Customer authority, privacy/consent, IP, fee/tax, quota-avoidance, publicity and exit terms; actual customer/offline agreement Unknown.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/terms/service-terms",
+      "last_verified": "2026-10-19",
+      "verification_scope": "General Pre-GA data/warranty and benchmark terms, plus GCP Device Cloud partner license/data boundaries; no partner activation.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/privacy?location=global",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current policy, effective 2026-01-29: account/usage information, cross-border and purpose/legal-need retention; no fixed immediate test-data purge established.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/remotetestlab/document/about-remote-test-lab.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual referenced public document GET: 20 credits/day, 15 minutes/credit, 30-minute minimum, distinct 40-credit/10-hour maximum; peripherals and availability limits.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/remotetestlab/document/tests-on-devices.html",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public document GET: Automated Test temporarily unavailable; APK, RDB/ADB and session controls, not a qualified project adapter.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/remotetestlab/rtl/api/v1/faqs",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual public documentation FAQ GET: daily member credit, free member use, Wi-Fi and no SIM call/message tests; no account/device API operation.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://developer.samsung.com/terms?location=us",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current US portal/RTL terms, effective 2026-01-29: Samsung-only app condition, qualified registration, uninstall, no locking, variable access and submitted-content obligations.",
+      "opportunity_ids": [
+        "SAMSUNG-REMOTE-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/device-run",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Android/iOS test interfaces and explicit input/output bucket deletion/lifecycle responsibility; no project adapter or run established.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/device-run/ios",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Device-targeted XCTest inputs and explicit device/software tuple; illustrative catalog is not current capacity.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/device-streaming/governance-security",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Partner lab enablement requires appropriate project/organization authority and separate partner terms.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.cloud.google.com/developer-device-platform/quickstart",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Account/project permissions, enabled services and billing prerequisites; no setup performed.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/android/analyzing-results",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Result states and 90-day detailed results; longer bucket retention has separate lifecycle/billing requirements.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/android/instrumentation-test",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Espresso/UI Automator instrumentation requires app and test APKs; no delivered host-driver adapter inferred.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/ios/run-xctest",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Device-targeted XCTest build, initial app/test/runner signatures and ZIP/xctestrun before lab re-signing.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/migrate",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Test Lab deprecated; full shutdown scheduled 2027-09-30; DDP successor remains separately scoped.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/docs/test-lab/migrate-faq",
+      "last_verified": "2026-10-19",
+      "verification_scope": "DDP billing requirement and matched-rate period through 2027-04-30; no actual migration or entitlement.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/support/privacy",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Customer data responsibility and global processing context; no actual account, private data or DDP-specific guarantee inferred.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://firebase.google.com/terms/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Test Lab/Device Streaming Google Cloud agreement routing and ordinary professional-use intake, modified 2026-09-24; no terms acceptance.",
+      "opportunity_ids": [
+        "FIREBASE-TEST-LAB"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Before any relevant account, terms acceptance, booking, upload, activation or public qualification claim",
+        "Upon changed terms, access, device/software capacity, quota, retention or migration/tariff notice"
+      ],
+      "state": "Actual public source read; complete mobile lab findings accepted in https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55#issuecomment-6270044415; no applicant/account/execution acceptance",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
       "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
       "last_verified": "2026-10-19",
       "verification_scope": "Actual application-linked public agreement, authority/custody/exit and broader deposit fee base; actual executed terms Unknown",
@@ -7219,6 +8085,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 314,
+  "source_evidence_url_count": 352,
   "additional_unverified_endpoint_count": 34
 }

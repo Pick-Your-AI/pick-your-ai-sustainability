@@ -1,0 +1,797 @@
+{
+  "schema_version": "nsf-pesose-assessment/v1",
+  "title": "NSF PESOSE eligibility and collaboration-readiness decision",
+  "opportunity_id": "NSF-PESOSE-26-506",
+  "owning_research_key": "E03-06",
+  "canonical_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
+  "prepared_on": "2026-10-19",
+  "preparation_base": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e",
+  "research_state": "In progress; actual findings review and publication pending",
+  "opportunity_stage": "Discovered",
+  "researcher": "ChatGPT in-session root, session 44a55; no outside coding task",
+  "independent_review": {
+    "status": "Pending review of this actual authored assessment",
+    "reviewer": null,
+    "reviewed_revision": null,
+    "review_url": null,
+    "scope_note": "The separate in-session primary-source review and its corrections inform this draft; neither is acceptance of this authored deliverable or a separate-account GitHub approval."
+  },
+  "decision": {
+    "recommended_disposition": "Defer application; investigate a real eligible institutional route and a bounded Track 1 planning case",
+    "priority": "P2",
+    "priority_reason": "The project's evidence provenance and reproducibility work could support an open-source ecosystem planning case. Actual applicant, PI, external demand, delivery capacity and usable value are unverified; this is a research priority, not a near-term funding forecast.",
+    "applicant_qualification": "Unknown for all three actual applicant routes",
+    "score": null,
+    "score_reason": "The eligibility gate is unresolved. All eight weighted factors and the total remain null; program caps do not establish likelihood, capacity or net value.",
+    "application_gate": "Do not submit until a real eligible recipient and PI, current due-date instructions, institutional authority, rights, budget and concrete proposal have been evidenced and reviewed.",
+    "first_useful_action": "Use the existing entity and public-benefit ledgers to identify an actual institution and employed or appointed PI willing and able to own a planning proposal. No partner or commitment is presumed.",
+    "submission_in_this_execution": false,
+    "provider_contact_in_this_execution": false,
+    "award_evidence": null,
+    "activation_evidence": null,
+    "historical_application_award_account_state": "Unknown"
+  },
+  "program_and_intake": {
+    "current_solicitation": "NSF 26-506 PESOSE",
+    "posted_on": "2026-02-19",
+    "historical_predecessor": "Archived NSF 24-606 POSE; retained for history only",
+    "next_deadline": "2027-03-02",
+    "next_listed_deadline": "2027-09-07",
+    "local_time": "17:00",
+    "timezone_semantics": "Submitting organization's local time",
+    "actual_applicant_timezone": null,
+    "deadline_utc": null,
+    "deadline_note": "An actual organization and its timezone are not established, so no UTC conversion or internal submission date is invented. September 1, 2026 is past. Recheck the governing deadline and due-date PAPPG before action.",
+    "submission_routes": [
+      "Research.gov",
+      "Grants.gov"
+    ],
+    "official_application_url": "https://www.research.gov",
+    "alternate_submission_entry": "https://www.grants.gov",
+    "authenticated_application_fields": "Unknown; no account or private form was opened",
+    "letter_of_intent": "Not required",
+    "preliminary_proposal": "Not required",
+    "proposal_count_limits": "No stated organization or PI count cap; simultaneous duplicate/substantially similar submissions and double funding remain prohibited",
+    "sources": [
+      "S01",
+      "S02",
+      "S06"
+    ]
+  },
+  "track_matrix": [
+    {
+      "track": 1,
+      "purpose": "Scope and plan an open-source ecosystem around an existing public product",
+      "published_total_cap_usd": 300000,
+      "maximum_duration_years": 1,
+      "project_description_pages": 7,
+      "experiential_training": "Required",
+      "project_assessment": "Most plausible exploratory route, conditional on a real recipient/PI, public reusable product, external demand and a feasible ecosystem plan. Ordinary product development is not the planning purpose.",
+      "actual_fit": "Unknown",
+      "sources": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "track": 2,
+      "purpose": "Establish or expand an open-source ecosystem",
+      "published_total_cap_usd": 1500000,
+      "maximum_duration_years": 2,
+      "project_description_pages": 15,
+      "experiential_training": "Required unless the stated completed-Track-1 exception applies; identify completion dates and outcomes as instructed",
+      "project_assessment": "Existing ecosystem demand, governance, maintainers and operational capacity must be demonstrated. Repository activity alone is insufficient.",
+      "actual_fit": "Unknown",
+      "sources": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "track": 3,
+      "purpose": "Improve security, privacy or safety of an existing open-source ecosystem",
+      "published_total_cap_usd": 1500000,
+      "maximum_duration_years": 2,
+      "project_description_pages": 15,
+      "experiential_training": "No universal Track 3 requirement is stated in the reviewed program training guidance",
+      "project_assessment": "Requires a concrete ecosystem security need and evaluation involving actual users. Security-focused implementation is within this track; do not import an archived blanket prohibition on development or present routine app delivery as sufficient.",
+      "actual_fit": "Unknown",
+      "sources": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    }
+  ],
+  "eligible_organization_matrix": [
+    {
+      "category": "Accredited US two- or four-year higher-education institution, including community college",
+      "published_route": "Eligible category subject to solicitation-specific campus and personnel rules",
+      "actual_project_evidence": "Unknown",
+      "sources": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "category": "US nonacademic nonprofit directly associated with education or research",
+      "published_route": "Eligible category subject to location, ownership/control and personnel conditions",
+      "actual_project_evidence": "Unknown; charity recognition alone is insufficient",
+      "sources": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "category": "US commercial organization with strong scientific/engineering research or education capability",
+      "published_route": "Eligible category subject to program ownership/control and personnel conditions",
+      "actual_project_evidence": "Unknown",
+      "sources": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "category": "State/local government or federally recognized Tribal nation",
+      "published_route": "Listed category; applicable current definitions and program conditions still govern",
+      "actual_project_evidence": "Unknown",
+      "sources": [
+        "S01",
+        "S06",
+        "S08"
+      ]
+    },
+    {
+      "category": "Federal agency or FFRDC",
+      "published_route": "Exceptional PAPPG I.E.2 route requires cognizant NSF determination and inquiry before proposal preparation; no general entitlement",
+      "actual_project_evidence": "Unknown; no inquiry or determination occurred",
+      "sources": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "category": "Unsupported informal group or unaffiliated individual",
+      "published_route": "No direct applicant route established; unaffiliated individuals are excluded",
+      "actual_project_evidence": "Public repository ownership does not establish a qualified recipient",
+      "sources": [
+        "S06"
+      ]
+    }
+  ],
+  "personnel_and_control_gates": {
+    "ihe_pi_and_senior_key": "Required US-campus appointment at the deadline: tenure/tenure-track, primary full-time paid research/teaching, or qualifying OSPO/equivalent leadership; apply the stated institutional family/medical exception only with actual evidence.",
+    "other_eligible_org_pi": "Employee acting for the organization and normally resident in the US, subject to the stated temporary-abroad exception.",
+    "location_and_work": "Primary overseas appointments excluded as stated; funded personnel must have the legal right to work in the US for the relevant organization. This is not a claim that every activity must physically occur in the US.",
+    "ownership_and_control": "The solicitation's US nonprofit/for-profit control test includes greater-than-50% qualifying ownership and actual majority control. Application of equity wording to a nonstock nonprofit remains a question for the real applicant and NSF; 501(c)(3) recognition does not resolve it.",
+    "research_security": "Screen the real organization and personnel against applicable research-security restrictions; required training, disclosures and certifications are not established by this repository.",
+    "actual_pi_appointment_employment_residence_work_authorization_control": "Unknown",
+    "sources": [
+      "S01",
+      "S06",
+      "S08",
+      "S14",
+      "S16"
+    ],
+    "foreign_affiliate_inquiry": "A US affiliate/subsidiary of a foreign organization needs cognizant NSF inquiry before proposal preparation under PAPPG I.E.2; this does not waive the stricter PESOSE eligibility requirements."
+  },
+  "three_applicant_routes": [
+    {
+      "route": "Present community / before incorporation",
+      "status": "Unknown actual eligibility; unsupported informal direct application is not a route",
+      "possible_structure": "A real eligible institution could own the proposal and appoint qualifying personnel for its own work. Public collaboration by the community is not an NSF-funded subaward entitlement.",
+      "missing_evidence": [
+        "Actual legal recipient and education/research purpose",
+        "Qualified employee/appointment and authority",
+        "Rights and custody of the work",
+        "Delivery and financial administration capacity"
+      ]
+    },
+    {
+      "route": "Fiscal-sponsored project",
+      "status": "Unknown",
+      "possible_structure": "A host would need to be a genuinely eligible proposing organization with the required PI, work, control and administrative responsibilities. A pass-through agreement cannot make an ineligible project entity eligible for an NSF subaward.",
+      "missing_evidence": [
+        "Real host and program-specific qualification",
+        "Permitted relationship and personnel appointments",
+        "Executed authority, ownership and responsibility allocation",
+        "Actual fees, budget, restrictions and exit terms"
+      ]
+    },
+    {
+      "route": "Independently recognized 501(c)(3)",
+      "status": "Unknown actual eligibility; conditionally possible category only",
+      "possible_structure": "A real US research/education nonprofit would still need the solicitation's organization, PI, control, rights and capacity conditions. Recognition is one fact, not program qualification.",
+      "missing_evidence": [
+        "Actual entity and recognition evidence",
+        "Educational/research activity and governance",
+        "Resolution of nonstock control interpretation",
+        "Qualifying PI, registrations, financial controls and proposal capacity"
+      ]
+    }
+  ],
+  "collaboration_readiness": {
+    "lead_structure": "One lead organization with eligible subawards; the solicitation-specific instruction controls the generic separate-collaborative-proposals boilerplate.",
+    "ineligible_subrecipient_rule": "An ineligible organization cannot receive an NSF-funded subaward through an eligible lead. Unfunded/non-NSF-funded collaboration is distinct and must be accurately described.",
+    "lead_registration": "UEI and active SAM, Research.gov organization/users and authorized organizational representative; allow actual registration and institutional lead time, not an invented completion date.",
+    "subrecipient_registration": "Named subrecipients need UEI and Research.gov registration; subrecipient-only organizations are exempt from full SAM registration under PAPPG I.G.2.",
+    "actual_partner_host_pi_aor_registration": "Unknown",
+    "sources": [
+      "S01",
+      "S06"
+    ]
+  },
+  "proposal_readiness_checklist": [
+    {
+      "item": "Select one justified track and actual public product",
+      "evidence_needed": "Product/version, permitted license, user/contributor evidence, limitations and a feasible ecosystem problem",
+      "status": "Unknown",
+      "source_ids": [
+        "S01"
+      ]
+    },
+    {
+      "item": "Description and summary",
+      "evidence_needed": "Track-specific page limit, title/keyword instructions, work/governance/community/security plan and evaluation; cite the existing public product in references",
+      "status": "Not prepared",
+      "source_ids": [
+        "S01",
+        "S07"
+      ]
+    },
+    {
+      "item": "External corroboration",
+      "evidence_needed": "Three to five letters, at most two pages each, from actual current external users/contributors outside the team; identify relationship and contribution",
+      "status": "No letters or recipient commitments established",
+      "source_ids": [
+        "S01"
+      ]
+    },
+    {
+      "item": "Personnel and partners",
+      "evidence_needed": "Complete funded/unfunded personnel/partner table, qualifying appointments and current required biographical, support and collaborator disclosures",
+      "status": "Unknown",
+      "source_ids": [
+        "S01",
+        "S07"
+      ]
+    },
+    {
+      "item": "Budget and justification",
+      "evidence_needed": "Actual allowable cost basis, duration, facilities, indirect-cost treatment, subaward budgets and training where required; no voluntary committed cost sharing",
+      "status": "No requested amount or approved budget",
+      "source_ids": [
+        "S01",
+        "S07"
+      ]
+    },
+    {
+      "item": "Mandatory experiential work",
+      "evidence_needed": "Track 1/2 training arrangements, up to three participants across the specified technical, entrepreneurial and industry-mentor roles; several virtual weeks at about one day per week per participant",
+      "status": "No team, dates or cost commitment; ask the program to resolve any additional co-lead configuration against its stated maximum",
+      "source_ids": [
+        "S04"
+      ]
+    },
+    {
+      "item": "Data and software management",
+      "evidence_needed": "Current Research.gov DMSP tool, one project/subaward plan, rights-cleared data/software outputs, justified privacy/confidentiality exceptions and public-access obligations",
+      "status": "Not prepared; old two-page PDF upload instruction is superseded",
+      "source_ids": [
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "item": "Conditional mentoring and study controls",
+      "evidence_needed": "One-page project-wide mentoring plan for proposed graduate support or postdoctoral support within II.D.2.i(i); footnote39 excepts a postdoctoral scholar listed in NSF budget Section A and functioning in senior/key scientific or technical direction. Applicable human-participant, offsite-work and institutional approvals for the actual study",
+      "status": "Unknown applicability; no study or participant permission inferred",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "item": "Research security and certification",
+      "evidence_needed": "Applicable person/entity screening, current-support documentation and certifications; each senior/key individual completes and certifies the required research-security training within twelve months before submission, and the AOR certifies completion for all identified senior/key personnel. The AOR's own training is required under this rule when also identified as senior/key personnel",
+      "status": "Unknown; no screening, training, waiver or certification performed",
+      "source_ids": [
+        "S08",
+        "S14"
+      ]
+    },
+    {
+      "item": "Final institutional and terms review",
+      "evidence_needed": "Current due-date instructions, actual AOR sign-off, full submission fields, current GC-1 and proposed special terms, authority and affordable commitments",
+      "status": "Unresolved; current GC-1 PDF returned HTTP403 and authenticated fields were not read",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S11",
+        "S12"
+      ]
+    }
+  ],
+  "operating_assessment": {
+    "cash_and_overage": "This is a restricted research-grant opportunity, not API credits or unrestricted sponsorship. Track caps are ceilings, not likely receipts. An approved actual budget must cover eligible work; no overrun subsidy, renewal entitlement, credit rollover or pre-award reimbursement is assumed.",
+    "reporting": "PAPPG VII generally requires annual reports at least 90 days before budget-period end, a final annual report and a public outcomes report within 120 days after award end. Actual award terms and reporting dates remain unestablished.",
+    "public_outcomes_privacy": "The public outcomes report is published verbatim: exclude confidential/proprietary material and personal information. Aggregate research outputs only after rights and privacy review; a public-repository license does not grant rights to participant or third-party material.",
+    "publication_and_data": "Current Supplement 2 requires PAR accepted-manuscript deposit by publication, replaces the old embargo and updates data/PID sharing. Justify needed exceptions in the DMSP; scope-changing plan revisions need prior written program-officer approval. No provider benchmark permission is inferred.",
+    "branding": "Award recipients must acknowledge actual NSF support under current branding instructions, including relevant publications/webpages and media. The logo cannot imply product endorsement or affiliation. No award, logo approval or NSF endorsement is established here.",
+    "portability": "An award belongs to the recipient's administration, not a contributor's account. PI/organization transfer requires both organizations and NSF, with formal approval and an eligible receiving arrangement. New subawards require prior NSF authorization; no host exit or later incorporation automatically transfers the award.",
+    "renewal": "Reassess the actual program, award, reporting and terms before an extension, new proposal or continued funding. An extension is not additional money; no automatic renewal is promised by the reviewed evidence.",
+    "independence": "Proposed internal controls: retain transparent methods and qualified negative results, disclose funding, avoid sponsor influence on rankings, document governance and custodial rights, and review any publication, indemnity or IP term before acceptance. These are project controls, not invented universal NSF clauses.",
+    "award_terms_limit": "The current official index lists July 31, 2026 GC-1; its PDF returned HTTP403 with no bytes. The applicable notice and complete current general/special conditions must be reviewed before accepting an award. HTML index and PAPPG review do not substitute for that missing document.",
+    "sources": [
+      "S05",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13"
+    ]
+  },
+  "proposed_public_benefit_case": {
+    "status": "Unperformed planning hypothesis for review; not a grant application or achieved outcome",
+    "working_title": "Plan a reusable evidence-provenance and reproducibility ecosystem for AI-system comparisons",
+    "problem": "Potential downstream maintainers need a clear way to distinguish observed results, provider statements, synthetic fixtures and Unknowns, recover sources and rights, reproduce bounded results, and correct unsupported claims. Actual external demand must be documented before treating this as an ecosystem need.",
+    "proposed_track_1_outputs": [
+      "A rights- and version-aware inventory of a selected existing reusable product and its real users",
+      "A maintainership, governance, contribution and correction plan informed by permitted external discovery",
+      "A scoped sustainability and evaluation plan with actual resource and administrative responsibilities"
+    ],
+    "measurement": [
+      {
+        "existing_measure": "PB-03",
+        "proposed_observation": "For a frozen population of claims, audit source recovery, conditions, grade and reuse status; count all actual successes and failures",
+        "baseline": "Unknown"
+      },
+      {
+        "existing_measure": "PB-04",
+        "proposed_observation": "Independent replay of selected result-method-environment combinations against prospectively fixed tolerances; report empirical reproduction and synthetic fixture replay separately",
+        "baseline": "Unknown"
+      },
+      {
+        "existing_measure": "PB-07",
+        "proposed_observation": "Track distinct evidenced corrections and independent retests with a declared denominator; issue or commit volume is not people benefited",
+        "baseline": "Unknown"
+      }
+    ],
+    "evidence_boundaries": [
+      "The accepted measurement design is an instrument, not observed public benefit",
+      "No external user, institution, letter, interview or willingness to participate is invented",
+      "Research #61 still owns actual GPU measurements; #62 owns actual paired pins/runs; #63 owns participant and operational readiness",
+      "Research #41/#54 retain method and contract ownership; source review here does not redo implementation or supply provider/data permissions",
+      "Rights and licensing must be checked on the selected actual work; public namespace or MIT metadata does not establish all asset ownership"
+    ]
+  },
+  "project_inputs": [
+    {
+      "path": "docs/nonprofit/entity-baseline.md",
+      "revision": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e",
+      "scope": "Complete existing ledger read; actual entity, recognition, host, authority, custody and responsible people remain Unknown",
+      "role": "Input from #11, not a hard prerequisite to this exploratory research"
+    },
+    {
+      "path": "docs/funding/public-benefit-measurement-plan.md",
+      "revision": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e",
+      "scope": "Introduction, repository capability/measurement matrix and sampling/privacy gates through section 4; actual outcomes unestablished",
+      "accepted_design_review": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/103#pullrequestreview-5572379791",
+      "role": "Accepted #22 measurement design, not participant evidence"
+    },
+    {
+      "issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
+      "role": "Eventual grant-kit input; this assessment does not presume its complete packet or block exploratory research on it"
+    }
+  ],
+  "other_public_research_screen": {
+    "scope": "Bounded comparison of already owned leads; no new opportunity record, account or current eligibility claim",
+    "routes": [
+      {
+        "canonical_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
+        "canonical_path": "research/compute/openai-researcher-access.md",
+        "reason_to_compare": "An existing research-access route may fit a narrow method study without paying for broad ecosystem administration; applicant and permitted-use gates remain with its accepted assessment"
+      },
+      {
+        "canonical_path": "research/compute/groq-support.md",
+        "reason_to_compare": "Contains a separately labeled historical NAIRR discovery lead; any current allocation opportunity requires a new primary-source intake and institutional screen by its owner, not conversion of that historical lead into an open call",
+        "canonical_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43"
+      }
+    ],
+    "decision": "Resolve the actual institutional research need first, then compare an eligible allocation/access route for that bounded study. Preserve distinct benefit types: federal grant cash, resource allocation and provider credits are not interchangeable. Do not open a duplicate NAIRR or provider issue from this screen.",
+    "input_revision": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e",
+    "read_scope": "Existing accepted decision/ownership summaries and the Groq NAIRR discovery section; no fresh provider intake verification is claimed"
+  },
+  "value_and_effort": {
+    "currency": "USD",
+    "currency_scope": "Published grant caps only",
+    "requested_budget": null,
+    "expected_award": null,
+    "estimated_usable_value": null,
+    "effort_hours": null,
+    "method": "After eligibility and scope, build a work-breakdown estimate from named actual roles, justified hours/rates, allowable direct costs, approved indirect costs, subawards, required training and reporting. Compare against delivery capacity and actual existing costs. Keep restricted grant funding, any cash receipt and verified avoided costs in separate ledgers.",
+    "uncertainties": [
+      "No real host/PI or staff capacity",
+      "No costed scope, rates, institutional indirect-cost or host-fee basis",
+      "No letters or external-demand evidence",
+      "No decision probability, award or executed work",
+      "Current GC-1 and any special award terms unresolved"
+    ],
+    "training_effort_note": "The current qualitative training load is a planning input, not a fixed number of weeks or a commitment from three people. Archived interview counts/hours are not current requirements.",
+    "next_action_date": null,
+    "responsible_applicant_owner": null
+  },
+  "source_reconciliation": [
+    {
+      "topic": "Program succession",
+      "resolution": "Use 26-506 and its three tracks. Keep 24-606's two-phase model, past rounds and older training workload as archived history, not current intake",
+      "sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "topic": "Submission structure",
+      "resolution": "The specific one-lead/eligible-subaward requirement governs the generic collaborative-submission boilerplate. An ineligible entity cannot be funded via a pass-through",
+      "sources": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "topic": "Data management",
+      "resolution": "26-202 supersedes the old two-page PDF DMSP instruction with the April 27, 2026 Research.gov tool transition. The one-page conditional mentoring plan is a different requirement",
+      "sources": [
+        "S07",
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "topic": "Policy version",
+      "resolution": "The current index identifies PAPPG 24-1 plus 26-200/26-202. A draft future guidance/comment period does not establish an adopted replacement; recheck actual due-date instructions",
+      "sources": [
+        "S05",
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "topic": "Actual access limits",
+      "resolution": "The public current-award index was downloaded successfully, but the linked current GC-1 returned HTTP403. Earlier web InternalError and restricted-network errors are separate attempts. No full PDF, authenticated form or applicant facts are represented as read",
+      "sources": [
+        "S11",
+        "S12",
+        "E01",
+        "E02"
+      ]
+    },
+    {
+      "topic": "Transfer and mentoring cross-references",
+      "resolution": "Generic foreign-transfer alternatives cannot override PESOSE eligibility. VII.B.4 retains an older postdoc-only cross-reference; current II.D.2.i(i) and VII.B.5 cover qualifying graduate or postdoctoral support. No graduate-student exemption is inferred.",
+      "sources": [
+        "S01",
+        "S06",
+        "S07",
+        "S10"
+      ]
+    }
+  ],
+  "remaining_questions": [
+    "Which real eligible organization and qualifying PI will own the work, and what evidence establishes employment, appointment, control, legal-work requirements and decision authority?",
+    "How does NSF apply the solicitation's ownership/control wording to the actual proposed nonstock nonprofit, if that is the selected route?",
+    "What documented existing product, rights, external users and unmet ecosystem need support Track 1, or the stronger Track 2/3 thresholds?",
+    "Which actual eligible subrecipients and unfunded collaborators have feasible responsibilities, and what registration and institutional approvals are missing?",
+    "What current full application fields, due-date policy, current GC-1 and possible special terms govern the eventual real proposal and award?",
+    "What independent source/rights and privacy decisions permit the proposed discovery and measurements, without displacing Research #61/#62/#63?",
+    "What costed roles, training, reporting, indirect costs and governance preserve realistic net value and organizational independence?"
+  ],
+  "primary_sources": [
+    {
+      "id": "S01",
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation",
+      "last_verified": "2026-10-19",
+      "scope": "Current 26-506 program, eligibility, proposal and award instructions; public HTML",
+      "access": "Retrieved; no HTTP status supplied by web reader"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
+      "last_verified": "2026-10-19",
+      "scope": "Current program summary, listed tracks, amounts and dates; public HTML",
+      "access": "Retrieved; no HTTP status supplied by web reader"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems/505982/nsf24-606/solicitation",
+      "last_verified": "2026-10-19",
+      "scope": "Archived 24-606 history; independent in-session source review, root checked archive/redirect identity",
+      "access": "Archived public HTML retrieved; historical, not current intake"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/updates/120938",
+      "last_verified": "2026-10-19",
+      "scope": "August 12, 2026 current experiential-training update; public HTML",
+      "access": "Retrieved; no HTTP status supplied by web reader"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.nsf.gov/policies/pappg",
+      "last_verified": "2026-10-19",
+      "scope": "Current PAPPG version and supplemental-policy index; proposed future guidance is not treated as adopted",
+      "access": "Public HTML retrieved"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission",
+      "last_verified": "2026-10-19",
+      "scope": "I.E eligibility and exceptional federal routes; I.F/G deadlines, duplicate submissions, UEI/SAM/Research.gov and institutional submission",
+      "access": "Relevant public HTML sections retrieved and read"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation",
+      "last_verified": "2026-10-19",
+      "scope": "Independent in-session bounded review of proposal components, budgets and mentoring; read together with both current supplements",
+      "access": "Relevant public HTML sections retrieved; no authenticated form inspection"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.nsf.gov/policies/document/pappg24-1-supplement-1",
+      "last_verified": "2026-10-19",
+      "scope": "NSF 26-200, effective December 8, 2025; all sixteen substantive revisions read",
+      "access": "Public HTML retrieved"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.nsf.gov/policies/document/pappg24-1-supplement-2",
+      "last_verified": "2026-10-19",
+      "scope": "NSF 26-202, January 22, 2026; current DMSP transition and publication/data requirements",
+      "access": "Complete substantive public HTML read; independent correction confirms old PDF wording is superseded"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-7-award-administration",
+      "last_verified": "2026-10-19",
+      "scope": "Bounded VII.B transfer/subaward and VII.D reporting review; no actual award conditions or dates inferred",
+      "access": "Relevant public HTML sections retrieved and read"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.nsf.gov/awards/terms-conditions",
+      "last_verified": "2026-10-19",
+      "scope": "Current grant-terms index and listed July 31, 2026 GC-1 link",
+      "access": "Public HTML read; actual download HTTP200 at 18:12:36 UTC, 173863 bytes, SHA256 fcb0bf74bef71f4fc9966376968099fbd231f9a483e75c29bb9981ed40660930"
+    },
+    {
+      "id": "S12",
+      "url": "https://nsf-gov-resources.nsf.gov/files/gc1_7_31_2026.pdf",
+      "last_verified": null,
+      "last_attempted": "2026-10-19T18:12:36Z",
+      "scope": "Current GC-1 contents remain Not Verified",
+      "access": "HTTP403 Forbidden; no PDF bytes or visual/text review. Earlier web InternalError supplied no HTTP status; the earlier local restricted-network attempt acquired no content"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.nsf.gov/policies/brand",
+      "last_verified": "2026-10-19",
+      "scope": "Public NSF brand and acknowledgment guidance; linked full manuals not read",
+      "access": "Public HTML read; no logo request, permission or endorsement"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.nsf.gov/notices/important/important-notice-no-149-updates-nsf-research-security/in149",
+      "last_verified": "2026-10-19",
+      "scope": "Independent in-session full six-section/ten-footnote primary read; training/certification and documentary scope only",
+      "access": "Public HTML retrieved; no person/entity screening or certification"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/updates/120812",
+      "last_verified": "2026-10-19",
+      "scope": "July 9, 2026 public program resource index and its three named slide links; not video or PDF content",
+      "access": "Public HTML read. Independent clicks for Introduction, July 21 Q+A and August Technical Webinar PDFs each returned InternalError without PDF bytes or an exposed HTTP status; no successful PDF verification"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.nsf.gov/research-security/person-or-entity-concern-prohibition",
+      "last_verified": "2026-10-19",
+      "scope": "Independent in-session primary policy read; person/entity restrictions only, not actual applicant screening",
+      "access": "Public HTML retrieved; no private entity or personnel facts inspected"
+    }
+  ],
+  "unverified_endpoints": [
+    {
+      "id": "E01",
+      "url": "https://www.research.gov",
+      "last_verified": null,
+      "last_attempted": null,
+      "scope": "Submission route identified by NSF; authenticated organization/account and full program form not inspected"
+    },
+    {
+      "id": "E02",
+      "url": "https://www.grants.gov",
+      "last_verified": null,
+      "last_attempted": null,
+      "scope": "Alternative route identified by NSF; actual application workspace not inspected"
+    }
+  ],
+  "source_history": [
+    {
+      "event": "Seed record",
+      "revision": "220e8cb8d9df291fb0ee13f76c57df5f02bd032e",
+      "scope": "Existing unique NSF-PESOSE-26-506 source facts and Unknown applicant state are extended. Original source rows are retained in their observation history; the prior register remains available at the immutable revision"
+    },
+    {
+      "event": "Independent primary-source review",
+      "reviewed_at": "2026-10-19T17:44:21Z",
+      "receipt_sha256": "d456799e9e0ad9f67df9466d9b1ff220f4ea3df497abed5811764b351e311931",
+      "scope": "Eight official HTML sources; no authored-deliverable acceptance. Three linked program-resource PDFs returned InternalError without bytes/status and were not treated as read"
+    },
+    {
+      "event": "DMSP correction",
+      "reviewed_at": "2026-10-19T18:18:36Z",
+      "receipt_sha256": "9ba8359200dc35863a4e6b87375fa595941e5996340f19a88f63ab0da2400009",
+      "scope": "Preserves and corrects the source review's old <=2-page PDF statement against actual 26-202; no source history is silently overwritten"
+    },
+    {
+      "event": "Supplemental security-policy read",
+      "reviewed_at": "2026-10-19T18:26:00Z",
+      "receipt_sha256": "cd71887516b2567665fd290ed9df1ce46d1dc61c4267c3da13bec0aef7402ee1",
+      "scope": "Primary documentary review only; annual foreign-financial reporting is scoped to direct-recipient IHEs, not all applicants or subaward-only entities"
+    },
+    {
+      "event": "Independent authored-draft findings review",
+      "reviewed_revision": "30e6638367252276b5d9e72330a222d46ac383bd",
+      "receipt_sha256": "122c1830fd6b45997354bf54666cc9521ac1a4864054997261d71c3fd9cf5dd4",
+      "scope": "Complete independent in-session review of the actual canonical assessment, owned records, source histories, project inputs and all eleven literal criteria. It requested NSF-R1 AOR-training correction, NSF-R2 historical HF-count labeling and NSF-R3 the mentoring personnel-classification exception; this receipt precedes corrected-successor acceptance."
+    },
+    {
+      "event": "Review corrections and direct primary verification",
+      "reviewed_at": "2026-10-19T19:03:08.589180+00:00",
+      "primary_sources": [
+        "https://www.nsf.gov/notices/important/important-notice-no-149-updates-nsf-research-security/in149",
+        "https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation"
+      ],
+      "scope": "The root directly read all substantive Notice149 sections and footnotes, and PAPPG II.D.2.i(i) with footnotes37-39. NSF-R1 corrects the earlier source/security-review wording: each senior/key individual completes and certifies training; the AOR certifies their completion, with personal training under this rule when also senior/key. NSF-R3 retains both the budget Section A and actual senior/key-direction conditions for the postdoctoral mentoring exception. NSF-R2 labels the retained HF numbers as its historical receiving snapshot. Earlier receipts remain unchanged; confirmation of this corrected successor is pending."
+    }
+  ],
+  "freshness": {
+    "next_verification_date": null,
+    "triggers": [
+      "Monthly program review",
+      "Before relying on a deadline, application, agreement or qualification claim",
+      "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+      "Actual applicant, PI, host, scope or rights change"
+    ],
+    "rule": "A linked or historically read document is not newly verified. Keep failed/unread contents null and preserve prior observations. Recheck the actual due-date policy and award-specific conditions."
+  },
+  "acceptance_map": [
+    {
+      "criterion": "Archived NSF 24-606 is retained as history and NSF 26-506 is the current canonical opportunity.",
+      "evidence_sections": [
+        "program_and_intake",
+        "source_reconciliation",
+        "primary_sources.S03"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "March 2, 2027 deadline at 5pm submitting organization's local time is recorded with timezone semantics.",
+      "evidence_sections": [
+        "program_and_intake"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "An ineligible entity is not portrayed as able to receive a subaward through an eligible lead.",
+      "evidence_sections": [
+        "collaboration_readiness",
+        "three_applicant_routes"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Track caps remain possible program limits; voluntary committed cost sharing prohibition and PI requirements are documented.",
+      "evidence_sections": [
+        "track_matrix",
+        "personnel_and_control_gates",
+        "proposal_readiness_checklist"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Identify current primary official sources and record the review date; label historical announcements, access failures and conflicting terms.",
+      "evidence_sections": [
+        "primary_sources",
+        "unverified_endpoints",
+        "source_history",
+        "source_reconciliation"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Verify the program, current intake/application process and deadline, or explicitly record Unknown / Not applicable with a reason.",
+      "evidence_sections": [
+        "program_and_intake",
+        "proposal_readiness_checklist",
+        "unverified_endpoints"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Document the benefit type and separately assess the present community, a fiscal-sponsored project and an independently recognized 501(c)(3).",
+      "evidence_sections": [
+        "three_applicant_routes",
+        "value_and_effort"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Evaluate restrictions, reporting, branding, publication rights, privacy, portability, renewal, overage and organizational independence as applicable.",
+      "evidence_sections": [
+        "operating_assessment",
+        "source_reconciliation"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Establish a concrete repository/public-benefit use case; estimate value and effort only with a defensible method and distinguish cash from avoided cost.",
+      "evidence_sections": [
+        "proposed_public_benefit_case",
+        "project_inputs",
+        "value_and_effort"
+      ],
+      "status": "Draft evidence prepared; substantive acceptance pending"
+    },
+    {
+      "criterion": "Publish the canonical deliverable, structured program record where relevant, source references, remaining questions, priority rationale and recommended disposition.",
+      "evidence_sections": [
+        "decision",
+        "remaining_questions",
+        "primary_sources",
+        "canonical_issue"
+      ],
+      "status": "Pending publication"
+    },
+    {
+      "criterion": "Obtain and link independent acceptance of the actual findings. A schema check or initial source lead alone does not meet this criterion.",
+      "evidence_sections": [
+        "independent_review"
+      ],
+      "status": "Pending actual independent findings review"
+    }
+  ],
+  "validation_scope": "Existing repository integrity checks verify structured data, references and projections; they cannot establish applicant eligibility, provider permission, actual public benefit, independent findings acceptance or main delivery.",
+  "duplicate_search": {
+    "searched_on": "2026-10-19",
+    "queries": [
+      {
+        "query": "org:Pick-Your-AI is:issue PESOSE",
+        "total_count": 9,
+        "incomplete_results": false
+      },
+      {
+        "query": "org:Pick-Your-AI is:pull-request PESOSE",
+        "total_count": 1,
+        "incomplete_results": false,
+        "scope": "Closed measurement-plan PR #103; no matching open PR at claim time"
+      },
+      {
+        "query": "org:Pick-Your-AI is:issue (\"NSF\" OR \"POSE\" OR \"26-506\")",
+        "total_count": 12,
+        "incomplete_results": false
+      }
+    ],
+    "canonical_match": "NSF-PESOSE-26-506",
+    "resolution": "Extend existing E03-06/#30. Related planning and grant/provider issues retain their ownership; no new program, issue or assumed native dependency.",
+    "search_history": "Initial untyped search was rejected with HTTP422; corrected typed searches succeeded. Query result counts are dated discovery evidence, not current backlog totals."
+  }
+}

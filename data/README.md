@@ -21,7 +21,7 @@ A shared owning key means one comparative research package evaluates different p
 | Google for Nonprofits — United States | E03-07 | Eligibility route documented; no qualified applicant established |
 | Sovereign Tech Fund | E03-03 | Not Pursuing for ordinary builder scope; research only for a real foundational component |
 | Open Source in Science | E03-03 | Program LOI route documented; no current special open call |
-| PESOSE (NSF 26-506) | E03-06 | Active solicitation; PYA applicant route not qualified |
+| [PESOSE (NSF 26-506)](opportunities/nsf-pesose.json) | E03-06 | In progress / Discovered; current assessment prepared for independent review; defer application, actual institutional and PI qualification Unknown |
 | Small Research Grants on Education | E03-05 | Watch for a verified reopening; do not apply |
 | Causes Portal / workplace giving channel | E04-04 | Nonprofit registration route documented; applicant validation Unknown |
 

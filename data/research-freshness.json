@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 255,
+  "source_count": 270,
   "records_count": 41,
   "sources": [
     {
@@ -1578,39 +1578,84 @@
     {
       "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current program summary, listed tracks, amounts and dates; public HTML",
       "opportunity_ids": [
         "NSF-PESOSE-26-506"
       ],
       "next_verification_date": null,
       "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
       "source_roles": [
         "governing_source_evidence"
-      ]
+      ],
+      "observation_history": [
+        {
+          "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "NSF-PESOSE-26-506"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence"
+          ]
+        }
+      ],
+      "access_observation": "Retrieved; no HTTP status supplied by web reader"
     },
     {
       "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Current 26-506 program, eligibility, proposal and award instructions; public HTML",
       "opportunity_ids": [
         "NSF-PESOSE-26-506"
       ],
       "next_verification_date": null,
       "triggers": [
-        "Scheduled monthly program review",
-        "Before any application, agreement, activation or public qualification claim",
-        "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
-      ]
+      ],
+      "observation_history": [
+        {
+          "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation",
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "NSF-PESOSE-26-506"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ]
+        }
+      ],
+      "access_observation": "Retrieved; no HTTP status supplied by web reader"
     },
     {
       "url": "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/",
@@ -5293,6 +5338,307 @@
       ],
       "retrieved_at": "2026-10-19T11:30:54.920097+00:00",
       "content_sha256": "b32c02a2dfa393019b3f189791f0b57d9225e3ddb11708f8585749b35133558c"
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems/505982/nsf24-606/solicitation",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Archived 24-606 history; independent in-session source review, root checked archive/redirect identity",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Archived public HTML retrieved; historical, not current intake"
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/updates/120938",
+      "last_verified": "2026-10-19",
+      "verification_scope": "August 12, 2026 current experiential-training update; public HTML",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Retrieved; no HTTP status supplied by web reader"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current PAPPG version and supplemental-policy index; proposed future guidance is not treated as adopted",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML retrieved"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission",
+      "last_verified": "2026-10-19",
+      "verification_scope": "I.E eligibility and exceptional federal routes; I.F/G deadlines, duplicate submissions, UEI/SAM/Research.gov and institutional submission",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Relevant public HTML sections retrieved and read"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Independent in-session bounded review of proposal components, budgets and mentoring; read together with both current supplements",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Relevant public HTML sections retrieved; no authenticated form inspection"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/document/pappg24-1-supplement-1",
+      "last_verified": "2026-10-19",
+      "verification_scope": "NSF 26-200, effective December 8, 2025; all sixteen substantive revisions read",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML retrieved"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/document/pappg24-1-supplement-2",
+      "last_verified": "2026-10-19",
+      "verification_scope": "NSF 26-202, January 22, 2026; current DMSP transition and publication/data requirements",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Complete substantive public HTML read; independent correction confirms old PDF wording is superseded"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-7-award-administration",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Bounded VII.B transfer/subaward and VII.D reporting review; no actual award conditions or dates inferred",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Relevant public HTML sections retrieved and read"
+    },
+    {
+      "url": "https://www.nsf.gov/awards/terms-conditions",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current grant-terms index and listed July 31, 2026 GC-1 link",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML read; actual download HTTP200 at 18:12:36 UTC, 173863 bytes, SHA256 fcb0bf74bef71f4fc9966376968099fbd231f9a483e75c29bb9981ed40660930"
+    },
+    {
+      "url": "https://nsf-gov-resources.nsf.gov/files/gc1_7_31_2026.pdf",
+      "last_verified": null,
+      "verification_scope": "Current GC-1 contents remain Not Verified",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Not Verified — contents not read",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "last_attempted": "2026-10-19T18:12:36Z",
+      "access_observation": "HTTP403 Forbidden; no PDF bytes or visual/text review. Earlier web InternalError supplied no HTTP status; the earlier local restricted-network attempt acquired no content"
+    },
+    {
+      "url": "https://www.nsf.gov/policies/brand",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Public NSF brand and acknowledgment guidance; linked full manuals not read",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML read; no logo request, permission or endorsement"
+    },
+    {
+      "url": "https://www.nsf.gov/notices/important/important-notice-no-149-updates-nsf-research-security/in149",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Independent in-session full six-section/ten-footnote primary read; training/certification and documentary scope only",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML retrieved; no person/entity screening or certification"
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/updates/120812",
+      "last_verified": "2026-10-19",
+      "verification_scope": "July 9, 2026 public program resource index and its three named slide links; not video or PDF content",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML read. Independent clicks for Introduction, July 21 Q+A and August Technical Webinar PDFs each returned InternalError without PDF bytes or an exposed HTTP status; no successful PDF verification"
+    },
+    {
+      "url": "https://www.nsf.gov/research-security/person-or-entity-concern-prohibition",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Independent in-session primary policy read; person/entity restrictions only, not actual applicant screening",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Source checked within the stated scope; actual application and applicant remain Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "access_observation": "Public HTML retrieved; no private entity or personnel facts inspected"
+    },
+    {
+      "url": "https://www.grants.gov",
+      "last_verified": null,
+      "verification_scope": "Alternative route identified by NSF; actual application workspace not inspected",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly program review",
+        "Before relying on a deadline, application, agreement or qualification claim",
+        "New solicitation/supplement, changed training/intake, conflicting instructions or access result",
+        "Actual applicant, PI, host, scope or rights change"
+      ],
+      "state": "Not Verified — contents not read",
+      "source_roles": [
+        "application_endpoint"
+      ],
+      "last_attempted": null
     }
   ],
   "rules": [
@@ -5301,6 +5647,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 229,
-  "additional_unverified_endpoint_count": 26
+  "source_evidence_url_count": 243,
+  "additional_unverified_endpoint_count": 27
 }

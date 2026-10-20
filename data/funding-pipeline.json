@@ -239,22 +239,22 @@
     {
       "opportunity_id": "NSF-PESOSE-26-506",
       "program_name": "PESOSE (NSF 26-506)",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Current program and policy assessment drafted; actual independent findings review pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
-      "research_status": "Ready",
+      "research_status": "In progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Defer application; investigate a real eligible institutional route and a bounded Track 1 planning case",
       "eligibility": "Unknown",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "application_gate": "Do not submit until a real eligible recipient and PI, current due-date instructions, institutional authority, rights, budget and concrete proposal have been evidenced and reviewed.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
-      "reporting_status": "Not yet established; review offer and agreement terms before acceptance because obligations may precede activation.",
+      "reporting_status": "Published reporting requirements documented; no actual award or binding reporting dates established; current GC-1 contents remain Not Verified.",
       "verified_deadline": "2027-03-02",
       "deadline_timezone": "Submitting organization local time; exact zone Unknown",
       "priority": "P2",
       "score": null,
-      "next_action": "Identify an evidenced eligible applicant and PI, then assess one defensible ecosystem track without assuming a partnership."
+      "next_action": "Use the existing entity and public-benefit ledgers to identify an actual institution and employed or appointed PI willing and able to own a planning proposal. No partner or commitment is presumed."
     },
     {
       "opportunity_id": "SPENCER-SMALL-EDUCATION",

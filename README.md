@@ -23,7 +23,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 | E03 — Grants and public-interest funding | Qualified, source-linked cash prospects |
 | E04 — Donations and recurring sponsorship | Ethical and operationally workable funding channels |
 | E05 — Inference, GPU and model research support | Compute support matched to real evaluation needs |
-| E06 — Cloud and hardware | Infrastructure support and device/resource gaps |
+| E06 — Cloud and hardware | [Infrastructure support and device/resource gaps](docs/workstreams/e06-summary.md) |
 | E07 — Code quality, security and development tools | Useful support after existing no-cost capabilities are audited |
 | E08 — Institutional and pro bono partners | Concrete assistance and reciprocal public benefit |
 | E09 — Pipeline operations | Review, authorization, activation, reporting and sustainability |
@@ -41,7 +41,9 @@ These initial documents are reviewable program drafts. Publishing them does not 
 These artifacts are drafts for review. Their existence does not close the owning research issues.
 
 - [Organizational structure decision brief](docs/nonprofit/structure-decision-brief.md)
+- [Repository licenses, IP and asset stewardship](docs/nonprofit/ip-stewardship-register.md)
 - [Public-benefit purpose and activity assessment](docs/nonprofit/public-benefit-legal-assessment.md)
+- [Education/accessibility funding screen](docs/research/education-accessibility-funding-screen.md) — independently accepted public findings; applicant, PI, host, invitation and action limits remain unresolved
 - [Fiscal sponsorship and hosting comparison](docs/nonprofit/fiscal-sponsorship-comparison.md)
 - [Opportunity evidence register](data/README.md)
 - [Funding pipeline](docs/funding-pipeline.md)

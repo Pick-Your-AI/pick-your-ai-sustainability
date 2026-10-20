@@ -1,5 +1,17 @@
 # Corporate OSPO contribution routes
 
+## Delivery status — 2026-10-20
+
+The complete findings below were [independently accepted on 2026-10-19 at 17:20:09 UTC](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64#issuecomment-6273013144), at local `a907508de2716f3c2b15e3315c09dd65312d884c` / tree `642227bd7cb01f2ef5b810e533a299b5e4354248`. The [subsequent acceptance-metadata review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64#issuecomment-6273178479) and [exact contributor-source preservation](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64#issuecomment-6273266241) are complete. The pending-findings sentence in section 6 below is retained historical wording and is superseded by those actual acceptance receipts.
+
+The earlier missing-settings-evidence hold on ordinary publication is also resolved. The controller's [saved repository-specific OFF settings](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10#issuecomment-6270502471), [delivery confirmation](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10#issuecomment-6270961156) and [explicit settings-receipt reconciliation](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62#issuecomment-6277953328) establish the recorded permission to continue ordinary reviewed delivery. The unresolved-cost-hold clauses in section 1 and the final review record below describe the earlier preparation and are superseded by that reconciliation. This update does not change settings, authorize a paid model task or override any separate payload rejection, review, protection or actual execution requirement.
+
+The receiving preparation on accepted `f7266cf28123646bf42d40946edfe602cb7b099a` preserves the complete published `ed6ead6b9d9e3b764b9042940aa3754aabf3a146` note, adds its one navigation link, and preserves all 132 other accepted file entries. This dated delivery annotation leaves the entire prior note recoverable byte for byte. Its old inventory counts, issue-status observations, provider dates and execution results remain attributed to their original revisions; they are not new observations of current main.
+
+**Canonical main delivery remains pending.** Issue #64 will record the actual reviewed PR, accepted commit and configured-check result when delivery occurs. All corporate engagement drafts remain unsent. This update establishes no employee commitment, applicant qualification, agreement, provider fact, new test execution or technical-issue completion.
+
+## Retained findings and original delivery record
+
 Owner: [E08-03 / #64](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64). Research checked **2026-10-19 UTC**. Status: **findings independently accepted; canonical main publication pending; all engagement drafts unsent**. The [actual findings acceptance](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64#issuecomment-6273013144) is scoped to the exact local source recorded below. This document records no corporate commitment, allocated engineer, application, employee approval, organizational agreement or completed technical contribution.
 
 ## Recommendation and scope

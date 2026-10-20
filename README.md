@@ -58,6 +58,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Groq conditional evaluation and support discovery](research/compute/groq-support.md)
 - [Corporate OSPO contribution routes and unsent review requests](research/partnerships/ospo-contributions.md)
 - [Sponsor-neutral evaluation protocol and pending demand-sized request](research/compute/evaluation-proposal.md)
+- [Compute support evidence gates and sensitivity comparison](research/compute/usable-support-ranking.md) — partial method; actual usable-support ranking awaits admitted inputs
 
 ## Execution and audit evidence
 

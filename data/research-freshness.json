@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 376,
+  "source_count": 386,
   "records_count": 50,
   "sources": [
     {
@@ -322,7 +322,10 @@
       "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG",
-        "GITHUB-SECURE-OSS-FUND"
+        "GITHUB-SECURE-OSS-FUND",
+        "SFC-MEMBERSHIP",
+        "SPI-ASSOCIATED-PROJECT",
+        "OSC-FISCAL-HOST"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -433,6 +436,37 @@
               }
             }
           }
+        },
+        {
+          "opportunity_ids": [
+            "SFC-MEMBERSHIP",
+            "SPI-ASSOCIATED-PROJECT",
+            "OSC-FISCAL-HOST"
+          ],
+          "source_revision": "9e4e8b602b0c25b9f77b528a436644732bb6a448",
+          "source_position": 16,
+          "raw_row_sha256": "8afaf0730b7c208229045c39d6955c54f6a26f0eaf95cbbf7b783bd97c9fa5e2",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Published facts recorded for linked opportunities; #14 host comparison inspection on 2026-10-19: Personal versus organizational sponsorship fees; historical matching-fund closure is not current support; original unrelated observation retained",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG",
+              "SFC-MEMBERSHIP",
+              "SPI-ASSOCIATED-PROJECT",
+              "OSC-FISCAL-HOST"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Source checked; application and applicant conditions may remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
         }
       ]
     },
@@ -478,7 +512,10 @@
       "verification_scope": "Shared URL membership; receiving_observations preserves each program-specific read scope and source revision. No source access is refreshed by this receiving merge.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG",
-        "GITHUB-SECURE-OSS-FUND"
+        "GITHUB-SECURE-OSS-FUND",
+        "SFC-MEMBERSHIP",
+        "SPI-ASSOCIATED-PROJECT",
+        "OSC-FISCAL-HOST"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -589,13 +626,44 @@
               }
             }
           }
+        },
+        {
+          "opportunity_ids": [
+            "SFC-MEMBERSHIP",
+            "SPI-ASSOCIATED-PROJECT",
+            "OSC-FISCAL-HOST"
+          ],
+          "source_revision": "9e4e8b602b0c25b9f77b528a436644732bb6a448",
+          "source_position": 18,
+          "raw_row_sha256": "f45844c28384ccf7759d1bfd8e69af71af5fc7ae093dee77e1adcd8db0f5c600",
+          "row": {
+            "url": "https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/using-a-fiscal-host-to-receive-github-sponsors-payouts",
+            "last_verified": "2026-10-19",
+            "verification_scope": "Published facts recorded for linked opportunities; #14 host comparison inspection on 2026-10-19: GitHub fiscal-host list includes SPI/OSC; SFC absence is not proof of every possible arrangement; original unrelated observation retained",
+            "opportunity_ids": [
+              "GITHUB-SPONSORS-ORG",
+              "SFC-MEMBERSHIP",
+              "SPI-ASSOCIATED-PROJECT",
+              "OSC-FISCAL-HOST"
+            ],
+            "next_verification_date": null,
+            "triggers": [
+              "Scheduled monthly program review",
+              "Before any application, agreement, activation or public qualification claim",
+              "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+            ],
+            "state": "Source checked; application and applicant conditions may remain Unknown",
+            "source_roles": [
+              "governing_source_evidence"
+            ]
+          }
         }
       ]
     },
     {
       "url": "https://docs.oscollective.org/interested-in-joining-osc/acceptance-criteria",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Distinct code/community criteria; organization requirement and qualified administrator preference",
       "opportunity_ids": [
         "OSC-FISCAL-HOST"
       ],
@@ -605,7 +673,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -613,7 +681,7 @@
     {
       "url": "https://docs.oscollective.org/welcome-and-introduction-to-osc/fees.md",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Operational 10% external-inflow basis, internal-transfer exemption and separate variable processing costs",
       "opportunity_ids": [
         "OSC-FISCAL-HOST"
       ],
@@ -623,7 +691,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -974,7 +1042,7 @@
     {
       "url": "https://opencollective.com/opensource/apply/intro",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Visible public introduction, agreement link and GitHub/manual routes; no account or submission",
       "opportunity_ids": [
         "OSC-FISCAL-HOST"
       ],
@@ -984,7 +1052,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence"
@@ -1035,7 +1103,7 @@
     {
       "url": "https://oscollective.org/about/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "OSC self-identification as a 501(c)(6) nonprofit fiscal host",
       "opportunity_ids": [
         "OSC-FISCAL-HOST"
       ],
@@ -1045,7 +1113,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
@@ -1145,7 +1213,7 @@
     {
       "url": "https://sfconservancy.org/projects/apply/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published software/community criteria, rolling process and processed-revenue fee; actual PYA qualification Unknown",
       "opportunity_ids": [
         "SFC-MEMBERSHIP"
       ],
@@ -1155,7 +1223,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -1165,7 +1233,7 @@
     {
       "url": "https://sfconservancy.org/projects/services/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Published member services and organizational/technical boundary; actual scope Unknown",
       "opportunity_ids": [
         "SFC-MEMBERSHIP"
       ],
@@ -1175,7 +1243,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1760,7 +1828,7 @@
     {
       "url": "https://www.spi-inc.org/projects/associated-project-howto/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "SPI-specific 5% donation fee and transaction costs, board process and example resolution timing",
       "opportunity_ids": [
         "SPI-ASSOCIATED-PROJECT"
       ],
@@ -1770,7 +1838,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
@@ -1780,7 +1848,7 @@
     {
       "url": "https://www.spi-inc.org/projects/relationship/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Independent project identity and restrictions on held funds/assets upon exit",
       "opportunity_ids": [
         "SPI-ASSOCIATED-PROJECT"
       ],
@@ -1790,7 +1858,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -1798,7 +1866,7 @@
     {
       "url": "https://www.spi-inc.org/projects/services/",
       "last_verified": "2026-10-19",
-      "verification_scope": "Published facts recorded for linked opportunities",
+      "verification_scope": "Expense approval, signature authority, exceptional costs and substantial-asset restrictions",
       "opportunity_ids": [
         "SPI-ASSOCIATED-PROJECT"
       ],
@@ -1808,7 +1876,7 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
       "source_roles": [
         "governing_source_evidence"
       ]
@@ -7828,6 +7896,187 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vQbiyK2Fe0jLdh4vb9BfHY4bJ1LCo4Qvy0jg9P29ZkiC8y_vKJ_1fNgIbV0p6UdvbcT8Ql1gVto8bf9/pub",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Actual application-linked public agreement, authority/custody/exit and broader deposit fee base; actual executed terms Unknown",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.oscollective.org/campaigns-and-partnerships/github-sponsors",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published GitHub integration and payout process; no-fee assertion qualified by current GitHub source",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.oscollective.org/for-hosted-member-projects/closing-a-collective",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published closing/transfer process and outstanding-obligation controls",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.oscollective.org/for-hosted-member-projects/spending-money-and-getting-paid/expense-policies-and-limitations",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Current expense policies including pre-hosting exclusion and substantiation; no account/expense operation",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.oscollective.org/interested-in-joining-osc/moving-to-osc-from-another-fiscal-sponsor",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Existing host restrictions and charitable/noncharitable transfer distinction",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://docs.oscollective.org/welcome-and-introduction-to-osc/what-is-fiscal-hosting",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Hosting services, public/private information boundary and legal distinction",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://opencollective.com/opensource/apply/form",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Visible manual form fields only; no entry, account, submission or actual acceptance",
+      "opportunity_ids": [
+        "OSC-FISCAL-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence",
+        "application_endpoint"
+      ]
+    },
+    {
+      "url": "https://sfconservancy.org/docs/sponsorship-agreement-template.pdf",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Complete six-page example agreement: gross-revenue fee, authority, custody and restricted exit; actual negotiated terms Unknown",
+      "opportunity_ids": [
+        "SFC-MEMBERSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://sfconservancy.org/projects/policies/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Published policy index and links; no claim of complete underlying policy or PYA acceptance review",
+      "opportunity_ids": [
+        "SFC-MEMBERSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.spi-inc.org/donations/",
+      "last_verified": "2026-10-19",
+      "verification_scope": "Donation/earmarking and donor-data policy; dated operational anecdotes do not establish current PYA access or fees",
+      "opportunity_ids": [
+        "SPI-ASSOCIATED-PROJECT"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before reliance in an inquiry, application, agreement, transfer, activation or public eligibility claim",
+        "Upon changed fees, agreement, eligibility, intake, access result or conflicting terms"
+      ],
+      "state": "Primary source inspected; #14 actual findings awaiting independent acceptance; PYA qualification and relationship Unknown",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
     }
   ],
   "rules": [
@@ -7836,6 +8085,6 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 342,
+  "source_evidence_url_count": 352,
   "additional_unverified_endpoint_count": 34
 }

@@ -1,0 +1,1413 @@
+{
+  "schema_version": "sustainability-dashboard-readback/v1",
+  "audit_id": "2026-10-20T05:35:18Z-initial",
+  "audit_path": "data/audits/dashboard-readback-2026-10-20.json",
+  "prepared_at": "2026-10-20T05:49:16.364077+00:00",
+  "canonical_revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+  "canonical_scope": "The four data inputs are the exact accepted main bytes observed before and during the GitHub capture. Data are a dated research register, not a complete actual financial or operating ledger. All source observations remain attributed to their recorded dates and scopes; this report performs no provider research.",
+  "capture_semantics": "Non-atomic bounded GitHub reads; later accepted main changes do not rewrite this cutoff.",
+  "inputs": {
+    "data/opportunities.json": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "8b55b4fcb1f5da690023d029aec0ee19f1b19e15",
+      "bytes": 820569,
+      "sha256": "0a98bbea0290d78b3c5254f78e2b2af803401f2ba7b448d2f9c988beb7ce81d2",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/data/opportunities.json"
+    },
+    "data/funding-pipeline.json": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "e8abf064315d7e01d466f5b51bbb474f8d7ad5d8",
+      "bytes": 72054,
+      "sha256": "4b1e2aafafa5ee95ee0a3b3dab5c35892c99974e92def0998390aec5f95fdf99",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/data/funding-pipeline.json"
+    },
+    "data/research-freshness.json": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "7505ad3f20c6c4390fc5f04c9ef2d5087475d21f",
+      "bytes": 369065,
+      "sha256": "02d19972d8151ae806608ba57374b9f6fbf2f06e4b3e9c466021c1b1018be087",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/data/research-freshness.json"
+    },
+    "data/budget/operating-budget.json": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "c8dd5cd0b6d4397812256125ed2e357f612ab8a0",
+      "bytes": 105191,
+      "sha256": "906c6dae0fc4812440fd04fe863686ebeca054023d594f51fbaa6a0c41a8c6ed",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/data/budget/operating-budget.json"
+    },
+    "docs/operations-and-reporting.md": {
+      "revision": "7cae962c58c02e7f28b45f38193668897adbc1e4",
+      "git_blob": "8c4f06ed31c103ca1ed7b008ae4157264eeeb638",
+      "bytes": 25432,
+      "sha256": "a455d0e438df7a91c9a23f5abbd07cf987d642a31793b93b97dd4bbaaff71f31",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/7cae962c58c02e7f28b45f38193668897adbc1e4/docs/operations-and-reporting.md"
+    },
+    "docs/research-freshness.md": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "58807d0a1b803e1b51e70757b32f969ca5b1cd67",
+      "bytes": 14249,
+      "sha256": "a2cb6e498fd60ec3215dadbd0b9a22d97e38f894e24c30bd7b71017e925df754",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/docs/research-freshness.md"
+    },
+    "docs/risk-indicators.md": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "ff81acc0e10bcaeced9c45caeb0aea804352b693",
+      "bytes": 39534,
+      "sha256": "894b18e313afad836d2bb279d7b8995693b3806d486eb62830e95557b5b82b64",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/docs/risk-indicators.md"
+    },
+    "docs/needs-assessment.md": {
+      "revision": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d",
+      "git_blob": "7894b73980f9ca6df70942cd69d43ea933eaea0d",
+      "bytes": 3672,
+      "sha256": "f4f4f17815a991a266cf97c55e4885fde2e4c7d2bb8a785daa9967a6a0dffc8c",
+      "source_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f179278e8eaff12aa2f3891d9dc22bb6b1bc979d/docs/needs-assessment.md"
+    }
+  },
+  "definitions": [
+    {
+      "name": "E09-03 / #69 operations and lifecycle",
+      "path": "docs/operations-and-reporting.md",
+      "status": "accepted",
+      "acceptance": "The exact independently reviewed method was delivered in [PR #127](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/127) at [7cae962c58c02e7f28b45f38193668897adbc1e4](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/7cae962c58c02e7f28b45f38193668897adbc1e4), 2026-10-20 05:57:23 UTC. [Independent source review 5581117179](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/127#pullrequestreview-5581117179) and [actual accepted-main delivery](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6284491192) bind the same method blob. This later delivery does not refresh the earlier data/GitHub capture. Original PR checks passed; natural main checks were pending when this definition link was added. No actual award, agreement or activation is established.",
+      "accepted_revision": "7cae962c58c02e7f28b45f38193668897adbc1e4",
+      "accepted_at": "2026-10-20T05:57:23Z"
+    },
+    {
+      "name": "E09-04 / #70 freshness",
+      "path": "docs/research-freshness.md",
+      "status": "accepted",
+      "accepted_revision": "52c439c056beed504ee1d0ec2e904213f507e456",
+      "acceptance": "Accepted [52c439c056beed504ee1d0ec2e904213f507e456](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/52c439c056beed504ee1d0ec2e904213f507e456); exact method bytes remain at the pinned data revision. [Independent source review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/87#pullrequestreview-5570970230), [composition review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/87#pullrequestreview-5571035757), [actual delivery](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70#issuecomment-6266992367). Observation dates, last attempt and claim-specific currentness remain separate; no age-only TTL."
+    },
+    {
+      "name": "E09-05 / #71 risks",
+      "path": "docs/risk-indicators.md",
+      "status": "accepted",
+      "accepted_revision": "039148b5e1d9ecbd555c4bda5d7907e516024cf3",
+      "acceptance": "Accepted [039148b5e1d9ecbd555c4bda5d7907e516024cf3](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/commit/039148b5e1d9ecbd555c4bda5d7907e516024cf3); exact method bytes remain at the pinned data revision. [Independent source review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/101#pullrequestreview-5572024427), [composition review](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/101#pullrequestreview-5572466543), [actual delivery](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71#issuecomment-6268988773). Missing population is Unknown; complete evidenced zero denominator is Not applicable. No adopted risk threshold or operational roster."
+    },
+    {
+      "name": "Needs and operating-budget context / #19 and #20",
+      "path": "docs/needs-assessment.md",
+      "status": "pinned_planning_context",
+      "acceptance": "Exact needs map and operating-budget bytes are pinned above. Their planning scenarios, unpriced gaps and null actual fields are context; this report does not establish actual expenditure, received funds, workload coverage or an assigned financial role."
+    }
+  ],
+  "github": {
+    "schema_version": "sustainability-dashboard-github-observations/v1",
+    "capture_started_at": "2026-10-20T05:34:42Z",
+    "capture_completed_at": "2026-10-20T05:35:18Z",
+    "atomic_snapshot": false,
+    "source_projection": "Retained exact relevant fields from actual supported GitHub search responses; issue-body tracking marker and checkbox counts are explicit projections, not Project fields. Full original connector responses remain in session evidence. Repository totals use total_count, not the one returned sample.",
+    "sustainability_issue_pages": [
+      {
+        "page": 1,
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-sustainability%20is%3Aissue&per_page=25&page=1&sort=created&order=asc",
+        "total_count": 72,
+        "incomplete_results": false,
+        "items": [
+          {
+            "id": 5918014257,
+            "number": 1,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/1",
+            "title": "[PROGRAM] Pick Your AI — Funding, Grants & Sustainability",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T10:34:50Z",
+            "tracking_key": "PROGRAM",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 12,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918030557,
+            "number": 2,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/2",
+            "title": "[EPIC 01] Nonprofit Formation & Legal Readiness",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:03:29Z",
+            "tracking_key": "E01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918030703,
+            "number": 3,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/3",
+            "title": "[EPIC 02] Funding Readiness & Demonstrable Public Benefit",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:03:32Z",
+            "tracking_key": "E02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918030840,
+            "number": 4,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/4",
+            "title": "[EPIC 03] Grants & Public-Interest Funding",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:03:34Z",
+            "tracking_key": "E03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918034992,
+            "number": 5,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/5",
+            "title": "[EPIC 04] Recurring Funding, Donations & Sponsorship",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:03:36Z",
+            "tracking_key": "E04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918035306,
+            "number": 6,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/6",
+            "title": "[EPIC 05] AI Inference, GPU & Model Research Support",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:03:38Z",
+            "tracking_key": "E05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918035633,
+            "number": 7,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/7",
+            "title": "[EPIC 06] Cloud Infrastructure & Physical Hardware",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:22:18Z",
+            "tracking_key": "E06",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918035946,
+            "number": 8,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/8",
+            "title": "[EPIC 07] Code Quality, Security & Development Tools",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:03:43Z",
+            "tracking_key": "E07",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918036259,
+            "number": 9,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9",
+            "title": "[EPIC 08] Institutional Partners & Pro Bono Support",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T08:04:03Z",
+            "tracking_key": "E08",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918036563,
+            "number": 10,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/10",
+            "title": "[EPIC 09] Funding Pipeline Operations & Sustainability",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T20:31:44Z",
+            "tracking_key": "E09",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918043201,
+            "number": 11,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
+            "title": "[OPERATIONS][Nonprofit] Pick Your AI — establish entity, asset and administrative baseline [E01-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T10:43:23Z",
+            "tracking_key": "E01-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 10,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918043484,
+            "number": 12,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/12",
+            "title": "[LEGAL][Nonprofit] Pick Your AI — test charitable purpose against actual activities [E01-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T14:45:23Z",
+            "tracking_key": "E01-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 10,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918043791,
+            "number": 13,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+            "title": "[LEGAL][Nonprofit] Pick Your AI — compare independent and hosted organizational paths [E01-03]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T19:58:04Z",
+            "tracking_key": "E01-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918044060,
+            "number": 14,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/14",
+            "title": "[RESEARCH][Nonprofit] SFC, SPI and Open Source Collective — compare fiscal-host suitability [E01-04]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T22:20:36Z",
+            "tracking_key": "E01-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918044406,
+            "number": 15,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/15",
+            "title": "[LEGAL][Nonprofit] Pick Your AI — map formation and governance prerequisites [E01-05]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T17:17:53Z",
+            "tracking_key": "E01-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918044719,
+            "number": 16,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/16",
+            "title": "[LEGAL][Nonprofit] IRS and state regulators — assess exemption filing and recurring compliance [E01-06]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T18:42:44Z",
+            "tracking_key": "E01-06",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918045061,
+            "number": 17,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+            "title": "[LEGAL][Nonprofit] Pick Your AI repositories — verify licensing, IP and asset stewardship [E01-07]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:26:04Z",
+            "tracking_key": "E01-07",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 10
+            }
+          },
+          {
+            "id": 5918045368,
+            "number": 18,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
+            "title": "[LEGAL][Nonprofit] Pick Your AI — draft vendor neutrality and sponsorship ethics policy [E01-08]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T14:26:14Z",
+            "tracking_key": "E01-08",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918045714,
+            "number": 19,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/19",
+            "title": "[OPERATIONS][Funding] Pick Your AI — inventory real operating costs and resource gaps [E02-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:38:48Z",
+            "tracking_key": "E02-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 10,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918046004,
+            "number": 20,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/20",
+            "title": "[OPERATIONS][Funding] Pick Your AI — model a 12-month operating budget [E02-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T20:36:56Z",
+            "tracking_key": "E02-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918046298,
+            "number": 21,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+            "title": "[OPERATIONS][Inference] Pick Your AI — build reproducible compute and API demand model [E02-03]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:06:35Z",
+            "tracking_key": "E02-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918046578,
+            "number": 22,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
+            "title": "[OPERATIONS][Funding] Pick Your AI — define measurable public-benefit outcomes [E02-04]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T14:31:14Z",
+            "tracking_key": "E02-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918046875,
+            "number": 23,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/23",
+            "title": "[OPERATIONS][Funding] Pick Your AI — assemble reusable grant narrative and evidence kit [E02-05]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T22:17:48Z",
+            "tracking_key": "E02-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918047257,
+            "number": 24,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/24",
+            "title": "[OPERATIONS][Funding] Pick Your AI — draft financial controls and restricted-fund procedures [E02-06]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:20:40Z",
+            "tracking_key": "E02-06",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918047588,
+            "number": 25,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
+            "title": "[RESEARCH][Funding] NLnet — qualify current calls for a concrete public-interest deliverable [E03-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T14:34:59Z",
+            "tracking_key": "E03-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-sustainability%20is%3Aissue&per_page=25&page=2&sort=created&order=asc",
+        "total_count": 72,
+        "incomplete_results": false,
+        "items": [
+          {
+            "id": 5918047859,
+            "number": 26,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/26",
+            "title": "[RESEARCH][Security] GitHub — qualify Secure Open Source Fund participation [E03-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T17:33:29Z",
+            "tracking_key": "E03-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918048150,
+            "number": 27,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/27",
+            "title": "[RESEARCH][Funding] Digital commons funders — screen infrastructure grant fit [E03-03]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T20:02:42Z",
+            "tracking_key": "E03-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918048496,
+            "number": 28,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/28",
+            "title": "[RESEARCH][Funding] AI transparency funders — screen benchmarking and reproducibility support [E03-04]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T21:41:07Z",
+            "tracking_key": "E03-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918048887,
+            "number": 29,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/29",
+            "title": "[RESEARCH][Funding] Education funders — screen AI literacy and accessibility research [E03-05]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T22:12:50Z",
+            "tracking_key": "E03-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918049208,
+            "number": 30,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
+            "title": "[RESEARCH][Funding] NSF — assess PESOSE and eligible academic collaboration paths [E03-06]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:29:01Z",
+            "tracking_key": "E03-06",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918049494,
+            "number": 31,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
+            "title": "[RESEARCH][Funding] Foundations and corporate philanthropy — qualify nonprofit technology-education prospects [E03-07]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:26:05Z",
+            "tracking_key": "E03-07",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918049814,
+            "number": 32,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/32",
+            "title": "[RESEARCH][Funding] Grant terms — classify restrictions, payment mechanisms and matching requirements [E03-08]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T18:41:54Z",
+            "tracking_key": "E03-08",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918050123,
+            "number": 33,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/33",
+            "title": "[RESEARCH][Sponsorship] GitHub Sponsors — assess organization setup and payout readiness [E04-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T17:41:33Z",
+            "tracking_key": "E04-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918050457,
+            "number": 34,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/34",
+            "title": "[RESEARCH][Sponsorship] Donation channels — compare fiscal-hosted and direct collection [E04-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T22:18:46Z",
+            "tracking_key": "E04-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918050866,
+            "number": 35,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/35",
+            "title": "[OPERATIONS][Sponsorship] Pick Your AI — design individual and corporate support models [E04-03]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T16:43:41Z",
+            "tracking_key": "E04-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918051164,
+            "number": 36,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/36",
+            "title": "[RESEARCH][Sponsorship] Workplace giving and donor-advised funds — map verified access routes [E04-04]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T21:12:15Z",
+            "tracking_key": "E04-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 11
+            }
+          },
+          {
+            "id": 5918051519,
+            "number": 37,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/37",
+            "title": "[OPERATIONS][Sponsorship] Pick Your AI — draft benefits, acknowledgments and renewal kit [E04-05]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T18:04:07Z",
+            "tracking_key": "E04-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 11,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918051858,
+            "number": 38,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+            "title": "[RESEARCH][Inference] Provider landscape — establish the API support coverage register [E05-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T00:52:06Z",
+            "tracking_key": "E05-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918052171,
+            "number": 39,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
+            "title": "[RESEARCH][Inference] OpenAI — qualify Researcher Access API credits [E05-01A]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:44:11Z",
+            "tracking_key": "E05-01A",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918052463,
+            "number": 40,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/40",
+            "title": "[RESEARCH][Inference] Anthropic — qualify external researcher API access [E05-01B]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:55:33Z",
+            "tracking_key": "E05-01B",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918052830,
+            "number": 41,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/41",
+            "title": "[RESEARCH][Inference] Google — verify Gemini academic support eligibility [E05-01C]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:55:38Z",
+            "tracking_key": "E05-01C",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918053117,
+            "number": 42,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/42",
+            "title": "[RESEARCH][Inference] Microsoft Azure — verify nonprofit AI-credit coverage [E05-01D]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T13:12:54Z",
+            "tracking_key": "E05-01D",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918053414,
+            "number": 43,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/43",
+            "title": "[RESEARCH][Inference] Groq — assess public free-plan fit and sponsorship gaps [E05-01E]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T14:38:48Z",
+            "tracking_key": "E05-01E",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918053702,
+            "number": 44,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/44",
+            "title": "[RESEARCH][Inference] Cerebras — assess trial limits and research-support evidence [E05-01F]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T13:43:07Z",
+            "tracking_key": "E05-01F",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918054032,
+            "number": 45,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/45",
+            "title": "[RESEARCH][Inference] Together AI — resolve invite-only research-credit fit [E05-01G]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T11:44:18Z",
+            "tracking_key": "E05-01G",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918054329,
+            "number": 46,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/46",
+            "title": "[RESEARCH][Inference] Fireworks — document startup-program exclusion for the nonprofit path [E05-01H]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T10:09:36Z",
+            "tracking_key": "E05-01H",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918054673,
+            "number": 47,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
+            "title": "[RESEARCH][Inference] Hugging Face — qualify Community GPU support for a public Space [E05-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T18:20:00Z",
+            "tracking_key": "E05-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918054982,
+            "number": 48,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+            "title": "[RESEARCH][Inference] GPU cloud access — compare independent evaluation routes [E05-03]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T23:19:56Z",
+            "tracking_key": "E05-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918055324,
+            "number": 49,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+            "title": "[RESEARCH][Inference] Evaluation proposal — define a reproducible sponsor-neutral study [E05-04]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T22:35:37Z",
+            "tracking_key": "E05-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918055619,
+            "number": 50,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/50",
+            "title": "[RESEARCH][Inference] Compute restrictions — rank net usable support [E05-05]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T04:55:06Z",
+            "tracking_key": "E05-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-sustainability%20is%3Aissue&per_page=25&page=3&sort=created&order=asc",
+        "total_count": 72,
+        "incomplete_results": false,
+        "items": [
+          {
+            "id": 5918055946,
+            "number": 51,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/51",
+            "title": "[RESEARCH][Software] AWS — qualify Cloud Credits for Open Source [E06-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T13:45:05Z",
+            "tracking_key": "E06-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918056302,
+            "number": 52,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/52",
+            "title": "[RESEARCH][Software] Cloudflare — qualify Project Alexandria sponsorship [E06-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T23:12:45Z",
+            "tracking_key": "E06-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918056622,
+            "number": 53,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/53",
+            "title": "[RESEARCH][Software] Infrastructure support — compare additional hosting and CI programs [E06-03]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T20:50:08Z",
+            "tracking_key": "E06-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918056953,
+            "number": 54,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
+            "title": "[RESEARCH][Hardware] Hardware partners — qualify donation and loan routes [E06-04]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T15:11:27Z",
+            "tracking_key": "E06-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 14,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918057238,
+            "number": 55,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/55",
+            "title": "[RESEARCH][Hardware] Mobile device labs — cover Apple and Android testing gaps [E06-05]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T00:52:26Z",
+            "tracking_key": "E06-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918057588,
+            "number": 56,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/56",
+            "title": "[RESEARCH][Security] CodeRabbit — assess free OSS review and existing coverage [E07-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T17:21:52Z",
+            "tracking_key": "E07-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918057900,
+            "number": 57,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57",
+            "title": "[RESEARCH][Security] GitHub — audit existing no-cost developer and security benefits [E07-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T10:50:31Z",
+            "tracking_key": "E07-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918058231,
+            "number": 58,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/58",
+            "title": "[RESEARCH][Software] JetBrains — verify OSS development licenses and alternatives [E07-03]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T17:04:07Z",
+            "tracking_key": "E07-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918058554,
+            "number": 59,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
+            "title": "[RESEARCH][Security] External reviews — qualify security and accessibility assistance [E07-04]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T11:41:00Z",
+            "tracking_key": "E07-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918058839,
+            "number": 60,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/60",
+            "title": "[RESEARCH][Nonprofit] Apple — determine Developer Program fee-waiver eligibility [E07-05]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T11:30:27Z",
+            "tracking_key": "E07-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918059149,
+            "number": 61,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+            "title": "[RESEARCH][Software] Support stack — evaluate testing, documentation and monitoring offers [E07-06]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T16:19:12Z",
+            "tracking_key": "E07-06",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918059455,
+            "number": 62,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62",
+            "title": "[RESEARCH][Partnership] Institutional homes — compare governance and community fit [E08-01]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T23:13:19Z",
+            "tracking_key": "E08-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 15
+            }
+          },
+          {
+            "id": 5918059717,
+            "number": 63,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63",
+            "title": "[RESEARCH][Partnership] Academic partners — qualify research and capstone collaborations [E08-02]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T04:35:56Z",
+            "tracking_key": "E08-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918060043,
+            "number": 64,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/64",
+            "title": "[RESEARCH][Partnership] Corporate OSPOs — identify engineering contribution routes [E08-03]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T17:33:30Z",
+            "tracking_key": "E08-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918060366,
+            "number": 65,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+            "title": "[RESEARCH][Partnership] Pro bono support — qualify legal, finance and governance assistance [E08-04]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T18:57:46Z",
+            "tracking_key": "E08-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918060647,
+            "number": 66,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
+            "title": "[RESEARCH][Partnership] Mentorship and outreach — design sustainable volunteer partnerships [E08-05]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T20:15:19Z",
+            "tracking_key": "E08-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918060967,
+            "number": 67,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/67",
+            "title": "[OPERATIONS][Funding] Pipeline — Create provider research and outreach templates [E09-01]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:05:11Z",
+            "tracking_key": "E09-01",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918061290,
+            "number": 68,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/68",
+            "title": "[OPERATIONS][Funding] Pipeline — Define application and commitment authorization [E09-02]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:39:05Z",
+            "tracking_key": "E09-02",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918061616,
+            "number": 69,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+            "title": "[OPERATIONS][Funding] Pipeline — Define activation, reporting and renewal procedures [E09-03]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:24:24Z",
+            "tracking_key": "E09-03",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          },
+          {
+            "id": 5918061956,
+            "number": 70,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
+            "title": "[OPERATIONS][Funding] Pipeline — Establish evidence and deadline refresh review [E09-04]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T12:16:42Z",
+            "tracking_key": "E09-04",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918062386,
+            "number": 71,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/71",
+            "title": "[OPERATIONS][Funding] Pipeline — Define concentration and sustainability risk indicators [E09-05]",
+            "state": "closed",
+            "is_pull_request": false,
+            "updated_at": "2026-10-19T13:58:56Z",
+            "tracking_key": "E09-05",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 13,
+              "unchecked": 0
+            }
+          },
+          {
+            "id": 5918062707,
+            "number": 72,
+            "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/72",
+            "title": "[OPERATIONS][Funding] Pipeline — Create the monthly sustainability dashboard [E09-06]",
+            "state": "open",
+            "is_pull_request": false,
+            "updated_at": "2026-10-20T05:32:44Z",
+            "tracking_key": "E09-06",
+            "assignee_count": 0,
+            "acceptance_checkboxes": {
+              "checked": 0,
+              "unchecked": 13
+            }
+          }
+        ]
+      }
+    ],
+    "repository_open_counts": [
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-leaderboard",
+        "kind": "issue",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-leaderboard%20is%3Aissue%20is%3Aopen&per_page=1",
+        "total_count": 92,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5894167190,
+          "number": 133,
+          "state": "open",
+          "is_pull_request": false
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-leaderboard",
+        "kind": "pull_request",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-leaderboard%20is%3Apr%20is%3Aopen&per_page=1",
+        "total_count": 13,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5936471512,
+          "number": 456,
+          "state": "open",
+          "is_pull_request": true
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-sustainability",
+        "kind": "issue",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-sustainability%20is%3Aissue%20is%3Aopen&per_page=1",
+        "total_count": 32,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5918062707,
+          "number": 72,
+          "state": "open",
+          "is_pull_request": false
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-sustainability",
+        "kind": "pull_request",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-sustainability%20is%3Apr%20is%3Aopen&per_page=1",
+        "total_count": 5,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5936521743,
+          "number": 128,
+          "state": "open",
+          "is_pull_request": true
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-website",
+        "kind": "issue",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-website%20is%3Aissue%20is%3Aopen&per_page=1",
+        "total_count": 6,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5892963587,
+          "number": 33,
+          "state": "open",
+          "is_pull_request": false
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-website",
+        "kind": "pull_request",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-website%20is%3Apr%20is%3Aopen&per_page=1",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5913309598,
+          "number": 298,
+          "state": "open",
+          "is_pull_request": true
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-research",
+        "kind": "issue",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-research%20is%3Aissue%20is%3Aopen&per_page=1",
+        "total_count": 6,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5883384235,
+          "number": 63,
+          "state": "open",
+          "is_pull_request": false
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-research",
+        "kind": "pull_request",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-research%20is%3Apr%20is%3Aopen&per_page=1",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5936330701,
+          "number": 501,
+          "state": "open",
+          "is_pull_request": true
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-apple",
+        "kind": "issue",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-apple%20is%3Aissue%20is%3Aopen&per_page=1",
+        "total_count": 119,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5894366138,
+          "number": 129,
+          "state": "open",
+          "is_pull_request": false
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-apple",
+        "kind": "pull_request",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-apple%20is%3Apr%20is%3Aopen&per_page=1",
+        "total_count": 16,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5936324172,
+          "number": 427,
+          "state": "open",
+          "is_pull_request": true
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-android",
+        "kind": "issue",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-android%20is%3Aissue%20is%3Aopen&per_page=1",
+        "total_count": 115,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5894342999,
+          "number": 129,
+          "state": "open",
+          "is_pull_request": false
+        }
+      },
+      {
+        "repository": "Pick-Your-AI/pick-your-ai-android",
+        "kind": "pull_request",
+        "request_url": "https://api.github.com/search/issues?q=repo%3APick-Your-AI%2Fpick-your-ai-android%20is%3Apr%20is%3Aopen&per_page=1",
+        "total_count": 17,
+        "incomplete_results": false,
+        "returned_items": 1,
+        "error": null,
+        "sample": {
+          "id": 5936480556,
+          "number": 697,
+          "state": "open",
+          "is_pull_request": true
+        }
+      }
+    ],
+    "project": {
+      "url": "https://github.com/orgs/Pick-Your-AI/projects/7",
+      "status": "Unavailable through the connected tool route",
+      "item_count": null,
+      "status_counts": null,
+      "request_error": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+      "scope": "The attempted URL was rejected by the connector's allowed-route policy before any GitHub Projects data was returned. This does not establish GitHub server status, project privacy, deletion, or zero items. Historical repository Project audit files are not current readbacks."
+    }
+  },
+  "primary_source_review": {
+    "review_date": "2026-10-20",
+    "scope": "GitHub primary repository/issue metadata and exact accepted internal method sources. Current provider terms were not rechecked for this generic internal dashboard. Original provider dates, historical announcements, failed access and conflicting terms remain in the pinned canonical and freshness records.",
+    "provider_program_and_intake": "Not applicable: this is an internal reporting procedure, not a provider program or application.",
+    "recurring_roles": "Unassigned; no recurring schedule installed."
+  },
+  "limitations": [
+    "No actual Project 7 population is available through the connected route.",
+    "The complete research register is not a complete actual financial, benefits, obligations, essential-workload or operating-role ledger.",
+    "Repository search counts are actual per-query observations, not atomic and not research or resource acceptance.",
+    "The initial GitHub capture preceded implementation/output acceptance. Exact independent findings acceptance and final delivery are recorded against their reviewed revision in issue #72; no fresh provider research or actual financial/operating population is implied."
+  ],
+  "definition_acceptance_updated_at": "2026-10-20T06:01:47.017682+00:00"
+}

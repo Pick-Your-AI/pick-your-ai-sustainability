@@ -22,6 +22,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:06:38.896707+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://academicgrants.nvidia.com",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "NVIDIA-ACADEMIC"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://academicgrants.nvidia.com",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Target not requested: robots endpoint redirected; no usable robots policy established. Redirect was not followed in this conservative preflight.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -46,7 +76,7 @@
     {
       "url": "https://app.coderabbit.ai",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Public text retrieval exposed no readable intake fields; signed-in account and consent contents remain Not Verified.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
@@ -61,7 +91,37 @@
       "source_roles": [
         "application_endpoint"
       ],
-      "access_result": "Public content only; one readable line, no form fields."
+      "access_result": "Public content only; one readable line, no form fields.",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:06:42.906508+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://app.coderabbit.ai",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "CODERABBIT-OSS-PRODUCT"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Public text retrieval exposed no readable intake fields; signed-in account and consent contents remain Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://app.coderabbit.ai",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes the application title only; no readable intake fields.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://apply.sovereign.tech",
@@ -80,6 +140,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:06:46.913163+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://apply.sovereign.tech",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "SOVEREIGN-TECH-FUND"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://apply.sovereign.tech",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Target not requested because robots retrieval returned HTTP 403.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -123,7 +213,7 @@
     {
       "url": "https://causes.benevity.org",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-20",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "BENEVITY-CAUSES"
@@ -137,6 +227,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:06:50.914304+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://causes.benevity.org",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "BENEVITY-CAUSES"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://benevity.com/nonprofits",
+          "stopped_at_url": null,
+          "redirect_observed": true,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Redirect resolves to a public nonprofit overview; no registration form was opened. Reachability only: entry has no precise provider claim to test.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -163,7 +283,7 @@
     {
       "url": "https://cloud.cerebras.ai",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Public endpoint retrieval returned no form content; exact current form, account, payment-method choices and account-specific agreements remain unverified",
       "opportunity_ids": [
         "CEREBRAS-TRIAL"
@@ -177,12 +297,42 @@
       "state": "Not Verified — content-empty public retrieval; form/account review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:07:06.941791+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://cloud.cerebras.ai",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "CEREBRAS-TRIAL"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Public endpoint retrieval returned no form content; exact current form, account, payment-method choices and account-specific agreements remain unverified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://cloud.cerebras.ai",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes Cerebras Cloud title only; no current form or account agreement inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://console.firebase.google.com",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-20",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "FIREBASE-TEST-LAB"
@@ -196,6 +346,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:07:12.951839+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://console.firebase.google.com",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "FIREBASE-TEST-LAB"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://console.firebase.google.com/&followup=https://console.firebase.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S725097604:1792454847150165",
+          "stopped_at_url": null,
+          "redirect_observed": true,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Redirect reaches Google sign-in. No authentication or application contents inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -241,7 +421,7 @@
     {
       "url": "https://developer.amd.com",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-20",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "AMD-DEVCLOUD"
@@ -255,6 +435,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:07:33.963463+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://developer.amd.com",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "AMD-DEVCLOUD"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://developer.amd.com/ai-developer-program/",
+          "stopped_at_url": null,
+          "redirect_observed": true,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public developer-program overview returned; no actual registration or account agreement inspected. Reachability only: entry has no precise provider claim to test.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -765,7 +975,7 @@
     {
       "url": "https://github.com/sponsors",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
       "opportunity_ids": [
         "GITHUB-SPONSORS-ORG"
@@ -802,7 +1012,37 @@
         "url": "https://github.com/open-source/sponsors",
         "last_verified": "2026-10-19",
         "scope": "Public marketing/entry page only; no form access or submission"
-      }
+      },
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:07:43.977311+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://github.com/sponsors",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "GITHUB-SPONSORS-ORG"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Complete public landing page read after redirect; sign-in and Get sponsored links observed. No authenticated application was opened or submitted.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://github.com/open-source/sponsors",
+          "stopped_at_url": null,
+          "redirect_observed": true,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Prior landing-page observation remains supported: Sign in and Get sponsored appear. Authenticated application remains uninspected.",
+          "claim_assessment": "prior limited public observation supported; complete form/governing claim remains unverified",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
@@ -985,7 +1225,7 @@
     {
       "url": "https://openai.com/form/codex-for-oss/",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-20",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "OPENAI-CODEX-OSS"
@@ -999,6 +1239,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:07:54.680167+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://openai.com/form/codex-for-oss/",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "OPENAI-CODEX-OSS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://openai.com/form/codex-for-oss/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public response includes application labels; no submission, linked terms review or applicant decision. Reachability only: entry has no precise provider claim to test.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -1023,7 +1293,7 @@
     {
       "url": "https://openai.smapply.org",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Direct linked public homepage at https://openai.smapply.org/ showed Programs, search and signup. No program-specific listing or current form fields were returned; no technical cause, closure or account result inferred.",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
@@ -1037,6 +1307,36 @@
       "state": "Homepage observed; program-specific form Not Verified",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:01.320547+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://openai.smapply.org",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "OPENAI-RESEARCHER"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Direct linked public homepage at https://openai.smapply.org/ showed Programs, search and signup. No program-specific listing or current form fields were returned; no technical cause, closure or account result inferred.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://openai.smapply.org",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Programs and Sign Up are visible; no program-specific form fields inspected. Prior limited homepage observation remains supported.",
+          "claim_assessment": "prior limited public observation supported; complete form/governing claim remains unverified",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -1097,6 +1397,36 @@
           "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
           "result": "Explicit HTTP 403 Forbidden; no workbook bytes or verified fields.",
           "evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/100#pullrequestreview-5571815080"
+        }
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:05.329758+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "AWS-OSS-CREDITS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Linked workbook contents, version, fields and declarations still Not Verified; successful program-page access does not verify the form.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://opensourcecreditsapplicationform.s3.us-east-2.amazonaws.com/AWS%2BOpen%2BSource%2BCredits%2BApplication%2BForm.xlsx",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Workbook not requested because robots retrieval returned HTTP 403; workbook contents remain unverified.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
         }
       ]
     },
@@ -1289,7 +1619,7 @@
     {
       "url": "https://softwarefreedom.org/about/contact/",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-20",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "SFLC-LEGAL"
@@ -1303,6 +1633,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:10.538184+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://softwarefreedom.org/about/contact/",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "SFLC-LEGAL"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://softwarefreedom.org/about/contact/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public contact page returned; no outreach or representation/capacity established. Reachability only: entry has no precise provider claim to test.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -1327,7 +1687,7 @@
     {
       "url": "https://spencer.smartsimple.us/",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
       "opportunity_ids": [
         "SPENCER-SMALL-EDUCATION"
@@ -1376,7 +1736,37 @@
             "application_endpoint"
           ]
         }
-      }
+      },
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:16.539167+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://spencer.smartsimple.us/",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "SPENCER-SMALL-EDUCATION"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://spencer.smartsimple.us/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public response has no extracted visible text; no form inspected. Client-side code not executed.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://summerofcode.withgoogle.com/how-it-works",
@@ -1555,7 +1945,7 @@
     {
       "url": "https://www.jetbrains.com/community/opensource/",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Direct public HTTP 200 and search-tool requests on 2026-10-19 returned a page shell without the program body; exact current group form/fields and submission availability remain Not Verified.",
       "opportunity_ids": [
         "JETBRAINS-OSS"
@@ -1569,6 +1959,36 @@
       "state": "Not Verified — direct body unavailable; actual access attempt recorded",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:23.247601+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.jetbrains.com/community/opensource/",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "JETBRAINS-OSS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Direct public HTTP 200 and search-tool requests on 2026-10-19 returned a page shell without the program body; exact current group form/fields and submission availability remain Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://www.jetbrains.com/community/opensource/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public response exposes title and Community Programs only; current program body/group form not inspected. Prior shell limitation persists.",
+          "claim_assessment": "prior limited public observation supported; complete form/governing claim remains unverified",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -1587,8 +2007,38 @@
       "source_roles": [
         "governing_source_evidence"
       ],
-      "last_attempted": "2026-10-19",
-      "indexed_text_accessed": "2026-10-19"
+      "last_attempted": "2026-10-20",
+      "indexed_text_accessed": "2026-10-19",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:27.252430+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "JETBRAINS-OSS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Official-domain indexed landing text describes distinct individual and established-project routes; direct page body and live group form remain Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://www.jetbrains.com/community/opensource/?from=Fomantic-UI",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public response exposes title and Community Programs only; indexed route claim cannot be assessed from this body. No search request made.",
+          "claim_assessment": "stated indexed-route claim not assessable from retrieved shell",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://www.jetbrains.com/legal/docs/privacy/privacy/",
@@ -1751,6 +2201,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:31.693842+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.research.gov",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "NSF-PESOSE-26-506"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://www.research.gov",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Target not requested: robots connection closed without an HTTP response. No target HTTP status established.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -2764,7 +3244,38 @@
       "state": "Not Verified — endpoint contents unavailable",
       "source_roles": [
         "application_endpoint"
-      ]
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:35.699983+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://nonprofit.microsoft.com/getting-started",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "AZURE-NONPROFIT"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "JavaScript-required shell only; actual form and attachments not verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_access_attempt": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://nonprofit.microsoft.com/getting-started",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes Nonprofit offers title only; no current form or attachments inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ],
+      "last_attempted": "2026-10-20"
     },
     {
       "url": "https://regale.cloud/Microsoft/play/198/azure-credits-en-us",
@@ -2783,7 +3294,38 @@
       "state": "Not Verified — endpoint contents unavailable",
       "source_roles": [
         "setup_tutorial_endpoint"
-      ]
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:41.713605+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://regale.cloud/Microsoft/play/198/azure-credits-en-us",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "AZURE-NONPROFIT"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Official tutorial referral; no readable body.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_access_attempt": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://regale.cloud/Microsoft/play/198/azure-credits-en-us",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes Regale title only; tutorial contents not inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ],
+      "last_attempted": "2026-10-20"
     },
     {
       "url": "https://www.microsoft.com/en-us/nonprofits/faq",
@@ -3279,6 +3821,36 @@
       "state": "Not Verified — content-empty public retrieval; no form submitted",
       "source_roles": [
         "related_program_application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:45.718188+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://forms.cloud.microsoft/r/zUw2W8LEiY",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "CEREBRAS-TRIAL"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://forms.cloud.microsoft/r/zUw2W8LEiY",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Target not requested: applicable robots rule disallows retrieval.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -3303,7 +3875,7 @@
     {
       "url": "https://form.typeform.com/to/TUK3flkj",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
       "opportunity_ids": [
         "CEREBRAS-TRIAL"
@@ -3316,6 +3888,36 @@
       "state": "Not Verified — content-empty public retrieval; no form submitted",
       "source_roles": [
         "related_program_application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:49.727842+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://form.typeform.com/to/TUK3flkj",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "CEREBRAS-TRIAL"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://form.typeform.com/to/TUK3flkj",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes Cerebras Events Sponsorship title only; no form fields or admission inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -3353,6 +3955,36 @@
       "state": "Not Verified — content-empty public retrieval; no form submitted",
       "source_roles": [
         "related_program_application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:45.718188+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://forms.cloud.microsoft/r/fXi2GLpDGQ",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "CEREBRAS-TRIAL"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Linked from the corresponding official related-program page; independent public retrieval returned zero content lines. Current fields, availability and full agreement Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://forms.cloud.microsoft/r/fXi2GLpDGQ",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Target not requested: applicable robots rule disallows retrieval.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -3622,7 +4254,37 @@
       "source_roles": [
         "governing_source_evidence"
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-20",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:55.740554+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://groq.com/groq-service-specific-terms",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "GROQ-FREE-PLAN"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Redirected to website Terms of Use; distinct current service-specific terms not obtained",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://groq.com/terms-of-use",
+          "stopped_at_url": null,
+          "redirect_observed": true,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Redirect still resolves to website Terms of Use rather than distinct service-specific terms. Prior redirect observation remains supported; cloud-service terms remain unverified.",
+          "claim_assessment": "prior limited public observation supported; complete form/governing claim remains unverified",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://groq.com/terms-of-use",
@@ -3850,7 +4512,37 @@
       "source_roles": [
         "formal_support_discovery_endpoint"
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-10-20",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:05.759028+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://nairrpilot.org/",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "GROQ-FREE-PLAN"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Robots access block; no current form, deadline, account or successful source verification",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://nairrpilot.org/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public homepage now returns content, including opportunity navigation. Earlier robots block remains a historical access observation. No linked current form, deadline or account reviewed.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://groq.com/community/",
@@ -4027,7 +4719,7 @@
     {
       "url": "https://www.techsoup.org/refurbished-computers",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Actual HTTP403; current catalog, SKU inventory, price, product eligibility and order fields not inspected.",
       "opportunity_ids": [
         "TECHSOUP-REFURBISHED-HARDWARE"
@@ -4041,12 +4733,42 @@
       "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:11.769776+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.techsoup.org/refurbished-computers",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "TECHSOUP-REFURBISHED-HARDWARE"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Actual HTTP403; current catalog, SKU inventory, price, product eligibility and order fields not inspected.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://www.techsoup.org/refurbished-computers",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": null,
+          "content_observation": "HTTP 200 returns an Incapsula resource shell; no catalog, inventory or prices inspected. No challenge resources requested.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Actual HTTP403 on linked standard warranty; successful verification date remains null.",
       "opportunity_ids": [
         "TECHSOUP-REFURBISHED-HARDWARE"
@@ -4060,12 +4782,42 @@
       "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:15.776300+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "TECHSOUP-REFURBISHED-HARDWARE"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Actual HTTP403 on linked standard warranty; successful verification date remains null.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://www.techsoup.org/support/articles-and-how-tos/about-rci-products",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": null,
+          "content_observation": "HTTP 200 returns an Incapsula resource shell; warranty content not inspected. No challenge resources requested.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Actual HTTP403 on linked takeback detail; covered products, geography, shipping and data handling unverified.",
       "opportunity_ids": [
         "TECHSOUP-REFURBISHED-HARDWARE"
@@ -4079,12 +4831,42 @@
       "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:19.786417+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "TECHSOUP-REFURBISHED-HARDWARE"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Actual HTTP403 on linked takeback detail; covered products, geography, shipping and data handling unverified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://www.techsoup.org/support/articles-and-how-tos/free-end-of-life-recycling-for-refurbished-computers?utm_medium=email&utm_source=dynamics_ff",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": null,
+          "content_observation": "HTTP 200 returns an Incapsula barrier; takeback detail not inspected. No challenge resources requested.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://page.techsoup.org/privacy?hsLang=en",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Actual HTTP404 on marketing landing privacy link; no policy contents recovered.",
       "opportunity_ids": [
         "TECHSOUP-REFURBISHED-HARDWARE"
@@ -4098,12 +4880,42 @@
       "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
       "source_roles": [
         "related_policy_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:25.789629+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://page.techsoup.org/privacy?hsLang=en",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "TECHSOUP-REFURBISHED-HARDWARE"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Actual HTTP404 on marketing landing privacy link; no policy contents recovered.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 404,
+          "final_url": "https://page.techsoup.org/privacy?hsLang=en",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "dead",
+          "access_limit": null,
+          "content_observation": "HEAD returned HTTP 404. No page body fetched and no privacy terms established.",
+          "claim_assessment": "not assessable: HTTP 404; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://www.techsoup.org/privacypolicy",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Actual HTTP403 on canonical privacy URL; search excerpts not promoted to a full privacy review.",
       "opportunity_ids": [
         "TECHSOUP-REFURBISHED-HARDWARE"
@@ -4117,6 +4929,36 @@
       "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:27.794641+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.techsoup.org/privacypolicy",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "TECHSOUP-REFURBISHED-HARDWARE"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Actual HTTP403 on canonical privacy URL; search excerpts not promoted to a full privacy review.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://www.techsoup.org/privacypolicy",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": null,
+          "content_observation": "HTTP 200 returns an Incapsula resource shell; privacy policy not inspected. No challenge resources requested.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -4213,6 +5055,36 @@
       "state": "Not Verified — recorded failed or content-empty access; successful verification remains null",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:31.800379+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://computeraid.typeform.com/to/c7BT9gwY",
+          "in_original_28": true,
+          "opportunity_ids": [
+            "COMPUTER-AID-GET-COMPUTERS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Official linked form produced no readable content; no entries, progression or submission.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://computeraid.typeform.com/to/c7BT9gwY",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Target not requested because robots preflight did not establish permission; no Typeform contents inspected.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -4475,7 +5347,36 @@
           "application_form_verified": false,
           "author_attempt": false
         }
-      ]
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:33.805423+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://github.com/sponsors/accounts?locale=en-US",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "GITHUB-SPONSORS-ORG"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Separate supplemental review reports a robots denial; this author did not inspect a form or establish an HTTP status at this target.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {},
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsponsors%2Faccounts%3Flocale%3Den-US",
+          "stopped_at_url": null,
+          "redirect_observed": true,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Redirect reaches GitHub sign-in; no account-specific onboarding inspected or login attempted.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ],
+      "last_attempted": "2026-10-20"
     },
     {
       "url": "https://docs.coderabbit.ai/configuration/auto-review.md",
@@ -4775,7 +5676,7 @@
     {
       "url": "https://trust.coderabbit.ai/subprocessors",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Public text retrieval exposed no readable recipient list; actual recipients and transfer arrangements remain Not Verified.",
       "opportunity_ids": [
         "CODERABBIT-OSS-PRODUCT"
@@ -4789,6 +5690,36 @@
       "state": "Not Verified — endpoint review required",
       "source_roles": [
         "related_policy_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:43.821778+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://trust.coderabbit.ai/subprocessors",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "CODERABBIT-OSS-PRODUCT"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Public text retrieval exposed no readable recipient list; actual recipients and transfer arrangements remain Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://trust.coderabbit.ai/subprocessors",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes CodeRabbit Trust Center title only; recipient/transfer list remains unverified.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -5040,7 +5971,37 @@
       "source_roles": [
         "application_endpoint"
       ],
-      "access_observation": "The FAQ application link resolved to a Microsoft Forms page with zero readable lines. No fields, declarations, attachment requirements or successful form admission were inspected."
+      "access_observation": "The FAQ application link resolved to a Microsoft Forms page with zero readable lines. No fields, declarations, attachment requirements or successful form admission were inspected.",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:08:45.718188+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR72dY7PBsFZJkFTETCg9J0xUNDdPUUU2S1pXTjFUOFMwNExEMzk5T1IxQi4u&route=shorturl",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "GITHUB-SECURE-OSS-FUND"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR72dY7PBsFZJkFTETCg9J0xUNDdPUUU2S1pXTjFUOFMwNExEMzk5T1IxQi4u&route=shorturl",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "No complete Microsoft application form or admission verified.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://forms.office.com/r/YN3MWEKQ5m",
@@ -5060,7 +6021,37 @@
       "source_roles": [
         "application_endpoint"
       ],
-      "access_observation": "The Apply now link failed in the public reader with a timeout and a wrapper (400) message. The origin server HTTP status was not established. No form bytes or successful admission were obtained."
+      "access_observation": "The Apply now link failed in the public reader with a timeout and a wrapper (400) message. The origin server HTTP status was not established. No form bytes or successful admission were obtained.",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:47.825683+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://forms.office.com/r/YN3MWEKQ5m",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "GITHUB-SECURE-OSS-FUND"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Application endpoint attempted; current form contents and admission unverified",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://forms.office.com/r/YN3MWEKQ5m",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "No complete Microsoft application form or admission verified.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ]
     },
     {
       "url": "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
@@ -5434,7 +6425,7 @@
     {
       "url": "https://apply.ycombinator.com/",
       "last_verified": null,
-      "last_attempted": null,
+      "last_attempted": "2026-10-20",
       "verification_scope": "Private application endpoint identified on public apply page; current form was not opened.",
       "opportunity_ids": [
         "YC-STANDARD-DEAL"
@@ -5454,6 +6445,36 @@
           "scope": "Endpoint identified on an inspected public page; no request to this endpoint was made.",
           "http_status": null,
           "successful_complete_form_or_contract_review": false
+        }
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:51.835737+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://apply.ycombinator.com/",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "YC-STANDARD-DEAL"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Private application endpoint identified on public apply page; current form was not opened.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": null
+          },
+          "target_requested": true,
+          "http_status": 302,
+          "final_url": null,
+          "stopped_at_url": "https://ycombinator.com/apply",
+          "redirect_observed": true,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "No private YC application, contract or applicant decision verified.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
         }
       ]
     },
@@ -5533,6 +6554,36 @@
           "http_status": null,
           "successful_complete_form_or_contract_review": false
         }
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:55.841922+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "SLOAN-OSS-IN-SCIENCE"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Two-page July 2025 reporting PDF retrieved; much of page 1 text is garbled. No complete reporting-term review or actual award schedule established.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://sloan.org/storage/app/media/programs/digital_technology/reporting-guidelines-tech-july2025-update.pdf",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Reachability check only; no complete reporting-term or award-schedule review. Prior partial PDF observation retained.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -5559,12 +6610,42 @@
           "http_status": null,
           "successful_complete_form_or_contract_review": false
         }
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:09:57.846944+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://unblock.federalregister.gov/",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "SBA-7A-LOANS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Observed access-request barrier only; the requested regulation text remains unread.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://unblock.federalregister.gov/",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "Access-request endpoint only; no requested regulation or access request submitted.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://www.ecfr.gov/current/title-13/section-120.110",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "Attempt reached an access-request barrier; legal text not read and HTTP status not established.",
       "opportunity_ids": [
         "SBA-7A-LOANS"
@@ -5584,6 +6665,36 @@
           "scope": "Attempt reached an access-request barrier; legal text not read and HTTP status not established.",
           "http_status": null,
           "successful_complete_form_or_contract_review": false
+        }
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:10:01.856999+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.ecfr.gov/current/title-13/section-120.110",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "SBA-7A-LOANS"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "Attempt reached an access-request barrier; legal text not read and HTTP status not established.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 302,
+          "final_url": null,
+          "stopped_at_url": "https://unblock.federalregister.gov",
+          "redirect_observed": true,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "No regulation claim independently verified by this retrieval; prior access limitation retained.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
         }
       ]
     },
@@ -6003,7 +7114,38 @@
       "source_roles": [
         "application_endpoint"
       ],
-      "last_access_attempt": "2026-10-19"
+      "last_access_attempt": "2026-10-19",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:10:05.867048+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://opensource-form.netlify.com/",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "NETLIFY-OPEN-SOURCE-PLAN"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "2026-10-19T13:19:56Z HTTP 200 returned a 387-byte JavaScript shell, SHA-256 831d96533926bb61b452ef8047b08295ba7822cbeed46ce1ff30e9db21642871; no form fields. Complete current intake Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_access_attempt": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://opensource-form.netlify.com/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "HTTP 200 returns the 387-byte JavaScript shell with application title only; complete intake remains unverified.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ],
+      "last_attempted": "2026-10-20"
     },
     {
       "url": "https://buildkite.com/pricing/",
@@ -6170,7 +7312,38 @@
       "source_roles": [
         "application_endpoint"
       ],
-      "last_access_attempt": "2026-10-19"
+      "last_access_attempt": "2026-10-19",
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:10:11.875298+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://buildkite.com/about/contact/",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "BUILDKITE-OSS-PRICING"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "2026-10-19 public read exposed a verification challenge only; no challenge/contact action. Complete OSS intake Not Verified.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_access_attempt": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://buildkite.com/about/contact/",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public contact page includes a verification-code prompt but no complete contact form. No code use, challenge solving or contact action; complete OSS intake remains unverified.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ],
+      "last_attempted": "2026-10-20"
     },
     {
       "url": "https://www.gofundme.com/c/pricing",
@@ -7046,7 +8219,7 @@
     {
       "url": "https://legal.kickstarter.com/policies/en/?name=terms-of-use",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "K28: Only one JavaScript-disabled shell line returned. Full operative legal body, effective version, license grant, liability, dispute, sanctions and termination clauses remain unverified. No browser/JavaScript workaround was attempted.",
       "opportunity_ids": [
         "KICKSTARTER-CREATIVE-CROWDFUNDING"
@@ -7060,12 +8233,42 @@
       "state": "Content not verified; actual applicant and complete applicable form/agreement not established",
       "source_roles": [
         "related_policy_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:10:17.889969+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://legal.kickstarter.com/policies/en/?name=terms-of-use",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "KICKSTARTER-CREATIVE-CROWDFUNDING"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "K28: Only one JavaScript-disabled shell line returned. Full operative legal body, effective version, license grant, liability, dispute, sanctions and termination clauses remain unverified. No browser/JavaScript workaround was attempted.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://legal.kickstarter.com/policies/en/?name=terms-of-use",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes Privacy Center title only; no operative terms body or effective version inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
       "url": "https://legal.kickstarter.com/policies?name=privacy-policy",
       "last_verified": null,
-      "last_attempted": "2026-10-19",
+      "last_attempted": "2026-10-20",
       "verification_scope": "K29: Only one JavaScript-disabled shell line returned from the actual Rules link. Full privacy body, effective version, service-side collection/sharing/transfers and retention terms remain unverified. The separate guessed ?name=privacy URL failed and was not treated as the actual policy.",
       "opportunity_ids": [
         "KICKSTARTER-CREATIVE-CROWDFUNDING"
@@ -7079,6 +8282,36 @@
       "state": "Content not verified; actual applicant and complete applicable form/agreement not established",
       "source_roles": [
         "related_policy_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:10:21.897767+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://legal.kickstarter.com/policies?name=privacy-policy",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "KICKSTARTER-CREATIVE-CROWDFUNDING"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "K29: Only one JavaScript-disabled shell line returned from the actual Rules link. Full privacy body, effective version, service-side collection/sharing/transfers and retention terms remain unverified. The separate guessed ?name=privacy URL failed and was not treated as the actual policy.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": true,
+          "http_status": 200,
+          "final_url": "https://legal.kickstarter.com/policies?name=privacy-policy",
+          "stopped_at_url": null,
+          "redirect_observed": false,
+          "outcome": "reachable",
+          "access_limit": null,
+          "content_observation": "Public HTML exposes Privacy Center title only; no complete privacy body or effective version inspected.",
+          "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {
@@ -7098,6 +8331,36 @@
       "state": "Content not verified; actual applicant and complete applicable form/agreement not established",
       "source_roles": [
         "application_endpoint"
+      ],
+      "freshness_review_observations": [
+        {
+          "review_record": "data/audits/freshness-readback-2026-10-20.json",
+          "observed_at": "2026-10-20T00:10:25.906630+00:00",
+          "access_date": "2026-10-20",
+          "url": "https://www.kickstarter.com/start",
+          "in_original_28": false,
+          "opportunity_ids": [
+            "KICKSTARTER-CREATIVE-CROWDFUNDING"
+          ],
+          "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+          "prior_verification_scope": "K30: Both direct public URL and actual Help link returned the page title with zero extracted body lines. No actual form fields, consent checkbox text, authenticated editor or submission terms were observed. Zero extracted text does not prove a login requirement or HTTP 403. No entry/submission occurred.",
+          "prior_successful_check_date": null,
+          "prior_attempt_dates": {
+            "last_attempted": "2026-10-19"
+          },
+          "target_requested": false,
+          "http_status": null,
+          "final_url": null,
+          "stopped_at_url": "https://www.kickstarter.com/start",
+          "redirect_observed": false,
+          "outcome": "access-blocked",
+          "access_limit": "access-blocked: robots disallow or robots unavailable",
+          "content_observation": "No authenticated editor, submission or complete application verified.",
+          "claim_assessment": "not assessable: access-blocked; no claim verification",
+          "claim_verified": false,
+          "successful_check_date": null,
+          "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
       ]
     },
     {

@@ -149,4 +149,4 @@ The declared research prerequisites for #48, #49 and #62 are now satisfied. This
 
 The #50 comparison retains #48 and #49; #63 retains #49. Public-source comparison and preliminary drafting can continue in parallel, but final receiving acceptance stays blocked. No newly discovered cross-repository blocker is proposed.
 
-This refresh is local and uncommitted. It changes no issue, PR, Project, publication setting or external communication. The workflow registry-byte checksum is synchronized as required by its offline marker test; all execution gates, permissions, executor checksum and canonical graph hash remain intact.
+This refresh changes no issue, PR, Project, publication setting or external communication. The workflow registry-byte checksum is synchronized as required by its offline marker test; all execution gates, permissions, executor checksum and canonical graph hash remain intact.

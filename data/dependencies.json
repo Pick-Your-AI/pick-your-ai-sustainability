@@ -940,11 +940,19 @@
       "blocking_issue_number": 21,
       "blocking_issue_id": 5918046298,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T07:29:18Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+        }
       }
     },
     {
@@ -960,11 +968,19 @@
       "blocking_issue_number": 21,
       "blocking_issue_id": 5918046298,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T07:29:18Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+        }
       }
     },
     {
@@ -980,11 +996,19 @@
       "blocking_issue_number": 21,
       "blocking_issue_id": 5918046298,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T07:29:18Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+        }
       }
     },
     {
@@ -1028,11 +1052,19 @@
       "blocking_issue_number": 48,
       "blocking_issue_id": 5918054982,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "prerequisite_state": "OPEN",
         "prerequisite_closed_at": null,
         "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.48"
+        "evidence_ref": "acceptance_reconciliation.prerequisites.48",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.48"
+        }
       }
     },
     {
@@ -1048,11 +1080,19 @@
       "blocking_issue_number": 49,
       "blocking_issue_id": 5918055324,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "prerequisite_state": "OPEN",
         "prerequisite_closed_at": null,
         "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.49"
+        "evidence_ref": "acceptance_reconciliation.prerequisites.49",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.49"
+        }
       }
     },
     {
@@ -1068,11 +1108,19 @@
       "blocking_issue_number": 38,
       "blocking_issue_id": 5918051858,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.38"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T00:51:33Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.38",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.38"
+        }
       }
     },
     {
@@ -1380,11 +1428,19 @@
       "blocking_issue_number": 13,
       "blocking_issue_id": 5918043791,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T09:16:00Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.13",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+        }
       }
     },
     {
@@ -1400,11 +1456,19 @@
       "blocking_issue_number": 17,
       "blocking_issue_id": 5918045061,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T07:22:47Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+        }
       }
     },
     {
@@ -1420,11 +1484,19 @@
       "blocking_issue_number": 49,
       "blocking_issue_id": 5918055324,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "prerequisite_state": "OPEN",
         "prerequisite_closed_at": null,
         "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.49"
+        "evidence_ref": "acceptance_reconciliation.prerequisites.49",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.49"
+        }
       }
     },
     {
@@ -1676,11 +1748,19 @@
       "blocking_issue_number": 69,
       "blocking_issue_id": 5918061616,
       "acceptance_reconciliation": {
-        "checked_on": "2026-10-19",
-        "prerequisite_state": "OPEN",
-        "prerequisite_closed_at": null,
-        "status": "blocked_acceptance_or_delivery_pending",
-        "evidence_ref": "acceptance_reconciliation.prerequisites.69"
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "prerequisite_state": "CLOSED",
+        "prerequisite_closed_at": "2026-10-20T06:29:15Z",
+        "status": "satisfied_bounded_input",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.69",
+        "prior_observation": {
+          "checked_on": "2026-10-19",
+          "prerequisite_state": "OPEN",
+          "prerequisite_closed_at": null,
+          "status": "blocked_acceptance_or_delivery_pending",
+          "evidence_ref": "acceptance_reconciliation.prerequisites.69"
+        }
       }
     },
     {
@@ -1791,7 +1871,13 @@
       "input_key": "E01-07",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "reason": "Canonical licensing evidence required for host qualification.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+      }
     },
     {
       "consumer_key": "E01-05",
@@ -1812,7 +1898,13 @@
       "input_key": "E01-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
       "reason": "Independent formation is a conditional path, not a chosen structure.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+      }
     },
     {
       "consumer_key": "E01-06",
@@ -1880,7 +1972,13 @@
       "input_key": "E01-07",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "reason": "Existing canonical policies must be reconciled.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+      }
     },
     {
       "consumer_key": "E02-02",
@@ -1888,7 +1986,13 @@
       "input_key": "E02-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "reason": "Usage model supplies variable compute demand.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+      }
     },
     {
       "consumer_key": "E02-02",
@@ -1956,7 +2060,13 @@
       "input_key": "E01-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
       "reason": "Structure alternatives determine final controls.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+      }
     },
     {
       "consumer_key": "E02-06",
@@ -1990,7 +2100,13 @@
       "input_key": "E01-07",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "reason": "License and provenance evidence required.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+      }
     },
     {
       "consumer_key": "E03-01",
@@ -1998,7 +2114,13 @@
       "input_key": "E02-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "reason": "Demand supports concrete use case.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+      }
     },
     {
       "consumer_key": "E03-02",
@@ -2006,7 +2128,13 @@
       "input_key": "E01-07",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "reason": "License evidence and existing security work define qualification.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+      }
     },
     {
       "consumer_key": "E03-02",
@@ -2040,7 +2168,13 @@
       "input_key": "E01-07",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
       "reason": "Open licensing is a provider gate.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.17"
+      }
     },
     {
       "consumer_key": "E03-03",
@@ -2087,7 +2221,13 @@
       "input_key": "E02-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
       "reason": "Workload model informs value.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.21"
+      }
     },
     {
       "consumer_key": "E03-05",
@@ -2155,7 +2295,13 @@
       "input_key": "E01-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
       "reason": "Legal-path comparison identifies plausible future routes.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+      }
     },
     {
       "consumer_key": "E03-07",
@@ -2247,7 +2393,13 @@
       "input_key": "E01-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
       "reason": "Structure paths determine channel suitability.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.13"
+      }
     },
     {
       "consumer_key": "E04-02",
@@ -2467,7 +2619,13 @@
       "input_key": "E09-03",
       "input_issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
       "reason": "Related input; preliminary drafting and source investigation can proceed.",
-      "relationship_type": "related_input_not_hard_blocker"
+      "relationship_type": "related_input_not_hard_blocker",
+      "acceptance_reconciliation": {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "status": "accepted_related_input_not_hard_blocker",
+        "evidence_ref": "acceptance_reconciliation.prerequisites.69"
+      }
     },
     {
       "consumer_key": "E09-06",
@@ -4374,15 +4532,26 @@
       },
       "13": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
-        "state": "OPEN",
-        "closed_at": null,
-        "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Issue open. The full structure findings (public commit c83377678c5e59a8602b22edae6f6c9c03d59575, tree 7b993dbdb71a7590a267db56ad3b9c570ed0003b) are independently accepted, and the accepted-findings metadata commit 00ee81db4f418b778e597f0a0da3bdc16199353a is published on contributor branch contrib/CompleteDotTech/structure-decision-098fea; canonical-main delivery is still pending.",
+        "state": "CLOSED",
+        "closed_at": "2026-10-20T09:16:00Z",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Four-path structure decision brief only; no entity, jurisdiction or binding structural choice.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/136#pullrequestreview-5583019358",
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "f7266cf28123646bf42d40946edfe602cb7b099a"
+          },
+          "mergedAt": "2026-10-20T09:13:53Z",
+          "number": 136,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/136"
+        },
         "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275724543",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275892803",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6276041137"
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6287189723",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6287628768"
         ],
         "prior_observation": {
           "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
@@ -4390,22 +4559,59 @@
           "closed_at": null,
           "checked_on": "2026-10-19",
           "disposition": "not_satisfied",
-          "missing": "Issue open; formation output and acceptance not evidenced.",
-          "latest_comment_urls": []
-        },
-        "observation_cutoff": "2026-10-19T23:48Z"
+          "missing": "Issue open. The full structure findings (public commit c83377678c5e59a8602b22edae6f6c9c03d59575, tree 7b993dbdb71a7590a267db56ad3b9c570ed0003b) are independently accepted, and the accepted-findings metadata commit 00ee81db4f418b778e597f0a0da3bdc16199353a is published on contributor branch contrib/CompleteDotTech/structure-decision-098fea; canonical-main delivery is still pending.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275724543",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6275892803",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13#issuecomment-6276041137"
+          ],
+          "prior_observation": {
+            "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
+            "state": "OPEN",
+            "closed_at": null,
+            "checked_on": "2026-10-19",
+            "disposition": "not_satisfied",
+            "missing": "Issue open; formation output and acceptance not evidenced.",
+            "latest_comment_urls": []
+          },
+          "observation_cutoff": "2026-10-19T23:48Z"
+        }
       },
       "17": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
-        "state": "OPEN",
-        "closed_at": null,
-        "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Reviewed contributor source exists, but canonical main delivery and whole-issue completion explicitly pending.",
+        "state": "CLOSED",
+        "closed_at": "2026-10-20T07:22:47Z",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "IP stewardship research only; no ownership transfer, relicensing or organizational appointment.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/128#pullrequestreview-5581146514",
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "5c668f83bc844193dc1d6eb45c7c94dde36470e0"
+          },
+          "mergedAt": "2026-10-20T07:17:44Z",
+          "number": 128,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/128"
+        },
         "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6271963704",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6272047931"
-        ]
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6284291709",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6285648002"
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Reviewed contributor source exists, but canonical main delivery and whole-issue completion explicitly pending.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6271963704",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/17#issuecomment-6272047931"
+          ]
+        }
       },
       "18": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/18",
@@ -4493,15 +4699,39 @@
       },
       "21": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
-        "state": "OPEN",
-        "closed_at": null,
-        "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Issue open; canonical demand output and independent acceptance not evidenced.",
+        "state": "CLOSED",
+        "closed_at": "2026-10-20T07:29:18Z",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Reproducible demand planning method only; actual workload, resource, rate, cash and entitlement inputs remain unknown.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/130#pullrequestreview-5581741202",
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "b3184c434255ce120d7304c43aea5342ecccfce8"
+          },
+          "mergedAt": "2026-10-20T07:26:50Z",
+          "number": 130,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/130"
+        },
         "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6263808333",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6267557657"
-        ]
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6284719379",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6285753442"
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Issue open; canonical demand output and independent acceptance not evidenced.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6263808333",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/21#issuecomment-6267557657"
+          ]
+        }
       },
       "22": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/22",
@@ -4571,15 +4801,39 @@
       },
       "38": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
-        "state": "OPEN",
-        "closed_at": null,
-        "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Accepted source packet exists; C12 and accepting-main delivery explicitly pending.",
+        "state": "CLOSED",
+        "closed_at": "2026-10-20T00:51:33Z",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Provider coverage and deduplication index only; no new provider admission, application or activation.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/125#pullrequestreview-5579484202",
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "f179278e8eaff12aa2f3891d9dc22bb6b1bc979d"
+          },
+          "mergedAt": "2026-10-20T00:48:06Z",
+          "number": 125,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/125"
+        },
         "latest_comment_urls": [
           "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6270987276",
           "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6271589084"
-        ]
+        ],
+        "prior_observation": {
+          "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38",
+          "state": "OPEN",
+          "closed_at": null,
+          "checked_on": "2026-10-19",
+          "disposition": "not_satisfied",
+          "missing": "Accepted source packet exists; C12 and accepting-main delivery explicitly pending.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6270987276",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/38#issuecomment-6271589084"
+          ]
+        }
       },
       "47": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/47",
@@ -4626,11 +4880,13 @@
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
         "state": "OPEN",
         "closed_at": null,
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
         "disposition": "not_satisfied",
-        "missing": "Issue open. Owned preparation is under way (an active source claim at 22:26 UTC with a 23:05 checkpoint); there is no accepted output.",
+        "missing": "All twelve non-publication research criteria, including demand-method mapping, accepted in comment 6292133308. Criterion 48.12 remains pending actual source publication and canonical delivery; issue remains open. No actual GPU execution or application is required to finish this bounded research comparison.",
         "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48#issuecomment-6278731482"
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48#issuecomment-6292045332",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48#issuecomment-6292133308"
         ],
         "prior_observation": {
           "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
@@ -4638,21 +4894,33 @@
           "closed_at": null,
           "checked_on": "2026-10-19",
           "disposition": "not_satisfied",
-          "missing": "Issue open; no comments or accepted output in the inspected evidence.",
-          "latest_comment_urls": []
-        },
-        "observation_cutoff": "2026-10-19T23:48Z"
+          "missing": "Issue open. Owned preparation is under way (an active source claim at 22:26 UTC with a 23:05 checkpoint); there is no accepted output.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48#issuecomment-6278731482"
+          ],
+          "prior_observation": {
+            "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+            "state": "OPEN",
+            "closed_at": null,
+            "checked_on": "2026-10-19",
+            "disposition": "not_satisfied",
+            "missing": "Issue open; no comments or accepted output in the inspected evidence.",
+            "latest_comment_urls": []
+          },
+          "observation_cutoff": "2026-10-19T23:48Z"
+        }
       },
       "49": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
         "state": "OPEN",
         "closed_at": null,
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
         "disposition": "not_satisfied",
-        "missing": "Issue open. The bounded partial protocol findings (criteria 5 and 13) are accepted and a source is published (37dfe7465e4a1b251d0759d14e94de6ca2b50760, tree 3d08eab401fd22fe3db6c6f743052f8e167f7cad), but the demand-sized request and canonical-delivery criteria remain incomplete and the acceptance-metadata continuation is pending.",
+        "missing": "Accepted method mapping delivered by PR #131 at 70f0419e954a460b44a44e6df1a5721461b689b9; whole issue remains OPEN. Criterion 6 requires admitted immutable study materials, actual token/resource envelopes, account/model/routes and limits, applicable rates/entitlements, bounded residual cash and authority. Placeholder attempt counts are not a fully sized operational request.",
         "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6278189775",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6278873078"
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6286296413",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6286755111"
         ],
         "prior_observation": {
           "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
@@ -4660,10 +4928,22 @@
           "closed_at": null,
           "checked_on": "2026-10-19",
           "disposition": "not_satisfied",
-          "missing": "Issue open; no comments or accepted output in the inspected evidence.",
-          "latest_comment_urls": []
-        },
-        "observation_cutoff": "2026-10-19T23:48Z"
+          "missing": "Issue open. The bounded partial protocol findings (criteria 5 and 13) are accepted and a source is published (37dfe7465e4a1b251d0759d14e94de6ca2b50760, tree 3d08eab401fd22fe3db6c6f743052f8e167f7cad), but the demand-sized request and canonical-delivery criteria remain incomplete and the acceptance-metadata continuation is pending.",
+          "latest_comment_urls": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6278189775",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49#issuecomment-6278873078"
+          ],
+          "prior_observation": {
+            "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/49",
+            "state": "OPEN",
+            "closed_at": null,
+            "checked_on": "2026-10-19",
+            "disposition": "not_satisfied",
+            "missing": "Issue open; no comments or accepted output in the inspected evidence.",
+            "latest_comment_urls": []
+          },
+          "observation_cutoff": "2026-10-19T23:48Z"
+        }
       },
       "54": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/54",
@@ -4781,15 +5061,26 @@
       },
       "69": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
-        "state": "OPEN",
-        "closed_at": null,
-        "checked_on": "2026-10-19",
-        "disposition": "not_satisfied",
-        "missing": "Issue open. A completed independent source and manual-case review of 52001d46 / 5241bb07 and a prepared current-main join 523feb89 are recorded at the 22:30 UTC checkpoint; publication and canonical delivery are still outstanding.",
+        "state": "CLOSED",
+        "closed_at": "2026-10-20T06:29:15Z",
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "disposition": "accepted_bounded_input",
+        "scope": "Operations and reporting method and synthetic cases only; actual benefits, roles, agreements and transactions remain unestablished.",
+        "acceptance_evidence_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/127#pullrequestreview-5581117179",
+        "completed_issue_body_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+        "delivery": {
+          "mergeCommit": {
+            "oid": "7cae962c58c02e7f28b45f38193668897adbc1e4"
+          },
+          "mergedAt": "2026-10-20T05:57:23Z",
+          "number": 127,
+          "state": "MERGED",
+          "url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/127"
+        },
         "latest_comment_urls": [
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267033046",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038",
-          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6278167762"
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6284056698",
+          "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6284491192"
         ],
         "prior_observation": {
           "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
@@ -4797,13 +5088,26 @@
           "closed_at": null,
           "checked_on": "2026-10-19",
           "disposition": "not_satisfied",
-          "missing": "Issue open; candidate undergoing independent full-source/manual-case review; no accepted delivery evidenced.",
+          "missing": "Issue open. A completed independent source and manual-case review of 52001d46 / 5241bb07 and a prepared current-main join 523feb89 are recorded at the 22:30 UTC checkpoint; publication and canonical delivery are still outstanding.",
           "latest_comment_urls": [
             "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267033046",
-            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038"
-          ]
-        },
-        "observation_cutoff": "2026-10-19T23:48Z"
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038",
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6278167762"
+          ],
+          "prior_observation": {
+            "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69",
+            "state": "OPEN",
+            "closed_at": null,
+            "checked_on": "2026-10-19",
+            "disposition": "not_satisfied",
+            "missing": "Issue open; candidate undergoing independent full-source/manual-case review; no accepted delivery evidenced.",
+            "latest_comment_urls": [
+              "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267033046",
+              "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/69#issuecomment-6267409038"
+            ]
+          },
+          "observation_cutoff": "2026-10-19T23:48Z"
+        }
       },
       "70": {
         "issue_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70",
@@ -5173,6 +5477,498 @@
       ],
       "reason": "Applied the corrections requested in the PR #119 changes-requested review: #57, #20 and #47 have final receiving records, #13 has an accepted but undelivered output, and the #48, #49 and #69 pending reasons carry newer evidence. Every earlier observation is retained in prior_observation.",
       "edge_count_unit": "one hard dependency edge is one prerequisite-to-consumer pair"
-    }
+    },
+    "subsequent_reconciliations": [
+      {
+        "checked_on": "2026-10-20",
+        "observation_cutoff": "2026-10-21T02:07:30Z",
+        "local_base_sha": "9e077299f7d2674b9311dd1f474e77c3b2161207",
+        "newly_satisfied_edges": [
+          [
+            13,
+            62
+          ],
+          [
+            17,
+            62
+          ],
+          [
+            21,
+            48
+          ],
+          [
+            21,
+            49
+          ],
+          [
+            21,
+            50
+          ],
+          [
+            38,
+            50
+          ],
+          [
+            69,
+            72
+          ]
+        ],
+        "hard_satisfied": 40,
+        "hard_pending": 3,
+        "remaining_prerequisites": [
+          48,
+          49
+        ],
+        "issue_states": [
+          {
+            "closedAt": "2026-10-20T07:29:13Z",
+            "number": 72,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pipeline \u2014 Create the monthly sustainability dashboard [E09-06]"
+          },
+          {
+            "closedAt": "2026-10-19T13:58:56Z",
+            "number": 71,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pipeline \u2014 Define concentration and sustainability risk indicators [E09-05]"
+          },
+          {
+            "closedAt": "2026-10-19T12:16:42Z",
+            "number": 70,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pipeline \u2014 Establish evidence and deadline refresh review [E09-04]"
+          },
+          {
+            "closedAt": "2026-10-20T06:29:15Z",
+            "number": 69,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pipeline \u2014 Define activation, reporting and renewal procedures [E09-03]"
+          },
+          {
+            "closedAt": "2026-10-19T12:39:07Z",
+            "number": 68,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pipeline \u2014 Define application and commitment authorization [E09-02]"
+          },
+          {
+            "closedAt": "2026-10-19T12:05:11Z",
+            "number": 67,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pipeline \u2014 Create provider research and outreach templates [E09-01]"
+          },
+          {
+            "closedAt": null,
+            "number": 66,
+            "state": "OPEN",
+            "title": "[RESEARCH][Partnership] Mentorship and outreach \u2014 design sustainable volunteer partnerships [E08-05]"
+          },
+          {
+            "closedAt": null,
+            "number": 65,
+            "state": "OPEN",
+            "title": "[RESEARCH][Partnership] Pro bono support \u2014 qualify legal, finance and governance assistance [E08-04]"
+          },
+          {
+            "closedAt": "2026-10-20T13:01:07Z",
+            "number": 64,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Partnership] Corporate OSPOs \u2014 identify engineering contribution routes [E08-03]"
+          },
+          {
+            "closedAt": null,
+            "number": 63,
+            "state": "OPEN",
+            "title": "[RESEARCH][Partnership] Academic partners \u2014 qualify research and capstone collaborations [E08-02]"
+          },
+          {
+            "closedAt": null,
+            "number": 62,
+            "state": "OPEN",
+            "title": "[RESEARCH][Partnership] Institutional homes \u2014 compare governance and community fit [E08-01]"
+          },
+          {
+            "closedAt": null,
+            "number": 61,
+            "state": "OPEN",
+            "title": "[RESEARCH][Software] Support stack \u2014 evaluate testing, documentation and monitoring offers [E07-06]"
+          },
+          {
+            "closedAt": "2026-10-19T11:30:26Z",
+            "number": 60,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Nonprofit] Apple \u2014 determine Developer Program fee-waiver eligibility [E07-05]"
+          },
+          {
+            "closedAt": null,
+            "number": 59,
+            "state": "OPEN",
+            "title": "[RESEARCH][Security] External reviews \u2014 qualify security and accessibility assistance [E07-04]"
+          },
+          {
+            "closedAt": "2026-10-19T17:04:06Z",
+            "number": 58,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Software] JetBrains \u2014 verify OSS development licenses and alternatives [E07-03]"
+          },
+          {
+            "closedAt": "2026-10-19T10:48:54Z",
+            "number": 57,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Security] GitHub \u2014 audit existing no-cost developer and security benefits [E07-02]"
+          },
+          {
+            "closedAt": "2026-10-19T17:21:52Z",
+            "number": 56,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Security] CodeRabbit \u2014 assess free OSS review and existing coverage [E07-01]"
+          },
+          {
+            "closedAt": "2026-10-20T00:52:26Z",
+            "number": 55,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Hardware] Mobile device labs \u2014 cover Apple and Android testing gaps [E06-05]"
+          },
+          {
+            "closedAt": "2026-10-19T15:11:27Z",
+            "number": 54,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Hardware] Hardware partners \u2014 qualify donation and loan routes [E06-04]"
+          },
+          {
+            "closedAt": "2026-10-19T20:49:34Z",
+            "number": 53,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Software] Infrastructure support \u2014 compare additional hosting and CI programs [E06-03]"
+          },
+          {
+            "closedAt": "2026-10-19T23:12:00Z",
+            "number": 52,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Software] Cloudflare \u2014 qualify Project Alexandria sponsorship [E06-02]"
+          },
+          {
+            "closedAt": "2026-10-19T13:40:56Z",
+            "number": 51,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Software] AWS \u2014 qualify Cloud Credits for Open Source [E06-01]"
+          },
+          {
+            "closedAt": null,
+            "number": 50,
+            "state": "OPEN",
+            "title": "[RESEARCH][Inference] Compute restrictions \u2014 rank net usable support [E05-05]"
+          },
+          {
+            "closedAt": null,
+            "number": 49,
+            "state": "OPEN",
+            "title": "[RESEARCH][Inference] Evaluation proposal \u2014 define a reproducible sponsor-neutral study [E05-04]"
+          },
+          {
+            "closedAt": null,
+            "number": 48,
+            "state": "OPEN",
+            "title": "[RESEARCH][Inference] GPU cloud access \u2014 compare independent evaluation routes [E05-03]"
+          },
+          {
+            "closedAt": "2026-10-19T18:20:00Z",
+            "number": 47,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Hugging Face \u2014 qualify Community GPU support for a public Space [E05-02]"
+          },
+          {
+            "closedAt": "2026-10-19T10:00:56Z",
+            "number": 46,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Fireworks \u2014 document startup-program exclusion for the nonprofit path [E05-01H]"
+          },
+          {
+            "closedAt": "2026-10-19T11:44:18Z",
+            "number": 45,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Together AI \u2014 resolve invite-only research-credit fit [E05-01G]"
+          },
+          {
+            "closedAt": "2026-10-19T13:40:43Z",
+            "number": 44,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Cerebras \u2014 assess trial limits and research-support evidence [E05-01F]"
+          },
+          {
+            "closedAt": "2026-10-19T14:38:47Z",
+            "number": 43,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Groq \u2014 assess public free-plan fit and sponsorship gaps [E05-01E]"
+          },
+          {
+            "closedAt": "2026-10-19T13:12:54Z",
+            "number": 42,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Microsoft Azure \u2014 verify nonprofit AI-credit coverage [E05-01D]"
+          },
+          {
+            "closedAt": "2026-10-19T12:55:38Z",
+            "number": 41,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Google \u2014 verify Gemini academic support eligibility [E05-01C]"
+          },
+          {
+            "closedAt": "2026-10-19T12:55:33Z",
+            "number": 40,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Anthropic \u2014 qualify external researcher API access [E05-01B]"
+          },
+          {
+            "closedAt": "2026-10-19T12:44:10Z",
+            "number": 39,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] OpenAI \u2014 qualify Researcher Access API credits [E05-01A]"
+          },
+          {
+            "closedAt": "2026-10-20T00:51:33Z",
+            "number": 38,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Inference] Provider landscape \u2014 establish the API support coverage register [E05-01]"
+          },
+          {
+            "closedAt": "2026-10-19T18:03:33Z",
+            "number": 37,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Sponsorship] Pick Your AI \u2014 draft benefits, acknowledgments and renewal kit [E04-05]"
+          },
+          {
+            "closedAt": null,
+            "number": 36,
+            "state": "OPEN",
+            "title": "[RESEARCH][Sponsorship] Workplace giving and donor-advised funds \u2014 map verified access routes [E04-04]"
+          },
+          {
+            "closedAt": "2026-10-19T16:40:22Z",
+            "number": 35,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Sponsorship] Pick Your AI \u2014 design individual and corporate support models [E04-03]"
+          },
+          {
+            "closedAt": "2026-10-19T22:17:42Z",
+            "number": 34,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Sponsorship] Donation channels \u2014 compare fiscal-hosted and direct collection [E04-02]"
+          },
+          {
+            "closedAt": "2026-10-19T17:41:01Z",
+            "number": 33,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Sponsorship] GitHub Sponsors \u2014 assess organization setup and payout readiness [E04-01]"
+          },
+          {
+            "closedAt": "2026-10-19T18:41:54Z",
+            "number": 32,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Funding] Grant terms \u2014 classify restrictions, payment mechanisms and matching requirements [E03-08]"
+          },
+          {
+            "closedAt": null,
+            "number": 31,
+            "state": "OPEN",
+            "title": "[RESEARCH][Funding] Foundations and corporate philanthropy \u2014 qualify nonprofit technology-education prospects [E03-07]"
+          },
+          {
+            "closedAt": null,
+            "number": 30,
+            "state": "OPEN",
+            "title": "[RESEARCH][Funding] NSF \u2014 assess PESOSE and eligible academic collaboration paths [E03-06]"
+          },
+          {
+            "closedAt": "2026-10-19T22:12:50Z",
+            "number": 29,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Funding] Education funders \u2014 screen AI literacy and accessibility research [E03-05]"
+          },
+          {
+            "closedAt": null,
+            "number": 28,
+            "state": "OPEN",
+            "title": "[RESEARCH][Funding] AI transparency funders \u2014 screen benchmarking and reproducibility support [E03-04]"
+          },
+          {
+            "closedAt": null,
+            "number": 27,
+            "state": "OPEN",
+            "title": "[RESEARCH][Funding] Digital commons funders \u2014 screen infrastructure grant fit [E03-03]"
+          },
+          {
+            "closedAt": "2026-10-19T17:20:42Z",
+            "number": 26,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Security] GitHub \u2014 qualify Secure Open Source Fund participation [E03-02]"
+          },
+          {
+            "closedAt": "2026-10-19T13:58:41Z",
+            "number": 25,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Funding] NLnet \u2014 qualify current calls for a concrete public-interest deliverable [E03-01]"
+          },
+          {
+            "closedAt": "2026-10-19T12:20:40Z",
+            "number": 24,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pick Your AI \u2014 draft financial controls and restricted-fund procedures [E02-06]"
+          },
+          {
+            "closedAt": "2026-10-19T22:17:47Z",
+            "number": 23,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pick Your AI \u2014 assemble reusable grant narrative and evidence kit [E02-05]"
+          },
+          {
+            "closedAt": "2026-10-19T14:31:14Z",
+            "number": 22,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pick Your AI \u2014 define measurable public-benefit outcomes [E02-04]"
+          },
+          {
+            "closedAt": "2026-10-20T07:29:18Z",
+            "number": 21,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Inference] Pick Your AI \u2014 build reproducible compute and API demand model [E02-03]"
+          },
+          {
+            "closedAt": "2026-10-19T20:36:56Z",
+            "number": 20,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pick Your AI \u2014 model a 12-month operating budget [E02-02]"
+          },
+          {
+            "closedAt": "2026-10-19T12:38:48Z",
+            "number": 19,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Funding] Pick Your AI \u2014 inventory real operating costs and resource gaps [E02-01]"
+          },
+          {
+            "closedAt": "2026-10-19T14:26:14Z",
+            "number": 18,
+            "state": "CLOSED",
+            "title": "[LEGAL][Nonprofit] Pick Your AI \u2014 draft vendor neutrality and sponsorship ethics policy [E01-08]"
+          },
+          {
+            "closedAt": "2026-10-20T07:22:47Z",
+            "number": 17,
+            "state": "CLOSED",
+            "title": "[LEGAL][Nonprofit] Pick Your AI repositories \u2014 verify licensing, IP and asset stewardship [E01-07]"
+          },
+          {
+            "closedAt": "2026-10-20T12:52:16Z",
+            "number": 16,
+            "state": "CLOSED",
+            "title": "[LEGAL][Nonprofit] IRS and state regulators \u2014 assess exemption filing and recurring compliance [E01-06]"
+          },
+          {
+            "closedAt": null,
+            "number": 15,
+            "state": "OPEN",
+            "title": "[LEGAL][Nonprofit] Pick Your AI \u2014 map formation and governance prerequisites [E01-05]"
+          },
+          {
+            "closedAt": "2026-10-20T12:53:43Z",
+            "number": 14,
+            "state": "CLOSED",
+            "title": "[RESEARCH][Nonprofit] SFC, SPI and Open Source Collective \u2014 compare fiscal-host suitability [E01-04]"
+          },
+          {
+            "closedAt": "2026-10-20T09:16:00Z",
+            "number": 13,
+            "state": "CLOSED",
+            "title": "[LEGAL][Nonprofit] Pick Your AI \u2014 compare independent and hosted organizational paths [E01-03]"
+          },
+          {
+            "closedAt": "2026-10-19T14:45:23Z",
+            "number": 12,
+            "state": "CLOSED",
+            "title": "[LEGAL][Nonprofit] Pick Your AI \u2014 test charitable purpose against actual activities [E01-02]"
+          },
+          {
+            "closedAt": "2026-10-19T10:43:22Z",
+            "number": 11,
+            "state": "CLOSED",
+            "title": "[OPERATIONS][Nonprofit] Pick Your AI \u2014 establish entity, asset and administrative baseline [E01-01]"
+          },
+          {
+            "closedAt": "2026-10-20T08:26:55Z",
+            "number": 10,
+            "state": "CLOSED",
+            "title": "[EPIC 09] Funding Pipeline Operations & Sustainability"
+          },
+          {
+            "closedAt": null,
+            "number": 9,
+            "state": "OPEN",
+            "title": "[EPIC 08] Institutional Partners & Pro Bono Support"
+          },
+          {
+            "closedAt": null,
+            "number": 8,
+            "state": "OPEN",
+            "title": "[EPIC 07] Code Quality, Security & Development Tools"
+          },
+          {
+            "closedAt": "2026-10-20T07:12:42Z",
+            "number": 7,
+            "state": "CLOSED",
+            "title": "[EPIC 06] Cloud Infrastructure & Physical Hardware"
+          },
+          {
+            "closedAt": null,
+            "number": 6,
+            "state": "OPEN",
+            "title": "[EPIC 05] AI Inference, GPU & Model Research Support"
+          },
+          {
+            "closedAt": null,
+            "number": 5,
+            "state": "OPEN",
+            "title": "[EPIC 04] Recurring Funding, Donations & Sponsorship"
+          },
+          {
+            "closedAt": null,
+            "number": 4,
+            "state": "OPEN",
+            "title": "[EPIC 03] Grants & Public-Interest Funding"
+          },
+          {
+            "closedAt": "2026-10-20T08:35:38Z",
+            "number": 3,
+            "state": "CLOSED",
+            "title": "[EPIC 02] Funding Readiness & Demonstrable Public Benefit"
+          },
+          {
+            "closedAt": null,
+            "number": 2,
+            "state": "OPEN",
+            "title": "[EPIC 01] Nonprofit Formation & Legal Readiness"
+          },
+          {
+            "closedAt": "2026-10-19T10:28:03Z",
+            "number": 1,
+            "state": "CLOSED",
+            "title": "[PROGRAM] Pick Your AI \u2014 Funding, Grants & Sustainability"
+          }
+        ],
+        "note": "#57 resolution from PR #119 retained; old comments are not treated as current disposition. All original native edges and dated evidence remain intact. No GitHub write or native endpoint verification.",
+        "independent_verification": {
+          "verified_at": "2026-10-21T02:31Z",
+          "scope": "The five newly satisfied prerequisites (#13, #17, #21, #38, #69), seven hard edges.",
+          "method": "Each claim was re-read from GitHub: issue closure time, PR merged time and merge SHA, that the cited review exists and predates the merge, and the issue completion receipt. Nothing was inferred from the local draft.",
+          "result": "All five claims match their sources. No claim was changed.",
+          "per_prerequisite": {
+            "13": "PR 136 and review 5583019358 match; final receipt comment 6287628768 states delivery on accepted main.",
+            "17": "PR 128 and review 5581146514 match; final receipt comment 6285648002 accepts all ten criteria and supersedes the preserved pending wording.",
+            "21": "PR 130 and review 5581741202 match; final receipt comment 6285753442 accepts the eleven criteria.",
+            "38": "PR 125 and review 5579484202 match. The completion receipt is in the issue body (criterion 12 and post-merge run 39349789178 on f179278e8eaff12aa2f3891d9dc22bb6b1bc979d), not in the last issue comment, which predates closure; the listed latest_comment_urls are therefore not the acceptance evidence.",
+            "69": "PR 127 and review 5581117179 match; final receipt comment 6284491192 ends with the natural main result qualified and delivery complete."
+          },
+          "limits": "Every cited review is a COMMENTED review under the shared account, as for the earlier accepted inputs; none is a separate human or organizational approval. #48 and #49 were not re-evaluated beyond confirming that both issues are still open and that the cited #48 comment 6292133308 exists."
+        }
+      }
+    ]
   }
 }

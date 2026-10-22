@@ -1,7 +1,7 @@
 # Contributing
 
 The [organization-wide contribution rules](https://github.com/Pick-Your-AI/.github/blob/main/CONTRIBUTING.md) remain canonical for access, branches, credentials, reviews and merges. This guide adds the funding research workflow.
- 
+
 ## Repository lead maintainers
 
 **Designated joint lead maintainers:** [@CompleteDotTech](https://github.com/CompleteDotTech) and [@appletechie](https://github.com/appletechie) (Apple Teckie). Both are review contacts for repository changes and volunteer coordination. [`.github/CODEOWNERS`](.github/CODEOWNERS) routes review requests to both accounts.

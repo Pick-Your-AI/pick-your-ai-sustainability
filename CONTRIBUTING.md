@@ -1,6 +1,17 @@
 # Contributing
 
 The [organization-wide contribution rules](https://github.com/Pick-Your-AI/.github/blob/main/CONTRIBUTING.md) remain canonical for access, branches, credentials, reviews and merges. This guide adds the funding research workflow.
+ 
+## Repository lead maintainers
+
+**Designated joint lead maintainers:** [@CompleteDotTech](https://github.com/CompleteDotTech) and [@appletechie](https://github.com/appletechie) (Apple Teckie). Both are review contacts for repository changes and volunteer coordination. [`.github/CODEOWNERS`](.github/CODEOWNERS) routes review requests to both accounts.
+
+The organization-wide [team and review rules](https://github.com/Pick-Your-AI/.github/blob/main/CONTRIBUTING.md) govern permissions. GitHub's effective grants and branch protections must be read back separately; CODEOWNERS and this declaration do not grant Admin rights or bypass independent review. The [configuration tracking issue](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/143) remains open until both leads have the intended permissions and policy enforcement is verified.
+
+Repository leadership is **not** authorization to represent a nonprofit, approve fiscal transactions, execute agreements, submit grant applications, or solicit sponsorship. Those roles and approvals follow the [program charter](docs/charter.md) and remain independently governed.
+
+Volunteer recruitment and coordination for organization members belong in the **private `internal-discussion` repository**, not the public organization profile repository. Research deliverables and implementation issues remain in this repository and [Project #7](https://github.com/orgs/Pick-Your-AI/projects/7).
+
 
 1. Read the live issue, its parent, native prerequisites, assignees, comments, deliverable path and existing pull requests.
 2. Search the repository, organization and opportunity register for the same provider/program/round or outcome. Extend an existing record when it is the same work; preserve declined and ineligible history.

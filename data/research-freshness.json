@@ -9349,5 +9349,11 @@
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
   "source_evidence_url_count": 352,
-  "additional_unverified_endpoint_count": 34
+  "additional_unverified_endpoint_count": 34,
+  "check_policy": {
+    "interval_hours": 6,
+    "authorized_on": "2026-10-22",
+    "authorization": "Andrew: re-check every 4–6 hours and on change; six-hour automation proposed for review in this PR",
+    "state_location": "GitHub Actions source-freshness artifacts; automated access/change checks only; human claim-verification fields unchanged"
+  }
 }

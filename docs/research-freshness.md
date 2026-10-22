@@ -1,6 +1,6 @@
-# Research freshness and monthly review
+# Research freshness, six-hour checks and monthly review
 
-Owner: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70). Status: operating procedure proposed for independent acceptance. Recurring coordinator and reviewer: **Unassigned**. This document creates no recurring assignment or automation.
+Owner: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70). Status: operating procedure proposed for independent acceptance. Recurring coordinator and reviewer: **Unassigned**. Human review assignments remain unassigned. The six-hour access/change monitor below implements Andrew’s 2026-10-22 cadence decision after its workflow is merged.
 
 ## Purpose and governing inputs
 
@@ -36,10 +36,32 @@ Keep the latest observation's access result distinct from the latest *successful
 
 Update the canonical opportunity and required pipeline/freshness memberships together only when a reviewed observation justifies a change. Preserve unrelated rows and concurrent owners. A dated audit is a snapshot, so later legitimate changes do not require rewriting its original counts.
 
+## Authorized automated source checks
+
+Andrew authorized rechecking sources every 4–6 hours and whenever something changes on 2026-10-22. The implementation chooses **six hours**, recorded in `check_policy.interval_hours` in the [register](../data/research-freshness.json). This operational interval supersedes the previously unresolved automation cadence; the immutable dated readbacks retain what was unknown at their cutoffs. Monthly program review and before-reliance claim review still apply.
+
+The [source-freshness workflow](../.github/workflows/source-freshness.yml) executes on standard GitHub-hosted Ubuntu runners at **00:23, 06:23, 12:23 and 18:23 UTC** (`23 */6 * * *`). Main-branch changes under `data/`, `research/`, `templates/`, the research procedure documents and checker/workflow/test files trigger an immediate full recheck. Pull requests run offline tests, validation and a no-network plan only. Maintainers can use **Actions → Check source freshness → Run workflow** on main when notified of an external change. Provider websites have no webhook here: polling detects their changes; a known change warrants the manual trigger rather than waiting for cron. Event runs check all entries even if not due yet.
+
+The [checker](../scripts/check_source_freshness.py) emits `freshness-report.json`, linked as a run artifact, with per-source outcomes, redirect chains, response hashes, change flags and precise UTC timestamps. It reads the `source-freshness` artifact from the latest successful canonical main-branch run of this workflow (push, schedule or manual event only); PR/fork artifacts are excluded as a comparison baseline. An absent baseline means a first observation, never “unchanged.” A failed baseline download or invalid report fails the run instead of claiming a comparison. Reports are retained **seven days**, so old run observations remain available without a growing commit history. No raw page bodies are published. The job writes no commits, issues, PRs, Projects or canonical research decisions.
+
+Timestamp rules:
+
+- `last_checked_at` is the actual completion of an automated public check or robots preflight, including blocked/failed access; it is not a successful claim review.
+- `next_check_at = last_checked_at + 6 hours`, using timezone-aware UTC arithmetic. An entry with no previous attempt is immediately due at plan generation time. A run-budget skip preserves the old last attempt and due time, or remains immediately due.
+- `content_checked_at` and `content_final_url` retain the last comparable public response separately from a failed latest attempt. Redirect and byte-hash changes flag investigation; dynamic content may change without a material claim changing. HTTP 304 reuses only the prior matching-resource digest.
+- `last_verified`, `next_verification_date`, deadlines, histories, program dispositions and pipeline evidence remain untouched. Human review still determines whether a source supports its precise cited claim. Neither HTTP 200 nor an unchanged byte hash establishes eligibility, terms or current application admission.
+
+Public retrieval uses an identified agent, at least two seconds between requests (also honoring longer supported robots delays), cached per-origin robots checks, conditional GET when available, bounded redirects, a 2 MB body limit, a 30-second absolute per-request deadline, a 35-minute collection budget and a 45-minute job timeout. It does not execute scripts, load subresources, authenticate, submit forms, retry 403/429 or solve challenges. Robots denial/unavailable policy and supported crawl delays over 60 seconds prevent target retrieval. Only public HTTPS on port 443 is accepted; every connection resolves and pins a public address while verifying TLS for the original hostname. Redirect destinations are checked independently. A partial or blocked response preserves the prior comparable digest without calling it unchanged.
+
+The run summary gives outcome/change counts; download the JSON for exact URLs, next due times and access limitations. Blocked/dead/changed results require the canonical researcher’s event-based review before reliance; a budget-exhausted run fails visibly and retains a partial report. No individual review commitment is assigned by the monitor.
+
+This public repository uses standard GitHub-hosted runners: **no runner compute charge**, server, model or paid API is required under [GitHub’s public-repository pricing](https://docs.github.com/en/billing/concepts/product-billing/github-actions). Report artifacts have short retention; any account-level storage billing follows GitHub’s separate storage allowance. No cache or raw-source archive is created. GitHub schedules are best effort: they may be delayed/dropped, and public-repository schedules can be disabled after 60 days without repository activity ([schedule limitations](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)). This is a six-hour intended cadence, not a guaranteed six-hour service-level bound. Check the latest successful run when relying on monitoring. The schedule starts only after merge to main; creating its PR does not activate cron.
+
 ## Recheck triggers and resulting action
 
 | Trigger | Review action and boundary |
 | --- | --- |
+| Six-hour automated/public change check | Record access, redirects and comparable content changes; keep claim-verification fields unchanged and route material findings for human review. |
 | Monthly program review | Read every registered program, including retained declined/ineligible or closed records. Identify missing or changed evidence; a historical record need not be actively pursued. |
 | Current recommendation, outreach, application, acceptance, activation or renewal | Read the applicable current program, eligibility, restrictions and intake sources for the specific applicant and action. Confirm any actual terms and authority separately. |
 | Reopened or new round, redirect, closure or changed provider terms | Compare exact program/round identity and applicability. Preserve the prior outcome. Opening an intake does not qualify the project or approve pursuit. |

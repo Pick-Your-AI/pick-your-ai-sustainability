@@ -1,0 +1,8 @@
+# Pick Your AI — Funding, Grants & Sustainability
+# Joint lead maintainers: @CompleteDotTech and @appletechie (Apple Teckie).
+#
+# CODEOWNERS routes review requests, but does not grant repository permissions.
+# Maintainers must separately confirm Admin grants, independent approval, and
+# branch protections. Neither GitHub role authorizes nonprofit legal decisions,
+# grant applications, sponsor outreach, or financial transactions.
+* @CompleteDotTech @appletechie

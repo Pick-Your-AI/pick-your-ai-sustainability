@@ -170,3 +170,7 @@ All successful source accesses below occurred on **2026-10-19 UTC**. These are p
 | 10. Linked independent acceptance of actual findings | Pending actual independent review of this full note, its received inputs and all ten criteria. A validator, initial source lead or draft alone does not meet it. |
 
 The independent reviewer should bind the exact revision, disclose material conflicts, inspect the actual sources and accepted inputs, and state whether the requested generic research is acceptable with the state-specific condition retained. Record that real review and eventual delivery in #15; do not predeclare them. Completing this research would not mean that a state has been selected, an entity formed, documents adopted, a signer appointed, exemption recognized, an application submitted or funding received.
+
+## 2026-10-23 conditional Ohio source addendum
+
+The user-requested Ohio/Hamilton County/Cincinnati planning scope is now supported by a [conditional Ohio and local applicability addendum](ohio-conditional-addendum.md). It separates source rules from actual applicant facts, the two Ohio charitable regimes, local nexus, and phased research/drafting/action costs. This proposed update does not resolve actual jurisdiction or select a legal structure. [#15 criterion 2](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/15) remains open pending documentary jurisdiction evidence and required independent acceptance. The prior generic checklist and its accepted scope remain canonical.

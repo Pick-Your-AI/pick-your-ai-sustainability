@@ -63,3 +63,8 @@ These artifacts are drafts for review. Their existence does not close the owning
 ## Execution and audit evidence
 
 Read the [initial execution report](docs/execution-report.md), [Project configuration/readback](docs/project-configuration.md) and [later setup acceptance](docs/program-setup-acceptance.md) for verified issue counts, native relationships, actual field values, saved-view configuration and review status. The [audit evidence](docs/execution-report.md#evidence-index) preserves each historical observation at its recorded cutoff; the later acceptance does not rewrite those snapshots or complete the unfinished research they describe.
+
+## Contributor routing
+
+For a blocked decision, use [the repository routing procedure](CONTRIBUTING.md#routing-decisions).
+Start with the existing issue and its accepted owner; preserve its scope and evidence requirements.

@@ -1,0 +1,5 @@
+# Showcase content overrides (content only; colours and fonts come from the skill's brand data).
+for: Pick-Your-AI/pick-your-ai-sustainability
+chips:
+  key: ["Funding research"]
+  attrs: ["Python", "Nonprofit"]

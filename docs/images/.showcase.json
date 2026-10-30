@@ -1,0 +1,80 @@
+{
+ "config_sha256": "bd2386d654a06b2602ae9a379db613a44b7718a69e59e596c1aa59b3a6519e56",
+ "fingerprint": "fb654b7c6dd2fc0d1737818ab663566d6949408c6aa9e3bf4a5d6e743960976e",
+ "inputs": {
+  "description": "Funding, grants, donated infrastructure, open-source support, nonprofit readiness, and sustainable operations for Pick Your AI.",
+  "icon_sha256": "80ded47cc30b32c236191324e12cb47ff31a1c442af0d7d645fc95dc8e9d61c9",
+  "language": "Python",
+  "license": null,
+  "override_sha256": "d4e6793b85a6fc27a2a84ad9d5126a398b76bfbd873b04f11e96a569b6fcae87",
+  "owner": "Pick-Your-AI",
+  "repo": "pick-your-ai-sustainability",
+  "topics": [
+   "ai-stack",
+   "funding",
+   "grants",
+   "nonprofit",
+   "open-source",
+   "pick-your-ai",
+   "sustainability"
+  ],
+  "type": "dataset",
+  "visibility": "public"
+ },
+ "outputs": {
+  "banner.png": {
+   "bytes": 86643,
+   "chips": [
+    {
+     "box": [
+      520,
+      235.8,
+      192.4,
+      38
+     ],
+     "kind": "key",
+     "source": "override",
+     "text": "Funding research"
+    },
+    {
+     "box": [
+      724.4,
+      235.8,
+      96.1,
+      38
+     ],
+     "kind": "attr",
+     "source": "override",
+     "text": "Python"
+    },
+    {
+     "box": [
+      832.5,
+      235.8,
+      117.8,
+      38
+     ],
+     "kind": "attr",
+     "source": "override",
+     "text": "Nonprofit"
+    }
+   ],
+   "icon_source": "repo",
+   "px": [
+    2560,
+    720
+   ],
+   "repository_id": 1424960984,
+   "scale": 2,
+   "sha256": "799cb5e512fe29c4fb72d6050e78406864a600183706b143c90b6f6e785afc41"
+  },
+  "card.svg": {
+   "bytes": 26348,
+   "repository_id": 1424960984,
+   "sha256": "568910cd300ad03fe6ab17675cc766c63ceeff349380578e8c2c5deb98024e10"
+  }
+ },
+ "schema": 1,
+ "skill_version": "1.0.0",
+ "standard": "ct-std-v1"
+}

@@ -1,16 +1,45 @@
+<!-- showcase:banner:start -->
+<p align="center">
+  <img src="docs/images/banner.png" alt="pick-your-ai-sustainability by Pick Your AI" width="100%">
+</p>
+<!-- showcase:banner:end -->
+
+<!-- showcase:nav:start -->
+**Pick Your AI** · [All repositories](https://github.com/Pick-Your-AI) · [Docs](docs/) · [Contributing](CONTRIBUTING.md) · [Security](https://github.com/Pick-Your-AI/.github/blob/main/SECURITY.md)
+<!-- showcase:nav:end -->
+
+<div align="center">
+
 # Pick Your AI — Funding, Grants & Sustainability
+
+<!-- showcase:badges:start -->
+![Language Python](https://img.shields.io/badge/language-Python-115E59)
+![Type Dataset](https://img.shields.io/badge/type-Dataset-0F766E)
+<!-- showcase:badges:end -->
+
+<!-- showcase:tagline:start -->
+**Funding, grants, donated infrastructure, open-source support, nonprofit readiness, and sustainable operations for Pick Your AI.**
+<!-- showcase:tagline:end -->
+
+</div>
+
+---
+
+## About
 
 This repository coordinates research and authorized acquisition of financial and nonfinancial support for the Pick Your AI community.
 
 [GitHub Project](https://github.com/orgs/Pick-Your-AI/projects/7) · [Issues](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues) · [Program charter](docs/charter.md) · [Contributor guide](CONTRIBUTING.md) · [Research method](docs/research-methodology.md) · [Dashboard](docs/dashboard.md)
 
-## Current boundaries
+## Notes
+
+### Current boundaries
 
 The community intends to pursue US 501(c)(3) recognition. Its legal entity, recognition, fiscal sponsor, authorized signers and financial baseline remain unverified in this program. Incorporation, federal recognition and admission to a particular provider program are separate questions. Internal research and drafting may proceed; a qualified opportunity still needs the approval required for its proposed action.
 
 The [website](https://github.com/Pick-Your-AI/pick-your-ai-website/blob/main/README.md) describes its components, prices and compatibility results as synthetic demonstration data. The [research repository](https://github.com/Pick-Your-AI/pick-your-ai-research/blob/main/README.md) owns sourced research and shared contracts. The [Apple](https://github.com/Pick-Your-AI/pick-your-ai-apple/blob/main/README.md) and [Android](https://github.com/Pick-Your-AI/pick-your-ai-android/blob/main/README.md) repositories contain bounded local work, with release acceptance still separate. The [leaderboard](https://github.com/Pick-Your-AI/pick-your-ai-leaderboard/blob/main/README.md) has local scaffolding and ingestion work; its public service remains planned. These repository sources were inspected on 2026-10-19; a funding narrative must recheck them before external use.
 
-## Program structure
+### Program structure
 
 The [independent setup acceptance](docs/program-setup-acceptance.md) accepts the published program architecture, initial pipeline and operating materials at the recorded revision. The nine epic syntheses and unfinished child outcomes keep their own acceptance requirements; organizational charter adoption and funding acquisition remain separate.
 
@@ -28,7 +57,7 @@ The required baseline is one program, nine epics and 54 independently reviewable
 | E08 — Institutional and pro bono partners | Concrete assistance and reciprocal public benefit |
 | E09 — Pipeline operations | Review, authorization, activation, reporting and sustainability |
 
-## Start a contribution
+### Start a contribution
 
 Read the owning issue and existing record; search before opening new work. Use the [provider research template](templates/provider-research.md), retain unknowns, and link applicable technical work. Propose findings by pull request under the [organization contribution rules](https://github.com/Pick-Your-AI/.github/blob/main/CONTRIBUTING.md). Independent research acceptance, externally authorized action and achieved support are separate records.
 
@@ -36,7 +65,7 @@ Navigation: [roadmap](docs/roadmap.md), [scoring](docs/scoring-and-qualification
 
 These initial documents are reviewable program drafts. Publishing them does not complete their owning research issues, verify a legal status, approve an application, or establish an award.
 
-## Prepared decision and evidence registers
+### Prepared decision and evidence registers
 
 These artifacts are drafts for review. Their existence does not close the owning research issues.
 
@@ -60,7 +89,7 @@ These artifacts are drafts for review. Their existence does not close the owning
 - [Sponsor-neutral evaluation protocol and pending demand-sized request](research/compute/evaluation-proposal.md)
 - [Compute support evidence gates and sensitivity comparison](research/compute/usable-support-ranking.md) — partial method; actual usable-support ranking awaits admitted inputs
 
-## Execution and audit evidence
+### Execution and audit evidence
 
 Read the [initial execution report](docs/execution-report.md), [Project configuration/readback](docs/project-configuration.md) and [later setup acceptance](docs/program-setup-acceptance.md) for verified issue counts, native relationships, actual field values, saved-view configuration and review status. The [audit evidence](docs/execution-report.md#evidence-index) preserves each historical observation at its recorded cutoff; the later acceptance does not rewrite those snapshots or complete the unfinished research they describe.
 

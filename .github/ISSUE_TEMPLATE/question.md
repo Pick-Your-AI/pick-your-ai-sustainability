@@ -9,7 +9,8 @@ assignees: ''
 ## Question and prior work
 
 Describe the question and link any existing issue, decision record or related work.
-Keep sensitive reports in the private security/support process.
+Keep sensitive information out of public issues. This template establishes no new
+or verified private intake; preserve any separately verified repository security policy.
 
 ## Routing context (optional)
 

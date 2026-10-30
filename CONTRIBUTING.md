@@ -101,8 +101,10 @@ team destination and a sanitized decision summary.
 When escalation is needed, include the decision needed, current responsible role,
 prior disposition and proposed next recipient. Reuse information already in the
 issue or PR; routine contributions need no full escalation history. Send nothing
-and change no assignment automatically. Sensitive reports follow the existing
-private security/support process.
+and change no assignment automatically. Keep sensitive information out of public
+issues. This routing guidance establishes no new or verified private intake.
+Follow any separately verified repository security policy; without a verified
+private destination, do not submit confidential material.
 
 The owner-selected scope of [organization issue #14](https://github.com/Pick-Your-AI/.github/issues/14)
 is all changes in Research, Sustainability, Applications, Papers, Catalog Pipeline

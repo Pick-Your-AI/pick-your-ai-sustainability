@@ -12,5 +12,6 @@ change merging and a successful private refresh; it does not promise a response
 time or assign an unaccepted owner.
 
 Keep credentials, account details, personal/customer data and confidential reports
-out of public issues. For sensitive security reports, request a private reporting route from the current responsible role without posting sensitive details; preserve
-any more specific private support route above.
+out of public issues. This routing guidance establishes no new or verified private
+intake. Follow any separately verified repository security policy; without a
+verified private destination, do not submit confidential material.

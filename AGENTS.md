@@ -1,6 +1,6 @@
 # Contributor and agent instructions
 
-Read README.md and CONTRIBUTING.md before changing files. Preserve existing work, live issue ownership and the applicable research, source-rights and review requirements. Repository routing does not authorize implementation, publication, spending or deployment. Never shut down or terminate the shared WSL VM.
+Read README.md and CONTRIBUTING.md before changing files. Preserve existing work, live issue ownership and the applicable research, source-rights and review requirements. Repository routing does not authorize implementation, publication, spending or deployment.
 
 ## Decisions and escalation
 

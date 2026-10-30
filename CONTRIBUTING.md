@@ -62,3 +62,52 @@ Markdown links and images are parsed as CommonMark, including reference links an
 The [validation workflow](.github/workflows/validate.yml) runs the same commands for pull requests to any target branch (including stacked contributions) and pushes to `main`, with only `contents: read` permission. It uses immutable releases of [checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1) and [setup-python v7.0.0](https://github.com/actions/setup-python/releases/tag/v7.0.0). Direct dependencies are pinned to official PyPI releases: [jsonschema 4.26.0](https://pypi.org/project/jsonschema/4.26.0/), [markdown-it-py 4.0.0](https://pypi.org/project/markdown-it-py/4.0.0/), [rfc3986-validator 0.1.1](https://pypi.org/project/rfc3986-validator/0.1.1/), and [PyYAML 6.0.3](https://pypi.org/project/PyYAML/6.0.3/). Reverify the official tag-to-commit mapping when updating action pins.
 
 Passing checks establishes local consistency, not independent research acceptance, current provider availability, applicant qualification or permission to apply. The separate native-relationship workflow retains its existing scope and authorization gates.
+
+## Routing decisions
+
+For an unresolved decision, first read the existing issue, its assignees, relevant
+decision record and related pull requests. Preserve accepted ownership and local
+review, evidence, security and release requirements. Routing identifies a contact;
+it does not grant access, appoint an owner, authorize publication or waive a gate.
+
+Use the canonical [escalation guide](https://github.com/Pick-Your-AI/.github/blob/main/docs/governance/ESCALATION.md) and
+[versioned routing policy](https://github.com/Pick-Your-AI/.github/blob/main/governance/escalation-policy.json). These links depend on the organization
+governance change merging; until then, use its reviewed checkout and describe the
+route as provisional. Do not claim the central tooling is installed or active.
+
+The order is repository team → repository maintainer → repository lead maintainer
+→ applicable parent teams → CompleteDotTech. Record a disposition at each level,
+including unresolved, vacant, pending-acceptance or inaccessible roles; membership,
+team-management status and repository permissions do not establish accepted
+operational ownership. Keep owner placeholders for the final fallback. Do not
+silently skip an unresolved role or treat a proposed mapping as accepted.
+
+An operator with read access must refresh the private snapshot before resolving:
+
+```sh
+python /path/to/org-checkout/governance/router.py refresh --policy /path/to/org-checkout/governance/escalation-policy.json --snapshot /private/path/routing-snapshot.json --status /private/path/routing-status.json
+python /path/to/org-checkout/governance/router.py resolve --policy /path/to/org-checkout/governance/escalation-policy.json --snapshot /private/path/routing-snapshot.json --repo Pick-Your-AI/pick-your-ai-sustainability --max-age-seconds 86400 --status /private/path/routing-status.json
+```
+
+Here `86400` is an **operator-selected example**, not an approved default. Select
+an appropriate explicit maximum age; a proposed policy value does not supply one.
+Check that refresh succeeded. If refresh fails, stop recipient selection and
+report the failure; the last successful snapshot is retained for diagnosis, not
+as a current route. Report stale or incomplete coverage explicitly. Keep snapshots,
+raw API responses, rosters and private
+identities outside public Git and public issues. Share only the necessary public
+team destination and a sanitized decision summary.
+
+When escalation is needed, include the decision needed, current responsible role,
+prior disposition and proposed next recipient. Reuse information already in the
+issue or PR; routine contributions need no full escalation history. Send nothing
+and change no assignment automatically. Keep sensitive information out of public
+issues. This routing guidance establishes no new or verified private intake.
+Follow any separately verified repository security policy; without a verified
+private destination, do not submit confidential material.
+
+The owner-selected scope of [organization issue #14](https://github.com/Pick-Your-AI/.github/issues/14)
+is all changes in Research, Sustainability, Applications, Papers, Catalog Pipeline
+and Datasets. This records scope only: current independent-review and branch/check
+requirements remain in force. Any proposed enforcement change requires separate
+approval; no review exception or CODEOWNERS change is established here.

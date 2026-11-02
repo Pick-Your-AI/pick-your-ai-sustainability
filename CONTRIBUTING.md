@@ -71,9 +71,11 @@ review, evidence, security and release requirements. Routing identifies a contac
 it does not grant access, appoint an owner, authorize publication or waive a gate.
 
 Use the canonical [escalation guide](https://github.com/Pick-Your-AI/.github/blob/main/docs/governance/ESCALATION.md) and
-[versioned routing policy](https://github.com/Pick-Your-AI/.github/blob/main/governance/escalation-policy.json). These links depend on the organization
-governance change merging; until then, use its reviewed checkout and describe the
-route as provisional. Do not claim the central tooling is installed or active.
+[versioned routing policy](https://github.com/Pick-Your-AI/.github/blob/main/governance/escalation-policy.json). These public links are now backed by the merged organization governance change
+(Pick-Your-AI/.github#23, merged 2026-10-30). A merged policy does not establish
+that central tooling is installed or active, a private snapshot is current, a
+recipient has accepted ownership, or permissions are effective. Refresh and
+validate those separately before using a route.
 
 The order is repository team → repository maintainer → repository lead maintainer
 → applicable parent teams → CompleteDotTech. Record a disposition at each level,

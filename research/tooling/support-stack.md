@@ -5,6 +5,8 @@ Canonical outcome: [E07-06 / issue #61](https://github.com/Pick-Your-AI/pick-you
 This assessment recommends a stack; it does not create an account, submit a
 request, enable an integration, appoint an operator, run a model or acquire support.
 
+**Receiving-status clarification (2026-11-17):** This is the historically accepted **2026-10-19 donor assessment**. The later text describing four **Verified** program records, corrected OpenAI/Anthropic dispositions, new Sentry/Crowdin entries, corresponding pipeline rows and freshness memberships reports **donor-revision history**, not current accepted-main state. On this documentation-only PR head the main registers still contain only `OPENAI-CODEX-OSS` and `ANTHROPIC-CLAUDE-OSS` for #61 as **Discovered / Blocked / P2**; the distinct Sentry and Crowdin entries and cited source memberships have not been delivered. Those changes require separate deduplicated, serial, validated and independently reviewed reconciliation. Issue #61 remains open despite the historical local acceptance; no software entitlement or operator authority is established.
+
 ## Decision and accepted inputs
 
 **Keep the existing public CI, checked-in documentation, source-controlled
@@ -385,7 +387,7 @@ validator execution and did not treat that earlier validator as proof of the
 two optional counters.
 
 The four program assessments are **Verified** under the
-[accepted-assessment transition rule](../../docs/operations-and-reporting.md#evidence-for-transitions).
+[accepted-assessment transition rule](../../docs/operations-and-reporting.md#transition-and-authorization-table).
 The owning research work stays **In progress**: this is acceptance of local
 findings, not remote source publication, main delivery or whole-issue completion.
 New Sustainability/Website PR events remain held until actual saved automatic

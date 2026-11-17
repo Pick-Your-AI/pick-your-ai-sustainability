@@ -28,7 +28,7 @@ Keep credentials, banking details, private donor identities, confidential applic
 
 ## Local validation
 
-Use Python 3.12 and an isolated virtual environment. From the repository root:
+Use Python 3.12, **Git** and **jq** on `PATH`, and an isolated virtual environment. The offline suite invokes `git` from `tests/test_dashboard.py` and `jq` from `tests/test_source_freshness.py`; a Python-only minimal image is insufficient even if the pinned Python requirements install successfully. From the repository root:
 
 ```sh
 python -m venv .venv

@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 50,
+  "records_count": 52,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -7378,9 +7378,9 @@
       "official_application_url": "https://developer.amd.com",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
       "legal_entity_requirements": "Qualified independent developers and OSS contributors; individual or entity terms",
-      "available_before_incorporation": "Conditionally Eligible for matching developer work",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Unknown for actual applicant; intended independent-developer/OSS route does not itself qualify this community.",
+      "available_through_fiscal_sponsorship": "Unknown; sponsor status does not establish developer acceptance, account control or authority.",
+      "available_after_501c3_recognition": "Unknown; tax recognition does not establish developer acceptance or an award.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "A qualified AMD AI Developer Program applicant and matching prototyping/development use"
@@ -7388,7 +7388,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Current page describes registration/application for complimentary credits",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -7434,7 +7434,7 @@
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Prepare a short reproducibility workload and shutdown/export plan before activation.",
+      "next_action": "Pin a rights-cleared MI300X/ROCm workload, actual offer, no-overage control and destroy/export plan for independent review; send nothing.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -7466,7 +7466,8 @@
       },
       "owning_research_key": "E05-03",
       "source_urls": [
-        "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html"
+        "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
+        "https://www.amd.com/en/developer/resources/cloud-access.html"
       ],
       "source_evidence": [
         "Current page offers an initial $100 credit to qualified AMD AI Developer Program applicants for prototyping/development.",
@@ -7480,7 +7481,8 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html"
+        "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
+        "https://www.amd.com/en/developer/resources/cloud-access.html"
       ],
       "application_url": "https://developer.amd.com",
       "internal_application_review_controls": [
@@ -7500,18 +7502,18 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Conditional research lead; no currently qualified applicant or usable capacity established",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Conditional research lead; no currently qualified applicant or usable capacity established",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -7519,6 +7521,28 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 48,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "receiving_public_source_review": {
+        "observed_on": "2026-11-17",
+        "scope": "New unauthenticated public-source screen; historical seed observations and their original dates remain preserved. Not provider confirmation, independent acceptance, account inspection, or permission to operate.",
+        "facts": [
+          "Specific product FAQ offers qualified independent developers/OSS contributors an initial $100 MI300X credit, generally expiring 30 days after deposit unless the confirmation email differs; allocation discretionary.",
+          "General cloud page instead describes 25 hours/about US$50 with 10-day expiry and card enrollment. Exact applicable offer must be reconciled.",
+          "Product FAQ retains user content ownership and limits other content use absent written permission, subject to service provision. Third-party terms and model/data/publication rights still need review."
+        ],
+        "limitations": [
+          "Actual applicant, account, award, authorized operator, usable value and effort remain Unknown; external inquiries remain unsent."
+        ]
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "source_review_status": "Source facts checked",
+        "current_disposition": null,
+        "recommended_disposition": null,
+        "next_action": "Prepare a short reproducibility workload and shutdown/export plan before activation.",
+        "available_before_incorporation": "Conditionally Eligible for matching developer work",
+        "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
+        "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements"
       }
     },
     {
@@ -7534,10 +7558,10 @@
       "official_application_url": "https://academicgrants.nvidia.com",
       "eligibility_jurisdiction": "Worldwide under the published academic-program requirements; intake is currently closed.",
       "legal_entity_requirements": "Full-time faculty at qualifying research institution",
-      "available_before_incorporation": "Ineligible for direct community application",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Ineligible for direct nonprofit application unless separate academic principal-investigator requirements are met",
-      "eligibility_status": "Ineligible for current direct applicant",
+      "available_before_incorporation": "Ineligible for direct community application under published faculty/institution criteria; any actual qualified partner Unknown.",
+      "available_through_fiscal_sponsorship": "Unknown for any actual qualified faculty PI; fiscal sponsorship alone is insufficient and intake remains closed.",
+      "available_after_501c3_recognition": "Ineligible for direct nonprofit application on tax recognition alone; separate academic PI conditions and closed intake remain.",
+      "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "A full-time faculty principal investigator at an accredited PhD-granting research institution",
         "A proposal meeting the applicable NVIDIA model/software and call requirements; intake is currently closed"
@@ -7545,7 +7569,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Closed per explicit current notice; no verified reopening date",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -7591,7 +7615,7 @@
       "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Record closed/currently ineligible status; revisit only on official reopening and confirmed partner.",
+      "next_action": "Retain closed-intake history; reconsider only against an official reopening and a verified qualified PI/institution.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -7641,7 +7665,7 @@
       ],
       "application_url": "https://academicgrants.nvidia.com",
       "gate": "Closed intake plus academic applicant prerequisite",
-      "recommended_disposition": "Not Pursuing for current direct application; retain history",
+      "recommended_disposition": "Not Pursuing for current direct application; closed intake and no qualifying academic PI evidenced",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -7661,12 +7685,12 @@
       },
       "priority_scope_note": "P3 applies to this currently closed academic-only opportunity. The owning E05-03 comparative research package includes other GPU programs and may have a different justified research priority.",
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
-      "applicant_qualification_status": "Ineligible for current direct applicant",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Not Pursuing for current direct application; closed intake and no qualifying academic PI evidenced",
       "deadline_local_time": null,
       "deadline_utc": null,
       "jurisdiction": null,
@@ -7677,6 +7701,29 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 48,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "receiving_public_source_review": {
+        "observed_on": "2026-11-17",
+        "scope": "New unauthenticated public-source screen; historical seed observations and their original dates remain preserved. Not provider confirmation, independent acceptance, account inspection, or permission to operate.",
+        "facts": [
+          "Current lead notice explicitly says new applications are not accepted; visible calls and submit links do not establish open intake.",
+          "Published criteria require full-time faculty at an accredited institution awarding PhD research degrees and relevant NVIDIA models/software; previous winners must submit results to qualify again."
+        ],
+        "limitations": [
+          "Actual applicant, account, award, authorized operator, usable value and effort remain Unknown; external inquiries remain unsent."
+        ]
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "eligibility_status": "Ineligible for current direct applicant",
+        "applicant_qualification_status": "Ineligible for current direct applicant",
+        "source_review_status": "Source facts checked",
+        "current_disposition": null,
+        "recommended_disposition": "Not Pursuing for current direct application; retain history",
+        "next_action": "Record closed/currently ineligible status; revisit only on official reopening and confirmed partner.",
+        "available_before_incorporation": "Ineligible for direct community application",
+        "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
+        "available_after_501c3_recognition": "Ineligible for direct nonprofit application unless separate academic principal-investigator requirements are met"
       }
     },
     {
@@ -12649,11 +12696,166 @@
       }
         }
       }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "GOOGLE-CLOUD-RESEARCH-CREDITS",
+      "provider": "Google Cloud",
+      "program_name": "Academic research credits",
+      "owning_research_key": "E05-03",
+      "official_program_url": "https://edu.google.com/programs/credits/research/",
+      "official_application_url": "https://edu.google.com/programs/credits/research/",
+      "application_url": "https://edu.google.com/programs/credits/research/",
+      "source_urls": [
+        "https://edu.google.com/programs/credits/research/",
+        "https://support.google.com/google-cloud-higher-ed/answer/10723679?hl=en",
+        "https://support.google.com/google-cloud-higher-ed/answer/10724373"
+      ],
+      "last_verified": "2026-11-17",
+      "available_before_incorporation": "Unknown; no qualifying institutional faculty, PhD student, postdoctoral researcher or eligible nonprofit-research applicant evidenced.",
+      "available_through_fiscal_sponsorship": "Unknown; fiscal sponsorship alone does not satisfy institutional researcher and approved-country requirements.",
+      "available_after_501c3_recognition": "Unknown; eligible nonprofit research institutions are mentioned, but ordinary 501(c)(3) recognition is insufficient.",
+      "eligibility_status": "Unknown",
+      "applicant_qualification_status": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value."
+      },
+      "priority": "P3",
+      "priority_scope_note": "Deferred optional program; owning landscape research priority is separate.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "score": null,
+      "estimated_usable_value": null,
+      "estimated_usable_value_method": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value.",
+      "benefit": "Discretionary research credit: FAQ advertises up to US$5,000 for faculty/postdoc/nonprofit-lab researchers and up to US$1,000 for PhD students; no actual award or GPU quota.",
+      "benefit_amount_or_capacity": "Discretionary research credit: FAQ advertises up to US$5,000 for faculty/postdoc/nonprofit-lab researchers and up to US$1,000 for PhD students; no actual award or GPU quota.",
+      "restrictions_and_obligations": [
+        "Application credit is nontransferable, noncommercial, proposal-specific and must activate within 60 days of declared project start. Applicant must have authority and follow applicable institutional/service terms.",
+        "Expiry conflict: application says 365 days from coupon redemption; program FAQ says 365 days from issuance. Confirm actual award terms before operations.",
+        "Program FAQ asks recipients to acknowledge the research-credit connection and award identifier in resulting research. Credits exclude Maps, support packages and cryptocurrency mining.",
+        "Billing FAQ: no retroactive coverage; wait until credits appear and use the associated billing account. Uncovered use may be payable. Publication, privacy, quota, export and any private terms require separate review."
+      ],
+      "source_evidence": [
+        "Public application requests institutional/project evidence, a proposal, pricing-calculator estimate, billing-account ID and post-expiry funding plan; no fields submitted.",
+        "This academic cloud-credit scheme differs from the existing GOOGLE-GEMINI-ACADEMIC model-credit program."
+      ],
+      "current_disposition": "Defer; institutional-partner-dependent research lead",
+      "recommended_disposition": "Defer; institutional-partner-dependent research lead",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Verify an actual qualifying researcher/institution, country, proposal, billing authority, award-specific expiry and publication acknowledgment; no account or application action.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "review": {
+        "decision": "Receiving findings acceptance pending",
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null
+      },
+      "duplicate_search": {
+        "searched_at": "2026-11-17",
+        "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
+        "canonical_match": "GOOGLE-CLOUD-RESEARCH-CREDITS"
+      }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "AWS-CLOUD-CREDIT-RESEARCH",
+      "provider": "Amazon Web Services",
+      "program_name": "AWS Cloud Credit for Research",
+      "owning_research_key": "E05-03",
+      "official_program_url": "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
+      "official_application_url": "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
+      "application_url": "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
+      "source_urls": [
+        "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
+        "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
+        "https://aws.amazon.com/awscredits/"
+      ],
+      "last_verified": "2026-11-17",
+      "available_before_incorporation": "Unknown; no eligible full-time institutional faculty/research staff or graduate researcher, account or authority evidenced.",
+      "available_through_fiscal_sponsorship": "Unknown; fiscal sponsorship does not substitute for accredited-research-institution researcher eligibility.",
+      "available_after_501c3_recognition": "Unknown; nonprofit recognition alone does not establish the published institutional researcher route.",
+      "eligibility_status": "Unknown",
+      "applicant_qualification_status": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value."
+      },
+      "priority": "P3",
+      "priority_scope_note": "Deferred optional program; owning landscape research priority is separate.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "score": null,
+      "estimated_usable_value": null,
+      "estimated_usable_value_method": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value.",
+      "benefit": "Discretionary AWS promotional credit for bounded research; student maximum US$5,000, faculty/staff uncapped advertised maximum; actual award and GPU quota Unknown.",
+      "benefit_amount_or_capacity": "Discretionary AWS promotional credit for bounded research; student maximum US$5,000, faculty/staff uncapped advertised maximum; actual award and GPU quota Unknown.",
+      "restrictions_and_obligations": [
+        "EC2 credit use limited to on-demand and Spot. Research credits cannot fund internal administration; no cash value/transfer. Excess eligible use, excluded services and taxes can create charges.",
+        "Governing terms §10(b): expiry one year from earlier receipt of code or deposit into AWS account; §9 also requires timely redemption. Application page instead describes one year from credit being applied to the account: preserve discrepancy and confirm actual notice.",
+        "Terms §8 requires prior written consent for public credit disclosures and forbids unsupported sponsorship/endorsement claims; §10(b) permits AWS recipient/customer identification using name and likeness.",
+        "Terms §11 requires strict confidentiality for service information discovered/derived/developed/learned through use. Obtain required consent and review publication rights before publishing AWS benchmark results.",
+        "Application page says Free Tier accounts ineligible for promotional credits effective 2026-02-16. Main page review estimate is 90–120 days; application page says 30–60. Rolling review is not a guaranteed decision date."
+      ],
+      "source_evidence": [
+        "Main program supports bounded tools, proofs of concept/benchmarks and research training; requires accredited-institution researcher eligibility.",
+        "Public application asks for project/service/timeline and outcome-sharing plans; JS form and private account eligibility uninspected. Separate AWS-OSS-CREDITS identity preserved."
+      ],
+      "current_disposition": "Defer; institutional-partner-dependent research lead",
+      "recommended_disposition": "Defer; institutional-partner-dependent research lead",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Confirm real institutional applicant and eligible account, reconcile conflicting timing, and qualify rights/overage/exit before any separately authorized inquiry or application.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "review": {
+        "decision": "Receiving findings acceptance pending",
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null
+      },
+      "duplicate_search": {
+        "searched_at": "2026-11-17",
+        "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
+        "canonical_match": "AWS-CLOUD-CREDIT-RESEARCH"
+      }
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 50 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
-    "The 47 existing program/channel identities, including the distinct E03-05 Sloan New Media identity, and three distinct crowdfunding identities share the same schema and stable owning research keys. E06-04 retains two physical-equipment program identities under its existing comparative issue. E04-02 distinguishes crowdfunding intake and fund control; all accepted current infrastructure, mechanism-screen, host, Sponsors and other program records remain unchanged by this addition.",
+    "Published source facts and explicit access/history limitations are recorded for all 52 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "The fifty identities present on accepted main f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1 remain preserved. Subsequent distinct receiving records share the schema and stable owning research keys; their own dated observations and pending review scopes do not extend earlier accepted findings or historical GitHub/Project audits.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",
     "Application/outcome/activation fields describe this execution; no inference is made about unknown historical accounts, awards or submissions.",

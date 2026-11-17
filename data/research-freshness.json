@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 410,
-  "records_count": 50,
+  "source_count": 416,
+  "records_count": 52,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -1860,10 +1860,43 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "AMD-DEVCLOUD"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "39a2364d9443b2bf8cbd514069735f8cfc447b07"
+        },
+        {
+          "opportunity_ids": [
+            "AMD-DEVCLOUD"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Specific current offer/FAQ, MI300X credit, 30-day expiry, billing/destruction and content rights; no account or application.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -2178,10 +2211,43 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "NVIDIA-ACADEMIC"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "39a2364d9443b2bf8cbd514069735f8cfc447b07"
+        },
+        {
+          "opportunity_ids": [
+            "NVIDIA-ACADEMIC"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Closed lead notice, faculty/institution/software requirements; historical controls do not reopen intake.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -3425,7 +3491,8 @@
       "last_verified": "2026-10-19",
       "verification_scope": "Promotional Credit Terms dated 2026-09-24; current general credit conditions, not an actual OSS award",
       "opportunity_ids": [
-        "AWS-OSS-CREDITS"
+        "AWS-OSS-CREDITS",
+        "AWS-CLOUD-CREDIT-RESEARCH"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -3433,9 +3500,41 @@
         "Before application, agreement, activation or public qualification claim",
         "Upon changed terms, source conflict or applicant/workload change"
       ],
-      "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Promotional Credit Terms dated 2026-09-24; current general credit conditions, not an actual OSS award",
+          "opportunity_ids": [
+            "AWS-OSS-CREDITS"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Monthly program review",
+            "Before application, agreement, activation or public qualification claim",
+            "Upon changed terms, source conflict or applicant/workload change"
+          ],
+          "state": "Source checked at stated scope; applicant and application acceptance remain separate",
+          "source_roles": [
+            "governing_source_evidence"
+          ],
+          "source_revision": "39a2364d9443b2bf8cbd514069735f8cfc447b07"
+        },
+        {
+          "opportunity_ids": [
+            "AWS-CLOUD-CREDIT-RESEARCH"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Current promotional terms dated 2026-09-24, credit cost/expiry/publicity/confidentiality clauses §§1–3,7–11; no account accepted.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -9817,6 +9916,138 @@
       "source_roles": [
         "unverified_research_endpoint"
       ]
+    },
+    {
+      "url": "https://www.amd.com/en/developer/resources/cloud-access.html",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Conflicting general-page 25h/about US$50/10-day offer and card terms.",
+      "opportunity_ids": [
+        "AMD-DEVCLOUD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://edu.google.com/programs/credits/research/",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Public institutional research-credit intake, proposal/billing fields, noncommercial/activation and redemption-based expiry terms.",
+      "opportunity_ids": [
+        "GOOGLE-CLOUD-RESEARCH-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://support.google.com/google-cloud-higher-ed/answer/10723679?hl=en",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Public program FAQ, award maxima, acknowledgment, issuance-based expiry and service exclusions. Base URL initially inaccessible; explicit hl=en succeeded.",
+      "opportunity_ids": [
+        "GOOGLE-CLOUD-RESEARCH-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://support.google.com/google-cloud-higher-ed/answer/10724373",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Public billing FAQ: no retroactive coverage; correct credited billing account required.",
+      "opportunity_ids": [
+        "GOOGLE-CLOUD-RESEARCH-CREDITS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Institutional researcher eligibility, rolling review, 90–120-day estimate, amounts and EC2 restrictions.",
+      "opportunity_ids": [
+        "AWS-CLOUD-CREDIT-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Actual linked public application landing text: Free Tier exclusion, proposal/outcome plans, 30–60-day estimate and account-applied expiry; JS form not entered.",
+      "opportunity_ids": [
+        "AWS-CLOUD-CREDIT-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
     }
   ],
   "rules": [
@@ -9825,7 +10056,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 377,
+  "source_evidence_url_count": 383,
   "additional_unverified_endpoint_count": 33,
   "check_policy": {
     "interval_hours": 6,

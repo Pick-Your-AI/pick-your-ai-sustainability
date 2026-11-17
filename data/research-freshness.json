@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 434,
-  "records_count": 58,
+  "source_count": 445,
+  "records_count": 61,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -10609,6 +10609,248 @@
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
       ]
+    },
+    {
+      "url": "https://sites.gatech.edu/csjuniordesigncapstone/client-commitment/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public client commitments, IP/licensing, meetings, no-charge versus client-expense distinction.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Ijwda_iE42MXyO4mWecbvAuTwQuvzWDI8MMq4IWgsTA/edit?usp=sharing",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked charter inaccessible; contents/version/obligations unread.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://gatechcscapstone.edusourcedapp.com/submit",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Embedded/JavaScript submission shell only; fields and actual intake unread.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Central overview, representative calendar, explicit USD 12,000 for-profit fee effective fall 2026; no nonprofit-fee inference.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/sponsorship/sponsor-faq",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Organization requirement, sponsor capacity/cadence, party IP agreement and matching scope.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students/msim",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Selected MSIM course/maximum team and internship limits; no borrowed Informatics/MLIS terms.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://forms.gle/QFDgnDN9UQ8PxwD88",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Linked sponsor intake inaccessible; actual fields and submission status unread.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://www.cs.cmu.edu/education/capstones/capstone-programs/capstones-s3d",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "S3D comparison selects Scalable Systems practicum; advertised literal dollar fees and recurring course description, no currency inferred.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://www.cs.cmu.edu/education/capstones/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Sponsor mentor, fee, educational agreement, prototype and case-study/licensing overview; complete agreement unread.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://mse.s3d.cmu.edu/companies/sponsorship.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Technical-contact and recurring August/December expectations; promotional capacity not monetized.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfOSqhAkwAsDE8z5jO7EPdSCzBN-PLphJz4KqkK3-Uoi4go3Q/viewform?embedded=true",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Only organization-information first page readable; later pages, consent and final submission uninspected.",
+      "opportunity_ids": [
+        "CMU-MSE-SS-PRACTICUM"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
+      ]
     }
   ],
   "rules": [
@@ -10617,7 +10859,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 402,
+  "source_evidence_url_count": 413,
   "additional_unverified_endpoint_count": 32,
   "check_policy": {
     "interval_hours": 6,

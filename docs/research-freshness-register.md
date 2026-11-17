@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **434 distinct source and endpoint URLs** for 58 opportunity records: 402 referenced URLs (401 canonical `source_urls` plus 1 additional discovery URLs), and 32 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
+The [source register](../data/research-freshness.json) tracks **445 distinct source and endpoint URLs** for 61 opportunity records: 413 referenced URLs (412 canonical `source_urls` plus 1 additional discovery URLs), and 32 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -103,3 +103,8 @@ The 2026-11-17 preparation for [#59](https://github.com/Pick-Your-AI/pick-your-a
 ## Receiving batch: Institutional homes and nonprofit capacity routes
 
 The 2026-11-17 preparation for [#62](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/62) reconciles `ECLIPSE-PROJECT-HOSTING`, `ASF-INCUBATOR`, `FFWD-NONPROFIT-ACCELERATOR`, `ECHOING-GREEN-FELLOWSHIP`. It preserves all unrelated records, original source dates and existing mechanism/review history. New records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.
+
+
+## Receiving batch: Academic capstone collaboration alternatives
+
+The 2026-11-17 preparation for [#63](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/63) reconciles `GATECH-CS-JUNIOR-DESIGN`, `UW-ISCHOOL-MSIM-CAPSTONE`, `CMU-MSE-SS-PRACTICUM`. It preserves all unrelated records, original source dates and existing mechanism/review history. New records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.

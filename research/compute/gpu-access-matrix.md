@@ -16,9 +16,41 @@ No specific provider has approved Pick Your AI, any project representative, any 
 | NVIDIA Academic Grant Program | Competitive research support including GPU cloud/hardware/software, on topics and platform requirements stated by NVIDIA. | Official program page says **not accepting new applications**, despite containing historical calls and submit links. | Applicant must be full-time faculty at an accredited institution awarding PhD research degrees. A partner mentioned in a proposal is not an actual qualified PI. | **Defer / intake closed**. No current award route evidenced. |
 | Hugging Face Spaces community GPU | Community grants may help qualifying public Spaces with upgraded GPU hardware. Ordinary GPU Space hardware has published hourly pricing; a grant is discretionary. | Official Spaces documentation provides a grant request within Space settings, not an unconditional entitlement. | Valid for a public Space demonstrator with compatible runtime, quotas and data rights. It is **not** unrestricted, researcher-controlled GPU VM time, and paid replicas/upgrades can incur charges. | **Conditional public-demo route**; not counted as free benchmark cluster capacity. |
 | Google Cloud academic research credits | Official application describes research credits, a proposal and estimated cost/calculator; Google advertises a research-credit program for eligible researchers. | Public application page shows an intake form; submission not attempted. The offer states activation/expiry and noncommercial academic-use conditions. | Restricted to faculty, PhD students and postdoctoral researchers at accredited higher-education institutions or eligible nonprofit research institutions in approved countries. A general nonprofit or fiscal sponsor is not presumed to qualify. The official application asks for an actual **billing-account ID**; credits must be activated **within 60 days of the start date** and do not retroactively cover work already run or charged to a different account. Starting a pilot before activation can create payable cash. The application and program FAQ differ as to whether the 365-day expiry runs from redemption or issuance; use the actual award notice. Credit eligibility does not guarantee a specific GPU SKU or quota. | **Institutional-partner-dependent lead**; no applicant, quota or credits verified. |
-| AWS Cloud Credit for Research | AWS promotional research credits for bounded proofs of concept, benchmark comparisons, reproducible tools and tutorials; EC2 use under the program is limited to on-demand and Spot. | Official program describes **rolling review**, typical **90–120-day cycles** and research-institution eligibility. | Full-time faculty/staff or graduate researchers at accredited research institutions; requires institutional email and AWS account. The [AWS Promotional Credit Terms](https://aws.amazon.com/awscredits/) require prior written consent to disclose the credit (§8) and restrict disclosure of information learned through the service (§11). Do not publish named award details or measured AWS benchmark results without reviewing both provisions and obtaining any required written consent. No unsponsored community entitlement is established; actual GPU instance/quota and award remain unknown. | **Institutional-partner-dependent lead**; not available to count in current usable capacity. |
+| AWS Cloud Credit for Research | AWS promotional research credits for bounded proofs of concept, benchmark comparisons, reproducible tools and tutorials; EC2 use under the program is limited to on-demand and Spot. | Official program describes **rolling review**, typical **90–120-day cycles** and research-institution eligibility; the linked application landing page instead estimates **30–60 days**. Neither is a guaranteed response date. | Full-time faculty/staff or graduate researchers at accredited research institutions; a valid AWS account is required by the credit terms, while the earlier institutional-email prerequisite attribution was not renewed by this recheck. The [AWS Promotional Credit Terms](https://aws.amazon.com/awscredits/) require prior written consent to disclose the credit (§8) and restrict disclosure of information learned through the service (§11). Do not publish named award details or measured AWS benchmark results without reviewing both provisions and obtaining any required written consent. No unsponsored community entitlement is established; actual GPU instance/quota and award remain unknown. | **Institutional-partner-dependent lead**; not available to count in current usable capacity. |
 
-**Offer conflicts and time bounds:** AMD's program-specific [$100/30-day member terms](https://developer.amd.com/resources/) and [AMD Developer Cloud FAQ](https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html) conflict with the [general cloud comparison's 25h/~$50/10-day description](https://www.amd.com/en/developer/resources/cloud-access.html). Neither is a usable credit without confirming the exact applicant offer, account region, hardware class, terms and expiry. Do not substitute an old promotional figure or advertise a guaranteed grant.
+**Offer conflicts and time bounds:** AMD's program-specific [$100/30-day Developer Cloud FAQ](https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html) conflicts with the [general cloud comparison's 25h/~$50/10-day description](https://www.amd.com/en/developer/resources/cloud-access.html). Neither is a usable credit without confirming the exact applicant offer, account region, hardware class, terms and expiry. Do not substitute an old promotional figure or advertise a guaranteed grant.
+
+**Dated public-source supplement — 2026-11-17; receiving acceptance pending.**
+The earlier screen attributed member credit terms to `developer.amd.com/resources/`.
+The later read found resources/navigation there, without those terms; use the
+specific AMD Developer Cloud FAQ for the $100/30-day statement. Preserve the
+conflicting general-page offer and verify the actual confirmation email.
+
+Google's program FAQ asks recipients to acknowledge the research-credit connection
+and award identifier in resulting research. Its 365-day expiry runs from **issuance**,
+while the application terms say **coupon redemption**; neither observation resolves
+the actual award. The billing FAQ separately says credits are nonretroactive and
+the workload must use the credited billing account. [G1–G3]
+
+AWS's [actual linked application landing page](https://pages.awscloud.com/aws-cloud-credit-for-research.html)
+says **Free Tier accounts are ineligible for promotional credits effective
+2026-02-16**. It estimates 30–60-day review versus the program page's 90–120 days,
+and describes expiry one year after credit is applied to an account. The governing
+promotional terms **§10(b)** instead expire research credit one year from the
+**earlier of receiving the code or its deposit into the AWS account**; §9 also
+requires timely redemption. Preserve these conflicts and confirm the actual offer.
+The application proposes sharing outcomes, but that does not waive §8's prior
+written consent for public credit disclosures or §11's confidentiality of service
+information learned or derived through use. Section 10(b) permits AWS to use the
+recipient's name and likeness to identify a research-credit recipient/customer.
+Actual account eligibility, publication consent, workload rights and operator
+remain **Unknown**. No form was submitted; the JavaScript form was not inspected.
+[W1, W3–W4]
+
+The original AWS FAQ screen attributed institutional email/account prerequisites
+to W2. The later public read did not renew that specific claim: linked proposal,
+acknowledgment and credit/billing FAQ child pages redirected to the general Public
+Sector page. Those redirects are access limitations, not verified program terms.
 
 ## Three legal/applicant situations (separate determinations)
 
@@ -67,16 +99,17 @@ The calculation must retain Unknowns as Unknown, enforce zero-overage and explic
 | Ref | Publisher, URL | What was inspected / evidence limit |
 | --- | --- | --- |
 | A1 | AMD, https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html | Developer cloud, $100 program-linked credit, expiry, third-party billing, ownership/teardown conditions; not an applicant decision |
-| A2 | AMD AI Developer Program, https://developer.amd.com/resources/ | Member-program credit conditions and 30-day term; must reconcile other official AMD page |
+| A2 | AMD AI Developer Program, https://developer.amd.com/resources/ | Earlier credit-term attribution not sustained by later 2026-11-17 read: current resources/navigation only; use A1 for the specific offer |
 | A3 | AMD cloud overview, https://www.amd.com/en/developer/resources/cloud-access.html | Conflicting 25-hour/$50/10-day description; exact offer uncertain |
 | N1 | NVIDIA, https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/ | Faculty eligibility, proposed resources, explicit closed intake; visible historical links not treated as open |
 | H1 | Hugging Face, https://huggingface.co/docs/hub/en/spaces-gpus | Space hardware and discretionary community GPU grant; not unrestricted VM access |
 | G1 | Google for Education, https://edu.google.com/programs/credits/research/ | Academic/nonprofit research institution criteria and noncommercial research-credit form; no application or quota |
 | W1 | AWS, https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/ | Rolling application, institutional researcher definitions, EC2 and credit conditions; no award |
-| W2 | AWS FAQ, https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/ | Institutional email/account prerequisites and excluded general workloads |
-| W3 | AWS Promotional Credit Terms, https://aws.amazon.com/awscredits/ | §8 credit-disclosure consent; §11 confidentiality of information learned through service; public research does not substitute for consent |
+| W2 | AWS FAQ, https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/ | Earlier prerequisite attribution preserved as history; later related FAQ child-page redirects do not verify those specific terms |
+| W3 | AWS Promotional Credit Terms, https://aws.amazon.com/awscredits/ | Displayed updated 2026-09-24; §§8–11 disclosure consent, research expiry, AWS identification and service-information confidentiality; public research does not substitute for consent |
+| W4 | AWS linked application, https://pages.awscloud.com/aws-cloud-credit-for-research.html | Public landing text: Free Tier exclusion, conflicting review/expiry descriptions and outcome-sharing plan; JavaScript form not inspected |
 | G2 | Google billing FAQ, https://support.google.com/google-cloud-higher-ed/answer/10724373 | Account-specific credit use, nonretroactive charges and activation controls |
-| G3 | Google program FAQ, https://support.google.com/google-cloud-higher-ed/answer/10723679 | Published expiry trigger discrepancy; actual award notice controls |
+| G3 | Google program FAQ, https://support.google.com/google-cloud-higher-ed/answer/10723679?hl=en | Acknowledgment/award-identifier guidance and issuance-based expiry; initial bare-URL read failed, explicit English URL succeeded; actual award notice still required |
 
 These sources are checked **as of the indicated date only**; they may change and should be rechecked before any actual decision. Only first-party published terms were read, with no account authentication, third-party SDK invocation, benchmarking, payment or registration.
 

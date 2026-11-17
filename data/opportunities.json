@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 62,
+  "records_count": 63,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -9904,9 +9904,9 @@
       "official_application_url": "https://summerofcode.withgoogle.com/how-it-works",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
       "legal_entity_requirements": "Open-source mentoring organization meeting program rules",
-      "available_before_incorporation": "Conditionally Eligible in a future confirmed intake",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Unknown; actual selected OSI-licensed released project, active community, mentors and capacity unverified.",
+      "available_through_fiscal_sponsorship": "Unknown; an actual host might administer receipts, but program recognition, host authority and mentor/participant requirements remain separate.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish project maturity, active community, mentor coverage, intake or acceptance.",
       "eligibility_status": "Unknown; closed intake",
       "eligibility_conditions": [
         "An open-source project seeking mentoring-organization acceptance",
@@ -9915,7 +9915,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Organization registration closed; next-cycle dates not verified",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -9925,7 +9925,9 @@
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "restrictions_and_obligations": [
         "Requires sustained mentor capacity and evaluations.",
-        "Do not assign mentors or invent calendar dates."
+        "Do not assign mentors or invent calendar dates.",
+        "No current round rules/form or future deadline verified; keep dated 2026 table/summary conflict and 2025 guide preference explicit.",
+        "Primary mentor, backup and administrator are proposed internal capacity roles, not assigned people or provider-count requirements; learning, accepted contribution and downstream use are separate outcomes."
       ],
       "program_objectives": "See official program evidence",
       "fit_with_pick_your_ai": "Future bounded education/contributor growth once maintainers can mentor reliably.",
@@ -9958,6 +9960,27 @@
           "last_verified": "2026-10-19",
           "last_attempted": "2026-10-19",
           "review_scope": "2026 contributor schedule, not a future-cycle deadline: evaluation-linked 45%/55% installments, residency/processor conditions. Country amount-table presence does not override FAQ eligibility exclusions."
+        },
+        {
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Explicit dated 2026 table: historical organization application deadline Feb 3 at 18:00 UTC; summary differs, late-year completion is not new intake. Attributed to pinned standalone note; no new provider read in this receiving preparation."
+        },
+        {
+          "url": "https://developers.google.com/open-source/gsoc/help/responsibilities",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Contributor/mentor/admin guidance dated July 23 2024: teaching, regular communication, evaluations and administrator coverage; no actual people committed. Attributed to pinned standalone note; no new provider read in this receiving preparation."
+        },
+        {
+          "url": "https://google.github.io/gsocguides/mentor/org-application",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "last_attempted": "2026-10-19",
+          "review_scope": "Active-community/maturity/ideas guidance; at least five active people and age question; explicit 2025 preference remains historical. Attributed to pinned standalone note; no new provider read in this receiving preparation."
         }
       ],
       "scoring": {
@@ -9975,7 +9998,7 @@
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Assess readiness and record only officially published future intake dates.",
+      "next_action": "Obtain independent receiving acceptance of finite plan; assess real primary/backup/admin capacity and a current owner-selected learning brief before any future program action.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -10009,7 +10032,10 @@
       "source_urls": [
         "https://summerofcode.withgoogle.com/how-it-works",
         "https://developers.google.com/open-source/gsoc/faq",
-        "https://developers.google.com/open-source/gsoc/help/student-stipends"
+        "https://developers.google.com/open-source/gsoc/help/student-stipends",
+        "https://developers.google.com/open-source/gsoc/timeline",
+        "https://developers.google.com/open-source/gsoc/help/responsibilities",
+        "https://google.github.io/gsocguides/mentor/org-application"
       ],
       "source_evidence": [
         "Current official workflow lets OSS projects apply as mentor organizations; accepted organizations supply mentors and select contributor proposals.",
@@ -10025,7 +10051,10 @@
       "source_refs": [
         "https://summerofcode.withgoogle.com/how-it-works",
         "https://developers.google.com/open-source/gsoc/faq",
-        "https://developers.google.com/open-source/gsoc/help/student-stipends"
+        "https://developers.google.com/open-source/gsoc/help/student-stipends",
+        "https://developers.google.com/open-source/gsoc/timeline",
+        "https://developers.google.com/open-source/gsoc/help/responsibilities",
+        "https://google.github.io/gsocguides/mentor/org-application"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
       "gate": "Closed intake and unverified mentor capacity",
@@ -10047,12 +10076,12 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Oct 19 public-source mentorship findings summarized; current receiving acceptance and future-cycle terms pending.",
       "applicant_qualification_status": "Unknown; closed intake",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "P2 prepare mentoring capability; defer application and participant recruitment. Oct 19 closed-intake observation is not a new-cycle decision.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "jurisdiction": null,
@@ -10106,6 +10135,19 @@
           "Independent in-session findings review recorded as COMMENT; no separate-account formal approval or legal/financial appointment.",
           "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
           "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
+        ]
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "available_before_incorporation": "Conditionally Eligible in a future confirmed intake",
+        "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
+        "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+        "current_disposition": null,
+        "source_review_status": "Source facts checked",
+        "next_action": "Assess readiness and record only officially published future intake dates.",
+        "restrictions_and_obligations": [
+          "Requires sustained mentor capacity and evaluations.",
+          "Do not assign mentors or invent calendar dates."
         ]
       }
     },
@@ -13785,10 +13827,94 @@
         "observation_date": "2026-11-17",
         "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
       }
+    },
+    {
+      "opportunity_id": "LFX-MENTORSHIP-HOST",
+      "provider": "Linux Foundation",
+      "program_name": "LFX Mentorship project enrollment",
+      "owning_research_key": "E08-05",
+      "category": "partnership",
+      "support_type": "mentorship",
+      "official_program_url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+      "official_application_url": "https://mentorship.lfx.linuxfoundation.org/",
+      "source_urls": [
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+        "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+        "https://www.linuxfoundation.org/legal/service-terms",
+        "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+        "https://mentorship.lfx.linuxfoundation.org/"
+      ],
+      "source_refs": [
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+        "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+        "https://www.linuxfoundation.org/legal/service-terms",
+        "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+        "https://mentorship.lfx.linuxfoundation.org/"
+      ],
+      "last_verified": "2026-10-19",
+      "available_before_incorporation": "Unknown; community projects contemplated but actual authorized maintainer, eligible project, mentors and platform authority unverified.",
+      "available_through_fiscal_sponsorship": "Unknown; hosting alone supplies no project-enrollment, mentor, participant or platform-authority facts.",
+      "available_after_501c3_recognition": "Unknown; recognition supplies no open-source fit, enrollment, term or program prerequisites.",
+      "eligibility_status": "Unknown; actual applicant, capacity, authority and admission not established",
+      "applicant_qualification_status": "Unknown",
+      "application_gate": "Not authorized; research records no provider application, enrollment, agreement, transfer, participant recruitment or spending.",
+      "application_status": "Public project-enrollment/LF review process documented; portal exposed no readable program/form; selected project, term and current intake Unknown.",
+      "source_review_status": "Dated public-source findings summarized from standalone research; independent receiving acceptance pending.",
+      "work_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "priority": "P2",
+      "score": null,
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; actual applicant eligibility, accepted capacity, cost, effort and usable value remain Unknown."
+      },
+      "estimated_usable_value": null,
+      "benefit_amount_or_capacity": "Potential contributor learning and supervised open-source project participation, not allocated engineering labor or a project cash grant.",
+      "currency": null,
+      "valuation_method": "No received benefit. Compare only accepted necessary output with evidenced replacement cost, subtracting actual fees, migration, supervision and maintenance; keep conditional cash separate from avoided cost.",
+      "restrictions_and_obligations": [
+        "LF reviews project enrollment; actual form and current term not inspected. UTC calendar-day application guide does not identify an open listing.",
+        "Platform agreement separates repository contributions (4.1), enduring platform-content licence (4.3), nonconfidential assigned feedback (4.6) and survival (2.5); rights review before use.",
+        "Nov 7 2020 service terms make stipends conditional with mentee as final recipient and include section 2.2.11 U.S. Activities representation; historical country examples do not settle actual applicability.",
+        "Profile/application/payment visibility and public data handling require actual privacy/consent review. No backup, portability, renewal or equipment/paid-service entitlement.",
+        "Real willing primary/backup/admin capacity, meaningful owner-cleared task, safe reporting and finite exit plan required before offering a place; no people or learned outcomes established."
+      ],
+      "fit_with_pick_your_ai": "Proposed artifact-to-inventory evidence explanation exercise; learning and contribution outcomes measured separately, no new implementation or participant observation.",
+      "current_disposition": "P2 defer enrollment; complete program/rights and actual capacity gates.",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "next_action": "Complete bounded source/intake and rights/capacity questions, reconcile shared projections, then obtain independent receiving acceptance; external actions remain gated.",
+      "next_action_date": null,
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "actual_applicant": "Unknown",
+      "actual_host": "Unknown",
+      "actual_participants": "Unknown",
+      "actual_action_authority": "Unknown",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66",
+      "application_outcome": "No submission established; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation established; prior account state Unknown",
+      "reporting_status": "No actual agreement or operating reporting calendar established",
+      "evidence_provenance": {
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md",
+        "observation_date": "2026-10-19",
+        "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
+      }
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 62 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "Published source facts and explicit access/history limitations are recorded for all 63 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "The fifty identities present on accepted main f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1 remain preserved. Subsequent distinct receiving records share the schema and stable owning research keys; their own dated observations and pending review scopes do not extend earlier accepted findings or historical GitHub/Project audits.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",

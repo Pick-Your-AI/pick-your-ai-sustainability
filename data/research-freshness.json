@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 450,
-  "records_count": 62,
+  "source_count": 459,
+  "records_count": 63,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -11063,6 +11063,207 @@
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md"
       ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/timeline",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Explicit dated 2026 table: historical organization application deadline Feb 3 at 18:00 UTC; summary differs, late-year completion is not new intake.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://developers.google.com/open-source/gsoc/help/responsibilities",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Contributor/mentor/admin guidance dated July 23 2024: teaching, regular communication, evaluations and administrator coverage; no actual people committed.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://google.github.io/gsocguides/mentor/org-application",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Active-community/maturity/ideas guidance; at least five active people and age question; explicit 2025 preference remains historical.",
+      "opportunity_ids": [
+        "GSOC-MENTOR-ORG"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Public enrollment/preparation materials and LF review; actual form not inspected.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
+      ]
+    },
+    {
+      "url": "https://docs.linuxfoundation.org/lfx/mentorship/administrators/open-close-mentorship-applications",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete UTC term application-window guide; no selected term.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/platform-use-agreement/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Aug 14 2024 agreement scoped rights/authority/survival findings; no terms accepted.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/service-terms",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Nov 7 2020 mentorship section, including stipends and 2.2.11 U.S. Activities; no actual participant/legal decision.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
+      ]
+    },
+    {
+      "url": "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Feb 19 2025 mentorship profile/application/payment data and visibility scope, not project consent.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
+      ]
+    },
+    {
+      "url": "https://mentorship.lfx.linuxfoundation.org/",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Portal zero readable lines; selected listing, dates and form unverified.",
+      "opportunity_ids": [
+        "LFX-MENTORSHIP-HOST"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
+      ]
     }
   ],
   "rules": [
@@ -11071,7 +11272,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 419,
+  "source_evidence_url_count": 428,
   "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,

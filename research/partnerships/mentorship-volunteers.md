@@ -2,6 +2,8 @@
 
 **E08-05 / [Sustainability #66](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/66). Research date: 2026-10-19 UTC. Status: complete research findings independently accepted; canonical publication pending.** This plan supplies a program comparison, capacity requirements and a prospective measurement design. It supplies no mentor commitment, participant, program admission, employment determination, completed learning outcome or provider award.
 
+**Receiving-status note (2026-11-17):** This documentation-only receiving revision preserves the accepted **2026-10-19 donor assessment**. Its later references to a structured successor with **42 records / 279 tracked URLs**, GSoC updates, an independent LFX entry, pipeline projections, scoped freshness memberships and `research_acceptance_history` describe **donor-revision history**, not accepted-main state. On this PR head, the shared registers still have the accepted-main GSoC seed but no distinct LFX program entry or donor acceptance-history transition; these additions have not been reconciled. Issue #66 remains open pending reviewed serial register/freshness/pipeline integration, current-source qualification and independent receiving acceptance. No mentor, organization or provider commitment is inferred.
+
 ## 1. Decision and scope
 
 **Prepare the mentoring capability; defer applications and participant recruitment.** GSoC is a conditional future route: its public organization registration is closed, and the explicitly dated 2026 organization deadline has passed. LFX has a documented project-enrollment process, but no current Pick Your AI program, available intake or approved project has been verified. A useful plan can be completed while those operational facts remain Unknown. It does not reserve volunteer time or make product delivery depend on unpaid output. [S1–S3, S9–S12]
@@ -211,7 +213,7 @@ The LF platform agreement link originally used the `lfx.linuxfoundation.org/plat
 
 Recheck these facts at a verified new intake, before an invitation/application/agreement, on any redirect/error or changed term, and through the existing monthly review process. Successful review dates for unreadable endpoints remain null. A link from a readable guide cannot refresh a missing form. `next_action_date`, internal owner assignments and final scores stay null; a research checkpoint is not a provider deadline.
 
-The structured successor contains 42 records and 279 tracked URLs: 253 canonical `source_urls` members plus 26 additional endpoints. These are membership counts, not successful verification. The 40 unrelated program/pipeline rows and all 255 original freshness rows retain their scopes and order; new E08-05 observations are separate.
+The historical donor structured successor (not this receiving PR's main registers) contained 42 records and 279 tracked URLs: 253 canonical `source_urls` members plus 26 additional endpoints. These are membership counts, not successful verification. The 40 unrelated program/pipeline rows and all 255 original freshness rows retain their scopes and order; new E08-05 observations are separate.
 
 ## 12. Remaining questions and next decisions
 

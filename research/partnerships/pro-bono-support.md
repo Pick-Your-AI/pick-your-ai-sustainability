@@ -1,0 +1,86 @@
+# Pro bono legal, finance/governance and grant-writing support
+
+**Owning issue:** [#65 / E08-04](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65) · Parent [E08](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/9) · **Official source review:** 2026-11-17.  
+**Status:** new public-source referral and unsent-brief draft. Historic independently reviewed local-only #65 source is not represented as delivered or copied; actual independent receiving acceptance, program-register reconciliation and any organizational applicant decision remain outstanding. No inquiry, membership registration, legal engagement, account creation, solicitation or spending was performed.
+
+## Recommendation
+
+**P1 research, conditional; no present applicant is qualified.** Prioritize an actual legal-scope and applicant-entity decision before pro bono intake. The **Software Freedom Law Center (SFLC)** is a specific FOSS licensing/IP/nonprofit-governance legal lead; it makes no guarantee to accept this project as a client. **Taproot Plus** advertises cost-free structured volunteer consultation and projects for verified nonprofits and fiscally sponsored organizations in supported regions; a merely unincorporated community is not automatically eligible. **Catchafire** is a secondary capacity-building platform with sponsored or waitlisted free access, not guaranteed immediate volunteer support. Grant drafting and financial work need independent professional acceptance and governance controls; neither a volunteer match nor a platform account makes a filing, charitable claim or financial transaction authorized.
+
+Numerical score under the program's 20/20/15/10/10/10/10/5 rubric: **Not scored (eligibility, committed support, capacity, time, cost and usable value Unknown).** No cash award, donated hours, tax status, fiscal sponsor, board, authorized signatory, counsel relationship or organizational acceptance is established.
+
+## Provider referral matrix
+
+| Source / exact service | Publicly documented access and restrictions | Three actual applicant situations and disposition |
+| --- | --- | --- |
+| [SFLC — FOSS services](https://softwarefreedom.org/services/) | Public source lists FOSS license development/implementation, trademarks, FOSS legal education, nonprofit formation/tax exemption, contracts/governance, litigation support. SFLC describes pro bono services to FOSS developers; the page does not promise acceptance of every request, Ohio legal representation, availability, duration, price for outside work or a standing deadline. [Legal advice channel](https://softwarefreedom.org/about/contact/) exists; **nothing was sent**. | **Unincorporated:** may have an FOSS question but client acceptance/representation Unknown. **Fiscally sponsored:** an actual sponsor/client and scope/conflicts must be verified. **Recognized 501(c)(3):** charitable status does not guarantee FOSS fit or retained counsel. **Disposition: conditional P1 legal referral, no advice or representation claimed.** |
+| [Taproot Plus](https://taprootfoundation.org/taproot-plus) | Official platform offers free **one-hour sessions** and multi-week scoped volunteer projects across finance, strategy, operations and technology. [Current eligibility guidance (updated 2026-10-05)](https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility) lists registered nonprofits/charities, fiscally sponsored organizations and public schools in the US, UK, Canada, EU or India; excludes specified discriminatory or religious/political doctrinal activities. No fixed application deadline was found. Acceptance, volunteer supply and professional credentials are not guaranteed. | **Unincorporated:** not a listed qualifying type on its own. **Fiscally sponsored:** *conditionally within stated category*, requiring a real sponsorship and platform review. **Recognized 501(c)(3):** *potentially within nonprofit category*, actual status and acceptance Unknown. **Disposition: conditional P1 finance and grant-readiness resource; no legal representation assumed.** |
+| [Catchafire](https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join) | Official help (2026-07-13) describes foundation-sponsored nonprofit access and applying for a free place if not sponsored; the latter requires an available slot. Volunteer work includes scoped 5–50-hour projects or one-hour calls. It says no current paid nonprofit memberships; actual admission, matching and service supply unverified. | **Unincorporated:** nonprofit/social-good applicant category and platform discretion require confirmation. **Fiscally sponsored:** specific fiscal-host approval Unknown. **Recognized 501(c)(3):** may fit charitable purpose, but invitation/free slot and volunteer match not assured. **Disposition: P2 alternative, not an immediate service or donated value.** |
+| [Lawyers Alliance for New York](https://lawyersalliance.org/becoming-a-client) | Pro bono nonprofit legal assistance requires benefit to low-income people/communities **in New York City** and a case-by-case intake. | **All three routes:** no New York City service nexus is established for this project. **Disposition: No fit on current facts**, not a presumed local Cincinnati legal provider. |
+
+**Source provenance:** these are provider statements, not contracts, actual eligibility rulings or current account-state observations. No legal/finance/accounting representation, conflict check or client acceptance has taken place. A nonprofit-research issue does not transfer a license-compatibility or legal-entity decision from the responsible technical/legal owners.
+
+## Workstream gate and referral priority
+
+| Need | Appropriate specialist, documented output | Professional and acceptance boundary |
+| --- | --- | --- |
+| FOSS licensing, IP, trademark and nonprofit governance | Licensed attorney/firm competent in relevant jurisdiction, FOSS obligations and nonprofit law; source-dependent legal options brief, asset/IP map, conflict/representation terms and jurisdiction-specific escalation | A platform volunteer is not necessarily a lawyer. Attorney-client formation, privilege, engagement letter, conflicts, jurisdiction and authorized client representative must be determined **before** individualized advice. This memo is research, **not legal advice**. |
+| Financial controls, accounting and governance | Appropriately credentialed finance professional/CPA when needed; draft chart of accounts, separation of project/fiscal sponsor funds, approval thresholds, restricted-grant handling, budget variance template, reconciliation and public reporting controls | Bookkeeping guidance does not equal an audit, attestation, filing, tax opinion, legally authorized signatory, or financial oversight. Never receive donor data, tax IDs, bank details or credentials through public volunteer intake. |
+| Grants, applications and public benefit | Experienced grant writer and subject-matter reviewer; source-linked prospect matrix, narrative, eligibility/requirement gap analysis, evidence checklist, budget-assumptions note and approval-ready *unsent* proposal | No applications, unapproved fundraising, invented PI, board decision, charitable status, donor endorsements, paid grant-writing or provider commitments. Counsel/finance reviewer must sign off on binding terms where appropriate. |
+
+The [entity baseline](../../docs/nonprofit/entity-baseline.md), [charter](../../docs/charter.md), [scoring method](../../docs/scoring-and-qualification.md), [authorization workflow](../../docs/workflow-and-authorization.md) and [funding-needs assessment](../../docs/funding/needs-assessment.md) are *internal preparation*, not proof of an incorporated charity or accepted fiscal sponsor.
+
+## Three unsent engagement briefs (synthetic proposals only)
+
+### Brief 1: FOSS legal / governance (SFLC or appropriate counsel)
+
+**Problem:** choose how the actual FOSS license, trademarks, repository contributors and outputs can remain publicly reusable under a legally suitable stewardship model without unsupported nonprofit authority claims.
+
+**Scope:** review a fixed public repository/licensing inventory and a sanitized rights matrix; flag unresolved ownership, trademark, dual-license and fiscal-host contracts; provide a risk/decision table showing what can be done now versus only after entity/client approval. Include a question list for Ohio-specific incorporation/charitable-solicitation counsel rather than inventing one.
+
+**Definition of acceptable output:** dated primary citations, precise jurisdiction/representation limits, feasible governance options, written conflict/privilege and source-rights handling, and a handoff to the actual authorized decision maker. Any attorney-client agreement or filing is a *separate* decision. No private material is attached or sent here.
+
+### Brief 2: Accounting / finance / governance (Taproot or separately qualified professional)
+
+**Problem:** independently define minimally sufficient controls to track potential donated infrastructure, restricted credit, volunteer costs, grant commitments and fiscal-sponsor reports without treating noncash credits as cash revenue.
+
+**Scope:** review sanitized *synthetic* budget and approval records, existing [operating-budget method](../../docs/funding/operating-budget.md) and [financial-control draft](../../docs/operations/financial-controls-draft.md). Produce a chart-of-accounts proposal, responsibility/segregation matrix, cash-vs-avoided-cost accounting notes, internal approval/receipt control and monthly variance walk-through.
+
+**Definition of acceptable output:** an offline worked example and scope-specific, credential-appropriate review; zero access to real accounts, credentials, tax IDs or private donations. A CPA/auditor opinion and entity signoff, if required, must be separately contracted or authorized.
+
+### Brief 3: Grant preparation / evidence review (Taproot or Catchafire if accepted)
+
+**Problem:** help make a neutral, traceable public-benefit case without inventing verified organization, research partner, funding or operating metrics.
+
+**Scope:** scrutinize the public [funding needs](../../docs/funding/needs-assessment.md), [public benefit plan](../../docs/funding/public-benefit-measurement-plan.md), versioned source links and program-specific eligibility notes. Prepare one synthetic funder-aligned application outline, a source citation ledger, mandatory approvals/checklist, missing-evidence register and reviewer feedback.
+
+**Definition of acceptable output:** unsent draft with Unknown fields preserved, explicit conflict/independence handling, recorded prospective time commitments and handoff to separately authorized finance/legal reviewers. No filing, sponsorship outreach or promise of adoption.
+
+## Eligibility, value, effort and risk register
+
+| Dimension | Condition / remaining question |
+| --- | --- |
+| Applicant identity | Actual community legal status, relevant governing state, fiscal agreement, recognized nonprofit status and authorized representative **Unknown**. Never infer eligibility by location alone |
+| Program status/deadline | SFLC takes inquiries but no fixed current project deadline verified; Taproot intake via platform, no fixed posted deadline; Catchafire sponsor/free-slot availability **Unknown**; Lawyers Alliance threshold not evidenced |
+| Availability / capacity | Actual qualified attorney, accountant, grant writer or volunteer match **Unknown**. One-hour consultations and multiweek projects are program formats, not promises |
+| Economic value | **No received cash, credits or donated hours.** Avoided-cost estimate requires an actual accepted professional scope, comparable market quote, delivered hours and incremental supervision/legal/admin cost. A provider's illustrative hourly rate is not a realized benefit |
+| Legal/tax & professional ethics | Verify attorney licensing, conflicts, representation, privilege, CPA/attestation requirements and scope; platform matching is not certification or a substitute for an actual contract |
+| Privacy and rights | Use only public or synthetic materials until a separate approved confidentiality and data-use agreement; no donor/client identity, banking, tax record, private infrastructure or unpublished security findings in public GitHub |
+| Branding and sponsor independence | No endorsement, preferred ranking, exclusivity, logo usage or funding promise. Require contract terms preserving editorial independence and publication rights |
+| Delivery/renewal | Define dated outputs, reviewer acceptance, handoff/exit plan, data deletion/retention, future operator and escalation route. Volunteer time and ongoing retention cannot be assumed |
+| Scores and disposition | P1 reflects need, not outcome. No numeric qualification/benefit scoring until independently supported and permitted by the published research method |
+
+**Possible future avoided expense (calculation, not observed):** accepted specialist hourly scope × truly donated qualified hours, capped by the verified cost of equivalent independently necessary work, minus internal supervision/migration/administration and legal-review costs. If any required factor is Unknown, net value remains Unknown. Never count notional volunteer hours as a cash grant or actual award.
+
+## Source ledger and pending findings acceptance
+
+All consulted official pages were read without authenticated intake on **2026-11-17**. Historical issue source date (2026-10-19) does not itself update current applicant eligibility.
+
+- **T1** Taproot, [Taproot Plus](https://taprootfoundation.org/taproot-plus) — two service formats, no-cost platform positioning.
+- **T2** Taproot help, [Organization eligibility](https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility) — eligibility geography/forms and exclusions, page updated 2026-10-05.
+- **S1** SFLC, [Services](https://softwarefreedom.org/services/) and [Contact](https://softwarefreedom.org/about/contact/) — FOSS legal and nonprofit corporate scope, inquiries possible without any guarantee.
+- **C1** Catchafire, [Joining as a nonprofit or volunteer](https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join) — foundation-sponsored membership and free-space waiting path (2026-07-13).
+- **L1** Lawyers Alliance for New York, [Becoming a Client](https://lawyersalliance.org/becoming-a-client) — geographic low-income NYC mission gate, excluded on presently documented facts.
+- **M1** [Sustainability research methodology](../../docs/research-methodology.md) — source, acceptance, identity and action boundaries.
+
+**Incomplete and nonclosing:** independently review this exact revision against all #65 criteria; reconcile existing **Taproot** and **SFLC** identities with current shared register projections (and decide if a distinct Catchafire candidate warrants one new record); record accepted issue evidence and the applicable current-head CI/merge. No shared data records were edited here to avoid conflicting with other pending receiving work. Do not close #65 until the canonical deliverable is on main, all required register/evidence checks pass, and the findings have independent acceptance.

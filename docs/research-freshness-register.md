@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **410 distinct source and endpoint URLs** for 50 opportunity records: 377 referenced URLs (376 canonical `source_urls` plus one retained discovery redirect), and 33 other endpoints. These are membership counts, not successful verifications. The 2026-11-17 Google/NSF receiving update adds 24 URL rows from dated public assessments and retains all earlier observations, including failed-access nulls. It does not refresh every source, verify an applicant or inspect authenticated forms. Next internal review dates and people assignments remain null. Earlier snapshots below keep their original counts.
+The [source register](../data/research-freshness.json) tracks **416 distinct source and endpoint URLs** for 52 opportunity records: 383 referenced URLs (382 canonical `source_urls` plus 1 additional discovery URLs), and 33 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -88,3 +88,8 @@ The [new dated readback](research-freshness-readback-2026-10-20.md) reconciles t
 ## Authorized six-hour access monitor — 2026-10-22
 
 Andrew selected a 4–6 hour plus event-based cadence; the proposed automation uses six hours. The [operating procedure](research-freshness.md#authorized-automated-source-checks) defines the workflow, scope, cost, limitations and timestamp meanings. `check_policy.interval_hours` records this authorization; runtime `last_checked_at` / `next_check_at` values live in the GitHub Actions `source-freshness` artifacts, with next check calculated as actual attempt completion plus six hours. New/unattempted sources are due immediately. Main source/register/research changes and manual external-change reports force checks regardless of due time. The monitor never advances `last_verified` or the human `next_verification_date` from reachability, and preserves historical audits. The earlier unresolved-cadence paragraph remains a dated account of the 2026-10-20 readback, not the current scheduling decision. This PR does not activate the schedule before merge.
+
+
+## Receiving batch: gpu-route-record-reconciliation
+
+The 2026-11-17 preparation for [#48](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48) reconciles `AMD-DEVCLOUD`, `NVIDIA-ACADEMIC`, `GOOGLE-CLOUD-RESEARCH-CREDITS`, `AWS-CLOUD-CREDIT-RESEARCH`. It preserves all unrelated records, original source dates and existing mechanism/review history. New records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.

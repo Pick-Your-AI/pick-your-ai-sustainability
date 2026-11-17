@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 50,
+  "record_count": 52,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -559,11 +559,11 @@
     {
       "opportunity_id": "AMD-DEVCLOUD",
       "program_name": "AMD Developer Cloud complimentary credit",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Conditional research lead; no currently qualified applicant or usable capacity established",
       "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -574,17 +574,17 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Prepare a short reproducibility workload and shutdown/export plan before activation."
+      "next_action": "Pin a rights-cleared MI300X/ROCm workload, actual offer, no-overage control and destroy/export plan for independent review; send nothing."
     },
     {
       "opportunity_id": "NVIDIA-ACADEMIC",
       "program_name": "Academic Grant Program",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
-      "eligibility": "Ineligible for current direct applicant",
+      "disposition": "Not Pursuing for current direct application; closed intake and no qualifying academic PI evidenced",
+      "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
@@ -594,7 +594,7 @@
       "deadline_timezone": null,
       "priority": "P3",
       "score": null,
-      "next_action": "Record closed/currently ineligible status; revisit only on official reopening and confirmed partner."
+      "next_action": "Retain closed-intake history; reconsider only against an official reopening and a verified qualified PI/institution."
     },
     {
       "opportunity_id": "GROQ-FREE-PLAN",
@@ -1015,6 +1015,46 @@
       "priority": "P2",
       "score": null,
       "next_action": "Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant facts and appropriate authorization exist."
+    },
+    {
+      "opportunity_id": "GOOGLE-CLOUD-RESEARCH-CREDITS",
+      "program_name": "Academic research credits",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "Defer; institutional-partner-dependent research lead",
+      "eligibility": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P3",
+      "score": null,
+      "next_action": "Verify an actual qualifying researcher/institution, country, proposal, billing authority, award-specific expiry and publication acknowledgment; no account or application action."
+    },
+    {
+      "opportunity_id": "AWS-CLOUD-CREDIT-RESEARCH",
+      "program_name": "AWS Cloud Credit for Research",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "Defer; institutional-partner-dependent research lead",
+      "eligibility": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P3",
+      "score": null,
+      "next_action": "Confirm real institutional applicant and eligible account, reconcile conflicting timing, and qualify rights/overage/exit before any separately authorized inquiry or application."
     }
   ]
 }

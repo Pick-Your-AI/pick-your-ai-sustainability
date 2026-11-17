@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 52,
+  "records_count": 54,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -6245,9 +6245,9 @@
       "official_application_url": "https://openai.com/form/codex-for-oss/",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
       "legal_entity_requirements": "Eligible OSS maintainers/projects; specific selection and terms apply",
-      "available_before_incorporation": "Conditionally Eligible; project/maintainer impact unverified",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Unknown for actual maintainer/account/impact; entity status alone does not establish personal admission.",
+      "available_through_fiscal_sponsorship": "Unknown for actual personal recipient; sponsorship does not transfer a personal benefit.",
+      "available_after_501c3_recognition": "Unknown for actual personal recipient; recognition does not replace maintainer/account eligibility.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "Evidence of core open-source maintainership and project impact, or a substantiated exceptional ecosystem contribution",
@@ -6256,7 +6256,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Application offered on current program page",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -6299,10 +6299,10 @@
         "total": null,
         "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
       },
-      "priority": "P2",
+      "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Record potential benefit and eligibility without using/subscribing to the service.",
+      "next_action": "Retain as optional maintainer support; reconsider only for evidenced authorized work, eligible person/account and current terms. No Codex job or application.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -6334,7 +6334,9 @@
       },
       "owning_research_key": "E07-06",
       "source_urls": [
-        "https://developers.openai.com/community/codex-for-oss"
+        "https://developers.openai.com/community/codex-for-oss",
+        "https://openai.com/form/codex-for-oss/",
+        "https://learn.chatgpt.com/docs/codex-for-oss-terms"
       ],
       "source_evidence": [
         "Current program offers selected maintainers six months of ChatGPT Pro with Codex, conditional Codex Security and API support for core OSS work.",
@@ -6343,12 +6345,14 @@
       "benefit": "Six-month maintainer subscription; conditional security/API support",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
-      "priority_recommendation": "P2",
+      "priority_recommendation": "P3",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://developers.openai.com/community/codex-for-oss"
+        "https://developers.openai.com/community/codex-for-oss",
+        "https://openai.com/form/codex-for-oss/",
+        "https://learn.chatgpt.com/docs/codex-for-oss-terms"
       ],
       "application_url": "https://openai.com/form/codex-for-oss/",
       "internal_application_review_controls": [
@@ -6369,18 +6373,18 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Not Pursuing for current minimal support stack",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "Optional unselected program P3; owning #61 comparison remains P2 research.",
+      "recommended_disposition": "Not Pursuing for current minimal support stack",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -6388,6 +6392,31 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 61,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "receiving_public_source_review": {
+        "observed_on": "2026-11-17",
+        "scope": "New unauthenticated public-source screen; historical seed observations and their original dates remain preserved. Not provider confirmation, independent acceptance, account inspection, or permission to operate.",
+        "facts": [
+          "Public form describes selected maintainers receiving six months of ChatGPT Pro including Codex, with conditional Security/API support; rolling selection, no fixed closing date verified.",
+          "Program terms permit variable benefits, require a valid ChatGPT account and accurate maintainer evidence; benefits personal/nontransferable/no cash value and revocable.",
+          "Security/API additions may require separate review/terms and repository authority. Application submissions have no confidentiality promise; redemption/expiry follows actual instructions. No actual billing/activation outcome established."
+        ],
+        "limitations": [
+          "Actual applicant, account, award, authorized operator, usable value and effort remain Unknown; external inquiries remain unsent."
+        ]
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "source_review_status": "Source facts checked",
+        "current_disposition": null,
+        "recommended_disposition": null,
+        "next_action": "Record potential benefit and eligibility without using/subscribing to the service.",
+        "priority": "P2",
+        "priority_recommendation": "P2",
+        "priority_scope_note": null,
+        "available_before_incorporation": "Conditionally Eligible; project/maintainer impact unverified",
+        "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
+        "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements"
       }
     },
     {
@@ -6667,9 +6696,9 @@
       "official_application_url": "https://claude.com/contact-sales/claude-for-oss",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
       "legal_entity_requirements": "Qualifying individual maintainer/contributor; measured contribution evidence needed",
-      "available_before_incorporation": "Conditionally Eligible; no qualifying activity claimed",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Unknown for actual individual; a community/legal entity is not a natural-person applicant.",
+      "available_through_fiscal_sponsorship": "Sponsor entity ineligible as direct applicant; related individual eligibility Unknown.",
+      "available_after_501c3_recognition": "Recognized entity ineligible as direct applicant; related individual eligibility Unknown.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "Documented contributor or maintainer impact under the published activity/reach criteria, or an explained exception"
@@ -6677,11 +6706,11 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Apply-now page exists; no deadline published",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Six months of Claude Max 20x",
+      "benefit_amount_or_capacity": "Six months of Claude Ultra advertised on 2026-11-17; actual recipient benefit Unknown",
       "currency": null,
       "estimated_usable_value": null,
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
@@ -6720,10 +6749,10 @@
         "total": null,
         "justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score. Numeric score remains null until eligibility and usable-value evidence exist."
       },
-      "priority": "P2",
+      "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Assess documented applicant metrics and record post-benefit subscription behavior.",
+      "next_action": "Preserve historical Max 20x scope; record current Ultra terms and entity exclusion. Reconsider only against a separately verified individual and authorized need; send nothing.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -6755,21 +6784,23 @@
       },
       "owning_research_key": "E07-06",
       "source_urls": [
-        "https://claude.com/contact-sales/claude-for-oss"
+        "https://claude.com/contact-sales/claude-for-oss",
+        "https://www.anthropic.com/claude-for-oss-terms"
       ],
       "source_evidence": [
         "Current page offers six months of Claude Max 20x to selected OSS contributors.",
         "Examples include dependency/download reach, recognized maintainership, 100 external merged PRs, 20 external contributors or OpenSSF criticality 0.4; exceptions invited."
       ],
-      "benefit": "Six months of Claude Max 20x",
+      "benefit": "Six months of Claude Ultra advertised on 2026-11-17; actual recipient benefit Unknown",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
-      "priority_recommendation": "P2",
+      "priority_recommendation": "P3",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://claude.com/contact-sales/claude-for-oss"
+        "https://claude.com/contact-sales/claude-for-oss",
+        "https://www.anthropic.com/claude-for-oss-terms"
       ],
       "application_url": "https://claude.com/contact-sales/claude-for-oss",
       "internal_application_review_controls": [
@@ -6789,18 +6820,18 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Not Pursuing for current minimal support stack",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
-      "priority_scope_note": null,
-      "recommended_disposition": null,
+      "priority_scope_note": "Optional unselected program P3; owning #61 comparison remains P2 research.",
+      "recommended_disposition": "Not Pursuing for current minimal support stack",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -6808,6 +6839,41 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 61,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "receiving_public_source_review": {
+        "observed_on": "2026-11-17",
+        "scope": "New unauthenticated public-source screen; historical seed observations and their original dates remain preserved. Not provider confirmation, independent acceptance, account inspection, or permission to operate.",
+        "facts": [
+          "Current public page and governing program terms both advertise six months of Claude Ultra; the 2026-10-19 Max 20x observation remains historical, with no equivalence or transition entitlement assumed.",
+          "Natural-person-only, age/region requirements, GitHub account at least two years old, recent 90-day public OSS activity and OSI project license apply alongside impact criteria or discretionary ecosystem track. Actual applicant Unknown.",
+          "Rolling discretionary review and up-to-10,000 cap do not establish remaining capacity or a fixed closing date. Code activation within 90 days; base benefit six months; overages possible.",
+          "Paid plan resumes unless canceled; paused-billing notice at least 30 days. Recipient identification permitted, co-marketing optional; personal use, no transfer/sharing/cash value."
+        ],
+        "limitations": [
+          "Actual applicant, account, award, authorized operator, usable value and effort remain Unknown; external inquiries remain unsent."
+        ]
+      },
+      "benefit_history": [
+        {
+          "observed_on": "2026-10-19",
+          "benefit": "Six months of Claude Max 20x",
+          "scope": "Preserved current-main seed and historical 2026-10-19 source observation; not relabeled as current offer."
+        }
+      ],
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "source_review_status": "Source facts checked",
+        "current_disposition": null,
+        "recommended_disposition": null,
+        "next_action": "Assess documented applicant metrics and record post-benefit subscription behavior.",
+        "priority": "P2",
+        "priority_recommendation": "P2",
+        "priority_scope_note": null,
+        "available_before_incorporation": "Conditionally Eligible; no qualifying activity claimed",
+        "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
+        "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+        "benefit": "Six months of Claude Max 20x",
+        "benefit_amount_or_capacity": "Six months of Claude Max 20x"
       }
     },
     {
@@ -9262,9 +9328,9 @@
       "official_application_url": "https://ostif.org/get-an-audit/",
       "eligibility_jurisdiction": "Unknown; confirm program and supported-country requirements",
       "legal_entity_requirements": "Open-source project; sponsor/engagement selection required",
-      "available_before_incorporation": "Conditionally Eligible for discussion; funded engagement not guaranteed",
-      "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+      "available_before_incorporation": "Unknown; public FOSS-project discussion is possible but specific acceptance and underwriting unverified.",
+      "available_through_fiscal_sponsorship": "Unknown; sponsor authority, project rights, acceptance and funding remain unverified.",
+      "available_after_501c3_recognition": "Unknown; recognition does not confer accepted scope, funding or an auditor.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
         "Project source and documentation, security practices and prior review evidence",
@@ -9274,7 +9340,7 @@
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Inquiry/scoping route documented; no automatic grant intake or deadline",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -9320,7 +9386,7 @@
       "priority": "P1",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Produce audit-ready scope and gap evidence without contacting providers.",
+      "next_action": "Prepare exact public revision, threat model, baseline/gaps, remediation capacity and confidential-disclosure boundaries; preserve unsent inquiry brief for later authority.",
       "next_action_date": null,
       "last_verified": "2026-10-19",
       "next_verification_date": null,
@@ -9388,18 +9454,18 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Conditional funded-security-review research lead; no engagement or sponsor accepted",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Conditional funded-security-review research lead; no engagement or sponsor accepted",
       "related_research_issue_urls": [],
       "dependency_relationship_verification": "URLs resolve in the independent live issue snapshot; native relationship state remains for final GitHub audit.",
       "github_link_verification": {
@@ -9407,6 +9473,27 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 59,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "receiving_public_source_review": {
+        "observed_on": "2026-11-17",
+        "scope": "New unauthenticated public-source screen; historical seed observations and their original dates remain preserved. Not provider confirmation, independent acceptance, account inspection, or permission to operate.",
+        "facts": [
+          "Published initial-audit cost range is $30,000–$200,000, tied to complexity/labor; sponsor sourcing may cover all or part. This is illustrative cost, not this project's quote or donation.",
+          "Process covers preliminary security checks, scope and auditor selection, managed audit, fixes and public reporting after remediation. No fixed intake deadline or guaranteed free audit established."
+        ],
+        "limitations": [
+          "Actual applicant, account, award, authorized operator, usable value and effort remain Unknown; external inquiries remain unsent."
+        ]
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "source_review_status": "Source facts checked",
+        "current_disposition": null,
+        "recommended_disposition": null,
+        "next_action": "Produce audit-ready scope and gap evidence without contacting providers.",
+        "available_before_incorporation": "Conditionally Eligible for discussion; funded engagement not guaranteed",
+        "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
+        "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements"
       }
     },
     {
@@ -12851,10 +12938,161 @@
         "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
         "canonical_match": "AWS-CLOUD-CREDIT-RESEARCH"
       }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "SENTRY-OSS-SPONSORSHIP",
+      "provider": "Sentry",
+      "program_name": "Open-Source Sponsorship Plan",
+      "owning_research_key": "E07-06",
+      "official_program_url": "https://sentry.io/for/open-source/",
+      "official_application_url": "https://sentry.io/for/open-source/",
+      "application_url": "https://sentry.io/for/open-source/",
+      "source_urls": [
+        "https://sentry.io/for/open-source/",
+        "https://sentry.io/terms/"
+      ],
+      "last_verified": "2026-11-17",
+      "available_before_incorporation": "Unknown; suitable public project/license, account and discretionary sponsorship not evidenced.",
+      "available_through_fiscal_sponsorship": "Unknown; sponsorship does not establish OSS project/license or account admission.",
+      "available_after_501c3_recognition": "Unknown; tax recognition alone does not establish OSS sponsorship; separate nonprofit route not qualified here.",
+      "eligibility_status": "Unknown",
+      "applicant_qualification_status": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value."
+      },
+      "priority": "P3",
+      "priority_scope_note": "Deferred optional program; owning landscape research priority is separate.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "score": null,
+      "estimated_usable_value": null,
+      "estimated_usable_value_method": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value.",
+      "benefit": "Advertised free OSS account, Business features, five million errors and other included units, no term limit; exact admitted quota/account Unknown.",
+      "benefit_amount_or_capacity": "Advertised free OSS account, Business features, five million errors and other included units, no term limit; exact admitted quota/account Unknown.",
+      "restrictions_and_obligations": [
+        "OSS page asks for a friendly license such as Apache/MIT; sponsorship can enable on-demand budget, which may create charges. No integration or budget enabled.",
+        "Customer controls SDK data/rights and must minimize transmission; terms prohibit personal data without DPA. Service Data use/export and processing regions are governed by terms, not the website privacy summary.",
+        "Terms prohibit publishing service benchmarks/performance information; technical/performance confidentiality also applies. Public agreement announcements need consent; Sentry customer/trademark publicity can be stopped by written request.",
+        "No-charge products may terminate; absent designated term default is 30 days, while sponsorship advertises no term limit. Verify exact offer and export before exit; paid renewal/on-demand terms can bill."
+      ],
+      "source_evidence": [
+        "Distinct deferred sponsorship, not the ordinary Sentry Developer free product. No deployed service, telemetry volume, alert owner, applicant or award established."
+      ],
+      "current_disposition": "Defer; retain existing diagnostics until a measured observability gap exists",
+      "recommended_disposition": "Defer; retain existing diagnostics until a measured observability gap exists",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Define a real service/error cohort, operator, permitted fields, hard cost limits and tested export scope before separate application/activation approval.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "review": {
+        "decision": "Receiving findings acceptance pending",
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null
+      },
+      "duplicate_search": {
+        "searched_at": "2026-11-17",
+        "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
+        "canonical_match": "SENTRY-OSS-SPONSORSHIP"
+      }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "CROWDIN-OSS",
+      "provider": "Crowdin",
+      "program_name": "Open-source project license",
+      "owning_research_key": "E07-06",
+      "official_program_url": "https://crowdin.com/product/for-open-source",
+      "official_application_url": "https://crowdin.com/product/for-open-source",
+      "application_url": "https://crowdin.com/product/for-open-source",
+      "source_urls": [
+        "https://crowdin.com/product/for-open-source",
+        "https://support.crowdin.com/terms/"
+      ],
+      "last_verified": "2026-11-17",
+      "available_before_incorporation": "Unknown; public code alone does not meet all project, lead, activity and translation-rights conditions.",
+      "available_through_fiscal_sponsorship": "Unknown; fiscal sponsorship does not waive project or Global TM rights conditions.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish OSS-license admission or translation-sharing authority.",
+      "eligibility_status": "Unknown",
+      "applicant_qualification_status": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value."
+      },
+      "priority": "P3",
+      "priority_scope_note": "Deferred optional program; owning landscape research priority is separate.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "score": null,
+      "estimated_usable_value": null,
+      "estimated_usable_value_method": "Not scored: actual applicant qualification, bounded demand, useful utilization, costs and maintainer effort are Unknown. Advertised credit or list price is not realized value.",
+      "benefit": "Granted OSS project access advertised free; exact account/add-on capacity and award Unknown; translation/review labor not supplied.",
+      "benefit_amount_or_capacity": "Granted OSS project access advertised free; exact account/add-on capacity and award Unknown; translation/review labor not supplied.",
+      "restrictions_and_obligations": [
+        "Nine criteria: existing Crowdin translation project, OSI license, public downloadable code, no related commercial product, project lead, at least three months work, active collaborators, current news and regular builds.",
+        "Request agrees to beta participation and contributing translations to Global TM; verify rights from all contributors before any upload.",
+        "Terms §12.6 grants Crowdin and other clients perpetual/irrevocable/nonexclusive/royalty-free rights to public-project data including redistribution/adaptation; §18.3 preserves IP clauses after termination.",
+        "Terms §2 requires written consent for monitoring/benchmarking. §5.6 allows quota true-up from excess date and separately billed variable add-ons; recurring-billing plans can renew.",
+        "Export all required resources before deletion. §5.4 and §18.3 give conflicting deletion timelines; no single retention promise. Actual AI/data settings, exit completeness, translation labor and paid fallback Unknown."
+      ],
+      "source_evidence": [
+        "No immediate enrollment: no finite locale/string cohort, accepted translator/reviewer capacity or Global TM/public-content rights evidenced. Keep licensed reviewed resource files in Git."
+      ],
+      "current_disposition": "Not Pursuing for immediate enrollment; reconsider a demonstrated localization gap",
+      "recommended_disposition": "Not Pursuing for immediate enrollment; reconsider a demonstrated localization gap",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Establish finite locale/string demand, project/lead eligibility, translator rights, cost controls and export acceptance before any separately authorized request.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "review": {
+        "decision": "Receiving findings acceptance pending",
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null
+      },
+      "duplicate_search": {
+        "searched_at": "2026-11-17",
+        "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
+        "canonical_match": "CROWDIN-OSS"
+      }
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 52 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "Published source facts and explicit access/history limitations are recorded for all 54 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "The fifty identities present on accepted main f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1 remain preserved. Subsequent distinct receiving records share the schema and stable owning research keys; their own dated observations and pending review scopes do not extend earlier accepted findings or historical GitHub/Project audits.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",

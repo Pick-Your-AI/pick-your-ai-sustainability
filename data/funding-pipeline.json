@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 52,
+  "record_count": 54,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -459,11 +459,11 @@
     {
       "opportunity_id": "OPENAI-CODEX-OSS",
       "program_name": "Codex for Open Source",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Not Pursuing for current minimal support stack",
       "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -472,9 +472,9 @@
       "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
       "verified_deadline": null,
       "deadline_timezone": null,
-      "priority": "P2",
+      "priority": "P3",
       "score": null,
-      "next_action": "Record potential benefit and eligibility without using/subscribing to the service."
+      "next_action": "Retain as optional maintainer support; reconsider only for evidenced authorized work, eligible person/account and current terms. No Codex job or application."
     },
     {
       "opportunity_id": "ANTHROPIC-RESEARCHER",
@@ -499,11 +499,11 @@
     {
       "opportunity_id": "ANTHROPIC-CLAUDE-OSS",
       "program_name": "Claude for Open Source",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Not Pursuing for current minimal support stack",
       "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -512,9 +512,9 @@
       "reporting_status": "Not yet established; inspect the actual offer or agreement before acceptance because reporting obligations may begin before activation.",
       "verified_deadline": null,
       "deadline_timezone": null,
-      "priority": "P2",
+      "priority": "P3",
       "score": null,
-      "next_action": "Assess documented applicant metrics and record post-benefit subscription behavior."
+      "next_action": "Preserve historical Max 20x scope; record current Ultra terms and entity exclusion. Reconsider only against a separately verified individual and authorized need; send nothing."
     },
     {
       "opportunity_id": "GOOGLE-GEMINI-ACADEMIC",
@@ -719,11 +719,11 @@
     {
       "opportunity_id": "OSTIF-SECURITY",
       "program_name": "Sponsored security review facilitation",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Conditional funded-security-review research lead; no engagement or sponsor accepted",
       "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -734,7 +734,7 @@
       "deadline_timezone": null,
       "priority": "P1",
       "score": null,
-      "next_action": "Produce audit-ready scope and gap evidence without contacting providers."
+      "next_action": "Prepare exact public revision, threat model, baseline/gaps, remediation capacity and confidential-disclosure boundaries; preserve unsent inquiry brief for later authority."
     },
     {
       "opportunity_id": "TAPROOT-PROBONO",
@@ -1055,6 +1055,46 @@
       "priority": "P3",
       "score": null,
       "next_action": "Confirm real institutional applicant and eligible account, reconcile conflicting timing, and qualify rights/overage/exit before any separately authorized inquiry or application."
+    },
+    {
+      "opportunity_id": "SENTRY-OSS-SPONSORSHIP",
+      "program_name": "Open-Source Sponsorship Plan",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "Defer; retain existing diagnostics until a measured observability gap exists",
+      "eligibility": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P3",
+      "score": null,
+      "next_action": "Define a real service/error cohort, operator, permitted fields, hard cost limits and tested export scope before separate application/activation approval."
+    },
+    {
+      "opportunity_id": "CROWDIN-OSS",
+      "program_name": "Open-source project license",
+      "source_review_status": "Public source facts checked; receiving findings acceptance pending",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "Not Pursuing for immediate enrollment; reconsider a demonstrated localization gap",
+      "eligibility": "Unknown",
+      "application_gate": "Not authorized; actual applicant, authority, account, rights, workload, costs and separate approval remain unverified. No inquiry or application sent.",
+      "application_outcome": "No application submitted in this research; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation in this research; prior account state Unknown",
+      "reporting_status": "Published obligations recorded; actual agreement, cadence and accountable operator Unknown",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P3",
+      "score": null,
+      "next_action": "Establish finite locale/string demand, project/lead eligibility, translator rights, cost controls and export acceptance before any separately authorized request."
     }
   ]
 }

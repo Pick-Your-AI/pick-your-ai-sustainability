@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **416 distinct source and endpoint URLs** for 52 opportunity records: 383 referenced URLs (382 canonical `source_urls` plus 1 additional discovery URLs), and 33 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
+The [source register](../data/research-freshness.json) tracks **422 distinct source and endpoint URLs** for 54 opportunity records: 390 referenced URLs (389 canonical `source_urls` plus 1 additional discovery URLs), and 32 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -93,3 +93,8 @@ Andrew selected a 4–6 hour plus event-based cadence; the proposed automation u
 ## Receiving batch: gpu-route-record-reconciliation
 
 The 2026-11-17 preparation for [#48](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48) reconciles `AMD-DEVCLOUD`, `NVIDIA-ACADEMIC`, `GOOGLE-CLOUD-RESEARCH-CREDITS`, `AWS-CLOUD-CREDIT-RESEARCH`. It preserves all unrelated records, original source dates and existing mechanism/review history. New records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.
+
+
+## Receiving batch: security-and-minimal-support-record-reconciliation
+
+The 2026-11-17 preparation for [#59](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59), [#61](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/61) reconciles `OSTIF-SECURITY`, `OPENAI-CODEX-OSS`, `ANTHROPIC-CLAUDE-OSS`, `SENTRY-OSS-SPONSORSHIP`, `CROWDIN-OSS`. It preserves all unrelated records, original source dates and existing mechanism/review history. New records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.

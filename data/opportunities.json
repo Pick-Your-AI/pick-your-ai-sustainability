@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 61,
+  "records_count": 62,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -9505,22 +9505,22 @@
       "round": null,
       "category": "partnership",
       "support_type": "professional_service",
-      "official_program_url": "https://taprootfoundation.org/nonprofits",
+      "official_program_url": "https://taprootfoundation.org/taproot-plus",
       "official_application_url": "https://taprootfoundation.org/nonprofits",
       "eligibility_jurisdiction": "US, Canada, EU, India and UK as documented",
       "legal_entity_requirements": "Qualifying nonprofit/public-school/fiscally sponsored organization",
-      "available_before_incorporation": "Unknown; unincorporated independent project not explicitly included",
-      "available_through_fiscal_sponsorship": "Conditionally Eligible; page explicitly includes fiscally sponsored organizations",
-      "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
-      "eligibility_status": "Conditionally Eligible after recognized qualifying arrangement",
+      "available_before_incorporation": "Unknown; an unincorporated community alone is not a listed qualifying type.",
+      "available_through_fiscal_sponsorship": "Unknown actual route; fiscally sponsored organizations in supported regions are generally included, but no real host/agreement or verification established.",
+      "available_after_501c3_recognition": "Unknown actual route; recognition alone does not establish regional/category compliance or acceptance.",
+      "eligibility_status": "Unknown; actual applicant and platform acceptance unverified",
       "eligibility_conditions": [
         "A nonprofit, public school or fiscally sponsored organization in a documented supported region",
         "A scoped professional-services need for volunteer matching"
       ],
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Platform signup documented; volunteer match not guaranteed",
+      "application_gate": "Not authorized. Before any Taproot posting, call or brief exchange, including public/synthetic material, obtain specific authorized rights/privacy approval for communications recording, AI uses, content licences and retention; if not accepted, do not use the platform.",
+      "application_status": "Platform intake described; no fixed published deadline found in Nov 17 memo. Actual account, verification, volunteer match and credentials Unknown.",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -9530,7 +9530,9 @@
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "restrictions_and_obligations": [
         "Confirm organization verification, volunteer credentials, confidentiality and exact scope.",
-        "Legal representation/accounting sign-off cannot be inferred from generic volunteer access."
+        "Legal representation/accounting sign-off cannot be inferred from generic volunteer access.",
+        "Nov 17 note: terms C.2/D.3 and privacy require authorized rights/privacy decision before ANY posting or call, even public/synthetic briefs; no platform agreement accepted.",
+        "Use qualified scope-specific professionals; volunteer match is no counsel, CPA attestation, grant approval or financial authority."
       ],
       "program_objectives": "See official program evidence",
       "fit_with_pick_your_ai": "Capacity-building help for budgets, governance and grant narrative work.",
@@ -9549,6 +9551,34 @@
           "source_kind": "official",
           "last_verified": "2026-10-19",
           "review_scope": "Published program facts, not applicant qualification"
+        },
+        {
+          "url": "https://taprootfoundation.org/taproot-plus",
+          "source_kind": "official",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "review_scope": "No-cost one-hour sessions and multiweek projects; no volunteer supply guarantee. Attributed to pinned standalone note; no new provider read in this receiving preparation."
+        },
+        {
+          "url": "https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility",
+          "source_kind": "official",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "review_scope": "Eligibility guidance updated Oct 5: qualifying organizations in US/UK/Canada/EU/India, exclusions and verification. Attributed to pinned standalone note; no new provider read in this receiving preparation."
+        },
+        {
+          "url": "https://taprootfoundation.org/terms",
+          "source_kind": "official",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "review_scope": "Sections C.2 communications recording/transcription/AI training and D.3 enduring broad content licence; authorized review before ANY posting/call, including public/synthetic briefs. Attributed to pinned standalone note; no new provider read in this receiving preparation."
+        },
+        {
+          "url": "https://taprootfoundation.org/privacy",
+          "source_kind": "official",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "review_scope": "March 2026 platform/communications data policy; not an accepted project agreement. Attributed to pinned standalone note; no new provider read in this receiving preparation."
         }
       ],
       "scoring": {
@@ -9566,9 +9596,9 @@
       "priority": "P1",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Confirm applicant route and scope a finite engagement after baseline facts.",
+      "next_action": "Obtain independent findings acceptance and an actual applicant/rights decision; preserve unsent synthetic briefs. No external platform use authorized.",
       "next_action_date": null,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-11-17",
       "next_verification_date": null,
       "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
@@ -9598,7 +9628,11 @@
       },
       "owning_research_key": "E08-04",
       "source_urls": [
-        "https://taprootfoundation.org/nonprofits"
+        "https://taprootfoundation.org/nonprofits",
+        "https://taprootfoundation.org/taproot-plus",
+        "https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility",
+        "https://taprootfoundation.org/terms",
+        "https://taprootfoundation.org/privacy"
       ],
       "source_evidence": [
         "Current page provides no-cost matching for nonprofits, public schools and fiscally sponsored organizations across listed supported regions.",
@@ -9612,7 +9646,11 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://taprootfoundation.org/nonprofits"
+        "https://taprootfoundation.org/nonprofits",
+        "https://taprootfoundation.org/taproot-plus",
+        "https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility",
+        "https://taprootfoundation.org/terms",
+        "https://taprootfoundation.org/privacy"
       ],
       "application_url": "https://taprootfoundation.org/nonprofits",
       "jurisdiction": "US, Canada, EU, India and UK as documented",
@@ -9634,12 +9672,12 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
-      "applicant_qualification_status": "Conditionally Eligible after recognized qualifying arrangement",
+      "source_review_status": "New Nov 17 public-source memo findings recorded; independent receiving acceptance and actual applicant review pending.",
+      "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Conditional P1 finance/governance and grant-readiness referral; defer intake pending actual applicant and platform-rights decision.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
@@ -9652,6 +9690,25 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 65,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "last_verified": "2026-10-19",
+        "eligibility_status": "Conditionally Eligible after recognized qualifying arrangement",
+        "applicant_qualification_status": "Conditionally Eligible after recognized qualifying arrangement",
+        "official_program_url": "https://taprootfoundation.org/nonprofits",
+        "available_before_incorporation": "Unknown; unincorporated independent project not explicitly included",
+        "available_through_fiscal_sponsorship": "Conditionally Eligible; page explicitly includes fiscally sponsored organizations",
+        "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements",
+        "application_status": "Platform signup documented; volunteer match not guaranteed",
+        "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+        "current_disposition": null,
+        "restrictions_and_obligations": [
+          "Confirm organization verification, volunteer credentials, confidentiality and exact scope.",
+          "Legal representation/accounting sign-off cannot be inferred from generic volunteer access."
+        ],
+        "source_review_status": "Source facts checked",
+        "next_action": "Confirm applicant route and scope a finite engagement after baseline facts."
       }
     },
     {
@@ -9673,9 +9730,9 @@
       "eligibility_status": "Unknown",
       "eligibility_conditions": [],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Public contact route exists; capacity/intake availability not confirmed",
+      "application_status": "Public legal inquiry channel documented in Nov 17 memo; actual capacity/client intake Unknown; no fixed project deadline verified.",
       "opportunity_stage": "Discovered",
-      "work_status": "Blocked",
+      "work_status": "In Progress",
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
@@ -9685,7 +9742,8 @@
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "restrictions_and_obligations": [
         "Engagement, conflicts, credentials and confidential intake require authorization.",
-        "Some services distinguish clients from broader developers; no guaranteed pro bono representation."
+        "Some services distinguish clients from broader developers; no guaranteed pro bono representation.",
+        "Client identity, attorney jurisdiction/competence, conflicts, privilege, representation and actual engagement terms require separate professional acceptance; a sponsor or 501(c)(3) does not supply these facts."
       ],
       "program_objectives": "See official program evidence",
       "fit_with_pick_your_ai": "Potential help for licensing, IP stewardship and nonprofit governance questions.",
@@ -9704,6 +9762,20 @@
           "source_kind": "official",
           "last_verified": "2026-10-19",
           "review_scope": "Published program facts, not applicant qualification"
+        },
+        {
+          "url": "https://softwarefreedom.org/services/",
+          "source_kind": "official",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "review_scope": "Public FOSS licensing, trademarks, legal education, nonprofit formation/tax-exemption, contracts/governance and litigation-support scope; no guaranteed client acceptance. Attributed to pinned standalone note; no new provider read in this receiving preparation."
+        },
+        {
+          "url": "https://softwarefreedom.org/about/contact/",
+          "source_kind": "official",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "review_scope": "Legal inquiry channel exists; no inquiry sent or representation established. Attributed to pinned standalone note; no new provider read in this receiving preparation."
         }
       ],
       "scoring": {
@@ -9721,9 +9793,9 @@
       "priority": "P1",
       "assigned_owner": null,
       "independent_reviewer": null,
-      "next_action": "Prepare a factual question brief and verify intake criteria before authorized referral.",
+      "next_action": "Review unsent public FOSS/rights brief; establish actual client and professional representation boundaries before any inquiry.",
       "next_action_date": null,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-11-17",
       "next_verification_date": null,
       "next_verification_trigger": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
@@ -9753,7 +9825,8 @@
       },
       "owning_research_key": "E08-04",
       "source_urls": [
-        "https://softwarefreedom.org/services/"
+        "https://softwarefreedom.org/services/",
+        "https://softwarefreedom.org/about/contact/"
       ],
       "source_evidence": [
         "Official services include licensing, trademarks, public education and counsel on FOSS IP and nonprofit governance."
@@ -9766,7 +9839,8 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://softwarefreedom.org/services/"
+        "https://softwarefreedom.org/services/",
+        "https://softwarefreedom.org/about/contact/"
       ],
       "application_url": "https://softwarefreedom.org/about/contact/",
       "internal_application_review_controls": [
@@ -9784,12 +9858,12 @@
         "scope": "Published source facts and record consistency only; not applicant qualification, independent empirical measurement, legal advice, or GitHub PR approval."
       },
       "related_research_keys": [],
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Nov 17 public-source referral findings recorded; independent receiving acceptance pending.",
       "applicant_qualification_status": "Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
-      "current_disposition": null,
+      "current_disposition": "Conditional P1 FOSS legal referral; no client acceptance, jurisdiction-specific advice or representation established.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
@@ -9803,6 +9877,18 @@
         "read_at": "2026-10-19T04:59:39.870Z",
         "issue_number": 65,
         "method": "Key/number/title/URL matched against independent GitHub issue readback"
+      },
+      "prior_receiving_values_2026_11_17": {
+        "work_status": "Blocked",
+        "last_verified": "2026-10-19",
+        "current_disposition": null,
+        "application_status": "Public contact route exists; capacity/intake availability not confirmed",
+        "restrictions_and_obligations": [
+          "Engagement, conflicts, credentials and confidential intake require authorization.",
+          "Some services distinguish clients from broader developers; no guaranteed pro bono representation."
+        ],
+        "source_review_status": "Source facts checked",
+        "next_action": "Prepare a factual question brief and verify intake criteria before authorized referral."
       }
     },
     {
@@ -13627,10 +13713,82 @@
         "observation_date": "2026-10-19",
         "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
       }
+    },
+    {
+      "opportunity_id": "CATCHAFIRE-NONPROFIT-ACCESS",
+      "provider": "Catchafire",
+      "program_name": "Sponsored or free-slot nonprofit access",
+      "owning_research_key": "E08-04",
+      "category": "partnership",
+      "support_type": "professional_service",
+      "official_program_url": "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
+      "official_application_url": null,
+      "source_urls": [
+        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join"
+      ],
+      "source_refs": [
+        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join"
+      ],
+      "last_verified": "2026-11-17",
+      "available_before_incorporation": "Unknown; nonprofit/social-good category and platform discretion require confirmation for the actual community.",
+      "available_through_fiscal_sponsorship": "Unknown; actual host approval, category treatment, access slot and volunteer match unverified.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish invitation/free slot, admission, qualified volunteer or acceptable terms.",
+      "eligibility_status": "Unknown; actual applicant, capacity, authority and admission not established",
+      "applicant_qualification_status": "Unknown",
+      "application_gate": "Not authorized; research records no provider application, enrollment, agreement, transfer, participant recruitment or spending.",
+      "application_status": "Official help dated July 13 2026 describes sponsored access or applying for a free place subject to slot availability; no current paid nonprofit membership, admission or match established.",
+      "source_review_status": "Dated public-source findings summarized from standalone research; independent receiving acceptance pending.",
+      "work_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "priority": "P2",
+      "score": null,
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; actual applicant eligibility, accepted capacity, cost, effort and usable value remain Unknown."
+      },
+      "estimated_usable_value": null,
+      "benefit_amount_or_capacity": "Scoped volunteer projects described as 5–50 hours or one-hour calls; no donated hours, cash or guaranteed specialist.",
+      "currency": null,
+      "valuation_method": "No received benefit. Compare only accepted necessary output with evidenced replacement cost, subtracting actual fees, migration, supervision and maintenance; keep conditional cash separate from avoided cost.",
+      "restrictions_and_obligations": [
+        "Foundation-sponsored membership differs from independently available free-space waiting path; platform access is not delivered work.",
+        "Before posting or exchanging any brief, resolve authorized platform-rights and communications/privacy terms; terms not fully assessed here.",
+        "Grant, finance or legal scope needs appropriate credentials, conflicts, actual professional acceptance and separate authority; no application or filing sent."
+      ],
+      "fit_with_pick_your_ai": "Unsent grant-evidence gap/outline review as a possible finite task, only after actual applicant, rights and professional gates.",
+      "current_disposition": "P2 alternative platform; defer access/intake and matching.",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "next_action": "Complete bounded source/intake and rights/capacity questions, reconcile shared projections, then obtain independent receiving acceptance; external actions remain gated.",
+      "next_action_date": null,
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "actual_applicant": "Unknown",
+      "actual_host": "Unknown",
+      "actual_participants": "Unknown",
+      "actual_action_authority": "Unknown",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+      "application_outcome": "No submission established; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation established; prior account state Unknown",
+      "reporting_status": "No actual agreement or operating reporting calendar established",
+      "evidence_provenance": {
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md",
+        "observation_date": "2026-11-17",
+        "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
+      }
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 61 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "Published source facts and explicit access/history limitations are recorded for all 62 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "The fifty identities present on accepted main f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1 remain preserved. Subsequent distinct receiving records share the schema and stable owning research keys; their own dated observations and pending review scopes do not extend earlier accepted findings or historical GitHub/Project audits.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",

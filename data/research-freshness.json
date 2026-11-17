@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 445,
-  "records_count": 61,
+  "source_count": 450,
+  "records_count": 62,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -1795,7 +1795,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "application_endpoint"
       ],
@@ -1828,6 +1828,69 @@
           "successful_check_date": null,
           "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
         }
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": null,
+          "last_attempted": "2026-10-20",
+          "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "opportunity_ids": [
+            "SFLC-LEGAL"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Monthly research review",
+            "Before an application, registration, agreement, activation or intake-status claim",
+            "Upon redirect, access error, closure, reopening or changed provider terms"
+          ],
+          "state": "Not Verified — endpoint review required",
+          "source_roles": [
+            "application_endpoint"
+          ],
+          "freshness_review_observations": [
+            {
+              "review_record": "data/audits/freshness-readback-2026-10-20.json",
+              "observed_at": "2026-10-20T00:08:10.538184+00:00",
+              "access_date": "2026-10-20",
+              "url": "https://softwarefreedom.org/about/contact/",
+              "in_original_28": true,
+              "opportunity_ids": [
+                "SFLC-LEGAL"
+              ],
+              "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+              "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+              "prior_successful_check_date": null,
+              "prior_attempt_dates": {
+                "last_attempted": null
+              },
+              "target_requested": true,
+              "http_status": 200,
+              "final_url": "https://softwarefreedom.org/about/contact/",
+              "stopped_at_url": null,
+              "redirect_observed": false,
+              "outcome": "reachable",
+              "access_limit": null,
+              "content_observation": "Public contact page returned; no outreach or representation/capacity established. Reachability only: entry has no precise provider claim to test.",
+              "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+              "claim_verified": false,
+              "successful_check_date": null,
+              "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+            }
+          ],
+          "source_revision": "deb8e72d23df3d818f811289b38c8b87eab4bbfa"
+        },
+        {
+          "opportunity_ids": [
+            "SFLC-LEGAL"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Legal inquiry channel exists; no inquiry sent or representation established.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -1843,10 +1906,43 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "SFLC-LEGAL"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "deb8e72d23df3d818f811289b38c8b87eab4bbfa"
+        },
+        {
+          "opportunity_ids": [
+            "SFLC-LEGAL"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Public FOSS licensing, trademarks, legal education, nonprofit formation/tax-exemption, contracts/governance and litigation-support scope; no guaranteed client acceptance.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -10851,6 +10947,116 @@
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"
       ]
+    },
+    {
+      "url": "https://taprootfoundation.org/taproot-plus",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "No-cost one-hour sessions and multiweek projects; no volunteer supply guarantee.",
+      "opportunity_ids": [
+        "TAPROOT-PROBONO"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Eligibility guidance updated Oct 5: qualifying organizations in US/UK/Canada/EU/India, exclusions and verification.",
+      "opportunity_ids": [
+        "TAPROOT-PROBONO"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://taprootfoundation.org/terms",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Sections C.2 communications recording/transcription/AI training and D.3 enduring broad content licence; authorized review before ANY posting/call, including public/synthetic briefs.",
+      "opportunity_ids": [
+        "TAPROOT-PROBONO"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://taprootfoundation.org/privacy",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "March 2026 platform/communications data policy; not an accepted project agreement.",
+      "opportunity_ids": [
+        "TAPROOT-PROBONO"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "July 13 help article: foundation-sponsored nonprofit access, available free-slot application, no paid memberships; scoped 5–50-hour projects or one-hour calls.",
+      "opportunity_ids": [
+        "CATCHAFIRE-NONPROFIT-ACCESS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md"
+      ]
     }
   ],
   "rules": [
@@ -10859,8 +11065,8 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 413,
-  "additional_unverified_endpoint_count": 32,
+  "source_evidence_url_count": 419,
+  "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,
     "authorized_on": "2026-10-22",

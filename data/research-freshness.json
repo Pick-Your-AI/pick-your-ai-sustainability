@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 416,
-  "records_count": 52,
+  "source_count": 422,
+  "records_count": 54,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -273,11 +273,46 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities; ANTHROPIC-RESEARCHER: Researcher assessment checked only the separate subscription-versus-API-credit boundary",
+          "opportunity_ids": [
+            "ANTHROPIC-CLAUDE-OSS",
+            "ANTHROPIC-RESEARCHER"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "application_endpoint",
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "cbac52631da504bb34e9e731ec91efc1fc14c2fc"
+        },
+        {
+          "opportunity_ids": [
+            "ANTHROPIC-CLAUDE-OSS"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Current Ultra offer and post-benefit marketing text; historical Max20x source preserved separately.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -520,10 +555,43 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "OPENAI-CODEX-OSS"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "cbac52631da504bb34e9e731ec91efc1fc14c2fc"
+        },
+        {
+          "opportunity_ids": [
+            "OPENAI-CODEX-OSS"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Public maintainer program overview; no actual person/account inspected.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -1236,7 +1304,7 @@
         "Before an application, registration, agreement, activation or intake-status claim",
         "Upon redirect, access error, closure, reopening or changed provider terms"
       ],
-      "state": "Not Verified — endpoint review required",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "application_endpoint"
       ],
@@ -1268,6 +1336,69 @@
           "claim_verified": false,
           "successful_check_date": null,
           "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+        }
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": null,
+          "last_attempted": "2026-10-20",
+          "verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+          "opportunity_ids": [
+            "OPENAI-CODEX-OSS"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Monthly research review",
+            "Before an application, registration, agreement, activation or intake-status claim",
+            "Upon redirect, access error, closure, reopening or changed provider terms"
+          ],
+          "state": "Not Verified — endpoint review required",
+          "source_roles": [
+            "application_endpoint"
+          ],
+          "freshness_review_observations": [
+            {
+              "review_record": "data/audits/freshness-readback-2026-10-20.json",
+              "observed_at": "2026-10-20T00:07:54.680167+00:00",
+              "access_date": "2026-10-20",
+              "url": "https://openai.com/form/codex-for-oss/",
+              "in_original_28": true,
+              "opportunity_ids": [
+                "OPENAI-CODEX-OSS"
+              ],
+              "prior_revision": "6b97bed74827c3fdc9535806d2f1d42d60eef009",
+              "prior_verification_scope": "Endpoint identified by the program record; current form, account and application contents not yet independently verified",
+              "prior_successful_check_date": null,
+              "prior_attempt_dates": {
+                "last_attempted": null
+              },
+              "target_requested": true,
+              "http_status": 200,
+              "final_url": "https://openai.com/form/codex-for-oss/",
+              "stopped_at_url": null,
+              "redirect_observed": false,
+              "outcome": "reachable",
+              "access_limit": null,
+              "content_observation": "Public response includes application labels; no submission, linked terms review or applicant decision. Reachability only: entry has no precise provider claim to test.",
+              "claim_assessment": "reachability only; no precise cited provider claim in this entry",
+              "claim_verified": false,
+              "successful_check_date": null,
+              "next_action": "Review applicable public content or obtain separately authorized account review before relying on the affected claim; no selected internal date or accepted owner."
+            }
+          ],
+          "source_revision": "cbac52631da504bb34e9e731ec91efc1fc14c2fc"
+        },
+        {
+          "opportunity_ids": [
+            "OPENAI-CODEX-OSS"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Visible public form fields and benefit/rolling-selection statements; not submitted.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
         }
       ]
     },
@@ -1462,11 +1593,45 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; prior acceptance does not accept the new receiving scope. See program_scope_observations.",
       "source_roles": [
         "application_endpoint",
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "OSTIF-SECURITY"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "application_endpoint",
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "cbac52631da504bb34e9e731ec91efc1fc14c2fc"
+        },
+        {
+          "opportunity_ids": [
+            "OSTIF-SECURITY"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Preliminary checks, illustrative audit cost, sponsor sourcing, scope/team, remediation and public report; no engagement.",
+          "state": "Dated public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+          ]
+        }
       ]
     },
     {
@@ -10048,6 +10213,138 @@
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
       ]
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/codex-for-oss-terms",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Current governing program terms on personal benefit, authorization, variable scope, no confidentiality and expiry instructions.",
+      "opportunity_ids": [
+        "OPENAI-CODEX-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://www.anthropic.com/claude-for-oss-terms",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Current Ultra terms, individual/entity, account/activity/license, selection, expiry/overage, paid resumption and publicity rules; no OAuth/private form.",
+      "opportunity_ids": [
+        "ANTHROPIC-CLAUDE-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://sentry.io/for/open-source/",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Public distinct sponsorship/license/units/features/no-term-limit and optional on-demand-budget offer; exact recipient entitlement Unknown.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://sentry.io/terms/",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Current SDK/data rights, DPA, service benchmark restriction, confidentiality/publicity, export, no-charge and billing/renewal provisions.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://crowdin.com/product/for-open-source",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "All nine public request criteria plus beta and Global TM commitments; no project or form submitted.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
+    },
+    {
+      "url": "https://support.crowdin.com/terms/",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Current 2026-09-24 terms §§2,5.3–5.6,12.6,18.3; public-data license, benchmark consent, billing and conflicting deletion periods.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
+      ]
     }
   ],
   "rules": [
@@ -10056,8 +10353,8 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 383,
-  "additional_unverified_endpoint_count": 33,
+  "source_evidence_url_count": 390,
+  "additional_unverified_endpoint_count": 32,
   "check_policy": {
     "interval_hours": 6,
     "authorized_on": "2026-10-22",

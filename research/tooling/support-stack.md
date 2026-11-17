@@ -7,6 +7,10 @@ request, enable an integration, appoint an operator, run a model or acquire supp
 
 **Receiving-status clarification (2026-11-17):** This is the historically accepted **2026-10-19 donor assessment**. The later text describing four **Verified** program records, corrected OpenAI/Anthropic dispositions, new Sentry/Crowdin entries, corresponding pipeline rows and freshness memberships reports **donor-revision history**, not current accepted-main state. On this documentation-only PR head the main registers still contain only `OPENAI-CODEX-OSS` and `ANTHROPIC-CLAUDE-OSS` for #61 as **Discovered / Blocked / P2**; the distinct Sentry and Crowdin entries and cited source memberships have not been delivered. Those changes require separate deduplicated, serial, validated and independently reviewed reconciliation. Issue #61 remains open despite the historical local acceptance; no software entitlement or operator authority is established.
 
+**Later-source scope (2026-11-17):** The dated supplement below records new
+public page reads. It is outside the 2026-10-19 findings acceptance and still needs
+independent receiving review; it establishes no provider admission or activation.
+
 ## Decision and accepted inputs
 
 **Keep the existing public CI, checked-in documentation, source-controlled
@@ -201,7 +205,7 @@ claim that an unidentified individual is ineligible.
 | Program | Current intake and benefit | Evidence correction and disposition |
 | --- | --- | --- |
 | `OPENAI-CODEX-OSS` | The public form describes rolling review, personal/account/repository fields, maintainer role, project importance and optional credit/security interest. It advertises six months of ChatGPT Pro plus conditional benefits for OSS maintenance. [A1–A2] | **Not Pursuing for the current stack; P3.** The terms let the actual benefit vary, make it personal/nontransferable with no cash value, and require authorization for reviewed repositories. Application materials are not confidential. No amount, activation deadline or post-benefit billing outcome for an actual recipient is established. [A3] |
-| `ANTHROPIC-CLAUDE-OSS` | The current page advertises six months of Max 20x. Terms describe rolling discretionary selection, a 10,000-recipient cap, GitHub sign-in and application details; no remaining-slot count or fixed closing date is exposed. [A4–A5] | **Not Pursuing for the current stack; P3.** Eligibility is personal and substantive; generated activity is not accepted as proof of impact. The terms add account-age/activity/license/age/geography conditions omitted from the seed. OAuth/private-form contents were not inspected or submitted. |
+| `ANTHROPIC-CLAUDE-OSS` | At the original 2026-10-19 source review, the page advertised six months of Max 20x. Terms describe rolling discretionary selection, a 10,000-recipient cap, GitHub sign-in and application details; no remaining-slot count or fixed closing date is exposed. [A4–A5] | **Not Pursuing for the current stack; P3.** Eligibility is personal and substantive; generated activity is not accepted as proof of impact. The terms add account-age/activity/license/age/geography conditions omitted from the seed. OAuth/private-form contents were not inspected or submitted. |
 
 Claude's offer must be redeemed within 90 days of the gift code. Its base
 subscription is complimentary but overages may cost money; a paused paid plan
@@ -216,6 +220,41 @@ No retail subscription multiplier is entered as usable value. Developer access,
 API credits, security review and an independently reviewed project PR are different
 benefits and processes. A subscription would not license third-party source,
 guarantee correct output, perform a physical test or independently accept findings.
+
+## Dated public-source supplement — 2026-11-17
+
+The original **Max 20x** observation above remains dated history. Both the
+[current Claude OSS page](https://claude.com/contact-sales/claude-for-oss) and
+[current governing terms](https://www.anthropic.com/claude-for-oss-terms) now offer
+**six months of Claude Ultra**. This change establishes no equivalence, transition
+benefit, available recipient slot or actual award. The individual/entity,
+account/activity/license, activation, overage, paid-resumption and publicity
+conditions still require review for the actual applicant, who remains **Unknown**.
+The current terms retain the 90-day activation window, six-month base benefit and
+at-least-30-day notice before paused paid billing resumes; expiry does not depend
+on receiving a general reminder. No OAuth/private form or account was inspected.
+
+The later read of [Sentry's current terms](https://sentry.io/terms/) adds an explicit
+publication restriction to the original O4 analysis: **§2.3(g) prohibits publishing
+benchmarks or performance information about the service**, alongside §15 technical/
+performance confidentiality. Section 18 permits Sentry customer/trademark publicity,
+which it must cease on written request; public announcements otherwise need consent.
+The sponsorship's no-term-limit wording does not establish irrevocable access,
+a zero on-demand bill, or permission to publish service comparisons. Actual
+applicant, telemetry, agreement, operator and admitted quota remain **Unknown**.
+
+The later [Crowdin terms read](https://support.crowdin.com/terms/) sustains the
+original L3 qualification limits: §12.6's broad public-project content license and
+§18.3 survival, §5.6's excess-usage true-up and variable add-on charges, §2's written
+consent requirement for monitoring/benchmarking, and conflicting deletion periods
+in §§5.4/18.3. No retention duration, translation-sharing authority, export success
+or free account entitlement is inferred. The existing no-immediate-enrollment
+recommendation and null value/score remain appropriate.
+
+These four URLs were read as unauthenticated public text on **2026-11-17**.
+All other source dates below remain the original **2026-10-19** observations.
+This supplement has no independent receiving acceptance yet and changes neither
+the historical receipt nor the five-gap decision to add no subscription now.
 
 ## Three applicant routes and separate authority
 
@@ -267,7 +306,8 @@ is necessary while no service/application is selected.
 
 ## Primary sources and access record
 
-All following observations were made **2026-10-19**, for public pages only.
+The original ledger observations below were made **2026-10-19**, for public pages only.
+The four explicitly dated supplement reads above are separate **2026-11-17** observations.
 The sources describe published capabilities/conditions, not account inspection or
 independent product performance. No provider account or authenticated application
 was entered. Dates are source-read dates, not undisclosed page publication dates.

@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 422,
-  "records_count": 54,
+  "source_count": 434,
+  "records_count": 58,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -10345,6 +10345,270 @@
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
       ]
+    },
+    {
+      "url": "https://www.eclipse.org/projects/bring-your-project/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Admission/services overview, not a PYA allocation.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/projects/handbook/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Scoped handbook governance/resources, contributor ownership, branding and termination findings.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://projects.eclipse.org/create/project-proposal",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Authentication redirect only; live proposal fields unread.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/policy/incubation.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Controlling incubation policy and reporting/release governance.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/cookbook/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Community/champion/mentor and governance/mark/retirement findings; ambiguous mentor wording retained.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/guides/proposal.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Readable public proposal guide; linked proposal template failed and is not verified.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/accelerator",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Advertised 2027 accelerator benefits and displayed schedule; currency/actual award not established.",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/faq",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Applicant forms, leader/attendance/geography wording and recurring capacity expectations.",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/terms-of-service",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "General terms effective Feb 1 2021; not cohort grant terms.",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://apply.ffwd.org/2027-accelerator",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Password page only; 2026 title versus 2027 URL; form fields/intake unread.",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/fellowship/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Main Fellowship benefit explicitly USD 100,000/18 months, not realized support.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/fellowship/apply/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "2026 closed intake and founder/authority/40-hour/payment-entity conditions; no future cycle inferred.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md"
+      ]
     }
   ],
   "rules": [
@@ -10353,7 +10617,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 390,
+  "source_evidence_url_count": 402,
   "additional_unverified_endpoint_count": 32,
   "check_policy": {
     "interval_hours": 6,

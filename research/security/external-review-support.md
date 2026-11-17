@@ -18,6 +18,16 @@ The program's scoring weights (20/20/15/10/10/10/10/5) cannot produce a defensib
 | [Google OSS-Fuzz](https://github.com/google/oss-fuzz/blob/master/docs/faq.md) | Selective continuous fuzzing service; accepts established OSS projects with meaningful security exposure or ecosystem dependency. | **Engineering support, not an independent human audit or accessibility service.** No evidence Pick Your AI meets OSS-Fuzz thresholds. Account/application and onboarding not attempted. |
 | [Deque axe-core](https://www.deque.com/axe/axe-core/) | Free open-source library of automated *web* accessibility rules. | **No external review or grant.** Automation catches only some barriers; manual keyboard, screen-reader and real-user evaluation remain necessary. No native-mobile conformance claim. |
 
+**AIR branding requirement — public rules rechecked 2026-11-17.**
+[Rally Rules §3.8](https://knowbility.org/programs/air/rally-rules) requires every
+submitted website to include the **Knowbility logo linked to the AIR landing page**
+(https://knowbility.org/programs/air). This is a mandatory submitted-site condition,
+not optional co-marketing. The displayed rules update is **2026-10-27**; it is a
+source version, not a new applicant approval or delivery date. Actual client
+acceptance, ability and authority to satisfy the condition, account, fee approval
+and receiving findings acceptance remain **Unknown/pending**. No logo was installed,
+site changed, registration submitted or commitment accepted.
+
 **Avoid overlap:** The existing [GitHub security/tooling baseline](../tooling/github-baseline.md) is accepted research on public-repo capabilities, not evidence that anyone has conducted an external audit. Technical security remediation belongs to the owning software repositories, not this fundraising issue.
 
 ## Three applicant routes
@@ -58,7 +68,7 @@ Before any real audit, technical owners must identify: exact repository and sign
 | Intake & deadline | OSTIF current intake description, no verified fixed date; AIR 2027 published deadline 2026-12-21; AccessWorks quote/date Unknown |
 | Funding and cost | OSTIF price range is illustrative *cost*, not funding committed or project value. AIR $150 is a *fee* requiring authorization; no payment is permitted here. Actual hours, quote, overages, sponsor underwriting, renewals and avoided cost Unknown |
 | Reporting & publication | Require independent severity judgment, disclosure channel, responsible fix owner and mutually agreed public-report rights; never publish unpatched exploit details in a PR |
-| Branding & independence | Sponsor acknowledgments and trademark use need written permission; no sponsor veto of unfavorable findings or required exclusive vendor placement |
+| Branding & independence | AIR rules §3.8 expressly require a Knowbility logo linked to the AIR landing page on each submitted site. Confirm authority and fit before any registration; additional sponsor/trademark arrangements remain separate. No sponsor veto of unfavorable findings or exclusive vendor placement is agreed here |
 | Privacy | Only synthetic inputs in offline experiments; any external engagement handling user or donor information requires separate privacy, counsel and security review |
 | IP, portability & continuity | Preserve tool-agnostic test fixtures, audited commit and artifact ownership; license rights/retention and repeat audits must be negotiated, not assumed |
 | Use case and ranking | Preserve Unknown numeric score, avoided expense and qualifying applicant until a valid scoped procurement-style comparison and actual maintainer capacity exist |
@@ -82,5 +92,6 @@ Source pages were inspected unauthenticated on **2026-11-17**; this is a public-
 - S5 Google, [OSS-Fuzz eligibility](https://github.com/google/oss-fuzz/blob/master/docs/faq.md) — mature/security-critical project criteria.
 - S6 Deque, [axe-core](https://www.deque.com/axe/axe-core/) and [manual testing distinction](https://www.deque.com/axe/devtools/) — automated rule checks versus manual review.
 - S7 [Accepted GitHub baseline](../tooling/github-baseline.md) and [research methodology](../../docs/research-methodology.md) — prior repository work and evidence gates.
+- S8 Knowbility, [AIR Rally Rules](https://knowbility.org/programs/air/rally-rules) — §3.8 mandatory submitted-site Knowbility logo/AIR link; displayed update 2026-10-27, public read 2026-11-17.
 
 **Open:** review this exact revision independently against #59's literal criteria; reconcile only the existing **OSTIF** program identity with current shared opportunity register and pipeline/freshness projections under separate safety review; confirm sources again when actual application action is authorized. No duplicated OSTIF record is introduced. Keep #59 open until canonical document, appropriate structured record, independent findings acceptance, and applicable current-head CI/merge are all complete.

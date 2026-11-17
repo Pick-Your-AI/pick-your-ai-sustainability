@@ -3043,9 +3043,29 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
       ],
-      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "state": "Mixed program scopes: the prior Gemini findings acceptance does not accept Google nonprofit receiving; see program_scope_observations.",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "program_scope_observations": [
+        {
+          "opportunity_ids": [
+            "GOOGLE-GEMINI-ACADEMIC"
+          ],
+          "last_verified": "2026-10-19",
+          "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
+          "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+          "source_revision": "f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1"
+        },
+        {
+          "opportunity_ids": [
+            "GOOGLE-NONPROFITS-US"
+          ],
+          "last_verified": "2026-10-19",
+          "verification_scope": "Historical public Google nonprofit privacy/administrator observation from the pinned standalone assessment; not a new provider read or applicant qualification.",
+          "state": "Receiving findings acceptance pending; the earlier Gemini acceptance does not accept this program scope.",
+          "source_revision": "0751e20855c1bfe3f8716d9aed52fcb57d7ea7a2"
+        }
       ]
     },
     {

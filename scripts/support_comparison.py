@@ -21,6 +21,10 @@ AMOUNTS = ("potential_useful_coverage", "incremental_implementation_cash")
 CONTEXT = {"task", "period", "currency", "evidence_kind"}
 EVIDENCE_KINDS = {"unknown", "proposal", "planning_estimate", "measured", "synthetic"}
 NUMBER = re.compile(r"(?:0|[1-9][0-9]*)(?:\.[0-9]+|/[1-9][0-9]*)?")
+# Accept rational outputs from the offline demand calculator, whose exact
+# numerator and denominator can exceed 100 characters after multiplication.
+# Keep this under CPython's default 4,300-digit integer-string parsing guard.
+MAX_EXACT_STRING_LENGTH = 4096
 
 
 def _fields(value: Any, expected: set[str], label: str) -> None:
@@ -37,7 +41,7 @@ def _amount(value: Any, label: str) -> Fraction | None:
     if value is None:
         return None
     # Accept the accepted calculator's rational string output, never a float.
-    if (type(value) is not str or len(value) > 100 or
+    if (type(value) is not str or len(value) > MAX_EXACT_STRING_LENGTH or
             NUMBER.fullmatch(value) is None):
         raise ValueError(f"{label}: bounded exact nonnegative string or null required")
     return Fraction(value)
@@ -135,7 +139,7 @@ def synthetic_demo() -> dict[str, Any]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--demo", action="store_true", required=True,
                         help="Print only the four fictional arithmetic controls; no files or network")
     parser.parse_args()

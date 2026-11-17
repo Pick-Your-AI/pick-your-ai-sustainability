@@ -41,7 +41,9 @@ potential coverage (for example `1/3`) and a **separately evidenced** incrementa
 implementation-cash amount. It does not duplicate demand/pricing/cap arithmetic,
 convert currencies, infer cash from a credit, or calculate realized avoided
 cash. Both amounts must be nonnegative bounded integer/decimal/rational strings
-or `null`; floats, booleans, signs, exponents, zero denominators and whitespace
+or `null` (at most 4096 characters, including any fraction separator, to
+accommodate exact calculator output longer than 100 characters). Floats,
+booleans, signs, exponents, zero denominators and whitespace
 are rejected. Unknown inputs are never replaced with zero.
 
 Each offer must explicitly provide boolean-or-null gates for `eligibility`,

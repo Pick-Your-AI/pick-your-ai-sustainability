@@ -139,7 +139,7 @@ class SupportComparisonTests(unittest.TestCase):
     def test_invalid_amounts_fail_instead_of_becoming_unknown(self):
         invalid = [False, True, 0, 1.0, float("inf"), float("nan"), "", "-1", "+1",
                    "1e3", "NaN", "Infinity", "1/0", "01", "1/02", ".5", "1.",
-                   " 1", "1 ", "1\n", "1_000", "1//2", "1" * 101, [], {}]
+                   " 1", "1 ", "1\n", "1_000", "1//2", "1" * (MODEL.MAX_EXACT_STRING_LENGTH + 1), [], {}]
         for field, value in itertools.product(MODEL.AMOUNTS, invalid):
             with self.subTest(field=field, value=value), self.assertRaises(ValueError):
                 left = option()
@@ -186,6 +186,10 @@ class SupportComparisonTests(unittest.TestCase):
     def test_amount_upper_bound_and_zero_fraction(self):
         self.assertEqual(compare(option("1" * 100), option("1" * 99))["relation"],
                          "left_dominates")
+        self.assertEqual(compare(option("1" * 101), option("1" * 100))["relation"],
+                         "left_dominates")
+        self.assertEqual(compare(option("1" * MODEL.MAX_EXACT_STRING_LENGTH), option("1"))["relation"],
+                         "left_dominates")
         self.assertEqual(compare(option("0/7", "0"), option("0", "0.0"))["relation"],
                          "equivalent_on_two_dimensions")
 
@@ -230,12 +234,56 @@ class SupportComparisonTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertEqual(json.loads(result.stdout), MODEL.synthetic_demo())
             self.assertEqual(list(Path(directory).iterdir()), [])
-            for args in ([], ["--input", "not-a-real-file"]):
+            for args in ([], ["--d"], ["--input", "not-a-real-file"]):
                 rejected = subprocess.run([sys.executable, str(SCRIPT), *args],
                                           cwd=directory, capture_output=True, text=True, timeout=10,
                                           env={"PYTHONDONTWRITEBYTECODE": "1"})
                 self.assertEqual(rejected.returncode, 2)
                 self.assertEqual(rejected.stdout, "")
+
+    def test_long_exact_calculator_output(self):
+        # Source integration: use the real calculator from the full checkout.
+        # No synthetic output is treated as a project price or realized cash.
+        calculator_script = ROOT / "scripts/compute_demand.py"
+        spec = importlib.util.spec_from_file_location("compute_demand", calculator_script)
+        calculator = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(calculator)
+
+        decimal = "1." + "0" * 49 + "1"
+        sources = {"synthetic-source"}
+        quantity = calculator.quantities({
+            "id": "synthetic-ci", "kind": "ci",
+            "inputs": {"jobs": 1, "minutes_per_job": decimal},
+        }, Fraction(1))
+        currency, cost, _ = calculator.price({
+            "kind": "ci", "pricing": {
+                "currency": "USD", "billing_mode": "standard",
+                "mode_eligible": True, "rates": {"ci_minutes": decimal},
+                "source_refs": ["synthetic-source"],
+            },
+        }, quantity, sources)
+        support = calculator.support({
+            "support": {
+                "currency": "USD", "face_value": "10", "eligible": True,
+                "activated": False, "eligible_spend_limit": "10",
+                "before_expiry_spend_limit": "10",
+                "source_refs": ["synthetic-source"], "note": "Synthetic only",
+            }, "realization": None,
+        }, cost, currency, sources)
+        value = support["potential_useful_coverage"]
+        self.assertGreater(len(value), 100)
+        self.assertEqual(value, str(cost))
+        self.assertEqual(compare(option(value, "0"), option("1", "0"))["relation"],
+                         "left_dominates")
+
+    def test_abbreviated_demo_switch_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            p = subprocess.run([sys.executable, str(SCRIPT), "--d"], cwd=directory,
+                               capture_output=True, text=True, timeout=10,
+                               env={"PYTHONDONTWRITEBYTECODE": "1"})
+            self.assertEqual(p.returncode, 2)
+            self.assertEqual(p.stdout, "")
+            self.assertEqual(list(Path(directory).iterdir()), [])
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
   "schema_version": "sustainability-pipeline/v1",
   "status": "Draft evidence snapshot; no application or award claim",
   "prepared_on": "2026-10-19",
-  "record_count": 61,
+  "record_count": 62,
   "known_execution_activity": {
     "applications_submitted": 0,
     "provider_accounts_activated": 0,
@@ -739,13 +739,13 @@
     {
       "opportunity_id": "TAPROOT-PROBONO",
       "program_name": "Taproot Plus pro bono matching",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "New Nov 17 public-source memo findings recorded; independent receiving acceptance and actual applicant review pending.",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
-      "eligibility": "Conditionally Eligible after recognized qualifying arrangement",
-      "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
+      "disposition": "Conditional P1 finance/governance and grant-readiness referral; defer intake pending actual applicant and platform-rights decision.",
+      "eligibility": "Unknown; actual applicant and platform acceptance unverified",
+      "application_gate": "Not authorized. Before any Taproot posting, call or brief exchange, including public/synthetic material, obtain specific authorized rights/privacy approval for communications recording, AI uses, content licences and retention; if not accepted, do not use the platform.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
@@ -754,16 +754,16 @@
       "deadline_timezone": null,
       "priority": "P1",
       "score": null,
-      "next_action": "Confirm applicant route and scope a finite engagement after baseline facts."
+      "next_action": "Obtain independent findings acceptance and an actual applicant/rights decision; preserve unsent synthetic briefs. No external platform use authorized."
     },
     {
       "opportunity_id": "SFLC-LEGAL",
       "program_name": "FOSS legal and governance services",
-      "source_review_status": "Source facts checked",
+      "source_review_status": "Nov 17 public-source referral findings recorded; independent receiving acceptance pending.",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
-      "research_status": "Blocked",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
-      "disposition": null,
+      "disposition": "Conditional P1 FOSS legal referral; no client acceptance, jurisdiction-specific advice or representation established.",
       "eligibility": "Unknown",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
@@ -774,7 +774,7 @@
       "deadline_timezone": null,
       "priority": "P1",
       "score": null,
-      "next_action": "Prepare a factual question brief and verify intake criteria before authorized referral."
+      "next_action": "Review unsent public FOSS/rights brief; establish actual client and professional representation boundaries before any inquiry."
     },
     {
       "opportunity_id": "GSOC-MENTOR-ORG",
@@ -1233,6 +1233,26 @@
       "verified_deadline": null,
       "deadline_timezone": null,
       "priority": "P3",
+      "score": null,
+      "next_action": "Complete bounded source/intake and rights/capacity questions, reconcile shared projections, then obtain independent receiving acceptance; external actions remain gated."
+    },
+    {
+      "opportunity_id": "CATCHAFIRE-NONPROFIT-ACCESS",
+      "program_name": "Sponsored or free-slot nonprofit access",
+      "source_review_status": "Dated public-source findings summarized from standalone research; independent receiving acceptance pending.",
+      "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+      "research_status": "In Progress",
+      "opportunity_stage": "Discovered",
+      "disposition": "P2 alternative platform; defer access/intake and matching.",
+      "eligibility": "Unknown; actual applicant, capacity, authority and admission not established",
+      "application_gate": "Not authorized; research records no provider application, enrollment, agreement, transfer, participant recruitment or spending.",
+      "application_outcome": "No submission established; historical state Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "activation_status": "No activation established; prior account state Unknown",
+      "reporting_status": "No actual agreement or operating reporting calendar established",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "priority": "P2",
       "score": null,
       "next_action": "Complete bounded source/intake and rights/capacity questions, reconcile shared projections, then obtain independent receiving acceptance; external actions remain gated."
     }

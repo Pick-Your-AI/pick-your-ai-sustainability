@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **462 distinct source and endpoint URLs** for 65 opportunity records: 431 referenced URLs (430 canonical `source_urls` plus 1 additional discovery URLs), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
+The [source register](../data/research-freshness.json) tracks **485 distinct source and endpoint URLs** for 65 opportunity records: 454 referenced URLs (453 canonical `source_urls` plus 1 additional discovery URLs), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -123,3 +123,8 @@ The 2026-11-17 preparation for [#66](https://github.com/Pick-Your-AI/pick-your-a
 ## Receiving batch: Complete investigated program coverage and funding dispositions
 
 The 2026-11-17 ET preparation for [#30](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30), [#31](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31), [#59](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59), [#65](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65) reconciles `GOOGLE-NONPROFITS-US`, `NSF-PESOSE-26-506`, `KNOWBILITY-AIR`, `LAWYERS-ALLIANCE-NYC`. It preserves all unrelated records, original source dates and existing mechanism/review history. Affected records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.
+
+
+## Source-ledger completion: Institutional home governing policies
+
+This 2026-11-17 ET receiving preparation adds 23 exact URLs already recorded in the pinned standalone ledgers. Original successful/attempt dates, historical scopes and unread-endpoint nulls are retained. All 462 previous freshness observations remain raw-exact and in order. Existing opportunity identities and every non-source field are unchanged; pipeline bytes are unchanged. This fills source membership, performs no provider retrieval and supplies no new applicant or acceptance facts.

@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 485,
+  "source_count": 495,
   "records_count": 65,
   "sources": [
     {
@@ -11859,6 +11859,236 @@
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
         "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
       ]
+    },
+    {
+      "url": "https://www.ffwd.org/privacy-policy",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete February 1, 2021 policy; no actual processing/confidentiality audit. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger F5. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.ffwd.org/events-conduct-policy",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete linked policy; event duties distinct from grant conditions. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger F6. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "FFWD-NONPROFIT-ACCELERATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/wp-content/uploads/2025/09/FY26-Echoing-Green-Recoverable-Grants-FAQ.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All three PDF pages; no complete individual grant agreement. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G3. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/wp-content/uploads/2025/07/Echoing-Green-Offline-Fellowship-Worksheet-2026.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All four PDF pages; incomplete outline of live form, not authored application answers. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G4. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete policy, updated August 5, 2025; includes application processing. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G5. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/terms-of-use/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public terms; public-comments license is not private-application IP terms. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G6. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/content-rights-and-license/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete policy for provider content reuse; not a license imposed on this project. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G7. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/policies/code-of-conduct/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete participation policy; no fee or grant-repayment inference. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G8. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/follow-on-funding-2/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current Fellow-only page; displayed window has no explicit year, separate amount currency unresolved. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G9. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://echoinggreen.org/wp-content/uploads/2026/01/FY25-Audited-Financial-Statements.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Only Notes 10 and 14, including page 22 fiscal sponsorship; year ended June 30, 2025, audit dated December 11, 2025. No full audit review. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger G10. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECHOING-GREEN-FELLOWSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
     }
   ],
   "rules": [
@@ -11867,7 +12097,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 454,
+  "source_evidence_url_count": 464,
   "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,

@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 462,
+  "source_count": 485,
   "records_count": 65,
   "sources": [
     {
@@ -11330,6 +11330,535 @@
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md"
       ]
+    },
+    {
+      "url": "https://www.eclipse.org/projects/dev_process/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current principles, roles, project resources/plans, lifecycle/reviews/releases and change history; July 1, 2026 changes. No project-specific charter reviewed. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E3. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/org/documents/eclipse-ip-policy.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete 12-page v8.0.1, effective March 18, 2026; earlier submission and defined content/specification scopes retained. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E4. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/legal/eca/eca.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete public 53-line v3.2.0, March 3, 2026; account acceptance form uninspected. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E5. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/membership/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Current public classification, fee and enrollment description; no signed membership or chosen class. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E6. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/legal/logo-guidelines/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current v1.1.1, March 18, 2026; actual branding permission unestablished. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E7. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://eclipse.org/legal/Trademark_Transfer_Agreement.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "All seven pages, v2.7; blank transaction date and Exhibit A; no execution. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E8. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/legal/privacy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete policy, last updated February 15, 2024; implementation/private agreements unaudited. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger E9. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ECLIPSE-PROJECT-HOSTING"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/how-it-works/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current governance/membership overview; legacy URL redirected. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A4. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/contributor-agreements.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current process; signed forms uninspected. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A5. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://apache.org/licenses/icla.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Both pages, V2.2 blank form; no actual identity, signoff or employer authority. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A6. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/cla-corporate.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Three pages, identifier `v r190612`; not assigned an inferred calendar date. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A7. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/software-grant-template.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Both pages of blank undated template; no donated-software schedule. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A8. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Entire license and appendix; January 2004; no actual relicensing performed. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A9. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/legal/resolved",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current policy; no full Pick Your AI dependency/material audit. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A10. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/legal/generative-tooling.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete guidance, self-described August 2026 position; legal discussion attributed to ASF. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A11. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/marks/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete v1.2, March 2021; actual mark/title/permission Unknown. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A12. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://infra.apache.org/infra-incubator.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete operational guide; no project allocation or SLA. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A13. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/legal/release-policy.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current policy; release-artifact requirements distinguished from CI quotas. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A14. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/security/committers.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current guidance; no private portal or actual incident examined. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A15. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/sponsorship.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete donor/recognition page; no admission or hosting price inferred. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A16. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.apache.org/foundation/individual-supporters",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete current page; undated budget/average figures excluded from value estimates. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A17. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://attic.apache.org/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete retirement overview; no continuing fix or trademark-return promise. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A18. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://incubator.apache.org/guides/retirement.html",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete guide; operational references retained as published, no retirement performed. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md ledger A19. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "ASF-INCUBATOR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
     }
   ],
   "rules": [
@@ -11338,7 +11867,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 431,
+  "source_evidence_url_count": 454,
   "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,

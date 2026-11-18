@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 495,
+  "source_count": 507,
   "records_count": 65,
   "sources": [
     {
@@ -12089,6 +12089,282 @@
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/institutional-homes.md",
         "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
       ]
+    },
+    {
+      "url": "https://sites.gatech.edu/csjuniordesigncapstone/student-experience/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete visible text, public HTTP 200, 22:16:02Z; 54,147 bytes / f1a63ec98d364d81794b1c10c43ff32d9f653d690a3b18de8147975a0eada15b. No guaranteed actual team. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger G2. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://sites.gatech.edu/csjuniordesigncapstone/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Complete page/navigation, HTTP 200, 22:16:02Z; empty post list, not an intake decision. 43,366 bytes / 98e6b9fd9ac16e97832d91e1170d2e45078acd4f50179b6f681c406ae5529f73. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger G3. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "GATECH-CS-JUNIOR-DESIGN"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/networking-night",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android read complete substantive text. Undated late-October/mid-November cadence, no exact current event date; Seattle in-person option for approved local sponsors. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U4. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android complete substantive text; student-directed possibilities do not reverse outside personal-project exclusion. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U5. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students/informatics",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android complete substantive text; a separate program, not selected or used as MSIM admission/calendar authority. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U6. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/students/mlis",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android complete substantive text; separate program used only to identify the linked unread handbook. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U7. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://www.washington.edu/online/privacy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android complete statement; March 2024 contact updates. Website-specific scope, not sponsor/data/form agreement. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U8. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/sites/default/files/PDFs/HumanSubjectsCapstone.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android complete extracted three-page text, explicitly October 9, 2013. Historical only; no current IRB/timing/authority conclusion. Raster inspection did not occur. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U9. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/sites/default/files/PDFs/CapstoneInfoSession2013.pdf",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Android complete extracted sixteen-page text; filename 2013 and page 12 names June 5, 2014. Historical only; no current intake conclusion. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U10. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://ischool.uw.edu/capstone/sponsorship",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Redirect failed at the tool; destination U13 unread. No successful full-form verification. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U11. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSccMrwymjw_wKsyI4EYIisvtXnCTncqDS047aGzz6dQCIxJ9w/viewform?usp=send_form",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Destination identity only; body and current intake status unread. No account or submission operation. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U13. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://canvas.uw.edu/courses/1701962",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual 404 on directly linked Canvas URL; content/agreement unread, no login attempted. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md ledger U14. Dated standalone observation only; no new provider retrieval.",
+      "opportunity_ids": [
+        "UW-ISCHOOL-MSIM-CAPSTONE"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
     }
   ],
   "rules": [
@@ -12097,7 +12373,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 464,
+  "source_evidence_url_count": 476,
   "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,

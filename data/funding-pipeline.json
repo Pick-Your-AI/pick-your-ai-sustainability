@@ -23,18 +23,18 @@
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
       "research_status": "Done",
       "opportunity_stage": "Discovered",
-      "disposition": "Not Pursuing for ordinary AI-builder scope",
+      "disposition": "Not Pursuing: ordinary AI-builder scope remains excluded; a new round does not remove scope or GenAI gates.",
       "eligibility": "Ineligible for the ordinary AI-builder scope; exception evidence absent",
       "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
       "reporting_status": "No binding schedule established. The canonical assessment separates illustrative MoU clauses from an actual accepted agreement.",
-      "verified_deadline": "2026-11-03",
+      "verified_deadline": "2027-01-03",
       "deadline_timezone": "CET (UTC+01:00)",
       "priority": "P3",
       "score": null,
-      "next_action": "Retain the exclusion. Reopen only for a documented provider rule change or independently evidenced genuinely eligible scope and applicant; do not construct an exception to meet the deadline."
+      "next_action": "Retain Not Pursuing: ordinary AI-builder scope remains excluded. The new 2027-01-03 round and v2.0 restrictions do not create an exception; reconsider only on provider rule change or independently evidenced eligible, human-delivered scope."
     },
     {
       "opportunity_id": "NLNET-CODESUPPLY",
@@ -43,18 +43,18 @@
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
       "research_status": "Done",
       "opportunity_stage": "Verified",
-      "disposition": "Defer application; P2 qualification research only",
+      "disposition": "P2 research only; defer any application pending genuinely eligible human-authored FOSS metadata proposal and verifiable applicant/delivery evidence.",
       "eligibility": "Unknown",
       "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
       "activation_status": "No activation in this execution; prior account state Unknown",
       "reporting_status": "No binding schedule established. The canonical assessment separates illustrative MoU clauses from an actual accepted agreement.",
-      "verified_deadline": "2026-11-03",
+      "verified_deadline": "2027-01-03",
       "deadline_timezone": "CET (UTC+01:00)",
       "priority": "P2",
       "score": null,
-      "next_action": "Consume the existing #11/#17/#21 evidence, establish C01's reusable package-metadata scope and real contributor budget, then make a separate qualification decision. If those facts do not support the call, retain defer or Not Pursuing rather than submit an unrelated AI proposal."
+      "next_action": "Treat the 2027-01-03 cutoff as an external program deadline only. Examine genuinely usable package-metadata work and whether human-authored proposal and funded code/docs can satisfy GenAI v2.0, European allocation, actual applicant/rights/budget and independent authorization. No application is qualified."
     },
     {
       "opportunity_id": "NLNET-NGI0-COMMONS",

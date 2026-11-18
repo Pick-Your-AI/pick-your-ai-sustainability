@@ -215,6 +215,19 @@ def validate_registers(documents):
     check_count(pipeline, "record_count", len(projections), "pipeline", errors)
     check_count(freshness, "records_count", len(records), "freshness", errors)
     check_count(freshness, "source_count", len(sources), "freshness", errors)
+    # Count distinct canonical and explicitly discovered references, not all
+    # tracked endpoints. Historical dates and successful reads are separate.
+    referenced_urls = set()
+    for record in records.values():
+        canonical = record.get("source_urls")
+        if isinstance(canonical, list):
+            referenced_urls.update(url for url in canonical if isinstance(url, str))
+        discoveries = record.get("discovery_sources", [])
+        if isinstance(discoveries, list):
+            for entry in discoveries:
+                if isinstance(entry, dict) and isinstance(entry.get("url"), str):
+                    referenced_urls.add(entry["url"])
+    check_count(freshness, "source_evidence_url_count", len(referenced_urls), "freshness", errors)
     for missing in sorted(records.keys() - projections.keys()):
         errors.append(f"pipeline: missing opportunity {missing}")
     for extra in sorted(projections.keys() - records.keys()):

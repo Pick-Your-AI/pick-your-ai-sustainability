@@ -47,6 +47,7 @@ def documents(record=None):
         },
         "data/research-freshness.json": {
             "records_count": 1, "source_count": len(urls),
+            "source_evidence_url_count": 1,  # The fixture has one canonical reference.
             "sources": [{"url": url, "opportunity_ids": [identity]} for url in urls],
         },
     }

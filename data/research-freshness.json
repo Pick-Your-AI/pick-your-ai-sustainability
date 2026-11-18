@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 521,
+  "source_count": 533,
   "records_count": 65,
   "sources": [
     {
@@ -12687,6 +12687,282 @@
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md",
         "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
       ]
+    },
+    {
+      "url": "https://ostif.org/sponsorship/",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Sponsor workflow and public reports; no actual sponsor, underwriting, contract or project acceptance established. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/8dffebaa1b6c7d54bb4d1e32144107d764e22367/research/security/external-review-support.md ledger S2. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "OSTIF-SECURITY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/8dffebaa1b6c7d54bb4d1e32144107d764e22367/research/security/external-review-support.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://sentry.io/pricing/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Developer/paid product comparison; temporary promotion distinguished. Bounded free-product comparator, not donated sponsorship entitlement. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger O1. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://sentry.io/for/good/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Monthly sponsored capacity and per-organization scope, discretionary admission and profit-making exclusion. Cited for the OSS sponsorship FAQ and quota limits; the distinct registered-nonprofit route is only distinguished, not qualified or added as a new program. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger O3. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://sentry.io/privacy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Account/site collection, retention and international processing; not a replacement for Service Data terms. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger O5. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://docs.sentry.io/security-legal-pii/scrubbing/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Server-side scrubbing controls and explicit reference to separate SDK configuration; no runtime data transmission tested. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger O6. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "SENTRY-OSS-SPONSORSHIP"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://crowdin.com/pricing",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Granted OSS-license FAQ versus standard paid/free products; no private entitlement inspected. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger L2. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://support.crowdin.com/privacy-policy/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Client-data responsibilities, retention and managed/BYOK/specialized AI qualifications; no account inspection. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger L4. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://support.crowdin.com/downloading-translations/",
+      "last_verified": "2026-10-19",
+      "last_attempted": "2026-10-19",
+      "verification_scope": "File-based exports versus string-based target bundles; no export executed. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger L5. Attributed dated standalone observation only; no new provider retrieval, runtime verification or applicant claim.",
+      "opportunity_ids": [
+        "CROWDIN-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://developers.openai.com/codex/codex-for-oss-terms",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Actual form-linked redirect to the already registered learn.chatgpt.com terms destination; track redirect identity separately, not a second full-terms content read. Observed navigation or access history does not verify the governing program claim at this URL. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger A3; line 339. Original dated standalone scope retained; no new provider retrieval.",
+      "opportunity_ids": [
+        "OPENAI-CODEX-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://claude.com/open-source-max",
+      "last_verified": null,
+      "last_attempted": "2026-10-19",
+      "verification_scope": "Terms-listed intake redirects to already registered contact-sales/claude-for-oss; no readable authenticated form fields. Observed navigation or access history does not verify the governing program claim at this URL. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md ledger A4; line 340. Original dated standalone scope retained; no new provider retrieval.",
+      "opportunity_ids": [
+        "ANTHROPIC-CLAUDE-OSS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://developer.amd.com/resources/",
+      "last_verified": null,
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Later read found only resources/navigation and did not sustain earlier credit-term attribution. Record rejected attribution/access scope; never count as credit eligibility verification. Observed navigation or access history does not verify the governing program claim at this URL. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md ledger A2; lines 29-32 and evidence ledger. Original dated standalone scope retained; no new provider retrieval.",
+      "opportunity_ids": [
+        "AMD-DEVCLOUD"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/",
+      "last_verified": null,
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Earlier institutional email/account attribution not renewed; related FAQ child pages redirected to general Public Sector page. Retain named parent URL and exact bounded failure note; no invented child URLs, status codes or successful prerequisite check. Observed navigation or access history does not verify the governing program claim at this URL. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md ledger W2; supplement and evidence ledger. Original dated standalone scope retained; no new provider retrieval.",
+      "opportunity_ids": [
+        "AWS-CLOUD-CREDIT-RESEARCH"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md",
+        "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ]
     }
   ],
   "rules": [
@@ -12695,7 +12971,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 490,
+  "source_evidence_url_count": 502,
   "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,

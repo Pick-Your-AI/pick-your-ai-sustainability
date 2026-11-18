@@ -6344,7 +6344,8 @@
       "source_urls": [
         "https://developers.openai.com/community/codex-for-oss",
         "https://openai.com/form/codex-for-oss/",
-        "https://learn.chatgpt.com/docs/codex-for-oss-terms"
+        "https://learn.chatgpt.com/docs/codex-for-oss-terms",
+        "https://developers.openai.com/codex/codex-for-oss-terms"
       ],
       "source_evidence": [
         "Current program offers selected maintainers six months of ChatGPT Pro with Codex, conditional Codex Security and API support for core OSS work.",
@@ -6360,7 +6361,8 @@
       "source_refs": [
         "https://developers.openai.com/community/codex-for-oss",
         "https://openai.com/form/codex-for-oss/",
-        "https://learn.chatgpt.com/docs/codex-for-oss-terms"
+        "https://learn.chatgpt.com/docs/codex-for-oss-terms",
+        "https://developers.openai.com/codex/codex-for-oss-terms"
       ],
       "application_url": "https://openai.com/form/codex-for-oss/",
       "internal_application_review_controls": [
@@ -6793,7 +6795,8 @@
       "owning_research_key": "E07-06",
       "source_urls": [
         "https://claude.com/contact-sales/claude-for-oss",
-        "https://www.anthropic.com/claude-for-oss-terms"
+        "https://www.anthropic.com/claude-for-oss-terms",
+        "https://claude.com/open-source-max"
       ],
       "source_evidence": [
         "Current page offers six months of Claude Max 20x to selected OSS contributors.",
@@ -6808,7 +6811,8 @@
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
         "https://claude.com/contact-sales/claude-for-oss",
-        "https://www.anthropic.com/claude-for-oss-terms"
+        "https://www.anthropic.com/claude-for-oss-terms",
+        "https://claude.com/open-source-max"
       ],
       "application_url": "https://claude.com/contact-sales/claude-for-oss",
       "internal_application_review_controls": [
@@ -7541,7 +7545,8 @@
       "owning_research_key": "E05-03",
       "source_urls": [
         "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
-        "https://www.amd.com/en/developer/resources/cloud-access.html"
+        "https://www.amd.com/en/developer/resources/cloud-access.html",
+        "https://developer.amd.com/resources/"
       ],
       "source_evidence": [
         "Current page offers an initial $100 credit to qualified AMD AI Developer Program applicants for prototyping/development.",
@@ -7556,7 +7561,8 @@
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
         "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
-        "https://www.amd.com/en/developer/resources/cloud-access.html"
+        "https://www.amd.com/en/developer/resources/cloud-access.html",
+        "https://developer.amd.com/resources/"
       ],
       "application_url": "https://developer.amd.com",
       "internal_application_review_controls": [
@@ -9426,7 +9432,8 @@
       },
       "owning_research_key": "E07-04",
       "source_urls": [
-        "https://ostif.org/get-an-audit/"
+        "https://ostif.org/get-an-audit/",
+        "https://ostif.org/sponsorship/"
       ],
       "source_evidence": [
         "OSTIF offers audit scoping, specialist selection, managed engagement and support finding sponsors.",
@@ -9440,7 +9447,8 @@
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "next_verification_rule": "Monthly review and before any submission or activation; no arbitrary application deadline",
       "source_refs": [
-        "https://ostif.org/get-an-audit/"
+        "https://ostif.org/get-an-audit/",
+        "https://ostif.org/sponsorship/"
       ],
       "application_url": "https://ostif.org/get-an-audit/",
       "internal_application_review_controls": [
@@ -13019,7 +13027,8 @@
       "source_urls": [
         "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
         "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
-        "https://aws.amazon.com/awscredits/"
+        "https://aws.amazon.com/awscredits/",
+        "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
       ],
       "last_verified": "2026-11-17",
       "available_before_incorporation": "Unknown; no eligible full-time institutional faculty/research staff or graduate researcher, account or authority evidenced.",
@@ -13083,7 +13092,10 @@
         "searched_at": "2026-11-17",
         "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
         "canonical_match": "AWS-CLOUD-CREDIT-RESEARCH"
-      }
+      },
+      "source_refs": [
+        "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
+      ]
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -13096,7 +13108,11 @@
       "application_url": "https://sentry.io/for/open-source/",
       "source_urls": [
         "https://sentry.io/for/open-source/",
-        "https://sentry.io/terms/"
+        "https://sentry.io/terms/",
+        "https://sentry.io/pricing/",
+        "https://sentry.io/for/good/",
+        "https://sentry.io/privacy/",
+        "https://docs.sentry.io/security-legal-pii/scrubbing/"
       ],
       "last_verified": "2026-11-17",
       "available_before_incorporation": "Unknown; suitable public project/license, account and discretionary sponsorship not evidenced.",
@@ -13158,7 +13174,13 @@
         "searched_at": "2026-11-17",
         "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
         "canonical_match": "SENTRY-OSS-SPONSORSHIP"
-      }
+      },
+      "source_refs": [
+        "https://sentry.io/pricing/",
+        "https://sentry.io/for/good/",
+        "https://sentry.io/privacy/",
+        "https://docs.sentry.io/security-legal-pii/scrubbing/"
+      ]
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -13171,7 +13193,10 @@
       "application_url": "https://crowdin.com/product/for-open-source",
       "source_urls": [
         "https://crowdin.com/product/for-open-source",
-        "https://support.crowdin.com/terms/"
+        "https://support.crowdin.com/terms/",
+        "https://crowdin.com/pricing",
+        "https://support.crowdin.com/privacy-policy/",
+        "https://support.crowdin.com/downloading-translations/"
       ],
       "last_verified": "2026-11-17",
       "available_before_incorporation": "Unknown; public code alone does not meet all project, lead, activity and translation-rights conditions.",
@@ -13234,7 +13259,12 @@
         "searched_at": "2026-11-17",
         "scope": "Current main register IDs/provider-program identities plus public standalone source documents; no historical aggregate register imported.",
         "canonical_match": "CROWDIN-OSS"
-      }
+      },
+      "source_refs": [
+        "https://crowdin.com/pricing",
+        "https://support.crowdin.com/privacy-policy/",
+        "https://support.crowdin.com/downloading-translations/"
+      ]
     },
     {
       "opportunity_id": "ECLIPSE-PROJECT-HOSTING",

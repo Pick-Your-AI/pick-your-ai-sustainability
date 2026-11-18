@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **537 distinct source and endpoint URLs** for 65 opportunity records: 506 referenced URLs (505 canonical `source_urls` plus 1 additional discovery URL), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
+The [source register](../data/research-freshness.json) tracks **541 distinct source and endpoint URLs** for 65 opportunity records: 510 referenced URLs (509 canonical `source_urls` plus 1 additional discovery URL), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -151,4 +151,4 @@ This 2026-11-17 ET receiving preparation adds 12 exact URLs already recorded in 
 
 ## Catchafire and AIR source reconciliation, 2026-11-18 UTC
 
-The two newly read Catchafire governing URLs now belong to the existing Catchafire program. AIR's existing rules URL has a new bounded site-fit observation without changing its November 17 history. The earlier 535-source snapshot remains historical; the current 537-source count includes these two added URLs. Counts track evidence membership, not applicant qualification or blanket current verification. Independent receiving acceptance and protected delivery remain pending.
+The two newly read Catchafire governing URLs now belong to the existing Catchafire program. AIR's existing rules URL has a new bounded site-fit observation without changing its November 17 history. The earlier 535-source snapshot remains historical; the resulting 537-source snapshot includes these two added URLs. Counts track evidence membership, not applicant qualification or blanket current verification. Independent receiving acceptance and protected delivery remain pending.

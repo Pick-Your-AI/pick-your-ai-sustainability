@@ -13414,7 +13414,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 506,
+  "source_evidence_url_count": 510,
   "check_policy": {
     "interval_hours": 6,
     "authorized_on": "2026-10-22",

@@ -138,6 +138,93 @@ class RegisterChecks(unittest.TestCase):
         source["program_scope_observations"] = original
         self.assertEqual(self.errors(), [])
 
+    def test_source_reference_count_detects_stale_metadata(self):
+        self.assertEqual(self.errors(), [])
+        self.freshness["source_evidence_url_count"] -= 1
+        self.assertError("freshness[source_evidence_url_count]: expected")
+
+    def test_new_canonical_source_requires_reference_count_update(self):
+        url = "https://example.test/synthetic-new-canonical-source"
+        self.record["source_urls"].append(url)
+        self.freshness["sources"].append({
+            "url": url, "last_verified": None,
+            "opportunity_ids": [self.record["opportunity_id"]],
+            "source_roles": ["official_source"], "state": "Synthetic; no provider read",
+        })
+        self.freshness["source_count"] += 1
+        self.assertError("freshness[source_evidence_url_count]: expected")
+        self.freshness["source_evidence_url_count"] += 1
+        self.assertEqual(self.errors(), [])
+
+    def test_new_discovery_source_requires_reference_count_update(self):
+        record = next(row for row in self.register["records"]
+                      if row.get("discovery_sources"))
+        url = "https://example.test/synthetic-new-discovery-source"
+        discovery = copy.deepcopy(record["discovery_sources"][0])
+        discovery["url"] = url
+        record["discovery_sources"].append(discovery)
+        self.freshness["sources"].append({
+            "url": url, "last_verified": None,
+            "opportunity_ids": [record["opportunity_id"]],
+            "source_roles": ["discovery_source"], "state": "Synthetic; no provider read",
+        })
+        self.freshness["source_count"] += 1
+        self.assertError("freshness[source_evidence_url_count]: expected")
+        self.freshness["source_evidence_url_count"] += 1
+        self.assertEqual(self.errors(), [])
+
+    def test_source_evidence_union_deduplicates_across_fields_and_records(self):
+        existing = self.record["source_urls"][0]
+        added = "https://example.org/discovery-count-regression"
+        records = self.register["records"][:2]
+        ids = [record["opportunity_id"] for record in records]
+        source = next(row for row in self.freshness["sources"] if row["url"] == existing)
+        source["opportunity_ids"] += [identity for identity in ids
+                                      if identity not in source["opportunity_ids"]]
+        self.freshness["sources"].append({"url": added, "opportunity_ids": ids})
+        self.freshness["source_count"] += 1
+        for record in records:
+            record.setdefault("discovery_sources", []).extend(
+                [{"url": existing}, {"url": added}, {"url": added}])
+        self.freshness["source_evidence_url_count"] += 1
+        self.assertEqual(self.errors(), [])
+
+    def test_tracked_endpoints_do_not_increase_source_evidence_count(self):
+        for field in ("official_program_url", "official_application_url", "application_url"):
+            with self.subTest(field=field):
+                url = "https://example.org/endpoint-count-regression/" + field
+                self.record[field] = url
+                self.freshness["sources"].append({
+                    "url": url, "opportunity_ids": [self.record["opportunity_id"]]})
+                self.freshness["source_count"] += 1
+                self.assertEqual(self.errors(), [])
+
+    def test_source_evidence_count_requires_exact_integer_even_for_zero_or_one(self):
+        key = "source_evidence_url_count"
+        shared = self.record["source_urls"][0]
+        for record in self.register["records"]:
+            record["source_urls"] = [shared]
+            record.pop("discovery_sources", None)
+        source = next(row for row in self.freshness["sources"] if row["url"] == shared)
+        source["opportunity_ids"] = [row["opportunity_id"] for row in self.register["records"]]
+        self.freshness[key] = 1
+        self.assertEqual(self.errors(), [])
+        missing = object()
+        for value in (missing, None, True, False, 1.0, "1"):
+            with self.subTest(value="missing" if value is missing else value):
+                if value is missing:
+                    self.freshness.pop(key, None)
+                else:
+                    self.freshness[key] = value
+                self.assertError(f"[{key}]: expected 1,")
+        self.register.update(records=[], records_count=0)
+        self.pipeline.update(records=[], record_count=0)
+        self.freshness.update(sources=[], source_count=0, records_count=0)
+        self.freshness[key] = 0
+        self.assertEqual(self.errors(), [])
+        self.freshness[key] = False
+        self.assertError(f"[{key}]: expected 0,")
+
     def test_declared_counts_must_match_actual_arrays(self):
         for document, field in ((self.register, "records_count"), (self.pipeline, "record_count"),
                                 (self.freshness, "records_count"), (self.freshness, "source_count")):

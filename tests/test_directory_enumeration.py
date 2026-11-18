@@ -42,7 +42,10 @@ class DirectoryEnumerationChecks(unittest.TestCase):
             },
             "data/opportunities.schema.json": schema,
             "templates/opportunity-record.json": template,
-            "data/research-freshness.json": {"records_count": 0, "source_count": 0, "sources": []},
+            "data/research-freshness.json": {
+                "records_count": 0, "source_count": 0,
+                "source_evidence_url_count": 0, "sources": [],
+            },
             "data/funding-pipeline.json": {"record_count": 0, "records": []},
         }
         for name, content in documents.items():

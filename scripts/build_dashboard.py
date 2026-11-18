@@ -232,6 +232,43 @@ def github_metrics(observation: dict, discrepancies: list[dict]) -> dict:
     }
 
 
+def source_check_metrics(sources: dict[str, dict]) -> dict:
+    """Count recorded URL/date coverage without extending a program/claim scope.
+
+    A URL can have several dates; neither its newest date nor a successful read
+    for one member is a replacement for the other recorded observations. Attempt
+    dates and nested reachability reviews are deliberately not successful checks.
+    """
+    top_level_dates = Counter()
+    scoped_dates = Counter()
+    all_dates = Counter()
+    without_date = []
+    scoped_observations = []
+    for url, source in sorted(sources.items()):
+        top_level_date = source.get("last_verified")
+        if top_level_date is not None:
+            top_level_dates[top_level_date] += 1
+        observations = source.get("program_scope_observations", [])
+        dates = {observation["last_verified"] for observation in observations
+                 if observation.get("last_verified") is not None}
+        scoped_dates.update(dates)
+        scoped_observations.extend({"url": url, "observation": observation}
+                                   for observation in observations)
+        if top_level_date is not None:
+            dates.add(top_level_date)
+        all_dates.update(dates)
+        if not dates:
+            without_date.append(source)
+    return {
+        "recorded_successful_check_dates": dict(sorted(all_dates.items())),
+        "top_level_successful_check_dates": dict(sorted(top_level_dates.items())),
+        "scoped_successful_check_dates": dict(sorted(scoped_dates.items())),
+        "program_scope_observations": scoped_observations,
+        "without_successful_check_count": len(without_date),
+        "without_successful_check": without_date,
+    }
+
+
 def calculate(audit: dict, inputs: dict) -> dict:
     require(audit.get("schema_version") == "sustainability-dashboard-readback/v1", "Unsupported dashboard audit schema")
     require(bool(re.fullmatch(r"data/audits/[A-Za-z0-9_.-]+\.json", audit.get("audit_path", ""))), "Audit needs a repository-relative dated JSON path")
@@ -284,7 +321,6 @@ def calculate(audit: dict, inputs: dict) -> dict:
         for identity in source.get("opportunity_ids", []):
             if identity not in indexed:
                 discrepancies.append({"kind": "unknown_source_membership", "url": url, "opportunity_id": identity})
-    without_date = [source for source in sources.values() if source.get("last_verified") is None]
     without_review = [row["opportunity_id"] for row in rows if not complete_review_pointer(row)]
     stages = counts(rows, "opportunity_stage")
     for stage in STAGES:
@@ -302,7 +338,7 @@ def calculate(audit: dict, inputs: dict) -> dict:
         "work": {"program_records": len(rows), "by_status": counts(rows, "work_status"), "by_priority": counts(rows, "priority"), "complete_review_pointer_count": len(rows) - len(without_review), "missing_review_pointer_ids": without_review, "unassigned_research_owner_ids": [row["opportunity_id"] for row in rows if row.get("assigned_owner") is None], "distinct_owning_issue_urls": sorted({row["linked_github_research_issue"] for row in rows if row.get("linked_github_research_issue")})},
         "opportunity_stages": stages,
         "program_gates": [{key: row.get(key) for key in ("opportunity_id", "program_name", "round", "work_status", "opportunity_stage", "linked_github_research_issue", "application_gate", "eligibility_status", "current_disposition", "available_before_incorporation", "available_through_fiscal_sponsorship", "available_after_501c3_recognition", "assigned_owner")} for row in rows],
-        "freshness": {"tracked_urls": len(sources), "canonical_source_urls": len(canonical_urls), "additional_discovery_urls": len(discovery_urls - canonical_urls), "referenced_source_or_discovery_urls": len(referenced), "tracked_urls_outside_references": len(sources.keys() - referenced), "recorded_successful_check_dates": dict(sorted(Counter(source["last_verified"] for source in sources.values() if source.get("last_verified") is not None).items())), "without_successful_check_count": len(without_date), "without_successful_check": sorted(without_date, key=lambda x: x["url"]), "stale_source_count": None, "stale_scope": "Unknown: no arbitrary age threshold or complete claim-specific current-action validity population is supplied. A recorded successful date is not current availability or full endpoint acceptance."},
+        "freshness": {"tracked_urls": len(sources), "canonical_source_urls": len(canonical_urls), "additional_discovery_urls": len(discovery_urls - canonical_urls), "referenced_source_or_discovery_urls": len(referenced), "tracked_urls_outside_references": len(sources.keys() - referenced), **source_check_metrics(sources), "stale_source_count": None, "stale_scope": "Unknown: no arbitrary age threshold or complete claim-specific current-action validity population is supplied. A recorded successful date is not current availability or full endpoint acceptance."},
         "deadlines": deadlines,
         "resources": {"confirmed_awards": None, "cash_received_by_currency": None, "activated_benefits": None, "realized_avoided_cost_by_currency": None, "actual_expenditure_by_currency": None, "complete_population": None, "reason": "Canonical research records are not a complete event-level financial/operating ledger; no actual recipient/fund/currency/period and complete population is established.", "recorded_pipeline_totals": pipeline.get("funding_totals"), "recorded_budget_actuals": budget.get("actuals"), "recorded_execution_activity": pipeline.get("known_execution_activity"), "non_null_award_evidence_ids": [row["opportunity_id"] for row in rows if row.get("award_evidence") is not None], "non_null_activation_evidence_ids": [row["opportunity_id"] for row in rows if row.get("activation_evidence") is not None]},
         "obligations": {"confirmed_open_count": None, "overdue_count": None, "complete_population": None, "operating_owner": "Unassigned", "recurring_coordinator": "Unassigned", "recurring_reviewer": "Unassigned", "reason": "A program's published restrictions or reporting text does not establish an actual accepted agreement, due trigger, responsible role or complete obligation ledger."},
@@ -363,10 +399,14 @@ def render_markdown(report: dict) -> str:
             ["Additional discovery URLs", freshness["additional_discovery_urls"], "Explicit discovery_sources.url values outside canonical source_urls."],
             ["Referenced source/discovery union", freshness["referenced_source_or_discovery_urls"], "Union of the preceding reference sets, deduplicated."],
             ["Tracked URLs outside that union", freshness["tracked_urls_outside_references"], "Membership difference, not a count of failed or unverified checks."],
-            ["No recorded successful-check date", freshness["without_successful_check_count"], "last_verified is null; original attempts and access limits remain intact."],
-            *[["Recorded check date: " + date, count, "Observation-date coverage only; no current-availability or full-form claim."] for date, count in freshness["recorded_successful_check_dates"].items()],
+            ["No recorded successful-check date in any scope", freshness["without_successful_check_count"], "Neither top-level nor program_scope_observations has a non-null last_verified; attempts and access limits remain intact."],
+            *[["Recorded URL/date coverage: " + date, count, "Distinct URLs with this successful date in the top-level or a scoped observation; each URL counts once per date and can appear on several dates."] for date, count in freshness["recorded_successful_check_dates"].items()],
+            *[["Top-level recorded check date: " + date, count, "Original top-level last_verified only; preserved separately from scoped reads."] for date, count in freshness["top_level_successful_check_dates"].items()],
+            *[["Scoped recorded check date: " + date, count, "Distinct URLs with this date in program_scope_observations; scope and program membership are retained below."] for date, count in freshness["scoped_successful_check_dates"].items()],
             ["Stale current claims", None, freshness["stale_scope"]],
         ]),
+        "Date counts measure recorded URL/date coverage, not a complete program or claim refresh. They can sum to more than the URL population. A shared URL's scoped read applies only to the listed opportunity IDs and verification scope; no maximum date is assigned to its other programs. Null scoped dates, historical findings and pending receiving acceptance remain visible. Reachability reviews and automated access/change checks do not supply successful claim-review dates.",
+        table(["Scoped observation: exact URL", "Opportunity IDs", "Recorded successful date", "Recorded scope / access state"], [[row["url"], ", ".join(row["observation"].get("opportunity_ids", [])), row["observation"].get("last_verified"), str(row["observation"].get("verification_scope", "Unknown")) + " / " + str(row["observation"].get("state", "Unknown"))] for row in freshness["program_scope_observations"]]),
         "A failed or partial latest attempt does not erase an older successful observation. Its affected current claim can remain Not Verified even when a date exists. The builder advances no dates and adopts no elapsed-time expiry rule. Recheck applicable sources before a current recommendation, agreement, application, activation or renewal; preserve historical announcements, redirects, inaccessible forms and conflicting terms.",
         table(["No successful check recorded: exact URL", "Roles", "Recorded scope / access state"], [[row["url"], ", ".join(row.get("source_roles", [])), row.get("state")] for row in freshness["without_successful_check"]]),
         "## 4. Resource realization and obligations",

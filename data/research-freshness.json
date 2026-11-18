@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 533,
+  "source_count": 535,
   "records_count": 65,
   "sources": [
     {
@@ -2455,10 +2455,44 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
       ],
-      "state": "Source checked; application and applicant conditions may remain Unknown",
+      "state": "Mixed dated program scopes; preserve original access limits and consult program_scope_observations. No actual applicant or complete private form verified.",
       "source_roles": [
         "governing_source_evidence",
         "program_endpoint"
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": "2026-10-19",
+          "verification_scope": "Published facts recorded for linked opportunities",
+          "opportunity_ids": [
+            "NSF-PESOSE-26-506"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Scheduled monthly program review",
+            "Before any application, agreement, activation or public qualification claim",
+            "Upon provider redirect, changed eligibility/benefit/price, closure/reopening or contradictory evidence"
+          ],
+          "state": "Source checked; application and applicant conditions may remain Unknown",
+          "source_roles": [
+            "governing_source_evidence",
+            "program_endpoint"
+          ],
+          "source_revision": "413ac0bbc68b7af5f1c571b01bbad3b24bf23cd7"
+        },
+        {
+          "opportunity_ids": [
+            "NSF-PESOSE-26-506"
+          ],
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Public current solicitation: March 2, 2027 at 17:00 submitting-organization local time; organization/PI and subaward restrictions; three tracks. No actual applicant, timezone, authenticated workspace or full award agreement was verified.",
+          "state": "Dated scoped public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/413ac0bbc68b7af5f1c571b01bbad3b24bf23cd7/data/opportunities.json",
+            "Existing dated receiving observation now indexed; no new provider retrieval."
+          ]
+        }
       ]
     },
     {
@@ -10218,7 +10252,9 @@
       ],
       "state": "Dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "governing_source_evidence",
+        "program_endpoint",
+        "application_endpoint"
       ],
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
@@ -10284,7 +10320,8 @@
       ],
       "state": "Dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "governing_source_evidence",
+        "program_endpoint"
       ],
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
@@ -10306,7 +10343,8 @@
       ],
       "state": "Dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "governing_source_evidence",
+        "application_endpoint"
       ],
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
@@ -10372,7 +10410,9 @@
       ],
       "state": "Dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "governing_source_evidence",
+        "program_endpoint",
+        "application_endpoint"
       ],
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
@@ -10416,7 +10456,9 @@
       ],
       "state": "Dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "governing_source_evidence",
+        "program_endpoint",
+        "application_endpoint"
       ],
       "provenance": [
         "Public-source research performed for this receiving batch on 2026-11-17; no authenticated access or service use."
@@ -12198,7 +12240,7 @@
       ],
       "state": "Historical dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "related_program_endpoint"
       ],
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
@@ -12221,7 +12263,7 @@
       ],
       "state": "Historical dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "related_program_endpoint"
       ],
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md",
@@ -12416,7 +12458,7 @@
       "url": "https://developers.google.com/open-source/gsoc/rules",
       "last_verified": null,
       "last_attempted": "2026-10-19",
-      "verification_scope": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/); Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md ledger S8a. Dated standalone observation only; no new provider retrieval.",
+      "verification_scope": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/); Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md ledger S8. Dated standalone observation only; no new provider retrieval. Requested rules URL; paired redirect target is indexed separately.",
       "opportunity_ids": [
         "GSOC-MENTOR-ORG"
       ],
@@ -12439,7 +12481,7 @@
       "url": "https://summerofcode.withgoogle.com/rules/",
       "last_verified": null,
       "last_attempted": "2026-10-19",
-      "verification_scope": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/); Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md ledger S8b. Dated standalone observation only; no new provider retrieval.",
+      "verification_scope": "[GSoC rules](https://developers.google.com/open-source/gsoc/rules) → [program rules endpoint](https://summerofcode.withgoogle.com/rules/); Redirect produced zero readable lines. Rule/contract contents remain unverified; no login, form or alternate access was attempted. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md ledger S8. Dated standalone observation only; no new provider retrieval. Redirect-target URL; requested rules URL is indexed separately.",
       "opportunity_ids": [
         "GSOC-MENTOR-ORG"
       ],
@@ -12462,7 +12504,7 @@
       "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
       "last_verified": null,
       "last_attempted": "2026-10-19",
-      "verification_scope": "[LFX Mentorship entry](https://lfx.linuxfoundation.org/tools/mentorship/) → [portal](https://mentorship.lfx.linuxfoundation.org/); Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md ledger S9a. Dated standalone observation only; no new provider retrieval.",
+      "verification_scope": "[LFX Mentorship entry](https://lfx.linuxfoundation.org/tools/mentorship/) → [portal](https://mentorship.lfx.linuxfoundation.org/); Entry redirect read; portal exposed zero readable lines. No current listing, account, date or form is verified. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md ledger S9. Dated standalone observation only; no new provider retrieval. Entry/navigation URL; the unread portal is indexed separately.",
       "opportunity_ids": [
         "LFX-MENTORSHIP-HOST"
       ],
@@ -12727,7 +12769,7 @@
       ],
       "state": "Historical dated public-source observation; independent receiving acceptance pending",
       "source_roles": [
-        "governing_source_evidence"
+        "related_product_endpoint"
       ],
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/bf90148aa5363648c458e166dc55f2be3be49cec/research/tooling/support-stack.md",
@@ -12955,13 +12997,98 @@
         "Before any application, agreement, activation or current qualification claim",
         "Changed terms, intake, redirects or contradictory evidence"
       ],
-      "state": "Not Verified; successful check remains null",
+      "state": "Mixed dated program scopes; preserve original access limits and consult program_scope_observations. No actual applicant or complete private form verified.",
       "source_roles": [
-        "unverified_research_endpoint"
+        "unverified_research_endpoint",
+        "governing_source_evidence"
       ],
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md",
         "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+      ],
+      "program_scope_observations": [
+        {
+          "last_verified": null,
+          "last_attempted": "2026-11-17",
+          "verification_scope": "Earlier institutional email/account attribution not renewed; related FAQ child pages redirected to general Public Sector page. Retain named parent URL and exact bounded failure note; no invented child URLs, status codes or successful prerequisite check. Observed navigation or access history does not verify the governing program claim at this URL. Evidence: https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md ledger W2; supplement and evidence ledger. Original dated standalone scope retained; no new provider retrieval.",
+          "opportunity_ids": [
+            "AWS-CLOUD-CREDIT-RESEARCH"
+          ],
+          "next_verification_date": null,
+          "triggers": [
+            "Monthly research review",
+            "Before any application, agreement, activation or current qualification claim",
+            "Changed terms, intake, redirects or contradictory evidence"
+          ],
+          "state": "Not Verified; successful check remains null",
+          "source_roles": [
+            "unverified_research_endpoint"
+          ],
+          "provenance": [
+            "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/365e84670ca1e63842ea4af9bf3405f039358601/research/compute/gpu-access-matrix.md",
+            "Attributed dated standalone observation; no new provider read by this receiving reconciliation."
+          ],
+          "source_revision": "413ac0bbc68b7af5f1c571b01bbad3b24bf23cd7"
+        },
+        {
+          "opportunity_ids": [
+            "AWS-CLOUD-CREDIT-RESEARCH"
+          ],
+          "last_verified": "2026-11-18",
+          "last_attempted": "2026-11-18",
+          "verification_scope": "Public General Information FAQ read 2026-11-18: accredited-institution faculty/staff/graduate researchers; institution-issued email required and non-institution-domain applications not accepted; Greater China applications cannot currently be processed; AWS account number required. No child FAQ, authenticated form, actual applicant, account or award verified. Earlier 2026-11-17 child-page redirect and unrenewed-attribution history retained.",
+          "state": "Dated scoped public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/",
+            "Actual unauthenticated public parent FAQ retrieval on 2026-11-18; no credentialed API or provider interaction."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/3215869?hl=en",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Public US eligibility and group/chapter/fiscal-sponsored distinction only. No account, form, organization, private document or product terms were verified. Other observations keep their historical dates.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application or current qualification claim",
+        "Changed terms, redirects or contradictory evidence"
+      ],
+      "state": "Dated scoped public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/413ac0bbc68b7af5f1c571b01bbad3b24bf23cd7/data/opportunities.json",
+        "Carried forward from the explicitly dated 2026-11-17 public_source_recheck; no new provider retrieval."
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/1699858?hl=en",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Public US eligibility and group/chapter/fiscal-sponsored distinction only. No account, form, organization, private document or product terms were verified. Other observations keep their historical dates.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application or current qualification claim",
+        "Changed terms, redirects or contradictory evidence"
+      ],
+      "state": "Dated scoped public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/413ac0bbc68b7af5f1c571b01bbad3b24bf23cd7/data/opportunities.json",
+        "Carried forward from the explicitly dated 2026-11-17 public_source_recheck; no new provider retrieval."
       ]
     }
   ],
@@ -12971,12 +13098,13 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 502,
-  "additional_unverified_endpoint_count": 31,
+  "source_evidence_url_count": 504,
   "check_policy": {
     "interval_hours": 6,
     "authorized_on": "2026-10-22",
     "authorization": "Andrew: re-check every 4–6 hours and on change; six-hour automation proposed for review in this PR",
     "state_location": "GitHub Actions source-freshness artifacts; automated access/change checks only; human claim-verification fields unchanged"
-  }
+  },
+  "additional_endpoint_count": 31,
+  "additional_endpoints_without_successful_observation_count": 30
 }

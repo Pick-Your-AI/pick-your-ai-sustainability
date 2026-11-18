@@ -2478,7 +2478,9 @@
         "https://policies.google.com/privacy",
         "https://support.google.com/nonprofits/answer/10162421?hl=en&ref_topic=9334112",
         "https://support.google.com/nonprofits/answer/9016350?hl=en&ref_topic=9334112",
-        "https://www.google.com/nonprofits/find-solutions/ad-grants/"
+        "https://www.google.com/nonprofits/find-solutions/ad-grants/",
+        "https://support.google.com/nonprofits/answer/3215869?hl=en",
+        "https://support.google.com/nonprofits/answer/1699858?hl=en"
       ],
       "application_url": "https://support.google.com/nonprofits/answer/3215869",
       "source_evidence": [
@@ -2535,7 +2537,9 @@
         "https://policies.google.com/privacy",
         "https://support.google.com/nonprofits/answer/10162421?hl=en&ref_topic=9334112",
         "https://support.google.com/nonprofits/answer/9016350?hl=en&ref_topic=9334112",
-        "https://www.google.com/nonprofits/find-solutions/ad-grants/"
+        "https://www.google.com/nonprofits/find-solutions/ad-grants/",
+        "https://support.google.com/nonprofits/answer/3215869?hl=en",
+        "https://support.google.com/nonprofits/answer/1699858?hl=en"
       ],
       "related_research_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/13",
@@ -2564,7 +2568,7 @@
         ],
         "scope": "Public US eligibility and group/chapter/fiscal-sponsored distinction only. No account, form, organization, private document or product terms were verified. Other observations keep their historical dates."
       },
-      "research_deliverable": "docs/research/charitable-grant-prospect-matrix.md",
+      "research_deliverable": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/0751e20855c1bfe3f8716d9aed52fcb57d7ea7a2/docs/research/charitable-grant-prospect-matrix.md",
       "research_receiving_2026_11_17": {
         "source_revision": "0751e20855c1bfe3f8716d9aed52fcb57d7ea7a2",
         "source_document_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/0751e20855c1bfe3f8716d9aed52fcb57d7ea7a2/docs/research/charitable-grant-prospect-matrix.md",
@@ -3304,7 +3308,7 @@
         ],
         "scope": "Public current solicitation: March 2, 2027 at 17:00 submitting-organization local time; organization/PI and subaward restrictions; three tracks. No actual applicant, timezone, authenticated workspace or full award agreement was verified."
       },
-      "research_deliverable": "data/opportunities/nsf-pesose.json",
+      "research_deliverable": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/ebb832141631d9192ff5a0cab594526c7593052c/data/opportunities/nsf-pesose.json",
       "research_receiving_2026_11_17": {
         "source_revision": "ebb832141631d9192ff5a0cab594526c7593052c",
         "source_document_url": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/ebb832141631d9192ff5a0cab594526c7593052c/data/opportunities/nsf-pesose.json",
@@ -3889,14 +3893,14 @@
           "source_review_status": "Current public findings inspected; independent findings acceptance pending",
           "next_action": "Keep closed/P3 watch. Independently review this screen; reconsider only on verified reopening and actual investigator/admin/research evidence.",
           "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Actual findings acceptance pending",
-        "limitations": [
-          "This screen is not Spencer grant-proposal review, applicant qualification or operational authorization."
-        ]
-      }
+            "reviewer": null,
+            "reviewed_revision": null,
+            "review_url": null,
+            "decision": "Actual findings acceptance pending",
+            "limitations": [
+              "This screen is not Spencer grant-proposal review, applicant qualification or operational authorization."
+            ]
+          }
         }
       }
     },
@@ -6799,7 +6803,7 @@
         "https://claude.com/open-source-max"
       ],
       "source_evidence": [
-        "Current page offers six months of Claude Max 20x to selected OSS contributors.",
+        "Historical 2026-10-19 observation: the page offered six months of Claude Max 20x to selected OSS contributors. The separate 2026-11-17 receiving observation describes Claude Ultra; neither establishes an actual recipient benefit.",
         "Examples include dependency/download reach, recognized maintainership, 100 external merged PRs, 20 external contributors or OpenSSF criticality 0.4; exceptions invited."
       ],
       "benefit": "Six months of Claude Ultra advertised on 2026-11-17; actual recipient benefit Unknown",
@@ -6859,7 +6863,7 @@
           "Current public page and governing program terms both advertise six months of Claude Ultra; the 2026-10-19 Max 20x observation remains historical, with no equivalence or transition entitlement assumed.",
           "Natural-person-only, age/region requirements, GitHub account at least two years old, recent 90-day public OSS activity and OSI project license apply alongside impact criteria or discretionary ecosystem track. Actual applicant Unknown.",
           "Rolling discretionary review and up-to-10,000 cap do not establish remaining capacity or a fixed closing date. Code activation within 90 days; base benefit six months; overages possible.",
-          "Paid plan resumes unless canceled; paused-billing notice at least 30 days. Recipient identification permitted, co-marketing optional; personal use, no transfer/sharing/cash value."
+          "A prior paid plan resumes unless canceled; otherwise the account returns to free. Paused-billing notice at least 30 days. Recipient identification permitted, co-marketing optional; personal use, no transfer/sharing/cash value."
         ],
         "limitations": [
           "Actual applicant, account, award, authorized operator, usable value and effort remain Unknown; external inquiries remain unsent."
@@ -7470,7 +7474,7 @@
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Initial $100 GPU credit; additional support discretionary",
+      "benefit_amount_or_capacity": "Conflicting public offers observed 2026-11-17: product FAQ $100/30 days versus general cloud page 25 hours/about US$50/10 days. Actual applicable amount, expiry and usable capacity Unknown pending the specific offer confirmation.",
       "currency": null,
       "estimated_usable_value": null,
       "valuation_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
@@ -7549,10 +7553,10 @@
         "https://developer.amd.com/resources/"
       ],
       "source_evidence": [
-        "Current page offers an initial $100 credit to qualified AMD AI Developer Program applicants for prototyping/development.",
-        "Typical expiry is 30 days from deposit; allocation discretionary and limited to MI300X GPU use."
+        "Historical 2026-10-19 product-page observation: initial $100 credit for qualified AMD AI Developer Program applicants, typically 30 days from deposit, discretionary and limited to MI300X use.",
+        "The 2026-11-17 public read retained the product FAQ $100/30-day offer and a conflicting general-page 25-hour/about US$50/10-day offer. No amount or expiry is established for an actual applicant; the confirmation email and applicable terms must resolve the conflict before use."
       ],
-      "benefit": "Initial $100 GPU credit; additional support discretionary",
+      "benefit": "Conflicting public offers observed 2026-11-17: product FAQ $100/30 days versus general cloud page 25 hours/about US$50/10 days. Actual applicable amount, expiry and usable capacity Unknown pending the specific offer confirmation.",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
       "source_freshness": "Official page retrieved 2026-10-19; recheck before outreach, application or activation",
       "priority_recommendation": "P2",
@@ -9923,13 +9927,13 @@
       "available_before_incorporation": "Unknown; actual selected OSI-licensed released project, active community, mentors and capacity unverified.",
       "available_through_fiscal_sponsorship": "Unknown; an actual host might administer receipts, but program recognition, host authority and mentor/participant requirements remain separate.",
       "available_after_501c3_recognition": "Unknown; recognition does not establish project maturity, active community, mentor coverage, intake or acceptance.",
-      "eligibility_status": "Unknown; closed intake",
+      "eligibility_status": "Unknown actual qualification and current intake; organization registration was observed closed on 2026-10-19.",
       "eligibility_conditions": [
         "An open-source project seeking mentoring-organization acceptance",
-        "Project ideas, available mentors and evaluation capacity; current organization registration is closed"
+        "Project ideas, available mentors and evaluation capacity; organization registration was observed closed on 2026-10-19. Current intake and next-cycle dates remain Unknown."
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
-      "application_status": "Organization registration closed; next-cycle dates not verified",
+      "application_status": "Organization registration observed closed on 2026-10-19; current intake and next-cycle dates remain Unknown.",
       "opportunity_stage": "Discovered",
       "work_status": "In Progress",
       "verified_deadline": null,
@@ -10059,8 +10063,8 @@
         "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "source_evidence": [
-        "Current official workflow lets OSS projects apply as mentor organizations; accepted organizations supply mentors and select contributor proposals.",
-        "Current page states organization registration closed."
+        "Historical 2026-10-19 official workflow: OSS projects apply as mentor organizations; accepted organizations supply mentors and select contributor proposals.",
+        "The official page was observed to state organization registration closed on 2026-10-19. This is not a verified current-cycle closure or reopening."
       ],
       "benefit": "Supported contributor projects; not a guarantee of free labor or unrestricted funding",
       "estimated_usable_value_method": "Pending evidenced workload, existing costs, covered services, expiry, switching effort and maintenance cost; never equate headline value with realized support.",
@@ -11012,14 +11016,14 @@
       "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application.",
       "review_history": [
         {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of actual matrix and structured findings.",
-        "limitations": [
-          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
-        ]
-      }
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending independent acceptance of actual matrix and structured findings.",
+          "limitations": [
+            "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+          ]
+        }
       ],
       "research_status_history": [
         {
@@ -11186,14 +11190,14 @@
       "scoring_justification": "Not scored: current recipient, eligibility, terms, usable value and effort are unqualified. P3 retains an exclusion screen; it does not prioritize an application.",
       "review_history": [
         {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Pending independent acceptance of actual matrix and structured findings.",
-        "limitations": [
-          "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
-        ]
-      }
+          "reviewer": null,
+          "reviewed_revision": null,
+          "review_url": null,
+          "decision": "Pending independent acceptance of actual matrix and structured findings.",
+          "limitations": [
+            "No legal or financial opinion, organizational appointment, application, borrowing, securities issuance or investment commitment."
+          ]
+        }
       ],
       "research_status_history": [
         {
@@ -12927,14 +12931,14 @@
           "source_review_status": "Current public findings inspected; independent findings acceptance pending",
           "next_action": "Independently review the screen. Prepare a rights-cleared audience/concept/capacity docket; no inquiry until actual applicant and appropriate authorization exist.",
           "review": {
-        "reviewer": null,
-        "reviewed_revision": null,
-        "review_url": null,
-        "decision": "Actual findings acceptance pending",
-        "limitations": [
-          "Not a provider invitation, applicant/host acceptance or organizational approval."
-        ]
-      }
+            "reviewer": null,
+            "reviewed_revision": null,
+            "review_url": null,
+            "decision": "Actual findings acceptance pending",
+            "limitations": [
+              "Not a provider invitation, applicant/host acceptance or organizational approval."
+            ]
+          }
         }
       }
     },
@@ -13069,7 +13073,8 @@
       ],
       "source_evidence": [
         "Main program supports bounded tools, proofs of concept/benchmarks and research training; requires accredited-institution researcher eligibility.",
-        "Public application asks for project/service/timeline and outcome-sharing plans; JS form and private account eligibility uninspected. Separate AWS-OSS-CREDITS identity preserved."
+        "Public application asks for project/service/timeline and outcome-sharing plans; JS form and private account eligibility uninspected. Separate AWS-OSS-CREDITS identity preserved.",
+        "Public General Information FAQ read 2026-11-18: accredited-institution faculty/staff/graduate researchers; institution-issued email required and non-institution-domain applications not accepted; Greater China applications cannot currently be processed; AWS account number required. No child FAQ, authenticated form, actual applicant, account or award verified. Earlier 2026-11-17 child-page redirect and unrenewed-attribution history retained."
       ],
       "current_disposition": "Defer; institutional-partner-dependent research lead",
       "recommended_disposition": "Defer; institutional-partner-dependent research lead",
@@ -13095,7 +13100,19 @@
       },
       "source_refs": [
         "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
-      ]
+      ],
+      "eligibility_conditions": [
+        "Accredited-institution faculty, research staff or graduate/postgraduate/PhD researcher; actual qualification Unknown.",
+        "Official institution-issued email is required; the public FAQ read 2026-11-18 says non-institution-domain applications are not accepted.",
+        "The public FAQ read 2026-11-18 says applications from Greater China cannot currently be processed; actual applicant location and current applicability Unknown.",
+        "AWS account required; separately documented Free Tier exclusion and other account/credit terms remain gates. No account was inspected or created."
+      ],
+      "public_source_recheck_2026_11_18": {
+        "sources": [
+          "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
+        ],
+        "scope": "Public General Information FAQ read 2026-11-18: accredited-institution faculty/staff/graduate researchers; institution-issued email required and non-institution-domain applications not accepted; Greater China applications cannot currently be processed; AWS account number required. No child FAQ, authenticated form, actual applicant, account or award verified. Earlier 2026-11-17 child-page redirect and unrenewed-attribution history retained."
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -14182,7 +14199,7 @@
           "KNOWBILITY-AIR"
         ],
         "canonical_match": null,
-        "scope": "Local immutable proposed opportunity register at 8b13afa843f1f5d1be580d8e0a07838fc6a65bc9 and campaign issue snapshot #59/#65; no existing Knowbility/AIR record. Existing OSTIF retains its separate identity and owner. Organization-wide live duplicate search not performed; local search date does not refresh provider observations."
+        "scope": "Actual case-insensitive alias search across all 63 canonical opportunity objects in fetchable receiving revision ee14d7a03ff519161a015737b1a55f32125c9df1 (PR #170); no matching record. This is a pinned register-only search, not an organization-wide live issue search, provider recheck or acceptance of the unmerged revision."
       },
       "review": {
         "reviewer": null,
@@ -14332,7 +14349,7 @@
           "lawyersalliance.org"
         ],
         "canonical_match": null,
-        "scope": "Local immutable proposed opportunity register at 8b13afa843f1f5d1be580d8e0a07838fc6a65bc9 and campaign issue snapshot #59/#65; no existing Lawyers Alliance record. Existing SFLC/Taproot and distinct Catchafire retain separate identities. Organization-wide live duplicate search not performed; local search date does not refresh provider observations."
+        "scope": "Actual case-insensitive alias search across all 63 canonical opportunity objects in fetchable receiving revision ee14d7a03ff519161a015737b1a55f32125c9df1 (PR #170); no matching record. This is a pinned register-only search, not an organization-wide live issue search, provider recheck or acceptance of the unmerged revision."
       },
       "review": {
         "reviewer": null,

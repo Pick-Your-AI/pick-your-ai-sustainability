@@ -129,3 +129,7 @@ The 2026-11-17 preparation for [#66](https://github.com/Pick-Your-AI/pick-your-a
 ## Receiving batch: Complete investigated program coverage and funding dispositions
 
 The 2026-11-17 ET preparation for [#30](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30), [#31](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31), [#59](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59), [#65](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65) reconciles `GOOGLE-NONPROFITS-US`, `NSF-PESOSE-26-506`, `KNOWBILITY-AIR`, `LAWYERS-ALLIANCE-NYC`. It preserves all unrelated records, original source dates and existing mechanism/review history. Affected records remain In Progress / Discovered with null scores and values; actual applicant, award and action authority remain unestablished. Independent receiving acceptance, protected delivery and issue/Project reconciliation remain pending. The dated source scopes in the JSON identify historical standalone observations and current public reads separately. No historical aggregate register was imported.
+
+## Dated mentoring-intake projection
+
+The GSoC eligibility projection explicitly attributes the closed organization-intake observation to **2026-10-19**. Current intake, next-cycle dates and actual qualification remain **Unknown**; this correction records no reopening, application or participant commitment.

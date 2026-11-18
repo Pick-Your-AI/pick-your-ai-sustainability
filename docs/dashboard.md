@@ -135,9 +135,15 @@ These are dated source claims with the stated precision. No timezone, midnight, 
 | Additional discovery URLs | 1 | Explicit discovery_sources.url values outside canonical source_urls. |
 | Referenced source/discovery union | 342 | Union of the preceding reference sets, deduplicated. |
 | Tracked URLs outside that union | 34 | Membership difference, not a count of failed or unverified checks. |
-| No recorded successful-check date | 42 | last_verified is null; original attempts and access limits remain intact. |
-| Recorded check date: 2026-10-19 | 334 | Observation-date coverage only; no current-availability or full-form claim. |
+| No recorded successful-check date in any scope | 42 | Neither top-level nor program_scope_observations has a non-null last_verified; attempts and access limits remain intact. |
+| Recorded URL/date coverage: 2026-10-19 | 334 | Distinct URLs with this successful date in the top-level or a scoped observation; each URL counts once per date and can appear on several dates. |
+| Top-level recorded check date: 2026-10-19 | 334 | Original top-level last_verified only; preserved separately from scoped reads. |
 | Stale current claims | Unknown | Unknown: no arbitrary age threshold or complete claim-specific current-action validity population is supplied. A recorded successful date is not current availability or full endpoint acceptance. |
+
+Date counts measure recorded URL/date coverage, not a complete program or claim refresh. They can sum to more than the URL population. A shared URL's scoped read applies only to the listed opportunity IDs and verification scope; no maximum date is assigned to its other programs. Null scoped dates, historical findings and pending receiving acceptance remain visible. Reachability reviews and automated access/change checks do not supply successful claim-review dates.
+
+| Scoped observation: exact URL | Opportunity IDs | Recorded successful date | Recorded scope / access state |
+| --- | --- | --- | --- |
 
 A failed or partial latest attempt does not erase an older successful observation. Its affected current claim can remain Not Verified even when a date exists. The builder advances no dates and adopts no elapsed-time expiry rule. Recheck applicable sources before a current recommendation, agreement, application, activation or renewal; preserve historical announcements, redirects, inaccessible forms and conflicting terms.
 

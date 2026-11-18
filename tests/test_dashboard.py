@@ -168,6 +168,105 @@ class DashboardBoundaryTests(unittest.TestCase):
         self.assertEqual(freshness["recorded_successful_check_dates"], {"2020-01-01": 4})
         self.assertIsNone(freshness["stale_source_count"])
 
+    def test_scoped_public_read_counts_when_top_level_success_is_null(self):
+        source = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"][3]
+        observation = {
+            "opportunity_ids": ["EXAMPLE-A"], "last_verified": "2026-11-17",
+            "verification_scope": "Visible public form fields only; not submitted",
+            "state": "Public-source observation; receiving acceptance pending",
+        }
+        source["program_scope_observations"] = [observation]
+        original = copy.deepcopy(self.inputs)
+        report = self.report()
+        freshness = report["freshness"]
+        self.assertEqual(freshness["without_successful_check_count"], 1)
+        self.assertEqual([row["url"] for row in freshness["without_successful_check"]],
+                         ["https://example.test/discovery"])
+        self.assertEqual(freshness["recorded_successful_check_dates"],
+                         {"2020-01-01": 4, "2026-11-17": 1})
+        self.assertEqual(freshness["top_level_successful_check_dates"], {"2020-01-01": 4})
+        self.assertEqual(freshness["scoped_successful_check_dates"], {"2026-11-17": 1})
+        self.assertEqual(freshness["program_scope_observations"],
+                         [{"url": source["url"], "observation": observation}])
+        rendered = DASHBOARD.render_markdown(report)
+        self.assertIn("Visible public form fields only; not submitted", rendered)
+        self.assertIn("receiving acceptance pending", rendered)
+        self.assertEqual(self.inputs, original)
+        self.assertIsNone(source["last_verified"])
+
+    def test_shared_url_keeps_program_scopes_and_history_without_global_maximum(self):
+        source = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"][0]
+        source["opportunity_ids"] = ["EXAMPLE-A", "EXAMPLE-B"]
+        source["program_scope_observations"] = [
+            {"opportunity_ids": ["EXAMPLE-A", "EXAMPLE-B"],
+             "last_verified": "2020-01-01", "verification_scope": "Historical boundary"},
+            {"opportunity_ids": ["EXAMPLE-A"], "last_verified": "2026-11-17",
+             "verification_scope": "Current Alpha public offer only"},
+        ]
+        report = self.report()
+        freshness = report["freshness"]
+        # The legacy date and its scoped copy count once for this URL/date.
+        self.assertEqual(freshness["recorded_successful_check_dates"],
+                         {"2020-01-01": 4, "2026-11-17": 1})
+        self.assertEqual(freshness["scoped_successful_check_dates"],
+                         {"2020-01-01": 1, "2026-11-17": 1})
+        observations = freshness["program_scope_observations"]
+        self.assertEqual(observations[0]["observation"]["opportunity_ids"],
+                         ["EXAMPLE-A", "EXAMPLE-B"])
+        self.assertEqual(observations[1]["observation"]["opportunity_ids"], ["EXAMPLE-A"])
+        rendered = DASHBOARD.render_markdown(report)
+        self.assertIn("| EXAMPLE-A, EXAMPLE-B | 2020-01-01 | Historical boundary", rendered)
+        self.assertIn("| EXAMPLE-A | 2026-11-17 | Current Alpha public offer only", rendered)
+        self.assertNotIn("| EXAMPLE-A, EXAMPLE-B | 2026-11-17 |", rendered)
+        self.assertEqual(source["last_verified"], "2020-01-01")
+
+    def test_duplicate_scope_dates_count_urls_once_per_date_and_keep_all_observations(self):
+        sources = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"]
+        for source in sources[:2]:
+            source["program_scope_observations"] = [
+                {"opportunity_ids": [identity], "last_verified": "2026-11-17",
+                 "verification_scope": identity + " distinct section"}
+                for identity in ("EXAMPLE-A", "EXAMPLE-B")
+            ]
+        freshness = self.report()["freshness"]
+        self.assertEqual(freshness["recorded_successful_check_dates"],
+                         {"2020-01-01": 4, "2026-11-17": 2})
+        self.assertEqual(freshness["scoped_successful_check_dates"], {"2026-11-17": 2})
+        self.assertEqual(len(freshness["program_scope_observations"]), 4)
+
+    def test_failed_scoped_attempts_and_reachability_do_not_supply_success_dates(self):
+        source = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"][3]
+        source["last_attempted"] = "2026-11-18"
+        source["program_scope_observations"] = [{
+            "opportunity_ids": ["EXAMPLE-A"], "last_verified": None,
+            "last_attempted": "2026-11-18", "state": "Access blocked",
+            "freshness_review_observations": [{"access_date": "2026-11-18",
+                "http_status": 200, "outcome": "reachable", "claim_verified": False,
+                "successful_check_date": None}],
+        }, {"opportunity_ids": ["EXAMPLE-A"], "state": "Never attempted"}]
+        freshness = self.report()["freshness"]
+        self.assertEqual(freshness["without_successful_check_count"], 2)
+        self.assertEqual(freshness["recorded_successful_check_dates"], {"2020-01-01": 4})
+        self.assertEqual(freshness["scoped_successful_check_dates"], {})
+        self.assertEqual(len(freshness["program_scope_observations"]), 2)
+        self.assertIn("| EXAMPLE-A | Unknown | Unknown / Access blocked |",
+                      DASHBOARD.render_markdown(self.report()))
+
+    def test_failed_latest_scope_does_not_erase_earlier_scoped_success(self):
+        source = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"][3]
+        source["program_scope_observations"] = [
+            {"opportunity_ids": ["EXAMPLE-A"], "last_verified": "2026-11-17",
+             "verification_scope": "Bounded earlier public content"},
+            {"opportunity_ids": ["EXAMPLE-A"], "last_verified": None,
+             "last_attempted": "2026-11-18", "state": "Access blocked"},
+        ]
+        freshness = self.report()["freshness"]
+        self.assertEqual(freshness["without_successful_check_count"], 1)
+        self.assertEqual(freshness["scoped_successful_check_dates"], {"2026-11-17": 1})
+        self.assertEqual(freshness["program_scope_observations"][1]["observation"]["state"],
+                         "Access blocked")
+        self.assertIsNone(freshness["stale_source_count"])
+
     def test_unknown_financial_populations_do_not_sum_currencies_or_face_values(self):
         rows = self.inputs[DASHBOARD.DATA_PATHS[0]]["records"]
         rows[0].update(currency="USD", benefit_amount_or_capacity=100000,

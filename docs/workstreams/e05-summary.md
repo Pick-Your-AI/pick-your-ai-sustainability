@@ -8,7 +8,7 @@
 
 | Child | Existing input or pending integration | Final gate |
 | --- | --- | --- |
-| Closed #38 / #47 | Provider API coverage and [Hugging Face Space/grant distinction](../../research/compute/hugging-face-community-gpu.md) | Preserve tier, account and approved-use limits; no general GPU entitlement |
+| Closed #38 / #47 | [Provider API coverage](../../research/compute/provider-coverage.md) and [Hugging Face Space/grant distinction](../../research/compute/hugging-face-community-gpu.md) | Preserve tier, account and approved-use limits; no general GPU entitlement |
 | Closed #49 | [Sponsor-neutral evaluation proposal](../../research/compute/evaluation-proposal.md) | A proposed method is not a measured workload, quota allocation or permission to publish benchmarks |
 | Open #48 | [PR #158](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/158) proposes a five-route GPU access matrix (`research/compute/gpu-access-matrix.md`, proposed in PR #158) on its own branch | Receive actual independent research findings approval, protected merge and deduplicated program/source reconciliation; the linked Markdown file is pending on main |
 | **Blocked #50** | [Accepted comparison method](../../research/compute/usable-support-ranking.md); [PR #162](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/162) contains an optional offline arithmetic/fail-closed test harness | Finish #48, verify task demand, model/license, allowed metrics, account, eligible meters, expiry, quota, unit price and necessary cash counterfactual; absent inputs remain Unknown |

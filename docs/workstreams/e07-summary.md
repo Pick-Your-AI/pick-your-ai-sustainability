@@ -8,7 +8,7 @@
 
 | Child | Current disposition | What remains |
 | --- | --- | --- |
-| Closed #56–#58 / #60 | [CodeRabbit OSS](../../research/tooling/coderabbit-oss.md), [GitHub baseline](../../research/tooling/github-baseline.md), JetBrains and [Apple fee-waiver](../../research/tooling/apple-fee-waiver.md) research are separate documented packages | Do not equate access to a tool with a live installed security control, actual device result or eligibility |
+| Closed #56–#58 / #60 | [CodeRabbit OSS](../../research/tooling/coderabbit-oss.md), [GitHub baseline](../../research/tooling/github-baseline.md), [JetBrains OSS](../../research/tooling/jetbrains-oss.md) and [Apple fee-waiver](../../research/tooling/apple-fee-waiver.md) research are separate documented packages | Do not equate access to a tool with a live installed security control, actual device result or eligibility |
 | Open #59 | [PR #160](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/160) proposes independent security versus accessibility support research | Current `OSTIF-SECURITY` record exists; reconcile that single identity and source limits, obtain independent findings review; no audit/quote/sponsor awarded |
 | Open #61 | [PR #155](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/155) restores a bounded support-stack comparison | Existing `OPENAI-CODEX-OSS` and `ANTHROPIC-CLAUDE-OSS` records remain separate from personal account eligibility; reconcile source and disposition only after receiving review |
 

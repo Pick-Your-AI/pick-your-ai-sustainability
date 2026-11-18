@@ -194,6 +194,21 @@ class DashboardBoundaryTests(unittest.TestCase):
         self.assertEqual(self.inputs, original)
         self.assertIsNone(source["last_verified"])
 
+    def test_scoped_observation_cannot_publish_under_unrelated_existing_program(self):
+        source = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"][0]
+        source["program_scope_observations"] = [{
+            "opportunity_ids": ["EXAMPLE-B"], "last_verified": "2026-11-18",
+            "verification_scope": "Synthetic misattributed source",
+        }]
+        with self.assertRaisesRegex(DASHBOARD.DashboardError, "outside URL membership"):
+            self.report()
+        source["program_scope_observations"][0]["opportunity_ids"] = []
+        with self.assertRaisesRegex(DASHBOARD.DashboardError, "requires|Invalid scoped observation"):
+            self.report()
+        source["program_scope_observations"][0]["opportunity_ids"] = ["EXAMPLE-A", "EXAMPLE-A"]
+        with self.assertRaisesRegex(DASHBOARD.DashboardError, "outside URL membership"):
+            self.report()
+
     def test_shared_url_keeps_program_scopes_and_history_without_global_maximum(self):
         source = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"][0]
         source["opportunity_ids"] = ["EXAMPLE-A", "EXAMPLE-B"]
@@ -223,6 +238,9 @@ class DashboardBoundaryTests(unittest.TestCase):
     def test_duplicate_scope_dates_count_urls_once_per_date_and_keep_all_observations(self):
         sources = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"]
         for source in sources[:2]:
+            # Explicitly authorize both synthetic identities on this URL before
+            # testing multiple same-day scoped observations.
+            source["opportunity_ids"] = ["EXAMPLE-A", "EXAMPLE-B"]
             source["program_scope_observations"] = [
                 {"opportunity_ids": [identity], "last_verified": "2026-11-17",
                  "verification_scope": identity + " distinct section"}

@@ -121,6 +121,23 @@ class RegisterChecks(unittest.TestCase):
         row["opportunity_ids"] = [{}]
         self.assertError("must be an array of strings")
 
+    def test_scoped_read_must_be_a_nonempty_unique_subset_of_url_membership(self):
+        source = next(row for row in self.freshness["sources"] if row.get("program_scope_observations"))
+        foreign = next(row["opportunity_id"] for row in self.register["records"]
+                       if row["opportunity_id"] not in source["opportunity_ids"])
+        original = copy.deepcopy(source["program_scope_observations"])
+        source["program_scope_observations"] = [{
+            "opportunity_ids": [foreign], "last_verified": "2026-11-18",
+            "verification_scope": "Synthetic cross-program misattribution",
+        }]
+        self.assertError(f"opportunity {foreign} is not a URL member")
+        source["program_scope_observations"][0]["opportunity_ids"] = []
+        self.assertError("requires nonempty opportunity_ids strings")
+        source["program_scope_observations"][0]["opportunity_ids"] = [source["opportunity_ids"][0]] * 2
+        self.assertError("has duplicate opportunity IDs")
+        source["program_scope_observations"] = original
+        self.assertEqual(self.errors(), [])
+
     def test_declared_counts_must_match_actual_arrays(self):
         for document, field in ((self.register, "records_count"), (self.pipeline, "record_count"),
                                 (self.freshness, "records_count"), (self.freshness, "source_count")):

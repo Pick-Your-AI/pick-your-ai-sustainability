@@ -7465,7 +7465,8 @@
       "available_after_501c3_recognition": "Unknown; tax recognition does not establish developer acceptance or an award.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "A qualified AMD AI Developer Program applicant and matching prototyping/development use"
+        "A qualified AMD AI Developer Program applicant and matching prototyping/development use",
+        "The 2026-11-18 member FAQ adds a link-triggered AMD Cloud credit clock: creation/login through the emailed redemption link; confirmation may differ. Preserve conflicting dated offers and verify actual terms before any authorized use."
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Current page describes registration/application for complimentary credits",
@@ -7627,6 +7628,12 @@
         "available_before_incorporation": "Conditionally Eligible for matching developer work",
         "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
         "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements"
+      },
+      "public_source_recheck_2026_11_18": {
+        "sources": [
+          "https://developer.amd.com/resources/"
+        ],
+        "scope": "Public member FAQ read 2026-11-18: AMD Cloud or distinct Fireworks credit selection, emailed link/code after verification; AMD Cloud $100 defaults to 30 days after creation/login through the redemption link unless confirmation differs. Earlier navigation-only history and conflicting 25h/about $50/10-day offer remain. No form, account, email or redemption inspected."
       }
     },
     {
@@ -10087,7 +10094,7 @@
         "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
-      "gate": "Closed intake and unverified mentor capacity",
+      "gate": "Mentor capacity unverified; organization intake observed closed on 2026-10-19; current intake Unknown",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -10098,7 +10105,7 @@
       "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
       "published_qualification_requirements": [
         "An open-source project seeking mentoring-organization acceptance",
-        "Project ideas, available mentors and evaluation capacity; current organization registration is closed"
+        "Project ideas, available mentors and evaluation capacity; organization registration was observed closed on 2026-10-19; current-cycle intake Unknown"
       ],
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
       "independent_source_review": {
@@ -10107,7 +10114,7 @@
       },
       "related_research_keys": [],
       "source_review_status": "Oct 19 public-source mentorship findings summarized; current receiving acceptance and future-cycle terms pending.",
-      "applicant_qualification_status": "Unknown; closed intake",
+      "applicant_qualification_status": "Unknown; intake was observed closed on 2026-10-19; current intake Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,
@@ -13069,7 +13076,8 @@
         "Governing terms §10(b): expiry one year from earlier receipt of code or deposit into AWS account; §9 also requires timely redemption. Application page instead describes one year from credit being applied to the account: preserve discrepancy and confirm actual notice.",
         "Terms §8 requires prior written consent for public credit disclosures and forbids unsupported sponsorship/endorsement claims; §10(b) permits AWS recipient/customer identification using name and likeness.",
         "Terms §11 requires strict confidentiality for service information discovered/derived/developed/learned through use. Obtain required consent and review publication rights before publishing AWS benchmark results.",
-        "Application page says Free Tier accounts ineligible for promotional credits effective 2026-02-16. Main page review estimate is 90–120 days; application page says 30–60. Rolling review is not a guaranteed decision date."
+        "Application page says Free Tier accounts ineligible for promotional credits effective 2026-02-16. Main page review estimate is 90–120 days; application page says 30–60. Rolling review is not a guaranteed decision date.",
+        "Section 2 and the introductory notice, rechecked 2026-11-18: excess eligible usage and ineligible-service charges are billed. Credits are not a spending cap; actual no-overage controls remain unverified."
       ],
       "source_evidence": [
         "Main program supports bounded tools, proofs of concept/benchmarks and research training; requires accredited-institution researcher eligibility.",
@@ -13105,13 +13113,20 @@
         "Accredited-institution faculty, research staff or graduate/postgraduate/PhD researcher; actual qualification Unknown.",
         "Official institution-issued email is required; the public FAQ read 2026-11-18 says non-institution-domain applications are not accepted.",
         "The public FAQ read 2026-11-18 says applications from Greater China cannot currently be processed; actual applicant location and current applicability Unknown.",
-        "AWS account required; separately documented Free Tier exclusion and other account/credit terms remain gates. No account was inspected or created."
+        "AWS account required; separately documented Free Tier exclusion and other account/credit terms remain gates. No account was inspected or created.",
+        "Public promotional terms section 4, checked 2026-11-18: applied credit is void if AWS determines the account was created solely to obtain promotional credit; actual account purpose remains Unknown."
       ],
       "public_source_recheck_2026_11_18": {
         "sources": [
           "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
         ],
         "scope": "Public General Information FAQ read 2026-11-18: accredited-institution faculty/staff/graduate researchers; institution-issued email required and non-institution-domain applications not accepted; Greater China applications cannot currently be processed; AWS account number required. No child FAQ, authenticated form, actual applicant, account or award verified. Earlier 2026-11-17 child-page redirect and unrenewed-attribution history retained."
+      },
+      "public_source_terms_recheck_2026_11_18": {
+        "sources": [
+          "https://aws.amazon.com/awscredits/"
+        ],
+        "scope": "Public terms read 2026-11-18: section 4 voids applied credit if AWS determines an account was created solely to obtain promotional credit; section 2 and introductory notice bill excess eligible and ineligible-service charges. Actual purpose, controls and account unknown; no account access. Scoped to the research-credit receiving screen; earlier AWS OSS acceptance is not renewed."
       }
     },
     {
@@ -13921,10 +13936,14 @@
       "official_program_url": "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
       "official_application_url": null,
       "source_urls": [
-        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join"
+        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
+        "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+        "https://www.catchafire.org/support/terms-and-conditions"
       ],
       "source_refs": [
-        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join"
+        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
+        "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+        "https://www.catchafire.org/support/terms-and-conditions"
       ],
       "last_verified": "2026-11-17",
       "available_before_incorporation": "Unknown; nonprofit/social-good category and platform discretion require confirmation for the actual community.",
@@ -13958,7 +13977,9 @@
       "restrictions_and_obligations": [
         "Foundation-sponsored membership differs from independently available free-space waiting path; platform access is not delivered work.",
         "Before posting or exchanging any brief, resolve authorized platform-rights and communications/privacy terms; terms not fully assessed here.",
-        "Grant, finance or legal scope needs appropriate credentials, conflicts, actual professional acceptance and separate authority; no application or filing sent."
+        "Grant, finance or legal scope needs appropriate credentials, conflicts, actual professional acceptance and separate authority; no application or filing sent.",
+        "November 18 posting-guide supplement: current sponsored membership and a matching pre-scoped project are required before a project or call; a profile/free-slot waitlist grants neither. Full grant writing is not promised.",
+        "November 18 terms supplement: broad continuing content licence, nonconfidential posts and optional disclosed audio/AI processing require an authorized rights/privacy decision before any exchange. Actual consent, retention and authority remain Unknown."
       ],
       "fit_with_pick_your_ai": "Unsent grant-evidence gap/outline review as a possible finite task, only after actual applicant, rights and professional gates.",
       "current_disposition": "P2 alternative platform; defer access/intake and matching.",
@@ -13981,6 +14002,14 @@
         "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md",
         "observation_date": "2026-11-17",
         "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
+      },
+      "public_source_supplement_2026_11_18": {
+        "sources": [
+          "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+          "https://www.catchafire.org/support/terms-and-conditions"
+        ],
+        "scope": "Separate public source supplements to C2/C3 in PR161; original November 17 provenance and actual-applicant Unknowns are preserved. Receiving acceptance remains pending.",
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f0142af45e48c2bbe3fcb0e799212c362d568e2a/research/partnerships/pro-bono-support.md"
       }
     },
     {
@@ -14108,7 +14137,8 @@
       "eligibility_status": "Unknown; conditional advertised nonprofit/community categories do not qualify the actual applicant.",
       "eligibility_conditions": [
         "Approved nonprofit/community website project; actual contracting party and signer Unknown.",
-        "Fee approval, orientation, project representative, domain, hosting and content must be evidenced; matching is not guaranteed."
+        "Fee approval, orientation, project representative, domain, hosting and content must be evidenced; matching is not guaranteed.",
+        "November 18 Rally Rules supplement: a whole-site scope expected to reach at least six pages, including home search and a contact form; a single-page/native-app task alone is not an AIR project."
       ],
       "application_gate": "Not authorized; research only. No inquiry, registration, agreement, fee, recruitment, service engagement or transfer is authorized.",
       "application_status": "Public program/intake description documented; no authenticated form inspection, actual applicant decision or submission established.",
@@ -14126,7 +14156,8 @@
         "A matched client must supply a domain, hosting, content and a project representative who meets the volunteer team at least every other week. Actual project inputs and staff commitments are not evidenced.",
         "Rally Rules section 3.8 requires each submitted website to display the Knowbility logo linked to the AIR landing page; this is mandatory submitted-site branding. Displayed rules update 2026-10-27 is a source version, not an applicant approval or delivery date.",
         "AIR is a fee-bearing website build/improvement project, not a guaranteed free audit, native-mobile assessment, specialist user panel, security penetration test or certification.",
-        "Actual ownership, content/contributor licences, publication rights, privacy/consent, retention, portability, maintenance, exit arrangements, reporting, renewal and any additional costs remain Unknown and require authorized review before commitment."
+        "Actual ownership, content/contributor licences, publication rights, privacy/consent, retention, portability, maintenance, exit arrangements, reporting, renewal and any additional costs remain Unknown and require authorized review before commitment.",
+        "The client-agreed platform must be maintainable by the client; teams provide training/documentation and a migration/deployment plan. Actual client, site, content and capacity remain unverified, and this record authorizes no deployment."
       ],
       "program_objectives": "Create or improve accessible websites through approved nonprofit/community clients and mentored volunteer web teams.",
       "fit_with_pick_your_ai": "Conditional public website comparison journey using rights-cleared synthetic results: review keyboard/screen-reader interpretation of labels, validation errors and evidence provenance. Actual site, accepted revision, client, content, representative and final scope remain Unknown; Apple/Android receiving issues are separate native-platform tasks.",
@@ -14243,7 +14274,14 @@
         }
       ],
       "priority_rationale": "Owning #59 prioritizes bounded accessibility-support research; P1 does not establish eligibility, free service or committed value.",
-      "current_disposition": "P1 conditional research lead; defer AIR registration, fee and project commitments until actual client, scope, rights, branding and participation gates are evidenced and separately authorized."
+      "current_disposition": "P1 conditional research lead; defer AIR registration, fee and project commitments until actual client, scope, rights, branding and participation gates are evidenced and separately authorized.",
+      "public_source_supplement_2026_11_18": {
+        "sources": [
+          "https://knowbility.org/programs/air/rally-rules"
+        ],
+        "scope": "Separate site-fit and handoff scope following PR160; original November 17 observations, fee/deadline facts and source history are unchanged. Receiving acceptance remains pending.",
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c1142b7c6c1eb7ce097e2e8c620b7b4ae1faf42e/research/security/external-review-support.md"
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",

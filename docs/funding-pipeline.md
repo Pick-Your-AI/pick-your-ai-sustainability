@@ -51,6 +51,7 @@ The [donation-channel comparison](funding/donation-channel-comparison.md) adds t
 |---|---|---|
 | [NLnet Restack](https://nlnet.nl/restack/) | 2026-11-03 at 12:00 CET (11:00 UTC) | Ordinary AI-builder scope excluded; date does not create immediate action |
 | [NLnet CodeSupply](https://nlnet.nl/codesupply/) | 2026-11-03 at 12:00 CET (11:00 UTC) | Scope, contributor and application gates unresolved |
+| [Knowbility AIR](https://knowbility.org/programs/air) | 2026-12-21, date only; cutoff time and timezone Unknown | Registration/participation fit, applicant authority and any fee remain unverified; no registration attempted |
 | [NSF PESOSE](https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation) | 2027-03-02 at 17:00 submitting organization local time | Eligible organization/PI path unverified |
 
 Closed programs, invitations and recognition-only routes remain visible in the register. No P0 is inferred from a deadline without eligible scope and feasible capacity. Internal action dates and people assignments remain null.

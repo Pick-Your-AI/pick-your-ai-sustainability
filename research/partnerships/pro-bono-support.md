@@ -77,7 +77,7 @@ The [entity baseline](../../docs/nonprofit/entity-baseline.md), [charter](../../
 
 ## Source ledger and pending findings acceptance
 
-All consulted official pages were read without authenticated intake on **2026-11-17**. Historical issue source date (2026-10-19) does not itself update current applicant eligibility.
+The initial official-page reads were made without authenticated intake on **2026-11-17**; the separate C2/C3 supplements below were read on **2026-11-18 UTC**. Historical issue source date (2026-10-19) does not itself update current applicant eligibility.
 
 - **T1** Taproot, [Taproot Plus](https://taprootfoundation.org/taproot-plus) — two service formats, no-cost platform positioning.
 - **T2** Taproot help, [Organization eligibility](https://tpfaq.instantdocsbase.com/help/nonprofit-eligibility) — eligibility geography/forms and exclusions, page updated 2026-10-05.

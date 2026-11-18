@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 537,
+  "source_count": 541,
   "records_count": 65,
   "sources": [
     {
@@ -1191,8 +1191,8 @@
     },
     {
       "url": "https://nlnet.nl/codesupply/",
-      "last_verified": "2026-10-19",
-      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "last_verified": "2026-11-18",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.; 2026-11-18 scoped current indexed page: second call/deadline only; full form not read.",
       "opportunity_ids": [
         "NLNET-CODESUPPLY"
       ],
@@ -1207,7 +1207,18 @@
         "governing_source_evidence",
         "program_endpoint"
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-11-18",
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://nlnet.nl/codesupply/",
+          "claim_scope": "Second call opened 2026-11-03, deadline 2027-01-03 12:00 CET",
+          "previous_successful_date": "2026-10-19",
+          "outcome": "Current official indexed page checked; direct-open cached older version; independent reviewer pending",
+          "independently_reviewed": false
+        }
+      ]
     },
     {
       "url": "https://nlnet.nl/commonsfund/",
@@ -1272,8 +1283,8 @@
     },
     {
       "url": "https://nlnet.nl/restack/",
-      "last_verified": "2026-10-19",
-      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.",
+      "last_verified": "2026-11-18",
+      "verification_scope": "Relevant actual official text checked for canonical NLnet assessment. Public form read without entering or submitting data; applicant and actual agreement facts remain unqualified.; 2026-11-18 scoped current indexed page: second call/deadline only; full form not read.",
       "opportunity_ids": [
         "NLNET-RESTACK"
       ],
@@ -1288,7 +1299,18 @@
         "governing_source_evidence",
         "program_endpoint"
       ],
-      "last_attempted": "2026-10-19"
+      "last_attempted": "2026-11-18",
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://nlnet.nl/restack/",
+          "claim_scope": "Second call opened 2026-11-03, deadline 2027-01-03 12:00 CET",
+          "previous_successful_date": "2026-10-19",
+          "outcome": "Current official indexed page checked; direct-open cached older version; independent reviewer pending",
+          "independently_reviewed": false
+        }
+      ]
     },
     {
       "url": "https://openai.com/form/codex-for-oss/",
@@ -2944,8 +2966,8 @@
     },
     {
       "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
-      "last_verified": "2026-10-19",
-      "verification_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred",
+      "last_verified": "2026-11-18",
+      "verification_scope": "2026-11-18 scoped official FAQ: 12-month general credit rule, Japan 180 days for grants after 2026-11-13; other terms and forms not reverified.",
       "opportunity_ids": [
         "OPENAI-RESEARCHER"
       ],
@@ -2955,10 +2977,23 @@
         "Before reliance, application, agreement, activation or public qualification claim",
         "Upon changed program, redirect, policy, model, affiliation, jurisdiction or conflicting evidence"
       ],
-      "state": "Source checked; applicant, actual offer and account qualification remain Unknown",
+      "state": "Scope checked 2026-11-18; prior Oct 19 findings retain original scope; independent refresh review pending",
       "source_roles": [
         "governing_source_evidence"
-      ]
+      ],
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+          "claim_scope": "Japan 180-day expiry for grants after 2026-11-13; general 12-month rule; affiliation/research only",
+          "previous_successful_date": "2026-10-19",
+          "outcome": "Official FAQ indexed current Nov 2026 text; direct-open cache returned old no-Japan variant",
+          "independently_reviewed": false,
+          "limitations": "No applicant country or actual award established; other program/contract terms not refreshed"
+        }
+      ],
+      "last_attempted": "2026-11-18"
     },
     {
       "url": "https://openai.com/policies/sharing-publication-policy/",
@@ -13238,6 +13273,138 @@
       "provenance": [
         "https://www.catchafire.org/support/terms-and-conditions",
         "Actual unauthenticated public-page read 2026-11-18 UTC; no account, form, call or provider operation."
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/news/2026/20261103-call.html",
+      "last_verified": "2026-11-18",
+      "last_attempted": "2026-11-18",
+      "verification_scope": "NLnet 2026-11-03 announcement states a 2027-01-03 noon CET deadline for second Restack and CodeSupply calls.",
+      "opportunity_ids": [
+        "NLNET-RESTACK",
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on applicant, intake, award, contract or activation terms",
+        "On provider change, redirect or source conflict"
+      ],
+      "state": "2026-11-18 scoped official-source check; independent research review pending; no form/account checked",
+      "source_roles": [
+        "news_or_policy",
+        "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://nlnet.nl/news/2026/20261103-call.html",
+          "outcome": "Current official indexed content read; direct-open cache on some pages stale or unavailable",
+          "scope": "NLnet 2026-11-03 announcement states a 2027-01-03 noon CET deadline for second Restack and CodeSupply calls.",
+          "claim_verified_by_researcher": true,
+          "independently_reviewed": false,
+          "scope_limits": "Only published source claims; no applicant, private terms or award verified"
+        }
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+      "last_verified": "2026-11-18",
+      "last_attempted": "2026-11-18",
+      "verification_scope": "NLnet GenAI policy v2.0, effective 2026-10-20: no GenAI proposals or funded artifact generation; disclosed read-only review and specific exceptions.",
+      "opportunity_ids": [
+        "NLNET-RESTACK",
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on applicant, intake, award, contract or activation terms",
+        "On provider change, redirect or source conflict"
+      ],
+      "state": "2026-11-18 scoped official-source check; independent research review pending; no form/account checked",
+      "source_roles": [
+        "news_or_policy",
+        "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+          "outcome": "Current official indexed content read; direct-open cache on some pages stale or unavailable",
+          "scope": "NLnet GenAI policy v2.0, effective 2026-10-20: no GenAI proposals or funded artifact generation; disclosed read-only review and specific exceptions.",
+          "claim_verified_by_researcher": true,
+          "independently_reviewed": false,
+          "scope_limits": "Only published source claims; no applicant, private terms or award verified"
+        }
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+      "last_verified": "2026-11-18",
+      "last_attempted": "2026-11-18",
+      "verification_scope": "NLnet 2026-10-20 policy change notice states v2.0 applies to open and subsequent Restack and CodeSupply calls.",
+      "opportunity_ids": [
+        "NLNET-RESTACK",
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on applicant, intake, award, contract or activation terms",
+        "On provider change, redirect or source conflict"
+      ],
+      "state": "2026-11-18 scoped official-source check; independent research review pending; no form/account checked",
+      "source_roles": [
+        "news_or_policy",
+        "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "outcome": "Current official indexed content read; direct-open cache on some pages stale or unavailable",
+          "scope": "NLnet 2026-10-20 policy change notice states v2.0 applies to open and subsequent Restack and CodeSupply calls.",
+          "claim_verified_by_researcher": true,
+          "independently_reviewed": false,
+          "scope_limits": "Only published source claims; no applicant, private terms or award verified"
+        }
+      ]
+    },
+    {
+      "url": "https://nlnet.nl/foundation/policies/generativeAI/faq/",
+      "last_verified": "2026-11-18",
+      "last_attempted": "2026-11-18",
+      "verification_scope": "NLnet policy FAQ clarifies continuing AI coding partnership is incompatible; accessibility and older NGI Zero exceptions are limited.",
+      "opportunity_ids": [
+        "NLNET-RESTACK",
+        "NLNET-CODESUPPLY"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before relying on applicant, intake, award, contract or activation terms",
+        "On provider change, redirect or source conflict"
+      ],
+      "state": "2026-11-18 scoped official-source check; independent research review pending; no form/account checked",
+      "source_roles": [
+        "news_or_policy",
+        "governing_source_evidence"
+      ],
+      "freshness_review_observations": [
+        {
+          "observed_at": "2026-11-18",
+          "access_date": "2026-11-18",
+          "source_url": "https://nlnet.nl/foundation/policies/generativeAI/faq/",
+          "outcome": "Current official indexed content read; direct-open cache on some pages stale or unavailable",
+          "scope": "NLnet policy FAQ clarifies continuing AI coding partnership is incompatible; accessibility and older NGI Zero exceptions are limited.",
+          "claim_verified_by_researcher": true,
+          "independently_reviewed": false,
+          "scope_limits": "Only published source claims; no applicant, private terms or award verified"
+        }
       ]
     }
   ],

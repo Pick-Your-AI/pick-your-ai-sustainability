@@ -9,7 +9,7 @@
       "provider": "NLnet",
       "program_name": "Restack",
       "program_aliases": [],
-      "round": "First call, opened 2026-09-03",
+      "round": "Second call opened 2026-11-03; prior first call closed 2026-11-03",
       "category": "funding",
       "support_type": "cash_grant",
       "official_program_url": "https://nlnet.nl/restack/",
@@ -25,18 +25,19 @@
         "Recognized free/open source release of funded outputs"
       ],
       "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
-      "application_status": "Call open; Pick Your AI scope excluded absent exception evidence",
+      "application_status": "Second call advertised open through 2027-01-03 noon CET; ordinary Pick Your AI AI-builder scope remains excluded; no applicant qualified or submission authorized.",
       "opportunity_stage": "Discovered",
       "work_status": "Done",
-      "verified_deadline": "2026-11-03",
+      "verified_deadline": "2027-01-03",
       "deadline_timezone": "CET (UTC+01:00)",
-      "deadline_source_url": "https://nlnet.nl/restack/",
+      "deadline_source_url": "https://nlnet.nl/news/2026/20261103-call.html",
       "benefit_amount_or_capacity": "Published proposal range €5,000–€50,000; no anticipated award to Pick Your AI.",
       "currency": "EUR",
       "estimated_usable_value": null,
       "valuation_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
       "restrictions_and_obligations": [
-        "See canonical shared_conditions for call-specific licensing/conflicts, AI provenance and payable work, cash flow, actual versus sample MoU, reporting/publicity, privacy, portability, continuation, overage and independence."
+        "See canonical shared_conditions for call-specific licensing/conflicts, AI provenance and payable work, cash flow, actual versus sample MoU, reporting/publicity, privacy, portability, continuation, overage and independence.",
+        "NLnet GenAI policy v2.0 (2026-10-20) applies to new Restack/CodeSupply calls: no GenAI in proposal writing/interactive evaluation or funded artifact creation; disclosed read-only review permitted; accessibility exception is narrow; AI usage costs not reimbursable. See governing policy and FAQ. Historic v1.1 2026-10-19 assessment is not current guidance."
       ],
       "program_objectives": "Open Internet Stack contribution within the current call scope; see canonical Restack assessment.",
       "fit_with_pick_your_ai": "Current ordinary AI-builder scope excluded; no accepted exception evidence. See canonical program assessment.",
@@ -44,7 +45,8 @@
         "See canonical current_intake for actual form fields and shared_conditions for the required underlying rights, contributor, AI-provenance and cost evidence."
       ],
       "required_contacts_or_decisions": [
-        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made."
+        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made.",
+        "Resolve human-authored proposal and fund-deliverable capacity, AI provenance disclosure and applicable v2.0 exceptions before any application (separate from applicant status, rights, European dimension and authorization)."
       ],
       "native_dependency_issue_urls": [],
       "confidence": "Complete current-call and intake research independently accepted at the linked exact revision. Actual applicant facts, future scope and payable work remain separately unqualified.",
@@ -108,6 +110,30 @@
           "source_kind": "independent_review",
           "last_verified": "2026-10-19",
           "review_scope": "Exact published-source findings acceptance for all eleven research criteria; not applicant or application approval"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261103-call.html",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet 2026-11-03 announcement states a 2027-01-03 noon CET deadline for second Restack and CodeSupply calls. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet GenAI policy v2.0, effective 2026-10-20: no GenAI proposals or funded artifact generation; disclosed read-only review and specific exceptions. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet 2026-10-20 policy change notice states v2.0 applies to open and subsequent Restack and CodeSupply calls. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/faq/",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet policy FAQ clarifies continuing AI coding partnership is incompatible; accessibility and older NGI Zero exceptions are limited. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
         }
       ],
       "scoring": {
@@ -120,16 +146,16 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score."
+        "justification": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score. November 2026 second round does not cure applicant, scope or GenAI policy gating; score stays null."
       },
       "priority": "P3",
       "assigned_owner": null,
       "independent_reviewer": "Apple engineering review lane, session c3fa0109d6ff",
-      "next_action": "Retain the exclusion. Reopen only for a documented provider rule change or independently evidenced genuinely eligible scope and applicant; do not construct an exception to meet the deadline.",
+      "next_action": "Retain Not Pursuing: ordinary AI-builder scope remains excluded. The new 2027-01-03 round and v2.0 restrictions do not create an exception; reconsider only on provider rule change or independently evidenced eligible, human-delivered scope.",
       "next_action_date": null,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-11-18",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "next_verification_trigger": "Recheck on material official change and before any reliance, application or contract; no internal due date assigned.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
@@ -168,11 +194,17 @@
         "https://nlnet.nl/foundation/policies/generativeAI/",
         "https://nlnet.nl/foundation/request/sample_MoU.pdf",
         "https://nlnet.nl/privacy/",
-        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816"
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+        "https://nlnet.nl/news/2026/20261103-call.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+        "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/faq/"
       ],
       "application_url": "https://nlnet.nl/propose/",
       "source_evidence": [
-        "Current first-call deadline and scope exclusion checked directly. The canonical assessment records the three applicant routes and preserves Not Pursuing."
+        "Current first-call deadline and scope exclusion checked directly. The canonical assessment records the three applicant routes and preserves Not Pursuing.",
+        "2026-11-18 scoped refresh: NLnet's dated 2026-11-03 announcement and current indexed Restack/CodeSupply pages support the second round ending 2027-01-03 12:00 CET (11:00 UTC). The 2026-11-03 first-round deadline remains in refresh_history.",
+        "2026-11-18 scoped refresh: NLnet policy v2.0 effective 2026-10-20 supersedes the earlier v1.1 for these calls; policy and FAQ prohibit GenAI proposal writing and funded artifact generation except specified exceptions. Human authorship and applicant facts remain unverified. A current public indexed page was checked; cached direct-open results differed for some URLs."
       ],
       "benefit": "Published proposal range €5,000–€50,000; no anticipated award to Pick Your AI.",
       "required_application_evidence_status": "Actual public form fields and limits checked; see current_intake in the canonical assessment. No submission, receipt or private follow-up was tested.",
@@ -188,8 +220,8 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P3",
       "score": null,
-      "scoring_justification": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score.",
-      "source_freshness": "Actual relevant official text checked 2026-10-19; see canonical source IDs and conflict/access scope. Recheck before reliance; submission and private agreement were not exercised.",
+      "scoring_justification": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score. November 2026 second round does not cure applicant, scope or GenAI policy gating; score stays null.",
+      "source_freshness": "2026-11-18: second-call deadline and GenAI v2.0 verified from official dated NLnet announcement, current indexed program pages, policy v2.0 and FAQ. Prior 2026-10-19 first-round and source evidence retained. Current full application form/account, applicant eligibility, private project and award terms not verified. Proposed refresh awaiting independent PR review.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
@@ -198,20 +230,20 @@
         "scope": "All actual program/intake findings and source preservation independently accepted; qualification, application, award and payable work remain separate."
       },
       "deadline_local_time": "12:00",
-      "deadline_utc": "2026-11-03T11:00:00Z",
-      "current_disposition": "Not Pursuing for ordinary AI-builder scope",
+      "deadline_utc": "2027-01-03T11:00:00Z",
+      "current_disposition": "Not Pursuing: ordinary AI-builder scope remains excluded; a new round does not remove scope or GenAI gates.",
       "related_research_keys": [],
       "source_review_status": "Independent findings accepted; applicant qualification remains separate",
       "applicant_qualification_status": "Ineligible for the ordinary AI-builder scope; exception evidence absent",
       "estimated_usable_value_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
-      "score_reason": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score.",
+      "score_reason": "P3 Not Pursuing for the present excluded scope. The current deadline does not supply eligible work or justify a numeric score. November 2026 second round does not cure applicant, scope or GenAI policy gating; score stays null.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": "Current public English proposal form at the existing application URL; select the actual fund. Fields read; no applicant data entered or submitted.",
       "currency_status": "Published call denominated in EUR; no conversion or grant receipt inferred.",
       "gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "jurisdiction": "Contributor and grant-allocation rules apply; see canonical european_dimension. Actual country eligibility, allocation and any provider exception remain Unknown.",
       "priority_scope_note": "Priority concerns researched scope and follow-up; no application readiness is inferred.",
-      "recommended_disposition": "Not Pursuing for ordinary AI-builder scope",
+      "recommended_disposition": "Not Pursuing: ordinary AI-builder scope remains excluded; a new round does not remove scope or GenAI gates.",
       "source_refs": [
         "https://nlnet.nl/restack/",
         "https://nlnet.nl/restack/guideforapplicants/",
@@ -222,7 +254,11 @@
         "https://nlnet.nl/foundation/policies/generativeAI/",
         "https://nlnet.nl/foundation/request/sample_MoU.pdf",
         "https://nlnet.nl/privacy/",
-        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816"
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+        "https://nlnet.nl/news/2026/20261103-call.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+        "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/faq/"
       ],
       "related_research_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
@@ -278,6 +314,35 @@
           "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
           "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
         ]
+      },
+      "refresh_history": [
+        {
+          "checked_on": "2026-11-18",
+          "prior_round": "First call, opened 2026-09-03",
+          "prior_verified_deadline": "2026-11-03",
+          "prior_deadline_utc": "2026-11-03T11:00:00Z",
+          "prior_application_status": "Call open; Pick Your AI scope excluded absent exception evidence",
+          "prior_successful_source_date": "2026-10-19",
+          "scope": "2026-10-19 independently accepted first-call research. Kept as historical observation; not a November 2026 reapproval."
+        }
+      ],
+      "refresh_review": {
+        "review_status": "Pending independent source and exact-revision review; prior acceptance applies only to its 2026-10-19 scope",
+        "source_access_date": "2026-11-18",
+        "claim_scope": [
+          "Second call and deadline",
+          "GenAI policy v2.0 for new applications and funded work"
+        ],
+        "source_links": [
+          "https://nlnet.nl/news/2026/20261103-call.html",
+          "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+          "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "https://nlnet.nl/foundation/policies/generativeAI/faq/"
+        ],
+        "applicant_qualification": "Unverified",
+        "application_submission": "Not performed",
+        "priority_rationale": "Eligibility hard gate; qualitative priority unchanged",
+        "numeric_score": null
       }
     },
     {
@@ -286,7 +351,7 @@
       "provider": "NLnet",
       "program_name": "CodeSupply",
       "program_aliases": [],
-      "round": "First call, opened 2026-09-03",
+      "round": "Second call opened 2026-11-03; prior first call closed 2026-11-03",
       "category": "funding",
       "support_type": "cash_grant",
       "official_program_url": "https://nlnet.nl/codesupply/",
@@ -302,18 +367,19 @@
         "Contribution to CodeSupply objectives"
       ],
       "application_gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
-      "application_status": "Call open; applicant and proposed work not qualified",
+      "application_status": "Second call advertised open through 2027-01-03 noon CET; genuine package-metadata scope, human-only proposal/delivery, European allocation, actual applicant and authority remain unqualified.",
       "opportunity_stage": "Verified",
       "work_status": "Done",
-      "verified_deadline": "2026-11-03",
+      "verified_deadline": "2027-01-03",
       "deadline_timezone": "CET (UTC+01:00)",
-      "deadline_source_url": "https://nlnet.nl/codesupply/",
+      "deadline_source_url": "https://nlnet.nl/news/2026/20261103-call.html",
       "benefit_amount_or_capacity": "€5,000–€50,000 proposal range; net usable value and actual award Unknown.",
       "currency": "EUR",
       "estimated_usable_value": null,
       "valuation_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
       "restrictions_and_obligations": [
-        "See canonical shared_conditions for call-specific licensing/conflicts, AI provenance and payable work, cash flow, actual versus sample MoU, reporting/publicity, privacy, portability, continuation, overage and independence."
+        "See canonical shared_conditions for call-specific licensing/conflicts, AI provenance and payable work, cash flow, actual versus sample MoU, reporting/publicity, privacy, portability, continuation, overage and independence.",
+        "NLnet GenAI policy v2.0 (2026-10-20) applies to new Restack/CodeSupply calls: no GenAI in proposal writing/interactive evaluation or funded artifact creation; disclosed read-only review permitted; accessibility exception is narrow; AI usage costs not reimbursable. See governing policy and FAQ. Historic v1.1 2026-10-19 assessment is not current guidance."
       ],
       "program_objectives": "Reusable software-package metadata and supporting infrastructure; see canonical CodeSupply assessment.",
       "fit_with_pick_your_ai": "Canonical C01 connects an existing license/provenance need to a prospective reusable exporter/validator. Scope, interoperability need, contributors, rights, demand and costs remain unqualified.",
@@ -321,7 +387,8 @@
         "See canonical current_intake for actual form fields and shared_conditions for the required underlying rights, contributor, AI-provenance and cost evidence."
       ],
       "required_contacts_or_decisions": [
-        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made."
+        "Resolve the canonical remaining_decisions before any qualification or application; no provider contact or sponsor arrangement was made.",
+        "Resolve human-authored proposal and fund-deliverable capacity, AI provenance disclosure and applicable v2.0 exceptions before any application (separate from applicant status, rights, European dimension and authorization)."
       ],
       "native_dependency_issue_urls": [],
       "confidence": "Complete current-call and intake research independently accepted at the linked exact revision. Actual applicant facts, future scope and payable work remain separately unqualified.",
@@ -385,6 +452,30 @@
           "source_kind": "independent_review",
           "last_verified": "2026-10-19",
           "review_scope": "Exact published-source findings acceptance for all eleven research criteria; not applicant or application approval"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261103-call.html",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet 2026-11-03 announcement states a 2027-01-03 noon CET deadline for second Restack and CodeSupply calls. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet GenAI policy v2.0, effective 2026-10-20: no GenAI proposals or funded artifact generation; disclosed read-only review and specific exceptions. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet 2026-10-20 policy change notice states v2.0 applies to open and subsequent Restack and CodeSupply calls. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/faq/",
+          "source_kind": "official",
+          "last_verified": "2026-11-18",
+          "review_scope": "NLnet policy FAQ clarifies continuing AI coding partnership is incompatible; accessibility and older NGI Zero exceptions are limited. Access: official public source indexed 2026-11-18; direct-open cache on some URLs was stale/unavailable; no authenticated intake verified."
         }
       ],
       "scoring": {
@@ -397,16 +488,16 @@
         "independence_risk": null,
         "strategic_value": null,
         "total": null,
-        "justification": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null."
+        "justification": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null. November 2026 second round does not cure applicant, scope or GenAI policy gating; score stays null."
       },
       "priority": "P2",
       "assigned_owner": null,
       "independent_reviewer": "Apple engineering review lane, session c3fa0109d6ff",
-      "next_action": "Consume the existing #11/#17/#21 evidence, establish C01's reusable package-metadata scope and real contributor budget, then make a separate qualification decision. If those facts do not support the call, retain defer or Not Pursuing rather than submit an unrelated AI proposal.",
+      "next_action": "Treat the 2027-01-03 cutoff as an external program deadline only. Examine genuinely usable package-metadata work and whether human-authored proposal and funded code/docs can satisfy GenAI v2.0, European allocation, actual applicant/rights/budget and independent authorization. No application is qualified.",
       "next_action_date": null,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-11-18",
       "next_verification_date": null,
-      "next_verification_trigger": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
+      "next_verification_trigger": "Recheck on material official change and before any reliance, application or contract; no internal due date assigned.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/25",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_evidence": null,
@@ -445,11 +536,17 @@
         "https://nlnet.nl/foundation/policies/generativeAI/",
         "https://nlnet.nl/foundation/request/sample_MoU.pdf",
         "https://nlnet.nl/privacy/",
-        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816"
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+        "https://nlnet.nl/news/2026/20261103-call.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+        "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/faq/"
       ],
       "application_url": "https://nlnet.nl/propose/",
       "source_evidence": [
-        "Current call and public intake checked directly. The canonical assessment distinguishes the initial proposal range from the guide ceiling and records the concrete C01 investigation lead."
+        "Current call and public intake checked directly. The canonical assessment distinguishes the initial proposal range from the guide ceiling and records the concrete C01 investigation lead.",
+        "2026-11-18 scoped refresh: NLnet's dated 2026-11-03 announcement and current indexed Restack/CodeSupply pages support the second round ending 2027-01-03 12:00 CET (11:00 UTC). The 2026-11-03 first-round deadline remains in refresh_history.",
+        "2026-11-18 scoped refresh: NLnet policy v2.0 effective 2026-10-20 supersedes the earlier v1.1 for these calls; policy and FAQ prohibit GenAI proposal writing and funded artifact generation except specified exceptions. Human authorship and applicant facts remain unverified. A current public indexed page was checked; cached direct-open results differed for some URLs."
       ],
       "benefit": "€5,000–€50,000 proposal range; net usable value and actual award Unknown.",
       "required_application_evidence_status": "Actual public form fields and limits checked; see current_intake in the canonical assessment. No submission, receipt or private follow-up was tested.",
@@ -465,8 +562,8 @@
       "internal_application_review_controls_note": "Internal readiness controls; not universal provider requirements.",
       "priority_recommendation": "P2",
       "score": null,
-      "scoring_justification": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null.",
-      "source_freshness": "Actual relevant official text checked 2026-10-19; see canonical source IDs and conflict/access scope. Recheck before reliance; submission and private agreement were not exercised.",
+      "scoring_justification": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null. November 2026 second round does not cure applicant, scope or GenAI policy gating; score stays null.",
+      "source_freshness": "2026-11-18: second-call deadline and GenAI v2.0 verified from official dated NLnet announcement, current indexed program pages, policy v2.0 and FAQ. Prior 2026-10-19 first-round and source evidence retained. Current full application form/account, applicant eligibility, private project and award terms not verified. Proposed refresh awaiting independent PR review.",
       "next_verification_rule": "Monthly program review and before an application, agreement or activation; dates only from verified terms",
       "independent_source_review": {
         "reviewed_on": "2026-10-19",
@@ -475,20 +572,20 @@
         "scope": "All actual program/intake findings and source preservation independently accepted; qualification, application, award and payable work remain separate."
       },
       "deadline_local_time": "12:00",
-      "deadline_utc": "2026-11-03T11:00:00Z",
-      "current_disposition": "Defer application; P2 qualification research only",
+      "deadline_utc": "2027-01-03T11:00:00Z",
+      "current_disposition": "P2 research only; defer any application pending genuinely eligible human-authored FOSS metadata proposal and verifiable applicant/delivery evidence.",
       "related_research_keys": [],
       "source_review_status": "Independent findings accepted; applicant qualification remains separate",
       "applicant_qualification_status": "Unknown",
       "estimated_usable_value_method": "Unknown. See data/opportunities/nlnet-programs.json#value_and_effort for future eligible human work, direct costs, cash-flow, deductions and separate cash/avoided-cost methods; no ceiling is a net-value estimate.",
-      "score_reason": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null.",
+      "score_reason": "P2 qualification research for a possible existing package-metadata need; scope, eligibility and net value are unresolved. Defer application and leave weighted scoring null. November 2026 second round does not cure applicant, scope or GenAI policy gating; score stays null.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": "Current public English proposal form at the existing application URL; select the actual fund. Fields read; no applicant data entered or submitted.",
       "currency_status": "Published call denominated in EUR; no conversion or grant receipt inferred.",
       "gate": "Not authorized. Research findings do not establish eligible scope, actual applicant/contributor facts, rights, cost, delivery capacity or an approved application.",
       "jurisdiction": "Contributor and grant-allocation rules apply; see canonical european_dimension. Actual country eligibility, allocation and any provider exception remain Unknown.",
       "priority_scope_note": "Priority concerns researched scope and follow-up; no application readiness is inferred.",
-      "recommended_disposition": "Defer application; P2 qualification research only",
+      "recommended_disposition": "P2 research only; defer any application pending genuinely eligible human-authored FOSS metadata proposal and verifiable applicant/delivery evidence.",
       "source_refs": [
         "https://nlnet.nl/codesupply/",
         "https://nlnet.nl/codesupply/guideforapplicants/",
@@ -499,7 +596,11 @@
         "https://nlnet.nl/foundation/policies/generativeAI/",
         "https://nlnet.nl/foundation/request/sample_MoU.pdf",
         "https://nlnet.nl/privacy/",
-        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816"
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/98#pullrequestreview-5571894816",
+        "https://nlnet.nl/news/2026/20261103-call.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+        "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+        "https://nlnet.nl/foundation/policies/generativeAI/faq/"
       ],
       "related_research_issue_urls": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11",
@@ -556,6 +657,35 @@
           "Initial pending review in award_mechanism_screen is retained as historical source; this sibling record supplies its later findings acceptance.",
           "No application, actual instrument, private terms, funds, eligibility, debt or equity commitment is established."
         ]
+      },
+      "refresh_history": [
+        {
+          "checked_on": "2026-11-18",
+          "prior_round": "First call, opened 2026-09-03",
+          "prior_verified_deadline": "2026-11-03",
+          "prior_deadline_utc": "2026-11-03T11:00:00Z",
+          "prior_application_status": "Call open; applicant and proposed work not qualified",
+          "prior_successful_source_date": "2026-10-19",
+          "scope": "2026-10-19 independently accepted first-call research. Kept as historical observation; not a November 2026 reapproval."
+        }
+      ],
+      "refresh_review": {
+        "review_status": "Pending independent source and exact-revision review; prior acceptance applies only to its 2026-10-19 scope",
+        "source_access_date": "2026-11-18",
+        "claim_scope": [
+          "Second call and deadline",
+          "GenAI policy v2.0 for new applications and funded work"
+        ],
+        "source_links": [
+          "https://nlnet.nl/news/2026/20261103-call.html",
+          "https://nlnet.nl/foundation/policies/generativeAI/2.0/",
+          "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "https://nlnet.nl/foundation/policies/generativeAI/faq/"
+        ],
+        "applicant_qualification": "Unverified",
+        "application_submission": "Not performed",
+        "priority_rationale": "Eligibility hard gate; qualitative priority unchanged",
+        "numeric_score": null
       }
     },
     {
@@ -6040,13 +6170,14 @@
       "verified_deadline": null,
       "deadline_timezone": null,
       "deadline_source_url": null,
-      "benefit_amount_or_capacity": "Up to $1,000 API credits; nonrenewable one-year period",
+      "benefit_amount_or_capacity": "Up to US$1,000 API credits for research. General validity 12 months; Japanese users with grant dates after 2026-11-13 receive 180-day validity, according to 2026-11-18 checked FAQ. No award or usable value established.",
       "currency": null,
       "estimated_usable_value": null,
       "valuation_method": "Use the section 6 method: evidenced eligible workload and actual model rates/award/expiry, displaced expenditure and separately evidenced setup, maintenance and exit cost. No usable value, currency calculation or effort estimate is established.",
       "restrictions_and_obligations": [
         "Canonical assessment section 5 covers publication, content rights, publicity, privacy/retention, credit custody, charges, reporting, renewal and independence, with governing sources.",
-        "Actual award-specific terms, account settings and obligations remain Unknown; no legal clearance or account action is established."
+        "Actual award-specific terms, account settings and obligations remain Unknown; no legal clearance or account action is established.",
+        "Official Researcher Access FAQ, checked 2026-11-18: Japan-specific 180-day validity for grants after 2026-11-13; normally 12 months otherwise. Credits are for eligible research, not general nonprofit operations; no applicant, location, credit grant or actual user cohort established."
       ],
       "program_objectives": "Program purpose and proposed fit are sourced in canonical assessment sections 2 and 4.",
       "fit_with_pick_your_ai": "Proposed explanation-faithfulness pilot: twelve synthetic case dossiers, two meaning-preserving variants and three invocations per variant/model, or 72 requests per model before separately bounded retries. Design only; no model, corpus or execution accepted.",
@@ -6069,8 +6200,8 @@
         {
           "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
           "source_kind": "official",
-          "last_verified": "2026-10-19",
-          "review_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred"
+          "last_verified": "2026-11-18",
+          "review_scope": "2026-11-18 indexed official FAQ: credit amount and 12-month default, Japan 180-day grants after 2026-11-13, research-not-operational support, affiliation, quarterly review. Direct open returned cached older variant; current form/account unverified."
         },
         {
           "url": "https://openai.com/policies/sharing-publication-policy/",
@@ -6126,7 +6257,7 @@
       "independent_reviewer": "ChatGPT, independent in-session Research engineering reviewer; public COMMENT posted through shared GitHub identity CompleteDotTech",
       "next_action": "Use the accepted assessment to refine #21/#49 demand and study evidence; verify actual applicant, account, current form/offer and authority before any application or activation.",
       "next_action_date": null,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-11-18",
       "next_verification_date": null,
       "next_verification_trigger": "Monthly review and before reliance, submission, agreement or activation; also upon changed source, affiliation, jurisdiction, model or policy.",
       "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/39",
@@ -6173,11 +6304,12 @@
       ],
       "source_evidence": [
         "Canonical assessment sections 2 and 7 record claim-level primary references, versions and actual access scope.",
-        "The current FAQ corrects the seed affiliation and intake generalizations; public portal extraction does not establish the form, closure or applicant admission."
+        "The current FAQ corrects the seed affiliation and intake generalizations; public portal extraction does not establish the form, closure or applicant admission.",
+        "2026-11-18 official FAQ read through current indexed English text: Japanese users granted credits after 2026-11-13 receive 180 days, while other general research credits last 12 months; FAQ shows updated recently. Cached direct page open may show an older version; preserve prior source date and avoid applicant inference."
       ],
-      "benefit": "Up to $1,000 API credits; nonrenewable one-year period",
+      "benefit": "Up to US$1,000 API credits for research. General validity 12 months; Japanese users with grant dates after 2026-11-13 receive 180-day validity, according to 2026-11-18 checked FAQ. No award or usable value established.",
       "estimated_usable_value_method": "Use the section 6 method: evidenced eligible workload and actual model rates/award/expiry, displaced expenditure and separately evidenced setup, maintenance and exit cost. No usable value, currency calculation or effort estimate is established.",
-      "source_freshness": "Eight governing sources read 2026-10-19 with their distinct versions/scopes; public portal homepage observed, program-specific form still Not Verified. Recheck before reliance or action.",
+      "source_freshness": "2026-11-18 scoped official FAQ recheck supports the new Japan grant-expiry exception. Other policy/contract sources retain 2026-10-19 review dates; exact current application form, actual account and applicant eligibility are unverified. Refresh pending independent PR review.",
       "priority_recommendation": "P2",
       "score": null,
       "scoring_justification": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
@@ -6242,6 +6374,33 @@
         "revision": "cad980ecc8e43a472ebe63c4360f94846d175a96",
         "record": "OPENAI-RESEARCHER",
         "scope": "Original seed source and consistency-review history remain available at this immutable revision; the current full assessment is a separate review event."
+      },
+      "refresh_history": [
+        {
+          "checked_on": "2026-11-18",
+          "prior_benefit": "Up to $1,000 API credits; nonrenewable one-year period",
+          "prior_verified": "2026-10-19",
+          "scope": "Earlier 2026-10-19 assessment; prior 12-month general guidance preserved as historic. New official FAQ adds Japan-only exception."
+        }
+      ],
+      "source_review_history": [
+        {
+          "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+          "source_kind": "official",
+          "last_verified": "2026-10-19",
+          "review_scope": "Full current FAQ; displayed relative update only, no exact publication date inferred",
+          "history_preserved_on": "2026-11-18"
+        }
+      ],
+      "refresh_review": {
+        "review_status": "Pending independent source review",
+        "source_access_date": "2026-11-18",
+        "source": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+        "claim": "180 days for Japanese grant recipients after 2026-11-13, otherwise generally 12 months",
+        "eligible_applicant": "Unknown",
+        "score": null,
+        "priority": "P2 unchanged",
+        "application": "None performed"
       }
     },
     {

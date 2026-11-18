@@ -253,8 +253,20 @@ in §§5.4/18.3. No retention duration, translation-sharing authority, export su
 or free account entitlement is inferred. The existing no-immediate-enrollment
 recommendation and null value/score remain appropriate.
 
-These four URLs were read as unauthenticated public text on **2026-11-17**.
-All other source dates below remain the original **2026-10-19** observations.
+These four URLs were read as unauthenticated public text on **2026-11-17**
+for this standalone supplement. The original ledger below retains its
+**2026-10-19** observations; those dates do not summarize all later receiving work.
+
+The accompanying receiving PR [#166](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/166)
+separately records program-specific **2026-11-17** public observations for the
+Codex overview and visible public form, the Claude offer, and the Sentry/Crowdin
+offer pages. Those source rows and `program_scope_observations` are not part of
+this four-URL supplement. Earlier dates and failed-access history remain intact;
+a later read for one program does not refresh another sharing its URL. Neither
+those observations nor this clarification establishes authenticated form access,
+actual applicant qualification, submission or activation. This clarification
+performs no new provider retrieval.
+
 This supplement has no independent receiving acceptance yet and changes neither
 the historical receipt nor the five-gap decision to add no subscription now.
 

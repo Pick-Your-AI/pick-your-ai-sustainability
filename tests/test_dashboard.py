@@ -238,6 +238,9 @@ class DashboardBoundaryTests(unittest.TestCase):
     def test_duplicate_scope_dates_count_urls_once_per_date_and_keep_all_observations(self):
         sources = self.inputs[DASHBOARD.DATA_PATHS[2]]["sources"]
         for source in sources[:2]:
+            # Explicitly authorize both synthetic identities on this URL before
+            # testing multiple same-day scoped observations.
+            source["opportunity_ids"] = ["EXAMPLE-A", "EXAMPLE-B"]
             source["program_scope_observations"] = [
                 {"opportunity_ids": [identity], "last_verified": "2026-11-17",
                  "verification_scope": identity + " distinct section"}

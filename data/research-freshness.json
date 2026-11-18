@@ -10858,7 +10858,8 @@
       ],
       "state": "Not Verified; successful check remains null",
       "source_roles": [
-        "unverified_research_endpoint"
+        "unverified_research_endpoint",
+        "application_endpoint"
       ],
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/178c8ef16bd3e0c619762813e2fc7d8a255e8bde/research/partnerships/academic-partners.md"

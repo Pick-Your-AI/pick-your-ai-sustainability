@@ -7465,7 +7465,8 @@
       "available_after_501c3_recognition": "Unknown; tax recognition does not establish developer acceptance or an award.",
       "eligibility_status": "Unknown",
       "eligibility_conditions": [
-        "A qualified AMD AI Developer Program applicant and matching prototyping/development use"
+        "A qualified AMD AI Developer Program applicant and matching prototyping/development use",
+        "The 2026-11-18 member FAQ adds a link-triggered AMD Cloud credit clock: creation/login through the emailed redemption link; confirmation may differ. Preserve conflicting dated offers and verify actual terms before any authorized use."
       ],
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_status": "Current page describes registration/application for complimentary credits",
@@ -7627,6 +7628,12 @@
         "available_before_incorporation": "Conditionally Eligible for matching developer work",
         "available_through_fiscal_sponsorship": "Unknown; sponsorship alone does not establish eligibility",
         "available_after_501c3_recognition": "Conditionally Eligible; recognition does not remove other program requirements"
+      },
+      "public_source_recheck_2026_11_18": {
+        "sources": [
+          "https://developer.amd.com/resources/"
+        ],
+        "scope": "Public member FAQ read 2026-11-18: AMD Cloud or distinct Fireworks credit selection, emailed link/code after verification; AMD Cloud $100 defaults to 30 days after creation/login through the redemption link unless confirmation differs. Earlier navigation-only history and conflicting 25h/about $50/10-day offer remain. No form, account, email or redemption inspected."
       }
     },
     {
@@ -13069,7 +13076,8 @@
         "Governing terms §10(b): expiry one year from earlier receipt of code or deposit into AWS account; §9 also requires timely redemption. Application page instead describes one year from credit being applied to the account: preserve discrepancy and confirm actual notice.",
         "Terms §8 requires prior written consent for public credit disclosures and forbids unsupported sponsorship/endorsement claims; §10(b) permits AWS recipient/customer identification using name and likeness.",
         "Terms §11 requires strict confidentiality for service information discovered/derived/developed/learned through use. Obtain required consent and review publication rights before publishing AWS benchmark results.",
-        "Application page says Free Tier accounts ineligible for promotional credits effective 2026-02-16. Main page review estimate is 90–120 days; application page says 30–60. Rolling review is not a guaranteed decision date."
+        "Application page says Free Tier accounts ineligible for promotional credits effective 2026-02-16. Main page review estimate is 90–120 days; application page says 30–60. Rolling review is not a guaranteed decision date.",
+        "Section 2 and the introductory notice, rechecked 2026-11-18: excess eligible usage and ineligible-service charges are billed. Credits are not a spending cap; actual no-overage controls remain unverified."
       ],
       "source_evidence": [
         "Main program supports bounded tools, proofs of concept/benchmarks and research training; requires accredited-institution researcher eligibility.",
@@ -13105,13 +13113,20 @@
         "Accredited-institution faculty, research staff or graduate/postgraduate/PhD researcher; actual qualification Unknown.",
         "Official institution-issued email is required; the public FAQ read 2026-11-18 says non-institution-domain applications are not accepted.",
         "The public FAQ read 2026-11-18 says applications from Greater China cannot currently be processed; actual applicant location and current applicability Unknown.",
-        "AWS account required; separately documented Free Tier exclusion and other account/credit terms remain gates. No account was inspected or created."
+        "AWS account required; separately documented Free Tier exclusion and other account/credit terms remain gates. No account was inspected or created.",
+        "Public promotional terms section 4, checked 2026-11-18: applied credit is void if AWS determines the account was created solely to obtain promotional credit; actual account purpose remains Unknown."
       ],
       "public_source_recheck_2026_11_18": {
         "sources": [
           "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/faqs/"
         ],
         "scope": "Public General Information FAQ read 2026-11-18: accredited-institution faculty/staff/graduate researchers; institution-issued email required and non-institution-domain applications not accepted; Greater China applications cannot currently be processed; AWS account number required. No child FAQ, authenticated form, actual applicant, account or award verified. Earlier 2026-11-17 child-page redirect and unrenewed-attribution history retained."
+      },
+      "public_source_terms_recheck_2026_11_18": {
+        "sources": [
+          "https://aws.amazon.com/awscredits/"
+        ],
+        "scope": "Public terms read 2026-11-18: section 4 voids applied credit if AWS determines an account was created solely to obtain promotional credit; section 2 and introductory notice bill excess eligible and ineligible-service charges. Actual purpose, controls and account unknown; no account access. Scoped to the research-credit receiving screen; earlier AWS OSS acceptance is not renewed."
       }
     },
     {

@@ -10043,7 +10043,12 @@
         "https://developers.google.com/open-source/gsoc/help/student-stipends",
         "https://developers.google.com/open-source/gsoc/timeline",
         "https://developers.google.com/open-source/gsoc/help/responsibilities",
-        "https://google.github.io/gsocguides/mentor/org-application"
+        "https://google.github.io/gsocguides/mentor/org-application",
+        "https://developers.google.com/open-source/gsoc/help/org-payments",
+        "https://google.github.io/gsocguides/mentor/",
+        "https://developers.google.com/open-source/gsoc/rules",
+        "https://summerofcode.withgoogle.com/rules/",
+        "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "source_evidence": [
         "Current official workflow lets OSS projects apply as mentor organizations; accepted organizations supply mentors and select contributor proposals.",
@@ -10062,7 +10067,12 @@
         "https://developers.google.com/open-source/gsoc/help/student-stipends",
         "https://developers.google.com/open-source/gsoc/timeline",
         "https://developers.google.com/open-source/gsoc/help/responsibilities",
-        "https://google.github.io/gsocguides/mentor/org-application"
+        "https://google.github.io/gsocguides/mentor/org-application",
+        "https://developers.google.com/open-source/gsoc/help/org-payments",
+        "https://google.github.io/gsocguides/mentor/",
+        "https://developers.google.com/open-source/gsoc/rules",
+        "https://summerofcode.withgoogle.com/rules/",
+        "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
       "gate": "Closed intake and unverified mentor capacity",
@@ -13941,7 +13951,16 @@
         "https://www.linuxfoundation.org/legal/platform-use-agreement/",
         "https://www.linuxfoundation.org/legal/service-terms",
         "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
-        "https://mentorship.lfx.linuxfoundation.org/"
+        "https://mentorship.lfx.linuxfoundation.org/",
+        "https://lfx.linuxfoundation.org/tools/mentorship/",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+        "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+        "https://www.linuxfoundation.org/legal/terms",
+        "https://www.linuxfoundation.org/legal/privacy-policy",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct"
       ],
       "source_refs": [
         "https://docs.linuxfoundation.org/lfx/mentorship/administrators/enroll-your-program",
@@ -13949,7 +13968,16 @@
         "https://www.linuxfoundation.org/legal/platform-use-agreement/",
         "https://www.linuxfoundation.org/legal/service-terms",
         "https://www.linuxfoundation.org/legal/lfx-privacy-policy-addendum",
-        "https://mentorship.lfx.linuxfoundation.org/"
+        "https://mentorship.lfx.linuxfoundation.org/",
+        "https://lfx.linuxfoundation.org/tools/mentorship/",
+        "https://docs.linuxfoundation.org/lfx/mentorship/administrators",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentors",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/mentorship-faqs",
+        "https://docs.linuxfoundation.org/lfx/mentorship/standards-of-excellence",
+        "https://www.linuxfoundation.org/legal/terms",
+        "https://www.linuxfoundation.org/legal/privacy-policy",
+        "https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/code-of-conduct"
       ],
       "last_verified": "2026-10-19",
       "available_before_incorporation": "Unknown; community projects contemplated but actual authorized maintainer, eligible project, mentors and platform authority unverified.",

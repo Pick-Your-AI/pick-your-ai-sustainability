@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **507 distinct source and endpoint URLs** for 65 opportunity records: 476 referenced URLs (475 canonical `source_urls` plus 1 additional discovery URLs), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
+The [source register](../data/research-freshness.json) tracks **521 distinct source and endpoint URLs** for 65 opportunity records: 490 referenced URLs (489 canonical `source_urls` plus 1 additional discovery URLs), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -138,3 +138,8 @@ This 2026-11-17 ET receiving preparation adds 10 exact URLs already recorded in 
 ## Source-ledger completion: Academic partnership sources and unread application endpoints
 
 This 2026-11-17 ET receiving preparation adds 12 exact URLs already recorded in the pinned standalone ledgers. Original successful/attempt dates, historical scopes and unread-endpoint nulls are retained. All 495 previous freshness observations remain raw-exact and in order. Existing opportunity identities and every non-source field are unchanged; pipeline bytes are unchanged. This fills source membership, performs no provider retrieval and supplies no new applicant or acceptance facts.
+
+
+## Source-ledger completion: Mentorship governing guidance and unread endpoints
+
+This 2026-11-17 ET receiving preparation adds 14 exact URLs already recorded in the pinned standalone ledgers. Original successful/attempt dates, historical scopes and unread-endpoint nulls are retained. All 507 previous freshness observations remain raw-exact and in order. Existing opportunity identities and every non-source field are unchanged; pipeline bytes are unchanged. This fills source membership, performs no provider retrieval and supplies no new applicant or acceptance facts.

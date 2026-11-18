@@ -13936,10 +13936,14 @@
       "official_program_url": "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
       "official_application_url": null,
       "source_urls": [
-        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join"
+        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
+        "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+        "https://www.catchafire.org/support/terms-and-conditions"
       ],
       "source_refs": [
-        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join"
+        "https://help.catchafire.org/en/articles/8380963-what-is-catchafire-and-how-do-i-join",
+        "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+        "https://www.catchafire.org/support/terms-and-conditions"
       ],
       "last_verified": "2026-11-17",
       "available_before_incorporation": "Unknown; nonprofit/social-good category and platform discretion require confirmation for the actual community.",
@@ -13973,7 +13977,9 @@
       "restrictions_and_obligations": [
         "Foundation-sponsored membership differs from independently available free-space waiting path; platform access is not delivered work.",
         "Before posting or exchanging any brief, resolve authorized platform-rights and communications/privacy terms; terms not fully assessed here.",
-        "Grant, finance or legal scope needs appropriate credentials, conflicts, actual professional acceptance and separate authority; no application or filing sent."
+        "Grant, finance or legal scope needs appropriate credentials, conflicts, actual professional acceptance and separate authority; no application or filing sent.",
+        "November 18 posting-guide supplement: current sponsored membership and a matching pre-scoped project are required before a project or call; a profile/free-slot waitlist grants neither. Full grant writing is not promised.",
+        "November 18 terms supplement: broad continuing content licence, nonconfidential posts and optional disclosed audio/AI processing require an authorized rights/privacy decision before any exchange. Actual consent, retention and authority remain Unknown."
       ],
       "fit_with_pick_your_ai": "Unsent grant-evidence gap/outline review as a possible finite task, only after actual applicant, rights and professional gates.",
       "current_disposition": "P2 alternative platform; defer access/intake and matching.",
@@ -13996,6 +14002,14 @@
         "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md",
         "observation_date": "2026-11-17",
         "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
+      },
+      "public_source_supplement_2026_11_18": {
+        "sources": [
+          "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+          "https://www.catchafire.org/support/terms-and-conditions"
+        ],
+        "scope": "Separate public source supplements to C2/C3 in PR161; original November 17 provenance and actual-applicant Unknowns are preserved. Receiving acceptance remains pending.",
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/f0142af45e48c2bbe3fcb0e799212c362d568e2a/research/partnerships/pro-bono-support.md"
       }
     },
     {
@@ -14123,7 +14137,8 @@
       "eligibility_status": "Unknown; conditional advertised nonprofit/community categories do not qualify the actual applicant.",
       "eligibility_conditions": [
         "Approved nonprofit/community website project; actual contracting party and signer Unknown.",
-        "Fee approval, orientation, project representative, domain, hosting and content must be evidenced; matching is not guaranteed."
+        "Fee approval, orientation, project representative, domain, hosting and content must be evidenced; matching is not guaranteed.",
+        "November 18 Rally Rules supplement: a whole-site scope expected to reach at least six pages, including home search and a contact form; a single-page/native-app task alone is not an AIR project."
       ],
       "application_gate": "Not authorized; research only. No inquiry, registration, agreement, fee, recruitment, service engagement or transfer is authorized.",
       "application_status": "Public program/intake description documented; no authenticated form inspection, actual applicant decision or submission established.",
@@ -14141,7 +14156,8 @@
         "A matched client must supply a domain, hosting, content and a project representative who meets the volunteer team at least every other week. Actual project inputs and staff commitments are not evidenced.",
         "Rally Rules section 3.8 requires each submitted website to display the Knowbility logo linked to the AIR landing page; this is mandatory submitted-site branding. Displayed rules update 2026-10-27 is a source version, not an applicant approval or delivery date.",
         "AIR is a fee-bearing website build/improvement project, not a guaranteed free audit, native-mobile assessment, specialist user panel, security penetration test or certification.",
-        "Actual ownership, content/contributor licences, publication rights, privacy/consent, retention, portability, maintenance, exit arrangements, reporting, renewal and any additional costs remain Unknown and require authorized review before commitment."
+        "Actual ownership, content/contributor licences, publication rights, privacy/consent, retention, portability, maintenance, exit arrangements, reporting, renewal and any additional costs remain Unknown and require authorized review before commitment.",
+        "The client-agreed platform must be maintainable by the client; teams provide training/documentation and a migration/deployment plan. Actual client, site, content and capacity remain unverified, and this record authorizes no deployment."
       ],
       "program_objectives": "Create or improve accessible websites through approved nonprofit/community clients and mentored volunteer web teams.",
       "fit_with_pick_your_ai": "Conditional public website comparison journey using rights-cleared synthetic results: review keyboard/screen-reader interpretation of labels, validation errors and evidence provenance. Actual site, accepted revision, client, content, representative and final scope remain Unknown; Apple/Android receiving issues are separate native-platform tasks.",
@@ -14258,7 +14274,14 @@
         }
       ],
       "priority_rationale": "Owning #59 prioritizes bounded accessibility-support research; P1 does not establish eligibility, free service or committed value.",
-      "current_disposition": "P1 conditional research lead; defer AIR registration, fee and project commitments until actual client, scope, rights, branding and participation gates are evidenced and separately authorized."
+      "current_disposition": "P1 conditional research lead; defer AIR registration, fee and project commitments until actual client, scope, rights, branding and participation gates are evidenced and separately authorized.",
+      "public_source_supplement_2026_11_18": {
+        "sources": [
+          "https://knowbility.org/programs/air/rally-rules"
+        ],
+        "scope": "Separate site-fit and handoff scope following PR160; original November 17 observations, fee/deadline facts and source history are unchanged. Receiving acceptance remains pending.",
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/c1142b7c6c1eb7ce097e2e8c620b7b4ae1faf42e/research/security/external-review-support.md"
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",

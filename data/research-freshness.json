@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 535,
+  "source_count": 537,
   "records_count": 65,
   "sources": [
     {
@@ -11400,6 +11400,21 @@
       ],
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/3c90787ea815de32debd7bfd2069f7308e0de9b5/research/security/external-review-support.md"
+      ],
+      "program_scope_observations": [
+        {
+          "opportunity_ids": [
+            "KNOWBILITY-AIR"
+          ],
+          "last_verified": "2026-11-18",
+          "last_attempted": "2026-11-18",
+          "verification_scope": "Public Rally Rules read 2026-11-18 UTC: expects at least six pages; requires home search, contact form and linked Knowbility logo, a client-maintainable platform and handoff training/documentation. Actual site, participation, fee, rights and authority remain Unknown; no registration or deployment.",
+          "state": "Dated scoped public-source observation; independent receiving acceptance pending",
+          "provenance": [
+            "https://knowbility.org/programs/air/rally-rules",
+            "Actual unauthenticated public-page read 2026-11-18 UTC; previous observation scopes remain unchanged."
+          ]
+        }
       ]
     },
     {
@@ -13180,6 +13195,50 @@
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/413ac0bbc68b7af5f1c571b01bbad3b24bf23cd7/data/opportunities.json",
         "Carried forward from the explicitly dated 2026-11-17 public_source_recheck; no new provider retrieval."
       ]
+    },
+    {
+      "url": "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+      "last_verified": "2026-11-18",
+      "last_attempted": "2026-11-18",
+      "verification_scope": "Public guide read 2026-11-18 UTC: project/call posting needs current sponsored membership; a profile alone is insufficient. Projects must fit the existing catalog. Grant-template help does not establish a full grant-writing service. Actual access and match Unknown; no account or request.",
+      "opportunity_ids": [
+        "CATCHAFIRE-NONPROFIT-ACCESS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed access or terms",
+        "Before any separately authorized reliance or external action"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://help.catchafire.org/en/articles/1971552-for-organizations-a-guide-to-posting-projects",
+        "Actual unauthenticated public-page read 2026-11-18 UTC; no account, form, call or provider operation."
+      ]
+    },
+    {
+      "url": "https://www.catchafire.org/support/terms-and-conditions",
+      "last_verified": "2026-11-18",
+      "last_attempted": "2026-11-18",
+      "verification_scope": "Public terms sections 2-3 and audio notice read 2026-11-18 UTC: posted content receives a continuing broad sublicensable licence and is nonconfidential. Optional disclosed transcription can involve AI processing. Actual authority, content rights, consent and retention require separate acceptance; no posting or call.",
+      "opportunity_ids": [
+        "CATCHAFIRE-NONPROFIT-ACCESS"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Changed access or terms",
+        "Before any separately authorized reliance or external action"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://www.catchafire.org/support/terms-and-conditions",
+        "Actual unauthenticated public-page read 2026-11-18 UTC; no account, form, call or provider operation."
+      ]
     }
   ],
   "rules": [
@@ -13188,7 +13247,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 504,
+  "source_evidence_url_count": 506,
   "check_policy": {
     "interval_hours": 6,
     "authorized_on": "2026-10-22",

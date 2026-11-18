@@ -10094,7 +10094,7 @@
         "https://google.github.io/gsocguides/mentor/what-makes-a-good-mentor"
       ],
       "application_url": "https://summerofcode.withgoogle.com/how-it-works",
-      "gate": "Closed intake and unverified mentor capacity",
+      "gate": "Mentor capacity unverified; organization intake observed closed on 2026-10-19; current intake Unknown",
       "internal_application_review_controls": [
         "Applicant eligibility and authority",
         "Concrete workload or scoped support need",
@@ -10105,7 +10105,7 @@
       "required_application_evidence_status": "Complete current application fields and required attachments are not yet verified. Published qualification requirements below are source-supported where stated; collect the actual current form or written intake requirements before an application.",
       "published_qualification_requirements": [
         "An open-source project seeking mentoring-organization acceptance",
-        "Project ideas, available mentors and evaluation capacity; current organization registration is closed"
+        "Project ideas, available mentors and evaluation capacity; organization registration was observed closed on 2026-10-19; current-cycle intake Unknown"
       ],
       "currency_status": "Offer currency has not been independently recorded; headline dollar figures are retained as stated in the cited source. Confirm currency in the current offer before valuation.",
       "independent_source_review": {
@@ -10114,7 +10114,7 @@
       },
       "related_research_keys": [],
       "source_review_status": "Oct 19 public-source mentorship findings summarized; current receiving acceptance and future-cycle terms pending.",
-      "applicant_qualification_status": "Unknown; closed intake",
+      "applicant_qualification_status": "Unknown; intake was observed closed on 2026-10-19; current intake Unknown",
       "score_reason": "Qualitative research priority under supplied rubric; eligibility hard gate and unknown usable value prevent a final opportunity score.",
       "award_status": "Unknown; no award evidence established",
       "application_route_description": null,

@@ -1,6 +1,8 @@
 # GPU evaluation access: public-source route screen
 
-**Owning issue:** [#48 / E05-03](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48) · **Source review:** 2026-11-17 (public official pages, unauthenticated) · **Research status:** conditional source screen pending independent acceptance, canonical register reconciliation and actual-workload qualification. **No applications or credentialed API calls were made.**
+**Historical standalone-branch snapshot (2026-11-17):** **Owning issue:** [#48 / E05-03](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/48) · **Source review:** 2026-11-17 (public official pages, unauthenticated) · **Research status:** conditional source screen pending independent acceptance, canonical register reconciliation and actual-workload qualification. **No applications or credentialed API calls were made.**
+
+**Current receiving preparation (2026-11-17 ET / 2026-11-18 UTC):** The canonical AMD/NVIDIA updates and distinct Google Cloud/AWS research-credit records, pipeline projections and scoped freshness evidence now exist in accompanying receiving PR [#165](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/165) as **In Progress / Discovered**. The separately owned Hugging Face record is preserved. These receiving changes remain **unaccepted and unmerged**; this standalone document PR does not contain all accompanying shared records and does not establish delivery on main. Original source dates, findings and review receipts are preserved; this clarification makes no new source check or applicant/provider claim.
 
 ## Decision
 
@@ -115,7 +117,7 @@ These sources are checked **as of the indicated date only**; they may change and
 
 ## Outstanding work and handoff for #48 and #50
 
-- **Canonical structured integration:** deduplicate against current `data/opportunities.json`; add/adjust a unique program record only if the exact scheme and provider identity warrant it; serialize `data/funding-pipeline.json`, `data/research-freshness.json` and their documentation projections. None was changed in this document-only recovery.
+- **Historical standalone-branch snapshot (2026-11-17), canonical structured integration:** deduplicate against current `data/opportunities.json`; add/adjust a unique program record only if the exact scheme and provider identity warrant it; serialize `data/funding-pipeline.json`, `data/research-freshness.json` and their documentation projections. None was changed in that standalone document-only recovery; the current receiving preparation is recorded above.
 - **Review/acceptance:** independent reviewer must check each literal issue criterion and the current sources, identify the reviewed commit, and decide whether documentation-only research is sufficient. The historical local source described in #48 remains separately preserved; this is a new publicly reproducible version, not a claim to have recovered its private bytes.
 - **Missing facts:** no actual PI, fiscal sponsor, cloud subscription, operator, authorized benchmark dataset, capacity, price, quota or credit award is verified. Eligibility and usable cost remain Unknown; a specific matching program may be screened out without becoming an application.
 - **No completion claim:** this note supplies five sourced routes and a comparison method but does **not** close #48 or unblock #50 until structured reconciliation and independent acceptance are completed.

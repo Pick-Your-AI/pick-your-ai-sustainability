@@ -2,8 +2,8 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 459,
-  "records_count": 63,
+  "source_count": 462,
+  "records_count": 65,
   "sources": [
     {
       "url": "https://academicgrants.nvidia.com",
@@ -11264,6 +11264,72 @@
       "provenance": [
         "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/1d90126f8e9b87b0e8de0889a5abf5d81326a0ed/research/partnerships/mentorship-volunteers.md"
       ]
+    },
+    {
+      "url": "https://knowbility.org/programs/air",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Inherited PR160 pinned public read: AIR 2027 nonprofit/community client category, $150 client registration COST, date-only 2026-12-21 deadline and 2027 delivery cycle. Actual client, matching, fee approval, cutoff time/timezone and authenticated form Unknown; no new provider read.",
+      "opportunity_ids": [
+        "KNOWBILITY-AIR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/3c90787ea815de32debd7bfd2069f7308e0de9b5/research/security/external-review-support.md"
+      ]
+    },
+    {
+      "url": "https://knowbility.org/programs/air/rally-rules",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Inherited PR160 pinned public read: participant commitments (including linked #participant-commitments), orientation prerequisite to matching, matched-client domain/hosting/content and representative meetings at least every other week; section 3.8 mandatory Knowbility logo linked to AIR landing page on every submitted website. Displayed update 2026-10-27 is a source version. Actual authority, rights and acceptance Unknown; no new provider read.",
+      "opportunity_ids": [
+        "KNOWBILITY-AIR"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/3c90787ea815de32debd7bfd2069f7308e0de9b5/research/security/external-review-support.md"
+      ]
+    },
+    {
+      "url": "https://lawyersalliance.org/becoming-a-client",
+      "last_verified": "2026-11-17",
+      "last_attempted": "2026-11-17",
+      "verification_scope": "Inherited PR161 pinned public read: case-by-case nonprofit legal assistance requires benefit to low-income people/communities in NYC; published $800 formation/tax-exemption and $475 standard new-client fees, with possible additional in-house/external costs. Current project NYC nexus not established; no actual client acceptance, legal opinion, quote or authenticated intake. No new provider read.",
+      "opportunity_ids": [
+        "LAWYERS-ALLIANCE-NYC"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Dated public-source observation; independent receiving acceptance pending",
+      "source_roles": [
+        "governing_source_evidence"
+      ],
+      "provenance": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md"
+      ]
     }
   ],
   "rules": [
@@ -11272,7 +11338,7 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 428,
+  "source_evidence_url_count": 431,
   "additional_unverified_endpoint_count": 31,
   "check_policy": {
     "interval_hours": 6,

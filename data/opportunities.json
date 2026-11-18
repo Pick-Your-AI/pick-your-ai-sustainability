@@ -1,7 +1,7 @@
 {
   "schema_version": "sustainability-opportunity-register/v1",
   "last_verified": "2026-10-19",
-  "records_count": 63,
+  "records_count": 65,
   "records": [
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -2517,13 +2517,13 @@
       "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
       "award_status": "Unknown; no award evidence established",
       "currency_status": null,
-      "current_disposition": null,
+      "current_disposition": "Retain P2 for a conditional administrative/educational support route; defer applications or product activation until the actual applicant, use, capacity and authority are evidenced.",
       "deadline_local_time": null,
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Retain P2 for a conditional administrative/educational support route; defer applications or product activation until the actual applicant, use, capacity and authority are evidenced.",
       "source_refs": [
         "https://support.google.com/nonprofits/answer/3215869",
         "https://support.google.com/nonprofits/answer/1699858?hl=en&ref_topic=16049175",
@@ -2654,7 +2654,11 @@
           "scope": "Advertising benefit and separate activation; no campaign, usable value or complete product-policy acceptance.",
           "provenance": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/0751e20855c1bfe3f8716d9aed52fcb57d7ea7a2/docs/research/charitable-grant-prospect-matrix.md"
         }
-      ]
+      ],
+      "prior_receiving_values_2026_11_17": {
+        "current_disposition": null,
+        "recommended_disposition": null
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -3220,12 +3224,12 @@
       "score_reason": "The P2 research priority reflects a promising but incompletely qualified route. Eligibility remains a hard gate; this is not a Qualified or authorized application. Promising research with explicit eligibility, scope, institutional or policy prerequisites; no application-ready assertion.",
       "award_status": "Unknown; no award evidence established",
       "currency_status": null,
-      "current_disposition": null,
+      "current_disposition": "Defer application; investigate a real eligible institutional route and a bounded Track 1 planning case",
       "deadline_utc": null,
       "gate": null,
       "jurisdiction": null,
       "priority_scope_note": null,
-      "recommended_disposition": null,
+      "recommended_disposition": "Defer application; investigate a real eligible institutional route and a bounded Track 1 planning case",
       "source_refs": [
         "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506/solicitation",
         "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
@@ -3439,7 +3443,11 @@
           "scope": "Alternative route identified by NSF; actual application workspace not inspected",
           "provenance": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/ebb832141631d9192ff5a0cab594526c7593052c/data/opportunities/nsf-pesose.json"
         }
-      ]
+      ],
+      "prior_receiving_values_2026_11_17": {
+        "current_disposition": null,
+        "recommended_disposition": null
+      }
     },
     {
       "schema_version": "sustainability-opportunity/v1",
@@ -13911,10 +13919,324 @@
         "observation_date": "2026-10-19",
         "scope": "Manual concise summary of standalone public documentary facts; no historical aggregate record imported or new provider read performed."
       }
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "KNOWBILITY-AIR",
+      "provider": "Knowbility",
+      "program_name": "Accessibility Internet Rally (AIR)",
+      "program_aliases": [
+        "AIR",
+        "Accessibility Internet Rally",
+        "AIR 2027"
+      ],
+      "round": "AIR 2027",
+      "category": "accessibility",
+      "support_type": "mentored_volunteer_website_project",
+      "official_program_url": "https://knowbility.org/programs/air",
+      "official_application_url": null,
+      "eligibility_jurisdiction": "Actual client jurisdiction and contracting representative Unknown; no unsupported geographic restriction inferred.",
+      "legal_entity_requirements": "Nonprofit/community client categories are advertised; actual client approval, contracting authority and ability to satisfy participation and fee conditions Unknown.",
+      "available_before_incorporation": "Conditional program category: community groups are advertised; actual client acceptance, contracting representative, fee authority and participation capacity Unknown.",
+      "available_through_fiscal_sponsorship": "Unknown; actual sponsor agreement, authority to commit the project, program acceptance, fee and participation capacity require separate evidence.",
+      "available_after_501c3_recognition": "Conditional nonprofit category; recognition does not establish client approval, matching, fee authority, rights or participation capacity.",
+      "eligibility_status": "Unknown; conditional advertised nonprofit/community categories do not qualify the actual applicant.",
+      "eligibility_conditions": [
+        "Approved nonprofit/community website project; actual contracting party and signer Unknown.",
+        "Fee approval, orientation, project representative, domain, hosting and content must be evidenced; matching is not guaranteed."
+      ],
+      "application_gate": "Not authorized; research only. No inquiry, registration, agreement, fee, recruitment, service engagement or transfer is authorized.",
+      "application_status": "Public program/intake description documented; no authenticated form inspection, actual applicant decision or submission established.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "verified_deadline": "2026-12-21",
+      "deadline_timezone": null,
+      "deadline_source_url": "https://knowbility.org/programs/air",
+      "benefit_amount_or_capacity": "Conditional mentored volunteer creation or improvement of an accessible website in the AIR 2027 cycle; no accepted match, deliverable, donated hours, cash or capacity established.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "No benefit received. Estimate only an independently necessary, actually accepted and delivered website scope against comparable replacement cost, subtracting the registration fee and real domain, hosting, supervision, maintenance and rights-review costs. All quantitative inputs remain Unknown.",
+      "restrictions_and_obligations": [
+        "Paying the fee while missing orientation prevents matching; client approval and matching remain separate and unverified.",
+        "A matched client must supply a domain, hosting, content and a project representative who meets the volunteer team at least every other week. Actual project inputs and staff commitments are not evidenced.",
+        "Rally Rules section 3.8 requires each submitted website to display the Knowbility logo linked to the AIR landing page; this is mandatory submitted-site branding. Displayed rules update 2026-10-27 is a source version, not an applicant approval or delivery date.",
+        "AIR is a fee-bearing website build/improvement project, not a guaranteed free audit, native-mobile assessment, specialist user panel, security penetration test or certification.",
+        "Actual ownership, content/contributor licences, publication rights, privacy/consent, retention, portability, maintenance, exit arrangements, reporting, renewal and any additional costs remain Unknown and require authorized review before commitment."
+      ],
+      "program_objectives": "Create or improve accessible websites through approved nonprofit/community clients and mentored volunteer web teams.",
+      "fit_with_pick_your_ai": "Conditional public website comparison journey using rights-cleared synthetic results: review keyboard/screen-reader interpretation of labels, validation errors and evidence provenance. Actual site, accepted revision, client, content, representative and final scope remain Unknown; Apple/Android receiving issues are separate native-platform tasks.",
+      "required_application_evidence": [
+        "Published client participation conditions include orientation and, if matched, domain, hosting, content and a representative meeting at least every other week; this is not a complete verified application-form inventory."
+      ],
+      "required_contacts_or_decisions": [
+        "Actual client/signer and any fiscal-sponsor permission; fee approval; site/project scope and participation capacity.",
+        "Authorized source/content/trademark, mandatory branding, privacy, retention, publication, portability and maintenance decision before registration or submission.",
+        "Independent receiving acceptance of the pinned findings and structured/pipeline/freshness reconciliation."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/57"
+      ],
+      "confidence": "Public provider documentation; actual applicant, capacity, terms and accepted support Unknown.",
+      "sources": [
+        {
+          "url": "https://knowbility.org/programs/air",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "scope": "Inherited PR160 pinned public read: AIR 2027 nonprofit/community client category, $150 client registration COST, date-only 2026-12-21 deadline and 2027 delivery cycle. Actual client, matching, fee approval, cutoff time/timezone and authenticated form Unknown; no new provider read.",
+          "opportunity_ids": [
+            "KNOWBILITY-AIR"
+          ]
+        },
+        {
+          "url": "https://knowbility.org/programs/air/rally-rules",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "scope": "Inherited PR160 pinned public read: participant commitments (including linked #participant-commitments), orientation prerequisite to matching, matched-client domain/hosting/content and representative meetings at least every other week; section 3.8 mandatory Knowbility logo linked to AIR landing page on every submitted website. Displayed update 2026-10-27 is a source version. Actual authority, rights and acceptance Unknown; no new provider read.",
+          "opportunity_ids": [
+            "KNOWBILITY-AIR"
+          ]
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; actual applicant eligibility, accepted service scope, capacity, fee authorization, effort and net usable value remain Unknown."
+      },
+      "priority": "P1",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Reconcile this unique AIR program identity and dated sources with projections; obtain independent findings acceptance; preserve the date-only 2026-12-21 cutoff and resolve applicant, fee, rights, branding, participation and capacity questions before any separately authorized action.",
+      "next_action_date": null,
+      "last_verified": "2026-11-17",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any separately authorized external action or reliance on current intake/terms; independently accept receiving findings first.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/59",
+      "application_outcome": "No submission established; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation established; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No actual agreement or operating reporting calendar established",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-11-18",
+        "aliases_checked": [
+          "Knowbility",
+          "AIR",
+          "Accessibility Internet Rally",
+          "AIR 2027",
+          "KNOWBILITY-AIR"
+        ],
+        "canonical_match": null,
+        "scope": "Local immutable proposed opportunity register at 8b13afa843f1f5d1be580d8e0a07838fc6a65bc9 and campaign issue snapshot #59/#65; no existing Knowbility/AIR record. Existing OSTIF retains its separate identity and owner. Organization-wide live duplicate search not performed; local search date does not refresh provider observations."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent findings acceptance",
+        "limitations": [
+          "The pinned standalone draft is not independent receiving acceptance, an applicant ruling, professional advice, an offer, or permission for external action."
+        ]
+      },
+      "owning_research_key": "E07-04",
+      "source_urls": [
+        "https://knowbility.org/programs/air",
+        "https://knowbility.org/programs/air/rally-rules"
+      ],
+      "source_refs": [
+        "https://knowbility.org/programs/air",
+        "https://knowbility.org/programs/air/rally-rules"
+      ],
+      "source_review_status": "Pinned standalone public-documentation findings dated 2026-11-17; independent receiving findings acceptance pending.",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "actual_applicant": "Unknown",
+      "actual_host": "Unknown",
+      "actual_action_authority": "Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "evidence_provenance": {
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/3c90787ea815de32debd7bfd2069f7308e0de9b5/research/security/external-review-support.md",
+        "standalone_revision": "3c90787ea815de32debd7bfd2069f7308e0de9b5",
+        "observation_date": "2026-11-17",
+        "scope": "Concise receiving summary of the exact pinned standalone public documentation; source dates are inherited from that document. No new provider read or authenticated intake performed."
+      },
+      "deadline_precision": "date only; cutoff time and timezone not established by the pinned standalone source",
+      "published_fees": [
+        {
+          "amount": 150,
+          "currency": null,
+          "source_display": "$150 client registration fee",
+          "source_url": "https://knowbility.org/programs/air",
+          "scope": "Published cost requiring separate authorization; never a cash award or benefit valuation."
+        }
+      ],
+      "priority_rationale": "Owning #59 prioritizes bounded accessibility-support research; P1 does not establish eligibility, free service or committed value.",
+      "current_disposition": "P1 conditional research lead; defer AIR registration, fee and project commitments until actual client, scope, rights, branding and participation gates are evidenced and separately authorized."
+    },
+    {
+      "schema_version": "sustainability-opportunity/v1",
+      "opportunity_id": "LAWYERS-ALLIANCE-NYC",
+      "provider": "Lawyers Alliance for New York",
+      "program_name": "Nonprofit legal assistance — becoming a client",
+      "program_aliases": [
+        "Lawyers Alliance",
+        "Lawyers Alliance for New York",
+        "Lawyers Alliance NYC"
+      ],
+      "round": null,
+      "category": "pro_bono_legal",
+      "support_type": "case_by_case_nonprofit_legal_assistance",
+      "official_program_url": "https://lawyersalliance.org/becoming-a-client",
+      "official_application_url": null,
+      "eligibility_jurisdiction": "Benefit to low-income people or communities in New York City is required; no project NYC service nexus is established.",
+      "legal_entity_requirements": "Nonprofit legal-assistance intake is case by case; formation/tax-exemption help is listed, but actual client, legal form, authority, jurisdiction, conflicts and representation eligibility remain Unknown.",
+      "available_before_incorporation": "Unknown; formation help is advertised but no NYC low-income service nexus, actual client or case-by-case acceptance is evidenced. No fit on current documented facts.",
+      "available_through_fiscal_sponsorship": "Unknown; no actual sponsor/client, NYC low-income service nexus, authority or case acceptance established. A fiscal sponsor does not supply the missing nexus.",
+      "available_after_501c3_recognition": "Unknown; recognition does not establish benefit to low-income NYC communities, case acceptance, scope or representation. No NYC nexus evidenced.",
+      "eligibility_status": "Unknown actual applicant; no fit on current documented facts because the required NYC low-income service nexus is not evidenced. This is not permanent legal ineligibility.",
+      "eligibility_conditions": [
+        "Case-by-case intake and demonstrated benefit to low-income people or communities in New York City.",
+        "Actual client/authorized representative, professional jurisdiction, conflicts, engagement terms, scope, fees and capacity require separate verification."
+      ],
+      "application_gate": "Not authorized; research only. No inquiry, registration, agreement, fee, recruitment, service engagement or transfer is authorized.",
+      "application_status": "Public program/intake description documented; no authenticated form inspection, actual applicant decision or submission established.",
+      "opportunity_stage": "Discovered",
+      "work_status": "In Progress",
+      "verified_deadline": null,
+      "deadline_timezone": null,
+      "deadline_source_url": null,
+      "benefit_amount_or_capacity": "Potential case-by-case nonprofit legal assistance; no accepted engagement, donated hours, actual representation or received benefit.",
+      "currency": null,
+      "estimated_usable_value": null,
+      "valuation_method": "No received support. Any later avoided-cost estimate requires accepted jurisdiction-appropriate legal scope, a comparable quote, actually donated qualified hours and subtraction of client fees, external costs and supervision/administration; missing inputs leave value Unknown.",
+      "restrictions_and_obligations": [
+        "The source requires benefit to low-income people or communities in New York City and case-by-case intake. No project NYC service nexus is established; do not infer Cincinnati/local representation.",
+        "Client fees are costs: published $800 formation or tax-exemption help and $475 standard new-client fee; some in-house work and external costs may be additional. Currency code and actual quote are unverified.",
+        "Attorney licensing, relevant jurisdiction, conflicts, authorized client representative, privilege and engagement terms require separate professional acceptance before individualized advice. No legal opinion or representation is established.",
+        "Actual intake form, capacity, fixed deadline, reporting, branding, publication rights, confidentiality/retention, portability, renewal and ongoing fees remain Unknown. Do not transmit private client, donor, tax, bank or security material through public GitHub or unapproved external intake."
+      ],
+      "program_objectives": "Nonprofit legal assistance benefiting low-income people and communities in New York City.",
+      "fit_with_pick_your_ai": "Formation, nonprofit governance and licensing questions require competent counsel, but the current documented project lacks the source-required NYC low-income service nexus. Retain the evidence to prevent treating this provider as a local legal alternative; a materially different evidenced scope requires reassessment.",
+      "required_application_evidence": [
+        "Publicly documented NYC low-income community-benefit threshold and case-by-case intake; complete application/form evidence requirements remain Unknown."
+      ],
+      "required_contacts_or_decisions": [
+        "If actual local service facts materially change, reassess the NYC nexus and exact client/authorized representative before considering intake.",
+        "Professional jurisdiction, conflicts, engagement/privilege, scope, fee and confidentiality review would require separate authority.",
+        "Independent receiving acceptance of the pinned source findings and structured/pipeline/freshness reconciliation."
+      ],
+      "native_dependency_issue_urls": [
+        "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/11"
+      ],
+      "confidence": "Public provider documentation; actual applicant, capacity, terms and accepted support Unknown.",
+      "sources": [
+        {
+          "url": "https://lawyersalliance.org/becoming-a-client",
+          "last_verified": "2026-11-17",
+          "last_attempted": "2026-11-17",
+          "scope": "Inherited PR161 pinned public read: case-by-case nonprofit legal assistance requires benefit to low-income people/communities in NYC; published $800 formation/tax-exemption and $475 standard new-client fees, with possible additional in-house/external costs. Current project NYC nexus not established; no actual client acceptance, legal opinion, quote or authenticated intake. No new provider read.",
+          "opportunity_ids": [
+            "LAWYERS-ALLIANCE-NYC"
+          ]
+        }
+      ],
+      "scoring": {
+        "mission_fit": null,
+        "eligibility": null,
+        "net_usable_value": null,
+        "likelihood_evidence": null,
+        "timing": null,
+        "effort": null,
+        "independence_risk": null,
+        "strategic_value": null,
+        "total": null,
+        "justification": "Not scored; actual applicant eligibility, accepted service scope, capacity, fee authorization, effort and net usable value remain Unknown."
+      },
+      "priority": "P3",
+      "assigned_owner": null,
+      "independent_reviewer": null,
+      "next_action": "Retain the sourced current-facts exclusion in the unique record and projections; obtain independent receiving acceptance. Reassess only if an actual NYC low-income service nexus and appropriate client/scope become evidenced; no intake or fee commitment authorized.",
+      "next_action_date": null,
+      "last_verified": "2026-11-17",
+      "next_verification_date": null,
+      "next_verification_trigger": "Before any separately authorized external action or reliance on current intake/terms; independently accept receiving findings first.",
+      "linked_github_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/65",
+      "application_outcome": "No submission established; historical state Unknown",
+      "award_evidence": null,
+      "activation_status": "No activation established; prior account state Unknown",
+      "activation_evidence": null,
+      "reporting_status": "No actual agreement or operating reporting calendar established",
+      "reporting_obligations": [],
+      "duplicate_search": {
+        "searched_at": "2026-11-18",
+        "aliases_checked": [
+          "Lawyers Alliance",
+          "Lawyers Alliance for New York",
+          "Lawyers Alliance NYC",
+          "LAWYERS-ALLIANCE-NYC",
+          "lawyersalliance.org"
+        ],
+        "canonical_match": null,
+        "scope": "Local immutable proposed opportunity register at 8b13afa843f1f5d1be580d8e0a07838fc6a65bc9 and campaign issue snapshot #59/#65; no existing Lawyers Alliance record. Existing SFLC/Taproot and distinct Catchafire retain separate identities. Organization-wide live duplicate search not performed; local search date does not refresh provider observations."
+      },
+      "review": {
+        "reviewer": null,
+        "reviewed_revision": null,
+        "review_url": null,
+        "decision": "Pending independent findings acceptance",
+        "limitations": [
+          "The pinned standalone draft is not independent receiving acceptance, an applicant ruling, professional advice, an offer, or permission for external action."
+        ]
+      },
+      "owning_research_key": "E08-04",
+      "source_urls": [
+        "https://lawyersalliance.org/becoming-a-client"
+      ],
+      "source_refs": [
+        "https://lawyersalliance.org/becoming-a-client"
+      ],
+      "source_review_status": "Pinned standalone public-documentation findings dated 2026-11-17; independent receiving findings acceptance pending.",
+      "score": null,
+      "applicant_qualification_status": "Unknown",
+      "actual_applicant": "Unknown",
+      "actual_host": "Unknown",
+      "actual_action_authority": "Unknown",
+      "award_status": "Unknown; no award evidence established",
+      "evidence_provenance": {
+        "standalone_note": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/blob/09fa80e154a4d0dc7795fc33559913fc36572ca4/research/partnerships/pro-bono-support.md",
+        "standalone_revision": "09fa80e154a4d0dc7795fc33559913fc36572ca4",
+        "observation_date": "2026-11-17",
+        "scope": "Concise receiving summary of the exact pinned standalone public documentation; source dates are inherited from that document. No new provider read or authenticated intake performed."
+      },
+      "published_fees": [
+        {
+          "amount": 800,
+          "currency": null,
+          "source_display": "$800 for formation or tax-exemption help",
+          "source_url": "https://lawyersalliance.org/becoming-a-client",
+          "scope": "Published cost, not a grant or received benefit."
+        },
+        {
+          "amount": 475,
+          "currency": null,
+          "source_display": "$475 standard new-client fee",
+          "source_url": "https://lawyersalliance.org/becoming-a-client",
+          "scope": "Published cost; some in-house work and external costs may be additional. Not a zero-cost local substitute or committed quote."
+        }
+      ],
+      "priority_rationale": "Retained current-facts exclusion for a geographically scoped provider; owning #65 remains P1 research, while this unsupported applicant route is not pursued.",
+      "current_disposition": "Not Pursuing — no fit on current documented facts: no NYC low-income service nexus established, and published client fees prevent treating this as a zero-cost local substitute. Reassess only if actual service/client facts materially change; not permanent legal ineligibility."
     }
   ],
   "important_limitations": [
-    "Published source facts and explicit access/history limitations are recorded for all 63 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
+    "Published source facts and explicit access/history limitations are recorded for all 65 distinct programs/channels. Source review never establishes Pick Your AI applicant qualification, an application, an award or an activated benefit.",
     "The fifty identities present on accepted main f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1 remain preserved. Subsequent distinct receiving records share the schema and stable owning research keys; their own dated observations and pending review scopes do not extend earlier accepted findings or historical GitHub/Project audits.",
     "Numeric scores, usable values, owner assignments and internal action dates remain null pending evidence or an actual responsible-person decision. Actual independent reviewer identities, review dates and accepted scopes are recorded only where the linked review occurred; the accepted Fireworks exclusion and JetBrains assessment retain their own linked scopes and do not accept the remaining program assessments. Published external deadlines are recorded separately with exact source/timezone.",
     "Eligibility is tested separately before incorporation, via fiscal sponsorship and after recognition. Closed, excluded, unknown and conditional opportunities are not immediately actionable.",

@@ -2,7 +2,7 @@
 
 **Draft — source check dates are evidence, not a standing eligibility guarantee.** Prepared 2026-10-19. Owning work: [E09-04 #70](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/70).
 
-The [source register](../data/research-freshness.json) tracks **533 distinct source and endpoint URLs** for 65 opportunity records: 502 referenced URLs (501 canonical `source_urls` plus 1 additional discovery URLs), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
+The [source register](../data/research-freshness.json) tracks **535 distinct source and endpoint URLs** for 65 opportunity records: 504 referenced URLs (503 canonical `source_urls` plus 1 additional discovery URL), and 31 other endpoints. These are membership counts, not successful verifications. Receiving batches preserve dated scopes, failed-access nulls and historical acceptance separately. A newer observation for one program does not refresh another program sharing its URL. Internal dates and assignments are not inferred; earlier snapshots below retain their original counts.
 
 ## Review triggers
 
@@ -11,7 +11,7 @@ The [source register](../data/research-freshness.json) tracks **533 distinct sou
 - Requalify a record when the official page redirects, intake opens/closes, terms change, source facts conflict, or a price/credit/quota changes.
 - Compare the current statement with historical evidence instead of overwriting the historical event date.
 
-The currently closed NVIDIA, GSoC, Spencer and NGI Zero Commons records cannot be reopened by elapsed time alone. Gemini's applicant/award gates and Together's invitation/intake ambiguity need actual new evidence. A sponsor or nonprofit recognition decision cannot automatically replace missing academic, jurisdiction or scope eligibility facts.
+The NVIDIA, Spencer and NGI Zero Commons records retain their recorded closure evidence; GSoC intake was observed closed on 2026-10-19, but current intake is Unknown pending a fresh check. None can be reopened solely by elapsed time. Gemini's applicant/award gates and Together's invitation/intake ambiguity need actual new evidence. A sponsor or nonprofit recognition decision cannot automatically replace missing academic, jurisdiction or scope eligibility facts.
 
 ## Review output
 

@@ -238,6 +238,21 @@ def validate_registers(documents):
             errors.append(f"freshness[{url}]: duplicate opportunity membership")
         for identity in sorted(memberships[url] - records.keys()):
             errors.append(f"freshness[{url}]: unknown opportunity {identity}")
+        observations = source.get("program_scope_observations", [])
+        if not isinstance(observations, list):
+            errors.append(f"freshness[{url}]: program_scope_observations must be an array")
+        else:
+            for position, observation in enumerate(observations):
+                scoped_ids = observation.get("opportunity_ids") if isinstance(observation, dict) else None
+                if (not isinstance(scoped_ids, list) or not scoped_ids
+                        or any(not isinstance(identity, str) or not identity.strip()
+                               for identity in scoped_ids)):
+                    errors.append(f"freshness[{url}]: scoped observation {position} requires nonempty opportunity_ids strings")
+                    continue
+                if len(scoped_ids) != len(set(scoped_ids)):
+                    errors.append(f"freshness[{url}]: scoped observation {position} has duplicate opportunity IDs")
+                for identity in sorted(set(scoped_ids) - memberships[url]):
+                    errors.append(f"freshness[{url}]: scoped observation {position} opportunity {identity} is not a URL member")
     for identity, record in records.items():
         if not isinstance(record.get("source_urls"), list):
             continue  # Already reported by the schema; avoid cascading type errors.

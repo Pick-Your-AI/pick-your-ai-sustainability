@@ -321,6 +321,20 @@ def calculate(audit: dict, inputs: dict) -> dict:
         for identity in source.get("opportunity_ids", []):
             if identity not in indexed:
                 discrepancies.append({"kind": "unknown_source_membership", "url": url, "opportunity_id": identity})
+        memberships = source.get("opportunity_ids", [])
+        require(isinstance(memberships, list) and all(isinstance(identity, str) and identity.strip()
+                for identity in memberships), "Invalid source opportunity membership: " + url)
+        require(len(memberships) == len(set(memberships)), "Duplicate source opportunity membership: " + url)
+        observations = source.get("program_scope_observations", [])
+        require(isinstance(observations, list), "Invalid scoped observation list: " + url)
+        for position, observation in enumerate(observations):
+            scoped_ids = observation.get("opportunity_ids") if isinstance(observation, dict) else None
+            require(isinstance(scoped_ids, list) and bool(scoped_ids)
+                    and all(isinstance(identity, str) and identity.strip() for identity in scoped_ids),
+                    f"Invalid scoped observation opportunity IDs: {url} index {position}")
+            require(len(scoped_ids) == len(set(scoped_ids))
+                    and set(scoped_ids).issubset(set(memberships)),
+                    f"Scoped observation outside URL membership: {url} index {position}")
     without_review = [row["opportunity_id"] for row in rows if not complete_review_pointer(row)]
     stages = counts(rows, "opportunity_stage")
     for stage in STAGES:

@@ -4,7 +4,7 @@
 
 ## Research decisions and prerequisites
 
-**P1 coordination:** separate recurring support mechanisms and public acknowledgment obligations from actual legal beneficiary authority, donor permission, payment custody and realized funding. Keep sponsor-neutral research, independent model evaluation and conflict review; no sponsor can purchase favorable benchmark results. The [sponsorship ethics draft](../sponsorship-ethics-draft.md) is not an adopted policy merely because it is published.
+**P1 coordination:** separate recurring support mechanisms and public acknowledgment obligations from actual legal beneficiary authority, donor permission, payment custody and realized funding. Keep sponsor-neutral research, independent model evaluation and conflict review; no sponsor can purchase favorable benchmark results. The [sponsorship ethics draft](../policies/vendor-neutrality-and-sponsorship-ethics-draft.md) is not an adopted policy merely because it is published.
 
 | Child | Status and evidence boundary | Next eligible action |
 | --- | --- | --- |

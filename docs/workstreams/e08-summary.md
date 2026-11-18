@@ -12,7 +12,7 @@
 | Open #63 | [PR #156](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/156), academic capstone/partner comparison | Georgia Tech, UW and CMU have distinct client/fee/IP gates; no client, university mentor or enrollment verified |
 | Closed #64 | [Corporate OSPO contribution research](../../research/partnerships/ospo-contributions.md) | Unsent inquiries remain unsent; no employee engineering commitment |
 | Open #65 | [PR #161](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/161), pro bono referral and **unsent** legal/finance/grant briefs | Existing `TAPROOT-PROBONO` and `SFLC-LEGAL` identities; approve actual legal-client scope and review Taproot content/communications/AI rights **before any platform use** |
-| Open #66 | [PR #154](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/154), mentorship and volunteer design | Existing `GSOC-MENTOR-ORG` identity and closed cycle; an LFX lead is not an accepted slot. No mentor, student or coordinator assigned |
+| Open #66 | [PR #154](https://github.com/Pick-Your-AI/pick-your-ai-sustainability/pull/154), mentorship and volunteer design | Existing `GSOC-MENTOR-ORG` identity; organization registration was observed closed on 2026-10-19. Current intake remains Unknown and next-cycle dates remain unverified; an LFX lead is not an accepted slot. No mentor, student or coordinator assigned |
 
 ## Shared evidence and control boundaries
 

@@ -3,6 +3,7 @@
 
 import argparse
 from decimal import Decimal, InvalidOperation
+import errno
 import json
 import math
 import os
@@ -259,6 +260,13 @@ def markdown_urls(tokens):
             yield from markdown_urls(token.children)
 
 
+def filesystem_error_message(error):
+    """Keep symlink-loop diagnostics stable across filesystem/Python variants."""
+    if isinstance(error, OSError) and error.errno == errno.ELOOP:
+        return "Symlink loop or excessive symbolic-link depth (ELOOP)"
+    return str(error)
+
+
 def validate_links(root, path, text):
     """Check parsed Markdown link/image paths; do not fetch URLs or validate anchors."""
     errors = []
@@ -277,7 +285,8 @@ def validate_links(root, path, text):
             elif not target.exists():
                 errors.append(f"{path.relative_to(root)}: missing local link target: {url}")
         except (ValueError, OSError, RuntimeError) as error:
-            errors.append(f"{path.relative_to(root)}: invalid local link {url!r}: {error}")
+            errors.append(f"{path.relative_to(root)}: invalid local link {url!r}: "
+                          f"{filesystem_error_message(error)}")
     return errors
 
 
@@ -313,7 +322,7 @@ def validate_repository(root):
                 markdown_count += 1
                 errors.extend(validate_links(root, path, content))
         except (ValueError, OSError, RuntimeError) as error:
-            errors.append(f"{relative}: {error}")
+            errors.append(f"{relative}: {filesystem_error_message(error)}")
     errors.extend(validate_registers(documents))
     return errors, {"json_files": json_count, "markdown_files": markdown_count}
 

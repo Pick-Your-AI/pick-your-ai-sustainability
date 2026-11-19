@@ -1,5 +1,6 @@
 """Offline corruption and evolution checks for the current repository format."""
 import copy
+import errno
 import importlib.util
 import json
 import subprocess
@@ -331,6 +332,136 @@ class FilesystemChecks(unittest.TestCase):
         self.write("README.md", "[loop](loop.md)\n")
         errors, _ = validation.validate_repository(self.root)
         self.assertTrue(any("Symlink loop" in error for error in errors), errors)
+
+    def test_source_resolution_eloop_reports_stable_loop_and_relative_path(self):
+        for suffix in (".md", ".json"):
+            with self.subTest(suffix=suffix):
+                target = self.write("docs/source-loop" + suffix, "{}")
+                original_resolve = Path.resolve
+
+                def resolve(candidate, *args, **kwargs):
+                    if candidate == target:
+                        raise OSError(errno.ELOOP, "synthetic platform wording", str(target))
+                    return original_resolve(candidate, *args, **kwargs)
+
+                with patch.object(Path, "resolve", resolve):
+                    errors, _ = validation.validate_repository(self.root)
+                self.assertEqual(len(errors), 1, errors)
+                self.assertTrue(errors[0].startswith("docs/source-loop" + suffix + ":"), errors)
+                self.assertIn("Symlink loop", errors[0])
+                self.assertNotIn(str(self.root), errors[0])
+                self.assertEqual(target.read_bytes(), b"{}")
+
+    def test_source_read_eloop_after_successful_resolution_reports_stable_loop(self):
+        for suffix in (".md", ".json"):
+            with self.subTest(suffix=suffix):
+                target = self.write("docs/read-loop" + suffix, "{}")
+                original_resolve, original_read = Path.resolve, Path.read_text
+                resolved = []
+
+                def resolve(candidate, *args, **kwargs):
+                    result = original_resolve(candidate, *args, **kwargs)
+                    if candidate == target:
+                        resolved.append(result)
+                    return result
+
+                def read(candidate, *args, **kwargs):
+                    if candidate == target:
+                        self.assertIn(target, resolved)
+                        raise OSError(errno.ELOOP, "synthetic deferred wording", str(target))
+                    return original_read(candidate, *args, **kwargs)
+
+                with patch.object(Path, "resolve", resolve), patch.object(Path, "read_text", read):
+                    errors, _ = validation.validate_repository(self.root)
+                self.assertEqual(len(errors), 1, errors)
+                self.assertTrue(errors[0].startswith("docs/read-loop" + suffix + ":"), errors)
+                self.assertIn("Symlink loop", errors[0])
+                self.assertNotIn(str(self.root), errors[0])
+                self.assertEqual(target.read_bytes(), b"{}")
+
+    def test_local_link_resolution_eloop_reports_stable_loop_source_and_url(self):
+        target = self.write("docs/link-target.md")
+        source = self.write("docs/source.md")
+        original_resolve = Path.resolve
+
+        def resolve(candidate, *args, **kwargs):
+            if candidate == target:
+                raise OSError(errno.ELOOP, "synthetic platform wording", str(target))
+            return original_resolve(candidate, *args, **kwargs)
+
+        with patch.object(Path, "resolve", resolve):
+            errors = validation.validate_links(self.root, source, "[target](link-target.md)\n")
+        self.assertEqual(len(errors), 1, errors)
+        self.assertTrue(errors[0].startswith("docs/source.md:"), errors)
+        self.assertIn("link-target.md", errors[0])
+        self.assertIn("Symlink loop", errors[0])
+        self.assertNotIn(str(self.root), errors[0])
+
+    def test_local_link_exists_eloop_after_resolution_reports_stable_loop(self):
+        target = self.write("docs/link-target.md")
+        source = self.write("docs/source.md")
+        original_resolve, original_exists = Path.resolve, Path.exists
+        resolved = []
+
+        def resolve(candidate, *args, **kwargs):
+            result = original_resolve(candidate, *args, **kwargs)
+            if candidate == target:
+                resolved.append(result)
+            return result
+
+        def exists(candidate):
+            if candidate == target:
+                self.assertIn(target, resolved)
+                raise OSError(errno.ELOOP, "synthetic deferred wording", str(target))
+            return original_exists(candidate)
+
+        with patch.object(Path, "resolve", resolve), patch.object(Path, "exists", exists):
+            errors = validation.validate_links(self.root, source, "[target](/docs/link-target.md)\n")
+        self.assertEqual(len(errors), 1, errors)
+        self.assertTrue(errors[0].startswith("docs/source.md:"), errors)
+        self.assertIn("/docs/link-target.md", errors[0])
+        self.assertIn("Symlink loop", errors[0])
+        self.assertNotIn(str(self.root), errors[0])
+
+    def test_source_unrelated_oserrors_fail_without_symlink_loop_label(self):
+        target = self.write("docs/unreadable.md")
+        for operation in ("resolve", "read_text"):
+            for number in (errno.EACCES, errno.ENOENT, errno.EIO):
+                with self.subTest(operation=operation, errno=number):
+                    original = getattr(Path, operation)
+
+                    def fail(candidate, *args, **kwargs):
+                        if candidate == target:
+                            raise OSError(number, "synthetic ordinary source failure: too many levels of symbolic links")
+                        return original(candidate, *args, **kwargs)
+
+                    with patch.object(Path, operation, fail):
+                        errors, _ = validation.validate_repository(self.root)
+                    self.assertEqual(len(errors), 1, errors)
+                    self.assertTrue(errors[0].startswith("docs/unreadable.md:"), errors)
+                    self.assertIn("synthetic ordinary source failure", errors[0])
+                    self.assertNotIn("Symlink loop", errors[0])
+
+    def test_local_link_unrelated_oserrors_fail_without_symlink_loop_label(self):
+        target = self.write("docs/link-target.md")
+        source = self.write("docs/source.md")
+        for operation in ("resolve", "exists"):
+            for number in (errno.EACCES, errno.ENOENT, errno.EIO):
+                with self.subTest(operation=operation, errno=number):
+                    original = getattr(Path, operation)
+
+                    def fail(candidate, *args, **kwargs):
+                        if candidate == target:
+                            raise OSError(number, "synthetic ordinary link failure: too many levels of symbolic links")
+                        return original(candidate, *args, **kwargs)
+
+                    with patch.object(Path, operation, fail):
+                        errors = validation.validate_links(self.root, source, "[target](link-target.md)\n")
+                    self.assertEqual(len(errors), 1, errors)
+                    self.assertTrue(errors[0].startswith("docs/source.md:"), errors)
+                    self.assertIn("link-target.md", errors[0])
+                    self.assertIn("synthetic ordinary link failure", errors[0])
+                    self.assertNotIn("Symlink loop", errors[0])
 
     def test_dependency_directories_are_excluded(self):
         for directory in validation.EXCLUDED_DIRS:

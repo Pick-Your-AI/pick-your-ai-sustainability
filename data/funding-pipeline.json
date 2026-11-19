@@ -181,10 +181,10 @@
       "program_name": "Google for Nonprofits — United States",
       "source_review_status": "Source facts checked",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/31",
-      "research_status": "Ready",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
       "disposition": null,
-      "eligibility": "Not Verified; blocked by recognition and validation evidence",
+      "eligibility": "Unknown actual qualification; recognition or documented group/chapter route, category checks, Goodstack verification and applicable product terms remain separate gates.",
       "application_gate": "Not authorized; source review does not establish applicant eligibility, capacity or permission to apply.",
       "application_outcome": "No submission in this execution; historical state Unknown",
       "award_status": "Unknown; no award evidence established",
@@ -194,7 +194,7 @@
       "deadline_timezone": null,
       "priority": "P2",
       "score": null,
-      "next_action": "Preserve the fiscal-sponsor exclusion and collect actual entity/status evidence before product-specific qualification."
+      "next_action": "Complete independent receiving review of the public comparison; retain all applicant and product-action gates. Before any authorized request, verify the actual US applicant route, representative, product need, rights and applicable terms."
     },
     {
       "opportunity_id": "SOVEREIGN-TECH-FUND",
@@ -241,7 +241,7 @@
       "program_name": "PESOSE (NSF 26-506)",
       "source_review_status": "Source facts checked",
       "owning_research_issue": "https://github.com/Pick-Your-AI/pick-your-ai-sustainability/issues/30",
-      "research_status": "Ready",
+      "research_status": "In Progress",
       "opportunity_stage": "Discovered",
       "disposition": null,
       "eligibility": "Unknown",
@@ -254,7 +254,7 @@
       "deadline_timezone": "Submitting organization local time; exact zone Unknown",
       "priority": "P2",
       "score": null,
-      "next_action": "Identify an evidenced eligible applicant and PI, then assess one defensible ecosystem track without assuming a partnership."
+      "next_action": "Complete independent receiving review of the public PESOSE assessment; actual applicant, PI, control, proposal and award-term evidence is required only before a separately authorized application, not to accept bounded research with those facts Unknown."
     },
     {
       "opportunity_id": "SPENCER-SMALL-EDUCATION",

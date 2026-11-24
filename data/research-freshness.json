@@ -2,7 +2,7 @@
   "schema_version": "sustainability-freshness/v1",
   "status": "Draft source and endpoint tracking register; dates reflect actual evidence, not inferred form review",
   "prepared_on": "2026-10-19",
-  "source_count": 386,
+  "source_count": 410,
   "records_count": 50,
   "sources": [
     {
@@ -3034,7 +3034,8 @@
       "last_verified": "2026-10-19",
       "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
       "opportunity_ids": [
-        "GOOGLE-GEMINI-ACADEMIC"
+        "GOOGLE-GEMINI-ACADEMIC",
+        "GOOGLE-NONPROFITS-US"
       ],
       "next_verification_date": null,
       "triggers": [
@@ -3042,9 +3043,29 @@
         "Before any application, agreement, activation or public qualification claim",
         "Upon changed provider terms, account/applicant scope, intake or contradictory evidence"
       ],
-      "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+      "state": "Mixed program scopes: the prior Gemini findings acceptance does not accept Google nonprofit receiving; see program_scope_observations.",
       "source_roles": [
         "governing_source_evidence"
+      ],
+      "program_scope_observations": [
+        {
+          "opportunity_ids": [
+            "GOOGLE-GEMINI-ACADEMIC"
+          ],
+          "last_verified": "2026-10-19",
+          "verification_scope": "Effective 2026-10-16; general policy does not establish program-specific retention",
+          "state": "Source inspected; canonical program/intake findings independently accepted in PR93 review5571407286; actual applicant, account and award remain Unknown",
+          "source_revision": "f19d1a7141cafffd5b6d1b5c2ce4f8a922619fa1"
+        },
+        {
+          "opportunity_ids": [
+            "GOOGLE-NONPROFITS-US"
+          ],
+          "last_verified": "2026-10-19",
+          "verification_scope": "Historical public Google nonprofit privacy/administrator observation from the pinned standalone assessment; not a new provider read or applicant qualification.",
+          "state": "Receiving findings acceptance pending; the earlier Gemini acceptance does not accept this program scope.",
+          "source_revision": "0751e20855c1bfe3f8716d9aed52fcb57d7ea7a2"
+        }
       ]
     },
     {
@@ -9340,6 +9361,462 @@
       "source_roles": [
         "governing_source_evidence"
       ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/1699858?hl=en&ref_topic=16049175",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Specific US group/chapter documentation and qualified FSO exclusion; not an actual affiliation.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.google.com/nonprofits/",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Product portfolio, public request/verification sequence and its timing estimate; no complete form.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/9004493?hl=en",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Displayed 2021-02-17 modification, entity representation, administration/profile and separate products.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/12016036",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Public organization/association process and timing estimate; no verification performed.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://help.goodstack.org/what-documents-does-goodstack-require-to-confirm-my-nonprofit-association",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Public document examples, age/format and sensitive evidence implications; not a complete Google form or inspected DPA.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://policies.google.com/terms",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: US version displayed on subsequent read, effective 2026-07-30; earlier Netherlands response retained as a locale observation.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/10162421?hl=en&ref_topic=9334112",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Participation-publicity and logo restrictions; no endorsement or participation granted.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://support.google.com/nonprofits/answer/9016350?hl=en&ref_topic=9334112",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Continued eligibility, product-policy and re-verification limits.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.google.com/nonprofits/find-solutions/ad-grants/",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Advertising benefit and separate activation; no campaign, usable value or complete product-policy acceptance.",
+      "opportunity_ids": [
+        "GOOGLE-NONPROFITS-US"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems/505982/nsf24-606/solicitation",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Archived 24-606 history; independent in-session source review, root checked archive/redirect identity",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/updates/120938",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: August 12, 2026 current experiential-training update; public HTML",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Current PAPPG version and supplemental-policy index; proposed future guidance is not treated as adopted",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: I.E eligibility and exceptional federal routes; I.F/G deadlines, duplicate submissions, UEI/SAM/Research.gov and institutional submission",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Independent in-session bounded review of proposal components, budgets and mentoring; read together with both current supplements",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/document/pappg24-1-supplement-1",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: NSF 26-200, effective December 8, 2025; all sixteen substantive revisions read",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/document/pappg24-1-supplement-2",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: NSF 26-202, January 22, 2026; current DMSP transition and publication/data requirements",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/pappg/24-1/ch-7-award-administration",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Bounded VII.B transfer/subaward and VII.D reporting review; no actual award conditions or dates inferred",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/awards/terms-conditions",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Current grant-terms index and listed July 31, 2026 GC-1 link",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://nsf-gov-resources.nsf.gov/files/gc1_7_31_2026.pdf",
+      "last_verified": null,
+      "last_attempted": "2026-10-19T18:12:36Z",
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Current GC-1 contents remain Not Verified",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/policies/brand",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Public NSF brand and acknowledgment guidance; linked full manuals not read",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/notices/important/important-notice-no-149-updates-nsf-research-security/in149",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Independent in-session full six-section/ten-footnote primary read; training/certification and documentary scope only",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/updates/120812",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: July 9, 2026 public program resource index and its three named slide links; not video or PDF content",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.nsf.gov/research-security/person-or-entity-concern-prohibition",
+      "last_verified": "2026-10-19",
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Independent in-session primary policy read; person/entity restrictions only, not actual applicant screening",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Historical source observation; current applicability and applicant qualification require separate review",
+      "source_roles": [
+        "governing_source_evidence"
+      ]
+    },
+    {
+      "url": "https://www.grants.gov",
+      "last_verified": null,
+      "last_attempted": null,
+      "verification_scope": "Historical public-source observation from the pinned standalone assessment: Alternative route identified by NSF; actual application workspace not inspected",
+      "opportunity_ids": [
+        "NSF-PESOSE-26-506"
+      ],
+      "next_verification_date": null,
+      "triggers": [
+        "Monthly research review",
+        "Before any application, agreement, activation or current qualification claim",
+        "Changed terms, intake, redirects or contradictory evidence"
+      ],
+      "state": "Not Verified; successful check remains null",
+      "source_roles": [
+        "unverified_research_endpoint"
+      ]
     }
   ],
   "rules": [
@@ -9348,8 +9825,8 @@
     "Current known deadlines never establish a next internal due date.",
     "Monthly review describes the operating procedure; no schedule has been installed."
   ],
-  "source_evidence_url_count": 352,
-  "additional_unverified_endpoint_count": 34,
+  "source_evidence_url_count": 377,
+  "additional_unverified_endpoint_count": 33,
   "check_policy": {
     "interval_hours": 6,
     "authorized_on": "2026-10-22",
